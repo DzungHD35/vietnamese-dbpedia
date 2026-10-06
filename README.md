@@ -5,7 +5,7 @@ trích từ Wikipedia tiếng Việt (abstract, infobox, thể loại, redirect�
 căn theo DBpedia Ontology, suy luận OWL 2 RL để có thêm các triple `dbo:` như DBpedia thật, liên kết `owl:sameAs`
 sang DBpedia tiếng Anh (5★), và có giao diện truy vấn SPARQL kèm hỏi đáp bằng ngôn ngữ tự nhiên (KG-RAG).
 
-Đồ án môn Semantic Web. Đề bài: *Build a DBpedia version for Vietnamese language.*
+Đề bài: *Build a DBpedia version for Vietnamese language.*
 
 | Yêu cầu | Thực hiện |
 |---|---|
