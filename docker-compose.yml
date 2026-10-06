@@ -1,0 +1,29 @@
+services:
+  vietnamese-dbpedia:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  # Triple store tùy chọn: nạp data/vietnamese_dbpedia.ttl vào để có SPARQL endpoint chuẩn HTTP ở cổng 8890
+  virtuoso:
+    image: tenforce/virtuoso:1.3.2-virtuoso7.2.2
+    environment:
+      - SPARQL_UPDATE=true
+      - DEFAULT_GRAPH=http://vi.dbpedia.org
+    volumes:
+      - virtuoso-data:/data
+    ports:
+      - "8890:8890"
+      - "1111:1111"
+    restart: unless-stopped
+
+volumes:
+  virtuoso-data:

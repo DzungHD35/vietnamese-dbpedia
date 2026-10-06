@@ -1,0 +1,80 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+# ===== Trích DBpedia Ontology: các lớp và thuộc tính dbo: mà vio: ánh xạ tới =====
+# Đối chiếu trên https://dbpedia.org/sparql ngày 07/10/2026.
+# Chỉ lấy cây lớp và loại thuộc tính (Object/Datatype); KHÔNG lấy domain/range của dbo:
+# để suy luận trên dữ liệu vio: không kéo theo các ràng buộc ngoài phạm vi dự án.
+
+# --- Cây lớp ---
+dbo:Person a owl:Class ; rdfs:subClassOf dbo:Animal .
+dbo:Athlete a owl:Class ; rdfs:subClassOf dbo:Person .
+dbo:SoccerPlayer a owl:Class ; rdfs:subClassOf dbo:Athlete .
+
+dbo:Organisation a owl:Class ; rdfs:subClassOf dbo:Agent .
+dbo:SportsClub a owl:Class ; rdfs:subClassOf dbo:Organisation .
+dbo:SoccerClub a owl:Class ; rdfs:subClassOf dbo:SportsClub .
+dbo:NationalSoccerClub a owl:Class ; rdfs:subClassOf dbo:SoccerClub .
+dbo:EducationalInstitution a owl:Class ; rdfs:subClassOf dbo:Organisation .
+dbo:University a owl:Class ; rdfs:subClassOf dbo:EducationalInstitution .
+
+dbo:PopulatedPlace a owl:Class ; rdfs:subClassOf dbo:Place .
+dbo:Country a owl:Class ; rdfs:subClassOf dbo:PopulatedPlace .
+dbo:Region a owl:Class ; rdfs:subClassOf dbo:PopulatedPlace .
+dbo:AdministrativeRegion a owl:Class ; rdfs:subClassOf dbo:Region .
+dbo:GovernmentalAdministrativeRegion a owl:Class ; rdfs:subClassOf dbo:AdministrativeRegion .
+dbo:Province a owl:Class ; rdfs:subClassOf dbo:GovernmentalAdministrativeRegion .
+
+dbo:Building a owl:Class ; rdfs:subClassOf dbo:ArchitecturalStructure .
+dbo:Venue a owl:Class ; rdfs:subClassOf dbo:Building .
+dbo:Stadium a owl:Class ; rdfs:subClassOf dbo:Venue .
+
+dbo:CareerStation a owl:Class ; rdfs:subClassOf dbo:TimePeriod .
+
+# --- Loại thuộc tính ---
+dbo:birthPlace a owl:ObjectProperty .
+dbo:position a owl:ObjectProperty .
+dbo:team a owl:ObjectProperty .
+dbo:careerStation a owl:ObjectProperty .
+dbo:ground a owl:ObjectProperty .
+dbo:league a owl:ObjectProperty .
+dbo:manager a owl:ObjectProperty .
+dbo:chairman a owl:ObjectProperty .
+dbo:location a owl:ObjectProperty .
+dbo:rector a owl:ObjectProperty .
+dbo:affiliation a owl:ObjectProperty .
+dbo:capital a owl:ObjectProperty .
+dbo:country a owl:ObjectProperty .
+dbo:region a owl:ObjectProperty .
+dbo:owner a owl:ObjectProperty .
+dbo:operator a owl:ObjectProperty .
+dbo:tenant a owl:ObjectProperty .
+dbo:successor a owl:ObjectProperty .
+dbo:predecessor a owl:ObjectProperty .
+dbo:isPartOf a owl:ObjectProperty .
+dbo:thumbnail a owl:ObjectProperty .
+dbo:wikiPageRedirects a owl:ObjectProperty .
+dbo:wikiPageExternalLink a owl:ObjectProperty .
+
+dbo:birthDate a owl:DatatypeProperty .
+dbo:birthYear a owl:DatatypeProperty .
+dbo:deathDate a owl:DatatypeProperty .
+dbo:height a owl:DatatypeProperty .
+dbo:number a owl:DatatypeProperty .
+dbo:numberOfMatches a owl:DatatypeProperty .
+dbo:numberOfGoals a owl:DatatypeProperty .
+dbo:foundingDate a owl:DatatypeProperty .
+dbo:foundingYear a owl:DatatypeProperty .
+dbo:abbreviation a owl:DatatypeProperty .
+dbo:motto a owl:DatatypeProperty .
+dbo:numberOfStudents a owl:DatatypeProperty .
+dbo:facultySize a owl:DatatypeProperty .
+dbo:populationTotal a owl:DatatypeProperty .
+dbo:dissolutionYear a owl:DatatypeProperty .
+dbo:seatingCapacity a owl:DatatypeProperty .
+dbo:openingYear a owl:DatatypeProperty .
+dbo:abstract a owl:DatatypeProperty .
+dbo:wikiPageID a owl:DatatypeProperty .
+dbo:wikiPageRevisionID a owl:DatatypeProperty .
+dbo:wikiPageLength a owl:DatatypeProperty .

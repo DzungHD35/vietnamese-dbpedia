@@ -1,0 +1,79 @@
+@prefix vio:  <http://vi.dbpedia.org/ontology/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ===== Cầu thủ bóng đá =====
+vio:position a owl:ObjectProperty ;
+  rdfs:label "vị trí"@vi , "position"@en ;
+  rdfs:domain vio:FootballPlayer ;
+  rdfs:subPropertyOf dbo:position .
+
+vio:height a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "chiều cao (m)"@vi , "height (m)"@en ;
+  rdfs:domain vio:Person ; rdfs:range xsd:double ;
+  rdfs:subPropertyOf dbo:height .
+
+vio:shirtNumber a owl:DatatypeProperty ;
+  rdfs:label "số áo"@vi , "shirt number"@en ;
+  rdfs:domain vio:FootballPlayer ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:number .
+
+vio:currentClub a owl:ObjectProperty ;
+  rdfs:label "câu lạc bộ hiện tại"@vi , "current club"@en ;
+  rdfs:domain vio:FootballPlayer ; rdfs:range vio:FootballClub ;
+  rdfs:subPropertyOf dbo:team .
+
+# ===== Quá trình thi đấu: cầu thủ → CareerStation → đội =====
+vio:careerStation a owl:ObjectProperty ;
+  rdfs:label "giai đoạn thi đấu"@vi , "career station"@en ;
+  rdfs:domain vio:FootballPlayer ; rdfs:range vio:CareerStation ;
+  rdfs:subPropertyOf dbo:careerStation .
+
+vio:team a owl:ObjectProperty ;
+  rdfs:label "đội"@vi , "team"@en ;
+  rdfs:comment "Đội của một giai đoạn thi đấu. Không đặt range chung; ràng buộc theo từng loại giai đoạn bên dưới."@vi ;
+  rdfs:domain vio:CareerStation ;
+  rdfs:subPropertyOf dbo:team .
+
+vio:startYear a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "năm bắt đầu"@vi , "start year"@en ;
+  rdfs:domain vio:CareerStation ; rdfs:range xsd:gYear .
+
+vio:endYear a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "năm kết thúc"@vi , "end year"@en ;
+  rdfs:domain vio:CareerStation ; rdfs:range xsd:gYear .
+
+vio:appearances a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "số trận"@vi , "appearances"@en ;
+  rdfs:domain vio:CareerStation ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:numberOfMatches .
+
+vio:goals a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "số bàn thắng"@vi , "goals"@en ;
+  rdfs:domain vio:CareerStation ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:numberOfGoals .
+
+vio:onLoan a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "cho mượn"@vi , "on loan"@en ;
+  rdfs:domain vio:CareerStation ; rdfs:range xsd:boolean .
+
+# Tắt đường đi "cầu thủ → giai đoạn → đội" thành một cạnh (slide 06: property chain)
+vio:playedFor a owl:ObjectProperty ;
+  rdfs:label "từng thi đấu cho"@vi , "played for"@en ;
+  owl:propertyChainAxiom ( vio:careerStation vio:team ) .
+
+vio:hasPlayer a owl:ObjectProperty ;
+  rdfs:label "có cầu thủ"@vi , "has player"@en ;
+  owl:inverseOf vio:playedFor .
+
+# Ràng buộc cục bộ (slide 05: restriction thay cho range toàn cục)
+vio:ClubStation rdfs:subClassOf [ a owl:Restriction ; owl:onProperty vio:team ; owl:allValuesFrom vio:FootballClub ] .
+vio:YouthStation rdfs:subClassOf [ a owl:Restriction ; owl:onProperty vio:team ; owl:allValuesFrom vio:FootballClub ] .
+vio:NationalTeamStation rdfs:subClassOf [ a owl:Restriction ; owl:onProperty vio:team ; owl:allValuesFrom vio:NationalFootballTeam ] .
+
+# Ai có giai đoạn ở đội tuyển quốc gia là NationalTeamPlayer
+[ a owl:Restriction ; owl:onProperty vio:careerStation ; owl:someValuesFrom vio:NationalTeamStation ]
+  rdfs:subClassOf vio:NationalTeamPlayer .

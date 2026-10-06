@@ -1,0 +1,28 @@
+@prefix vio:  <http://vi.dbpedia.org/ontology/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ===== Tổ chức (một thuộc tính cho mỗi ý; trước đây bị tách foundingYearOrg/Club, homepageOrg/Edu) =====
+vio:foundingDate a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "ngày thành lập"@vi , "founding date"@en ;
+  rdfs:domain vio:Organisation ; rdfs:range xsd:date ;
+  rdfs:subPropertyOf dbo:foundingDate .
+
+vio:foundingYear a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "năm thành lập"@vi , "founding year"@en ;
+  rdfs:comment "Dùng khi chỉ biết năm thành lập."@vi ;
+  rdfs:domain vio:Organisation ; rdfs:range xsd:gYear ;
+  rdfs:subPropertyOf dbo:foundingYear .
+
+vio:abbreviation a owl:DatatypeProperty ;
+  rdfs:label "tên viết tắt"@vi , "abbreviation"@en ;
+  rdfs:domain vio:Organisation ; rdfs:range xsd:string ;
+  rdfs:subPropertyOf dbo:abbreviation .
+
+vio:affiliation a owl:ObjectProperty ;
+  rdfs:label "trực thuộc / thành viên của"@vi , "affiliation"@en ;
+  rdfs:domain vio:Organisation ;
+  rdfs:subPropertyOf dbo:affiliation .

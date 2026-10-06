@@ -1,0 +1,208 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcat: <http://vi.dbpedia.org/resource/Thể_loại:> .
+@prefix vio: <http://vi.dbpedia.org/ontology/> .
+@prefix vip: <http://vi.dbpedia.org/property/> .
+@prefix vres: <http://vi.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Việt_Nam .
+
+vres:Việt_Nam a vio:Country ;
+    rdfs:label "Vietnam"@en,
+        "Việt Nam"@vi ;
+    dbo:abstract """Việt Nam, quốc hiệu đầy đủ là Cộng hòa xã hội chủ nghĩa Việt Nam, là một quốc gia nằm ở cực Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á, giáp với Lào, Campuchia, Trung Quốc, biển Đông và vịnh Thái Lan.
+Lãnh thổ Việt Nam xuất hiện con người sinh sống từ thời đại đồ đá cũ, khởi đầu với các nhà nước Văn Lang, Âu Lạc. Âu Lạc bị nhà Triệu ở phương Bắc thôn tính vào đầu thế kỷ thứ 2 TCN sau đó là thời kỳ Bắc thuộc kéo dài hơn một thiên niên kỷ. Chế độ quân chủ độc lập được tái lập sau chiến thắng của Ngô Quyền trước nhà Nam Hán, mở đường cho các triều đại độc lập kế tục, nhiều lần chiến thắng trước các cuộc chiến tranh xâm lược từ phương Bắc đồng thời dần mở rộng về phía nam. Thời kỳ Bắc thuộc cuối cùng kết thúc sau chiến thắng trước nhà Minh của nghĩa quân Lam Sơn.
+Đến thời cận đại, Việt Nam lần lượt trải qua các giai đoạn Pháp thuộc và Nhật thuộc. Sau khi đánh bại và buộc Nhật Bản đầu hàng, khối Đồng Minh tạo điều kiện cho Pháp thu hồi Liên bang Đông Dương. Kết thúc Thế chiến II, Việt Nam chịu sự can thiệp của các nước Đồng Minh bao gồm Anh, Pháp (miền Nam), Trung Hoa Dân Quốc (miền Bắc). Nhà nước Việt Nam Dân chủ Cộng hòa do Việt Minh lãnh đạo ra đời khi Hồ Chí Minh tuyên bố độc lập vào ngày 2 tháng 9 năm 1945 sau thành công của Cách mạng Tháng Tám và chiến thắng Liên hiệp Pháp cùng Quốc gia Việt Nam do Pháp hậu thuẫn trong chiến tranh Đông Dương lần thứ nhất. Sự kiện này dẫn tới Hiệp định Genève (1954) được ký kết và Việt Nam bị chia cắt thành hai vùng tập kết quân sự, lấy ranh giới là vĩ tuyến 17. Việt Nam Dân chủ Cộng hòa kiểm soát phần phía bắc còn phía nam do Việt Nam Cộng hòa (nhà nước kế tục Quốc gia Việt Nam) kiểm soát và được Hoa Kỳ hậu thuẫn. Xung đột về thống nhất lãnh thổ đã dẫn tới chiến tranh Việt Nam với sự can thiệp của nhiều nước và kết thúc với chiến thắng của Việt Nam Dân chủ Cộng hòa, Mặt trận Dân tộc Giải phóng miền Nam Việt Nam cùng sự sụp đổ của Việt Nam Cộng hòa vào năm 1975. Chủ quyền phần phía Nam được chính quyền Cộng hòa miền Nam Việt Nam (do Mặt trận Dân tộc Giải phóng miền Nam Việt Nam thành lập) giành quyền kiểm soát. Năm 1976, Việt Nam Dân chủ Cộng hòa và Cộng hòa miền Nam Việt Nam thống nhất thành Cộng hòa xã hội chủ nghĩa Việt Nam.
+Sau khi tái thống nhất, Việt Nam tiếp tục gặp khó khăn do sự sụp đổ và tan rã của đồng minh Liên Xô cùng Khối phía Đông, các lệnh cấm vận của Hoa Kỳ, chiến tranh Đông Dương lần ba và hậu quả của chính sách bao cấp sau nhiều năm áp dụng. Năm 1986, Đảng Cộng sản Việt Nam ban hành cải cách đổi mới, xây dựng kinh tế thị trường và hội nhập sâu rộng. Cải cách kinh tế cùng quy mô dân số lớn đưa Việt Nam trở thành một trong những nước đang phát triển có tốc độ tăng trưởng thuộc nhóm nhanh nhất thế giới, được coi là Hổ mới châu Á dù cho vẫn gặp phải những thách thức như tham nhũng và phúc lợi xã hội chưa đầy đủ. Ngoài ra, giới bất đồng chính kiến và các tổ chức theo dõi nhân quyền có quan điểm chỉ trích hồ sơ nhân quyền của Việt Nam liên quan đến các vấn đề tôn giáo, kiểm duyệt truyền thông và tự do dân sự."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <http://chinhphu.vn/>,
+        <http://ucblibraries.colorado.edu/govpubs/for/afghanistan.htm>,
+        <http://www.bbc.co.uk/news/world-asia-pacific-16567315>,
+        <http://www.gso.gov.vn/Default.aspx?tabid=217>,
+        <https://danso.org/viet-nam/>,
+        <https://vietnam.gov.vn/>,
+        <https://web.archive.org/web/20120111081617/http://ucblibraries.colorado.edu/govpubs/for/afghanistan.htm>,
+        <https://web.archive.org/web/20201017011307/https://www.cia.gov/library/publications/world-leaders-1/VM.html>,
+        <https://web.archive.org/web/20240822135942/https://danso.org/viet-nam/>,
+        <https://www.cia.gov/library/publications/world-leaders-1/VM.html> ;
+    dbo:wikiPageID 151863 ;
+    dbo:wikiPageLength "350280"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75589624 ;
+    dct:subject vcat:Cộng_hòa,
+        vcat:Khởi_đầu_năm_1976_ở_Việt_Nam,
+        vcat:Nhà_nước_đơn_đảng,
+        vcat:Quốc_gia_châu_Á,
+        vcat:Quốc_gia_cộng_sản,
+        vcat:Quốc_gia_thành_viên_ASEAN,
+        vcat:Quốc_gia_thành_viên_của_Liên_Hợp_Quốc,
+        vcat:Quốc_gia_và_vùng_lãnh_thổ_nói_tiếng_Việt,
+        vcat:Quốc_gia_Đông_Nam_Á,
+        vcat:Việt_Nam ;
+    vio:area 3.3169e+05 ;
+    vio:capital vres:Hà_Nội ;
+    vio:latitude "16.0"^^xsd:float ;
+    vio:longitude "108.0"^^xsd:float ;
+    vio:population "96208984"^^xsd:nonNegativeInteger ;
+    vio:populationYear "2019"^^xsd:gYear ;
+    vip:areaData2 vres:Dặm_vuông_Anh,
+        vres:Kilômét_vuông ;
+    vip:areaFootnote vres:Bộ_Tài_nguyên_và_Môi_trường_\(Việt_Nam\),
+        vres:Cơ_quan_Tình_báo_Trung_ương_\(Hoa_Kỳ\) ;
+    vip:areaKm2 331212 ;
+    vip:areaLabel2 "Đất liền"@vi ;
+    vip:areaRank vres:Danh_sách_quốc_gia_theo_diện_tích ;
+    vip:areaSqMi 128565 ;
+    vip:callingCode vres:Mã_điện_thoại_Việt_Nam ;
+    vip:capital vres:Hà_Nội,
+        <http://vi.dbpedia.org/resource/Tập_tin:Logo_Hanoi.png> ;
+    vip:cctld <http://vi.dbpedia.org/resource/.vn> ;
+    vip:commonName "Việt Nam"@vi ;
+    vip:conventionalLongName "Cộng hòa xã hội chủ nghĩa; Việt Nam"@vi ;
+    vip:currency vres:Đồng_\(đơn_vị_tiền_tệ\) ;
+    vip:currencyCode "VND"@vi ;
+    vip:dateFormat "dd.mm.yyyy"@vi ;
+    vip:demonym "Người Việt Nam"@vi ;
+    vip:drivesOn "phải"@vi ;
+    vip:electricity vres:Nguồn_điện_thương_dụng ;
+    vip:establishedDate1 "257 TCN"@vi ;
+    vip:establishedDate10 "18 tháng 12 năm 1986"@vi ;
+    vip:establishedDate11 "28 tháng 11 năm 2013"@vi ;
+    vip:establishedDate2 939 ;
+    vip:establishedDate3 1802 ;
+    vip:establishedDate4 "25 tháng 8 năm 1883"@vi ;
+    vip:establishedDate5 "2 tháng 9 năm 1945"@vi ;
+    vip:establishedDate6 "21 tháng 7 năm 1954"@vi ;
+    vip:establishedDate7 "27 tháng 1 năm 1973"@vi ;
+    vip:establishedDate8 "30 tháng 4 năm 1975"@vi ;
+    vip:establishedDate9 "2 tháng 7 năm 1976"@vi ;
+    vip:establishedEvent1 vres:Âu_Lạc ;
+    vip:establishedEvent10 vres:Đổi_Mới ;
+    vip:establishedEvent11 vres:Hiến_pháp_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam_năm_2013 ;
+    vip:establishedEvent2 vres:Nhà_Ngô ;
+    vip:establishedEvent3 vres:Nhà_Nguyễn ;
+    vip:establishedEvent4 <http://vi.dbpedia.org/resource/Hòa_ước_Quý_Mùi,_1883> ;
+    vip:establishedEvent5 vres:Tuyên_ngôn_độc_lập_\(Việt_Nam_Dân_chủ_Cộng_hòa\) ;
+    vip:establishedEvent6 vres:Hiệp_định_Genève_1954 ;
+    vip:establishedEvent7 vres:Hiệp_định_Paris_1973 ;
+    vip:establishedEvent8 vres:Sự_kiện_30_tháng_4_năm_1975 ;
+    vip:establishedEvent9 vres:Quốc_hội_Việt_Nam_khóa_VI ;
+    vip:ethnicGroups vres:Các_dân_tộc_tại_Việt_Nam,
+        <http://vi.dbpedia.org/resource/H'Mông>,
+        vres:Người_Khmer,
+        vres:Người_Mường,
+        vres:Người_Tày,
+        vres:Người_Việt ;
+    vip:ethnicGroupsYear 2019 ;
+    vip:gDPNominal "527,266 tỷ đô la Mỹ"@vi ;
+    vip:gDPNominalPerCapita "5.115 đô la Mỹ"@vi ;
+    vip:gDPNominalPerCapitaRank 121 ;
+    vip:gDPNominalRank 33 ;
+    vip:gDPNominalYear 2025 ;
+    vip:gDPPPP vres:Quỹ_Tiền_tệ_Quốc_tế ;
+    vip:gDPPPPPerCapita "19.649 đô la Mỹ"@vi ;
+    vip:gDPPPPPerCapitaRank 102 ;
+    vip:gDPPPPRank 24 ;
+    vip:gDPPPPYear 2026 ;
+    vip:gini 35 ;
+    vip:giniYear 2025 ;
+    vip:governmentType vres:Nhà_nước_cộng_sản,
+        vres:Nhà_nước_đơn_nhất ;
+    vip:hDI "0,726"@vi ;
+    vip:hDIChange "increase"@vi ;
+    vip:hDIRank 93 ;
+    vip:hDIRef vres:Chương_trình_Phát_triển_của_Liên_Hợp_Quốc ;
+    vip:hDIYear 2023 ;
+    vip:imageCoat "Emblem of Vietnam.svg"@vi ;
+    vip:imageFlag "Flag of Vietnam.svg"@vi ;
+    vip:iso3166code "VN"@vi ;
+    vip:languages vres:Tiếng_Hmông,
+        vres:Tiếng_Khmer,
+        vres:Tiếng_Mường,
+        vres:Tiếng_Thái,
+        vres:Tiếng_Tày,
+        vres:Việt_Nam ;
+    vip:languagesType "Ngôn ngữ thiểu số"@vi ;
+    vip:largestCity vres:Thành_phố_Hồ_Chí_Minh ;
+    vip:leaderName1 vres:Tô_Lâm ;
+    vip:leaderName2 vres:Lê_Minh_Hưng ;
+    vip:leaderName4 vres:Trần_Thanh_Mẫn ;
+    vip:leaderName5 vres:Trần_Cẩm_Tú ;
+    vip:leaderTitle1 vres:Chủ_tịch_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam,
+        vres:Tổng_Bí_thư_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam ;
+    vip:leaderTitle2 vres:Thủ_tướng_Chính_phủ_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam ;
+    vip:leaderTitle4 vres:Chủ_tịch_Quốc_hội_Việt_Nam ;
+    vip:leaderTitle5 vres:Thường_trực_Ban_Bí_thư_Trung_ương_Đảng_Cộng_sản_Việt_Nam ;
+    vip:legislature vres:Quốc_hội_Việt_Nam ;
+    vip:linkingName "Việt Nam"@vi ;
+    vip:nationalAnthem vres:Tiến_quân_ca ;
+    vip:nationalMotto "\"Độc lập – Tự do – Hạnh phúc\""@vi ;
+    vip:officialLanguages vres:Tiếng_Việt ;
+    vip:percentWater "6,4"@vi ;
+    vip:populationDensityKm2 309 ;
+    vip:populationDensitySqMi "800,3"@vi ;
+    vip:populationEstimate vres:Cục_Thống_kê_\(Việt_Nam\) ;
+    vip:populationEstimateRank 16 ;
+    vip:populationEstimateYear 2025 ;
+    vip:religion vres:Bộ_Ngoại_giao_\(Hoa_Kỳ\),
+        vres:Không_tôn_giáo,
+        vres:Kitô_giáo_tại_Việt_Nam,
+        vres:Phật_giáo_Hòa_Hảo,
+        vres:Phật_giáo_Việt_Nam,
+        vres:Tín_ngưỡng_dân_gian_Việt_Nam,
+        vres:Tôn_giáo_tại_Việt_Nam,
+        vres:Đạo_Cao_Đài ;
+    vip:religionYear 2019 ;
+    vip:sovereigntyType vres:Lịch_sử_Việt_Nam ;
+    vip:timeZone <http://vi.dbpedia.org/resource/UTC+07:00> ;
+    vip:utcOffset "+07:00"@vi ;
+    georss:point "16.0 108.0" ;
+    rdfs:comment "Việt Nam, quốc hiệu đầy đủ là Cộng hòa xã hội chủ nghĩa Việt Nam, là một quốc gia nằm ở cực Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á, giáp với Lào, Campuchia, Trung Quốc, biển Đông và vịnh Thái Lan."@vi ;
+    owl:sameAs dbr:Vietnam,
+        wd:Q881 ;
+    skos:altLabel "CHXHCHVN"@vi,
+        "CHXHCN Việt Nam"@vi,
+        "CHXHCNVN"@vi,
+        "CHXNCN Việt Nam"@vi,
+        "Chxhcnvn"@vi,
+        "Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam"@vi,
+        "Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam"@vi,
+        "Cộng Hòa Xã Hội Chủ nghĩa Việt Nam"@vi,
+        "Cộng hoà Xã hội Chủ nghĩa Việt Nam"@vi,
+        "Cộng hoà Xã hội chủ nghĩa Việt Nam"@vi,
+        "Cộng hoà Xã hội chủ nghĩa Việt nam"@vi,
+        "Cộng hoà xã hội chủ nghĩa Việt Nam"@vi,
+        "Cộng hòa Xã hội Chủ nghĩa Việt Nam"@vi,
+        "Cộng hòa Xã hội chủ nghĩa Việt Nam"@vi,
+        "Cộng hòa xã hội chủ nghĩa Việt Nam"@vi,
+        "NCHXHCNVN"@vi,
+        "Ngôn ngữ tại Việt Nam"@vi,
+        "Nước Cộng hòa xã hội chủ nghĩa Việt Nam"@vi,
+        "Nước Nam"@vi,
+        "SRV"@vi,
+        "SRVN"@vi,
+        "Socialist Republic of Vietnam"@vi,
+        "V-N"@vi,
+        "Viet Nam"@vi,
+        "Vietnam"@vi,
+        "Việt Nam Xã hội chủ nghĩa Cộng hòa"@vi,
+        "Việt Nam Xã hội chủ nghĩa Cộng hòa Quốc"@vi,
+        "Việt Nam​"@vi,
+        "Việt nam"@vi,
+        "Việt-Nam"@vi,
+        "Việt-nam"@vi,
+        "ViệtNam"@vi,
+        "Việtnam"@vi,
+        "Đất nước Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam?oldid=75589624&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam> .
+

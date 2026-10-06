@@ -1,0 +1,422 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcat: <http://vi.dbpedia.org/resource/Thể_loại:> .
+@prefix vio: <http://vi.dbpedia.org/ontology/> .
+@prefix vip: <http://vi.dbpedia.org/property/> .
+@prefix vres: <http://vi.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vres:Đội_tuyển_bóng_đá_U-21_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national under-21 football team"@en,
+        "Đội tuyển bóng đá U-21 quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá U-21 quốc gia Việt Nam là đội tuyển bóng đá ở các độ tuổi 21 hoặc nhỏ hơn của Việt Nam được thành lập vào năm 1999 do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <http://vff.org.vn/doi-tuyen-U19U21-quoc-gia-433?> ;
+    dbo:wikiPageID 3391550 ;
+    dbo:wikiPageLength "7384"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75411195 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_U-21_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vip:association vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:badge "Flag of Vietnam.svg"@vi ;
+    vip:coach vres:Dương_Hồng_Sơn ;
+    vip:confederation vres:Liên_đoàn_bóng_đá_châu_Á ;
+    vip:fIFATrigramme "VIE"@vi ;
+    vip:homeStadium vres:Cần_Thơ,
+        vres:Gia_Lai,
+        <http://vi.dbpedia.org/resource/Phan_Rang_–_Tháp_Chàm>,
+        vres:Sân_vận_động_Cần_Thơ,
+        vres:Sân_vận_động_Hoà_Xuân,
+        vres:Sân_vận_động_Ninh_Thuận,
+        vres:Sân_vận_động_Pleiku,
+        vres:Sân_vận_động_Thống_Nhất,
+        vres:Thành_phố_Hồ_Chí_Minh,
+        vres:Đà_Nẵng ;
+    vip:name "U-21 Việt Nam"@vi ;
+    vip:subConfederation vres:Liên_đoàn_bóng_đá_ASEAN ;
+    rdfs:comment "Đội tuyển bóng đá U-21 quốc gia Việt Nam là đội tuyển bóng đá ở các độ tuổi 21 hoặc nhỏ hơn của Việt Nam được thành lập vào năm 1999 do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    owl:sameAs dbr:Vietnam_national_under-21_football_team,
+        wd:Q55637111 ;
+    skos:altLabel "Đội tuyển Bóng đá U-21 Quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U21 Báo Thanh niên Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-21_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75411195&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-21_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_U-22_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national under-22 football team"@en,
+        "Đội tuyển bóng đá U-22 quốc gia Việt Nam"@vi ;
+    dbo:abstract """Đội tuyển bóng đá U-22 quốc gia Việt Nam là đội tuyển bóng đá của Việt Nam ở độ tuổi 22 tuổi trở xuống được thành lập vào năm 2016 do Liên đoàn bóng đá Việt Nam quản lí, tham dự SEA Games.
+Kể từ năm 2017, môn bóng đá nam SEA Games quy định độ tuổi tham dự là U-22, ngoại trừ năm 2021 SEA Games 31 tại Việt Nam hoãn sang năm 2022 do Đại dịch COVID-19, nên độ tuổi được nâng lên thành U-23. Kể từ SEA Games 32, môn bóng đá nam quay trở lại với độ tuổi U-22 giống như năm 2017 và 2019."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageID 3432599 ;
+    dbo:wikiPageLength "18836"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75310765 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_U-22_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_U-23_quốc_gia_châu_Á,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vip:association vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:badge "Flag of Vietnam.svg"@vi ;
+    vip:badgeSize "150px"@vi ;
+    vip:captain <http://vi.dbpedia.org/resource/Nguyễn_Văn_Trường_(cầu_thủ_bóng_đá,_sinh_tháng_9_năm_2003)> ;
+    vip:coach vres:Kim_Sang-sik ;
+    vip:fIFATrigramme "VIE"@vi ;
+    vip:firstGame vres:2016,
+        vres:8_tháng_11,
+        vres:Trung_Quốc,
+        vres:Vũ_Hán ;
+    vip:homeStadium vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:largestLoss vres:14_tháng_5,
+        vres:2017,
+        vres:Hà_Nội,
+        vres:Mỹ_Đình ;
+    vip:largestWin vres:12_tháng_11,
+        vres:2019,
+        vres:Biñan,
+        vres:Philippines ;
+    vip:name "U-22 Việt Nam"@vi ;
+    vip:subConfederation vres:Liên_đoàn_bóng_đá_ASEAN ;
+    rdfs:comment "Đội tuyển bóng đá U-22 quốc gia Việt Nam là đội tuyển bóng đá của Việt Nam ở độ tuổi 22 tuổi trở xuống được thành lập vào năm 2016 do Liên đoàn bóng đá Việt Nam quản lí, tham dự SEA Games."@vi ;
+    owl:sameAs dbr:Vietnam_national_under-22_football_team,
+        wd:Q27963768 ;
+    skos:altLabel "U22 Việt Nam"@vi,
+        "Đội tuyển bóng đá U‑22 quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-22_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75310765&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:homepage <http://www.vff.org.vn> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-22_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_U-23_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national under-23 football team"@en,
+        "Đội tuyển bóng đá U-23 quốc gia Việt Nam"@vi ;
+    dbo:abstract """Đội tuyển bóng đá U-23 quốc gia Việt Nam đại diện cho Việt Nam tại các giải đấu bóng đá quốc tế dành cho lứa tuổi 23 và nhỏ hơn, do Liên đoàn bóng đá Việt Nam (VFF) quản lý từ năm 1999. Mặc dù là một đội tuyển thuộc cấp độ trẻ, tuy nhiên vì môn bóng đá nam tại Đại hội Thể thao Đông Nam Á từ năm 2001 quy định độ tuổi tham dự là dưới 23 tuổi nên đội U-23 thường được chú trọng và dành nhiều sự quan tâm lớn tại Việt Nam, bên cạnh đội tuyển quốc gia.
+Một số giải đấu như Á vận hội và Thế vận hội cho phép giới hạn tối đa ba cầu thủ ngoài 23 tuổi, nếu có thêm ba cầu thủ ngoài 23 tuổi thì được gọi là Đội tuyển Olympic Việt Nam. Quy định độ tuổi U-22 tại SEA Games bắt đầu được áp dụng từ năm 2017, và được bổ sung thêm tối đa hai cầu thủ quá tuổi tại giải đấu năm 2019. Tại SEA Games 2021, quy định lại được thay đổi khi mỗi đội được thêm ba cầu thủ quá tuổi, ngoài ra độ tuổi tham dự được nâng lên thành U-23 do giải đấu được hoãn lại sang năm 2022."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <https://vff.org.vn/doi-tuyen-U23-&-olympic-427> ;
+    dbo:wikiPageID 822084 ;
+    dbo:wikiPageLength "113544"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75599897 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_U-23_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vip:_2ndRegionalCupApps 13 ;
+    vip:_2ndRegionalCupBest <http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2019_–_Nam>,
+        <http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2021_–_Nam>,
+        <http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2025_–_Nam> ;
+    vip:_2ndRegionalCupFirst <http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2001_–_Nam> ;
+    vip:_2ndRegionalName vres:Đại_hội_Thể_thao_Đông_Nam_Á ;
+    vip:_3rdRegionalCupApps 6 ;
+    vip:_3rdRegionalCupBest vres:Giải_vô_địch_bóng_đá_U-23_châu_Á_2018 ;
+    vip:_3rdRegionalCupFirst vres:Giải_vô_địch_bóng_đá_U-23_châu_Á_2016 ;
+    vip:_3rdRegionalName vres:Cúp_bóng_đá_U-23_châu_Á ;
+    vip:_4thRegionalCupApps 7 ;
+    vip:_4thRegionalCupBest vres:Bóng_đá_tại_Đại_hội_Thể_thao_châu_Á_2018_-_Nam ;
+    vip:_4thRegionalCupFirst vres:Bóng_đá_tại_Đại_hội_Thể_thao_châu_Á_2002 ;
+    vip:_4thRegionalName vres:Đại_hội_Thể_thao_châu_Á ;
+    vip:association vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:badge "Flag of Vietnam.svg"@vi ;
+    vip:badgeSize "150px"@vi ;
+    vip:captain vres:Phạm_Lý_Đức ;
+    vip:coach vres:Kim_Sang-sik ;
+    vip:confederation vres:Liên_đoàn_bóng_đá_châu_Á ;
+    vip:fIFATrigramme "VIE"@vi ;
+    vip:firstGame vres:Kuala_Lumpur,
+        vres:Malaysia ;
+    vip:homeStadium "Khác nhau"@vi ;
+    vip:largestLoss vres:Hà_Nội,
+        vres:Nakhon_Ratchasima_\(tỉnh\),
+        vres:Thái_Lan,
+        vres:Việt_Nam ;
+    vip:largestWin vres:Myanmar,
+        vres:Yangon ;
+    vip:name "<center>U-23 Việt Nam<center>"@vi ;
+    vip:nickname "Những chiến binh sao vàng"@vi ;
+    vip:regionalCupApps 4 ;
+    vip:regionalCupBest vres:Giải_vô_địch_bóng_đá_U-23_ASEAN_2025,
+        vres:Giải_vô_địch_bóng_đá_U-23_Đông_Nam_Á_2022,
+        vres:Giải_vô_địch_bóng_đá_U-23_Đông_Nam_Á_2023 ;
+    vip:regionalCupFirst vres:Giải_vô_địch_bóng_đá_U-22_Đông_Nam_Á_2019 ;
+    vip:regionalName vres:Giải_vô_địch_bóng_đá_U-23_ASEAN ;
+    vip:subConfederation vres:Liên_đoàn_bóng_đá_ASEAN ;
+    rdfs:comment "Đội tuyển bóng đá U-23 quốc gia Việt Nam đại diện cho Việt Nam tại các giải đấu bóng đá quốc tế dành cho lứa tuổi 23 và nhỏ hơn, do Liên đoàn bóng đá Việt Nam (VFF) quản lý từ năm 1999."@vi ;
+    owl:sameAs dbr:Vietnam_national_under-23_football_team,
+        wd:Q7928602 ;
+    skos:altLabel "Olympic Việt Nam"@vi,
+        "U-23 Việt Nam"@vi,
+        "U23 Việt Nam"@vi,
+        "Đội tuyển Bóng đá U‑23 Quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá Olympic Việt Nam"@vi,
+        "Đội tuyển bóng đá U-23 Việt Nam"@vi,
+        "Đội tuyển bóng đá nam U-23 quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá quốc gia U-23 Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-23_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75599897&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:homepage <https://www.vff.org.vn/> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-23_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_bãi_biển_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national beach soccer team"@en,
+        "Đội tuyển bóng đá bãi biển quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá bãi biển quốc gia Việt Nam do Liên đoàn bóng đá Việt Nam quản lí và đại diện cho Việt Nam thi đấu giải bóng đá bãi biển trên đấu trường Quốc tế."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <http://www.beachsoccer.com/teams/Vietnam>,
+        <http://www.vff.org.vn/vi/tin-tuc-482> ;
+    dbo:wikiPageID 3208748 ;
+    dbo:wikiPageLength "22326"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75538636 ;
+    dct:subject vcat:Bóng_đá_bãi_biển_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_thể_thao_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    rdfs:comment "Đội tuyển bóng đá bãi biển quốc gia Việt Nam do Liên đoàn bóng đá Việt Nam quản lí và đại diện cho Việt Nam thi đấu giải bóng đá bãi biển trên đấu trường Quốc tế."@vi ;
+    owl:sameAs dbr:Vietnam_national_beach_soccer_team,
+        wd:Q19679886 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_b%C3%A3i_bi%E1%BB%83n_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75538636&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:homepage <http://www.vff.org.vn/vi/tin-tuc-482> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_b%C3%A3i_bi%E1%BB%83n_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_nam_U-17_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national under-17 football team"@en,
+        "Đội tuyển bóng đá nam U-17 quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá nam U-17 quốc gia Việt Nam là đội tuyển bóng đá chuyên dự các giải đấu U-16 và U-17 quốc tế và do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageID 3231314 ;
+    dbo:wikiPageLength "37316"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75529911 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_U-17_quốc_gia_châu_Á,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vip:_2ndRegionalCupApps 11 ;
+    vip:_2ndRegionalCupBest vres:Giải_vô_địch_bóng_đá_U-16_châu_Á_2000 ;
+    vip:_2ndRegionalCupFirst vres:Giải_vô_địch_bóng_đá_U-16_châu_Á_2000 ;
+    vip:_2ndRegionalName vres:Cúp_bóng_đá_U-17_châu_Á ;
+    vip:_3rdRegionalCupApps 15 ;
+    vip:_3rdRegionalCupBest vres:Giải_vô_địch_bóng_đá_U-17_ASEAN_2026,
+        vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2006,
+        vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2010,
+        vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2017 ;
+    vip:_3rdRegionalCupFirst vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2002 ;
+    vip:_3rdRegionalName vres:Giải_vô_địch_bóng_đá_U-17_ASEAN ;
+    vip:association vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:badge "Flag of Vietnam.svg"@vi ;
+    vip:captain "Nguyễn Huỳnh Đăng Khoa"@vi ;
+    vip:coach vres:Cristiano_Roland ;
+    vip:confederation vres:Liên_đoàn_bóng_đá_châu_Á ;
+    vip:fIFATrigramme "VIE"@vi ;
+    vip:firstGame vres:2000,
+        vres:3_tháng_9,
+        vres:Việt_Nam,
+        vres:Đà_Nẵng ;
+    vip:homeStadium "Nhiều sân vận động"@vi ;
+    vip:largestLoss vres:16_tháng_9,
+        vres:2016,
+        vres:Bambolim,
+        vres:Ấn_Độ ;
+    vip:largestWin vres:18_tháng_9,
+        vres:2015,
+        vres:2025,
+        vres:24_tháng_11,
+        vres:Hà_Nội,
+        vres:Hưng_Yên,
+        vres:Việt_Nam ;
+    vip:name "U-17 Việt Nam"@vi ;
+    vip:nickname "Những chiến binh sao vàng"@vi ;
+    vip:regionalCupApps 1 ;
+    vip:regionalCupBest "Chưa xác định"@vi ;
+    vip:regionalCupFirst vres:Giải_vô_địch_bóng_đá_U-17_thế_giới_2026 ;
+    vip:regionalName vres:Giải_vô_địch_bóng_đá_U-17_thế_giới ;
+    vip:subConfederation vres:Liên_đoàn_bóng_đá_ASEAN ;
+    rdfs:comment "Đội tuyển bóng đá nam U-17 quốc gia Việt Nam là đội tuyển bóng đá chuyên dự các giải đấu U-16 và U-17 quốc tế và do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    owl:sameAs dbr:Vietnam_national_under-17_football_team,
+        wd:Q16966654 ;
+    skos:altLabel "Đội tuyển Bóng đá U-16 Quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-15 quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-16 quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-17 quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75529911&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_nam_U-20_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national under-20 football team"@en,
+        "Đội tuyển bóng đá nam U-20 quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá nam U-18 quốc gia, U-19 quốc gia và U-20 quốc gia Việt Nam đại diện cho Việt Nam tại các giải đấu bóng đá quốc tế trẻ dành cho các lứa tuổi U-18, U-19 và U-20 và được quản lý bởi Liên đoàn bóng đá Việt Nam."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <http://int.soccerway.com/teams/vietnam/vietnam-under-19/15726/>,
+        <http://www.vff.org.vn/vi/danh-sach-435> ;
+    dbo:wikiPageID 2413043 ;
+    dbo:wikiPageLength "45135"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75526564 ;
+    dct:subject vcat:Khởi_đầu_năm_1996_ở_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_U-19_quốc_gia,
+        vcat:Đội_tuyển_bóng_đá_U-20_quốc_gia_châu_Á,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_thể_thao_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vip:_2ndRegionalCupApps 9 ;
+    vip:_2ndRegionalCupBest vres:Giải_vô_địch_bóng_đá_U-19_châu_Á_2016 ;
+    vip:_2ndRegionalCupFirst vres:Giải_vô_địch_bóng_đá_trẻ_châu_Á_2002 ;
+    vip:_2ndRegionalName vres:Cúp_bóng_đá_U-20_châu_Á ;
+    vip:_3rdRegionalCupApps 19 ;
+    vip:_3rdRegionalCupBest vres:Giải_vô_địch_bóng_đá_U-20_Đông_Nam_Á_2007 ;
+    vip:_3rdRegionalCupFirst vres:Giải_vô_địch_bóng_đá_U-20_Đông_Nam_Á_2002 ;
+    vip:_3rdRegionalName vres:Giải_vô_địch_bóng_đá_U-19_ASEAN ;
+    vip:association vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:badge "Flag of Vietnam.svg"@vi ;
+    vip:captain "Nguyễn Quốc Khánh"@vi ;
+    vip:coach vres:Ikeuchi_Yutaka ;
+    vip:confederation vres:Châu_Á,
+        vres:Liên_đoàn_bóng_đá_châu_Á ;
+    vip:fIFATrigramme "VIE"@vi ;
+    vip:firstGame vres:Bảo_Định,
+        vres:Trung_Quốc ;
+    vip:homeStadium "Nhiều sân"@vi ;
+    vip:largestLoss vres:Bảo_Định,
+        vres:Trung_Quốc ;
+    vip:largestWin vres:Thành_phố_Hồ_Chí_Minh,
+        vres:Việt_Nam ;
+    vip:name "U-19 Việt Nam"@vi ;
+    vip:regionalCupApps 1 ;
+    vip:regionalCupBest vres:Giải_vô_địch_bóng_đá_U-20_thế_giới_2017 ;
+    vip:regionalCupFirst vres:Giải_vô_địch_bóng_đá_U-20_thế_giới_2017 ;
+    vip:regionalName vres:Giải_vô_địch_bóng_đá_U-20_thế_giới ;
+    vip:subConfederation vres:Liên_đoàn_bóng_đá_ASEAN,
+        vres:Đông_Nam_Á ;
+    rdfs:comment "Đội tuyển bóng đá nam U-18 quốc gia, U-19 quốc gia và U-20 quốc gia Việt Nam đại diện cho Việt Nam tại các giải đấu bóng đá quốc tế trẻ dành cho các lứa tuổi U-18, U-19 và U-20 và được quản lý bởi Liên đoàn bóng đá Việt Nam."@vi ;
+    owl:sameAs dbr:Vietnam_national_under-20_football_team,
+        wd:Q7928601 ;
+    skos:altLabel "U-19 Việt Nam"@vi,
+        "U19 Việt Nam 2014"@vi,
+        "Đội tuyển bóng đá U-19 quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-20 quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75526564&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_nữ_U-17_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam women's national under-17 football team"@en,
+        "Đội tuyển bóng đá nữ U-17 quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá U-17 nữ quốc gia Việt Nam là đội tuyển bóng đá nữ dành cho các cầu thủ có độ tuổi tối đa 17 tuổi, đại diện cho Việt Nam tại các giải đấu quốc tế chính thức của Liên đoàn bóng đá châu Á (AFC) và Liên đoàn bóng đá thế giới (FIFA). Đội do Liên đoàn bóng đá Việt Nam (VFF) quản lý và được xem là một trong những tuyến kế cận của hệ thống bóng đá nữ quốc gia."@vi ;
+    dbo:wikiPageExternalLink <http://www.vff.org.vn/doi-tuyen-U16-nu-463> ;
+    dbo:wikiPageID 3241380 ;
+    dbo:wikiPageLength "16045"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75616289 ;
+    dct:subject vcat:Bóng_đá_nữ_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_U-17_nữ_quốc_gia,
+        vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_thể_thao_nữ_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    rdfs:comment "Đội tuyển bóng đá U-17 nữ quốc gia Việt Nam là đội tuyển bóng đá nữ dành cho các cầu thủ có độ tuổi tối đa 17 tuổi, đại diện cho Việt Nam tại các giải đấu quốc tế chính thức của Liên đoàn bóng đá châu Á (AFC) và Liên đoàn bóng đá thế giới (FIFA). Đội do Liên đoàn bóng đá Việt Nam (VFF) quản lý và được xem là một trong những tuyến kế cận của hệ thống bóng đá nữ quốc gia."@vi ;
+    owl:sameAs <http://dbpedia.org/resource/Vietnam_women's_national_under-17_football_team>,
+        wd:Q24882786 ;
+    skos:altLabel "Đội tuyển bóng đá U-16 nữ quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-17 nữ quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá nữ U-16 quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75616289&ns=0> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_nữ_U-20_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam women's national under-20 football team"@en,
+        "Đội tuyển bóng đá nữ U-20 quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá U-20 nữ quốc gia Việt Nam là đội tuyển bóng đá nữ cho độ tuổi 20 và nhỏ hơn 20 của Việt Nam được thành lập năm 2004 do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    dbo:thumbnail <https://upload.wikimedia.org/wikipedia/vi/0/07/Vietnam_national_football_team_logo.png> ;
+    dbo:wikiPageID 3241445 ;
+    dbo:wikiPageLength "14637"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 74950455 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_U-19_nữ_quốc_gia,
+        vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_thể_thao_nữ_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    rdfs:comment "Đội tuyển bóng đá U-20 nữ quốc gia Việt Nam là đội tuyển bóng đá nữ cho độ tuổi 20 và nhỏ hơn 20 của Việt Nam được thành lập năm 2004 do Liên đoàn bóng đá Việt Nam quản lý."@vi ;
+    owl:sameAs <http://dbpedia.org/resource/Vietnam_women's_national_under-20_football_team>,
+        wd:Q24956703 ;
+    skos:altLabel "Đội tuyển bóng đá U-18 nữ quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-19 nữ quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá U-20 nữ quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá nữ U-19 quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=74950455&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/vi/0/07/Vietnam_national_football_team_logo.png> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam women's national football team"@en,
+        "Đội tuyển bóng đá nữ quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá nữ quốc gia Việt Nam đại diện Việt Nam tại các giải bóng đá quốc tế, và do Liên đoàn bóng đá Việt Nam (VFF) quản lý."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <https://vff.org.vn/chuyen-muc/doi-tuyen-quoc-gia/doi-tuyen-nu/doi-tuyen-nu-quoc-gia/> ;
+    dbo:wikiPageID 76837 ;
+    dbo:wikiPageLength "86375"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75594634 ;
+    dct:subject vcat:Bóng_đá_nữ_Việt_Nam,
+        vcat:Thể_thao_nữ,
+        vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_châu_Á,
+        vcat:Đội_tuyển_thể_thao_nữ_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vio:manager vres:Mai_Đức_Chung ;
+    rdfs:comment "Đội tuyển bóng đá nữ quốc gia Việt Nam đại diện Việt Nam tại các giải bóng đá quốc tế, và do Liên đoàn bóng đá Việt Nam (VFF) quản lý."@vi ;
+    owl:sameAs <http://dbpedia.org/resource/Vietnam_women's_national_football_team>,
+        wd:Q2036930 ;
+    skos:altLabel "Đội bóng đá nữ Việt Nam"@vi,
+        "Đội tuyển bóng đá nữ Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75594634&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:homepage <http://www.vff.org.vn/> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-21_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_U-21_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-22_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_U-22_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_U-23_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_U-23_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_b%C3%A3i_bi%E1%BB%83n_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_bãi_biển_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_nữ_U-17_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_nữ_U-20_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_n%E1%BB%AF_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-17_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_nam_U-17_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_nam_U-20_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_nam_U-20_quốc_gia_Việt_Nam .
+
+<https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> foaf:primaryTopic vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam .
+
+vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam a vio:NationalFootballTeam ;
+    rdfs:label "Vietnam national football team"@en,
+        "Đội tuyển bóng đá quốc gia Việt Nam"@vi ;
+    dbo:abstract "Đội tuyển bóng đá nam quốc gia Việt Nam đại diện Việt Nam tại các giải đấu bóng đá quốc tế và do Liên đoàn bóng đá Việt Nam (VFF) quản lý. Trong khi Việt Nam bị chia thành hai vùng tập kết quân sự ở miền Bắc và miền Nam từ năm 1954, hai đội tuyển quốc gia đã tồn tại song song và được điều hành bởi các cơ quan quản lý riêng biệt, với Hội Bóng đá Việt Nam ở miền Bắc và Hội Túc cầu giáo ở miền Nam. Sau khi hai miền thống nhất vào năm 1976, Liên đoàn bóng đá Việt Nam được thành lập dựa trên tiền thân của Hội bóng đá Việt Nam. Đội tuyển bóng đá nam thuộc biên chế của liên đoàn cũng dần tham gia các trận đấu và giải đấu quốc tế trong những năm sau đó."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/330px-Flag_of_Vietnam.svg.png> ;
+    dbo:wikiPageExternalLink <http://www.fifa.com/associations/association=vie/index.html>,
+        <https://www.vff.org.vn/chuyen-muc/doi-tuyen-quoc-gia/doi-tuyen-nam/doi-tuyen-quoc-gia-nam/> ;
+    dbo:wikiPageID 21785 ;
+    dbo:wikiPageLength "187476"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75616834 ;
+    dct:subject vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam,
+        vcat:Đội_tuyển_bóng_đá_quốc_gia_châu_Á,
+        vcat:Đội_tuyển_thể_thao_quốc_gia_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vio:manager vres:Kim_Sang-sik ;
+    rdfs:comment "Đội tuyển bóng đá nam quốc gia Việt Nam đại diện Việt Nam tại các giải đấu bóng đá quốc tế và do Liên đoàn bóng đá Việt Nam (VFF) quản lý. Trong khi Việt Nam bị chia thành hai vùng tập kết quân sự ở miền Bắc và miền Nam từ năm 1954, hai đội tuyển quốc gia đã tồn tại song song và được điều hành bởi các cơ quan quản lý riêng biệt, với Hội Bóng đá Việt Nam ở miền Bắc và Hội Túc cầu giáo ở miền Nam."@vi ;
+    owl:sameAs dbr:Vietnam_national_football_team,
+        wd:Q270689 ;
+    skos:altLabel "Vietnam national football team"@vi,
+        "Đội tuyển Bóng đá Quốc gia Việt Nam"@vi,
+        "Đội tuyển bóng đá Việt Nam"@vi,
+        "Đội tuyển bóng đá nam quốc gia Việt Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam?oldid=75616834&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg> ;
+    foaf:homepage <http://www.vff.org.vn/> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99i_tuy%E1%BB%83n_b%C3%B3ng_%C4%91%C3%A1_qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam> .
+

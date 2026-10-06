@@ -1,0 +1,6267 @@
+{
+ "Q10828884": {
+  "vi": "Trường Sĩ quan Không quân (Việt Nam)",
+  "en": null,
+  "label": "Trường Sĩ quan không quân"
+ },
+ "Q10829018": {
+  "vi": "Trường Đại học Bà Rịa – Vũng Tàu",
+  "en": null,
+  "label": "Trường Đại học Bà Rịa - Vũng Tàu"
+ },
+ "Q10829016": {
+  "vi": "Trường Đại học Công nghiệp Việt Trì",
+  "en": null,
+  "label": "Trường Đại Học Công Nghiệp Việt Trì"
+ },
+ "Q10829017": {
+  "vi": "Trường Đại học Hồng Đức",
+  "en": "Hồng Đức University",
+  "label": "Trường Đại Học Hồng Đức"
+ },
+ "Q10829021": {
+  "vi": "Trường Đại học Bạc Liêu",
+  "en": null,
+  "label": "Trường Đại học Bạc Liêu"
+ },
+ "Q10829025": {
+  "vi": "Trường Đại học Công nghiệp Quảng Ninh",
+  "en": null,
+  "label": "Trường Đại học Công nghiệp Quảng Ninh"
+ },
+ "Q10829028": {
+  "vi": "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Engineering and Technology",
+  "label": "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội"
+ },
+ "Q10829035": {
+  "vi": "Trường Đại học Quản lý và Công nghệ Hải Phòng",
+  "en": null,
+  "label": "Trường Đại học Quản lý và Công nghệ Hải Phòng"
+ },
+ "Q10829032": {
+  "vi": "Trường Đại học Công nghệ Đồng Nai",
+  "en": null,
+  "label": "Trường Đại học Công nghệ Đồng Nai"
+ },
+ "Q10829043": {
+  "vi": "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Transport",
+  "label": "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh"
+ },
+ "Q10829040": {
+  "vi": "Trường Đại học Dầu khí Việt Nam",
+  "en": null,
+  "label": "Trường Đại học Dầu khí Việt Nam"
+ },
+ "Q10829041": {
+  "vi": "Trường Đại học Giao thông Vận tải",
+  "en": "University of Transport and Communications",
+  "label": "Trường Đại học Giao thông Vận tải"
+ },
+ "Q10829051": {
+  "vi": "Trường Đại học Hà Tĩnh",
+  "en": null,
+  "label": "Trường Đại học Hà Tĩnh"
+ },
+ "Q10829049": {
+  "vi": "Trường Đại học Hà Nội",
+  "en": "Hanoi University",
+  "label": "Trường Đại học Hà Nội"
+ },
+ "Q10829053": {
+  "vi": "Trường Đại học Hùng Vương",
+  "en": "Hung Vuong University",
+  "label": "Trường Đại học Hùng Vương"
+ },
+ "Q10829057": {
+  "vi": "Trường Đại học Khoa học, Đại học Thái Nguyên",
+  "en": null,
+  "label": "Trường Đại học Khoa học, Đại học Thái Nguyên"
+ },
+ "Q10829064": {
+  "vi": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Social Sciences and Humanities",
+  "label": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội"
+ },
+ "Q10829075": {
+  "vi": "Trường Đại học Kinh tế Công nghiệp Long An",
+  "en": null,
+  "label": "Trường Đại học Kinh tế Công nghiệp Long An"
+ },
+ "Q10829073": {
+  "vi": "Trường Đại học Kinh tế – Luật, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "University of Economics and Law",
+  "label": "Trường Đại học Kinh tế - Luật"
+ },
+ "Q10829082": {
+  "vi": "Trường Đại học Kỹ thuật Công nghiệp, Đại học Thái Nguyên",
+  "en": null,
+  "label": "Trường Đại học Kỹ thuật Công nghiệp, Đại học Thái Nguyên"
+ },
+ "Q10829084": {
+  "vi": "Trường Đại học Kỹ thuật Y tế Hải Dương",
+  "en": null,
+  "label": "Trường Đại học Kỹ thuật Y tế Hải Dương"
+ },
+ "Q10829090": {
+  "vi": "Trường Đại học Lâm nghiệp",
+  "en": "Vietnam National University of Forestry",
+  "label": "Trường Đại học Lâm nghiệp Việt Nam"
+ },
+ "Q10829092": {
+  "vi": "Trường Đại học Lạc Hồng",
+  "en": "Lạc Hồng University",
+  "label": "Trường Đại học Lạc Hồng"
+ },
+ "Q117": {
+  "vi": "Ghana",
+  "en": "Ghana",
+  "label": "Ghana"
+ },
+ "Q10829094": {
+  "vi": "Trường Đại học Mở Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City Open University",
+  "label": "Trường Đại học Mở Thành phố Hồ Chí Minh"
+ },
+ "Q10829093": {
+  "vi": "Trường Đại học Mỏ – Địa chất",
+  "en": "Hanoi University of Mining and Geology",
+  "label": "Trường Đại học Mỏ - Địa chất"
+ },
+ "Q10829104": {
+  "vi": "Trường Đại học Nguyễn Tất Thành",
+  "en": null,
+  "label": "Trường Đại học Nguyễn Tất Thành"
+ },
+ "Q10829111": {
+  "vi": "Trường Đại học Phú Yên",
+  "en": null,
+  "label": "Đại học Phú Yên"
+ },
+ "Q10829114": {
+  "vi": "Trường Đại học Phạm Văn Đồng",
+  "en": null,
+  "label": "Trường Đại học Phạm Văn Đồng"
+ },
+ "Q10829112": {
+  "vi": "Trường Đại học Phương Đông (Việt Nam)",
+  "en": null,
+  "label": "Trường Đại học Phương Đông (Việt Nam)"
+ },
+ "Q10829118": {
+  "vi": "Trường Đại học Quốc tế Bắc Hà",
+  "en": "Bac Ha International University",
+  "label": "Trường Đại học Quốc tế Bắc Hà"
+ },
+ "Q10829117": {
+  "vi": "Trường Đại học Quảng Nam",
+  "en": null,
+  "label": "Trường Đại học Quảng Nam"
+ },
+ "Q10829126": {
+  "vi": "Trường Đại học Sư phạm, Đại học Đà Nẵng",
+  "en": null,
+  "label": "Trường Đại học Sư phạm, Đại học Đà Nẵng"
+ },
+ "Q10829127": {
+  "vi": "Trường Đại học Sư phạm, Đại học Huế",
+  "en": null,
+  "label": "Trường Đại học Sư phạm Huế"
+ },
+ "Q10829125": {
+  "vi": "Trường Đại học Sư phạm, Đại học Thái Nguyên",
+  "en": null,
+  "label": "Trường Đại học Sư phạm, Đại học Thái Nguyên"
+ },
+ "Q10829131": {
+  "vi": "Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Technology and Engineering",
+  "label": "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh"
+ },
+ "Q10829128": {
+  "vi": "Trường Đại học Sư phạm Hà Nội 2",
+  "en": null,
+  "label": "Trường Đại học Sư phạm Hà Nội 2"
+ },
+ "Q10829134": {
+  "vi": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+  "en": null,
+  "label": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội"
+ },
+ "Q10829138": {
+  "vi": "Trường Đại học Thái Bình",
+  "en": null,
+  "label": "Trường Đại học Thái Bình"
+ },
+ "Q10829139": {
+  "vi": "Trường Đại học Thái Bình Dương",
+  "en": null,
+  "label": "Trường Đại học Thái Bình Dương"
+ },
+ "Q10829137": {
+  "vi": "Trường Đại học Thành Đô",
+  "en": null,
+  "label": "Trường Đại học Thành Đô"
+ },
+ "Q10829147": {
+  "vi": "Trường Đại học Tiền Giang",
+  "en": null,
+  "label": "Trường Đại học Tiền Giang"
+ },
+ "Q10829144": {
+  "vi": "Trường Đại học Thể dục Thể thao Đà Nẵng",
+  "en": null,
+  "label": "Trường Đại học Thể dục Thể thao Đà Nẵng"
+ },
+ "Q10829145": {
+  "vi": "Trường Đại học Thủ Dầu Một",
+  "en": null,
+  "label": "Trường Đại học Thủ Dầu Một"
+ },
+ "Q10829151": {
+  "vi": "Trường Đại học Trần Đại Nghĩa",
+  "en": null,
+  "label": "Trường Đại học Trần Đại Nghĩa"
+ },
+ "Q10829149": {
+  "vi": "Đại học Trà Vinh",
+  "en": "Tra Vinh University",
+  "label": "Trường Đại học Trà Vinh"
+ },
+ "Q10829155": {
+  "vi": "Trường Đại học Tân Tạo",
+  "en": "Tân Tạo University",
+  "label": "Trường Đại học Tân Tạo"
+ },
+ "Q10829152": {
+  "vi": "Trường Đại học Tài chính – Marketing",
+  "en": null,
+  "label": "Trường Đại học Tài chính - Marketing"
+ },
+ "Q10829156": {
+  "vi": "Trường Đại học Tây Bắc",
+  "en": null,
+  "label": "Trường Đại học Tây Bắc"
+ },
+ "Q10829162": {
+  "vi": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa",
+  "en": null,
+  "label": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa"
+ },
+ "Q10829163": {
+  "vi": "Trường Đại học Văn hóa – Nghệ thuật Quân đội",
+  "en": null,
+  "label": "Trường Đại học Văn hóa - Nghệ thuật Quân đội"
+ },
+ "Q10829166": {
+  "vi": "Trường Đại học Xây dựng Miền Trung",
+  "en": null,
+  "label": "Trường Đại học Xây dựng miền Trung"
+ },
+ "Q10829169": {
+  "vi": "Trường Đại học Y Dược, Đại học Thái Nguyên",
+  "en": null,
+  "label": "Trường Đại học Y Dược, Đại học Thái Nguyên"
+ },
+ "Q10829182": {
+  "vi": "Trường Đại học Đại Nam",
+  "en": null,
+  "label": "Trường Đại học Đại Nam"
+ },
+ "Q10829181": {
+  "vi": "Trường Đại học Đông Đô",
+  "en": null,
+  "label": "Trường Đại học Đông Đô"
+ },
+ "Q1201894": {
+  "vi": "Câu lạc bộ bóng đá Hoàng Anh Gia Lai",
+  "en": "Hoang Anh Gia Lai FC",
+  "label": "Câu lạc bộ bóng đá Hoàng Anh Gia Lai"
+ },
+ "Q10462309": {
+  "vi": "Trần Trường Giang",
+  "en": "Trần Trường Giang",
+  "label": "Trần Trường Giang"
+ },
+ "Q10483702": {
+  "vi": "Nguyễn Hồng Sơn",
+  "en": "Nguyễn Hồng Sơn",
+  "label": "Nguyễn Hồng Sơn"
+ },
+ "Q10489198": {
+  "vi": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Education",
+  "label": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh"
+ },
+ "Q10496987": {
+  "vi": "Nguyễn Minh Châu (cầu thủ bóng đá)",
+  "en": "Nguyễn Minh Châu (footballer)",
+  "label": "Nguyễn Minh Châu (cầu thủ bóng đá)"
+ },
+ "Q10510346": {
+  "vi": "Nguyễn Thế Anh (cầu thủ bóng đá, sinh 1981)",
+  "en": "Nguyễn Thế Anh",
+  "label": "Nguyễn Thế Anh"
+ },
+ "Q10513826": {
+  "vi": "Lê Sỹ Mạnh",
+  "en": "Lê Sỹ Mạnh",
+  "label": "Lê Sỹ Mạnh"
+ },
+ "Q10527507": {
+  "vi": "Nguyễn Minh Đức (cầu thủ bóng đá)",
+  "en": "Nguyễn Minh Đức",
+  "label": "Nguyễn Minh Đức"
+ },
+ "Q10528061": {
+  "vi": "Nguyễn Mạnh Dũng (cầu thủ bóng đá, sinh 1981)",
+  "en": "Nguyễn Mạnh Dũng",
+  "label": "Nguyễn Mạnh Dũng"
+ },
+ "Q1033": {
+  "vi": "Nigeria",
+  "en": "Nigeria",
+  "label": "Nigeria"
+ },
+ "Q107501": {
+  "vi": "Sarcelles",
+  "en": "Sarcelles",
+  "label": "Sarcelles"
+ },
+ "Q1002930": {
+  "vi": "Trường Đại học Hoa Sen",
+  "en": "Hoa Sen University",
+  "label": "Trường Đại học Hoa Sen"
+ },
+ "Q1031051": {
+  "vi": "Cẩm Phả (thành phố)",
+  "en": "Cẩm Phả (city)",
+  "label": "Cẩm Phả"
+ },
+ "Q1044651": {
+  "vi": "Vegalta Sendai",
+  "en": "Vegalta Sendai",
+  "label": "Vegalta Sendai"
+ },
+ "Q1060184": {
+  "vi": "Mito HollyHock",
+  "en": "Mito HollyHock",
+  "label": "Câu lạc bộ bóng đá Mito HollyHock"
+ },
+ "Q10533829": {
+  "vi": "Nguyễn Xuân Thành",
+  "en": "Nguyễn Xuân Thành",
+  "label": "Nguyễn Xuân Thành"
+ },
+ "Q10542359": {
+  "vi": "Phạm Hùng Dũng",
+  "en": "Phạm Hùng Dũng",
+  "label": "Phạm Hùng Dũng"
+ },
+ "Q10549061": {
+  "vi": "Lê Quang Cường (cầu thủ bóng đá)",
+  "en": "Lê Quang Cường",
+  "label": "Lê Quang Cường"
+ },
+ "Q10742805": {
+  "vi": "Bùi Quang Vinh",
+  "en": "Bùi Quang Vinh",
+  "label": "Bùi Quang Vinh"
+ },
+ "Q10748018": {
+  "vi": "Chu Ngọc Anh (cầu thủ bóng đá)",
+  "en": "Chu Ngọc Anh",
+  "label": "Chu Ngọc Anh"
+ },
+ "Q10751860": {
+  "vi": "Câu lạc bộ bóng đá Sài Gòn",
+  "en": "Saigon FC",
+  "label": "Câu lạc bộ bóng đá Sài Gòn"
+ },
+ "Q10751867": {
+  "vi": "Câu lạc bộ bóng đá Thành phố Hồ Chí Minh (2025)",
+  "en": "Ho Chi Minh City FC (2025)",
+  "label": "Câu lạc bộ bóng đá Bà Rịa Vũng Tàu"
+ },
+ "Q10751869": {
+  "vi": null,
+  "en": "Saigon Port FC",
+  "label": "Câu lạc bộ bóng đá Cảng Sài Gòn"
+ },
+ "Q109439560": {
+  "vi": "Câu lạc bộ bóng đá Phú Thọ",
+  "en": "Phu Tho FC (2019)",
+  "label": "Câu lạc bộ bóng đá Phú Thọ"
+ },
+ "Q109440070": {
+  "vi": "Phan Văn Hiếu",
+  "en": "Phan Văn Hiếu",
+  "label": "Phan Văn Hiếu"
+ },
+ "Q109441331": {
+  "vi": "Nguyễn Trần Việt Cường",
+  "en": "Nguyễn Trần Việt Cường",
+  "label": "Nguyễn Trần Việt Cường"
+ },
+ "Q109452316": {
+  "vi": "Trần Bảo Toàn",
+  "en": "Trần Bảo Toàn",
+  "label": "Trần Bảo Toàn"
+ },
+ "Q109588039": {
+  "vi": "Vũ Công Tuyền",
+  "en": "Vũ Công Tuyền",
+  "label": "Vũ Công Tuyền"
+ },
+ "Q110358787": {
+  "vi": "Nguyễn Văn Minh (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Minh (footballer)",
+  "label": "Nguyễn Văn Minh"
+ },
+ "Q110732489": {
+  "vi": "Hồ Thanh Minh",
+  "en": "Hồ Thanh Minh",
+  "label": "Hồ Thanh Minh"
+ },
+ "Q110819261": {
+  "vi": "Nguyễn Thị Thanh Nhã",
+  "en": "Nguyễn Thị Thanh Nhã",
+  "label": "Nguyễn Thị Thanh Nhã"
+ },
+ "Q110820123": {
+  "vi": "Bùi Ngọc Long",
+  "en": "Bùi Ngọc Long",
+  "label": "Bùi Ngọc Long"
+ },
+ "Q110858735": {
+  "vi": "Vũ Hồng Quân",
+  "en": "Vũ Hồng Quân",
+  "label": "Vũ Hồng Quân"
+ },
+ "Q110858741": {
+  "vi": "Phạm Văn Luân",
+  "en": "Phạm Văn Luân",
+  "label": "Phạm Văn Luân"
+ },
+ "Q10780": {
+  "vi": null,
+  "en": "Grimma",
+  "label": "Grimma"
+ },
+ "Q11840144": {
+  "vi": "Cần Thơ (thành phố thuộc tỉnh)",
+  "en": null,
+  "label": "Cần Thơ"
+ },
+ "Q100989632": {
+  "vi": "Nguyễn Phi Hoàng",
+  "en": "Nguyễn Phi Hoàng",
+  "label": "Nguyễn Phi Hoàng"
+ },
+ "Q104561995": {
+  "vi": "Nguyễn Văn Việt (cầu thủ bóng đá, sinh 1989)",
+  "en": "Nguyễn Văn Việt (footballer, born 1989)",
+  "label": "Nguyễn Văn Việt"
+ },
+ "Q104597730": {
+  "vi": "Câu lạc bộ bóng đá nữ Thái Nguyên T&T",
+  "en": "Thái Nguyên T&T W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Thái Nguyên T&T"
+ },
+ "Q105076326": {
+  "vi": "Sài Gòn (thành phố)",
+  "en": "Saigon",
+  "label": "Sài Gòn"
+ },
+ "Q105335883": {
+  "vi": "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Medicine and Pharmacy",
+  "label": "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội"
+ },
+ "Q107097248": {
+  "vi": "Cao Văn Triền",
+  "en": "Cao Văn Triền",
+  "label": "Cao Văn Triền"
+ },
+ "Q10770550": {
+  "vi": "Hà Minh Tuấn",
+  "en": "Hà Minh Tuấn",
+  "label": "Hà Minh Tuấn"
+ },
+ "Q10771337": {
+  "vi": "Hưng Hóa",
+  "en": "Hưng Hóa province",
+  "label": "Hưng Hóa"
+ },
+ "Q10771661": {
+  "vi": "Hải Ninh (tỉnh)",
+  "en": null,
+  "label": "Hải Ninh"
+ },
+ "Q10771878": {
+  "vi": "Học viện bóng đá Hoàng Anh Gia Lai",
+  "en": "Hoang Anh Gia Lai Academy",
+  "label": "Học viện Bóng đá Hoàng Anh Gia Lai - Arsenal JMG"
+ },
+ "Q10771879": {
+  "vi": "Học viện Chính trị Quốc gia Hồ Chí Minh",
+  "en": null,
+  "label": "Học viện Chính trị Quốc gia Hồ Chí Minh"
+ },
+ "Q10771881": {
+  "vi": "Học viện Công nghệ Bưu chính Viễn thông",
+  "en": null,
+  "label": "Học viện Công nghệ Bưu chính Viễn thông"
+ },
+ "Q10771885": {
+  "vi": "Học viện Hành chính và Quản trị công",
+  "en": "Academy of Public Administration and Governance",
+  "label": "Học viện hành chính quốc gia"
+ },
+ "Q10771888": {
+  "vi": "Học viện Khoa học Quân sự",
+  "en": null,
+  "label": "Học viện Khoa học Quân sự"
+ },
+ "Q10771894": {
+  "vi": "Học viện Ngân hàng (Việt Nam)",
+  "en": null,
+  "label": "Học viện Ngân hàng (Việt Nam)"
+ },
+ "Q10771896": {
+  "vi": "Học viện Quân y (Việt Nam)",
+  "en": null,
+  "label": "Học viện Quân Y"
+ },
+ "Q10771903": {
+  "vi": "Học viện Quốc phòng (Việt Nam)",
+  "en": null,
+  "label": "Học viện Quốc phòng Việt Nam"
+ },
+ "Q10771907": {
+  "vi": "Học viện Y – Dược học cổ truyền Việt Nam",
+  "en": null,
+  "label": "Học viện Y dược học cổ truyền Việt Nam"
+ },
+ "Q10772154": {
+  "vi": "Hồng Ngự (thành phố)",
+  "en": "Hồng Ngự (city)",
+  "label": "Hồng Ngự"
+ },
+ "Q10780314": {
+  "vi": "Kiến Hòa",
+  "en": null,
+  "label": "Kiến Hòa"
+ },
+ "Q10787616": {
+  "vi": "Lê Duy Thanh",
+  "en": "Lê Duy Thanh",
+  "label": "Lê Duy Thanh"
+ },
+ "Q10787866": {
+  "vi": "Lê Thụy Hải",
+  "en": "Lê Thụy Hải",
+  "label": "Lê Thụy Hải"
+ },
+ "Q10789928": {
+  "vi": "Mai Duy Dưỡng",
+  "en": null,
+  "label": "Mai Duy Dưỡng"
+ },
+ "Q10790004": {
+  "vi": "Mai Đức Chung",
+  "en": "Mai Đức Chung",
+  "label": "Mai Đức Chung"
+ },
+ "Q10751870": {
+  "vi": "Câu lạc bộ bóng đá Cần Thơ",
+  "en": "Can Tho FC",
+  "label": "Câu lạc bộ bóng đá Cần Thơ"
+ },
+ "Q10751871": {
+  "vi": "Câu lạc bộ bóng đá Quảng Nam",
+  "en": "Quang Nam FC",
+  "label": "Câu lạc bộ bóng đá Quảng Nam"
+ },
+ "Q10751873": {
+  "vi": "Câu lạc bộ bóng đá T&T Baoercheng",
+  "en": "T&T Baoercheng FC",
+  "label": "Câu lạc bộ bóng đá T&T Baoercheng"
+ },
+ "Q10751879": {
+  "vi": "Câu lạc bộ bóng đá Tây Ninh",
+  "en": "Tay Ninh FC",
+  "label": "Câu lạc bộ bóng đá Tây Ninh"
+ },
+ "Q10751877": {
+  "vi": null,
+  "en": "Thanh Hóa FC (1962)",
+  "label": "Câu lạc bộ bóng đá Thanh Hóa (cũ)"
+ },
+ "Q10751881": {
+  "vi": "Câu lạc bộ bóng đá Vĩnh Long",
+  "en": "Vinh Long FC",
+  "label": "Câu lạc bộ bóng đá Vĩnh Long"
+ },
+ "Q10757601": {
+  "vi": "Dương Thanh Hào",
+  "en": "Dương Thanh Hào",
+  "label": "Dương Thanh Hào"
+ },
+ "Q10761343": {
+  "vi": "Gia Lai – Kon Tum",
+  "en": null,
+  "label": "Gia Lai - Kon Tum"
+ },
+ "Q10761879": {
+  "vi": "Giải bóng đá hạng Ba Quốc gia Việt Nam",
+  "en": "Vietnamese Football League Third Division",
+  "label": "Giải vô địch bóng đá hạng ba Việt Nam"
+ },
+ "Q10768856": {
+  "vi": "Hoài Nhơn (thị xã)",
+  "en": "Hoài Nhơn (town)",
+  "label": "Hoài Nhơn"
+ },
+ "Q10768888": {
+  "vi": "Hoàng Anh Tuấn (huấn luyện viên bóng đá)",
+  "en": "Hoàng Anh Tuấn (footballer)",
+  "label": "Hoàng Anh Tuấn"
+ },
+ "Q10768903": {
+  "vi": "Hoàng Danh Ngọc",
+  "en": "Hoàng Danh Ngọc",
+  "label": "Hoàng Danh Ngọc"
+ },
+ "Q10769892": {
+  "vi": "Huỳnh Hồng Sơn",
+  "en": "Huỳnh Hồng Sơn",
+  "label": "Huỳnh Hồng Sơn"
+ },
+ "Q1062259": {
+  "vi": "Yokohama FC",
+  "en": "Yokohama FC",
+  "label": "Câu lạc bộ bóng đá Yokohama"
+ },
+ "Q1076729": {
+  "vi": "Đại học Quốc gia Hà Nội",
+  "en": "Vietnam National University, Hanoi",
+  "label": "Đại học Quốc gia Hà Nội"
+ },
+ "Q1077294": {
+  "vi": "Hà Tây (tỉnh)",
+  "en": "Hà Tây province",
+  "label": "Hà Tây"
+ },
+ "Q10794020": {
+  "vi": "Minh Xuân",
+  "en": null,
+  "label": "Minh Xuân"
+ },
+ "Q10796834": {
+  "vi": "Mỹ Tho (tỉnh)",
+  "en": null,
+  "label": "Mỹ Tho"
+ },
+ "Q10797207": {
+  "vi": null,
+  "en": null,
+  "label": "Nam Đàn"
+ },
+ "Q10798724": {
+  "vi": "Nghĩa Bình",
+  "en": null,
+  "label": "Nghĩa Bình"
+ },
+ "Q10798893": {
+  "vi": "Nghệ Tĩnh",
+  "en": "Nghệ Tĩnh province",
+  "label": "Nghệ Tĩnh"
+ },
+ "Q10799257": {
+  "vi": "Nguyễn Liêm Thanh",
+  "en": "Nguyễn Liêm Thanh",
+  "label": "Nguyễn Liêm Thanh"
+ },
+ "Q10799479": {
+  "vi": "Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 1987)",
+  "en": "Nguyễn Thanh Bình (footballer, born 1987)",
+  "label": "Nguyễn Thanh Bình"
+ },
+ "Q10799808": {
+  "vi": "Nguyễn Tuấn Mạnh",
+  "en": "Nguyễn Tuấn Mạnh",
+  "label": "Nguyễn Tuấn Mạnh"
+ },
+ "Q10799822": {
+  "vi": "Nguyễn Tăng Tuấn",
+  "en": "Nguyễn Tăng Tuấn",
+  "label": "Nguyễn Tăng Tuấn"
+ },
+ "Q10799893": {
+  "vi": "Nguyễn Văn Dũng (cầu thủ bóng đá, sinh 1994)",
+  "en": "Nguyễn Văn Dũng",
+  "label": "Nguyễn Văn Dũng"
+ },
+ "Q10799979": {
+  "vi": "Nguyễn Văn Sỹ",
+  "en": "Nguyễn Văn Sỹ",
+  "label": "Nguyễn Văn Sỹ"
+ },
+ "Q10800750": {
+  "vi": "Nha Bích",
+  "en": null,
+  "label": "Nha Bích"
+ },
+ "Q10801978": {
+  "vi": "Nông Cống (huyện)",
+  "en": "Nông Cống district",
+  "label": "Nông Cống"
+ },
+ "Q10805714": {
+  "vi": "Phân hiệu Đại học Đà Nẵng tại Kon Tum",
+  "en": null,
+  "label": "Phân hiệu Đại học Đà Nẵng tại Kon Tum"
+ },
+ "Q10805889": {
+  "vi": "Phú Bổn",
+  "en": "Phú Bổn province",
+  "label": "Phú Bổn"
+ },
+ "Q10805951": {
+  "vi": "Phú Khánh",
+  "en": null,
+  "label": "Phú Khánh"
+ },
+ "Q10806277": {
+  "vi": "Phúc Yên (tỉnh)",
+  "en": null,
+  "label": "Phúc Yên"
+ },
+ "Q10806542": {
+  "vi": "Mỹ Tho (phường)",
+  "en": "Mỹ Tho, Đồng Tháp",
+  "label": "Mỹ Tho"
+ },
+ "Q10806914": {
+  "vi": "Phạm Huỳnh Tam Lang",
+  "en": "Phạm Huỳnh Tam Lang",
+  "label": "Phạm Huỳnh Tam Lang"
+ },
+ "Q10807515": {
+  "vi": "Pleiku (tỉnh)",
+  "en": "Pleiku province",
+  "label": "Pleiku"
+ },
+ "Q10810536": {
+  "vi": "Quảng Yên (tỉnh)",
+  "en": null,
+  "label": "Quảng Yên"
+ },
+ "Q10810543": {
+  "vi": "Quảng Đà (tỉnh)",
+  "en": null,
+  "label": "Quảng Đà biệt khu"
+ },
+ "Q10812062": {
+  "vi": "Rạch Giá (tỉnh)",
+  "en": null,
+  "label": "Rạch Giá"
+ },
+ "Q10822667": {
+  "vi": "Sân vận động Ninh Bình",
+  "en": "Ninh Bình Stadium",
+  "label": "Sân vận động Ninh Bình"
+ },
+ "Q10822664": {
+  "vi": "Sân vận động Cần Thơ",
+  "en": "Cần Thơ Stadium",
+  "label": "Sân vận động Cần Thơ"
+ },
+ "Q10822668": {
+  "vi": "Sân vận động Rạch Giá",
+  "en": "Rạch Giá Stadium",
+  "label": "Sân vận động Rạch Giá"
+ },
+ "Q10822672": {
+  "vi": "Sân vận động Tiền Giang",
+  "en": null,
+  "label": "Sân vận động Tiền Giang"
+ },
+ "Q10822747": {
+  "vi": "Sông Bé (tỉnh)",
+  "en": "Sông Bé province",
+  "label": "Sông Bé"
+ },
+ "Q10824791": {
+  "vi": "Thanh Liêm (huyện)",
+  "en": "Thanh Liêm district",
+  "label": "Thanh Liêm"
+ },
+ "Q10828782": {
+  "vi": "Trường Cao đẳng Công nghệ và Thương mại Hà Nội",
+  "en": null,
+  "label": "Trường Cao đẳng Bách nghệ Tây Hà"
+ },
+ "Q10828807": {
+  "vi": "Trường Đại học Khánh Hòa",
+  "en": null,
+  "label": "Trường Đại học Khánh Hòa"
+ },
+ "Q10828883": {
+  "vi": "Trường Sĩ quan Tăng – Thiết giáp",
+  "en": null,
+  "label": "Trường Sĩ quan Tăng-Thiết giáp"
+ },
+ "Q118141646": {
+  "vi": "Võ Minh Trọng",
+  "en": "Võ Minh Trọng",
+  "label": "Võ Minh Trọng"
+ },
+ "Q118150644": {
+  "vi": "Nguyễn Ngọc Thắng",
+  "en": "Nguyễn Ngọc Thắng",
+  "label": "Nguyễn Ngọc Thắng"
+ },
+ "Q118185936": {
+  "vi": "Bùi Vĩ Hào",
+  "en": "Bùi Vĩ Hào",
+  "label": "Bùi Vĩ Hào"
+ },
+ "Q118198776": {
+  "vi": "Hồ Văn Cường (cầu thủ bóng đá)",
+  "en": "Hồ Văn Cường",
+  "label": "Hồ Văn Cường"
+ },
+ "Q118220159": {
+  "vi": "Nguyễn Thái Sơn (cầu thủ bóng đá)",
+  "en": "Nguyễn Thái Sơn",
+  "label": "Nguyễn Thái Sơn"
+ },
+ "Q118248208": {
+  "vi": "Nguyễn Phú Nguyên",
+  "en": "Nguyễn Phú Nguyên",
+  "label": "Nguyễn Phú Nguyên"
+ },
+ "Q118248218": {
+  "vi": "Hoàng Văn Toản",
+  "en": "Hoàng Văn Toản",
+  "label": "Hoàng Văn Toản"
+ },
+ "Q118248216": {
+  "vi": "Giáp Tuấn Dương",
+  "en": "Giáp Tuấn Dương",
+  "label": "Giáp Tuấn Dương"
+ },
+ "Q118249919": {
+  "vi": "Trần Văn Đạt",
+  "en": "Trần Văn Đạt",
+  "label": "Trần Văn Đạt"
+ },
+ "Q118250015": {
+  "vi": "Mạch Ngọc Hà",
+  "en": "Mạch Ngọc Hà",
+  "label": "Mạch Ngọc Hà"
+ },
+ "Q118250577": {
+  "vi": "Đoàn Anh Việt",
+  "en": "Đoàn Anh Việt",
+  "label": "Đoàn Anh Việt"
+ },
+ "Q118251240": {
+  "vi": "Liễu Quang Vinh",
+  "en": "Liễu Quang Vinh",
+  "label": "Liễu Quang Vinh"
+ },
+ "Q119352445": {
+  "vi": "Từ Như Hiển",
+  "en": "Từ Như Hiển",
+  "label": "Từ Như Hiển"
+ },
+ "Q119352635": {
+  "vi": "Trần Minh Toàn",
+  "en": "Trần Minh Toàn",
+  "label": "Trần Minh Toàn"
+ },
+ "Q120140995": {
+  "vi": "Nguyễn Đình Triệu",
+  "en": "Nguyễn Đình Triệu",
+  "label": "Nguyễn Đình Triệu"
+ },
+ "Q107211927": {
+  "vi": "Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 2000)",
+  "en": "Nguyễn Thanh Bình (footballer, born 2000)",
+  "label": "Nguyễn Thanh Bình"
+ },
+ "Q120318534": {
+  "vi": "Vũ Thị Hoa",
+  "en": "Vũ Thị Hoa",
+  "label": "Vũ Thị Hoa"
+ },
+ "Q120400674": {
+  "vi": "Trương Tiến Anh",
+  "en": "Trương Tiến Anh",
+  "label": "Trương Tiến Anh"
+ },
+ "Q120434174": {
+  "vi": "Đào Thị Kiều Oanh",
+  "en": "Đào Thị Kiều Oanh",
+  "label": "Đào Thị Kiều Oanh"
+ },
+ "Q120550422": {
+  "vi": "Trần Thị Hải Linh",
+  "en": "Trần Thị Hải Linh",
+  "label": "Trần Thị Hải Linh"
+ },
+ "Q120556022": {
+  "vi": "Trần Thị Thu",
+  "en": "Trần Thị Thu",
+  "label": "Trần Thị Thu"
+ },
+ "Q120714315": {
+  "vi": "Lê Thị Diễm My",
+  "en": "Lê Thị Diễm My",
+  "label": "Lê Thị Diễm My"
+ },
+ "Q120728279": {
+  "vi": "Trần Thị Thúy Nga",
+  "en": "Trần Thị Thúy Nga",
+  "label": "Trần Thị Thúy Nga"
+ },
+ "Q120728296": {
+  "vi": "Nguyễn Thị Mỹ Anh",
+  "en": "Nguyễn Thị Mỹ Anh",
+  "label": "Nguyễn Thị Mỹ Anh"
+ },
+ "Q121028378": {
+  "vi": "Trần Thị Duyên",
+  "en": "Trần Thị Duyên",
+  "label": "Trần Thị Duyên"
+ },
+ "Q121189868": {
+  "vi": "Trần Nam Hải",
+  "en": "Trần Nam Hải",
+  "label": "Trần Nam Hải"
+ },
+ "Q121238506": {
+  "vi": "Nguyễn Văn Triệu",
+  "en": "Nguyễn Văn Triệu",
+  "label": "Nguyễn Văn Triệu"
+ },
+ "Q121267800": {
+  "vi": "Nguyễn Văn Việt (cầu thủ bóng đá, sinh 2002)",
+  "en": "Nguyễn Văn Việt (footballer, born 2002)",
+  "label": "Nguyễn Văn Việt (cầu thủ bóng đá, sinh 2002)"
+ },
+ "Q111187861": {
+  "vi": "Nguyễn Văn Tùng (cầu thủ bóng đá, sinh 2001)",
+  "en": "Nguyễn Văn Tùng",
+  "label": "Nguyễn Văn Tùng"
+ },
+ "Q111307033": {
+  "vi": "Đinh Xuân Tiến",
+  "en": "Đinh Xuân Tiến",
+  "label": "Đinh Xuân Tiến"
+ },
+ "Q111327315": {
+  "vi": "Trần Liêm Điều",
+  "en": "Trần Liêm Điều",
+  "label": "Trần Liêm Điều"
+ },
+ "Q111417213": {
+  "vi": "Quan Văn Chuẩn",
+  "en": "Quan Văn Chuẩn",
+  "label": "Quan Văn Chuẩn"
+ },
+ "Q111458450": {
+  "vi": "Huỳnh Công Đến",
+  "en": "Huỳnh Công Đến",
+  "label": "Huỳnh Công Đến"
+ },
+ "Q111459897": {
+  "vi": "Nhâm Mạnh Dũng",
+  "en": "Nhâm Mạnh Dũng",
+  "label": "Nhâm Mạnh Dũng"
+ },
+ "Q111536450": {
+  "vi": "Nguyễn Văn Vĩ",
+  "en": "Nguyễn Văn Vĩ",
+  "label": "Nguyễn Văn Vĩ"
+ },
+ "Q111854038": {
+  "vi": "Phan Tuấn Tài",
+  "en": "Phan Tuấn Tài",
+  "label": "Phan Tuấn Tài"
+ },
+ "Q111905296": {
+  "vi": "Vũ Tiến Long",
+  "en": "Vũ Tiến Long",
+  "label": "Vũ Tiến Long"
+ },
+ "Q111906305": {
+  "vi": "Nguyễn Trọng Long",
+  "en": "Nguyễn Trọng Long",
+  "label": "Nguyễn Trọng Long"
+ },
+ "Q112142217": {
+  "vi": "Trần Danh Trung",
+  "en": "Trần Danh Trung",
+  "label": "Trần Danh Trung"
+ },
+ "Q112260798": {
+  "vi": "Lương Duy Cương",
+  "en": "Lương Duy Cương",
+  "label": "Lương Duy Cương"
+ },
+ "Q113005949": {
+  "vi": "Khuất Văn Khang",
+  "en": "Khuất Văn Khang",
+  "label": "Khuất Văn Khang"
+ },
+ "Q113449918": {
+  "vi": "Sân vận động Hà Tĩnh",
+  "en": "Hà Tĩnh Stadium",
+  "label": "Sân vận động Hà Tĩnh"
+ },
+ "Q114167078": {
+  "vi": "Phạm Đình Duy",
+  "en": "Phạm Đình Duy",
+  "label": "Phạm Đình Duy"
+ },
+ "Q1116650": {
+  "vi": "Câu lạc bộ bóng đá Xi măng Xuân Thành Sài Gòn",
+  "en": "Xuan Thanh Saigon Cement FC",
+  "label": "Câu lạc bộ bóng đá Sài Gòn Xuân Thành"
+ },
+ "Q1116659": {
+  "vi": "Câu lạc bộ bóng đá Kiên Giang",
+  "en": "Kiên Giang FC",
+  "label": "Câu lạc bộ bóng đá Kiên Giang"
+ },
+ "Q1116951": {
+  "vi": "Câu lạc bộ bóng đá Xi măng The Vissai Ninh Bình",
+  "en": "Vissai Ninh Bình FC",
+  "label": "Câu lạc bộ bóng đá Xi măng The Vissai Ninh Bình"
+ },
+ "Q1134500": {
+  "vi": "Gia Lâm, Hà Nội",
+  "en": null,
+  "label": "Gia Lâm"
+ },
+ "Q1134523": {
+  "vi": "Hai Bà Trưng (quận)",
+  "en": "Hai Bà Trưng district",
+  "label": "Hai Bà Trưng"
+ },
+ "Q10840144": {
+  "vi": "Đinh Tiến Thành",
+  "en": "Đinh Tiến Thành",
+  "label": "Đinh Tiến Thành"
+ },
+ "Q10840328": {
+  "vi": "Đoàn Thị Kim Chi",
+  "en": "Đoàn Thị Kim Chi",
+  "label": "Đoàn Thị Kim Chi"
+ },
+ "Q10841198": {
+  "vi": "Đại chủng viện Sao Biển",
+  "en": null,
+  "label": "Đại chủng viện Sao Biển"
+ },
+ "Q10841199": {
+  "vi": "Đại chủng viện Thánh Giuse Hà Nội",
+  "en": null,
+  "label": "Đại chủng viện Thánh Giuse Hà Nội"
+ },
+ "Q10841203": {
+  "vi": "Đại chủng viện Thánh Giuse Xuân Lộc",
+  "en": null,
+  "label": "Đại chủng viện Thánh Giuse Xuân Lộc"
+ },
+ "Q10841200": {
+  "vi": "Đại chủng viện Thánh Giuse Sài Gòn",
+  "en": null,
+  "label": "Đại chủng viện Thánh Giuse Sài Gòn"
+ },
+ "Q10841206": {
+  "vi": "Đại chủng viện Xuân Bích Huế",
+  "en": null,
+  "label": "Đại chủng viện Xuân Bích Huế"
+ },
+ "Q10841229": {
+  "vi": "Đại học Thái Nguyên",
+  "en": null,
+  "label": "Đại học Thái Nguyên"
+ },
+ "Q10841526": {
+  "vi": "Đặng Khánh Lâm",
+  "en": "Đặng Khánh Lâm",
+  "label": "Đặng Khánh Lâm"
+ },
+ "Q10841828": {
+  "vi": "Định Tường",
+  "en": "Định Tường province",
+  "label": "Định Tường"
+ },
+ "Q10842129": {
+  "vi": "Đỗ Khải",
+  "en": "Đỗ Khải",
+  "label": "Đỗ Khải"
+ },
+ "Q11681748": {
+  "vi": "Tiền vệ cánh",
+  "en": "Winger (association football)",
+  "label": "tiền đạo cánh"
+ },
+ "Q1009": {
+  "vi": "Cameroon",
+  "en": "Cameroon",
+  "label": "Cameroon"
+ },
+ "Q121365794": {
+  "vi": "Lê Phạm Thành Long",
+  "en": "Lê Phạm Thành Long",
+  "label": "Lê Phạm Thành Long"
+ },
+ "Q121417737": {
+  "vi": "Lê Minh Bình",
+  "en": "Lê Minh Bình",
+  "label": "Lê Minh Bình"
+ },
+ "Q121436244": {
+  "vi": "Võ Hoàng Minh Khoa",
+  "en": "Võ Hoàng Minh Khoa",
+  "label": "Võ Hoàng Minh Khoa"
+ },
+ "Q121546180": {
+  "vi": "Nguyễn Bảo Long",
+  "en": "Nguyễn Bảo Long",
+  "label": "Nguyễn Bảo Long"
+ },
+ "Q121547778": {
+  "vi": "Trần Trung Kiên",
+  "en": "Trần Trung Kiên",
+  "label": "Trần Trung Kiên"
+ },
+ "Q121600683": {
+  "vi": "Cao Văn Bình",
+  "en": "Cao Văn Bình",
+  "label": "Cao Văn Bình"
+ },
+ "Q121608659": {
+  "vi": "Nguyễn Đình Bắc",
+  "en": "Nguyễn Đình Bắc",
+  "label": "Nguyễn Đình Bắc"
+ },
+ "Q121706600": {
+  "vi": "Nguyễn Hồng Phúc",
+  "en": "Nguyễn Hồng Phúc",
+  "label": "Nguyễn Hồng Phúc"
+ },
+ "Q121745414": {
+  "vi": "Nguyễn Minh Quang (cầu thủ bóng đá)",
+  "en": "Nguyễn Minh Quang",
+  "label": "Nguyễn Minh Quang"
+ },
+ "Q121816326": {
+  "vi": "Nguyễn Thái Quốc Cường",
+  "en": "Nguyễn Thái Quốc Cường",
+  "label": "Nguyễn Thái Quốc Cường"
+ },
+ "Q121841476": {
+  "vi": "Lê Nguyên Hoàng",
+  "en": "Lê Nguyên Hoàng",
+  "label": "Lê Nguyên Hoàng"
+ },
+ "Q121841690": {
+  "vi": "Thái Bá Đạt",
+  "en": "Thái Bá Đạt",
+  "label": "Thái Bá Đạt"
+ },
+ "Q1150956": {
+  "vi": "Sân vận động Quốc gia Mỹ Đình",
+  "en": "Mỹ Đình National Stadium",
+  "label": "Sân vận động quốc gia Mỹ Đình"
+ },
+ "Q1154750": {
+  "vi": "Chính trị Việt Nam",
+  "en": "Politics of Vietnam",
+  "label": "chính trị Việt Nam"
+ },
+ "Q1155613": {
+  "vi": "Câu lạc bộ bóng đá Đồng Nai",
+  "en": "Dong Nai FC",
+  "label": "Câu lạc bộ bóng đá Đồng Nai"
+ },
+ "Q1188670": {
+  "vi": "Fabio dos Santos",
+  "en": "Phan Văn Santos",
+  "label": "Fabio dos Santos"
+ },
+ "Q107741240": {
+  "vi": "Dụng Quang Nho",
+  "en": "Dụng Quang Nho",
+  "label": "Dụng Quang Nho"
+ },
+ "Q108737605": {
+  "vi": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long",
+  "en": null,
+  "label": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long"
+ },
+ "Q108881972": {
+  "vi": "Phạm Tuấn Hải (cầu thủ bóng đá)",
+  "en": "Phạm Tuấn Hải",
+  "label": "Phạm Tuấn Hải"
+ },
+ "Q109430363": {
+  "vi": "Lê Văn Đô",
+  "en": "Lê Văn Đô",
+  "label": "Lê Văn Đô"
+ },
+ "Q109435303": {
+  "vi": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng",
+  "en": null,
+  "label": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng"
+ },
+ "Q109435306": {
+  "vi": "Trần Thị Thu Xuân",
+  "en": null,
+  "label": "Trần Thị Thu Xuân"
+ },
+ "Q109436207": {
+  "vi": "Sân vận động Việt Trì",
+  "en": "Việt Trì Stadium",
+  "label": "Sân vận động Việt Trì"
+ },
+ "Q109436400": {
+  "vi": "Câu lạc bộ bóng đá Hòa Bình",
+  "en": "Hoa Binh FC",
+  "label": "Câu lạc bộ bóng đá Hòa Bình"
+ },
+ "Q109436470": {
+  "vi": "Nguyễn Hạ Long",
+  "en": "Nguyễn Hạ Long",
+  "label": "Nguyễn Hạ Long"
+ },
+ "Q109438017": {
+  "vi": "Lý Công Hoàng Anh",
+  "en": "Lý Công Hoàng Anh",
+  "label": "Lý Công Hoàng Anh"
+ },
+ "Q109438022": {
+  "vi": "Đào Văn Nam",
+  "en": "Đào Văn Nam",
+  "label": "Đào Văn Nam"
+ },
+ "Q109438949": {
+  "vi": "Hoàng Minh Tuấn",
+  "en": "Hoàng Minh Tuấn",
+  "label": "Hoàng Minh Tuấn"
+ },
+ "Q109439124": {
+  "vi": "Lê Quốc Vượng",
+  "en": "Lê Quốc Vượng",
+  "label": "Lê Quốc Vượng"
+ },
+ "Q121851165": {
+  "vi": "Lê Đình Long Vũ",
+  "en": "Lê Đình Long Vũ",
+  "label": "Lê Đình Long Vũ"
+ },
+ "Q122143828": {
+  "vi": "Học viện Chính trị Công an nhân dân (Việt Nam)",
+  "en": null,
+  "label": "Học viện Chính trị Công an nhân dân"
+ },
+ "Q122700036": {
+  "vi": "Nguyễn Công Phương (cầu thủ bóng đá)",
+  "en": "Nguyễn Công Phương",
+  "label": "Nguyễn Công Phương"
+ },
+ "Q122829198": {
+  "vi": "Hoàng Vĩnh Nguyên",
+  "en": "Hoàng Vĩnh Nguyên",
+  "label": "Hoàng Vĩnh Nguyên"
+ },
+ "Q123145151": {
+  "vi": "Phùng Thị Minh Nguyệt",
+  "en": "Phùng Thị Minh Nguyệt",
+  "label": "Phùng Thị Minh Nguyệt"
+ },
+ "Q123939890": {
+  "vi": "Đàm Tiến Dũng",
+  "en": "Đàm Tiến Dũng",
+  "label": "Đàm Tiến Dũng"
+ },
+ "Q123953025": {
+  "vi": "Bùi Văn Đức",
+  "en": "Bùi Văn Đức",
+  "label": "Bùi Văn Đức"
+ },
+ "Q124040854": {
+  "vi": "Cù Thị Huỳnh Như",
+  "en": null,
+  "label": "Cù Thị Huỳnh Như"
+ },
+ "Q124368396": {
+  "vi": "Bùi Sỹ Thành",
+  "en": "Bùi Sỹ Thành",
+  "label": "Bùi Sỹ Thành"
+ },
+ "Q124408532": {
+  "vi": "Vũ Hồng Việt",
+  "en": "Vũ Hồng Việt",
+  "label": "Vũ Hồng Việt"
+ },
+ "Q124434928": {
+  "vi": "Sân vận động Ninh Thuận",
+  "en": null,
+  "label": "Sân vận động Ninh Thuận"
+ },
+ "Q124452073": {
+  "vi": "Trần Văn Công (cầu thủ bóng đá)",
+  "en": "Trần Văn Công",
+  "label": "Trần Văn Công"
+ },
+ "Q124520577": {
+  "vi": "Ngô Anh Vũ",
+  "en": null,
+  "label": "Ngô Anh Vũ"
+ },
+ "Q124544926": {
+  "vi": "Nguyễn Đăng Dương",
+  "en": "Nguyễn Đăng Dương",
+  "label": "Nguyễn Đăng Dương"
+ },
+ "Q124616393": {
+  "vi": "Ngọc Minh Chuyên",
+  "en": "Ngọc Minh Chuyên",
+  "label": "Ngọc Minh Chuyên"
+ },
+ "Q124636005": {
+  "vi": "Lê Văn Hà (cầu thủ bóng đá)",
+  "en": "Lê Văn Hà",
+  "label": "Lê Văn Hà"
+ },
+ "Q124650007": {
+  "vi": null,
+  "en": null,
+  "label": "hậu vệ cánh trái"
+ },
+ "Q10829342": {
+  "vi": "Trần Khoa Điển",
+  "en": "Trần Khoa Điển",
+  "label": "Trần Khoa Điển"
+ },
+ "Q10829381": {
+  "vi": "Trần Minh Quang",
+  "en": "Trần Minh Quang",
+  "label": "Trần Minh Quang"
+ },
+ "Q10829872": {
+  "vi": "Trịnh Quang Vinh",
+  "en": "Trịnh Quang Vinh",
+  "label": "Trịnh Quang Vinh"
+ },
+ "Q10830121": {
+  "vi": "Tuyên Đức",
+  "en": null,
+  "label": "Tuyên Đức"
+ },
+ "Q10831414": {
+  "vi": "Tương Dương (huyện)",
+  "en": "Tương Dương district",
+  "label": "Tương Dương"
+ },
+ "Q10831626": {
+  "vi": "Tỉnh (Việt Nam Cộng hòa)",
+  "en": null,
+  "label": "tỉnh của Việt Nam Cộng hòa"
+ },
+ "Q10831631": {
+  "vi": "Tỉnh Việt Nam (thời Pháp thuộc)",
+  "en": null,
+  "label": "tỉnh Việt Nam thời Pháp thuộc"
+ },
+ "Q10832798": {
+  "vi": "Viện Đại học Huế",
+  "en": null,
+  "label": "Viện Đại học Huế"
+ },
+ "Q10832799": {
+  "vi": "Viện Đại học Minh Đức",
+  "en": null,
+  "label": "Viện Đại học Minh Đức"
+ },
+ "Q10832802": {
+  "vi": "Viện Đại học Vạn Hạnh",
+  "en": null,
+  "label": "Viện Đại học Vạn Hạnh"
+ },
+ "Q10833358": {
+  "vi": "Văn Giang (huyện)",
+  "en": "Văn Giang district",
+  "label": "Văn Giang"
+ },
+ "Q10833763": {
+  "vi": "Vĩnh Yên (tỉnh)",
+  "en": null,
+  "label": "Vĩnh Yên"
+ },
+ "Q10840094": {
+  "vi": "Đinh Hoàng Max",
+  "en": "Đinh Hoàng Max",
+  "label": "Đinh Hoàng Max"
+ },
+ "Q114172547": {
+  "vi": "Nguyễn Thanh Nhân",
+  "en": "Nguyễn Thanh Nhân",
+  "label": "Nguyễn Thanh Nhân"
+ },
+ "Q114176951": {
+  "vi": "Nguyễn Văn Trường (cầu thủ bóng đá, sinh tháng 9 năm 2003)",
+  "en": "Nguyễn Văn Trường",
+  "label": "Nguyễn Văn Trường"
+ },
+ "Q114312185": {
+  "vi": "Nguyễn Quốc Việt",
+  "en": "Nguyễn Quốc Việt",
+  "label": "Nguyễn Quốc Việt"
+ },
+ "Q116196832": {
+  "vi": "Câu lạc bộ bóng đá Công an Hà Nội",
+  "en": "Cong An Hanoi FC",
+  "label": "Câu lạc bộ bóng đá Công an Hà Nội"
+ },
+ "Q116771994": {
+  "vi": "Trần Thành Trung",
+  "en": "Chung Nguyen Do",
+  "label": "Trần Thành Trung"
+ },
+ "Q116954901": {
+  "vi": "Câu lạc bộ bóng đá Bình Thuận",
+  "en": "Binh Thuan FC",
+  "label": "Câu lạc bộ bóng đá Bình Thuận"
+ },
+ "Q117355714": {
+  "vi": "Vincent Guyenne",
+  "en": "Vincent Trọng Trí Guyenne",
+  "label": "Vincent Trọng Trí Guyenne"
+ },
+ "Q117475262": {
+  "vi": "Trần Quang Thịnh",
+  "en": "Trần Quang Thịnh",
+  "label": "Trần Quang Thịnh"
+ },
+ "Q117561567": {
+  "vi": "Lê Trung Vinh",
+  "en": "Lê Trung Vinh",
+  "label": "Lê Trung Vinh"
+ },
+ "Q118038420": {
+  "vi": "Lê Quốc Nhật Nam",
+  "en": "Lê Quốc Nhật Nam",
+  "label": "Lê Quốc Nhật Nam"
+ },
+ "Q118095786": {
+  "vi": "Nguyễn Thanh Nhàn",
+  "en": "Nguyễn Thanh Nhàn",
+  "label": "Nguyễn Thanh Nhàn"
+ },
+ "Q118141122": {
+  "vi": "Nguyễn Đức Phú",
+  "en": "Nguyễn Đức Phú",
+  "label": "Nguyễn Đức Phú"
+ },
+ "Q1028545": {
+  "vi": null,
+  "en": "Associação Desportiva Recreativa e Cultural Icasa",
+  "label": null
+ },
+ "Q1076147": {
+  "vi": null,
+  "en": "Chongqing Liangjiang Athletic F.C.",
+  "label": null
+ },
+ "Q1138206": {
+  "vi": null,
+  "en": "FC Sellier & Bellot Vlašim",
+  "label": null
+ },
+ "Q118190287": {
+  "vi": "Nguyễn Đức Việt (cầu thủ bóng đá)",
+  "en": "Nguyễn Đức Việt",
+  "label": null
+ },
+ "Q121384362": {
+  "vi": "Nguyễn Đức Anh",
+  "en": "Nguyễn Đức Anh",
+  "label": null
+ },
+ "Q172014": {
+  "vi": "Đội tuyển bóng đá quốc gia Ghana",
+  "en": "Ghana national football team",
+  "label": "Đội tuyển bóng đá quốc gia Ghana"
+ },
+ "Q157915": {
+  "vi": null,
+  "en": "Garoua",
+  "label": "Garoua"
+ },
+ "Q19571653": {
+  "vi": "Nguyễn Xuân Hùng (sinh năm 1991)",
+  "en": "Nguyễn Xuân Hùng",
+  "label": "Nguyễn Xuân Hùng"
+ },
+ "Q19571738": {
+  "vi": "Trần Đình Hoàng",
+  "en": "Trần Đình Hoàng",
+  "label": "Trần Đình Hoàng"
+ },
+ "Q19577422": {
+  "vi": "Nguyễn Văn Toàn (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Toàn (footballer, born 1996)",
+  "label": "Nguyễn Văn Toàn"
+ },
+ "Q19577550": {
+  "vi": "Phan Thanh Hậu",
+  "en": "Phan Thanh Hậu",
+  "label": "Phan Thanh Hậu"
+ },
+ "Q19577548": {
+  "vi": "Phạm Hoàng Lâm",
+  "en": "Phạm Hoàng Lâm",
+  "label": "Phạm Hoàng Lâm"
+ },
+ "Q19577743": {
+  "vi": "Sầm Ngọc Đức",
+  "en": "Sầm Ngọc Đức",
+  "label": "Sầm Ngọc Đức"
+ },
+ "Q19578021": {
+  "vi": "Sân vận động Tam Kỳ",
+  "en": "Tam Kỳ Stadium",
+  "label": "Sân vận động Tam Kỳ"
+ },
+ "Q130324": {
+  "vi": "Hòa Bình (thành phố)",
+  "en": "Hòa Bình (city)",
+  "label": "Hòa Bình"
+ },
+ "Q130391": {
+  "vi": "Tây Ninh (thành phố)",
+  "en": "Tây Ninh (city)",
+  "label": "Tây Ninh"
+ },
+ "Q19560744": {
+  "vi": "Hồ Tuấn Tài",
+  "en": "Hồ Tuấn Tài",
+  "label": "Hồ Tuấn Tài"
+ },
+ "Q19560797": {
+  "vi": "Huỳnh Tuấn Linh",
+  "en": "Huỳnh Tuấn Linh",
+  "label": "Huỳnh Tuấn Linh"
+ },
+ "Q19561174": {
+  "vi": "Lê Quốc Phương",
+  "en": "Lê Quốc Phương",
+  "label": "Lê Quốc Phương"
+ },
+ "Q19561173": {
+  "vi": "Lê Hoàng Thiên",
+  "en": "Lê Hoàng Thiên",
+  "label": "Lê Hoàng Thiên"
+ },
+ "Q19561293": {
+  "vi": "Lương Xuân Trường",
+  "en": "Lương Xuân Trường",
+  "label": "Lương Xuân Trường"
+ },
+ "Q19567941": {
+  "vi": "Hoàng Thanh Tùng (cầu thủ bóng đá, sinh 1996)",
+  "en": "Hoàng Thanh Tùng",
+  "label": "Hoàng Thanh Tùng"
+ },
+ "Q19571650": {
+  "vi": "Nguyễn Hải Huy",
+  "en": "Nguyễn Hải Huy",
+  "label": "Nguyễn Hải Huy"
+ },
+ "Q19660": {
+  "vi": "Bucharest",
+  "en": "Bucharest",
+  "label": "Bucharest"
+ },
+ "Q1854": {
+  "vi": "Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City",
+  "label": "Thành phố Hồ Chí Minh"
+ },
+ "Q1858": {
+  "vi": "Hà Nội",
+  "en": "Hanoi",
+  "label": "Hà Nội"
+ },
+ "Q1899": {
+  "vi": "Kyiv",
+  "en": "Kyiv",
+  "label": "Kyiv"
+ },
+ "Q193592": {
+  "vi": "Tiền vệ (bóng đá)",
+  "en": "Midfielder",
+  "label": "tiền vệ"
+ },
+ "Q200321": {
+  "vi": "SC Heerenveen",
+  "en": "SC Heerenveen",
+  "label": "SC Heerenveen"
+ },
+ "Q201330": {
+  "vi": "Thủ môn (bóng đá)",
+  "en": "Goalkeeper (association football)",
+  "label": "thủ môn"
+ },
+ "Q1877": {
+  "vi": "Đồng Hới (thành phố)",
+  "en": "Đồng Hới (city)",
+  "label": "Đồng Hới"
+ },
+ "Q17497": {
+  "vi": "F.K. Dinamo Moskva",
+  "en": "FC Dynamo Moscow",
+  "label": "FC Dynamo Moscow"
+ },
+ "Q172964": {
+  "vi": "Thủ môn",
+  "en": "Goalkeeper",
+  "label": "thủ môn"
+ },
+ "Q179658": {
+  "vi": "FCSB",
+  "en": "FCSB",
+  "label": "F.C. Steaua București"
+ },
+ "Q193481": {
+  "vi": "AC Sparta Praha",
+  "en": "AC Sparta Prague",
+  "label": "AC Sparta Praha"
+ },
+ "Q19892749": {
+  "vi": "Huỳnh Tấn Tài",
+  "en": "Huỳnh Tấn Tài",
+  "label": "Huỳnh Tấn Tài"
+ },
+ "Q19893063": {
+  "vi": "Lê Thu Thanh Hương",
+  "en": "Lê Thu Thanh Hương",
+  "label": "Lê Thu Thanh Hương"
+ },
+ "Q19893060": {
+  "vi": "Lê Thị Thương",
+  "en": "Lê Thị Thương",
+  "label": "Lê Thị Thương"
+ },
+ "Q19893659": {
+  "vi": "Nguyễn Thanh Diệp",
+  "en": "Nguyễn Thanh Diệp",
+  "label": "Nguyễn Thanh Diệp"
+ },
+ "Q19893664": {
+  "vi": "Nguyễn Thị Tuyết Dung",
+  "en": "Nguyễn Thị Tuyết Dung",
+  "label": "Nguyễn Thị Tuyết Dung"
+ },
+ "Q19894049": {
+  "vi": "Phạm Văn Tiến",
+  "en": "Phạm Văn Tiến",
+  "label": "Phạm Văn Tiến"
+ },
+ "Q133272506": {
+  "vi": "Huỳnh Hiếu",
+  "en": null,
+  "label": "Huỳnh Hiếu"
+ },
+ "Q133272591": {
+  "vi": "Lê Phước Nhật Quang",
+  "en": null,
+  "label": "Lê Phước Nhật Quang"
+ },
+ "Q133273082": {
+  "vi": "Nguyễn Hồng Phong (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Hồng Phong"
+ },
+ "Q133273118": {
+  "vi": "Lê Ngọc Thiên Ân",
+  "en": null,
+  "label": "Lê Ngọc Thiên Ân"
+ },
+ "Q133273116": {
+  "vi": "Bùi Duy Bảo",
+  "en": null,
+  "label": "Bùi Duy Bảo"
+ },
+ "Q133273129": {
+  "vi": "Huỳnh Thế Hiếu",
+  "en": null,
+  "label": "Huỳnh Thế Hiếu"
+ },
+ "Q133273139": {
+  "vi": "Nguyễn Văn Chiến (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Văn Chiến"
+ },
+ "Q133273145": {
+  "vi": "Nguyễn Văn Sang (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Văn Sang"
+ },
+ "Q133273162": {
+  "vi": "Bùi Tiến Sinh",
+  "en": null,
+  "label": "Bùi Tiến Sinh"
+ },
+ "Q133273203": {
+  "vi": "Nguyễn Hữu Tiệp",
+  "en": null,
+  "label": "Nguyễn Hữu Tiệp"
+ },
+ "Q133273243": {
+  "vi": "Ngô Hoàng Quân",
+  "en": null,
+  "label": "Ngô Hoàng Quân"
+ },
+ "Q133273268": {
+  "vi": "Bùi Xuân Lộc",
+  "en": null,
+  "label": "Bùi Xuân Lộc"
+ },
+ "Q133273322": {
+  "vi": "Nguyễn An (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn An"
+ },
+ "Q133273331": {
+  "vi": "Vũ Văn Quyết",
+  "en": null,
+  "label": "Vũ Văn Quyết"
+ },
+ "Q133273350": {
+  "vi": "Nguyễn Văn Trọng (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Văn Trọng"
+ },
+ "Q133273360": {
+  "vi": "Lê Võ Đình Hoàng Văn",
+  "en": null,
+  "label": "Lê Võ Đình Hoàng Văn"
+ },
+ "Q133280037": {
+  "vi": "Vũ Tuyên Quang",
+  "en": null,
+  "label": "Vũ Tuyên Quang"
+ },
+ "Q133324793": {
+  "vi": "Trần Văn Bun",
+  "en": null,
+  "label": "Trần Văn Bun"
+ },
+ "Q133324871": {
+  "vi": "Lê Văn Tấn",
+  "en": null,
+  "label": "Lê Văn Tấn"
+ },
+ "Q133364510": {
+  "vi": "Võ Đức Bảo",
+  "en": null,
+  "label": "Võ Đức Bảo"
+ },
+ "Q133364772": {
+  "vi": "Nguyễn Tiến Tạo",
+  "en": null,
+  "label": "Nguyễn Tiến Tạo"
+ },
+ "Q133820408": {
+  "vi": "K'Thủa",
+  "en": "K'Thủa",
+  "label": "K'Thủa"
+ },
+ "Q134311811": {
+  "vi": "Câu lạc bộ bóng đá Thép Cần Thơ",
+  "en": "Thep Can Tho FC",
+  "label": "Câu lạc bộ bóng đá Thép Cần Thơ"
+ },
+ "Q134963385": {
+  "vi": "Nguyễn Phúc Nguyên Chương",
+  "en": null,
+  "label": "Nguyễn Phúc Nguyên Chương"
+ },
+ "Q134988445": {
+  "vi": "Long An (phường)",
+  "en": "Long An",
+  "label": "Long An"
+ },
+ "Q134999516": {
+  "vi": "Đặc khu (Việt Nam)",
+  "en": "Special zones of Vietnam",
+  "label": "đặc khu của Việt Nam"
+ },
+ "Q135026770": {
+  "vi": "Sài Gòn (phường)",
+  "en": "Saigon (ward)",
+  "label": "Sài Gòn"
+ },
+ "Q135114145": {
+  "vi": "Nguyễn Lê Phát",
+  "en": "Nguyễn Lê Phát",
+  "label": "Nguyễn Lê Phát"
+ },
+ "Q135182134": {
+  "vi": "Câu lạc bộ bóng đá Công an Hà Nội B",
+  "en": "Cong An Hanoi FC Reserves and Academy",
+  "label": "Câu lạc bộ bóng đá Công an Hà Nội B"
+ },
+ "Q135188263": {
+  "vi": "Lê Văn Thuận",
+  "en": "Lê Văn Thuận",
+  "label": "Lê Văn Thuận"
+ },
+ "Q135228953": {
+  "vi": "Yên Bái (phường)",
+  "en": "Yên Bái",
+  "label": "Yên Bái"
+ },
+ "Q135438798": {
+  "vi": "Sân vận động Hoài Đức",
+  "en": null,
+  "label": "Sân vận động Hoài Đức"
+ },
+ "Q135438868": {
+  "vi": "Sân vận động Phan Thiết",
+  "en": null,
+  "label": "Sân vận động Phan Thiết"
+ },
+ "Q135442170": {
+  "vi": "Nguyễn Xuân Bắc (cầu thủ bóng đá)",
+  "en": "Nguyễn Xuân Bắc (footballer)",
+  "label": "Nguyễn Xuân Bắc (cầu thủ bóng đá)"
+ },
+ "Q18921613": {
+  "vi": "Đào Duy Khánh",
+  "en": "Đào Duy Khánh",
+  "label": "Đào Duy Khánh"
+ },
+ "Q18921784": {
+  "vi": "Giang Trần Quách Tân",
+  "en": "Giang Trần Quách Tân",
+  "label": "Giang Trần Quách Tân"
+ },
+ "Q18921908": {
+  "vi": "Hồ Ngọc Thắng",
+  "en": "Hồ Ngọc Thắng",
+  "label": "Hồ Ngọc Thắng"
+ },
+ "Q19281994": {
+  "vi": "Đỗ Duy Mạnh",
+  "en": "Đỗ Duy Mạnh",
+  "label": "Đỗ Duy Mạnh"
+ },
+ "Q19364865": {
+  "vi": "Lê Đức Lương",
+  "en": "Lê Đức Lương",
+  "label": "Lê Đức Lương"
+ },
+ "Q19364871": {
+  "vi": "Lê Văn Sơn",
+  "en": "Lê Văn Sơn",
+  "label": "Lê Văn Sơn"
+ },
+ "Q19364879": {
+  "vi": "Trần Minh Vương",
+  "en": "Trần Minh Vương",
+  "label": "Trần Minh Vương"
+ },
+ "Q19457544": {
+  "vi": "Sân vận động Cẩm Phả",
+  "en": "Cẩm Phả Stadium",
+  "label": "Sân vận động Cẩm Phả"
+ },
+ "Q19578094": {
+  "vi": "Tô Vĩnh Lợi",
+  "en": "Tô Vĩnh Lợi",
+  "label": "Tô Vĩnh Lợi"
+ },
+ "Q19594359": {
+  "vi": "Phạm Mạnh Hùng (cầu thủ bóng đá)",
+  "en": "Phạm Mạnh Hùng",
+  "label": "Phạm Mạnh Hùng"
+ },
+ "Q19661218": {
+  "vi": "Nguyễn Thị Hòa",
+  "en": "Nguyễn Thị Hòa",
+  "label": "Nguyễn Thị Hòa"
+ },
+ "Q19661238": {
+  "vi": "Nguyễn Thị Muôn",
+  "en": "Nguyễn Thị Muôn",
+  "label": "Nguyễn Thị Muôn"
+ },
+ "Q19661239": {
+  "vi": "Nguyễn Thị Liễu",
+  "en": "Nguyễn Thị Liễu",
+  "label": "Nguyễn Thị Liễu"
+ },
+ "Q19661236": {
+  "vi": "Nguyễn Thị Xuyến",
+  "en": "Nguyễn Thị Xuyến",
+  "label": "Nguyễn Thị Xuyến"
+ },
+ "Q19661252": {
+  "vi": "Trần Thị Kim Hồng",
+  "en": "Trần Thị Kim Hồng",
+  "label": "Trần Thị Kim Hồng"
+ },
+ "Q19661256": {
+  "vi": "Nguyễn Thị Ngọc Anh",
+  "en": "Nguyễn Thị Ngọc Anh",
+  "label": "Nguyễn Thị Ngọc Anh"
+ },
+ "Q19661274": {
+  "vi": "Nguyễn Thị Minh Nguyệt (cầu thủ bóng đá)",
+  "en": "Nguyễn Thị Minh Nguyệt",
+  "label": "Nguyễn Thị Minh Nguyệt"
+ },
+ "Q208318": {
+  "vi": null,
+  "en": "Kaduna",
+  "label": "Kaduna"
+ },
+ "Q209080": {
+  "vi": "Giải bóng đá Vô địch Quốc gia Việt Nam",
+  "en": "V.League 1",
+  "label": "Giải bóng đá vô địch quốc gia Việt Nam"
+ },
+ "Q174844": {
+  "vi": "Siêu đô thị",
+  "en": "Megacity",
+  "label": "siêu đô thị"
+ },
+ "Q125699408": {
+  "vi": "Hoàng Thái Bình",
+  "en": "Hoàng Thái Bình",
+  "label": "Hoàng Thái Bình"
+ },
+ "Q126364613": {
+  "vi": "Hoàng Minh Tiến",
+  "en": "Hoàng Minh Tiến",
+  "label": "Hoàng Minh Tiến"
+ },
+ "Q126366960": {
+  "vi": "Đoàn Hải Quân",
+  "en": null,
+  "label": "Đoàn Hải Quân"
+ },
+ "Q126506006": {
+  "vi": "Vũ Viết Triều",
+  "en": null,
+  "label": "Vũ Viết Triều"
+ },
+ "Q126888364": {
+  "vi": "Nguyễn Gia Bảo",
+  "en": "Nguyễn Gia Bảo",
+  "label": "Nguyễn Gia Bảo"
+ },
+ "Q127286041": {
+  "vi": "Trần Văn Trung (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Trần Văn Trung"
+ },
+ "Q127328067": {
+  "vi": "Đặng Tuấn Hưng",
+  "en": null,
+  "label": "Đặng Tuấn Hưng"
+ },
+ "Q128152695": {
+  "vi": "Bùi Văn Bình",
+  "en": "Bùi Văn Bình",
+  "label": "Bùi Văn Bình"
+ },
+ "Q128246508": {
+  "vi": "Hoàng Quang Dũng",
+  "en": "Hoàng Quang Dũng",
+  "label": "Hoàng Quang Dũng"
+ },
+ "Q129677483": {
+  "vi": "Nguyễn Văn Đạt (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Đạt",
+  "label": "Nguyễn Văn Đạt"
+ },
+ "Q130261393": {
+  "vi": "Nguyễn Nhật Minh",
+  "en": "Nguyễn Nhật Minh",
+  "label": "Nguyễn Nhật Minh"
+ },
+ "Q130302947": {
+  "vi": "Trần Gia Bảo",
+  "en": "Trần Gia Bảo",
+  "label": "Trần Gia Bảo"
+ },
+ "Q130442864": {
+  "vi": "Lê Thanh Phong (cầu thủ bóng đá)",
+  "en": "Lê Thanh Phong",
+  "label": "Lê Thanh Phong"
+ },
+ "Q130752146": {
+  "vi": "Đinh Quang Kiệt",
+  "en": "Đinh Quang Kiệt",
+  "label": "Đinh Quang Kiệt"
+ },
+ "Q131366792": {
+  "vi": "Thuận Hóa (quận)",
+  "en": "Thuận Hóa district",
+  "label": "Thuận Hóa"
+ },
+ "Q131417547": {
+  "vi": "Hoa Lư (thành phố)",
+  "en": "Hoa Lư (city)",
+  "label": "Hoa Lư"
+ },
+ "Q21194": {
+  "vi": "Vũng Tàu (thành phố)",
+  "en": "Vũng Tàu (city)",
+  "label": "Vũng Tàu"
+ },
+ "Q19013": {
+  "vi": "Phan Rang – Tháp Chàm",
+  "en": "Phan Rang–Tháp Chàm",
+  "label": "Phan Rang - Tháp Chàm"
+ },
+ "Q19316": {
+  "vi": "Biên Hòa (thành phố)",
+  "en": "Biên Hòa (city)",
+  "label": "Biên Hòa"
+ },
+ "Q1549591": {
+  "vi": null,
+  "en": null,
+  "label": "thành phố lớn"
+ },
+ "Q1760239": {
+  "vi": "Bình Long (tỉnh)",
+  "en": "Bình Long province",
+  "label": "Bình Long"
+ },
+ "Q15941255": {
+  "vi": "Câu lạc bộ bóng đá Đắk Lắk",
+  "en": "Daklak FC",
+  "label": "Câu lạc bộ bóng đá Đắk Lắk"
+ },
+ "Q16156987": {
+  "vi": "Đặng Thị Kiều Trinh",
+  "en": "Đặng Thị Kiều Trinh",
+  "label": "Đặng Thị Kiều Trinh"
+ },
+ "Q16157637": {
+  "vi": "Ngô Hoàng Thịnh",
+  "en": "Ngô Hoàng Thịnh",
+  "label": "Ngô Hoàng Thịnh"
+ },
+ "Q16158166": {
+  "vi": "Nguyễn Tuấn Anh (cầu thủ bóng đá)",
+  "en": "Nguyễn Tuấn Anh",
+  "label": "Nguyễn Tuấn Anh"
+ },
+ "Q16158264": {
+  "vi": "Nguyễn Văn Vinh",
+  "en": null,
+  "label": "Nguyễn Văn Vinh"
+ },
+ "Q16158518": {
+  "vi": "Phùng Thanh Phương",
+  "en": "Phùng Thanh Phương",
+  "label": "Phùng Thanh Phương"
+ },
+ "Q16158879": {
+  "vi": "Trần Nguyên Mạnh",
+  "en": "Trần Nguyên Mạnh",
+  "label": "Trần Nguyên Mạnh"
+ },
+ "Q16158988": {
+  "vi": "Trương Việt Hoàng",
+  "en": "Trương Việt Hoàng",
+  "label": "Trương Việt Hoàng"
+ },
+ "Q209640": {
+  "vi": "MŠK Žilina",
+  "en": "MŠK Žilina",
+  "label": "MŠK Žilina"
+ },
+ "Q1310048": {
+  "vi": "Đại học Huế",
+  "en": "Huế University",
+  "label": "Đại học Huế"
+ },
+ "Q1319862": {
+  "vi": "Bình Tuy",
+  "en": "Bình Tuy province",
+  "label": "Bình Tuy"
+ },
+ "Q1320221": {
+  "vi": "Tân Yên (huyện)",
+  "en": "Tân Yên district",
+  "label": "Tân Yên"
+ },
+ "Q1320387": {
+  "vi": "Tân Uyên (thành phố)",
+  "en": "Tân Uyên (city)",
+  "label": "Tân Uyên"
+ },
+ "Q1320477": {
+  "vi": "Long Khánh (thành phố)",
+  "en": "Long Khánh (city)",
+  "label": "Long Khánh"
+ },
+ "Q1320513": {
+  "vi": "Phạm Văn Quyến",
+  "en": "Phạm Văn Quyến",
+  "label": "Phạm Văn Quyến"
+ },
+ "Q16481176": {
+  "vi": "Trường Đại học Nghệ An",
+  "en": null,
+  "label": "Trường Đại học Kinh tế Nghệ An"
+ },
+ "Q16481263": {
+  "vi": "Câu lạc bộ bóng đá Cà Mau",
+  "en": "Ca Mau FC",
+  "label": "Câu lạc bộ bóng đá Cà Mau"
+ },
+ "Q16481353": {
+  "vi": "Trường Đại học Mỹ thuật Công nghiệp",
+  "en": null,
+  "label": "Trường Đại học Mỹ thuật Công nghiệp"
+ },
+ "Q16892082": {
+  "vi": "Đại học Công nghiệp Hà Nội",
+  "en": "Hanoi University of Industry",
+  "label": "Trường Đại học Công nghiệp Hà Nội"
+ },
+ "Q16944333": {
+  "vi": "Trường Đại học Dược Hà Nội",
+  "en": "Hanoi University of Pharmacy",
+  "label": "Trường Đại học Dược Hà Nội"
+ },
+ "Q16966654": {
+  "vi": "Đội tuyển bóng đá U-17 quốc gia Việt Nam",
+  "en": "Vietnam national under-17 football team",
+  "label": "Đội tuyển bóng đá U-16 quốc gia Việt Nam"
+ },
+ "Q17126699": {
+  "vi": "Chương Thị Kiều",
+  "en": "Chương Thị Kiều",
+  "label": "Chương Thị Kiều"
+ },
+ "Q1817188": {
+  "vi": "Sân vận động Hàng Đẫy",
+  "en": "Hàng Đẫy Stadium",
+  "label": "Sân vận động Hàng Đẫy"
+ },
+ "Q1822996": {
+  "vi": "Gia Nghĩa",
+  "en": "Gia Nghĩa",
+  "label": "Gia Nghĩa"
+ },
+ "Q1851862": {
+  "vi": "Thủ Dầu Một (tỉnh)",
+  "en": null,
+  "label": "Thủ Dầu Một"
+ },
+ "Q1881407": {
+  "vi": "MFK Karviná",
+  "en": "MFK Karviná",
+  "label": "MFK Karviná"
+ },
+ "Q19662331": {
+  "vi": "Trần Phi Sơn",
+  "en": "Trần Phi Sơn",
+  "label": "Trần Phi Sơn"
+ },
+ "Q19662437": {
+  "vi": "Phan Văn Long",
+  "en": "Phan Văn Long",
+  "label": "Phan Văn Long"
+ },
+ "Q19662556": {
+  "vi": "Nguyễn Phong Hồng Duy",
+  "en": "Nguyễn Phong Hồng Duy",
+  "label": "Nguyễn Phong Hồng Duy"
+ },
+ "Q19662621": {
+  "vi": "Nguyễn Quý Sửu",
+  "en": "Nguyễn Quý Sửu",
+  "label": "Nguyễn Quý Sửu"
+ },
+ "Q19679886": {
+  "vi": "Đội tuyển bóng đá bãi biển quốc gia Việt Nam",
+  "en": "Vietnam national beach soccer team",
+  "label": "Đội tuyển bóng đá bãi biển quốc gia Việt Nam"
+ },
+ "Q19833758": {
+  "vi": "Lê Thanh Bình (cầu thủ bóng đá)",
+  "en": "Lê Thanh Bình",
+  "label": "Lê Thanh Bình"
+ },
+ "Q19833804": {
+  "vi": "Nguyễn Hữu Dũng",
+  "en": "Nguyễn Hữu Dũng",
+  "label": "Nguyễn Hữu Dũng"
+ },
+ "Q19840218": {
+  "vi": "Lê Quang Hùng (cầu thủ bóng đá)",
+  "en": "Lê Quang Hùng",
+  "label": "Lê Quang Hùng"
+ },
+ "Q19892123": {
+  "vi": "Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1995)",
+  "en": "Bùi Tiến Dũng (footballer, born 1995)",
+  "label": "Bùi Tiến Dũng"
+ },
+ "Q1884726": {
+  "vi": "Thủ Đức (quận)",
+  "en": "Thủ Đức district",
+  "label": "Quận Thủ Đức"
+ },
+ "Q1925306": {
+  "vi": "Bắc Thái",
+  "en": null,
+  "label": "Bắc Thái"
+ },
+ "Q1951273": {
+  "vi": "Long Xuyên (tỉnh)",
+  "en": null,
+  "label": "Long Xuyên"
+ },
+ "Q1969085": {
+  "vi": "Đội tuyển bóng đá U-21 quốc gia Slovakia",
+  "en": "Slovakia national under-21 football team",
+  "label": "Đội tuyển bóng đá U-21 quốc gia Slovakia"
+ },
+ "Q1971210": {
+  "vi": "Phan Văn Tài Em",
+  "en": "Phan Văn Tài Em",
+  "label": "Phan Văn Tài Em"
+ },
+ "Q19953632": {
+  "vi": null,
+  "en": null,
+  "label": "đơn vị hành chính cũ"
+ },
+ "Q19973720": {
+  "vi": "Vũ Văn Thanh",
+  "en": "Vũ Văn Thanh",
+  "label": "Vũ Văn Thanh"
+ },
+ "Q20025751": {
+  "vi": "Trường Đại học Công nghệ Giao thông vận tải",
+  "en": null,
+  "label": "Trường Đại học Công nghệ Giao thông Vận tải"
+ },
+ "Q20025854": {
+  "vi": "Lê Đức Tuấn",
+  "en": "Lê Đức Tuấn",
+  "label": "Lê Đức Tuấn"
+ },
+ "Q20026059": {
+  "vi": "Câu lạc bộ bóng đá Phú Yên",
+  "en": "Phu Yen FC",
+  "label": "Câu lạc bộ bóng đá Phú Yên"
+ },
+ "Q20026260": {
+  "vi": "Trường Đại học Cảnh sát nhân dân (Việt Nam)",
+  "en": null,
+  "label": "Trường Đại học Cảnh sát Nhân dân"
+ },
+ "Q16205805": {
+  "vi": "Đặng Văn Thành",
+  "en": "Đặng Văn Thành",
+  "label": "Đặng Văn Thành"
+ },
+ "Q16232812": {
+  "vi": "Trần Bửu Ngọc",
+  "en": "Trần Bửu Ngọc",
+  "label": "Trần Bửu Ngọc"
+ },
+ "Q16259792": {
+  "vi": "Câu lạc bộ bóng đá Khatoco Khánh Hòa (2012)",
+  "en": "Khatoco Khanh Hoa FC",
+  "label": "Câu lạc bộ bóng đá Sanna Khánh Hòa"
+ },
+ "Q16480194": {
+  "vi": "Bắc Từ Liêm",
+  "en": "Bắc Từ Liêm district",
+  "label": "Bắc Từ Liêm"
+ },
+ "Q16480294": {
+  "vi": "Học viện Lục quân (Việt Nam)",
+  "en": null,
+  "label": "Học viện Lục quân"
+ },
+ "Q16480474": {
+  "vi": "Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn, Đại học Đà Nẵng",
+  "en": null,
+  "label": "Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt - Hàn"
+ },
+ "Q16480503": {
+  "vi": "Trường Sĩ quan Thông tin – Đại học Thông tin Liên lạc",
+  "en": null,
+  "label": "Trường Sĩ quan Thông tin"
+ },
+ "Q16480583": {
+  "vi": "Trường Đại học Tây Nguyên",
+  "en": null,
+  "label": "Trường Đại học Tây Nguyên"
+ },
+ "Q16480671": {
+  "vi": "Ninh Văn Bảo",
+  "en": "Ninh Văn Bảo",
+  "label": "Ninh Văn Bảo"
+ },
+ "Q16480704": {
+  "vi": "Trường Đại học Công đoàn",
+  "en": null,
+  "label": "Trường Đại học Công đoàn"
+ },
+ "Q16480850": {
+  "vi": "Vũ Minh Tuấn",
+  "en": "Vũ Minh Tuấn",
+  "label": "Vũ Minh Tuấn"
+ },
+ "Q16480995": {
+  "vi": "Trường Đại học Công nghiệp Việt – Hung",
+  "en": null,
+  "label": "Trường Đại học Công nghiệp Việt-Hung"
+ },
+ "Q16481063": {
+  "vi": "Trường Đại học Phú Xuân",
+  "en": null,
+  "label": "Trường Đại học Phú Xuân"
+ },
+ "Q135967241": {
+  "vi": "Phạm Gia Hưng",
+  "en": "Phạm Gia Hưng",
+  "label": "Phạm Gia Hưng"
+ },
+ "Q136003743": {
+  "vi": "Phan Du Học",
+  "en": "Phan Du Học",
+  "label": "Phan Du Học"
+ },
+ "Q136030279": {
+  "vi": "Võ Anh Quân",
+  "en": "Võ Anh Quân",
+  "label": "Võ Anh Quân"
+ },
+ "Q136085426": {
+  "vi": "Nguyễn Thanh Tùng (cầu thủ bóng đá)",
+  "en": "Nguyễn Thanh Tùng (footballer)",
+  "label": "Nguyễn Thanh Tùng (cầu thủ bóng đá)"
+ },
+ "Q136102710": {
+  "vi": "Damian Vũ Thanh An",
+  "en": "Damian Vu Thanh",
+  "label": "Damian Vũ Thanh An"
+ },
+ "Q136332810": {
+  "vi": "Bình Phú (tỉnh)",
+  "en": null,
+  "label": "Bình Phú"
+ },
+ "Q136346872": {
+  "vi": "Nguyễn Trọng Phú",
+  "en": null,
+  "label": "Nguyễn Trọng Phú"
+ },
+ "Q136547058": {
+  "vi": "Câu lạc bộ bóng đá Đại học Văn Hiến",
+  "en": "Van Hien University FC",
+  "label": "Câu lạc bộ bóng đá Đại học Văn Hiến"
+ },
+ "Q136717942": {
+  "vi": "Khổng Minh Gia Bảo",
+  "en": "Khổng Minh Gia Bảo",
+  "label": "Khổng Minh Gia Bảo"
+ },
+ "Q136762754": {
+  "vi": "Thục Phán (phường)",
+  "en": "Thục Phán (ward)",
+  "label": "Thục Phán"
+ },
+ "Q136771569": {
+  "vi": "Nguyễn Hoàng Nam Mi",
+  "en": "Nammi Nguyen",
+  "label": "Nguyễn Hoàng Nam Mi"
+ },
+ "Q137166757": {
+  "vi": "Phạm Minh Phúc",
+  "en": "Phạm Minh Phúc",
+  "label": "Phạm Minh Phúc"
+ },
+ "Q137325529": {
+  "vi": null,
+  "en": null,
+  "label": "tỉnh cũ của Việt Nam"
+ },
+ "Q137361114": {
+  "vi": "Nguyễn Thị Duyên",
+  "en": null,
+  "label": "Nguyễn Thị Duyên"
+ },
+ "Q137638689": {
+  "vi": "Vũ Thành Vinh (cầu thủ bóng đá)",
+  "en": "Vũ Thành Vinh",
+  "label": "Vũ Thành Vinh"
+ },
+ "Q138645918": {
+  "vi": "Trần Nhật Lan",
+  "en": null,
+  "label": "Trần Nhật Lan"
+ },
+ "Q138822612": {
+  "vi": "Nguyễn Minh Tâm (cầu thủ bóng đá)",
+  "en": "Nguyễn Minh Tâm",
+  "label": "Nguyễn Minh Tâm"
+ },
+ "Q139621582": {
+  "vi": "Lê Anh Đức",
+  "en": null,
+  "label": "Lê Anh Đức"
+ },
+ "Q140004560": {
+  "vi": "Quách Thu Em",
+  "en": null,
+  "label": "Quách Thu Em"
+ },
+ "Q140004741": {
+  "vi": "Nguyễn Thị Thanh Hảo",
+  "en": null,
+  "label": "Nguyễn Thị Thanh Hảo"
+ },
+ "Q140007736": {
+  "vi": "Lê Thị Trang",
+  "en": null,
+  "label": "Lê Thị Trang"
+ },
+ "Q140007763": {
+  "vi": "Đỗ Thị Thúy Nga",
+  "en": null,
+  "label": "Đỗ Thị Thúy Nga"
+ },
+ "Q140007775": {
+  "vi": "Hà Ngọc Diệp",
+  "en": null,
+  "label": "Hà Ngọc Diệp"
+ },
+ "Q140007781": {
+  "vi": "Đỗ Thị Hà Vi",
+  "en": null,
+  "label": "Đỗ Thị Hà Vi"
+ },
+ "Q140007789": {
+  "vi": "Lê Thị Bảo Trâm",
+  "en": null,
+  "label": "Lê Thị Bảo Trâm"
+ },
+ "Q140007799": {
+  "vi": "Lê Hồng Yêu",
+  "en": null,
+  "label": "Lê Hồng Yêu"
+ },
+ "Q140007809": {
+  "vi": "Ngân Thị Thanh Hiếu",
+  "en": null,
+  "label": "Ngân Thị Thanh Hiếu"
+ },
+ "Q140009929": {
+  "vi": "Nguyễn Thị Kim Phụng",
+  "en": null,
+  "label": "Nguyễn Thị Kim Phụng"
+ },
+ "Q140009974": {
+  "vi": "Trương Thị Ngọc Mai",
+  "en": null,
+  "label": "Trương Thị Ngọc Mai"
+ },
+ "Q140010008": {
+  "vi": "Nguyễn Thị Trúc Hương",
+  "en": null,
+  "label": "Nguyễn Thị Trúc Hương"
+ },
+ "Q140010018": {
+  "vi": "Phạm Thị Lan Anh (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Phạm Thị Lan Anh (cầu thủ bóng đá)"
+ },
+ "Q1381899": {
+  "vi": "Thành phố trực thuộc trung ương (Việt Nam)",
+  "en": "Municipalities of Vietnam",
+  "label": "thành phố trực thuộc trung ương của Việt Nam"
+ },
+ "Q1387184": {
+  "vi": "Phan Thanh Bình (cầu thủ bóng đá)",
+  "en": "Phan Thanh Bình",
+  "label": "Phan Thanh Bình"
+ },
+ "Q1387720": {
+  "vi": "Câu lạc bộ bóng đá Thanh Hóa",
+  "en": "Thanh Hoa FC",
+  "label": "Câu lạc bộ bóng đá Đông Á Thanh Hóa"
+ },
+ "Q19512": {
+  "vi": "F.C. Sochaux-Montbéliard",
+  "en": "FC Sochaux-Montbéliard",
+  "label": "F.C. Sochaux-Montbéliard"
+ },
+ "Q17485579": {
+  "vi": "Florentin Phạm Huy Tiến",
+  "en": "Florentin Pham",
+  "label": "Florentin Phạm Huy Tiến"
+ },
+ "Q18045155": {
+  "vi": "Nguyễn Hữu Anh Tài",
+  "en": "Nguyễn Hữu Anh Tài",
+  "label": "Nguyễn Hữu Anh Tài"
+ },
+ "Q18045362": {
+  "vi": "Nguyễn Công Phượng",
+  "en": "Nguyễn Công Phượng",
+  "label": "Nguyễn Công Phượng"
+ },
+ "Q18049744": {
+  "vi": "Lục Xuân Hưng",
+  "en": "Lục Xuân Hưng",
+  "label": "Lục Xuân Hưng"
+ },
+ "Q18415849": {
+  "vi": "Nguyễn Hữu Đang (cầu thủ bóng đá)",
+  "en": "Nguyễn Hữu Đang (footballer)",
+  "label": "Nguyễn Hữu Đang"
+ },
+ "Q18459039": {
+  "vi": "Khu Tự trị Mường",
+  "en": "Mường Autonomous Territory",
+  "label": "Khu Tự trị Mường"
+ },
+ "Q18459908": {
+  "vi": "Nguyễn Hải Anh (cầu thủ bóng đá)",
+  "en": "Nguyễn Hải Anh",
+  "label": "Nguyễn Hải Anh"
+ },
+ "Q1387898": {
+  "vi": "Câu lạc bộ bóng đá Bình Minh Sài Gòn",
+  "en": "Aurora Saigon United FC",
+  "label": "Câu lạc bộ bóng đá Tập đoàn Cao su Đồng Tháp"
+ },
+ "Q1457082": {
+  "vi": "Trường Đại học Tôn Đức Thắng",
+  "en": "Tôn Đức Thắng University",
+  "label": "Trường Đại học Tôn Đức Thắng"
+ },
+ "Q2002878": {
+  "vi": "Nguyễn Van Bakel",
+  "en": "Danny van Bakel",
+  "label": "Danny van Bakel"
+ },
+ "Q2031603": {
+  "vi": "Cần Thơ (tỉnh)",
+  "en": null,
+  "label": "Cần Thơ"
+ },
+ "Q2036930": {
+  "vi": "Đội tuyển bóng đá nữ quốc gia Việt Nam",
+  "en": "Vietnam women's national football team",
+  "label": "Đội tuyển bóng đá nữ quốc gia Việt Nam"
+ },
+ "Q2051647": {
+  "vi": "Sân vận động Thống Nhất",
+  "en": "Thống Nhất Stadium",
+  "label": "Sân vận động Thống Nhất"
+ },
+ "Q19491": {
+  "vi": "Nha Trang (thành phố)",
+  "en": "Nha Trang (city)",
+  "label": "Nha Trang"
+ },
+ "Q18461615": {
+  "vi": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
+  "en": "Hanoi University of Natural Resources and Environment",
+  "label": "Đại học Tài nguyên và Môi trường Hà Nội"
+ },
+ "Q18637210": {
+  "vi": "Bùi Văn Hiếu",
+  "en": "Bùi Văn Hiếu",
+  "label": "Bùi Văn Hiếu"
+ },
+ "Q18637462": {
+  "vi": "Nguyễn Thanh Hiền (cầu thủ bóng đá)",
+  "en": "Nguyễn Thanh Hiền",
+  "label": "Nguyễn Thanh Hiền"
+ },
+ "Q18637480": {
+  "vi": "Nguyễn Huy Hùng",
+  "en": "Nguyễn Huy Hùng",
+  "label": "Nguyễn Huy Hùng"
+ },
+ "Q18637715": {
+  "vi": "Nguyễn Huy Cường",
+  "en": "Nguyễn Huy Cường",
+  "label": "Nguyễn Huy Cường"
+ },
+ "Q18637770": {
+  "vi": "Quế Ngọc Hải",
+  "en": "Quế Ngọc Hải",
+  "label": "Quế Ngọc Hải"
+ },
+ "Q18638118": {
+  "vi": "Nguyễn Minh Tùng",
+  "en": "Nguyễn Minh Tùng",
+  "label": "Nguyễn Minh Tùng"
+ },
+ "Q18638146": {
+  "vi": "Võ Huy Toàn",
+  "en": "Võ Huy Toàn",
+  "label": "Võ Huy Toàn"
+ },
+ "Q18685094": {
+  "vi": "Bùi Văn Long",
+  "en": "Bùi Văn Long",
+  "label": "Bùi Văn Long"
+ },
+ "Q18686853": {
+  "vi": "Hoàng Minh Tâm",
+  "en": "Hoàng Minh Tâm",
+  "label": "Hoàng Minh Tâm"
+ },
+ "Q18755474": {
+  "vi": "Trần Hữu Đông Triều",
+  "en": "Trần Hữu Đông Triều",
+  "label": "Trần Hữu Đông Triều"
+ },
+ "Q2089300": {
+  "vi": "Pirapemas",
+  "en": "Pirapemas",
+  "label": "Pirapemas"
+ },
+ "Q2107381": {
+  "vi": "Hải Hưng (tỉnh)",
+  "en": "Hải Hưng province",
+  "label": "Hải Hưng"
+ },
+ "Q2107955": {
+  "vi": "Kirivong Sok Sen Chey FC",
+  "en": "Kirivong Sok Sen Chey F.C.",
+  "label": "Kirivong Sok Sen Chey FC"
+ },
+ "Q2108646": {
+  "vi": "Cap Saint Jacques (tỉnh)",
+  "en": null,
+  "label": "Cap Saint Jacques"
+ },
+ "Q2121534": {
+  "vi": "Đại Lộc (huyện)",
+  "en": "Đại Lộc district",
+  "label": "Đại Lộc"
+ },
+ "Q12500632": {
+  "vi": "Ngô Xuân Quýnh",
+  "en": "Ngô Xuân Quýnh",
+  "label": "Ngô Xuân Quýnh"
+ },
+ "Q13230786": {
+  "vi": "Lê Giang Patrik",
+  "en": "Patrik Le Giang",
+  "label": "Lê Giang Patrik"
+ },
+ "Q14333541": {
+  "vi": "Lê Văn Tân (cầu thủ bóng đá)",
+  "en": "Jonathan Quartey (footballer, born 1984)",
+  "label": "Lê Văn Tân"
+ },
+ "Q14655485": {
+  "vi": "Trường Cao đẳng Ngoại ngữ – Công nghệ Việt Nhật",
+  "en": "Vietnamese-Japanese Foreign Language-Technology College",
+  "label": "Trường Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật"
+ },
+ "Q20026262": {
+  "vi": "Trường Đại học Việt Nhật, Đại học Quốc gia Hà Nội",
+  "en": "VNU Vietnam Japan University",
+  "label": "Trường Đại học Việt - Nhật"
+ },
+ "Q20026263": {
+  "vi": "Trường Đại học Y Dược Cần Thơ",
+  "en": null,
+  "label": "Trường Đại học Y Dược Cần Thơ"
+ },
+ "Q20026261": {
+  "vi": "Trường Đại học Phòng cháy chữa cháy (Việt Nam)",
+  "en": null,
+  "label": "Trường Đại học Phòng cháy chữa cháy"
+ },
+ "Q20641226": {
+  "vi": "Nguyễn Thị Nguyệt (cầu thủ bóng đá)",
+  "en": "Nguyễn Thị Nguyệt",
+  "label": "Nguyễn Thị Nguyệt"
+ },
+ "Q20641227": {
+  "vi": "Nguyễn Văn Công (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Công",
+  "label": "Nguyễn Văn Công"
+ },
+ "Q20641559": {
+  "vi": "Trần Thị Hồng Nhung",
+  "en": "Trần Thị Hồng Nhung",
+  "label": "Trần Thị Hồng Nhung"
+ },
+ "Q20641560": {
+  "vi": "Trần Thị Thùy Trang",
+  "en": "Trần Thị Thùy Trang",
+  "label": "Trần Thị Thùy Trang"
+ },
+ "Q20641628": {
+  "vi": "Vũ Ngọc Thịnh",
+  "en": "Vũ Ngọc Thịnh",
+  "label": "Vũ Ngọc Thịnh"
+ },
+ "Q20760352": {
+  "vi": "Câu lạc bộ bóng đá trong nhà Thái Sơn Nam",
+  "en": "Thai Son Nam HCMC Futsal Club",
+  "label": "Câu lạc bộ bóng đá trong nhà Thái Sơn Nam"
+ },
+ "Q20894528": {
+  "vi": "Câu lạc bộ bóng đá Công an nhân dân (2008)",
+  "en": null,
+  "label": "Câu lạc bộ bóng đá Công an Hà Nội"
+ },
+ "Q20895236": {
+  "vi": "Nguyễn Xuân Nam",
+  "en": "Nguyễn Xuân Nam",
+  "label": "Nguyễn Xuân Nam"
+ },
+ "Q20984268": {
+  "vi": "Câu lạc bộ bóng đá Thành phố Đồng Nai",
+  "en": "Dong Nai City FC",
+  "label": "Câu lạc bộ bóng đá Bình Phước"
+ },
+ "Q131746469": {
+  "vi": "Thừa Thiên Huế",
+  "en": "Thừa Thiên Huế province",
+  "label": "Thừa Thiên - Huế"
+ },
+ "Q133073165": {
+  "vi": "Phạm Lý Đức",
+  "en": "Phạm Lý Đức",
+  "label": "Phạm Lý Đức"
+ },
+ "Q133272208": {
+  "vi": "Nguyễn Văn Minh Hiếu",
+  "en": null,
+  "label": "Nguyễn Văn Minh Hiếu"
+ },
+ "Q140010039": {
+  "vi": "Nguyễn Thị Hoa (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Hoa (cầu thủ bóng đá)"
+ },
+ "Q140010061": {
+  "vi": "Trần Thị Hải Yến",
+  "en": null,
+  "label": "Trần Thị Hải Yến"
+ },
+ "Q140010067": {
+  "vi": "Nguyễn Thị Hà",
+  "en": null,
+  "label": "Nguyễn Thị Hà"
+ },
+ "Q140010134": {
+  "vi": "Đỗ Thị Mỹ Oanh",
+  "en": null,
+  "label": "Đỗ Thị Mỹ Oanh"
+ },
+ "Q140010137": {
+  "vi": "Bùi Thị Hiền Lương",
+  "en": null,
+  "label": "Bùi Thị Hiền Lương"
+ },
+ "Q140010157": {
+  "vi": "Nguyễn Thị Hiền (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Hiền (cầu thủ bóng đá)"
+ },
+ "Q140010188": {
+  "vi": "Trương Thị Phụng",
+  "en": null,
+  "label": "Trương Thị Phụng"
+ },
+ "Q140010275": {
+  "vi": "Lương Thị Đào",
+  "en": null,
+  "label": "Lương Thị Đào"
+ },
+ "Q140010304": {
+  "vi": "Dương Thị Danh",
+  "en": null,
+  "label": "Dương Thị Danh"
+ },
+ "Q140010485": {
+  "vi": "Nguyễn Thị Diệu Huyền",
+  "en": null,
+  "label": "Nguyễn Thị Diệu Huyền"
+ },
+ "Q140010497": {
+  "vi": "Dương Thị Khánh Ly",
+  "en": null,
+  "label": "Dương Thị Khánh Ly"
+ },
+ "Q140010540": {
+  "vi": "Lê Thị Hoài Thu",
+  "en": null,
+  "label": "Lê Thị Hoài Thu"
+ },
+ "Q140010555": {
+  "vi": "Lê Thị Vui",
+  "en": null,
+  "label": "Lê Thị Vui"
+ },
+ "Q140010568": {
+  "vi": "Trịnh Thuỳ Linh",
+  "en": null,
+  "label": "Trịnh Thuỳ Linh"
+ },
+ "Q140010618": {
+  "vi": "Nguyễn Thị Hồng Phúc",
+  "en": null,
+  "label": "Nguyễn Thị Hồng Phúc"
+ },
+ "Q140010641": {
+  "vi": "Trần Thị Bích Hạnh",
+  "en": null,
+  "label": "Trần Thị Bích Hạnh"
+ },
+ "Q140011464": {
+  "vi": "Đỗ Thị Phương",
+  "en": null,
+  "label": "Đỗ Thị Phương"
+ },
+ "Q140011512": {
+  "vi": "Nguyễn Thị Thuý Nga",
+  "en": null,
+  "label": "Nguyễn Thị Thuý Nga"
+ },
+ "Q140011556": {
+  "vi": "Phạm Quỳnh Anh (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Phạm Quỳnh Anh (cầu thủ bóng đá)"
+ },
+ "Q140011596": {
+  "vi": "Nguyễn Thị Mai Lan",
+  "en": null,
+  "label": "Nguyễn Thị Mai Lan"
+ },
+ "Q141238874": {
+  "vi": "Hạ Long (phường)",
+  "en": "Hạ Long",
+  "label": "Hạ Long"
+ },
+ "Q141618333": {
+  "vi": "Lê Trung Tuyến",
+  "en": null,
+  "label": "Lê Trung Tuyến"
+ },
+ "Q141619315": {
+  "vi": "Lê Văn Hùng",
+  "en": null,
+  "label": "Lê Văn Hùng"
+ },
+ "Q141632471": {
+  "vi": "Nguyễn Thanh Khôi",
+  "en": null,
+  "label": "Nguyễn Thanh Khôi"
+ },
+ "Q20984308": {
+  "vi": "Trường Đại học Vinh",
+  "en": "Vinh University",
+  "label": "Trường Đại học Vinh"
+ },
+ "Q21010014": {
+  "vi": "Nguyễn Công Thành (cầu thủ bóng đá, sinh 1997)",
+  "en": "Nguyễn Công Thành",
+  "label": "Nguyễn Công Thành"
+ },
+ "Q21079332": {
+  "vi": "Nguyễn Tiến Duy",
+  "en": "Nguyễn Tiến Duy",
+  "label": "Nguyễn Tiến Duy"
+ },
+ "Q21181046": {
+  "vi": "Đặng Văn Robert",
+  "en": "Robert Đặng Văn",
+  "label": "Đặng Văn Robert"
+ },
+ "Q124693351": {
+  "vi": "Trần Ngọc Sơn (cầu thủ bóng đá, sinh 2003)",
+  "en": "Trần Ngọc Sơn (footballer, born 2003)",
+  "label": "Trần Ngọc Sơn (cầu thủ bóng đá, sinh 2003)"
+ },
+ "Q124707241": {
+  "vi": "Nguyễn Quang Vinh",
+  "en": "Nguyễn Quang Vinh",
+  "label": "Nguyễn Quang Vinh"
+ },
+ "Q124737653": {
+  "vi": "Trịnh Xuân Hoàng",
+  "en": "Trịnh Xuân Hoàng",
+  "label": "Trịnh Xuân Hoàng"
+ },
+ "Q124799272": {
+  "vi": "Nguyễn Ngọc Mỹ",
+  "en": "Nguyễn Ngọc Mỹ",
+  "label": "Nguyễn Ngọc Mỹ"
+ },
+ "Q124959557": {
+  "vi": "Hà Văn Phương",
+  "en": "Hà Văn Phương",
+  "label": "Hà Văn Phương"
+ },
+ "Q125256530": {
+  "vi": "Trần Đình Tiến",
+  "en": "Trần Đình Tiến",
+  "label": "Trần Đình Tiến"
+ },
+ "Q125256989": {
+  "vi": "Trần Hoàng Phúc",
+  "en": "Trần Hoàng Phúc",
+  "label": "Trần Hoàng Phúc"
+ },
+ "Q125262820": {
+  "vi": "Nguyễn Hữu Tuấn (cầu thủ bóng đá, sinh 1996)",
+  "en": null,
+  "label": "Nguyễn Hữu Tuấn"
+ },
+ "Q125383680": {
+  "vi": "Nguyễn Công Thành (cầu thủ bóng đá, sinh 1991)",
+  "en": null,
+  "label": "Nguyễn Công Thành"
+ },
+ "Q125422482": {
+  "vi": "Nguyễn Hiểu Minh",
+  "en": "Nguyễn Hiểu Minh",
+  "label": "Nguyễn Hiểu Minh"
+ },
+ "Q125643750": {
+  "vi": "Ngô Đăng Khoa",
+  "en": "Khoa Ngo",
+  "label": "Ngô Đăng Khoa"
+ },
+ "Q204675": {
+  "vi": null,
+  "en": "Associação Portuguesa de Desportos",
+  "label": null
+ },
+ "Q1369558": {
+  "vi": null,
+  "en": "Winger (sports)",
+  "label": null
+ },
+ "Q1668203": {
+  "vi": null,
+  "en": "Lommel SK",
+  "label": null
+ },
+ "Q1956025": {
+  "vi": null,
+  "en": "1. SK Prostějov",
+  "label": null
+ },
+ "Q14749501": {
+  "vi": null,
+  "en": "Slovakia national under-19 football team",
+  "label": null
+ },
+ "Q128224380": {
+  "vi": "Nguyễn Văn Đức (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Đức",
+  "label": null
+ },
+ "Q130643673": {
+  "vi": "Trương Văn Thiết",
+  "en": "Trương Văn Thiết",
+  "label": null
+ },
+ "Q213": {
+  "vi": "Séc",
+  "en": "Czech Republic",
+  "label": "Séc"
+ },
+ "Q216075": {
+  "vi": "Cần Thơ",
+  "en": "Cần Thơ",
+  "label": "Cần Thơ"
+ },
+ "Q268258": {
+  "vi": null,
+  "en": null,
+  "label": "hậu vệ trung tâm"
+ },
+ "Q270689": {
+  "vi": "Đội tuyển bóng đá quốc gia Việt Nam",
+  "en": "Vietnam national football team",
+  "label": "Đội tuyển bóng đá quốc gia Việt Nam"
+ },
+ "Q24956703": {
+  "vi": "Đội tuyển bóng đá nữ U-20 quốc gia Việt Nam",
+  "en": "Vietnam women's national under-20 football team",
+  "label": "Đội tuyển bóng đá U-19 nữ quốc gia Việt Nam"
+ },
+ "Q24957864": {
+  "vi": "Trần Đình Minh Hoàng",
+  "en": null,
+  "label": "Trần Đình Minh Hoàng"
+ },
+ "Q24957882": {
+  "vi": "Trịnh Tấn Thành",
+  "en": null,
+  "label": "Trịnh Tấn Thành"
+ },
+ "Q24957888": {
+  "vi": "Nguyễn Thị Kim Hồng",
+  "en": null,
+  "label": "Nguyễn Thị Kim Hồng"
+ },
+ "Q24957898": {
+  "vi": "Võ Nhật Tân",
+  "en": "Võ Nhật Tân",
+  "label": "Võ Nhật Tân"
+ },
+ "Q24958072": {
+  "vi": "Bùi Thị Tuyết",
+  "en": null,
+  "label": "Bùi Thị Tuyết"
+ },
+ "Q24958080": {
+  "vi": "Lưu Ngọc Mai",
+  "en": "Lưu Ngọc Mai",
+  "label": "Lưu Ngọc Mai"
+ },
+ "Q24958091": {
+  "vi": "Đào Thị Miện",
+  "en": "Đào Thị Miện",
+  "label": "Đào Thị Miện"
+ },
+ "Q24958184": {
+  "vi": "Trần Anh Khoa",
+  "en": "Trần Anh Khoa",
+  "label": "Trần Anh Khoa"
+ },
+ "Q24958295": {
+  "vi": "Huỳnh Như",
+  "en": "Huỳnh Như",
+  "label": "Huỳnh Như"
+ },
+ "Q24958608": {
+  "vi": "Nguyễn Bảo Quân",
+  "en": "Nguyễn Bảo Quân",
+  "label": "Nguyễn Bảo Quân"
+ },
+ "Q24958759": {
+  "vi": "Võ Đình Tân",
+  "en": "Võ Đình Tân",
+  "label": "Võ Đình Tân"
+ },
+ "Q24958812": {
+  "vi": "Chu Đình Nghiêm",
+  "en": "Chu Đình Nghiêm",
+  "label": "Chu Đình Nghiêm"
+ },
+ "Q24959000": {
+  "vi": "Lê Xuân Hùng",
+  "en": "Lê Xuân Hùng",
+  "label": "Lê Xuân Hùng"
+ },
+ "Q24959002": {
+  "vi": "Lê Văn Sáu",
+  "en": null,
+  "label": "Lê Văn Sáu"
+ },
+ "Q24959003": {
+  "vi": "Lê Xuân Anh",
+  "en": "Lê Xuân Anh",
+  "label": "Lê Xuân Anh"
+ },
+ "Q24959213": {
+  "vi": "Nghiêm Xuân Tú",
+  "en": "Nghiêm Xuân Tú",
+  "label": "Nghiêm Xuân Tú"
+ },
+ "Q25238428": {
+  "vi": "Phan Văn Đức",
+  "en": "Phan Văn Đức",
+  "label": "Phan Văn Đức"
+ },
+ "Q25417473": {
+  "vi": "Học viện An ninh nhân dân",
+  "en": null,
+  "label": "Học viện An ninh Nhân dân"
+ },
+ "Q25417782": {
+  "vi": "Nguyễn Văn Dũng (cầu thủ bóng đá, sinh 1963)",
+  "en": "Nguyễn Văn Dũng (footballer, born 1963)",
+  "label": "Nguyễn Văn Dũng"
+ },
+ "Q25417961": {
+  "vi": "Nguyễn Thanh Tuấn (cầu thủ bóng đá sinh 1997)",
+  "en": null,
+  "label": "Nguyễn Thanh Tuấn"
+ },
+ "Q25712578": {
+  "vi": "Giải bóng đá hạng Nhất Quốc gia Việt Nam",
+  "en": "V.League 2",
+  "label": "Giải bóng đá hạng nhất quốc gia"
+ },
+ "Q25999784": {
+  "vi": "Bùi Tiến Dụng",
+  "en": "Bùi Tiến Dụng",
+  "label": "Bùi Tiến Dụng"
+ },
+ "Q25999788": {
+  "vi": "Hà Đức Chinh",
+  "en": "Hà Đức Chinh",
+  "label": "Hà Đức Chinh"
+ },
+ "Q280658": {
+  "vi": "Tiền đạo (bóng đá)",
+  "en": "Forward (association football)",
+  "label": "tiền đạo"
+ },
+ "Q288419": {
+  "vi": "Pau FC",
+  "en": "Pau FC",
+  "label": "Pau Football Club"
+ },
+ "Q302448": {
+  "vi": "Học viện Hàng không Việt Nam",
+  "en": "Vietnam Aviation Academy",
+  "label": "Học viện Hàng không Việt Nam"
+ },
+ "Q25262": {
+  "vi": "Cà Mau (thành phố)",
+  "en": "Cà Mau (city)",
+  "label": "Cà Mau"
+ },
+ "Q2227461": {
+  "vi": "Lê Huỳnh Đức",
+  "en": "Lê Huỳnh Đức",
+  "label": "Lê Huỳnh Đức"
+ },
+ "Q2232482": {
+  "vi": "Châu Phú (huyện)",
+  "en": "Châu Phú district",
+  "label": "Châu Phú"
+ },
+ "Q2269756": {
+  "vi": null,
+  "en": null,
+  "label": "bộ giáo dục"
+ },
+ "Q2293742": {
+  "vi": "Bà Rịa (tỉnh)",
+  "en": null,
+  "label": "Bà Rịa"
+ },
+ "Q214": {
+  "vi": "Slovakia",
+  "en": "Slovakia",
+  "label": "Slovakia"
+ },
+ "Q277149": {
+  "vi": "A Lưới",
+  "en": "A Lưới district",
+  "label": "A Lưới"
+ },
+ "Q277943": {
+  "vi": "Trần Đức Dương",
+  "en": "Trần Đức Dương",
+  "label": "Trần Đức Dương"
+ },
+ "Q2301143": {
+  "vi": "Câu lạc bộ bóng đá Hải Phòng",
+  "en": "Haiphong FC",
+  "label": "Câu lạc bộ bóng đá Hải Phòng"
+ },
+ "Q2332060": {
+  "vi": "Tuyên Quang",
+  "en": "Tuyên Quang province",
+  "label": "Tuyên Quang"
+ },
+ "Q27899184": {
+  "vi": "Nguyễn Trọng Huy",
+  "en": "Nguyễn Trọng Huy",
+  "label": "Nguyễn Trọng Huy"
+ },
+ "Q27899223": {
+  "vi": "Triệu Việt Hưng",
+  "en": "Triệu Việt Hưng",
+  "label": "Triệu Việt Hưng"
+ },
+ "Q27899224": {
+  "vi": "Trương Văn Thái Quý",
+  "en": "Trương Văn Thái Quý",
+  "label": "Trương Văn Thái Quý"
+ },
+ "Q27899225": {
+  "vi": "Trần Duy Khánh",
+  "en": "Trần Duy Khánh",
+  "label": "Trần Duy Khánh"
+ },
+ "Q27899228": {
+  "vi": "Tống Anh Tỷ",
+  "en": "Tống Anh Tỷ",
+  "label": "Tống Anh Tỷ"
+ },
+ "Q27899249": {
+  "vi": "Đỗ Thanh Thịnh",
+  "en": "Đỗ Thanh Thịnh",
+  "label": "Đỗ Thanh Thịnh"
+ },
+ "Q27957262": {
+  "vi": "Nguyễn Thanh Thắng",
+  "en": "Nguyễn Thanh Thắng",
+  "label": "Nguyễn Thanh Thắng"
+ },
+ "Q27963768": {
+  "vi": "Đội tuyển bóng đá U-22 quốc gia Việt Nam",
+  "en": "Vietnam national under-22 football team",
+  "label": "Đội tuyển bóng đá U-22 quốc gia Việt Nam"
+ },
+ "Q28002884": {
+  "vi": "Bùi Trần Tuấn Anh",
+  "en": null,
+  "label": "Bùi Trần Tuấn Anh"
+ },
+ "Q28160411": {
+  "vi": "Lâm Anh Quang",
+  "en": "Lâm Anh Quang",
+  "label": "Lâm Anh Quang"
+ },
+ "Q28160446": {
+  "vi": "Đặng Anh Tuấn",
+  "en": "Đặng Anh Tuấn",
+  "label": "Đặng Anh Tuấn"
+ },
+ "Q27671367": {
+  "vi": "Vũ Thị Nhung",
+  "en": "Vũ Thị Nhung",
+  "label": "Vũ Thị Nhung"
+ },
+ "Q27671364": {
+  "vi": "Trần Thị Phương Thảo",
+  "en": "Trần Thị Phương Thảo",
+  "label": "Trần Thị Phương Thảo"
+ },
+ "Q27671371": {
+  "vi": "Nguyễn Thị Bích Thùy",
+  "en": "Nguyễn Thị Bích Thùy",
+  "label": "Nguyễn Thị Bích Thùy"
+ },
+ "Q27671369": {
+  "vi": "Phạm Hải Yến",
+  "en": "Phạm Hải Yến",
+  "label": "Phạm Hải Yến"
+ },
+ "Q27673073": {
+  "vi": "Nguyễn Hải Hòa",
+  "en": "Nguyễn Hải Hòa",
+  "label": "Nguyễn Hải Hòa"
+ },
+ "Q27679414": {
+  "vi": "Lê Thị Tuyết Mai (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Lê Thị Tuyết Mai (cầu thủ bóng đá)"
+ },
+ "Q27679446": {
+  "vi": "Nguyễn Thị Mai (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Mai (cầu thủ bóng đá)"
+ },
+ "Q27680027": {
+  "vi": "Bùi Thị Tuyết Mai",
+  "en": null,
+  "label": "Bùi Thị Tuyết Mai"
+ },
+ "Q27680066": {
+  "vi": "Từ Thị Phụ",
+  "en": null,
+  "label": "Từ Thị Phụ"
+ },
+ "Q27680064": {
+  "vi": "Lê Thị Oanh",
+  "en": "Lê Thị Oanh",
+  "label": "Lê Thị Oanh"
+ },
+ "Q27680101": {
+  "vi": "Nguyễn Thị Hương",
+  "en": null,
+  "label": "Nguyễn Thị Hương"
+ },
+ "Q27681596": {
+  "vi": "Nguyễn Thị Kim Tiến (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Kim Tiến (cầu thủ bóng đá)"
+ },
+ "Q27681798": {
+  "vi": "Lê Thị Hồng Nga",
+  "en": null,
+  "label": "Lê Thị Hồng Nga"
+ },
+ "Q27681803": {
+  "vi": "Nguyễn Thị Khánh Thu",
+  "en": null,
+  "label": "Nguyễn Thị Khánh Thu"
+ },
+ "Q25999794": {
+  "vi": "Lâm Thuận",
+  "en": "Lâm Thuận",
+  "label": "Lâm Thuận"
+ },
+ "Q26405928": {
+  "vi": "Nguyễn Hoàng Quốc Chí",
+  "en": "Nguyễn Hoàng Quốc Chí",
+  "label": "Nguyễn Hoàng Quốc Chí"
+ },
+ "Q26871048": {
+  "vi": "Nguyễn Hồng Việt",
+  "en": "Nguyễn Hồng Việt",
+  "label": "Nguyễn Hồng Việt"
+ },
+ "Q26924291": {
+  "vi": "Dương Văn Khoa",
+  "en": "Dương Văn Khoa",
+  "label": "Dương Văn Khoa"
+ },
+ "Q26924329": {
+  "vi": "Nguyễn Anh Hùng",
+  "en": "Nguyễn Anh Hùng",
+  "label": "Nguyễn Anh Hùng"
+ },
+ "Q26955178": {
+  "vi": "Nguyễn Đại Đồng",
+  "en": "Nguyễn Đại Đồng",
+  "label": "Nguyễn Đại Đồng"
+ },
+ "Q27049059": {
+  "vi": "Nguyễn Thành Chung",
+  "en": "Nguyễn Thành Chung",
+  "label": "Nguyễn Thành Chung"
+ },
+ "Q27049057": {
+  "vi": "Trần Văn Kiên",
+  "en": "Trần Văn Kiên",
+  "label": "Trần Văn Kiên"
+ },
+ "Q27068794": {
+  "vi": "Phạm Văn Cường (cầu thủ bóng đá)",
+  "en": "Phạm Văn Cường",
+  "label": "Phạm Văn Cường"
+ },
+ "Q27443197": {
+  "vi": "Lê Văn Trường",
+  "en": "Lê Văn Trường",
+  "label": "Lê Văn Trường"
+ },
+ "Q25315": {
+  "vi": "Phan Thiết (thành phố)",
+  "en": "Phan Thiết (city)",
+  "label": "Phan Thiết"
+ },
+ "Q25897": {
+  "vi": "Tân An (thành phố)",
+  "en": "Tân An",
+  "label": "Tân An"
+ },
+ "Q33272": {
+  "vi": "Sóc Trăng (tỉnh)",
+  "en": "Sóc Trăng province",
+  "label": "Sóc Trăng"
+ },
+ "Q2824648": {
+  "vi": "Tỉnh (Việt Nam)",
+  "en": "Provinces of Vietnam",
+  "label": "tỉnh của Việt Nam"
+ },
+ "Q2903664": {
+  "vi": "Hà Nam Ninh",
+  "en": null,
+  "label": "Hà Nam Ninh"
+ },
+ "Q2924709": {
+  "vi": "Hà Sơn Bình",
+  "en": "Hà Sơn Bình province",
+  "label": "Hà Sơn Bình"
+ },
+ "Q2987563": {
+  "vi": "Sa Đéc (thành phố)",
+  "en": "Sa Đéc (city)",
+  "label": "Sa Đéc"
+ },
+ "Q3028839": {
+  "vi": "Chợ Lớn (tỉnh)",
+  "en": "Chợ Lớn province",
+  "label": "Chợ Lớn"
+ },
+ "Q3031078": {
+  "vi": "Bình Giang (huyện)",
+  "en": "Bình Giang district",
+  "label": "Bình Giang"
+ },
+ "Q27681818": {
+  "vi": "Vũ Thị Huyền Linh",
+  "en": null,
+  "label": "Vũ Thị Huyền Linh"
+ },
+ "Q27681816": {
+  "vi": "Văn Thị Thanh",
+  "en": "Văn Thị Thanh",
+  "label": "Văn Thị Thanh"
+ },
+ "Q27681826": {
+  "vi": "Đỗ Thị Hải Anh",
+  "en": null,
+  "label": "Đỗ Thị Hải Anh"
+ },
+ "Q27682122": {
+  "vi": "Bùi Thị Phượng",
+  "en": "Bùi Thị Phượng",
+  "label": "Bùi Thị Phượng"
+ },
+ "Q27682134": {
+  "vi": "Nguyễn Thị Hạnh (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Hạnh (cầu thủ bóng đá)"
+ },
+ "Q27682137": {
+  "vi": "Nguyễn Thị Mai Ngọc",
+  "en": null,
+  "label": "Nguyễn Thị Mai Ngọc"
+ },
+ "Q27682147": {
+  "vi": "Đỗ Thị Thu Trang",
+  "en": "Đỗ Thị Thu Trang",
+  "label": "Đỗ Thị Thu Trang"
+ },
+ "Q27682284": {
+  "vi": "Nguyễn Thị Lý (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Thị Lý (cầu thủ bóng đá)"
+ },
+ "Q27682293": {
+  "vi": "Nguyễn Thị Nga (cầu thủ bóng đá)",
+  "en": "Nguyễn Thị Nga",
+  "label": "Nguyễn Thị Nga"
+ },
+ "Q27688795": {
+  "vi": "Nguyễn Thị Thành (cầu thủ bóng đá)",
+  "en": "Nguyễn Thị Thành",
+  "label": "Nguyễn Thị Thành"
+ },
+ "Q27688796": {
+  "vi": "Phạm Hoàng Quỳnh",
+  "en": "Phạm Hoàng Quỳnh",
+  "label": "Phạm Hoàng Quỳnh"
+ },
+ "Q27781213": {
+  "vi": "Trần Thị Kim Thanh",
+  "en": "Trần Thị Kim Thanh",
+  "label": "Trần Thị Kim Thanh"
+ },
+ "Q27788661": {
+  "vi": "Dương Thị Vân",
+  "en": "Dương Thị Vân",
+  "label": "Dương Thị Vân"
+ },
+ "Q3183": {
+  "vi": "Perth",
+  "en": "Perth",
+  "label": "Perth"
+ },
+ "Q26019": {
+  "vi": "Yên Bái (thành phố)",
+  "en": "Yên Bái (city)",
+  "label": "Yên Bái"
+ },
+ "Q26573": {
+  "vi": "Long An (tỉnh)",
+  "en": "Long An province",
+  "label": "Long An"
+ },
+ "Q25281": {
+  "vi": "Đà Lạt",
+  "en": "Da Lat",
+  "label": "Đà Lạt"
+ },
+ "Q30599": {
+  "vi": "Pleiku (thành phố)",
+  "en": "Pleiku (city)",
+  "label": "Pleiku"
+ },
+ "Q33204": {
+  "vi": "Móng Cái",
+  "en": "Móng Cái",
+  "label": "Móng Cái"
+ },
+ "Q33271": {
+  "vi": "Đồng Nai",
+  "en": "Đồng Nai",
+  "label": "Đồng Nai"
+ },
+ "Q3031171": {
+  "vi": "Chí Linh (thành phố)",
+  "en": "Chí Linh (city)",
+  "label": "Thành phố Chí Linh"
+ },
+ "Q3031628": {
+  "vi": "Ninh Giang (huyện)",
+  "en": "Ninh Giang district",
+  "label": "Ninh Giang"
+ },
+ "Q3037890": {
+  "vi": "Trường Đại học Kiến trúc Thành phố Hồ Chí Minh",
+  "en": "University of Architecture Ho Chi Minh City",
+  "label": "Trường Đại học Kiến trúc Thành phố Hồ Chí Minh"
+ },
+ "Q3075696": {
+  "vi": "Đại học Bách khoa Hà Nội",
+  "en": "Hanoi University of Science and Technology",
+  "label": "Đại học Bách khoa Hà Nội"
+ },
+ "Q3101701": {
+  "vi": "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Technology",
+  "label": "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh"
+ },
+ "Q3125737": {
+  "vi": "Đội bóng đá Hải Quan",
+  "en": "Hai Quan FC",
+  "label": "Đội bóng đá Hải Quan"
+ },
+ "Q3138851": {
+  "vi": "Đội bóng đá Công an Thành phố Hồ Chí Minh (1979)",
+  "en": "Cong An Ho Chi Minh City FC (1979)",
+  "label": "Câu lạc bộ bóng đá Công an Thành phố Hồ Chí Minh"
+ },
+ "Q3143381": {
+  "vi": "Hương Sơn (huyện)",
+  "en": "Hương Sơn district",
+  "label": "Hương Sơn"
+ },
+ "Q336286": {
+  "vi": "Hậu vệ (bóng đá)",
+  "en": "Defender (association football)",
+  "label": "hậu vệ"
+ },
+ "Q341892": {
+  "vi": "Câu lạc bộ bóng đá Thép Xanh Nam Định",
+  "en": "Thep Xanh Nam Dinh F.C.",
+  "label": "Câu lạc bộ bóng đá Thép Xanh Nam Định"
+ },
+ "Q342102": {
+  "vi": "Đoàn Việt Cường",
+  "en": "Đoàn Việt Cường",
+  "label": "Đoàn Việt Cường"
+ },
+ "Q342558": {
+  "vi": "Câu lạc bộ bóng đá Long An – tỉnh Tây Ninh",
+  "en": "Long An FC",
+  "label": "Câu lạc bộ bóng đá Đồng Tâm Long An"
+ },
+ "Q2138709": {
+  "vi": "Phước Thành (tỉnh)",
+  "en": "Phước Thành province",
+  "label": "Phước Thành"
+ },
+ "Q2193420": {
+  "vi": "Quế Sơn (huyện)",
+  "en": "Quế Sơn district",
+  "label": "Quế Sơn"
+ },
+ "Q2208387": {
+  "vi": "Kiến An (tỉnh)",
+  "en": null,
+  "label": "Kiến An"
+ },
+ "Q33389": {
+  "vi": "Tuyên Quang (thành phố)",
+  "en": "Tuyên Quang (city)",
+  "label": "Tuyên Quang"
+ },
+ "Q33396": {
+  "vi": "Quảng Ninh",
+  "en": "Quảng Ninh",
+  "label": "Quảng Ninh"
+ },
+ "Q2521441": {
+  "vi": null,
+  "en": "VfB Eichstätt",
+  "label": "VfB Eichstätt"
+ },
+ "Q2524171": {
+  "vi": "Sân vận động Đồng Nai",
+  "en": "Đồng Nai Stadium",
+  "label": "Sân vận động Đồng Nai"
+ },
+ "Q2538777": {
+  "vi": "Quảng Tín (tỉnh)",
+  "en": "Quảng Tín province",
+  "label": "Quảng Tín"
+ },
+ "Q2562140": {
+  "vi": "Đại học Kinh tế Thành phố Hồ Chí Minh",
+  "en": "University of Economics Ho Chi Minh City",
+  "label": "Đại học Kinh tế Thành phố Hồ Chí Minh"
+ },
+ "Q33304": {
+  "vi": "Quảng Ngãi",
+  "en": "Quảng Ngãi province",
+  "label": "Quảng Ngãi"
+ },
+ "Q33343": {
+  "vi": "Đông Hà (thành phố)",
+  "en": "Đông Hà (city)",
+  "label": "Đông Hà"
+ },
+ "Q27554677": {
+  "vi": null,
+  "en": null,
+  "label": "cố đô"
+ },
+ "Q27671358": {
+  "vi": "Khổng Thị Hằng",
+  "en": "Khổng Thị Hằng",
+  "label": "Khổng Thị Hằng"
+ },
+ "Q27671356": {
+  "vi": "Lại Thị Tuyết",
+  "en": null,
+  "label": "Lại Thị Tuyết"
+ },
+ "Q27671362": {
+  "vi": "Bùi Thị Như",
+  "en": "Bùi Thị Như",
+  "label": "Bùi Thị Như"
+ },
+ "Q27671363": {
+  "vi": "Bùi Thúy An",
+  "en": "Bùi Thúy An",
+  "label": "Bùi Thúy An"
+ },
+ "Q33403": {
+  "vi": "Lạng Sơn",
+  "en": "Lạng Sơn province",
+  "label": "Lạng Sơn"
+ },
+ "Q27788668": {
+  "vi": "Trần Nguyễn Bảo Châu",
+  "en": "Trần Nguyễn Bảo Châu",
+  "label": "Trần Nguyễn Bảo Châu"
+ },
+ "Q27881412": {
+  "vi": "Nguyễn Xuân Son",
+  "en": "Rafaelson",
+  "label": "Rafaelson Bezerra Fernandes"
+ },
+ "Q27881493": {
+  "vi": "Đặng Quang Huy",
+  "en": "Đặng Quang Huy",
+  "label": "Đặng Quang Huy"
+ },
+ "Q27899067": {
+  "vi": "A Hoàng",
+  "en": "A Hoàng",
+  "label": "A Hoàng"
+ },
+ "Q27899176": {
+  "vi": "Mạc Đức Việt Anh",
+  "en": "Mạc Đức Việt Anh",
+  "label": "Mạc Đức Việt Anh"
+ },
+ "Q27899182": {
+  "vi": "Nguyễn Tiến Linh",
+  "en": "Nguyễn Tiến Linh",
+  "label": "Nguyễn Tiến Linh"
+ },
+ "Q28197235": {
+  "vi": "Sân vận động Chi Lăng (2016)",
+  "en": "Chi Lăng Stadium (2016)",
+  "label": "Sân vận động Hòa Xuân"
+ },
+ "Q28197244": {
+  "vi": "Trung tâm đào tạo bóng đá trẻ PVF",
+  "en": "PVF Football Academy",
+  "label": "Quỹ Đầu tư và phát triển tài năng bóng đá Việt Nam"
+ },
+ "Q28225985": {
+  "vi": "Câu lạc bộ bóng đá nữ Länk Vilaverdense",
+  "en": "Vilaverdense F.C. (women)",
+  "label": "Câu lạc bộ bóng đá nữ Länk Vilaverdense"
+ },
+ "Q28370300": {
+  "vi": "Võ Ngọc Toàn",
+  "en": "Võ Ngọc Toàn",
+  "label": "Võ Ngọc Toàn"
+ },
+ "Q28445504": {
+  "vi": "Châu Ngọc Quang",
+  "en": "Châu Ngọc Quang",
+  "label": "Châu Ngọc Quang"
+ },
+ "Q28445542": {
+  "vi": "Nguyễn Hữu Phúc",
+  "en": "Nguyễn Hữu Phúc",
+  "label": "Nguyễn Hữu Phúc"
+ },
+ "Q28510788": {
+  "vi": "Doãn Ngọc Tân",
+  "en": "Doãn Ngọc Tân",
+  "label": "Doãn Ngọc Tân"
+ },
+ "Q28805411": {
+  "vi": "Hồ Khắc Ngọc",
+  "en": "Hồ Khắc Ngọc",
+  "label": "Hồ Khắc Ngọc"
+ },
+ "Q28969794": {
+  "vi": "Ngân Văn Đại",
+  "en": "Ngân Văn Đại",
+  "label": "Ngân Văn Đại"
+ },
+ "Q28970029": {
+  "vi": "Thân Thành Tín",
+  "en": "Thân Thành Tín",
+  "label": "Thân Thành Tín"
+ },
+ "Q3177493": {
+  "vi": "Trường Đại học Đà Lạt",
+  "en": "Dalat University",
+  "label": "Trường Đại học Đà Lạt"
+ },
+ "Q3200233": {
+  "vi": "Hà Đông (tỉnh)",
+  "en": null,
+  "label": "Hà Đông"
+ },
+ "Q3277621": {
+  "vi": "Sân vận động Vinh",
+  "en": "Vinh Stadium",
+  "label": "Sân vận động Vinh"
+ },
+ "Q3277766": {
+  "vi": "Sân vận động Lạch Tray",
+  "en": "Lạch Tray Stadium",
+  "label": "Sân vận động Lạch Tray"
+ },
+ "Q3590324": {
+  "vi": "Đội tuyển bóng đá U-17 quốc gia România",
+  "en": "Romania national under-17 football team",
+  "label": "Đội tuyển bóng đá U-17 quốc gia România"
+ },
+ "Q21285310": {
+  "vi": "Khuất Hữu Long",
+  "en": "Khuất Hữu Long",
+  "label": "Khuất Hữu Long"
+ },
+ "Q21621777": {
+  "vi": "Lâm Ti Phông",
+  "en": "Lâm Ti Phông",
+  "label": "Lâm Ti Phông"
+ },
+ "Q26575": {
+  "vi": "Thái Nguyên",
+  "en": "Thái Nguyên province",
+  "label": "Thái Nguyên"
+ },
+ "Q26581": {
+  "vi": "Thái Nguyên (thành phố)",
+  "en": "Thái Nguyên (city)",
+  "label": "Thái Nguyên"
+ },
+ "Q23533": {
+  "vi": "Quảng Bình (tỉnh)",
+  "en": "Quảng Bình province",
+  "label": "Quảng Bình"
+ },
+ "Q2389082": {
+  "vi": "Xã (Việt Nam)",
+  "en": "Commune (Vietnam)",
+  "label": "xã của Việt Nam"
+ },
+ "Q2403349": {
+  "vi": "Lục Nam (tỉnh)",
+  "en": null,
+  "label": "Lục Nam"
+ },
+ "Q2406422": {
+  "vi": "Trường Đại học Quảng Bình",
+  "en": "Quảng Bình University",
+  "label": "Trường Đại học Quảng Bình"
+ },
+ "Q2428273": {
+  "vi": "Lai Châu (thành phố)",
+  "en": "Lai Châu (city)",
+  "label": "Lai Châu"
+ },
+ "Q2496369": {
+  "vi": "Khoa Quốc tế Pháp ngữ, Đại học Quốc gia Hà Nội",
+  "en": "Institut de la Francophonie pour l'Informatique",
+  "label": "Viện Tin học Pháp ngữ"
+ },
+ "Q2502014": {
+  "vi": "Biên Hòa (tỉnh)",
+  "en": "Biên Hòa province",
+  "label": "Biên Hòa"
+ },
+ "Q2503956": {
+  "vi": "Gò Công (tỉnh)",
+  "en": "Gò Công province",
+  "label": "Gò Công"
+ },
+ "Q2509547": {
+  "vi": "Câu lạc bộ bóng đá Hòa Phát Hà Nội",
+  "en": "Hòa Phát Hà Nội FC",
+  "label": "Câu lạc bộ bóng đá Hòa Phát Hà Nội"
+ },
+ "Q24450446": {
+  "vi": "Quế Ngọc Mạnh",
+  "en": "Quế Ngọc Mạnh",
+  "label": "Quế Ngọc Mạnh"
+ },
+ "Q24450639": {
+  "vi": "Lương Hoàng Nam",
+  "en": "Lương Hoàng Nam",
+  "label": "Lương Hoàng Nam"
+ },
+ "Q24450637": {
+  "vi": "Phạm Xuân Mạnh",
+  "en": "Phạm Xuân Mạnh",
+  "label": "Phạm Xuân Mạnh"
+ },
+ "Q24678835": {
+  "vi": "Hoàng Văn Khánh (cầu thủ bóng đá)",
+  "en": "Hoàng Văn Khánh",
+  "label": "Hoàng Văn Khánh"
+ },
+ "Q24689101": {
+  "vi": "Nguyễn Quang Hải (cầu thủ bóng đá, sinh 1997)",
+  "en": "Nguyễn Quang Hải (footballer, born 1997)",
+  "label": "Nguyễn Quang Hải"
+ },
+ "Q24882786": {
+  "vi": "Đội tuyển bóng đá nữ U-17 quốc gia Việt Nam",
+  "en": "Vietnam women's national under-17 football team",
+  "label": "Đội tuyển bóng đá U-16 nữ quốc gia Việt Nam"
+ },
+ "Q24884974": {
+  "vi": "Trường Đại học Đồng Nai",
+  "en": "Dong Nai University",
+  "label": "Trường Đại học Đồng Nai"
+ },
+ "Q24902367": {
+  "vi": "Trường Quốc tế, Đại học Quốc gia Hà Nội",
+  "en": "International School, Vietnam National University, Hanoi",
+  "label": "Trường Quốc tế, Đại học Quốc gia Hà Nội"
+ },
+ "Q33351": {
+  "vi": "Hà Tĩnh",
+  "en": "Hà Tĩnh province",
+  "label": "Hà Tĩnh"
+ },
+ "Q33354": {
+  "vi": "Cà Mau",
+  "en": "Cà Mau province",
+  "label": "Cà Mau"
+ },
+ "Q33946": {
+  "vi": "Tiệp Khắc",
+  "en": "Czechoslovakia",
+  "label": "Tiệp Khắc"
+ },
+ "Q25282": {
+  "vi": "Đà Nẵng",
+  "en": "Da Nang",
+  "label": "Đà Nẵng"
+ },
+ "Q33408": {
+  "vi": "Bắc Ninh",
+  "en": "Bắc Ninh",
+  "label": "Bắc Ninh"
+ },
+ "Q33415": {
+  "vi": "Sơn La (thành phố)",
+  "en": "Sơn La (city)",
+  "label": "Sơn La"
+ },
+ "Q33994": {
+  "vi": "Quảng Ngãi (thành phố)",
+  "en": "Quảng Ngãi (city)",
+  "label": "Quảng Ngãi"
+ },
+ "Q33996": {
+  "vi": "Hà Tĩnh (thành phố)",
+  "en": "Hà Tĩnh (city)",
+  "label": "Hà Tĩnh"
+ },
+ "Q28970219": {
+  "vi": "Trần Đình Trọng",
+  "en": "Trần Đình Trọng",
+  "label": "Trần Đình Trọng"
+ },
+ "Q28970572": {
+  "vi": "Đào Nhật Minh",
+  "en": "Đào Nhật Minh",
+  "label": "Đào Nhật Minh"
+ },
+ "Q29310793": {
+  "vi": "Hồ Minh Dĩ",
+  "en": "Hồ Minh Dĩ",
+  "label": "Hồ Minh Dĩ"
+ },
+ "Q29311086": {
+  "vi": "Đoàn Văn Hậu",
+  "en": "Đoàn Văn Hậu",
+  "label": "Đoàn Văn Hậu"
+ },
+ "Q29588751": {
+  "vi": "Cao Pendant Quang Vinh",
+  "en": "Jason Pendant",
+  "label": "Jason Pendant"
+ },
+ "Q29872625": {
+  "vi": "Đinh Thanh Bình",
+  "en": "Đinh Thanh Bình",
+  "label": "Đinh Thanh Bình"
+ },
+ "Q30025810": {
+  "vi": "Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1997)",
+  "en": "Bùi Tiến Dũng (footballer, born 1997)",
+  "label": "Bùi Tiến Dũng"
+ },
+ "Q21621795": {
+  "vi": "Lê Cao Hoài An",
+  "en": "Lê Cao Hoài An",
+  "label": "Lê Cao Hoài An"
+ },
+ "Q21622367": {
+  "vi": "Phạm Văn Thành",
+  "en": "Phạm Văn Thành",
+  "label": "Phạm Văn Thành"
+ },
+ "Q21623157": {
+  "vi": "Trần Phước Thọ",
+  "en": "Trần Phước Thọ",
+  "label": "Trần Phước Thọ"
+ },
+ "Q21623256": {
+  "vi": "Võ Út Cường",
+  "en": "Võ Út Cường",
+  "label": "Võ Út Cường"
+ },
+ "Q21623266": {
+  "vi": "Vương Quốc Trung",
+  "en": "Vương Quốc Trung",
+  "label": "Vương Quốc Trung"
+ },
+ "Q21642462": {
+  "vi": "Nguyễn Quốc Thiện Esele",
+  "en": "Nguyễn Quốc Thiện Esele",
+  "label": "Nguyễn Quốc Thiện Esele"
+ },
+ "Q21642860": {
+  "vi": "Nguyễn Xuân Luân",
+  "en": "Nguyễn Xuân Luân",
+  "label": "Nguyễn Xuân Luân"
+ },
+ "Q21677019": {
+  "vi": "Nguyễn Hoài Anh (cầu thủ bóng đá)",
+  "en": "Nguyễn Hoài Anh",
+  "label": "Nguyễn Hoài Anh"
+ },
+ "Q21932386": {
+  "vi": "Nguyễn Lam (cầu thủ bóng đá)",
+  "en": "Nguyễn Lam (footballer)",
+  "label": "Nguyễn Lam"
+ },
+ "Q33418": {
+  "vi": "Sóc Trăng (thành phố)",
+  "en": "Sóc Trăng",
+  "label": "Sóc Trăng"
+ },
+ "Q33421": {
+  "vi": "Long Xuyên (thành phố)",
+  "en": "Long Xuyên",
+  "label": "Long Xuyên"
+ },
+ "Q33356": {
+  "vi": "Quảng Nam",
+  "en": "Quảng Nam province",
+  "label": "Quảng Nam"
+ },
+ "Q27566": {
+  "vi": "Vĩnh Phúc (tỉnh)",
+  "en": "Vĩnh Phúc province",
+  "label": "Vĩnh Phúc"
+ },
+ "Q34789": {
+  "vi": "Vĩnh Long (thành phố)",
+  "en": "Vĩnh Long (city)",
+  "label": "Vĩnh Long"
+ },
+ "Q35656": {
+  "vi": "Cao Lãnh (thành phố)",
+  "en": "Cao Lãnh",
+  "label": "Cao Lãnh"
+ },
+ "Q33425": {
+  "vi": "Mỹ Tho (thành phố)",
+  "en": "Mỹ Tho (city)",
+  "label": "Mỹ Tho"
+ },
+ "Q33428": {
+  "vi": "Vinh",
+  "en": "Vinh",
+  "label": "Vinh"
+ },
+ "Q35659": {
+  "vi": "Phủ Lý (thành phố)",
+  "en": "Phủ Lý (city)",
+  "label": "Phủ Lý"
+ },
+ "Q35661": {
+  "vi": "Tam Kỳ (thành phố)",
+  "en": "Tam Kỳ (city)",
+  "label": "Tam Kỳ"
+ },
+ "Q33366": {
+  "vi": "Bến Tre (tỉnh)",
+  "en": "Bến Tre province",
+  "label": "Bến Tre"
+ },
+ "Q33369": {
+  "vi": "Khánh Hòa",
+  "en": "Khánh Hòa province",
+  "label": "Khánh Hòa"
+ },
+ "Q36136": {
+  "vi": "Trà Vinh (thành phố)",
+  "en": "Trà Vinh",
+  "label": "Trà Vinh"
+ },
+ "Q33379": {
+  "vi": "Sơn La",
+  "en": "Sơn La province",
+  "label": "Sơn La"
+ },
+ "Q35747": {
+  "vi": "Tuy Hòa (thành phố)",
+  "en": "Tuy Hòa (city)",
+  "label": "Tuy Hòa"
+ },
+ "Q36015": {
+  "vi": "Hòa Bình (tỉnh)",
+  "en": "Hòa Bình province",
+  "label": "Hòa Bình"
+ },
+ "Q2664160": {
+  "vi": "Câu lạc bộ bóng đá Navibank Sài Gòn",
+  "en": "Navibank Sài Gòn FC",
+  "label": "Câu lạc bộ bóng đá Navibank Sài Gòn"
+ },
+ "Q2681546": {
+  "vi": "Gia Định (tỉnh)",
+  "en": "Gia Định province",
+  "label": "Gia Định"
+ },
+ "Q2705921": {
+  "vi": "Châu Đốc (tỉnh)",
+  "en": null,
+  "label": "Châu Đốc"
+ },
+ "Q2740474": {
+  "vi": "Trường Đại học Nha Trang",
+  "en": "Nha Trang University",
+  "label": "Trường Đại học Nha Trang"
+ },
+ "Q2770718": {
+  "vi": "Sân vận động Quân khu 7",
+  "en": "Quân khu 7 Stadium",
+  "label": "Sân vận động Quân khu 7"
+ },
+ "Q2805344": {
+  "vi": "Minh Hải (tỉnh)",
+  "en": "Minh Hải province",
+  "label": "Minh Hải"
+ },
+ "Q36142": {
+  "vi": "Bạc Liêu (thành phố)",
+  "en": "Bạc Liêu (city)",
+  "label": "Bạc Liêu"
+ },
+ "Q36167": {
+  "vi": "Huế (thành phố thuộc tỉnh)",
+  "en": "Huế (provincial city)",
+  "label": "Huế"
+ },
+ "Q33469": {
+  "vi": "Buôn Ma Thuột (thành phố)",
+  "en": "Buôn Ma Thuột (city)",
+  "label": "Buôn Ma Thuột"
+ },
+ "Q33682": {
+  "vi": "Nam Định (thành phố)",
+  "en": "Nam Định (city)",
+  "label": "Nam Định"
+ },
+ "Q33929": {
+  "vi": "Ninh Bình (thành phố)",
+  "en": null,
+  "label": "Ninh Bình"
+ },
+ "Q36320": {
+  "vi": "Hậu Giang",
+  "en": "Hậu Giang province",
+  "label": "Hậu Giang"
+ },
+ "Q36349": {
+  "vi": "Yên Bái (tỉnh)",
+  "en": "Yên Bái province",
+  "label": "Yên Bái"
+ },
+ "Q36027": {
+  "vi": "Điện Biên Phủ (thành phố)",
+  "en": "Điện Biên Phủ (city)",
+  "label": "Điện Biên Phủ"
+ },
+ "Q36081": {
+  "vi": "Quy Nhơn (thành phố)",
+  "en": "Quy Nhơn (city)",
+  "label": "Quy Nhơn"
+ },
+ "Q22007416": {
+  "vi": "Phí Minh Long",
+  "en": "Phí Minh Long",
+  "label": "Phí Minh Long"
+ },
+ "Q22021138": {
+  "vi": "Võ Văn Hạnh",
+  "en": "Võ Văn Hạnh",
+  "label": "Võ Văn Hạnh"
+ },
+ "Q22162708": {
+  "vi": "Đỗ Hùng Dũng",
+  "en": "Đỗ Hùng Dũng",
+  "label": "Đỗ Hùng Dũng"
+ },
+ "Q22162733": {
+  "vi": "Nguyễn Nam Anh",
+  "en": "Nguyễn Nam Anh",
+  "label": "Nguyễn Nam Anh"
+ },
+ "Q22162740": {
+  "vi": "Phạm Đức Huy",
+  "en": "Phạm Đức Huy",
+  "label": "Phạm Đức Huy"
+ },
+ "Q23882037": {
+  "vi": "Diệp Hoài Xuân",
+  "en": "Diệp Hoài Xuân",
+  "label": "Diệp Hoài Xuân"
+ },
+ "Q24005264": {
+  "vi": "Lê Văn Phú (cầu thủ bóng đá)",
+  "en": "Lê Văn Phú",
+  "label": "Lê Văn Phú"
+ },
+ "Q24955880": {
+  "vi": "Hậu Bổn",
+  "en": null,
+  "label": "Hậu Bổn"
+ },
+ "Q24956639": {
+  "vi": "Lâm Ấn Độ",
+  "en": null,
+  "label": "Lâm Ấn Độ"
+ },
+ "Q36175": {
+  "vi": "Thanh Hóa (thành phố)",
+  "en": "Thanh Hóa (city)",
+  "label": "Thanh Hóa"
+ },
+ "Q36235": {
+  "vi": "Hưng Yên",
+  "en": "Hưng Yên province",
+  "label": "Hưng Yên"
+ },
+ "Q33383": {
+  "vi": "Lạng Sơn (thành phố)",
+  "en": "Lạng Sơn (city)",
+  "label": "Lạng Sơn"
+ },
+ "Q33381": {
+  "vi": "Bắc Ninh (thành phố thuộc tỉnh)",
+  "en": "Bắc Ninh (provincial city)",
+  "label": "Bắc Ninh"
+ },
+ "Q36082": {
+  "vi": "Việt Trì (thành phố)",
+  "en": "Việt Trì (city)",
+  "label": "Việt Trì"
+ },
+ "Q36088": {
+  "vi": "Vĩnh Yên (thành phố)",
+  "en": "Vĩnh Yên (city)",
+  "label": "Vĩnh Yên"
+ },
+ "Q36354": {
+  "vi": "Hải Dương (thành phố)",
+  "en": "Hải Dương (city)",
+  "label": "Hải Dương"
+ },
+ "Q36367": {
+  "vi": "Bắc Giang (tỉnh)",
+  "en": "Bắc Giang province",
+  "label": "Bắc Giang"
+ },
+ "Q36093": {
+  "vi": "Rạch Giá (thành phố)",
+  "en": "Rạch Giá (city)",
+  "label": "Rạch Giá"
+ },
+ "Q36114": {
+  "vi": "Vị Thanh (thành phố)",
+  "en": "Vị Thanh (city)",
+  "label": "Vị Thanh"
+ },
+ "Q36399": {
+  "vi": "Huế",
+  "en": "Huế",
+  "label": "Huế"
+ },
+ "Q36315": {
+  "vi": "Kon Tum (tỉnh)",
+  "en": "Kon Tum province",
+  "label": "Kon Tum"
+ },
+ "Q36404": {
+  "vi": "Bắc Kạn (tỉnh)",
+  "en": "Bắc Kạn province",
+  "label": "Bắc Kạn"
+ },
+ "Q36409": {
+  "vi": "Lai Châu",
+  "en": "Lai Châu province",
+  "label": "Lai Châu"
+ },
+ "Q36413": {
+  "vi": "Hà Nam (tỉnh Việt Nam)",
+  "en": "Hà Nam province",
+  "label": "Hà Nam"
+ },
+ "Q24006271": {
+  "vi": "Đinh Xuân Việt",
+  "en": "Đinh Xuân Việt",
+  "label": "Đinh Xuân Việt"
+ },
+ "Q24006269": {
+  "vi": "Nguyễn Đình Bảo",
+  "en": "Nguyễn Đình Bảo",
+  "label": "Nguyễn Đình Bảo"
+ },
+ "Q24006368": {
+  "vi": "Dương Văn Pho",
+  "en": "Dương Văn Pho",
+  "label": "Dương Văn Pho"
+ },
+ "Q24061132": {
+  "vi": "Nguyễn Minh Nhựt",
+  "en": "Nguyễn Minh Nhựt",
+  "label": "Nguyễn Minh Nhựt"
+ },
+ "Q24084994": {
+  "vi": "A Mít",
+  "en": "A Mít",
+  "label": "A Mít"
+ },
+ "Q24084999": {
+  "vi": "Nguyễn Tài Lộc (cầu thủ bóng đá, sinh 1989)",
+  "en": "Nguyễn Tài Lộc (footballer, born 1989)",
+  "label": "Nguyễn Tài Lộc"
+ },
+ "Q24084996": {
+  "vi": "Lê Thế Cường",
+  "en": "Lê Thế Cường",
+  "label": "Lê Thế Cường"
+ },
+ "Q24085000": {
+  "vi": "Bùi Trần Vũ",
+  "en": "Bùi Trần Vũ",
+  "label": "Bùi Trần Vũ"
+ },
+ "Q24450202": {
+  "vi": "Nguyễn Thanh Hải (cầu thủ bóng đá)",
+  "en": "Nguyễn Thanh Hải",
+  "label": "Nguyễn Thanh Hải"
+ },
+ "Q36610": {
+  "vi": "Phú Thọ",
+  "en": "Phú Thọ province",
+  "label": "Phú Thọ"
+ },
+ "Q36615": {
+  "vi": "Trà Vinh (tỉnh)",
+  "en": "Trà Vinh province",
+  "label": "Trà Vinh"
+ },
+ "Q36446": {
+  "vi": "Lào Cai",
+  "en": "Lào Cai province",
+  "label": "Lào Cai"
+ },
+ "Q36666": {
+  "vi": "Tiền Giang",
+  "en": "Tiền Giang province",
+  "label": "Tiền Giang"
+ },
+ "Q36672": {
+  "vi": "Bình Phước (tỉnh)",
+  "en": "Bình Phước province",
+  "label": "Bình Phước"
+ },
+ "Q36676": {
+  "vi": "Đồng Tháp",
+  "en": "Đồng Tháp province",
+  "label": "Đồng Tháp"
+ },
+ "Q36681": {
+  "vi": "Thái Bình (tỉnh)",
+  "en": "Thái Bình province",
+  "label": "Thái Bình"
+ },
+ "Q36635": {
+  "vi": "Bến Tre (thành phố)",
+  "en": "Bến Tre (city)",
+  "label": "Bến Tre"
+ },
+ "Q36485": {
+  "vi": "Hưng Yên (thành phố)",
+  "en": "Hưng Yên (city)",
+  "label": "Hưng Yên"
+ },
+ "Q36493": {
+  "vi": "Kon Tum (thành phố)",
+  "en": "Kon Tum (city)",
+  "label": "Kon Tum"
+ },
+ "Q36685": {
+  "vi": "Hà Giang",
+  "en": "Hà Giang province",
+  "label": "Hà Giang"
+ },
+ "Q36658": {
+  "vi": "Bạc Liêu (tỉnh)",
+  "en": "Bạc Liêu province",
+  "label": "Bạc Liêu"
+ },
+ "Q36690": {
+  "vi": "Đắk Lắk",
+  "en": "Đắk Lắk province",
+  "label": "Đắk Lắk"
+ },
+ "Q36693": {
+  "vi": "Bình Định (tỉnh)",
+  "en": "Bình Định province",
+  "label": "Bình Định"
+ },
+ "Q36662": {
+  "vi": "Gia Lai",
+  "en": "Gia Lai province",
+  "label": "Gia Lai"
+ },
+ "Q36497": {
+  "vi": "Thái Bình (thành phố)",
+  "en": "Thái Bình (city)",
+  "label": "Thái Bình"
+ },
+ "Q36512": {
+  "vi": "Thanh Hóa",
+  "en": "Thanh Hóa province",
+  "label": "Thanh Hóa"
+ },
+ "Q30079512": {
+  "vi": "Huỳnh Tấn Sinh",
+  "en": "Huỳnh Tấn Sinh",
+  "label": "Huỳnh Tấn Sinh"
+ },
+ "Q36723": {
+  "vi": "Đắk Nông (tỉnh)",
+  "en": "Đắk Nông province",
+  "label": "Đắk Nông"
+ },
+ "Q36725": {
+  "vi": "Phú Yên (tỉnh)",
+  "en": "Phú Yên province",
+  "label": "Phú Yên"
+ },
+ "Q36721": {
+  "vi": "Lâm Đồng",
+  "en": "Lâm Đồng province",
+  "label": "Lâm Đồng"
+ },
+ "Q30079678": {
+  "vi": "Trần Thanh Sơn",
+  "en": "Trần Thanh Sơn",
+  "label": "Trần Thanh Sơn"
+ },
+ "Q30125754": {
+  "vi": "Trần Đình Khương",
+  "en": "Trần Đình Khương",
+  "label": "Trần Đình Khương"
+ },
+ "Q30263747": {
+  "vi": "Trường Đại học Đồng Tháp",
+  "en": "Dong Thap University",
+  "label": "Trường Đại học Đồng Tháp"
+ },
+ "Q30923761": {
+  "vi": "Trần Công Minh (cầu thủ bóng đá, sinh 1999)",
+  "en": "Trần Công Minh",
+  "label": "Trần Công Minh"
+ },
+ "Q36519": {
+  "vi": "Hà Giang (thành phố)",
+  "en": "Hà Giang",
+  "label": "Hà Giang"
+ },
+ "Q36576": {
+  "vi": "Kiên Giang",
+  "en": "Kiên Giang province",
+  "label": "Kiên Giang"
+ },
+ "Q36579": {
+  "vi": "Quảng Trị",
+  "en": "Quảng Trị province",
+  "label": "Quảng Trị"
+ },
+ "Q36587": {
+  "vi": "Nghệ An",
+  "en": "Nghệ An province",
+  "label": "Nghệ An"
+ },
+ "Q36592": {
+  "vi": "An Giang",
+  "en": "An Giang province",
+  "label": "An Giang"
+ },
+ "Q36608": {
+  "vi": "Tây Ninh",
+  "en": "Tây Ninh province",
+  "label": "Tây Ninh"
+ },
+ "Q2636411": {
+  "vi": null,
+  "en": "Geldrop",
+  "label": null
+ },
+ "Q2656570": {
+  "vi": null,
+  "en": "Boavista Sport Club",
+  "label": null
+ },
+ "Q2662116": {
+  "vi": null,
+  "en": "Campo Grande Atlético Clube",
+  "label": null
+ },
+ "Q3072095": {
+  "vi": null,
+  "en": "Sociedade Esportiva Matsubara",
+  "label": null
+ },
+ "Q3174200": {
+  "vi": null,
+  "en": "MFK Zemplín Michalovce",
+  "label": null
+ },
+ "Q72818": {
+  "vi": "Hải Phòng",
+  "en": "Haiphong",
+  "label": "Hải Phòng"
+ },
+ "Q472": {
+  "vi": "Sofia",
+  "en": "Sofia",
+  "label": "Sofia"
+ },
+ "Q5574739": {
+  "vi": "Gò Công Tây",
+  "en": "Gò Công Tây district",
+  "label": "Gò Công Tây"
+ },
+ "Q5574748": {
+  "vi": "Sân vận động Gò Đậu",
+  "en": "Gò Đậu Stadium",
+  "label": "Sân vận động Gò Đậu"
+ },
+ "Q5574904": {
+  "vi": "Gò Quao (huyện)",
+  "en": "Gò Quao district",
+  "label": "Gò Quao"
+ },
+ "Q5626082": {
+  "vi": "Gò Công (thành phố)",
+  "en": "Gò Công",
+  "label": "Gò Công"
+ },
+ "Q5638929": {
+  "vi": "Hải Hà",
+  "en": "Hải Hà district",
+  "label": "Hải Hà"
+ },
+ "Q5638944": {
+  "vi": "Trường Đại học Hải Phòng",
+  "en": "Haiphong University",
+  "label": "Trường Đại học Hải Phòng"
+ },
+ "Q5649320": {
+  "vi": "Học viện Âm nhạc Quốc gia Việt Nam",
+  "en": "Vietnam National Academy of Music",
+  "label": "Học viện Âm nhạc Quốc gia Việt Nam"
+ },
+ "Q5649329": {
+  "vi": "Trường Đại học Sư phạm Hà Nội",
+  "en": "Hanoi National University of Education",
+  "label": "Trường Đại học Sư phạm Hà Nội"
+ },
+ "Q5649335": {
+  "vi": "Học viện Nông nghiệp Việt Nam",
+  "en": "Vietnam National University of Agriculture",
+  "label": "Học viện Nông nghiệp Việt Nam"
+ },
+ "Q5649339": {
+  "vi": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Science",
+  "label": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội"
+ },
+ "Q5873959": {
+  "vi": "Trường Đại học Quốc tế, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City International University",
+  "label": "Trường Đại học Quốc tế, Đại học Quốc gia Thành phố Hồ Chí Minh"
+ },
+ "Q5873976": {
+  "vi": "Trường Đại học Nông Lâm Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Agriculture and Forestry",
+  "label": "Trường Đại học Nông Lâm Thành phố Hồ Chí Minh"
+ },
+ "Q5873981": {
+  "vi": "Trường Đại học Văn hóa Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Culture",
+  "label": "Trường Đại học Văn hóa Thành phố Hồ Chí Minh"
+ },
+ "Q5873989": {
+  "vi": "Trường Đại học Ngoại ngữ – Tin học Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Foreign Languages and Information Technology",
+  "label": "Trường Đại học Ngoại ngữ Tin học Thành phố Hồ Chí Minh"
+ },
+ "Q515": {
+  "vi": "Thành phố",
+  "en": "City",
+  "label": "thành phố"
+ },
+ "Q649": {
+  "vi": "Moskva",
+  "en": "Moscow",
+  "label": "Moskva"
+ },
+ "Q3761": {
+  "vi": "Accra",
+  "en": "Accra",
+  "label": "Accra"
+ },
+ "Q590734": {
+  "vi": "Bố Trạch (huyện)",
+  "en": "Bố Trạch district",
+  "label": "Bố Trạch"
+ },
+ "Q602669": {
+  "vi": "Liên Chiểu (quận)",
+  "en": "Liên Chiểu district",
+  "label": "Liên Chiểu"
+ },
+ "Q608809": {
+  "vi": "Vũng Tàu – Côn Đảo",
+  "en": null,
+  "label": "Vũng Tàu - Côn Đảo"
+ },
+ "Q610220": {
+  "vi": "Trường Đại học FPT",
+  "en": "FPT University",
+  "label": "Trường Đại học FPT"
+ },
+ "Q36903": {
+  "vi": "Ninh Thuận",
+  "en": "Ninh Thuận province",
+  "label": "Ninh Thuận"
+ },
+ "Q5873999": {
+  "vi": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Social Sciences and Humanities",
+  "label": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh"
+ },
+ "Q5873997": {
+  "vi": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Science",
+  "label": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh"
+ },
+ "Q5874003": {
+  "vi": "Trường Đại học Luật Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Law",
+  "label": "Trường Đại học Luật Thành phố Hồ Chí Minh"
+ },
+ "Q5874382": {
+  "vi": "Hoàng Đình Tùng",
+  "en": "Hoàng Đình Tùng",
+  "label": "Hoàng Đình Tùng"
+ },
+ "Q5874425": {
+  "vi": "Hoàng Nhật Nam",
+  "en": "Hoàng Nhật Nam",
+  "label": "Hoàng Nhật Nam"
+ },
+ "Q5895654": {
+  "vi": "Hồng Ngự (huyện)",
+  "en": "Hồng Ngự district",
+  "label": "Huyện Hồng Ngự"
+ },
+ "Q5923109": {
+  "vi": "Hoàng Văn Bình (cầu thủ bóng đá)",
+  "en": "Hoàng Văn Bình",
+  "label": "Hoàng Văn Bình"
+ },
+ "Q5928194": {
+  "vi": "Câu lạc bộ bóng đá Huế",
+  "en": "Hue FC",
+  "label": "Câu lạc bộ bóng đá Huda Huế"
+ },
+ "Q5929707": {
+  "vi": "Sân vận động Tự Do",
+  "en": "Tự Do Stadium",
+  "label": "Sân vận động Tự Do"
+ },
+ "Q5929730": {
+  "vi": "Giải bóng đá nữ Vô địch Quốc gia",
+  "en": "V-Women's League",
+  "label": "Giải vô địch bóng đá nữ Việt Nam"
+ },
+ "Q5930497": {
+  "vi": "Sân vận động Long An",
+  "en": "Long An Stadium",
+  "label": "Sân vận động Long An"
+ },
+ "Q5942590": {
+  "vi": "Hưng Nguyên (huyện)",
+  "en": "Hưng Nguyên district",
+  "label": "Hưng Nguyên"
+ },
+ "Q5946136": {
+  "vi": "Hương Trà (thị xã)",
+  "en": "Hương Trà (town)",
+  "label": "Hương Trà"
+ },
+ "Q5965323": {
+  "vi": "Hương Thủy (thị xã)",
+  "en": "Hương Thủy (town)",
+  "label": "Hương Thủy"
+ },
+ "Q6101429": {
+  "vi": "Câu lạc bộ bóng đá TDC Bình Dương",
+  "en": "TDC Bình Dương FC",
+  "label": "TDC Bình Dương"
+ },
+ "Q6131246": {
+  "vi": "Trường Đại học Kiến trúc Hà Nội",
+  "en": "Hanoi Architectural University",
+  "label": "Trường Đại học Kiến trúc Hà Nội"
+ },
+ "Q6134439": {
+  "vi": "Trường Đại học Xây dựng Hà Nội",
+  "en": "Hanoi University of Civil Engineering",
+  "label": "Trường Đại học Xây dựng"
+ },
+ "Q6405298": {
+  "vi": "Kiến Xương (huyện)",
+  "en": "Kiến Xương district",
+  "label": "Kiến Xương"
+ },
+ "Q6408354": {
+  "vi": "Kim Bảng (thị xã)",
+  "en": "Kim Bảng (town)",
+  "label": "Kim Bảng"
+ },
+ "Q6467885": {
+  "vi": "Lạc Sơn (huyện)",
+  "en": "Lạc Sơn district",
+  "label": "Lạc Sơn"
+ },
+ "Q6470507": {
+  "vi": "Thọ Xuân (huyện)",
+  "en": "Thọ Xuân district",
+  "label": "Thọ Xuân"
+ },
+ "Q6473680": {
+  "vi": "Lai Vung (huyện)",
+  "en": "Lai Vung district",
+  "label": "Lai Vung"
+ },
+ "Q6480648": {
+  "vi": "Câu lạc bộ bóng đá Lâm Đồng",
+  "en": "Lam Dong FC",
+  "label": "Câu lạc bộ bóng đá Lâm Đồng"
+ },
+ "Q623730": {
+  "vi": "Leixões S.C.",
+  "en": "Leixões S.C.",
+  "label": "Leixões SC"
+ },
+ "Q632990": {
+  "vi": "Câu lạc bộ bóng đá SHB Đà Nẵng",
+  "en": "SHB Da Nang",
+  "label": "Câu lạc bộ bóng đá SHB Đà Nẵng"
+ },
+ "Q646342": {
+  "vi": "Câu lạc bộ bóng đá Khánh Hòa (1976)",
+  "en": "Khanh Hoa FC (1976)",
+  "label": "Câu lạc bộ bóng đá Khánh Hòa"
+ },
+ "Q661322": {
+  "vi": "Trường Đại học Quốc tế Hồng Bàng",
+  "en": "Hong Bang International University",
+  "label": "Trường Đại học Quốc tế Hồng Bàng"
+ },
+ "Q368923": {
+  "vi": "Trường Đại học Sài Gòn",
+  "en": "Saigon University",
+  "label": "Trường Đại học Sài Gòn"
+ },
+ "Q372634": {
+  "vi": "Châu Phong Hòa",
+  "en": "Châu Phong Hòa",
+  "label": "Châu Phong Hòa"
+ },
+ "Q406796": {
+  "vi": "Câu lạc bộ bóng đá Thể Công – Viettel",
+  "en": "Thể Công–Viettel FC",
+  "label": "Câu lạc bộ bóng đá Thể Công – Viettel"
+ },
+ "Q75684": {
+  "vi": "S.C. Braga",
+  "en": "S.C. Braga",
+  "label": "S.C. Braga"
+ },
+ "Q75700": {
+  "vi": "Bắc Kạn (thành phố)",
+  "en": "Bắc Kạn (city)",
+  "label": "Bắc Kạn"
+ },
+ "Q7022331": {
+  "vi": "Nghĩa Hành (huyện)",
+  "en": "Nghĩa Hành district",
+  "label": "Nghĩa Hành"
+ },
+ "Q7022329": {
+  "vi": "Nghĩa Đàn (huyện)",
+  "en": "Nghĩa Đàn district",
+  "label": "Nghĩa Đàn"
+ },
+ "Q7022778": {
+  "vi": "Nguyễn Anh Đức",
+  "en": "Nguyễn Anh Đức",
+  "label": "Nguyễn Anh Đức"
+ },
+ "Q7022831": {
+  "vi": "Nguyễn Hồng Tiến",
+  "en": "Nguyễn Hồng Tiến",
+  "label": "Nguyễn Hồng Tiến"
+ },
+ "Q7022876": {
+  "vi": "Nguyễn Minh Chuyên",
+  "en": "Nguyễn Minh Chuyên",
+  "label": "Nguyễn Minh Chuyên"
+ },
+ "Q7022885": {
+  "vi": "Nguyễn Ngọc Duy",
+  "en": "Nguyễn Ngọc Duy",
+  "label": "Nguyễn Ngọc Duy"
+ },
+ "Q7022892": {
+  "vi": "Nguyễn Ngọc Thanh (cầu thủ bóng đá, sinh 1982)",
+  "en": "Nguyễn Ngọc Thanh",
+  "label": "Nguyễn Ngọc Thanh"
+ },
+ "Q7022927": {
+  "vi": "Nguyễn Quang Hải (cầu thủ bóng đá, sinh 1985)",
+  "en": "Nguyễn Quang Hải (footballer, born 1985)",
+  "label": "Nguyễn Quang Hải"
+ },
+ "Q36729": {
+  "vi": "Hải Dương (tỉnh)",
+  "en": "Hải Dương province",
+  "label": "Hải Dương"
+ },
+ "Q36736": {
+  "vi": "Bắc Giang (thành phố)",
+  "en": "Bắc Giang (city)",
+  "label": "Bắc Giang"
+ },
+ "Q7137763": {
+  "vi": "Park Hang-seo",
+  "en": "Park Hang-seo",
+  "label": "Park Hang-seo"
+ },
+ "Q7180363": {
+  "vi": "Phạm Hải Nam",
+  "en": "Phạm Hải Nam",
+  "label": "Phạm Hải Nam"
+ },
+ "Q7180369": {
+  "vi": "Phạm Minh Đức",
+  "en": "Phạm Minh Đức",
+  "label": "Phạm Minh Đức"
+ },
+ "Q7180372": {
+  "vi": "Phạm Nguyên Sa",
+  "en": "Phạm Nguyên Sa",
+  "label": "Phạm Nguyên Sa"
+ },
+ "Q7180411": {
+  "vi": "Phan Thanh Giang",
+  "en": "Phan Thanh Giang",
+  "label": "Phan Thanh Giang"
+ },
+ "Q7180413": {
+  "vi": "Phan Thanh Hưng",
+  "en": "Phan Thanh Hưng",
+  "label": "Phan Thanh Hưng"
+ },
+ "Q488425": {
+  "vi": "Kim Sang-sik",
+  "en": "Kim Sang-sik",
+  "label": "Kim Sang-sik"
+ },
+ "Q524553": {
+  "vi": "Thủ Dầu Một (thành phố)",
+  "en": "Thủ Dầu Một (city)",
+  "label": "Thủ Dầu Một"
+ },
+ "Q541779": {
+  "vi": "Câu lạc bộ bóng đá Sông Lam Nghệ An",
+  "en": "Song Lam Nghe An FC",
+  "label": "Câu lạc bộ bóng đá Sông Lam Nghệ An"
+ },
+ "Q553831": {
+  "vi": "Huỳnh Phúc Hiệp",
+  "en": "Huỳnh Phúc Hiệp",
+  "label": "Huỳnh Phúc Hiệp"
+ },
+ "Q560102": {
+  "vi": "Câu lạc bộ bóng đá Hà Nội (1956)",
+  "en": "Hà Nội FC (1956)",
+  "label": "Câu lạc bộ bóng đá Hà Nội"
+ },
+ "Q560392": {
+  "vi": "Câu lạc bộ bóng đá Hà Nội (2006)",
+  "en": "Hanoi FC",
+  "label": "Câu lạc bộ bóng đá Hà Nội"
+ },
+ "Q665981": {
+  "vi": "Đồng Xoài (thành phố)",
+  "en": "Đồng Xoài (city)",
+  "label": "Đồng Xoài"
+ },
+ "Q672819": {
+  "vi": "Huỳnh Quang Thanh",
+  "en": "Huỳnh Quang Thanh",
+  "label": "Huỳnh Quang Thanh"
+ },
+ "Q717262": {
+  "vi": "Trường Đại học Y khoa Vinh",
+  "en": "Vinh Medical University",
+  "label": "Trường Đại học Y khoa Vinh"
+ },
+ "Q36907": {
+  "vi": "Nam Định (tỉnh)",
+  "en": "Nam Định province",
+  "label": "Nam Định"
+ },
+ "Q36955": {
+  "vi": "Điện Biên",
+  "en": "Điện Biên province",
+  "label": "Điện Biên"
+ },
+ "Q7022932": {
+  "vi": "Nguyễn Quốc Long",
+  "en": "Nguyễn Quốc Long",
+  "label": "Nguyễn Quốc Long"
+ },
+ "Q7022954": {
+  "vi": "Nguyễn Thành Long Giang",
+  "en": "Nguyễn Thành Long Giang",
+  "label": "Nguyễn Thành Long Giang"
+ },
+ "Q7023000": {
+  "vi": "Nguyễn Trọng Hoàng",
+  "en": "Nguyễn Trọng Hoàng",
+  "label": "Nguyễn Trọng Hoàng"
+ },
+ "Q7023010": {
+  "vi": "Nguyễn Văn Biển",
+  "en": "Nguyễn Văn Biển",
+  "label": "Nguyễn Văn Biển"
+ },
+ "Q7023058": {
+  "vi": "Nguyễn Việt Thắng (cầu thủ bóng đá)",
+  "en": "Nguyễn Việt Thắng",
+  "label": "Nguyễn Việt Thắng"
+ },
+ "Q7023085": {
+  "vi": "Nguyễn Gia Từ",
+  "en": "Nguyễn Gia Từ",
+  "label": "Nguyễn Gia Từ"
+ },
+ "Q7023325": {
+  "vi": "Sân vận động 19 tháng 8",
+  "en": "Nha Trang Stadium",
+  "label": "Sân vận động 19 tháng 8"
+ },
+ "Q36866": {
+  "vi": "Bình Dương (tỉnh)",
+  "en": "Bình Dương province",
+  "label": "Bình Dương"
+ },
+ "Q36865": {
+  "vi": "Cao Bằng",
+  "en": "Cao Bằng province",
+  "label": "Cao Bằng"
+ },
+ "Q7895616": {
+  "vi": "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Languages and International Studies",
+  "label": "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội"
+ },
+ "Q7896405": {
+  "vi": "Trường Đại học Công nghệ Kỹ thuật Hưng Yên",
+  "en": "Hung Yen University of Technology and Education",
+  "label": "Trường Đại học Sư phạm Kỹ thuật Hưng Yên"
+ },
+ "Q7913402": {
+  "vi": "Trường Đại học Văn Hiến",
+  "en": "Văn Hiến University",
+  "label": "Trường Đại học Văn Hiến"
+ },
+ "Q7913477": {
+  "vi": "Trường Đại học Văn Lang",
+  "en": "Văn Lang University",
+  "label": "Trường Đại học Dân lập Văn Lang"
+ },
+ "Q7913787": {
+  "vi": "Trường Đại học Công nghệ Vạn Xuân",
+  "en": "Van Xuan University of Technology",
+  "label": "Trường Đại học Công nghệ Vạn Xuân"
+ },
+ "Q7928523": {
+  "vi": "Trường Đại học Hàng hải Việt Nam",
+  "en": "Vietnam Maritime University",
+  "label": "Trường Đại học Hàng hải Việt Nam"
+ },
+ "Q7928533": {
+  "vi": "Học viện Hải quân (Việt Nam)",
+  "en": "Vietnam Naval Academy",
+  "label": "Học viện Hải quân (Việt Nam)"
+ },
+ "Q7928602": {
+  "vi": "Đội tuyển bóng đá U-23 quốc gia Việt Nam",
+  "en": "Vietnam national under-23 football team",
+  "label": "Đội tuyển bóng đá U-23 quốc gia Việt Nam"
+ },
+ "Q7928601": {
+  "vi": "Đội tuyển bóng đá nam U-20 quốc gia Việt Nam",
+  "en": "Vietnam national under-20 football team",
+  "label": "Đội tuyển bóng đá U-19 quốc gia Việt Nam"
+ },
+ "Q43375069": {
+  "vi": "Nguyễn Thái Sung",
+  "en": "Nguyễn Thái Sung",
+  "label": "Nguyễn Thái Sung"
+ },
+ "Q45344289": {
+  "vi": "Nguyễn Văn Hoàng (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Hoàng",
+  "label": "Nguyễn Văn Hoàng"
+ },
+ "Q45399555": {
+  "vi": "Đặng Ngọc Tuấn",
+  "en": "Đặng Ngọc Tuấn",
+  "label": "Đặng Ngọc Tuấn"
+ },
+ "Q45450689": {
+  "vi": "Đặng Văn Tới",
+  "en": "Đặng Văn Tới",
+  "label": "Đặng Văn Tới"
+ },
+ "Q45589477": {
+  "vi": "Ngô Xuân Sơn",
+  "en": "Ngô Xuân Sơn",
+  "label": "Ngô Xuân Sơn"
+ },
+ "Q45597173": {
+  "vi": "Bùi Duy Thường",
+  "en": "Bùi Duy Thường",
+  "label": "Bùi Duy Thường"
+ },
+ "Q47506382": {
+  "vi": "Lưu Văn Hương",
+  "en": null,
+  "label": "Lưu Văn Hương"
+ },
+ "Q47506383": {
+  "vi": "Lê Văn Đại",
+  "en": null,
+  "label": "Lê Văn Đại"
+ },
+ "Q47506381": {
+  "vi": "Nguyễn Thế Dương",
+  "en": null,
+  "label": "Nguyễn Thế Dương"
+ },
+ "Q49054331": {
+  "vi": "Nguyễn Văn Quang (cầu thủ bóng đá)",
+  "en": null,
+  "label": "Nguyễn Văn Quang"
+ },
+ "Q49055341": {
+  "vi": "Câu lạc bộ bóng đá Ninh Bình (2015)",
+  "en": "Ninh Binh FC",
+  "label": "Câu lạc bộ bóng đá Ninh Bình"
+ },
+ "Q49055646": {
+  "vi": "Nguyễn Trọng Đại",
+  "en": "Nguyễn Trọng Đại",
+  "label": "Nguyễn Trọng Đại"
+ },
+ "Q778493": {
+  "vi": "Cửa Lò",
+  "en": "Cửa Lò",
+  "label": "Cửa Lò"
+ },
+ "Q813571": {
+  "vi": "Câu lạc bộ bóng đá Becamex Thành phố Hồ Chí Minh",
+  "en": "Becamex Ho Chi Minh City FC",
+  "label": "Câu lạc bộ bóng đá Becamex Bình Dương"
+ },
+ "Q835285": {
+  "vi": "Trường Đại học Việt Đức",
+  "en": "Vietnamese-German University",
+  "label": "Trường Đại học Việt - Đức"
+ },
+ "Q766": {
+  "vi": "Jamaica",
+  "en": "Jamaica",
+  "label": "Jamaica"
+ },
+ "Q36869": {
+  "vi": "Bình Thuận (tỉnh)",
+  "en": "Bình Thuận province",
+  "label": "Bình Thuận"
+ },
+ "Q4254269": {
+  "vi": "Hoàng Văn Phúc",
+  "en": "Hoàng Văn Phúc",
+  "label": "Hoàng Văn Phúc"
+ },
+ "Q4263908": {
+  "vi": "Đinh Hoàng La",
+  "en": "Đinh Hoàng La",
+  "label": "Đinh Hoàng La"
+ },
+ "Q4284208": {
+  "vi": "Hà Bắc (tỉnh Việt Nam)",
+  "en": "Hà Bắc province",
+  "label": "Hà Bắc"
+ },
+ "Q4358513": {
+  "vi": "Sầm Sơn (thành phố)",
+  "en": "Sầm Sơn (city)",
+  "label": "Sầm Sơn"
+ },
+ "Q4481043": {
+  "vi": "Phạm Thành Lương",
+  "en": "Phạm Thành Lương",
+  "label": "Phạm Thành Lương"
+ },
+ "Q4499048": {
+  "vi": "Nguyễn Hữu Thắng (cầu thủ bóng đá, sinh 1980)",
+  "en": "Nguyễn Hữu Thắng (footballer, born 1980)",
+  "label": "Nguyễn Hữu Thắng"
+ },
+ "Q4499117": {
+  "vi": "Nguyễn Hữu Thắng (cầu thủ bóng đá, sinh 1972)",
+  "en": "Nguyễn Hữu Thắng (footballer, born 1972)",
+  "label": "Nguyễn Hữu Thắng"
+ },
+ "Q4644116": {
+  "vi": "Quân khu 7, Quân đội nhân dân Việt Nam",
+  "en": "7th Military Region (People's Army of Vietnam)",
+  "label": "Quân khu 7, Quân đội Nhân dân Việt Nam"
+ },
+ "Q4717872": {
+  "vi": "Cửu Long (tỉnh)",
+  "en": "Cửu Long province",
+  "label": "Cửu Long"
+ },
+ "Q7180415": {
+  "vi": "Phan Thanh Hùng",
+  "en": "Phan Thanh Hùng",
+  "label": "Phan Thanh Hùng"
+ },
+ "Q7188236": {
+  "vi": "Phú Bình (huyện)",
+  "en": "Phú Bình district",
+  "label": "Phú Bình"
+ },
+ "Q7188349": {
+  "vi": "Phùng Công Minh",
+  "en": "Phùng Công Minh",
+  "label": "Phùng Công Minh"
+ },
+ "Q7188356": {
+  "vi": "Phùng Văn Nhiên",
+  "en": "Phùng Văn Nhiên",
+  "label": "Phùng Văn Nhiên"
+ },
+ "Q7188369": {
+  "vi": "Phước Long (tỉnh)",
+  "en": "Phước Long province",
+  "label": "Phước Long"
+ },
+ "Q7204458": {
+  "vi": "Sân vận động Pleiku",
+  "en": "Pleiku Stadium",
+  "label": "Sân vận động Pleiku"
+ },
+ "Q7268855": {
+  "vi": "Câu lạc bộ bóng đá Than Quảng Ninh",
+  "en": "Than Quang Ninh FC",
+  "label": "Câu lạc bộ bóng đá Than Quảng Ninh"
+ },
+ "Q7268871": {
+  "vi": "Quảng Xương",
+  "en": "Quảng Xương district",
+  "label": "Quảng Xương"
+ },
+ "Q7273042": {
+  "vi": "Quỳ Hợp (huyện)",
+  "en": "Quỳ Hợp district",
+  "label": "Quỳ Hợp"
+ },
+ "Q5221506": {
+  "vi": "Đào Văn Phong",
+  "en": "Đào Văn Phong",
+  "label": "Đào Văn Phong"
+ },
+ "Q5274939": {
+  "vi": "Diễn Châu (huyện)",
+  "en": "Diễn Châu district",
+  "label": "Diễn Châu"
+ },
+ "Q5278301": {
+  "vi": "Đinh Thanh Trung",
+  "en": "Đinh Thanh Trung",
+  "label": "Đinh Thanh Trung"
+ },
+ "Q5286108": {
+  "vi": "Đô Lương (huyện)",
+  "en": "Đô Lương district",
+  "label": "Đô Lương"
+ },
+ "Q5295738": {
+  "vi": "Đông Hưng (huyện)",
+  "en": "Đông Hưng district",
+  "label": "Đông Hưng"
+ },
+ "Q5295739": {
+  "vi": "Đồng Huy Thái",
+  "en": "Đồng Huy Thái",
+  "label": "Đồng Huy Thái"
+ },
+ "Q5295774": {
+  "vi": "Đông Triều (thành phố)",
+  "en": "Đông Triều (city)",
+  "label": "Đông Triều"
+ },
+ "Q5311201": {
+  "vi": "Đức Hòa (huyện)",
+  "en": "Đức Hòa district",
+  "label": "Đức Hòa"
+ },
+ "Q5317667": {
+  "vi": "Đại học Duy Tân",
+  "en": "Duy Tan University",
+  "label": "Trường Đại học Duy Tân"
+ },
+ "Q5357466": {
+  "vi": "Trường Đại học Điện lực",
+  "en": "Electric Power University",
+  "label": "Trường Đại học Điện lực"
+ },
+ "Q36874": {
+  "vi": "Bà Rịa – Vũng Tàu",
+  "en": "Bà Rịa–Vũng Tàu province",
+  "label": "Bà Rịa - Vũng Tàu"
+ },
+ "Q36900": {
+  "vi": "Ninh Bình",
+  "en": "Ninh Bình province",
+  "label": "Ninh Bình"
+ },
+ "Q50820212": {
+  "vi": "Hồ Tấn Tài",
+  "en": "Hồ Tấn Tài",
+  "label": "Hồ Tấn Tài"
+ },
+ "Q51754418": {
+  "vi": "Rimario Gordon",
+  "en": "Rimario Gordon",
+  "label": "Rimario Allando Gordon"
+ },
+ "Q51754422": {
+  "vi": "Louis Epassi Ewonde",
+  "en": "Louis Ewonde",
+  "label": "Louis Epassi Ewonde"
+ },
+ "Q51754424": {
+  "vi": "Nguyễn Trung Đại Dương",
+  "en": "Nguyễn Trung Đại Dương",
+  "label": "Nguyễn Trung Đại Dương"
+ },
+ "Q5363048": {
+  "vi": "Nguyễn Công Huy (cầu thủ bóng đá, sinh năm 1987)",
+  "en": "Nguyen Cong Huy",
+  "label": "Nguyễn Công Huy"
+ },
+ "Q5370325": {
+  "vi": "Thanh Oai (huyện)",
+  "en": "Thanh Oai district",
+  "label": "Thanh Oai"
+ },
+ "Q5426322": {
+  "vi": "FK Pohronie",
+  "en": "FK Pohronie",
+  "label": "FK Pohronie"
+ },
+ "Q5468340": {
+  "vi": "Trường Đại học Ngoại thương",
+  "en": "Foreign Trade University",
+  "label": "Trường Đại học Ngoại thương"
+ },
+ "Q5557813": {
+  "vi": "Gia Viễn (huyện)",
+  "en": "Gia Viễn district",
+  "label": "Gia Viễn"
+ },
+ "Q460346": {
+  "vi": "Lê Công Vinh",
+  "en": "Lê Công Vinh",
+  "label": "Lê Công Vinh"
+ },
+ "Q461479": {
+  "vi": "Philippe Troussier",
+  "en": "Philippe Troussier",
+  "label": "Philippe Troussier"
+ },
+ "Q7928633": {
+  "vi": "Giải bóng đá hạng Nhì Quốc gia Việt Nam",
+  "en": "Vietnamese Football League Second Division",
+  "label": "Giải bóng đá hạng Nhì Quốc gia"
+ },
+ "Q7939145": {
+  "vi": "Võ Hoàng Quảng",
+  "en": "Võ Hoàng Quảng",
+  "label": "Võ Hoàng Quảng"
+ },
+ "Q7939148": {
+  "vi": "Võ Minh Trí (trọng tài)",
+  "en": "Võ Minh Trí",
+  "label": "Võ Minh Trí"
+ },
+ "Q7943270": {
+  "vi": "Vũ Anh Tuấn",
+  "en": "Vũ Anh Tuấn",
+  "label": "Vũ Anh Tuấn"
+ },
+ "Q7943275": {
+  "vi": "Vũ Minh Hiếu",
+  "en": "Vũ Minh Hiếu",
+  "label": "Vũ Minh Hiếu"
+ },
+ "Q7943287": {
+  "vi": "Vũ Thư (huyện)",
+  "en": "Vũ Thư district",
+  "label": "Vũ Thư"
+ },
+ "Q7943683": {
+  "vi": "Vương Tiến Dũng",
+  "en": "Vương Tiến Dũng",
+  "label": "Vương Tiến Dũng"
+ },
+ "Q7973360": {
+  "vi": "Trường Đại học Thủy lợi",
+  "en": "Thuyloi University",
+  "label": "Trường Đại học Thủy lợi"
+ },
+ "Q8009556": {
+  "vi": "Mai Tiến Thành",
+  "en": "Mai Tiến Thành",
+  "label": "Mai Tiến Thành"
+ },
+ "Q482562": {
+  "vi": "Incheon United FC",
+  "en": "Incheon United FC",
+  "label": "Incheon United FC"
+ },
+ "Q54861179": {
+  "vi": "Lê Sỹ Minh",
+  "en": "Lê Sỹ Minh",
+  "label": "Lê Sỹ Minh"
+ },
+ "Q54861275": {
+  "vi": "Đinh Viết Tú",
+  "en": "Đinh Viết Tú",
+  "label": "Đinh Viết Tú"
+ },
+ "Q55333364": {
+  "vi": "Câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh",
+  "en": "Hong Linh Ha Tinh FC",
+  "label": "Câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh"
+ },
+ "Q55357719": {
+  "vi": "Adriano Schmidt",
+  "en": "Adriano Schmidt",
+  "label": "Adriano Schmidt"
+ },
+ "Q55362545": {
+  "vi": "Nguyễn Hồng Sơn (cầu thủ bóng đá, sinh 2000)",
+  "en": "Nguyễn Hồng Sơn (footballer, born 2000)",
+  "label": "Nguyễn Hồng Sơn"
+ },
+ "Q55433339": {
+  "vi": "Nguyễn Đức Anh Quốc",
+  "en": "Nguyễn Đức Anh Quốc",
+  "label": "Nguyễn Đức Anh Quốc"
+ },
+ "Q55637111": {
+  "vi": "Đội tuyển bóng đá U-21 quốc gia Việt Nam",
+  "en": "Vietnam national under-21 football team",
+  "label": "Đội tuyển bóng đá U-21 quốc gia Việt Nam"
+ },
+ "Q56224050": {
+  "vi": "Trịnh Văn Lợi",
+  "en": "Trịnh Văn Lợi",
+  "label": "Trịnh Văn Lợi"
+ },
+ "Q56513413": {
+  "vi": "Nguyễn Filip",
+  "en": "Filip Nguyen",
+  "label": "Filip Nguyễn"
+ },
+ "Q6506529": {
+  "vi": "Lê Bật Hiếu",
+  "en": "Lê Bật Hiếu",
+  "label": "Lê Bật Hiếu"
+ },
+ "Q6507455": {
+  "vi": "Lê Phước Tứ",
+  "en": "Lê Phước Tứ",
+  "label": "Lê Phước Tứ"
+ },
+ "Q6507844": {
+  "vi": "Lê Văn Thắng (cầu thủ bóng đá)",
+  "en": "Lê Văn Thắng",
+  "label": "Lê Văn Thắng"
+ },
+ "Q6672777": {
+  "vi": "Long Khánh (tỉnh)",
+  "en": "Long Khánh province",
+  "label": "Long Khánh"
+ },
+ "Q6704605": {
+  "vi": "Lương Trung Tuấn",
+  "en": "Lương Trung Tuấn",
+  "label": "Lương Trung Tuấn"
+ },
+ "Q6704622": {
+  "vi": "Lương Văn Được Em",
+  "en": "Lương Văn Được Em",
+  "label": "Lương Văn Được Em"
+ },
+ "Q6735194": {
+  "vi": "Mai Xuân Hợp",
+  "en": "Mai Xuân Hợp",
+  "label": "Mai Xuân Hợp"
+ },
+ "Q6767078": {
+  "vi": "Vĩnh Phú (tỉnh)",
+  "en": null,
+  "label": "Vĩnh Phú"
+ },
+ "Q6945935": {
+  "vi": "Mỹ Lộc (huyện)",
+  "en": "Mỹ Lộc district",
+  "label": "Mỹ Lộc"
+ },
+ "Q6972380": {
+  "vi": "Đại học Kinh tế Quốc dân",
+  "en": "National Economics University",
+  "label": "Trường Đại học Kinh tế Quốc dân"
+ },
+ "Q486972": {
+  "vi": null,
+  "en": "Human settlement",
+  "label": "khu định cư"
+ },
+ "Q7273047": {
+  "vi": "Sân vận động Quy Nhơn",
+  "en": "Quy Nhơn Stadium",
+  "label": "Sân vận động Qui Nhơn"
+ },
+ "Q7273055": {
+  "vi": "Quỳnh Lưu (huyện)",
+  "en": "Quỳnh Lưu district",
+  "label": "Quỳnh Lưu"
+ },
+ "Q7277005": {
+  "vi": "Trường Đại học Quốc tế RMIT Việt Nam",
+  "en": "Royal Melbourne Institute of Technology Vietnam",
+  "label": "Đại học RMIT Việt Nam"
+ },
+ "Q7333405": {
+  "vi": "Vĩnh Long",
+  "en": "Vĩnh Long province",
+  "label": "Vĩnh Long"
+ },
+ "Q7390184": {
+  "vi": "Câu lạc bộ bóng đá SHB Viêng Chăn",
+  "en": "SHB Vientiane F.C.",
+  "label": "SHB Vientiane F.C."
+ },
+ "Q7400087": {
+  "vi": "Trường Đại học Công nghệ Sài Gòn",
+  "en": "Saigon Technology University",
+  "label": "Trường Đại học Công nghệ Sài Gòn"
+ },
+ "Q51929311": {
+  "vi": null,
+  "en": null,
+  "label": "thành phố lớn nhất"
+ },
+ "Q52159944": {
+  "vi": "Đỗ Sỹ Huy",
+  "en": "Đỗ Sỹ Huy",
+  "label": "Đỗ Sỹ Huy"
+ },
+ "Q52160398": {
+  "vi": "Lê Văn Xuân (cầu thủ bóng đá)",
+  "en": "Lê Văn Xuân",
+  "label": "Lê Văn Xuân"
+ },
+ "Q52161415": {
+  "vi": "Hồ Sỹ Giáp",
+  "en": "Hồ Sỹ Giáp",
+  "label": "Hồ Sỹ Giáp"
+ },
+ "Q52188808": {
+  "vi": "Trần Thành (cầu thủ bóng đá)",
+  "en": "Trần Thành",
+  "label": "Trần Thành"
+ },
+ "Q52714394": {
+  "vi": "Trương Công Thảo",
+  "en": "Trương Công Thảo",
+  "label": "Trương Công Thảo"
+ },
+ "Q54336530": {
+  "vi": "Phan Đình Vũ Hải",
+  "en": "Phan Đình Vũ Hải",
+  "label": "Phan Đình Vũ Hải"
+ },
+ "Q54861166": {
+  "vi": "Vũ Quang Nam",
+  "en": "Vũ Quang Nam",
+  "label": "Vũ Quang Nam"
+ },
+ "Q580378": {
+  "vi": "Port F.C.",
+  "en": "Port F.C.",
+  "label": "Port F.C."
+ },
+ "Q586787": {
+  "vi": "Hokkaido Consadole Sapporo",
+  "en": "Hokkaido Consadole Sapporo",
+  "label": "Consadole Sapporo"
+ },
+ "Q56750857": {
+  "vi": "Đỗ Thị Ngọc Châm",
+  "en": "Đỗ Thị Ngọc Châm",
+  "label": "Đỗ Thị Ngọc Châm"
+ },
+ "Q56868111": {
+  "vi": "Phạm Thế Nhật",
+  "en": "Phạm Thế Nhật",
+  "label": "Phạm Thế Nhật"
+ },
+ "Q61128838": {
+  "vi": "Trường Đại học Xây dựng Miền Tây",
+  "en": null,
+  "label": "Trường Đại học Xây dựng Miền Tây"
+ },
+ "Q61129652": {
+  "vi": "Phạm Văn Phong",
+  "en": "Phạm Văn Phong",
+  "label": "Phạm Văn Phong"
+ },
+ "Q61130459": {
+  "vi": "Câu lạc bộ bóng đá Công an nhân dân (2018)",
+  "en": "Cong An Nhan Dan FC (2026)",
+  "label": "Câu lạc bộ bóng đá PVF-CAND"
+ },
+ "Q61132049": {
+  "vi": "Nguyễn Thế Cường",
+  "en": null,
+  "label": "Nguyễn Thế Cường"
+ },
+ "Q61132906": {
+  "vi": "Ngô Tùng Quốc",
+  "en": "Ngô Tùng Quốc",
+  "label": "Ngô Tùng Quốc"
+ },
+ "Q61612559": {
+  "vi": "Đặng Văn Trâm",
+  "en": "Đặng Văn Trâm",
+  "label": "Đặng Văn Trâm"
+ },
+ "Q61612686": {
+  "vi": "Trần Ngọc Sơn",
+  "en": "Trần Ngọc Sơn (footballer, born 1996)",
+  "label": "Trần Ngọc Sơn"
+ },
+ "Q61613045": {
+  "vi": "Nguyễn Hoàng Đức",
+  "en": "Nguyễn Hoàng Đức",
+  "label": "Nguyễn Hoàng Đức"
+ },
+ "Q65171245": {
+  "vi": "Câu lạc bộ bóng đá Bắc Ninh",
+  "en": "Bac Ninh FC",
+  "label": "Câu lạc bộ bóng đá Gia Định"
+ },
+ "Q65172117": {
+  "vi": "Nguyễn Đức Chiến",
+  "en": "Nguyễn Đức Chiến",
+  "label": "Nguyễn Đức Chiến"
+ },
+ "Q65172277": {
+  "vi": "Học viện Múa Việt Nam",
+  "en": null,
+  "label": "Học viện Múa Việt Nam"
+ },
+ "Q65172352": {
+  "vi": "Trường Đại học Kiên Giang",
+  "en": null,
+  "label": "Trường Đại học Kiên Giang"
+ },
+ "Q65172403": {
+  "vi": "Đậu Văn Toàn",
+  "en": "Đậu Văn Toàn",
+  "label": "Đậu Văn Toàn"
+ },
+ "Q65175131": {
+  "vi": "Tô Văn Vũ",
+  "en": "Tô Văn Vũ",
+  "label": "Tô Văn Vũ"
+ },
+ "Q68996233": {
+  "vi": "Nguyễn Thanh Thảo (cầu thủ bóng đá)",
+  "en": "Nguyễn Thanh Thảo",
+  "label": "Nguyễn Thanh Thảo"
+ },
+ "Q4718509": {
+  "vi": "Bình Trị Thiên",
+  "en": "Bình Trị Thiên province",
+  "label": "Bình Trị Thiên"
+ },
+ "Q4750009": {
+  "vi": "Câu lạc bộ bóng đá An Giang",
+  "en": "An Giang FC",
+  "label": "Câu lạc bộ bóng đá An Giang"
+ },
+ "Q4750013": {
+  "vi": "Trường Đại học An Giang, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "An Giang University",
+  "label": "Trường Đại học An Giang"
+ },
+ "Q4837080": {
+  "vi": "Bá Thước (huyện)",
+  "en": "Bá Thước district",
+  "label": "Bá Thước"
+ },
+ "Q4856328": {
+  "vi": "Trường Đại học Ngân hàng Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh University of Banking",
+  "label": "Trường Đại học Ngân hàng Thành phố Hồ Chí Minh"
+ },
+ "Q4886082": {
+  "vi": "Bến Lức (huyện)",
+  "en": "Bến Lức district",
+  "label": "Bến Lức"
+ },
+ "Q4914337": {
+  "vi": "Bình Lục (huyện)",
+  "en": "Bình Lục district",
+  "label": "Bình Lục"
+ },
+ "Q4914341": {
+  "vi": "Bình Sơn (huyện)",
+  "en": "Bình Sơn district",
+  "label": "Bình Sơn"
+ },
+ "Q4986347": {
+  "vi": "Bùi Quang Huy (cầu thủ bóng đá)",
+  "en": "Bùi Quang Huy",
+  "label": "Bùi Quang Huy"
+ },
+ "Q5014111": {
+  "vi": "CR Vasco da Gama",
+  "en": "CR Vasco da Gama",
+  "label": "CR Vasco da Gama"
+ },
+ "Q5029090": {
+  "vi": "Đại học Cần Thơ",
+  "en": "Can Tho University",
+  "label": "Trường Đại học Cần Thơ"
+ },
+ "Q5034301": {
+  "vi": "Sân vận động Cao Lãnh",
+  "en": "Cao Lãnh Stadium",
+  "label": "Sân vận động Cao Lãnh"
+ },
+ "Q76973190": {
+  "vi": "Nguyễn Trọng Hùng",
+  "en": "Nguyễn Trọng Hùng",
+  "label": "Nguyễn Trọng Hùng"
+ },
+ "Q78707850": {
+  "vi": "Hoàng Thị Loan (cầu thủ bóng đá)",
+  "en": "Hoàng Thị Loan (footballer)",
+  "label": "Hoàng Thị Loan"
+ },
+ "Q79385518": {
+  "vi": "Nguyễn Thanh Huyền",
+  "en": "Nguyễn Thanh Huyền",
+  "label": "Nguyễn Thanh Huyền"
+ },
+ "Q8045182": {
+  "vi": "Xuân Trường (huyện)",
+  "en": "Xuân Trường district",
+  "label": "Xuân Trường"
+ },
+ "Q8077033": {
+  "vi": "Âu Văn Hoàn",
+  "en": "Âu Văn Hoàn",
+  "label": "Âu Văn Hoàn"
+ },
+ "Q8079948": {
+  "vi": "Đại La",
+  "en": "Đại La",
+  "label": "Đại La"
+ },
+ "Q39055423": {
+  "vi": "Câu lạc bộ bóng đá nữ Hà Nội II",
+  "en": "Hà Nội II W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Hà Nội II"
+ },
+ "Q39055470": {
+  "vi": "Câu lạc bộ bóng đá nữ Phong Phú Hà Nam",
+  "en": "Phong Phú Hà Nam W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Phong Phú Hà Nam"
+ },
+ "Q39055486": {
+  "vi": "Câu lạc bộ bóng đá nữ Sơn La",
+  "en": "Sơn La W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Sơn La"
+ },
+ "Q39055484": {
+  "vi": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh I",
+  "en": "Hồ Chí Minh City I W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh I"
+ },
+ "Q39055485": {
+  "vi": "Câu lạc bộ bóng đá nữ Hà Nội I",
+  "en": "Hà Nội I W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Hà Nội I"
+ },
+ "Q39055502": {
+  "vi": "Câu lạc bộ bóng đá nữ Than Khoáng Sản Việt Nam",
+  "en": "Than Khoáng Sản Việt Nam W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Than Khoáng Sản Việt Nam"
+ },
+ "Q39055504": {
+  "vi": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh II",
+  "en": "Hồ Chí Minh City II W.F.C.",
+  "label": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh II"
+ },
+ "Q42307848": {
+  "vi": "Trần Văn Học (cầu thủ bóng đá)",
+  "en": "Trần Văn Học",
+  "label": "Trần Văn Học (cầu thủ bóng đá)"
+ },
+ "Q42907587": {
+  "vi": "Vũ Xuân Cường (cầu thủ bóng đá)",
+  "en": "Vũ Xuân Cường",
+  "label": "Vũ Xuân Cường"
+ },
+ "Q42907594": {
+  "vi": "Đỗ Văn Thuận",
+  "en": "Đỗ Văn Thuận",
+  "label": "Đỗ Văn Thuận"
+ },
+ "Q5034317": {
+  "vi": "Cao Sỹ Cường",
+  "en": "Cao Sỹ Cường",
+  "label": "Cao Sỹ Cường"
+ },
+ "Q5088007": {
+  "vi": "Châu Lê Phước Vĩnh",
+  "en": "Châu Lê Phước Vĩnh",
+  "label": "Châu Lê Phước Vĩnh"
+ },
+ "Q5088017": {
+  "vi": "Châu Thành (huyện Long An)",
+  "en": "Châu Thành district, Long An",
+  "label": "Châu Thành"
+ },
+ "Q5095075": {
+  "vi": "Sân vận động Chi Lăng (1943)",
+  "en": "Chi Lăng Stadium (1954)",
+  "label": "Sân vận động Chi Lăng"
+ },
+ "Q5146680": {
+  "vi": "Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội",
+  "en": "VNU University of Economics and Business",
+  "label": "Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội"
+ },
+ "Q5191805": {
+  "vi": "Cư M'gar (huyện)",
+  "en": "Cư M'gar district",
+  "label": "Cư M'gar"
+ },
+ "Q5207275": {
+  "vi": "Trường Đại học Kiến trúc Đà Nẵng",
+  "en": "Da Nang University of Architecture",
+  "label": "Trường Đại học Kiến trúc Đà Nẵng"
+ },
+ "Q5207273": {
+  "vi": "Trường Đại học Kinh tế, Đại học Đà Nẵng",
+  "en": "Da Nang University of Economics",
+  "label": "Trường Đại học Kinh tế Đà Nẵng"
+ },
+ "Q5207276": {
+  "vi": "Trường Đại học Bách khoa, Đại học Đà Nẵng",
+  "en": "Da Nang University of Science and Technology",
+  "label": "Trường Đại học Bách khoa, Đại học Đà Nẵng"
+ },
+ "Q5209042": {
+  "vi": "Đại Từ (huyện)",
+  "en": "Đại Từ district",
+  "label": "Đại Từ"
+ },
+ "Q5215939": {
+  "vi": "Đặng Phương Nam",
+  "en": "Đặng Phương Nam",
+  "label": "Đặng Phương Nam"
+ },
+ "Q5215950": {
+  "vi": "Đặng Văn Lâm",
+  "en": "Đặng Văn Lâm",
+  "label": "Đặng Văn Lâm"
+ },
+ "Q7410376": {
+  "vi": "Hoàng Vũ Samson",
+  "en": "Hoàng Vũ Samson",
+  "label": "Samson Kayode Olaleye"
+ },
+ "Q7579810": {
+  "vi": "Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Sport",
+  "label": "Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh"
+ },
+ "Q7708869": {
+  "vi": "Thạch Bảo Khanh",
+  "en": "Thạch Bảo Khanh",
+  "label": "Thạch Bảo Khanh"
+ },
+ "Q7710351": {
+  "vi": "Sân vận động Thanh Hóa",
+  "en": "Thanh Hóa Stadium",
+  "label": "Sân vận động Thanh Hóa"
+ },
+ "Q7778399": {
+  "vi": "Mạc Hồng Quân",
+  "en": "Mạc Hồng Quân",
+  "label": "Mạc Hồng Quân"
+ },
+ "Q7799512": {
+  "vi": "Thủy Nguyên (thành phố)",
+  "en": "Thủy Nguyên (city)",
+  "label": "Thủy Nguyên"
+ },
+ "Q7801029": {
+  "vi": "Câu lạc bộ bóng đá Tiền Giang",
+  "en": "Tien Giang FC",
+  "label": "Câu lạc bộ bóng đá Tiền Giang"
+ },
+ "Q7801039": {
+  "vi": "Tiên Yên (huyện)",
+  "en": "Tiên Yên district",
+  "label": "Tiên Yên"
+ },
+ "Q7820914": {
+  "vi": "Đội bóng đá Tổng cục Đường sắt",
+  "en": "Tong Cuc Duong Sat FC",
+  "label": "Đội bóng đá Tổng cục Đường sắt"
+ },
+ "Q7833288": {
+  "vi": "Trần Chí Công",
+  "en": "Trần Chí Công",
+  "label": "Trần Chí Công"
+ },
+ "Q7833294": {
+  "vi": "Trần Đình Đồng",
+  "en": "Trần Đình Đồng",
+  "label": "Trần Đình Đồng"
+ },
+ "Q7833298": {
+  "vi": "Trần Đức Cường",
+  "en": "Trần Đức Cường",
+  "label": "Trần Đức Cường"
+ },
+ "Q7833306": {
+  "vi": "Trần Mạnh Dũng",
+  "en": "Trần Mạnh Dũng",
+  "label": "Trần Mạnh Dũng"
+ },
+ "Q7847997": {
+  "vi": "Trương Đình Luật",
+  "en": "Trương Đình Luật",
+  "label": "Trương Đình Luật"
+ },
+ "Q7850532": {
+  "vi": "Tư Nghĩa (huyện)",
+  "en": "Tư Nghĩa district",
+  "label": "Tư Nghĩa"
+ },
+ "Q7862053": {
+  "vi": "Tân An (tỉnh)",
+  "en": "Tân An province",
+  "label": "Tân An"
+ },
+ "Q7895548": {
+  "vi": "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh",
+  "en": "Industrial University of Ho Chi Minh City",
+  "label": "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh"
+ },
+ "Q849221": {
+  "vi": "Bohemians 1905",
+  "en": "Bohemians 1905",
+  "label": "Bohemians 1905"
+ },
+ "Q849362": {
+  "vi": "Liên đoàn Bóng đá Việt Nam",
+  "en": "Vietnam Football Federation",
+  "label": "Liên đoàn bóng đá Việt Nam"
+ },
+ "Q3710806": {
+  "vi": "Châu Thành (huyện Bến Tre)",
+  "en": "Châu Thành district, Bến Tre",
+  "label": "Châu Thành"
+ },
+ "Q3710815": {
+  "vi": "Chiêm Hóa (huyện)",
+  "en": "Chiêm Hóa district",
+  "label": "Chiêm Hóa"
+ },
+ "Q3815307": {
+  "vi": "Trường Đại học Mỹ thuật Việt Nam",
+  "en": "Vietnam University of Fine Arts",
+  "label": "Trường Đại học Mỹ thuật Việt Nam"
+ },
+ "Q4016772": {
+  "vi": "Nguyễn Văn Quyết (cầu thủ bóng đá)",
+  "en": "Nguyễn Văn Quyết",
+  "label": "Nguyễn Văn Quyết"
+ },
+ "Q4060619": {
+  "vi": "Huỳnh Kesley Alves",
+  "en": "Huỳnh Kesley Alves",
+  "label": "Huỳnh Kesley Alves"
+ },
+ "Q4115591": {
+  "vi": "Sân vận động Thiên Trường",
+  "en": "Thiên Trường Stadium",
+  "label": "Sân vận động Thiên Trường"
+ },
+ "Q4130078": {
+  "vi": "Học viện Kỹ thuật Quân sự",
+  "en": "Le Quy Don Technical University",
+  "label": "Học viện Kỹ thuật Quân sự"
+ },
+ "Q4188875": {
+  "vi": "Michal Nguyễn",
+  "en": "Michal Nguyễn",
+  "label": "Michal Nguyễn"
+ },
+ "Q4252427": {
+  "vi": "Huỳnh Quốc Anh",
+  "en": "Huỳnh Quốc Anh",
+  "label": "Huỳnh Quốc Anh"
+ },
+ "Q581282": {
+  "vi": null,
+  "en": "Dijkse Boys",
+  "label": null
+ },
+ "Q603633": {
+  "vi": null,
+  "en": "Liberty Professionals F.C.",
+  "label": null
+ },
+ "Q612172": {
+  "vi": null,
+  "en": "FK Baník Most 1909",
+  "label": null
+ },
+ "Q636315": {
+  "vi": null,
+  "en": "Helmond Sport",
+  "label": null
+ },
+ "Q728965": {
+  "vi": null,
+  "en": "Lučenec",
+  "label": null
+ },
+ "Q4055327": {
+  "vi": null,
+  "en": "FC Hirnyk Rovenky",
+  "label": null
+ },
+ "Q5014453": {
+  "vi": null,
+  "en": "ACS Inter Ilfov",
+  "label": null
+ },
+ "Q5423714": {
+  "vi": null,
+  "en": "FC Porto B",
+  "label": null
+ },
+ "Q5425186": {
+  "vi": null,
+  "en": "FCSB II",
+  "label": null
+ },
+ "Q8025128": {
+  "vi": null,
+  "en": "Wing half",
+  "label": null
+ },
+ "Q881": {
+  "vi": "Việt Nam",
+  "en": "Vietnam",
+  "label": "Việt Nam"
+ },
+ "Q8678": {
+  "vi": "Rio de Janeiro",
+  "en": "Rio de Janeiro",
+  "label": "Rio de Janeiro"
+ },
+ "Q852033": {
+  "vi": "Câu lạc bộ bóng đá Perth Glory",
+  "en": "Perth Glory FC",
+  "label": "Câu lạc bộ bóng đá Perth Glory"
+ },
+ "Q864581": {
+  "vi": "Thường Tín (huyện)",
+  "en": "Thường Tín district",
+  "label": "Thường Tín"
+ },
+ "Q8701": {
+  "vi": "Atlético Madrid",
+  "en": "Atlético Madrid",
+  "label": "Atlético Madrid"
+ },
+ "Q926038": {
+  "vi": "Lê Tấn Tài",
+  "en": "Lê Tấn Tài",
+  "label": "Lê Tấn Tài"
+ },
+ "Q926057": {
+  "vi": "Nguyễn Minh Phương (cầu thủ bóng đá)",
+  "en": "Nguyễn Minh Phương",
+  "label": "Nguyễn Minh Phương"
+ },
+ "Q926076": {
+  "vi": "Nguyễn Vũ Phong",
+  "en": "Nguyễn Vũ Phong",
+  "label": "Nguyễn Vũ Phong"
+ },
+ "Q943759": {
+  "vi": "Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en": "Vietnam National University, Ho Chi Minh City",
+  "label": "Đại học Quốc gia Thành phố Hồ Chí Minh"
+ },
+ "Q945839": {
+  "vi": "Đại học Đà Nẵng",
+  "en": "University of Da Nang",
+  "label": "Đại học Đà Nẵng"
+ },
+ "Q890194": {
+  "vi": "Ba Đình (quận)",
+  "en": "Ba Đình district",
+  "label": "Quận Ba Đình"
+ },
+ "Q894500": {
+  "vi": "Câu lạc bộ bóng đá Quy Nhơn United",
+  "en": "Quy Nhon United FC",
+  "label": "Câu lạc bộ bóng đá Bình Định"
+ },
+ "Q926022": {
+  "vi": "Nguyễn Huy Hoàng (cầu thủ bóng đá)",
+  "en": "Nguyễn Huy Hoàng (football)",
+  "label": "Nguyễn Huy Hoàng"
+ },
+ "Q949702": {
+  "vi": "Câu lạc bộ bóng đá Công an Thành phố Hồ Chí Minh (1975)",
+  "en": "Cong An Ho Chi Minh City FC",
+  "label": "Câu lạc bộ bóng đá Công an Thành phố Hồ Chí Minh"
+ },
+ "Q983685": {
+  "vi": "Dương Hồng Sơn",
+  "en": "Dương Hồng Sơn",
+  "label": "Dương Hồng Sơn"
+ },
+ "Q986082": {
+  "vi": "Litvínov",
+  "en": "Litvínov",
+  "label": "Litvínov"
+ },
+ "Q9369266": {
+  "vi": "Vũ Như Thành",
+  "en": "Vũ Như Thành",
+  "label": "Vũ Như Thành"
+ },
+ "Q86008259": {
+  "vi": "Hổ (cầu thủ bóng đá)",
+  "en": "Hổ",
+  "label": "Hổ"
+ },
+ "Q86009149": {
+  "vi": "Lê Ngọc Bảo",
+  "en": "Lê Ngọc Bảo",
+  "label": "Lê Ngọc Bảo"
+ },
+ "Q86009389": {
+  "vi": "Mai Xuân Quyết",
+  "en": "Mai Xuân Quyết",
+  "label": "Mai Xuân Quyết"
+ },
+ "Q86010375": {
+  "vi": "Nguyễn Công Nhật",
+  "en": "Nguyễn Công Nhật",
+  "label": "Nguyễn Công Nhật"
+ },
+ "Q86010398": {
+  "vi": "Nguyễn Hữu Khôi",
+  "en": "Nguyễn Hữu Khôi",
+  "label": "Nguyễn Hữu Khôi"
+ },
+ "Q86010587": {
+  "vi": "Nguyễn Văn Toản",
+  "en": "Nguyễn Văn Toản (footballer, born 1999)",
+  "label": "Nguyễn Văn Toản"
+ },
+ "Q86012406": {
+  "vi": "Trường Đại học An ninh nhân dân (Thành phố Hồ Chí Minh)",
+  "en": null,
+  "label": "Trường Đại học An ninh nhân dân"
+ },
+ "Q86012411": {
+  "vi": "Trường Đại học VinUni",
+  "en": "VinUniversity",
+  "label": "Trường Đại học VinUni"
+ },
+ "Q86012872": {
+  "vi": "Vũ Thế Vương",
+  "en": "Vũ Thế Vương",
+  "label": "Vũ Thế Vương"
+ },
+ "Q86012876": {
+  "vi": "Vũ Thị Thúy",
+  "en": null,
+  "label": "Vũ Thị Thúy"
+ },
+ "Q86013011": {
+  "vi": "Y Eli Niê",
+  "en": "Y Êli Niê",
+  "label": "Y Eli Niê"
+ },
+ "Q86013163": {
+  "vi": "Đinh Thị Kim Huế",
+  "en": null,
+  "label": "Đinh Thị Kim Huế"
+ },
+ "Q90173132": {
+  "vi": null,
+  "en": null,
+  "label": "hậu vệ cánh"
+ },
+ "Q94977310": {
+  "vi": "Lương Thị Thu Thương",
+  "en": "Lương Thị Thu Thương",
+  "label": "Lương Thị Thu Thương"
+ },
+ "Q94997903": {
+  "vi": "Phạm Thị Tươi",
+  "en": "Phạm Thị Tươi",
+  "label": "Phạm Thị Tươi"
+ },
+ "Q864791": {
+  "vi": "Từ Liêm (huyện)",
+  "en": null,
+  "label": "Từ Liêm"
+ },
+ "Q868808": {
+  "vi": "Bùi Tấn Trường",
+  "en": "Bùi Tấn Trường",
+  "label": "Bùi Tấn Trường"
+ },
+ "Q872146": {
+  "vi": "Đội tuyển bóng đá quốc gia Việt Nam Cộng hòa",
+  "en": "South Vietnam national football team",
+  "label": "Đội tuyển bóng đá quốc gia Việt Nam Cộng hòa"
+ },
+ "Q877269": {
+  "vi": "Trường Đại học Mỹ thuật Thành phố Hồ Chí Minh",
+  "en": "Ho Chi Minh City University of Fine Arts",
+  "label": "Trường Đại học Mỹ thuật Thành phố Hồ Chí Minh"
+ },
+ "Q94998358": {
+  "vi": "Đinh Thị Thùy Dung",
+  "en": "Đinh Thị Thùy Dung",
+  "label": "Đinh Thị Thùy Dung"
+ },
+ "Q94999224": {
+  "vi": "Ngân Thị Vạn Sự",
+  "en": "Ngân Thị Vạn Sự",
+  "label": "Ngân Thị Vạn Sự"
+ },
+ "Q94999326": {
+  "vi": "Thái Thị Thảo",
+  "en": "Thái Thị Thảo",
+  "label": "Thái Thị Thảo"
+ },
+ "Q95000305": {
+  "vi": "Nguyễn Thị Tuyết Ngân",
+  "en": "Nguyễn Thị Tuyết Ngân",
+  "label": "Nguyễn Thị Tuyết Ngân"
+ },
+ "Q95011010": {
+  "vi": "Nguyễn Thị Thúy Hằng",
+  "en": "Nguyễn Thị Thúy Hằng",
+  "label": "Nguyễn Thị Thúy Hằng"
+ },
+ "Q95154720": {
+  "vi": "Hà Thị Nhài",
+  "en": "Hà Thị Nhài",
+  "label": "Hà Thị Nhài"
+ },
+ "Q96002118": {
+  "vi": "Bùi Thị Thúy",
+  "en": "Bùi Thị Thúy",
+  "label": "Bùi Thị Thúy"
+ },
+ "Q96002188": {
+  "vi": "Nguyễn Thị Vạn",
+  "en": "Nguyễn Thị Vạn",
+  "label": "Nguyễn Thị Vạn"
+ },
+ "Q97159587": {
+  "vi": "Bùi Hoàng Việt Anh",
+  "en": "Bùi Hoàng Việt Anh",
+  "label": "Bùi Hoàng Việt Anh"
+ },
+ "Q97956879": {
+  "vi": "Nguyễn Hữu Tuấn (cầu thủ bóng đá, sinh 1992)",
+  "en": "Nguyễn Hữu Tuấn",
+  "label": "Nguyễn Hữu Tuấn"
+ },
+ "Q98073771": {
+  "vi": "Nguyễn Hai Long",
+  "en": "Nguyễn Hai Long",
+  "label": "Nguyễn Hai Long"
+ },
+ "Q98083690": {
+  "vi": "Trần Thị Thu Thảo",
+  "en": "Trần Thị Thu Thảo",
+  "label": "Trần Thị Thu Thảo"
+ },
+ "Q98132929": {
+  "vi": "Lê Xuân Tú",
+  "en": "Lê Xuân Tú",
+  "label": "Lê Xuân Tú"
+ },
+ "Q98141885": {
+  "vi": "Nguyễn Hằng Tcheuko Minh",
+  "en": "Benoit Tcheuko",
+  "label": "Nguyễn Hằng Tcheuko Minh"
+ },
+ "Q99778061": {
+  "vi": "Võ Nguyên Hoàng",
+  "en": "Võ Nguyên Hoàng",
+  "label": "Võ Nguyên Hoàng"
+ },
+ "Q924839": {
+  "vi": null,
+  "en": "Palmeiras, Bahia",
+  "label": null
+ },
+ "Q925075": {
+  "vi": null,
+  "en": "Royal Cappellen FC",
+  "label": null
+ }
+}

@@ -1,0 +1,10 @@
+.git
+.venv
+.vscode
+.idea
+.env
+.env.*.bak
+__pycache__
+*.pyc
+legacy/
+data/cache

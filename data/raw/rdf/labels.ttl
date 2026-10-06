@@ -1,0 +1,3668 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vres: <http://vi.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<http://vi.dbpedia.org/resource/.vn> rdfs:label ".vn"@vi .
+
+vres:1._FC_Slovácko rdfs:label "1. FC Slovácko"@vi .
+
+vres:1._SK_Prostějov rdfs:label "1. SK Prostějov"@vi .
+
+vres:10_tháng_3 rdfs:label "10 tháng 3"@vi .
+
+vres:11_tháng_4 rdfs:label "11 tháng 4"@vi .
+
+vres:11_tháng_7 rdfs:label "11 tháng 7"@vi .
+
+vres:12_tháng_11 rdfs:label "12 tháng 11"@vi .
+
+vres:12_tháng_6 rdfs:label "12 tháng 6"@vi .
+
+vres:12_tháng_7 rdfs:label "12 tháng 7"@vi .
+
+vres:14_tháng_5 rdfs:label "14 tháng 5"@vi .
+
+vres:16_tháng_9 rdfs:label "16 tháng 9"@vi .
+
+vres:17_tháng_9 rdfs:label "17 tháng 9"@vi .
+
+vres:1898 rdfs:label "1898"@vi .
+
+vres:18_tháng_9 rdfs:label "18 tháng 9"@vi .
+
+vres:1900 rdfs:label "1900"@vi .
+
+vres:1902 rdfs:label "1902"@vi .
+
+vres:1946 rdfs:label "1946"@vi .
+
+vres:1955 rdfs:label "1955"@vi .
+
+vres:1956 rdfs:label "1956"@vi .
+
+vres:1958 rdfs:label "1958"@vi .
+
+vres:1959 rdfs:label "1959"@vi .
+
+vres:1960 rdfs:label "1960"@vi .
+
+vres:1961 rdfs:label "1961"@vi .
+
+vres:1963 rdfs:label "1963"@vi .
+
+vres:1964 rdfs:label "1964"@vi .
+
+vres:1966 rdfs:label "1966"@vi .
+
+vres:1967 rdfs:label "1967"@vi .
+
+vres:1976 rdfs:label "1976"@vi .
+
+vres:1988 rdfs:label "1988"@vi .
+
+vres:1994 rdfs:label "1994"@vi .
+
+vres:1997 rdfs:label "1997"@vi .
+
+vres:1998 rdfs:label "1998"@vi .
+
+vres:1_tháng_3 rdfs:label "1 tháng 3"@vi .
+
+vres:1_tháng_9 rdfs:label "1 tháng 9"@vi .
+
+vres:2 rdfs:label "2"@vi .
+
+vres:2000 rdfs:label "2000"@vi .
+
+vres:2003 rdfs:label "2003"@vi .
+
+vres:2004 rdfs:label "2004"@vi .
+
+vres:2005 rdfs:label "2005"@vi .
+
+vres:2006 rdfs:label "2006"@vi .
+
+vres:2007 rdfs:label "2007"@vi .
+
+vres:2008 rdfs:label "2008"@vi .
+
+vres:2010 rdfs:label "2010"@vi .
+
+vres:2011 rdfs:label "2011"@vi .
+
+vres:2013 rdfs:label "2013"@vi .
+
+vres:2014 rdfs:label "2014"@vi .
+
+vres:2015 rdfs:label "2015"@vi .
+
+vres:2016 rdfs:label "2016"@vi .
+
+vres:2017 rdfs:label "2017"@vi .
+
+vres:2019 rdfs:label "2019"@vi .
+
+vres:2025 rdfs:label "2025"@vi .
+
+vres:2026 rdfs:label "2026"@vi .
+
+vres:21_tháng_12 rdfs:label "21 tháng 12"@vi .
+
+vres:23_tháng_9 rdfs:label "23 tháng 9"@vi .
+
+vres:24_tháng_11 rdfs:label "24 tháng 11"@vi .
+
+vres:24_tháng_4 rdfs:label "24 tháng 4"@vi .
+
+vres:25_tháng_11 rdfs:label "25 tháng 11"@vi .
+
+vres:25_tháng_4 rdfs:label "25 tháng 4"@vi .
+
+vres:25_tháng_6 rdfs:label "25 tháng 6"@vi .
+
+vres:26_tháng_3 rdfs:label "26 tháng 3"@vi .
+
+vres:27_tháng_11 rdfs:label "27 tháng 11"@vi .
+
+vres:29_tháng_12 rdfs:label "29 tháng 12"@vi .
+
+vres:29_tháng_9 rdfs:label "29 tháng 9"@vi .
+
+vres:30_tháng_11 rdfs:label "30 tháng 11"@vi .
+
+vres:31_tháng_1 rdfs:label "31 tháng 1"@vi .
+
+vres:3_tháng_10 rdfs:label "3 tháng 10"@vi .
+
+vres:3_tháng_8 rdfs:label "3 tháng 8"@vi .
+
+vres:3_tháng_9 rdfs:label "3 tháng 9"@vi .
+
+vres:4_tháng_3 rdfs:label "4 tháng 3"@vi .
+
+vres:5_tháng_5 rdfs:label "5 tháng 5"@vi .
+
+vres:6_tháng_9 rdfs:label "6 tháng 9"@vi .
+
+vres:8 rdfs:label "8"@vi .
+
+vres:8_tháng_11 rdfs:label "8 tháng 11"@vi .
+
+vres:8_tháng_4 rdfs:label "8 tháng 4"@vi .
+
+vres:9 rdfs:label "9"@vi .
+
+vres:938_Quốc_lộ_1 rdfs:label "938 Quốc lộ 1"@vi .
+
+vres:9_tháng_10 rdfs:label "9 tháng 10"@vi .
+
+vres:AC_Sparta_Praha rdfs:label "AC Sparta Praha"@vi .
+
+vres:AFC_Champions_League_2022 rdfs:label "AFC Champions League 2022"@vi .
+
+vres:A_Lưới rdfs:label "A Lưới"@vi .
+
+vres:Abuja rdfs:label "Abuja"@vi .
+
+vres:Accra rdfs:label "Accra"@vi .
+
+<http://vi.dbpedia.org/resource/Air_Force_Central_F.C.> rdfs:label "Air Force Central F.C."@vi .
+
+<http://vi.dbpedia.org/resource/Air_Force_United_F.C.> rdfs:label "Air Force United F.C."@vi .
+
+vres:Alexandré_Pölking rdfs:label "Alexandré Pölking"@vi .
+
+vres:An_Dương_Vương rdfs:label "An Dương Vương"@vi .
+
+<http://vi.dbpedia.org/resource/An_Phước,_Đồng_Nai> rdfs:label "An Phước, Đồng Nai"@vi .
+
+vres:An_Xuyên_\(tỉnh\) rdfs:label "An Xuyên (tỉnh)"@vi .
+
+vres:Anh_Sơn_\(huyện\) rdfs:label "Anh Sơn (huyện)"@vi .
+
+vres:Anh_Sơn_\(xã\) rdfs:label "Anh Sơn (xã)"@vi .
+
+vres:Anh_hùng_Lực_lượng_vũ_trang_nhân_dân rdfs:label "Anh hùng Lực lượng vũ trang nhân dân"@vi .
+
+vres:Arthur_Diles rdfs:label "Arthur Diles"@vi .
+
+vres:Ashanti_Gold_SC rdfs:label "Ashanti Gold SC"@vi .
+
+vres:Askania_Bernburg rdfs:label "Askania Bernburg"@vi .
+
+vres:Association_of_Southeast_Asian_Institutions_of_Higher_Learning rdfs:label "Association of Southeast Asian Institutions of Higher Learning"@vi .
+
+vres:Associação_Desportiva_Recreativa_Cultural_Icasa rdfs:label "Associação Desportiva Recreativa Cultural Icasa"@vi .
+
+vres:Associação_Portuguesa_de_Desportos rdfs:label "Associação Portuguesa de Desportos"@vi .
+
+vres:Atlético_Madrid rdfs:label "Atlético Madrid"@vi .
+
+vres:Australian_Technology_Network rdfs:label "Australian Technology Network"@vi .
+
+vres:Ayaru rdfs:label "Ayaru"@vi .
+
+vres:Azul_Claro_Numazu rdfs:label "Azul Claro Numazu"@vi .
+
+vres:Ba_Lan rdfs:label "Ba Lan"@vi .
+
+vres:Ba_Tri_\(huyện\) rdfs:label "Ba Tri (huyện)"@vi .
+
+vres:Ba_Vì_\(huyện\) rdfs:label "Ba Vì (huyện)"@vi .
+
+vres:Ba_Xuyên rdfs:label "Ba Xuyên"@vi .
+
+vres:Ba_Đình_\(quận\) rdfs:label "Ba Đình (quận)"@vi .
+
+vres:Bambolim rdfs:label "Bambolim"@vi .
+
+vres:Banská_Bystrica rdfs:label "Banská Bystrica"@vi .
+
+vres:Biên_Hòa_\(thành_phố\) rdfs:label "Biên Hòa (thành phố)"@vi .
+
+vres:Biñan rdfs:label "Biñan"@vi .
+
+vres:Biển_xe_cơ_giới_Việt_Nam rdfs:label "Biển xe cơ giới Việt Nam"@vi .
+
+vres:Boavista_Sport_Club rdfs:label "Boavista Sport Club"@vi .
+
+vres:Bohemians_1905 rdfs:label "Bohemians 1905"@vi .
+
+vres:Braakhuizen rdfs:label "Braakhuizen"@vi .
+
+vres:Brasil rdfs:label "Brasil"@vi .
+
+vres:Bratislava rdfs:label "Bratislava"@vi .
+
+vres:Bucharest rdfs:label "Bucharest"@vi .
+
+vres:Bulgaria rdfs:label "Bulgaria"@vi .
+
+vres:Buôn_Ma_Thuột_\(phường\) rdfs:label "Buôn Ma Thuột (phường)"@vi .
+
+vres:Buôn_Ma_Thuột_\(thành_phố\) rdfs:label "Buôn Ma Thuột (thành phố)"@vi .
+
+vres:Buổi_hòa_nhạc rdfs:label "Buổi hòa nhạc"@vi .
+
+vres:Bà_Rịa rdfs:label "Bà Rịa"@vi .
+
+vres:Bà_Rịa_\(thành_phố\) rdfs:label "Bà Rịa (thành phố)"@vi .
+
+vres:Bàn_Cờ rdfs:label "Bàn Cờ"@vi .
+
+vres:Bá_Thước_\(huyện\) rdfs:label "Bá Thước (huyện)"@vi .
+
+vres:Bác_sĩ rdfs:label "Bác sĩ"@vi .
+
+vres:Bánh_cáy rdfs:label "Bánh cáy"@vi .
+
+vres:Bánh_nhãn rdfs:label "Bánh nhãn"@vi .
+
+vres:Bánh_tráng_phơi_sương rdfs:label "Bánh tráng phơi sương"@vi .
+
+vres:Bánh_đậu_xanh rdfs:label "Bánh đậu xanh"@vi .
+
+<http://vi.dbpedia.org/resource/Bình_Giang,_Ninh_Bình> rdfs:label "Bình Giang, Ninh Bình"@vi .
+
+vres:Bình_Giang_\(huyện\) rdfs:label "Bình Giang (huyện)"@vi .
+
+vres:Bình_Long_\(tỉnh\) rdfs:label "Bình Long (tỉnh)"@vi .
+
+vres:Bình_Lục_\(huyện\) rdfs:label "Bình Lục (huyện)"@vi .
+
+<http://vi.dbpedia.org/resource/Bình_Minh,_Tây_Ninh> rdfs:label "Bình Minh, Tây Ninh"@vi .
+
+<http://vi.dbpedia.org/resource/Bình_Mỹ,_Ninh_Bình> rdfs:label "Bình Mỹ, Ninh Bình"@vi .
+
+vres:Bình_Phước_\(phường\) rdfs:label "Bình Phước (phường)"@vi .
+
+vres:Bình_Sơn_\(huyện\) rdfs:label "Bình Sơn (huyện)"@vi .
+
+vres:Bình_Trị rdfs:label "Bình Trị"@vi .
+
+vres:Bí_thư_Tỉnh_ủy rdfs:label "Bí thư Tỉnh ủy"@vi .
+
+vres:Bóng_đá rdfs:label "Bóng đá"@vi .
+
+vres:Bóng_đá_tại_Đại_hội_Thể_thao_châu_Á_2002 rdfs:label "Bóng đá tại Đại hội Thể thao châu Á 2002"@vi .
+
+vres:Bóng_đá_tại_Đại_hội_Thể_thao_châu_Á_2018_-_Nam rdfs:label "Bóng đá tại Đại hội Thể thao châu Á 2018 - Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2001_–_Nam> rdfs:label "Bóng đá tại Đại hội Thể thao Đông Nam Á 2001 – Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2019_–_Nam> rdfs:label "Bóng đá tại Đại hội Thể thao Đông Nam Á 2019 – Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2021_–_Nam> rdfs:label "Bóng đá tại Đại hội Thể thao Đông Nam Á 2021 – Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Bóng_đá_tại_Đại_hội_Thể_thao_Đông_Nam_Á_2025_–_Nam> rdfs:label "Bóng đá tại Đại hội Thể thao Đông Nam Á 2025 – Nam"@vi .
+
+vres:Bù_Đăng_\(huyện\) rdfs:label "Bù Đăng (huyện)"@vi .
+
+vres:Bùi_Công_Duy rdfs:label "Bùi Công Duy"@vi .
+
+vres:Bùi_Danh_Đại rdfs:label "Bùi Danh Đại"@vi .
+
+vres:Bùi_Hoàng_Phương rdfs:label "Bùi Hoàng Phương"@vi .
+
+vres:Bùi_Hữu_Thái_Sơn rdfs:label "Bùi Hữu Thái Sơn"@vi .
+
+vres:Bùi_Quang_Sơn rdfs:label "Bùi Quang Sơn"@vi .
+
+vres:Bùi_San rdfs:label "Bùi San"@vi .
+
+vres:Bùi_Thiện_Dụ rdfs:label "Bùi Thiện Dụ"@vi .
+
+vres:Bùi_Thế_Duy rdfs:label "Bùi Thế Duy"@vi .
+
+vres:Bùi_Thị_Minh rdfs:label "Bùi Thị Minh"@vi .
+
+vres:Bùi_Tiến_Lực rdfs:label "Bùi Tiến Lực"@vi .
+
+vres:Bùi_Trần_Quỳnh_Ngọc rdfs:label "Bùi Trần Quỳnh Ngọc"@vi .
+
+vres:Bùi_Văn_Khắng rdfs:label "Bùi Văn Khắng"@vi .
+
+vres:Bùi_Văn_Nghiêm rdfs:label "Bùi Văn Nghiêm"@vi .
+
+vres:Bùi_Đức_Hinh rdfs:label "Bùi Đức Hinh"@vi .
+
+vres:Bùi_Đức_Nguyên rdfs:label "Bùi Đức Nguyên"@vi .
+
+vres:Bạc_Liêu_\(phường\) rdfs:label "Bạc Liêu (phường)"@vi .
+
+vres:Bạc_Liêu_\(thành_phố\) rdfs:label "Bạc Liêu (thành phố)"@vi .
+
+vres:Bạch_Dinh rdfs:label "Bạch Dinh"@vi .
+
+vres:Bạch_Mai rdfs:label "Bạch Mai"@vi .
+
+<http://vi.dbpedia.org/resource/Bảng_xếp_hạng_100_trường_đại_học_Việt_Nam_-_Viet_Nam’s_University_Rankings> rdfs:label "Bảng xếp hạng 100 trường đại học Việt Nam - Viet Nam’s University Rankings"@vi .
+
+vres:Bảng_xếp_hạng_Đại_học_Việt_Nam_VNUR rdfs:label "Bảng xếp hạng Đại học Việt Nam VNUR"@vi .
+
+vres:Bảng_xếp_hạng_đại_học_thế_giới_Quacquarelli_Symonds rdfs:label "Bảng xếp hạng đại học thế giới Quacquarelli Symonds"@vi .
+
+vres:Bảng_xếp_hạng_đại_học_thế_giới_Webometrics rdfs:label "Bảng xếp hạng đại học thế giới Webometrics"@vi .
+
+vres:Bảo_An rdfs:label "Bảo An"@vi .
+
+vres:Bảo_Đài rdfs:label "Bảo Đài"@vi .
+
+vres:Bảo_Định rdfs:label "Bảo Định"@vi .
+
+vres:Bảy_Núi rdfs:label "Bảy Núi"@vi .
+
+vres:Bắc_Bình_\(xã\) rdfs:label "Bắc Bình (xã)"@vi .
+
+vres:Bắc_Giang_\(phường\) rdfs:label "Bắc Giang (phường)"@vi .
+
+vres:Bắc_Giang_\(thành_phố\) rdfs:label "Bắc Giang (thành phố)"@vi .
+
+vres:Bắc_Hà_\(xã\) rdfs:label "Bắc Hà (xã)"@vi .
+
+vres:Bắc_Kạn_\(thành_phố\) rdfs:label "Bắc Kạn (thành phố)"@vi .
+
+vres:Bắc_Nha_Trang rdfs:label "Bắc Nha Trang"@vi .
+
+vres:Bắc_Ninh_\(thành_phố_thuộc_tỉnh\) rdfs:label "Bắc Ninh (thành phố thuộc tỉnh)"@vi .
+
+vres:Bắc_Thành rdfs:label "Bắc Thành"@vi .
+
+vres:Bắc_Trung_Bộ rdfs:label "Bắc Trung Bộ"@vi .
+
+vres:Bắc_Từ_Liêm rdfs:label "Bắc Từ Liêm"@vi .
+
+vres:Bế_Trung_Anh rdfs:label "Bế Trung Anh"@vi .
+
+vres:Bến_Lức_\(huyện\) rdfs:label "Bến Lức (huyện)"@vi .
+
+vres:Bến_Thành_\(phường\) rdfs:label "Bến Thành (phường)"@vi .
+
+vres:Bến_Tre_\(thành_phố\) rdfs:label "Bến Tre (thành phố)"@vi .
+
+vres:Bỉm_Sơn_\(phường\) rdfs:label "Bỉm Sơn (phường)"@vi .
+
+vres:Bố_Chính rdfs:label "Bố Chính"@vi .
+
+vres:Bố_Trạch_\(huyện\) rdfs:label "Bố Trạch (huyện)"@vi .
+
+vres:Bộ_Công_Thương_\(Việt_Nam\) rdfs:label "Bộ Công Thương (Việt Nam)"@vi .
+
+vres:Bộ_Công_an_\(Việt_Nam\) rdfs:label "Bộ Công an (Việt Nam)"@vi .
+
+vres:Bộ_Giáo_dục_và_Đào_tạo rdfs:label "Bộ Giáo dục và Đào tạo"@vi .
+
+vres:Bộ_Khoa_học_và_Công_nghệ_\(Việt_Nam\) rdfs:label "Bộ Khoa học và Công nghệ (Việt Nam)"@vi .
+
+vres:Bộ_Kế_hoạch_và_Đầu_tư_\(Việt_Nam\) rdfs:label "Bộ Kế hoạch và Đầu tư (Việt Nam)"@vi .
+
+<http://vi.dbpedia.org/resource/Bộ_Lao_động_–_Thương_binh_và_Xã_hội_(Việt_Nam)> rdfs:label "Bộ Lao động – Thương binh và Xã hội (Việt Nam)"@vi .
+
+vres:Bộ_Ngoại_giao_\(Hoa_Kỳ\) rdfs:label "Bộ Ngoại giao (Hoa Kỳ)"@vi .
+
+vres:Bộ_Quốc_phòng rdfs:label "Bộ Quốc phòng"@vi .
+
+vres:Bộ_Quốc_phòng_\(Việt_Nam\) rdfs:label "Bộ Quốc phòng (Việt Nam)"@vi .
+
+vres:Bộ_Tài_chính rdfs:label "Bộ Tài chính"@vi .
+
+vres:Bộ_Tài_nguyên_và_Môi_trường_\(Việt_Nam\) rdfs:label "Bộ Tài nguyên và Môi trường (Việt Nam)"@vi .
+
+vres:Bộ_Tư_lệnh_Tăng_Thiết_giáp_\(Bộ_Quốc_phòng\) rdfs:label "Bộ Tư lệnh Tăng Thiết giáp (Bộ Quốc phòng)"@vi .
+
+<http://vi.dbpedia.org/resource/Bộ_Văn_hóa,_Thể_thao_và_Du_lịch_(Việt_Nam)> rdfs:label "Bộ Văn hóa, Thể thao và Du lịch (Việt Nam)"@vi .
+
+vres:Bộ_Xây_dựng_\(Việt_Nam\) rdfs:label "Bộ Xây dựng (Việt Nam)"@vi .
+
+vres:Bộ_Y_tế_\(Việt_Nam\) rdfs:label "Bộ Y tế (Việt Nam)"@vi .
+
+vres:Bộ_trưởng rdfs:label "Bộ trưởng"@vi .
+
+vres:Bức_xạ_Mặt_Trời rdfs:label "Bức xạ Mặt Trời"@vi .
+
+vres:CLB_Đồng_Nai rdfs:label "CLB Đồng Nai"@vi .
+
+vres:CLB_Đồng_Tháp rdfs:label "CLB Đồng Tháp"@vi .
+
+vres:CR_Vasco_da_Gama rdfs:label "CR Vasco da Gama"@vi .
+
+vres:Cam_Lâm_\(huyện\) rdfs:label "Cam Lâm (huyện)"@vi .
+
+vres:Cameroon rdfs:label "Cameroon"@vi .
+
+vres:Campo_Grande_Atlético_Clube rdfs:label "Campo Grande Atlético Clube"@vi .
+
+vres:Campuchia rdfs:label "Campuchia"@vi .
+
+vres:Canada rdfs:label "Canada"@vi .
+
+vres:Cao_Anh_Tuấn rdfs:label "Cao Anh Tuấn"@vi .
+
+vres:Cao_Lãnh_\(phường\) rdfs:label "Cao Lãnh (phường)"@vi .
+
+vres:Cao_Lãnh_\(thành_phố\) rdfs:label "Cao Lãnh (thành phố)"@vi .
+
+vres:Cao_Thị_Hòa_An rdfs:label "Cao Thị Hòa An"@vi .
+
+vres:Cao_su_tự_nhiên rdfs:label "Cao su tự nhiên"@vi .
+
+vres:Cao_Đài rdfs:label "Cao Đài"@vi .
+
+vres:Cao_đẳng_Cộng_đồng_Đông_Bắc_Texas rdfs:label "Cao đẳng Cộng đồng Đông Bắc Texas"@vi .
+
+vres:Cappellen_FC rdfs:label "Cappellen FC"@vi .
+
+vres:Cerezo_Osaka rdfs:label "Cerezo Osaka"@vi .
+
+vres:Chi_Lăng_\(huyện\) rdfs:label "Chi Lăng (huyện)"@vi .
+
+vres:Chi_Lăng_\(xã\) rdfs:label "Chi Lăng (xã)"@vi .
+
+vres:Chicago rdfs:label "Chicago"@vi .
+
+vres:Chicago_Fire_FC rdfs:label "Chicago Fire FC"@vi .
+
+vres:Chiêm_Hóa_\(huyện\) rdfs:label "Chiêm Hóa (huyện)"@vi .
+
+vres:Chiến_khu_Tân_Trào rdfs:label "Chiến khu Tân Trào"@vi .
+
+vres:Chiềng_Cơi rdfs:label "Chiềng Cơi"@vi .
+
+vres:Chuối_ngự rdfs:label "Chuối ngự"@vi .
+
+vres:Chá_A_Của rdfs:label "Chá A Của"@vi .
+
+vres:Châu_Phú_\(huyện\) rdfs:label "Châu Phú (huyện)"@vi .
+
+vres:Châu_Quỳnh_Dao rdfs:label "Châu Quỳnh Dao"@vi .
+
+<http://vi.dbpedia.org/resource/Châu_Thành,_Vĩnh_Long> rdfs:label "Châu Thành, Vĩnh Long"@vi .
+
+<http://vi.dbpedia.org/resource/Châu_Thành,_Đồng_Tháp> rdfs:label "Châu Thành, Đồng Tháp"@vi .
+
+vres:Châu_Thành_\(huyện_Bến_Tre\) rdfs:label "Châu Thành (huyện Bến Tre)"@vi .
+
+vres:Châu_Thành_\(huyện_Long_An\) rdfs:label "Châu Thành (huyện Long An)"@vi .
+
+vres:Châu_Thị_Mỹ_Phương rdfs:label "Châu Thị Mỹ Phương"@vi .
+
+vres:Châu_Văn_Thơi rdfs:label "Châu Văn Thơi"@vi .
+
+vres:Châu_Á rdfs:label "Châu Á"@vi .
+
+vres:Châu_Đốc_\(thành_phố\) rdfs:label "Châu Đốc (thành phố)"@vi .
+
+vres:Châu_Đức_\(huyện\) rdfs:label "Châu Đức (huyện)"@vi .
+
+vres:Chí_Linh_\(thành_phố\) rdfs:label "Chí Linh (thành phố)"@vi .
+
+vres:Chính_khách rdfs:label "Chính khách"@vi .
+
+vres:Chính_phủ_Việt_Nam rdfs:label "Chính phủ Việt Nam"@vi .
+
+vres:Chính_trị_Việt_Nam rdfs:label "Chính trị Việt Nam"@vi .
+
+vres:Chùa_Cầu rdfs:label "Chùa Cầu"@vi .
+
+vres:Chùa_Hội_Khánh rdfs:label "Chùa Hội Khánh"@vi .
+
+vres:Chùa_Keo_Thái_Bình rdfs:label "Chùa Keo Thái Bình"@vi .
+
+vres:Chùa_Vĩnh_Tràng rdfs:label "Chùa Vĩnh Tràng"@vi .
+
+vres:Chơn_Thành_\(thị_xã\) rdfs:label "Chơn Thành (thị xã)"@vi .
+
+vres:Chương_Mỹ_\(huyện\) rdfs:label "Chương Mỹ (huyện)"@vi .
+
+vres:Chương_Thiện rdfs:label "Chương Thiện"@vi .
+
+vres:Chương_trình_Phát_triển_của_Liên_Hợp_Quốc rdfs:label "Chương trình Phát triển của Liên Hợp Quốc"@vi .
+
+vres:Chợ_Bờ rdfs:label "Chợ Bờ"@vi .
+
+vres:Chợ_Lớn rdfs:label "Chợ Lớn"@vi .
+
+vres:Chợ_Quán rdfs:label "Chợ Quán"@vi .
+
+vres:Chợ_Thủ_Dầu_Một rdfs:label "Chợ Thủ Dầu Một"@vi .
+
+vres:Chợ_nổi_Cái_Bè rdfs:label "Chợ nổi Cái Bè"@vi .
+
+vres:Chủ_tịch_Quốc_hội_Việt_Nam rdfs:label "Chủ tịch Quốc hội Việt Nam"@vi .
+
+vres:Chủ_tịch_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam rdfs:label "Chủ tịch nước Cộng hòa xã hội chủ nghĩa Việt Nam"@vi .
+
+vres:Chử_Đức_Trình rdfs:label "Chử Đức Trình"@vi .
+
+vres:Coton_Sport_FC_de_Garoua rdfs:label "Coton Sport FC de Garoua"@vi .
+
+vres:Cristiano_Roland rdfs:label "Cristiano Roland"@vi .
+
+vres:Cumberland_United_FC rdfs:label "Cumberland United FC"@vi .
+
+vres:Cà_Mau_\(thành_phố\) rdfs:label "Cà Mau (thành phố)"@vi .
+
+vres:Cà_Mau_\(đội_bóng\) rdfs:label "Cà Mau (đội bóng)"@vi .
+
+vres:Cà_phê rdfs:label "Cà phê"@vi .
+
+vres:Cá_kho rdfs:label "Cá kho"@vi .
+
+vres:Các_cơ_quan_chuyên_môn_Ủy_ban_nhân_dân_thành_phố_Hà_Nội rdfs:label "Các cơ quan chuyên môn Ủy ban nhân dân thành phố Hà Nội"@vi .
+
+vres:Các_dân_tộc_tại_Việt_Nam rdfs:label "Các dân tộc tại Việt Nam"@vi .
+
+vres:Cádiz_CF rdfs:label "Cádiz CF"@vi .
+
+vres:Cái_Khế rdfs:label "Cái Khế"@vi .
+
+vres:Cái_Răng_\(quận\) rdfs:label "Cái Răng (quận)"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Buriram_United rdfs:label "Câu lạc bộ bóng đá Buriram United"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Bắc_Ninh rdfs:label "Câu lạc bộ bóng đá Bắc Ninh"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Gia_Định rdfs:label "Câu lạc bộ bóng đá Gia Định"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Attapeu rdfs:label "Câu lạc bộ bóng đá Hoàng Anh Attapeu"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_B rdfs:label "Câu lạc bộ bóng đá Hà Nội B"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Hưng_Yên rdfs:label "Câu lạc bộ bóng đá Hưng Yên"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_IDSEA_Champasak_United rdfs:label "Câu lạc bộ bóng đá IDSEA Champasak United"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Khon_Kaen_United rdfs:label "Câu lạc bộ bóng đá Khon Kaen United"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Luxury_Hạ_Long rdfs:label "Câu lạc bộ bóng đá Luxury Hạ Long"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Mancons_Sài_Gòn rdfs:label "Câu lạc bộ bóng đá Mancons Sài Gòn"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Muangthong_United rdfs:label "Câu lạc bộ bóng đá Muangthong United"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Mê_Kông_Cần_Thơ rdfs:label "Câu lạc bộ bóng đá Mê Kông Cần Thơ"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Ngân_hàng_Đông_Á rdfs:label "Câu lạc bộ bóng đá Ngân hàng Đông Á"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Ninh_Thuận rdfs:label "Câu lạc bộ bóng đá Ninh Thuận"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Perth_Glory rdfs:label "Câu lạc bộ bóng đá Perth Glory"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Phnom_Penh_Crown rdfs:label "Câu lạc bộ bóng đá Phnom Penh Crown"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Quân_khu_3 rdfs:label "Câu lạc bộ bóng đá Quân khu 3"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Quân_khu_4 rdfs:label "Câu lạc bộ bóng đá Quân khu 4"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Quân_khu_7 rdfs:label "Câu lạc bộ bóng đá Quân khu 7"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Quảng_Ngãi_\(1992\) rdfs:label "Câu lạc bộ bóng đá Quảng Ngãi (1992)"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Quảng_Ngãi_\(2005\) rdfs:label "Câu lạc bộ bóng đá Quảng Ngãi (2005)"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_SHB_Viêng_Chăn rdfs:label "Câu lạc bộ bóng đá SHB Viêng Chăn"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng_B rdfs:label "Câu lạc bộ bóng đá SHB Đà Nẵng B"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Selangor rdfs:label "Câu lạc bộ bóng đá Selangor"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Thanh_Niên_Sài_Gòn rdfs:label "Câu lạc bộ bóng đá Thanh Niên Sài Gòn"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Thanh_niên_Thành_phố_Hồ_Chí_Minh rdfs:label "Câu lạc bộ bóng đá Thanh niên Thành phố Hồ Chí Minh"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Thái_Nguyên rdfs:label "Câu lạc bộ bóng đá Thái Nguyên"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Thể_Công_Viettel_\(2016\) rdfs:label "Câu lạc bộ bóng đá Thể Công Viettel (2016)"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Trùng_Khánh_Lực_Phàm rdfs:label "Câu lạc bộ bóng đá Trùng Khánh Lực Phàm"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Tây_Nguyên_Gia_Lai rdfs:label "Câu lạc bộ bóng đá Tây Nguyên Gia Lai"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Xuân_Thiện_Phú_Thọ rdfs:label "Câu lạc bộ bóng đá Xuân Thiện Phú Thọ"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_nữ_Hà_Nội_II rdfs:label "Câu lạc bộ bóng đá nữ Hà Nội II"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_nữ_Länk_Vilaverdense rdfs:label "Câu lạc bộ bóng đá nữ Länk Vilaverdense"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_nữ_Quảng_Ngãi rdfs:label "Câu lạc bộ bóng đá nữ Quảng Ngãi"@vi .
+
+<http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_nữ_Thái_Nguyên_T&T> rdfs:label "Câu lạc bộ bóng đá nữ Thái Nguyên T&T"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_trong_nhà_Cao_Bằng rdfs:label "Câu lạc bộ bóng đá trong nhà Cao Bằng"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_trong_nhà_Thái_Sơn_Nam rdfs:label "Câu lạc bộ bóng đá trong nhà Thái Sơn Nam"@vi .
+
+vres:Câu_lạc_bộ_bóng_đá_Định_Hướng_Phú_Nhuận rdfs:label "Câu lạc bộ bóng đá Định Hướng Phú Nhuận"@vi .
+
+vres:Công_an_Thành_phố_Hồ_Chí_Minh rdfs:label "Công an Thành phố Hồ Chí Minh"@vi .
+
+vres:Công_an_thành_phố_Hà_Nội rdfs:label "Công an thành phố Hà Nội"@vi .
+
+vres:Công_lập rdfs:label "Công lập"@vi .
+
+vres:Công_ty_Cổ_phần_Bóng_đá_chuyên_nghiệp_Việt_Nam rdfs:label "Công ty Cổ phần Bóng đá chuyên nghiệp Việt Nam"@vi .
+
+vres:Công_ty_Cổ_phần_Phát_triển_bóng_đá_Quảng_Nam rdfs:label "Công ty Cổ phần Phát triển bóng đá Quảng Nam"@vi .
+
+vres:Công_ty_Cổ_phần_Thể_thao_CATP rdfs:label "Công ty Cổ phần Thể thao CATP"@vi .
+
+vres:Công_ty_TNHH_MTV_Thể_thao_Viettel rdfs:label "Công ty TNHH MTV Thể thao Viettel"@vi .
+
+vres:Công_ty_cổ_phần_Thể_thao_SHB_Đà_Nẵng rdfs:label "Công ty cổ phần Thể thao SHB Đà Nẵng"@vi .
+
+vres:Công_ty_cổ_phần_Tập_đoàn_ThaiGroup rdfs:label "Công ty cổ phần Tập đoàn ThaiGroup"@vi .
+
+vres:Công_tử_Bạc_Liêu rdfs:label "Công tử Bạc Liêu"@vi .
+
+<http://vi.dbpedia.org/resource/Công_viên_Công_nghệ_cao_và_Đổi_mới_sáng_tạo,_Đại_học_quốc_gia_Hà_Nội> rdfs:label "Công viên Công nghệ cao và Đổi mới sáng tạo, Đại học quốc gia Hà Nội"@vi .
+
+vres:Cù_lao_Chàm rdfs:label "Cù lao Chàm"@vi .
+
+vres:Cú_Mèo rdfs:label "Cú Mèo"@vi .
+
+vres:Cúp_AFC_2022 rdfs:label "Cúp AFC 2022"@vi .
+
+vres:Cúp_bóng_đá_U-17_châu_Á rdfs:label "Cúp bóng đá U-17 châu Á"@vi .
+
+vres:Cúp_bóng_đá_U-20_châu_Á rdfs:label "Cúp bóng đá U-20 châu Á"@vi .
+
+vres:Cúp_bóng_đá_U-23_châu_Á rdfs:label "Cúp bóng đá U-23 châu Á"@vi .
+
+vres:Cơ_quan_Tình_báo_Trung_ương_\(Hoa_Kỳ\) rdfs:label "Cơ quan Tình báo Trung ương (Hoa Kỳ)"@vi .
+
+vres:Cơ_sở_Hậu_Giang rdfs:label "Cơ sở Hậu Giang"@vi .
+
+vres:Cơ_sở_Sóc_Trăng rdfs:label "Cơ sở Sóc Trăng"@vi .
+
+<http://vi.dbpedia.org/resource/Cư_M'gar_(huyện)> rdfs:label "Cư M'gar (huyện)"@vi .
+
+vres:Cần_Giuộc_\(huyện\) rdfs:label "Cần Giuộc (huyện)"@vi .
+
+vres:Cần_Thơ_\(thành_phố_thuộc_tỉnh\) rdfs:label "Cần Thơ (thành phố thuộc tỉnh)"@vi .
+
+vres:Cầu_Giấy rdfs:label "Cầu Giấy"@vi .
+
+vres:Cầu_Giấy_\(phường\) rdfs:label "Cầu Giấy (phường)"@vi .
+
+vres:Cầu_Giấy_\(quận\) rdfs:label "Cầu Giấy (quận)"@vi .
+
+vres:Cầu_thủ_bóng_đá rdfs:label "Cầu thủ bóng đá"@vi .
+
+vres:Cầu_Ông_Lãnh_\(phường\) rdfs:label "Cầu Ông Lãnh (phường)"@vi .
+
+vres:Cẩm_Bình_\(xã\) rdfs:label "Cẩm Bình (xã)"@vi .
+
+vres:Cẩm_Giàng_\(huyện\) rdfs:label "Cẩm Giàng (huyện)"@vi .
+
+vres:Cẩm_Phả_\(phường\) rdfs:label "Cẩm Phả (phường)"@vi .
+
+vres:Cẩm_Phả_\(thành_phố\) rdfs:label "Cẩm Phả (thành phố)"@vi .
+
+vres:Cẩm_Thành rdfs:label "Cẩm Thành"@vi .
+
+vres:Cẩm_Xuyên_\(huyện\) rdfs:label "Cẩm Xuyên (huyện)"@vi .
+
+vres:Cỏ_gà rdfs:label "Cỏ gà"@vi .
+
+vres:Cỏ_nhân_tạo rdfs:label "Cỏ nhân tạo"@vi .
+
+vres:Cố_đô_Hoa_Lư rdfs:label "Cố đô Hoa Lư"@vi .
+
+vres:Cồn_Phụng rdfs:label "Cồn Phụng"@vi .
+
+vres:Cổ_Lễ rdfs:label "Cổ Lễ"@vi .
+
+vres:Cổ_Nhuế rdfs:label "Cổ Nhuế"@vi .
+
+vres:Cộng_hòa_Xã_hội_chủ_nghĩa_Xô_viết_Ukraina rdfs:label "Cộng hòa Xã hội chủ nghĩa Xô viết Ukraina"@vi .
+
+vres:Cột_cờ_Lũng_Cú rdfs:label "Cột cờ Lũng Cú"@vi .
+
+vres:Cục_Hải_quan_\(Việt_Nam\) rdfs:label "Cục Hải quan (Việt Nam)"@vi .
+
+vres:Cục_Thể_dục_thể_thao_Việt_Nam rdfs:label "Cục Thể dục thể thao Việt Nam"@vi .
+
+vres:Cục_Thống_kê_\(Việt_Nam\) rdfs:label "Cục Thống kê (Việt Nam)"@vi .
+
+vres:Cửa_Lò rdfs:label "Cửa Lò"@vi .
+
+vres:Cửa_Nam_\(phường\) rdfs:label "Cửa Nam (phường)"@vi .
+
+vres:Da_cam rdfs:label "Da cam"@vi .
+
+vres:Danh_sách_bàn_thắng_quốc_tế_của_Lê_Công_Vinh rdfs:label "Danh sách bàn thắng quốc tế của Lê Công Vinh"@vi .
+
+vres:Danh_sách_di_sản_thế_giới_tại_Việt_Nam rdfs:label "Danh sách di sản thế giới tại Việt Nam"@vi .
+
+vres:Danh_sách_quốc_gia_theo_diện_tích rdfs:label "Danh sách quốc gia theo diện tích"@vi .
+
+vres:Danh_sách_Đại_biểu_Quốc_hội_Việt_Nam_khóa_XIII_theo_tỉnh_thành rdfs:label "Danh sách Đại biểu Quốc hội Việt Nam khóa XIII theo tỉnh thành"@vi .
+
+vres:Danh_sách_Đại_biểu_Quốc_hội_Việt_Nam_khóa_XV rdfs:label "Danh sách Đại biểu Quốc hội Việt Nam khóa XV"@vi .
+
+vres:Danh_sách_Đại_biểu_Quốc_hội_Việt_Nam_khóa_XVI rdfs:label "Danh sách Đại biểu Quốc hội Việt Nam khóa XVI"@vi .
+
+vres:Dao rdfs:label "Dao"@vi .
+
+vres:Dijkse_Boys rdfs:label "Dijkse Boys"@vi .
+
+vres:Dinh_Hoàng_A_Tưởng rdfs:label "Dinh Hoàng A Tưởng"@vi .
+
+vres:Dinh_thự_họ_Vương rdfs:label "Dinh thự họ Vương"@vi .
+
+<http://vi.dbpedia.org/resource/Diên_Hồng,_Thành_phố_Hồ_Chí_Minh> rdfs:label "Diên Hồng, Thành phố Hồ Chí Minh"@vi .
+
+vres:Diễn_Châu_\(huyện\) rdfs:label "Diễn Châu (huyện)"@vi .
+
+vres:Diễn_Châu_\(xã\) rdfs:label "Diễn Châu (xã)"@vi .
+
+vres:Diệp_Thanh_Tùng rdfs:label "Diệp Thanh Tùng"@vi .
+
+<http://vi.dbpedia.org/resource/Dong_Thap_F.C.> rdfs:label "Dong Thap F.C."@vi .
+
+vres:Duy_Tiên_\(thị_xã\) rdfs:label "Duy Tiên (thị xã)"@vi .
+
+vres:Duy_Xuyên_\(huyện\) rdfs:label "Duy Xuyên (huyện)"@vi .
+
+vres:Duyên_hải_Nam_Trung_Bộ_và_Tây_Nguyên rdfs:label "Duyên hải Nam Trung Bộ và Tây Nguyên"@vi .
+
+vres:Dân_Việt_\(báo\) rdfs:label "Dân Việt (báo)"@vi .
+
+vres:Dân_trí_\(báo\) rdfs:label "Dân trí (báo)"@vi .
+
+vres:Dĩ_An_\(thành_phố\) rdfs:label "Dĩ An (thành phố)"@vi .
+
+vres:Dương_Hữu_Cường rdfs:label "Dương Hữu Cường"@vi .
+
+vres:Dương_Kinh_\(quận\) rdfs:label "Dương Kinh (quận)"@vi .
+
+vres:Dương_Quốc_Huy rdfs:label "Dương Quốc Huy"@vi .
+
+vres:Dương_Thanh_Bình rdfs:label "Dương Thanh Bình"@vi .
+
+vres:Dương_Trung_Ý rdfs:label "Dương Trung Ý"@vi .
+
+vres:Dương_Văn_Trang rdfs:label "Dương Văn Trang"@vi .
+
+vres:Dương_Xuân_Sanh rdfs:label "Dương Xuân Sanh"@vi .
+
+vres:Dương_Đức_Hải rdfs:label "Dương Đức Hải"@vi .
+
+vres:Dầu_mỏ rdfs:label "Dầu mỏ"@vi .
+
+vres:Dặm_vuông_Anh rdfs:label "Dặm vuông Anh"@vi .
+
+vres:Dốc_Thẩm_Mã rdfs:label "Dốc Thẩm Mã"@vi .
+
+vres:Dừa rdfs:label "Dừa"@vi .
+
+vres:Dừa_sáp rdfs:label "Dừa sáp"@vi .
+
+vres:Dự_Tuyển_Nữ_Trẻ_Quốc_Gia rdfs:label "Dự Tuyển Nữ Trẻ Quốc Gia"@vi .
+
+vres:Ea_Kao rdfs:label "Ea Kao"@vi .
+
+vres:Esporte_Clube_Bahia rdfs:label "Esporte Clube Bahia"@vi .
+
+vres:Esporte_Clube_Vitória rdfs:label "Esporte Clube Vitória"@vi .
+
+vres:F.C._Porto rdfs:label "F.C. Porto"@vi .
+
+vres:F.C._Sochaux-Montbéliard rdfs:label "F.C. Sochaux-Montbéliard"@vi .
+
+vres:F.K._Spartak_Moskva rdfs:label "F.K. Spartak Moskva"@vi .
+
+vres:FCSB rdfs:label "FCSB"@vi .
+
+vres:FC_Avers_Bakhmach rdfs:label "FC Avers Bakhmach"@vi .
+
+vres:FC_Barcelona_\(youth\) rdfs:label "FC Barcelona (youth)"@vi .
+
+vres:FC_CSKA_Kyiv rdfs:label "FC CSKA Kyiv"@vi .
+
+vres:FC_Dynamo_Moskva rdfs:label "FC Dynamo Moskva"@vi .
+
+vres:FC_Elektrometalurh-NZF_Nikopol rdfs:label "FC Elektrometalurh-NZF Nikopol"@vi .
+
+vres:FC_Hirnyk_Rovenky rdfs:label "FC Hirnyk Rovenky"@vi .
+
+vres:FC_Ingolstadt_04 rdfs:label "FC Ingolstadt 04"@vi .
+
+vres:FC_Knyazha_Shchaslyve rdfs:label "FC Knyazha Shchaslyve"@vi .
+
+vres:FC_Nistru_Otaci rdfs:label "FC Nistru Otaci"@vi .
+
+vres:FC_Nyva_Vinnytsia rdfs:label "FC Nyva Vinnytsia"@vi .
+
+vres:FC_Podillya_Khmelnytskyi rdfs:label "FC Podillya Khmelnytskyi"@vi .
+
+vres:FC_Rodina_Moscow rdfs:label "FC Rodina Moscow"@vi .
+
+vres:FC_Ros_Bila_Tserkva rdfs:label "FC Ros Bila Tserkva"@vi .
+
+vres:FC_Ryukyu rdfs:label "FC Ryukyu"@vi .
+
+<http://vi.dbpedia.org/resource/FC_Sellier_&_Bellot_Vlašim> rdfs:label "FC Sellier & Bellot Vlašim"@vi .
+
+vres:FC_Slovan_Liberec rdfs:label "FC Slovan Liberec"@vi .
+
+vres:FC_Uijeongbu rdfs:label "FC Uijeongbu"@vi .
+
+vres:FIFA rdfs:label "FIFA"@vi .
+
+vres:FK_Baník_Most rdfs:label "FK Baník Most"@vi .
+
+vres:FK_Baník_Most-Sous rdfs:label "FK Baník Most-Sous"@vi .
+
+vres:FK_Litvínov rdfs:label "FK Litvínov"@vi .
+
+vres:FK_Loko_Vltavín rdfs:label "FK Loko Vltavín"@vi .
+
+vres:FK_Pohronie rdfs:label "FK Pohronie"@vi .
+
+vres:FK_Tachov rdfs:label "FK Tachov"@vi .
+
+vres:FK_Teplice rdfs:label "FK Teplice"@vi .
+
+vres:FTC_Fiľakovo rdfs:label "FTC Fiľakovo"@vi .
+
+vres:Fansipan rdfs:label "Fansipan"@vi .
+
+vres:Gangwon_FC rdfs:label "Gangwon FC"@vi .
+
+vres:Garoua rdfs:label "Garoua"@vi .
+
+vres:Gerard_Albadalejo rdfs:label "Gerard Albadalejo"@vi .
+
+vres:Ghana rdfs:label "Ghana"@vi .
+
+<http://vi.dbpedia.org/resource/Gia_Lâm,_Hà_Nội> rdfs:label "Gia Lâm, Hà Nội"@vi .
+
+vres:Gia_Lâm_\(huyện\) rdfs:label "Gia Lâm (huyện)"@vi .
+
+vres:Gia_Lộc_\(huyện\) rdfs:label "Gia Lộc (huyện)"@vi .
+
+vres:Gia_Nghĩa rdfs:label "Gia Nghĩa"@vi .
+
+vres:Gia_Viên rdfs:label "Gia Viên"@vi .
+
+vres:Gia_Viễn_\(huyện\) rdfs:label "Gia Viễn (huyện)"@vi .
+
+vres:Gia_Định rdfs:label "Gia Định"@vi .
+
+vres:Gia_Định_\(tỉnh\) rdfs:label "Gia Định (tỉnh)"@vi .
+
+vres:Giàng_Páo_Mỷ rdfs:label "Giàng Páo Mỷ"@vi .
+
+vres:Giàng_Seo_Phử rdfs:label "Giàng Seo Phử"@vi .
+
+vres:Giàng_Thị_Dung rdfs:label "Giàng Thị Dung"@vi .
+
+vres:Giáo_dục_cao_đẳng rdfs:label "Giáo dục cao đẳng"@vi .
+
+vres:Giáo_sư rdfs:label "Giáo sư"@vi .
+
+vres:Gió rdfs:label "Gió"@vi .
+
+vres:Giải_bóng_đá_Hạng_Ba_Quốc_gia_2023 rdfs:label "Giải bóng đá Hạng Ba Quốc gia 2023"@vi .
+
+vres:Giải_bóng_đá_Hạng_Ba_Quốc_gia_2025 rdfs:label "Giải bóng đá Hạng Ba Quốc gia 2025"@vi .
+
+vres:Giải_bóng_đá_Hạng_Nhì_Quốc_gia_2017 rdfs:label "Giải bóng đá Hạng Nhì Quốc gia 2017"@vi .
+
+vres:Giải_bóng_đá_Hạng_Nhì_Quốc_gia_2024 rdfs:label "Giải bóng đá Hạng Nhì Quốc gia 2024"@vi .
+
+vres:Giải_bóng_đá_Hạng_Nhì_Quốc_gia_2025 rdfs:label "Giải bóng đá Hạng Nhì Quốc gia 2025"@vi .
+
+vres:Giải_bóng_đá_Hạng_Nhì_Quốc_gia_2026 rdfs:label "Giải bóng đá Hạng Nhì Quốc gia 2026"@vi .
+
+vres:Giải_bóng_đá_Hạng_Nhất_Quốc_gia_2022 rdfs:label "Giải bóng đá Hạng Nhất Quốc gia 2022"@vi .
+
+<http://vi.dbpedia.org/resource/Giải_bóng_đá_Hạng_Nhất_Quốc_gia_2024–25> rdfs:label "Giải bóng đá Hạng Nhất Quốc gia 2024–25"@vi .
+
+<http://vi.dbpedia.org/resource/Giải_bóng_đá_Hạng_Nhất_Quốc_gia_2025–26> rdfs:label "Giải bóng đá Hạng Nhất Quốc gia 2025–26"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_2011 rdfs:label "Giải bóng đá Vô địch Quốc gia 2011"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_2012 rdfs:label "Giải bóng đá Vô địch Quốc gia 2012"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_2013 rdfs:label "Giải bóng đá Vô địch Quốc gia 2013"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_2014 rdfs:label "Giải bóng đá Vô địch Quốc gia 2014"@vi .
+
+<http://vi.dbpedia.org/resource/Giải_bóng_đá_Vô_địch_Quốc_gia_2024–25> rdfs:label "Giải bóng đá Vô địch Quốc gia 2024–25"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_2025-26 rdfs:label "Giải bóng đá Vô địch Quốc gia 2025-26"@vi .
+
+<http://vi.dbpedia.org/resource/Giải_bóng_đá_Vô_địch_Quốc_gia_2025–26> rdfs:label "Giải bóng đá Vô địch Quốc gia 2025–26"@vi .
+
+vres:Giải_bóng_đá_Vô_địch_Quốc_gia_Việt_Nam rdfs:label "Giải bóng đá Vô địch Quốc gia Việt Nam"@vi .
+
+vres:Giải_bóng_đá_chuyên_nghiệp_Vô_địch_Quốc_gia_2003 rdfs:label "Giải bóng đá chuyên nghiệp Vô địch Quốc gia 2003"@vi .
+
+vres:Giải_bóng_đá_hạng_Ba_Quốc_gia_Việt_Nam rdfs:label "Giải bóng đá hạng Ba Quốc gia Việt Nam"@vi .
+
+vres:Giải_bóng_đá_hạng_Nhì_Quốc_gia_Việt_Nam rdfs:label "Giải bóng đá hạng Nhì Quốc gia Việt Nam"@vi .
+
+vres:Giải_bóng_đá_hạng_Nhất_Quốc_gia_Việt_Nam rdfs:label "Giải bóng đá hạng Nhất Quốc gia Việt Nam"@vi .
+
+vres:Giải_bóng_đá_nữ_Vô_địch_Quốc_gia rdfs:label "Giải bóng đá nữ Vô địch Quốc gia"@vi .
+
+vres:Giải_bóng_đá_nữ_Vô_địch_Quốc_gia_2020 rdfs:label "Giải bóng đá nữ Vô địch Quốc gia 2020"@vi .
+
+vres:Giải_bóng_đá_nữ_Vô_địch_Quốc_gia_2022 rdfs:label "Giải bóng đá nữ Vô địch Quốc gia 2022"@vi .
+
+vres:Giải_bóng_đá_nữ_Vô_địch_Quốc_gia_2024 rdfs:label "Giải bóng đá nữ Vô địch Quốc gia 2024"@vi .
+
+vres:Giải_bóng_đá_nữ_vô_địch_quốc_gia_2002 rdfs:label "Giải bóng đá nữ vô địch quốc gia 2002"@vi .
+
+vres:Giải_bóng_đá_vô_địch_các_câu_lạc_bộ_sông_Mekong_2015 rdfs:label "Giải bóng đá vô địch các câu lạc bộ sông Mekong 2015"@vi .
+
+vres:Giải_bóng_đá_vô_địch_các_câu_lạc_bộ_sông_Mekong_2016 rdfs:label "Giải bóng đá vô địch các câu lạc bộ sông Mekong 2016"@vi .
+
+vres:Giải_bóng_đá_vô_địch_các_câu_lạc_bộ_sông_Mekong_2017 rdfs:label "Giải bóng đá vô địch các câu lạc bộ sông Mekong 2017"@vi .
+
+vres:Giải_vô_địch_bóng_đá_ASEAN_2024 rdfs:label "Giải vô địch bóng đá ASEAN 2024"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-16_châu_Á_2000 rdfs:label "Giải vô địch bóng đá U-16 châu Á 2000"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_ASEAN rdfs:label "Giải vô địch bóng đá U-17 ASEAN"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_ASEAN_2026 rdfs:label "Giải vô địch bóng đá U-17 ASEAN 2026"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_thế_giới rdfs:label "Giải vô địch bóng đá U-17 thế giới"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_thế_giới_2026 rdfs:label "Giải vô địch bóng đá U-17 thế giới 2026"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2002 rdfs:label "Giải vô địch bóng đá U-17 Đông Nam Á 2002"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2006 rdfs:label "Giải vô địch bóng đá U-17 Đông Nam Á 2006"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2010 rdfs:label "Giải vô địch bóng đá U-17 Đông Nam Á 2010"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-17_Đông_Nam_Á_2017 rdfs:label "Giải vô địch bóng đá U-17 Đông Nam Á 2017"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-19_ASEAN rdfs:label "Giải vô địch bóng đá U-19 ASEAN"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-19_châu_Á_2016 rdfs:label "Giải vô địch bóng đá U-19 châu Á 2016"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-20_thế_giới rdfs:label "Giải vô địch bóng đá U-20 thế giới"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-20_thế_giới_2017 rdfs:label "Giải vô địch bóng đá U-20 thế giới 2017"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-20_Đông_Nam_Á_2002 rdfs:label "Giải vô địch bóng đá U-20 Đông Nam Á 2002"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-20_Đông_Nam_Á_2007 rdfs:label "Giải vô địch bóng đá U-20 Đông Nam Á 2007"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-22_Đông_Nam_Á_2019 rdfs:label "Giải vô địch bóng đá U-22 Đông Nam Á 2019"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_ASEAN rdfs:label "Giải vô địch bóng đá U-23 ASEAN"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_ASEAN_2025 rdfs:label "Giải vô địch bóng đá U-23 ASEAN 2025"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_châu_Á_2016 rdfs:label "Giải vô địch bóng đá U-23 châu Á 2016"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_châu_Á_2018 rdfs:label "Giải vô địch bóng đá U-23 châu Á 2018"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_Đông_Nam_Á_2022 rdfs:label "Giải vô địch bóng đá U-23 Đông Nam Á 2022"@vi .
+
+vres:Giải_vô_địch_bóng_đá_U-23_Đông_Nam_Á_2023 rdfs:label "Giải vô địch bóng đá U-23 Đông Nam Á 2023"@vi .
+
+vres:Giải_vô_địch_bóng_đá_trẻ_châu_Á_2002 rdfs:label "Giải vô địch bóng đá trẻ châu Á 2002"@vi .
+
+vres:Global_U8_Consortium rdfs:label "Global U8 Consortium"@vi .
+
+vres:Grimma rdfs:label "Grimma"@vi .
+
+vres:Gwardia_Koszalin rdfs:label "Gwardia Koszalin"@vi .
+
+vres:Gành_Đá_Đĩa rdfs:label "Gành Đá Đĩa"@vi .
+
+vres:Gò_Công_\(thành_phố\) rdfs:label "Gò Công (thành phố)"@vi .
+
+vres:Gò_Công_Tây rdfs:label "Gò Công Tây"@vi .
+
+vres:Gò_Quao_\(huyện\) rdfs:label "Gò Quao (huyện)"@vi .
+
+vres:Gò_Vấp rdfs:label "Gò Vấp"@vi .
+
+<http://vi.dbpedia.org/resource/H'Mông> rdfs:label "H'Mông"@vi .
+
+vres:Hai_Bà_Trưng rdfs:label "Hai Bà Trưng"@vi .
+
+vres:Hai_Bà_Trưng_\(quận\) rdfs:label "Hai Bà Trưng (quận)"@vi .
+
+vres:Hang_Sơn_Đoòng rdfs:label "Hang Sơn Đoòng"@vi .
+
+vres:Harry_Kewell rdfs:label "Harry Kewell"@vi .
+
+vres:Hecta rdfs:label "Hecta"@vi .
+
+vres:Helmond_Sport rdfs:label "Helmond Sport"@vi .
+
+vres:Hiến_pháp_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam_năm_2013 rdfs:label "Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 2013"@vi .
+
+vres:Hiệp_định_Genève_1954 rdfs:label "Hiệp định Genève 1954"@vi .
+
+vres:Hiệp_định_Paris_1973 rdfs:label "Hiệp định Paris 1973"@vi .
+
+vres:Hoa_Kỳ rdfs:label "Hoa Kỳ"@vi .
+
+vres:Hoa_Lư_\(phường\) rdfs:label "Hoa Lư (phường)"@vi .
+
+vres:Hoa_Lư_\(thành_phố\) rdfs:label "Hoa Lư (thành phố)"@vi .
+
+vres:Hokkaido_Consadole_Sapporo rdfs:label "Hokkaido Consadole Sapporo"@vi .
+
+vres:Houston_FC rdfs:label "Houston FC"@vi .
+
+vres:Hoài_Nhơn_\(thị_xã\) rdfs:label "Hoài Nhơn (thị xã)"@vi .
+
+vres:Hoài_Ân_\(huyện\) rdfs:label "Hoài Ân (huyện)"@vi .
+
+<http://vi.dbpedia.org/resource/Hoài_Đức,_Hà_Nội> rdfs:label "Hoài Đức, Hà Nội"@vi .
+
+vres:Hoài_Đức_\(huyện\) rdfs:label "Hoài Đức (huyện)"@vi .
+
+vres:Hoàn_Kiếm_\(phường\) rdfs:label "Hoàn Kiếm (phường)"@vi .
+
+vres:Hoàng_Hùng_Thắng rdfs:label "Hoàng Hùng Thắng"@vi .
+
+vres:Hoàng_Hữu_Chiến rdfs:label "Hoàng Hữu Chiến"@vi .
+
+vres:Hoàng_Liên_Sơn_\(tỉnh\) rdfs:label "Hoàng Liên Sơn (tỉnh)"@vi .
+
+<http://vi.dbpedia.org/resource/Hoàng_Mai,_Nghệ_An> rdfs:label "Hoàng Mai, Nghệ An"@vi .
+
+vres:Hoàng_Mai_\(quận\) rdfs:label "Hoàng Mai (quận)"@vi .
+
+vres:Hoàng_Mai_\(thị_xã\) rdfs:label "Hoàng Mai (thị xã)"@vi .
+
+vres:Hoàng_Minh_Thảo rdfs:label "Hoàng Minh Thảo"@vi .
+
+vres:Hoàng_Nghĩa_Hiếu rdfs:label "Hoàng Nghĩa Hiếu"@vi .
+
+vres:Hoàng_Quốc_Khánh_\(Sơn_La\) rdfs:label "Hoàng Quốc Khánh (Sơn La)"@vi .
+
+vres:Hoàng_Quốc_Việt rdfs:label "Hoàng Quốc Việt"@vi .
+
+vres:Hoàng_Thanh_Tùng_\(chính_khách\) rdfs:label "Hoàng Thanh Tùng (chính khách)"@vi .
+
+vres:Hoàng_Thị_Thanh_Thúy rdfs:label "Hoàng Thị Thanh Thúy"@vi .
+
+vres:Hoàng_Văn_Liên rdfs:label "Hoàng Văn Liên"@vi .
+
+vres:Hoàng_Văn_Nghiệm rdfs:label "Hoàng Văn Nghiệm"@vi .
+
+vres:Hoằng_Hóa_\(huyện\) rdfs:label "Hoằng Hóa (huyện)"@vi .
+
+vres:Huyện_\(Việt_Nam\) rdfs:label "Huyện (Việt Nam)"@vi .
+
+vres:Huân_chương_Sao_Vàng_\(Việt_Nam\) rdfs:label "Huân chương Sao Vàng (Việt Nam)"@vi .
+
+vres:Huấn_luyện_viên rdfs:label "Huấn luyện viên"@vi .
+
+vres:Huế_\(thành_phố_thuộc_tỉnh\) rdfs:label "Huế (thành phố thuộc tỉnh)"@vi .
+
+vres:Huỳnh_Thanh_Phương rdfs:label "Huỳnh Thanh Phương"@vi .
+
+vres:Huỳnh_Thị_Hằng rdfs:label "Huỳnh Thị Hằng"@vi .
+
+vres:Huỳnh_Thị_Hằng_Nga rdfs:label "Huỳnh Thị Hằng Nga"@vi .
+
+vres:Huỳnh_Văn_Lưu rdfs:label "Huỳnh Văn Lưu"@vi .
+
+vres:Huỳnh_Văn_Sơn rdfs:label "Huỳnh Văn Sơn"@vi .
+
+vres:Huỳnh_Xuân_Long rdfs:label "Huỳnh Xuân Long"@vi .
+
+vres:Hà_Giang_\(thành_phố\) rdfs:label "Hà Giang (thành phố)"@vi .
+
+vres:Hà_Giang_1 rdfs:label "Hà Giang 1"@vi .
+
+vres:Hà_Giang_2 rdfs:label "Hà Giang 2"@vi .
+
+vres:Hà_Nội_Tràng_An rdfs:label "Hà Nội Tràng An"@vi .
+
+vres:Hà_Quang_Trung rdfs:label "Hà Quang Trung"@vi .
+
+vres:Hà_Thúc_Viên rdfs:label "Hà Thúc Viên"@vi .
+
+vres:Hà_Tiên_\(tỉnh\) rdfs:label "Hà Tiên (tỉnh)"@vi .
+
+vres:Hà_Trung_\(huyện\) rdfs:label "Hà Trung (huyện)"@vi .
+
+vres:Hà_Tuyên rdfs:label "Hà Tuyên"@vi .
+
+vres:Hà_Tĩnh_\(thành_phố\) rdfs:label "Hà Tĩnh (thành phố)"@vi .
+
+vres:Hà_Vương_Ngầu_Nại rdfs:label "Hà Vương Ngầu Nại"@vi .
+
+vres:Hà_Đông_\(phường\) rdfs:label "Hà Đông (phường)"@vi .
+
+vres:Hà_Đông_\(quận\) rdfs:label "Hà Đông (quận)"@vi .
+
+vres:Hòa_Bình_\(thành_phố\) rdfs:label "Hòa Bình (thành phố)"@vi .
+
+vres:Hòa_Cường rdfs:label "Hòa Cường"@vi .
+
+vres:Hòa_Hưng_\(phường\) rdfs:label "Hòa Hưng (phường)"@vi .
+
+vres:Hòa_Thuận_\(phường\) rdfs:label "Hòa Thuận (phường)"@vi .
+
+vres:Hòa_Vang_\(huyện\) rdfs:label "Hòa Vang (huyện)"@vi .
+
+vres:Hòa_Xuân_\(phường\) rdfs:label "Hòa Xuân (phường)"@vi .
+
+vres:Hòa_Xá rdfs:label "Hòa Xá"@vi .
+
+<http://vi.dbpedia.org/resource/Hòa_ước_Quý_Mùi,_1883> rdfs:label "Hòa ước Quý Mùi, 1883"@vi .
+
+vres:Hưng_Hà_\(huyện\) rdfs:label "Hưng Hà (huyện)"@vi .
+
+vres:Hưng_Nguyên_\(huyện\) rdfs:label "Hưng Nguyên (huyện)"@vi .
+
+vres:Hưng_Vũ rdfs:label "Hưng Vũ"@vi .
+
+vres:Hưng_Yên_\(thành_phố\) rdfs:label "Hưng Yên (thành phố)"@vi .
+
+vres:Hưng_Yên_\(tỉnh\) rdfs:label "Hưng Yên (tỉnh)"@vi .
+
+vres:Hương_Khê_\(huyện\) rdfs:label "Hương Khê (huyện)"@vi .
+
+vres:Hương_Sơn_\(huyện\) rdfs:label "Hương Sơn (huyện)"@vi .
+
+vres:Hương_Thủy_\(thị_xã\) rdfs:label "Hương Thủy (thị xã)"@vi .
+
+vres:Hương_Trà_\(phường\) rdfs:label "Hương Trà (phường)"@vi .
+
+vres:Hương_Trà_\(thị_xã\) rdfs:label "Hương Trà (thị xã)"@vi .
+
+vres:Hạ_Long_\(phường\) rdfs:label "Hạ Long (phường)"@vi .
+
+vres:Hạ_Long_\(thành_phố\) rdfs:label "Hạ Long (thành phố)"@vi .
+
+vres:Hạc_Thành rdfs:label "Hạc Thành"@vi .
+
+vres:Hạnh_Thông rdfs:label "Hạnh Thông"@vi .
+
+vres:Hải_Châu_\(phường\) rdfs:label "Hải Châu (phường)"@vi .
+
+vres:Hải_Châu_\(quận\) rdfs:label "Hải Châu (quận)"@vi .
+
+vres:Hải_Dương_\(thành_phố\) rdfs:label "Hải Dương (thành phố)"@vi .
+
+vres:Hải_Hà rdfs:label "Hải Hà"@vi .
+
+vres:Hải_Hậu_\(huyện\) rdfs:label "Hải Hậu (huyện)"@vi .
+
+vres:Hải_Thượng_Lãn_Ông rdfs:label "Hải Thượng Lãn Ông"@vi .
+
+vres:Hầu_A_Lềnh rdfs:label "Hầu A Lềnh"@vi .
+
+vres:Hậu_Bổn rdfs:label "Hậu Bổn"@vi .
+
+vres:Hậu_Nghĩa_\(tỉnh\) rdfs:label "Hậu Nghĩa (tỉnh)"@vi .
+
+vres:Hậu_vệ_\(bóng_đá\) rdfs:label "Hậu vệ (bóng đá)"@vi .
+
+vres:Hẻm_vực_Tu_Sản rdfs:label "Hẻm vực Tu Sản"@vi .
+
+vres:Học_viện rdfs:label "Học viện"@vi .
+
+vres:Học_viện_Công_nghệ_Georgia rdfs:label "Học viện Công nghệ Georgia"@vi .
+
+vres:Học_viện_bóng_đá_Aspire rdfs:label "Học viện bóng đá Aspire"@vi .
+
+vres:Học_viện_bóng_đá_NutiFood-JMG rdfs:label "Học viện bóng đá NutiFood-JMG"@vi .
+
+vres:Hồ_Ba_Bể rdfs:label "Hồ Ba Bể"@vi .
+
+vres:Hồ_Chí_Minh rdfs:label "Hồ Chí Minh"@vi .
+
+vres:Hồ_Quốc_Dũng rdfs:label "Hồ Quốc Dũng"@vi .
+
+vres:Hồ_Thanh_Thủy rdfs:label "Hồ Thanh Thủy"@vi .
+
+vres:Hồ_Thác_Bà rdfs:label "Hồ Thác Bà"@vi .
+
+vres:Hồ_Thị_Cẩm_Đào rdfs:label "Hồ Thị Cẩm Đào"@vi .
+
+vres:Hồ_Thị_Hoàng_Yến rdfs:label "Hồ Thị Hoàng Yến"@vi .
+
+vres:Hồ_Trọng_Tuấn rdfs:label "Hồ Trọng Tuấn"@vi .
+
+vres:Hồ_Văn_Mừng rdfs:label "Hồ Văn Mừng"@vi .
+
+vres:Hồ_Văn_Niên rdfs:label "Hồ Văn Niên"@vi .
+
+vres:Hồ_tiêu rdfs:label "Hồ tiêu"@vi .
+
+vres:Hồng_Ngự_\(huyện\) rdfs:label "Hồng Ngự (huyện)"@vi .
+
+vres:Hồng_Ngự_\(thành_phố\) rdfs:label "Hồng Ngự (thành phố)"@vi .
+
+vres:Hồng_Quảng rdfs:label "Hồng Quảng"@vi .
+
+<http://vi.dbpedia.org/resource/Hồng_Thái,_Tuyên_Quang> rdfs:label "Hồng Thái, Tuyên Quang"@vi .
+
+vres:Hồng_châu rdfs:label "Hồng châu"@vi .
+
+<http://vi.dbpedia.org/resource/ISO_3166-2:VN> rdfs:label "ISO 3166-2:VN"@vi .
+
+vres:Ikeuchi_Yutaka rdfs:label "Ikeuchi Yutaka"@vi .
+
+vres:Illinois rdfs:label "Illinois"@vi .
+
+vres:Incheon_United_FC rdfs:label "Incheon United FC"@vi .
+
+vres:JICA rdfs:label "JICA"@vi .
+
+vres:Jamaica rdfs:label "Jamaica"@vi .
+
+vres:Joondalup_United_FC rdfs:label "Joondalup United FC"@vi .
+
+vres:K.M.S.K._Deinze rdfs:label "K.M.S.K. Deinze"@vi .
+
+vres:Kaduna rdfs:label "Kaduna"@vi .
+
+<http://vi.dbpedia.org/resource/Kasetsart_F.C.> rdfs:label "Kasetsart F.C."@vi .
+
+<http://vi.dbpedia.org/resource/Khoa_Khoa_học_Chính_trị,_Xã_hội_và_Nhân_văn> rdfs:label "Khoa Khoa học Chính trị, Xã hội và Nhân văn"@vi .
+
+vres:Khoa_Luật rdfs:label "Khoa Luật"@vi .
+
+vres:Khoa_Môi_trường_và_Tài_nguyên_thiên_nhiên rdfs:label "Khoa Môi trường và Tài nguyên thiên nhiên"@vi .
+
+vres:Khoa_Ngoại_ngữ rdfs:label "Khoa Ngoại ngữ"@vi .
+
+vres:Khoa_Sau_Đại_học rdfs:label "Khoa Sau Đại học"@vi .
+
+vres:Khu_Tự_trị_Mường rdfs:label "Khu Tự trị Mường"@vi .
+
+<http://vi.dbpedia.org/resource/Khu_bảo_tồn_thiên_nhiên_Na_Hang_–_Lâm_Bình> rdfs:label "Khu bảo tồn thiên nhiên Na Hang – Lâm Bình"@vi .
+
+vres:Khu_phố_Thới_An rdfs:label "Khu phố Thới An"@vi .
+
+vres:Khuôn_viên_trường rdfs:label "Khuôn viên trường"@vi .
+
+vres:Khánh_Hậu rdfs:label "Khánh Hậu"@vi .
+
+vres:Khánh_Sơn_\(huyện\) rdfs:label "Khánh Sơn (huyện)"@vi .
+
+vres:Không_tôn_giáo rdfs:label "Không tôn giáo"@vi .
+
+vres:Ki_lô_gam rdfs:label "Ki lô gam"@vi .
+
+vres:Kilômét_vuông rdfs:label "Kilômét vuông"@vi .
+
+vres:Kim_Bình rdfs:label "Kim Bình"@vi .
+
+vres:Kim_Bảng_\(thị_xã\) rdfs:label "Kim Bảng (thị xã)"@vi .
+
+<http://vi.dbpedia.org/resource/Kim_Chung,_Hoài_Đức> rdfs:label "Kim Chung, Hoài Đức"@vi .
+
+vres:Kim_Liên_\(phường\) rdfs:label "Kim Liên (phường)"@vi .
+
+vres:Kim_Ngọc_Thái rdfs:label "Kim Ngọc Thái"@vi .
+
+vres:Kim_Sang-sik rdfs:label "Kim Sang-sik"@vi .
+
+vres:Kim_Đồng rdfs:label "Kim Đồng"@vi .
+
+vres:Kinh_Bắc rdfs:label "Kinh Bắc"@vi .
+
+vres:Kinh_Bắc_\(phường\) rdfs:label "Kinh Bắc (phường)"@vi .
+
+vres:Kirivong_Sok_Sen_Chey rdfs:label "Kirivong Sok Sen Chey"@vi .
+
+vres:Kitô_giáo_tại_Việt_Nam rdfs:label "Kitô giáo tại Việt Nam"@vi .
+
+vres:Kiến rdfs:label "Kiến"@vi .
+
+vres:Kiến_An_\(quận\) rdfs:label "Kiến An (quận)"@vi .
+
+vres:Kiến_Phong rdfs:label "Kiến Phong"@vi .
+
+vres:Kiến_Xuơng_\(huyện\) rdfs:label "Kiến Xuơng (huyện)"@vi .
+
+vres:Kiến_Xương_\(huyện\) rdfs:label "Kiến Xương (huyện)"@vi .
+
+vres:Kon_Tum_\(thành_phố\) rdfs:label "Kon Tum (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Krabi_F.C.> rdfs:label "Krabi F.C."@vi .
+
+vres:Kuala_Lumpur rdfs:label "Kuala Lumpur"@vi .
+
+vres:Ky_Quan_San rdfs:label "Ky Quan San"@vi .
+
+vres:Kyiv rdfs:label "Kyiv"@vi .
+
+vres:Kẹo_Cu_Đơ rdfs:label "Kẹo Cu Đơ"@vi .
+
+vres:Kẹo_dừa rdfs:label "Kẹo dừa"@vi .
+
+vres:Kẹo_mè_xửng rdfs:label "Kẹo mè xửng"@vi .
+
+vres:Kỳ_Anh_\(huyện\) rdfs:label "Kỳ Anh (huyện)"@vi .
+
+vres:Kỹ_sư rdfs:label "Kỹ sư"@vi .
+
+vres:La_Gi_\(thị_xã\) rdfs:label "La Gi (thị xã)"@vi .
+
+vres:Lagos rdfs:label "Lagos"@vi .
+
+vres:Lai_Châu_\(thành_phố\) rdfs:label "Lai Châu (thành phố)"@vi .
+
+vres:Lai_Vung_\(huyện\) rdfs:label "Lai Vung (huyện)"@vi .
+
+vres:Lam_Sơn rdfs:label "Lam Sơn"@vi .
+
+vres:Lam_Thành rdfs:label "Lam Thành"@vi .
+
+<http://vi.dbpedia.org/resource/Leixões_S.C.> rdfs:label "Leixões S.C."@vi .
+
+<http://vi.dbpedia.org/resource/Liberty_Professionals_F.C.> rdfs:label "Liberty Professionals F.C."@vi .
+
+vres:Linh_Xuân rdfs:label "Linh Xuân"@vi .
+
+vres:Litvínov rdfs:label "Litvínov"@vi .
+
+vres:Liên_Chiểu_\(phường\) rdfs:label "Liên Chiểu (phường)"@vi .
+
+vres:Liên_Chiểu_\(quận\) rdfs:label "Liên Chiểu (quận)"@vi .
+
+vres:Liên_Xô rdfs:label "Liên Xô"@vi .
+
+vres:Liên_bang_Đông_Dương rdfs:label "Liên bang Đông Dương"@vi .
+
+vres:Liên_đoàn_Bóng_đá_Việt_Nam rdfs:label "Liên đoàn Bóng đá Việt Nam"@vi .
+
+vres:Liên_đoàn_bóng_đá_ASEAN rdfs:label "Liên đoàn bóng đá ASEAN"@vi .
+
+vres:Liên_đoàn_bóng_đá_Việt_Nam rdfs:label "Liên đoàn bóng đá Việt Nam"@vi .
+
+vres:Liên_đoàn_bóng_đá_châu_Á rdfs:label "Liên đoàn bóng đá châu Á"@vi .
+
+vres:Lommel_United rdfs:label "Lommel United"@vi .
+
+vres:Long_An_\(phường\) rdfs:label "Long An (phường)"@vi .
+
+vres:Long_Biên rdfs:label "Long Biên"@vi .
+
+vres:Long_Châu rdfs:label "Long Châu"@vi .
+
+vres:Long_Châu_Hà rdfs:label "Long Châu Hà"@vi .
+
+vres:Long_Châu_Hậu rdfs:label "Long Châu Hậu"@vi .
+
+vres:Long_Châu_Sa rdfs:label "Long Châu Sa"@vi .
+
+vres:Long_Châu_Tiền rdfs:label "Long Châu Tiền"@vi .
+
+vres:Long_Hải rdfs:label "Long Hải"@vi .
+
+vres:Long_Hồ_\(dinh\) rdfs:label "Long Hồ (dinh)"@vi .
+
+vres:Long_Khánh_\(thành_phố\) rdfs:label "Long Khánh (thành phố)"@vi .
+
+vres:Long_Thuận_\(xã\) rdfs:label "Long Thuận (xã)"@vi .
+
+vres:Long_Xuyên_\(phường\) rdfs:label "Long Xuyên (phường)"@vi .
+
+vres:Long_Xuyên_\(thành_phố\) rdfs:label "Long Xuyên (thành phố)"@vi .
+
+vres:Long_Đỗ rdfs:label "Long Đỗ"@vi .
+
+vres:Lučenec_\(huyện\) rdfs:label "Lučenec (huyện)"@vi .
+
+vres:Lyon rdfs:label "Lyon"@vi .
+
+vres:Làng_gạch_Mang_Thít rdfs:label "Làng gạch Mang Thít"@vi .
+
+vres:Láng_\(phường\) rdfs:label "Láng (phường)"@vi .
+
+vres:Láng_Thượng rdfs:label "Láng Thượng"@vi .
+
+vres:Lâm_Bình_\(huyện\) rdfs:label "Lâm Bình (huyện)"@vi .
+
+vres:Lâm_Hà rdfs:label "Lâm Hà"@vi .
+
+vres:Lâm_Minh_Thành rdfs:label "Lâm Minh Thành"@vi .
+
+vres:Lâm_Thao_\(huyện\) rdfs:label "Lâm Thao (huyện)"@vi .
+
+vres:Lâm_Viên_\(tỉnh\) rdfs:label "Lâm Viên (tỉnh)"@vi .
+
+vres:Lâm_Văn_Mẫn rdfs:label "Lâm Văn Mẫn"@vi .
+
+vres:Lâm_Đông rdfs:label "Lâm Đông"@vi .
+
+vres:Lê_Chân_\(phường\) rdfs:label "Lê Chân (phường)"@vi .
+
+vres:Lê_Duẩn rdfs:label "Lê Duẩn"@vi .
+
+vres:Lê_Hải_Bình rdfs:label "Lê Hải Bình"@vi .
+
+vres:Lê_Hải_Hòa rdfs:label "Lê Hải Hòa"@vi .
+
+vres:Lê_Hồng_Quang_\(Quảng_Trị\) rdfs:label "Lê Hồng Quang (Quảng Trị)"@vi .
+
+vres:Lê_Hữu_Hảo rdfs:label "Lê Hữu Hảo"@vi .
+
+vres:Lê_Minh_Hưng rdfs:label "Lê Minh Hưng"@vi .
+
+vres:Lê_Minh_Nam rdfs:label "Lê Minh Nam"@vi .
+
+vres:Lê_Minh_Ngân rdfs:label "Lê Minh Ngân"@vi .
+
+vres:Lê_Minh_Thái rdfs:label "Lê Minh Thái"@vi .
+
+vres:Lê_Mạnh_Hùng_\(Tập_đoàn_Dầu_khí_Việt_Nam\) rdfs:label "Lê Mạnh Hùng (Tập đoàn Dầu khí Việt Nam)"@vi .
+
+vres:Lê_Ngọc_Châu rdfs:label "Lê Ngọc Châu"@vi .
+
+vres:Lê_Ngọc_Quang rdfs:label "Lê Ngọc Quang"@vi .
+
+vres:Lê_Ngọc_Tuấn rdfs:label "Lê Ngọc Tuấn"@vi .
+
+vres:Lê_Quang_Bốn rdfs:label "Lê Quang Bốn"@vi .
+
+vres:Lê_Quang_Trãi rdfs:label "Lê Quang Trãi"@vi .
+
+vres:Lê_Quang_Tùng rdfs:label "Lê Quang Tùng"@vi .
+
+vres:Lê_Quân rdfs:label "Lê Quân"@vi .
+
+vres:Lê_Quý_Đôn rdfs:label "Lê Quý Đôn"@vi .
+
+vres:Lê_Quốc_Chỉnh rdfs:label "Lê Quốc Chỉnh"@vi .
+
+vres:Lê_Quốc_Dũng rdfs:label "Lê Quốc Dũng"@vi .
+
+vres:Lê_Thanh_Phong_\(thẩm_phán\) rdfs:label "Lê Thanh Phong (thẩm phán)"@vi .
+
+vres:Lê_Thành_Long rdfs:label "Lê Thành Long"@vi .
+
+vres:Lê_Thành_Đô rdfs:label "Lê Thành Đô"@vi .
+
+vres:Lê_Thái_Hưng rdfs:label "Lê Thái Hưng"@vi .
+
+vres:Lê_Thái_Tổ rdfs:label "Lê Thái Tổ"@vi .
+
+vres:Lê_Thế_Trung rdfs:label "Lê Thế Trung"@vi .
+
+vres:Lê_Thị_Minh_Hiếu rdfs:label "Lê Thị Minh Hiếu"@vi .
+
+vres:Lê_Thị_Ngọc_Linh rdfs:label "Lê Thị Ngọc Linh"@vi .
+
+vres:Lê_Thị_Ngọc_Điệp rdfs:label "Lê Thị Ngọc Điệp"@vi .
+
+vres:Lê_Thị_Song_An rdfs:label "Lê Thị Song An"@vi .
+
+vres:Lê_Thị_Thanh_Lam rdfs:label "Lê Thị Thanh Lam"@vi .
+
+vres:Lê_Trung_Hưng_\(kiểm_sát_viên\) rdfs:label "Lê Trung Hưng (kiểm sát viên)"@vi .
+
+vres:Lê_Trí_Thanh rdfs:label "Lê Trí Thanh"@vi .
+
+vres:Lê_Trọng_Tấn rdfs:label "Lê Trọng Tấn"@vi .
+
+vres:Lê_Tấn_Tới rdfs:label "Lê Tấn Tới"@vi .
+
+vres:Lê_Văn_Hiệu rdfs:label "Lê Văn Hiệu"@vi .
+
+vres:Lê_Văn_Hẳn rdfs:label "Lê Văn Hẳn"@vi .
+
+vres:Lê_Văn_Đông_\(kiểm_sát_viên\) rdfs:label "Lê Văn Đông (kiểm sát viên)"@vi .
+
+vres:Lê_Xuân_Thái rdfs:label "Lê Xuân Thái"@vi .
+
+vres:Lê_Định rdfs:label "Lê Định"@vi .
+
+vres:Lê_Đức_Thái rdfs:label "Lê Đức Thái"@vi .
+
+vres:Lò_Văn_Phương rdfs:label "Lò Văn Phương"@vi .
+
+vres:Lúa rdfs:label "Lúa"@vi .
+
+vres:Lý_Anh_Thư rdfs:label "Lý Anh Thư"@vi .
+
+vres:Lý_Nhân_\(huyện\) rdfs:label "Lý Nhân (huyện)"@vi .
+
+vres:Lý_Thường_Kiệt rdfs:label "Lý Thường Kiệt"@vi .
+
+vres:Lý_Văn_Huấn rdfs:label "Lý Văn Huấn"@vi .
+
+vres:Lý_Đức_\(thượng_tọa\) rdfs:label "Lý Đức (thượng tọa)"@vi .
+
+vres:Lăng_Nguyễn_Đình_Chiểu rdfs:label "Lăng Nguyễn Đình Chiểu"@vi .
+
+vres:Lưu_Văn_Trung rdfs:label "Lưu Văn Trung"@vi .
+
+vres:Lương_Nguyễn_Minh_Triết rdfs:label "Lương Nguyễn Minh Triết"@vi .
+
+vres:Lương_Quốc_Đoàn rdfs:label "Lương Quốc Đoàn"@vi .
+
+<http://vi.dbpedia.org/resource/Lương_Sơn,_Phú_Thọ> rdfs:label "Lương Sơn, Phú Thọ"@vi .
+
+vres:Lương_Văn_Tri_\(phường\) rdfs:label "Lương Văn Tri (phường)"@vi .
+
+vres:Lương_Đức_Minh rdfs:label "Lương Đức Minh"@vi .
+
+vres:Lường_Văn_Chuyên rdfs:label "Lường Văn Chuyên"@vi .
+
+vres:Lạc_Sơn_\(huyện\) rdfs:label "Lạc Sơn (huyện)"@vi .
+
+vres:Lại_Anh_Tuấn rdfs:label "Lại Anh Tuấn"@vi .
+
+vres:Lạng_Sơn_\(thành_phố\) rdfs:label "Lạng Sơn (thành phố)"@vi .
+
+vres:Lập_Thạch_\(huyện\) rdfs:label "Lập Thạch (huyện)"@vi .
+
+vres:Lễ_Tịch_điền rdfs:label "Lễ Tịch điền"@vi .
+
+vres:Lịch_sử_Việt_Nam rdfs:label "Lịch sử Việt Nam"@vi .
+
+vres:Lộc_Hà_\(huyện\) rdfs:label "Lộc Hà (huyện)"@vi .
+
+vres:Lộc_Ninh_\(huyện\) rdfs:label "Lộc Ninh (huyện)"@vi .
+
+vres:Lữ_Gia rdfs:label "Lữ Gia"@vi .
+
+vres:Lữ_Quang_Ngời rdfs:label "Lữ Quang Ngời"@vi .
+
+vres:Lữ_Văn_Hùng rdfs:label "Lữ Văn Hùng"@vi .
+
+vres:MFK_Karviná rdfs:label "MFK Karviná"@vi .
+
+vres:MFK_Zemplín_Michalovce rdfs:label "MFK Zemplín Michalovce"@vi .
+
+vres:Ma_Thế_Hồng rdfs:label "Ma Thế Hồng"@vi .
+
+vres:Mai_Anh_Tài rdfs:label "Mai Anh Tài"@vi .
+
+vres:Mai_Thanh_Phong rdfs:label "Mai Thanh Phong"@vi .
+
+vres:Mai_Trung_Hải rdfs:label "Mai Trung Hải"@vi .
+
+vres:Mai_Văn_Dũng rdfs:label "Mai Văn Dũng"@vi .
+
+vres:Mai_Văn_Linh rdfs:label "Mai Văn Linh"@vi .
+
+vres:Mai_Xuân_Thưởng rdfs:label "Mai Xuân Thưởng"@vi .
+
+vres:Mai_Xuân_Trường rdfs:label "Mai Xuân Trường"@vi .
+
+vres:Mai_Đức_Chung rdfs:label "Mai Đức Chung"@vi .
+
+vres:Malaysia rdfs:label "Malaysia"@vi .
+
+vres:Martin_G._Bean rdfs:label "Martin G. Bean"@vi .
+
+vres:Minh_Xuân rdfs:label "Minh Xuân"@vi .
+
+vres:Mito_HollyHock rdfs:label "Mito HollyHock"@vi .
+
+vres:Moskva rdfs:label "Moskva"@vi .
+
+vres:Myanmar rdfs:label "Myanmar"@vi .
+
+vres:Mã_bưu_chính_Việt_Nam rdfs:label "Mã bưu chính Việt Nam"@vi .
+
+vres:Mã_điện_thoại_Việt_Nam rdfs:label "Mã điện thoại Việt Nam"@vi .
+
+vres:Mét rdfs:label "Mét"@vi .
+
+vres:Mét_vuông rdfs:label "Mét vuông"@vi .
+
+vres:Mê_Linh_\(huyện\) rdfs:label "Mê Linh (huyện)"@vi .
+
+vres:Mía rdfs:label "Mía"@vi .
+
+vres:Móng_Cái rdfs:label "Móng Cái"@vi .
+
+vres:MŠK_Žilina rdfs:label "MŠK Žilina"@vi .
+
+vres:Mũi_Né rdfs:label "Mũi Né"@vi .
+
+vres:Mũi_Điện rdfs:label "Mũi Điện"@vi .
+
+vres:Mường_Hum rdfs:label "Mường Hum"@vi .
+
+vres:Mường_La_\(xã\) rdfs:label "Mường La (xã)"@vi .
+
+vres:Mạc_Minh_Quang rdfs:label "Mạc Minh Quang"@vi .
+
+vres:Mạng_lưới_các_trường_đại_học_Đông_Nam_Á rdfs:label "Mạng lưới các trường đại học Đông Nam Á"@vi .
+
+vres:Mẫu_Sơn rdfs:label "Mẫu Sơn"@vi .
+
+vres:Mẫu_Sơn_\(xã\) rdfs:label "Mẫu Sơn (xã)"@vi .
+
+vres:Mỏ_Cày_Nam rdfs:label "Mỏ Cày Nam"@vi .
+
+vres:Mộ_Đức_\(huyện\) rdfs:label "Mộ Đức (huyện)"@vi .
+
+vres:Mộc_Châu_\(phường\) rdfs:label "Mộc Châu (phường)"@vi .
+
+vres:Mỹ_Lộc_\(huyện\) rdfs:label "Mỹ Lộc (huyện)"@vi .
+
+vres:Mỹ_Tho_\(phường\) rdfs:label "Mỹ Tho (phường)"@vi .
+
+vres:Mỹ_Tho_\(thành_phố\) rdfs:label "Mỹ Tho (thành phố)"@vi .
+
+vres:Mỹ_Trà rdfs:label "Mỹ Trà"@vi .
+
+vres:Mỹ_Đình rdfs:label "Mỹ Đình"@vi .
+
+<http://vi.dbpedia.org/resource/Mỹ_Đức,_Hà_Nội> rdfs:label "Mỹ Đức, Hà Nội"@vi .
+
+vres:NGƯT rdfs:label "NGƯT"@vi .
+
+vres:Nagaworld_FC rdfs:label "Nagaworld FC"@vi .
+
+vres:Nakhon_Ratchasima_\(tỉnh\) rdfs:label "Nakhon Ratchasima (tỉnh)"@vi .
+
+vres:Nam_Bộ rdfs:label "Nam Bộ"@vi .
+
+vres:Nam_Hà_\(tỉnh\) rdfs:label "Nam Hà (tỉnh)"@vi .
+
+vres:Nam_Kỳ rdfs:label "Nam Kỳ"@vi .
+
+vres:Nam_Sách_\(huyện\) rdfs:label "Nam Sách (huyện)"@vi .
+
+vres:Nam_Sách_Hạ rdfs:label "Nam Sách Hạ"@vi .
+
+vres:Nam_Sách_Thượng rdfs:label "Nam Sách Thượng"@vi .
+
+vres:Nam_Đàn_\(huyện\) rdfs:label "Nam Đàn (huyện)"@vi .
+
+vres:Nam_Định_\(phường\) rdfs:label "Nam Định (phường)"@vi .
+
+vres:Nam_Định_\(thành_phố\) rdfs:label "Nam Định (thành phố)"@vi .
+
+vres:Nem_chua rdfs:label "Nem chua"@vi .
+
+vres:New_York_Red_Bulls rdfs:label "New York Red Bulls"@vi .
+
+vres:New_York_Red_Bulls_II rdfs:label "New York Red Bulls II"@vi .
+
+vres:Nga rdfs:label "Nga"@vi .
+
+vres:Nghi_Lộc_\(huyện\) rdfs:label "Nghi Lộc (huyện)"@vi .
+
+vres:Nghi_Sơn_\(thị_xã\) rdfs:label "Nghi Sơn (thị xã)"@vi .
+
+vres:Nghi_Xuân_\(huyện\) rdfs:label "Nghi Xuân (huyện)"@vi .
+
+vres:Nghi_Xuân_\(xã\) rdfs:label "Nghi Xuân (xã)"@vi .
+
+vres:Nghiêm_Đức_Thuận rdfs:label "Nghiêm Đức Thuận"@vi .
+
+vres:Nghĩa_Hành_\(huyện\) rdfs:label "Nghĩa Hành (huyện)"@vi .
+
+vres:Nghĩa_Hưng_\(huyện\) rdfs:label "Nghĩa Hưng (huyện)"@vi .
+
+vres:Nghĩa_Lộ_\(tỉnh\) rdfs:label "Nghĩa Lộ (tỉnh)"@vi .
+
+vres:Nghĩa_Đàn_\(huyện\) rdfs:label "Nghĩa Đàn (huyện)"@vi .
+
+vres:Nghĩa_Đô_\(phường\) rdfs:label "Nghĩa Đô (phường)"@vi .
+
+vres:Ngoại_ngữ rdfs:label "Ngoại ngữ"@vi .
+
+vres:Nguyễn_Anh rdfs:label "Nguyễn Anh"@vi .
+
+vres:Nguyễn_Chí_Dũng_\(chính_khách\) rdfs:label "Nguyễn Chí Dũng (chính khách)"@vi .
+
+vres:Nguyễn_Chí_Thanh rdfs:label "Nguyễn Chí Thanh"@vi .
+
+vres:Nguyễn_Chí_Tài_\(chính_khách\) rdfs:label "Nguyễn Chí Tài (chính khách)"@vi .
+
+vres:Nguyễn_Công_Hoàng rdfs:label "Nguyễn Công Hoàng"@vi .
+
+vres:Nguyễn_Danh_Tứ rdfs:label "Nguyễn Danh Tứ"@vi .
+
+vres:Nguyễn_Du rdfs:label "Nguyễn Du"@vi .
+
+vres:Nguyễn_Duy_Bắc rdfs:label "Nguyễn Duy Bắc"@vi .
+
+vres:Nguyễn_Duy_Lâm rdfs:label "Nguyễn Duy Lâm"@vi .
+
+vres:Nguyễn_Duy_Quyết rdfs:label "Nguyễn Duy Quyết"@vi .
+
+vres:Nguyễn_Duy_Thanh rdfs:label "Nguyễn Duy Thanh"@vi .
+
+vres:Nguyễn_Hoàng_Mai rdfs:label "Nguyễn Hoàng Mai"@vi .
+
+vres:Nguyễn_Hoàng_Uyên rdfs:label "Nguyễn Hoàng Uyên"@vi .
+
+vres:Nguyễn_Huy_Bằng rdfs:label "Nguyễn Huy Bằng"@vi .
+
+vres:Nguyễn_Huy_Phương rdfs:label "Nguyễn Huy Phương"@vi .
+
+vres:Nguyễn_Huy_Thái rdfs:label "Nguyễn Huy Thái"@vi .
+
+vres:Nguyễn_Húng rdfs:label "Nguyễn Húng"@vi .
+
+vres:Nguyễn_Hồ_Hải rdfs:label "Nguyễn Hồ Hải"@vi .
+
+vres:Nguyễn_Hồng_Phong_\(Phú_Thọ\) rdfs:label "Nguyễn Hồng Phong (Phú Thọ)"@vi .
+
+vres:Nguyễn_Hồng_Thái_\(tướng_quân_đội\) rdfs:label "Nguyễn Hồng Thái (tướng quân đội)"@vi .
+
+vres:Nguyễn_Hữu_An rdfs:label "Nguyễn Hữu An"@vi .
+
+vres:Nguyễn_Hữu_Huân rdfs:label "Nguyễn Hữu Huân"@vi .
+
+vres:Nguyễn_Hữu_Khiếu rdfs:label "Nguyễn Hữu Khiếu"@vi .
+
+vres:Nguyễn_Hữu_Thọ rdfs:label "Nguyễn Hữu Thọ"@vi .
+
+vres:Nguyễn_Hữu_Tuyến_\(chánh_án\) rdfs:label "Nguyễn Hữu Tuyến (chánh án)"@vi .
+
+vres:Nguyễn_Hữu_Vạn rdfs:label "Nguyễn Hữu Vạn"@vi .
+
+vres:Nguyễn_Khắc_Thận rdfs:label "Nguyễn Khắc Thận"@vi .
+
+vres:Nguyễn_Kim_Tuyến rdfs:label "Nguyễn Kim Tuyến"@vi .
+
+vres:Nguyễn_Lưu_Thụy rdfs:label "Nguyễn Lưu Thụy"@vi .
+
+vres:Nguyễn_Minh_Cảnh rdfs:label "Nguyễn Minh Cảnh"@vi .
+
+vres:Nguyễn_Minh_Dũng_\(chính_khách\) rdfs:label "Nguyễn Minh Dũng (chính khách)"@vi .
+
+vres:Nguyễn_Minh_Hòa rdfs:label "Nguyễn Minh Hòa"@vi .
+
+vres:Nguyễn_Minh_Sơn rdfs:label "Nguyễn Minh Sơn"@vi .
+
+vres:Nguyễn_Mạnh_Hùng_\(Hà_Nội\) rdfs:label "Nguyễn Mạnh Hùng (Hà Nội)"@vi .
+
+vres:Nguyễn_Mạnh_Quyền rdfs:label "Nguyễn Mạnh Quyền"@vi .
+
+vres:Nguyễn_Ngọc_Lương rdfs:label "Nguyễn Ngọc Lương"@vi .
+
+vres:Nguyễn_Ngọc_Phúc rdfs:label "Nguyễn Ngọc Phúc"@vi .
+
+vres:Nguyễn_Ngọc_Trung rdfs:label "Nguyễn Ngọc Trung"@vi .
+
+vres:Nguyễn_Phi_Long rdfs:label "Nguyễn Phi Long"@vi .
+
+vres:Nguyễn_Phong_Sắc rdfs:label "Nguyễn Phong Sắc"@vi .
+
+vres:Nguyễn_Phương_Tuấn rdfs:label "Nguyễn Phương Tuấn"@vi .
+
+vres:Nguyễn_Phước_Lộc rdfs:label "Nguyễn Phước Lộc"@vi .
+
+vres:Nguyễn_Quốc_Hận rdfs:label "Nguyễn Quốc Hận"@vi .
+
+vres:Nguyễn_Quốc_Nam rdfs:label "Nguyễn Quốc Nam"@vi .
+
+vres:Nguyễn_Quốc_Phong rdfs:label "Nguyễn Quốc Phong"@vi .
+
+vres:Nguyễn_Thanh_Cầm rdfs:label "Nguyễn Thanh Cầm"@vi .
+
+vres:Nguyễn_Thanh_Hải_\(Long_An\) rdfs:label "Nguyễn Thanh Hải (Long An)"@vi .
+
+vres:Nguyễn_Thanh_Hải_\(Tây_Ninh\) rdfs:label "Nguyễn Thanh Hải (Tây Ninh)"@vi .
+
+vres:Nguyễn_Thanh_Liêm rdfs:label "Nguyễn Thanh Liêm"@vi .
+
+vres:Nguyễn_Thanh_Nhàn_\(chính_khách\) rdfs:label "Nguyễn Thanh Nhàn (chính khách)"@vi .
+
+vres:Nguyễn_Thanh_Phong rdfs:label "Nguyễn Thanh Phong"@vi .
+
+vres:Nguyễn_Thanh_Trúc rdfs:label "Nguyễn Thanh Trúc"@vi .
+
+vres:Nguyễn_Thành_Minh rdfs:label "Nguyễn Thành Minh"@vi .
+
+vres:Nguyễn_Thành_Tâm rdfs:label "Nguyễn Thành Tâm"@vi .
+
+vres:Nguyễn_Thúc_Mậu rdfs:label "Nguyễn Thúc Mậu"@vi .
+
+vres:Nguyễn_Thế_Mạnh rdfs:label "Nguyễn Thế Mạnh"@vi .
+
+vres:Nguyễn_Thị_Hà_\(chính_khách\) rdfs:label "Nguyễn Thị Hà (chính khách)"@vi .
+
+vres:Nguyễn_Thị_Kim_Bé rdfs:label "Nguyễn Thị Kim Bé"@vi .
+
+vres:Nguyễn_Thị_Lệ_Thủy rdfs:label "Nguyễn Thị Lệ Thủy"@vi .
+
+vres:Nguyễn_Thị_Lụa rdfs:label "Nguyễn Thị Lụa"@vi .
+
+vres:Nguyễn_Thị_Minh_Trang rdfs:label "Nguyễn Thị Minh Trang"@vi .
+
+vres:Nguyễn_Thị_Phong_Vũ rdfs:label "Nguyễn Thị Phong Vũ"@vi .
+
+vres:Nguyễn_Thị_Quyên_Thanh rdfs:label "Nguyễn Thị Quyên Thanh"@vi .
+
+vres:Nguyễn_Thị_Uyên_Trang rdfs:label "Nguyễn Thị Uyên Trang"@vi .
+
+vres:Nguyễn_Thị_Yến_Nhi rdfs:label "Nguyễn Thị Yến Nhi"@vi .
+
+vres:Nguyễn_Tiến_Bình_\(Hà_Nội\) rdfs:label "Nguyễn Tiến Bình (Hà Nội)"@vi .
+
+vres:Nguyễn_Trãi rdfs:label "Nguyễn Trãi"@vi .
+
+vres:Nguyễn_Trúc_Sơn rdfs:label "Nguyễn Trúc Sơn"@vi .
+
+vres:Nguyễn_Trọng rdfs:label "Nguyễn Trọng"@vi .
+
+vres:Nguyễn_Trọng_Nghĩa rdfs:label "Nguyễn Trọng Nghĩa"@vi .
+
+vres:Nguyễn_Tuấn_Anh_\(Thanh_Hóa\) rdfs:label "Nguyễn Tuấn Anh (Thanh Hóa)"@vi .
+
+vres:Nguyễn_Tân_Cương rdfs:label "Nguyễn Tân Cương"@vi .
+
+vres:Nguyễn_Việt_Hùng rdfs:label "Nguyễn Việt Hùng"@vi .
+
+vres:Nguyễn_Việt_Oanh rdfs:label "Nguyễn Việt Oanh"@vi .
+
+vres:Nguyễn_Văn_Bảo rdfs:label "Nguyễn Văn Bảo"@vi .
+
+vres:Nguyễn_Văn_Cừ rdfs:label "Nguyễn Văn Cừ"@vi .
+
+vres:Nguyễn_Văn_Danh_\(chính_khách\) rdfs:label "Nguyễn Văn Danh (chính khách)"@vi .
+
+vres:Nguyễn_Văn_Dũng_\(thẩm_phán\) rdfs:label "Nguyễn Văn Dũng (thẩm phán)"@vi .
+
+vres:Nguyễn_Văn_Dương_\(Tiền_Giang\) rdfs:label "Nguyễn Văn Dương (Tiền Giang)"@vi .
+
+vres:Nguyễn_Văn_Gấu rdfs:label "Nguyễn Văn Gấu"@vi .
+
+vres:Nguyễn_Văn_Hòa_\(kiểm_sát_viên\) rdfs:label "Nguyễn Văn Hòa (kiểm sát viên)"@vi .
+
+vres:Nguyễn_Văn_Hận rdfs:label "Nguyễn Văn Hận"@vi .
+
+vres:Nguyễn_Văn_Hồng rdfs:label "Nguyễn Văn Hồng"@vi .
+
+vres:Nguyễn_Văn_Linh rdfs:label "Nguyễn Văn Linh"@vi .
+
+vres:Nguyễn_Văn_Lương rdfs:label "Nguyễn Văn Lương"@vi .
+
+vres:Nguyễn_Văn_Lợi_\(Gia_Định\) rdfs:label "Nguyễn Văn Lợi (Gia Định)"@vi .
+
+vres:Nguyễn_Văn_Minh_\(kiểm_sát_viên\) rdfs:label "Nguyễn Văn Minh (kiểm sát viên)"@vi .
+
+vres:Nguyễn_Văn_Nam_\(sinh_1971\) rdfs:label "Nguyễn Văn Nam (sinh 1971)"@vi .
+
+vres:Nguyễn_Văn_Ngừng rdfs:label "Nguyễn Văn Ngừng"@vi .
+
+vres:Nguyễn_Văn_Quyết_\(chính_khách\) rdfs:label "Nguyễn Văn Quyết (chính khách)"@vi .
+
+vres:Nguyễn_Văn_Quân_\(Hậu_Giang\) rdfs:label "Nguyễn Văn Quân (Hậu Giang)"@vi .
+
+vres:Nguyễn_Văn_Sơn_\(Tuyên_Quang\) rdfs:label "Nguyễn Văn Sơn (Tuyên Quang)"@vi .
+
+vres:Nguyễn_Văn_Vĩnh_\(chính_khách\) rdfs:label "Nguyễn Văn Vĩnh (chính khách)"@vi .
+
+vres:Nguyễn_Văn_Út rdfs:label "Nguyễn Văn Út"@vi .
+
+vres:Nguyễn_Văn_Được_\(chính_trị_gia\) rdfs:label "Nguyễn Văn Được (chính trị gia)"@vi .
+
+vres:Nguyễn_Xuân_Dắt rdfs:label "Nguyễn Xuân Dắt"@vi .
+
+vres:Nguyễn_Xuân_Hiển rdfs:label "Nguyễn Xuân Hiển"@vi .
+
+vres:Nguyễn_Xuân_Hùng rdfs:label "Nguyễn Xuân Hùng"@vi .
+
+vres:Nguyễn_Xuân_Long rdfs:label "Nguyễn Xuân Long"@vi .
+
+vres:Nguyễn_Xuân_Sanh_\(kiểm_sát_viên\) rdfs:label "Nguyễn Xuân Sanh (kiểm sát viên)"@vi .
+
+vres:Nguyễn_Đình_Chiểu rdfs:label "Nguyễn Đình Chiểu"@vi .
+
+vres:Nguyễn_Đình_Trung_\(sinh_năm_1973\) rdfs:label "Nguyễn Đình Trung (sinh năm 1973)"@vi .
+
+vres:Nguyễn_Đình_Việt rdfs:label "Nguyễn Đình Việt"@vi .
+
+vres:Nguyễn_Đức_Dũng_\(tướng_Công_an\) rdfs:label "Nguyễn Đức Dũng (tướng Công an)"@vi .
+
+<http://vi.dbpedia.org/resource/Nguyễn_Đức_Thắng_(cầu_thủ_bóng_đá,_sinh_1976)> rdfs:label "Nguyễn Đức Thắng (cầu thủ bóng đá, sinh 1976)"@vi .
+
+vres:Nguyễn_Đức_Tuy rdfs:label "Nguyễn Đức Tuy"@vi .
+
+vres:Nguyễn_Đức_Tâm_\(sinh_năm_1981\) rdfs:label "Nguyễn Đức Tâm (sinh năm 1981)"@vi .
+
+vres:Nguồn_điện_thương_dụng rdfs:label "Nguồn điện thương dụng"@vi .
+
+vres:Ngân_hàng_Nhà_nước_Việt_Nam rdfs:label "Ngân hàng Nhà nước Việt Nam"@vi .
+
+vres:Ngân_hàng_Thế_giới rdfs:label "Ngân hàng Thế giới"@vi .
+
+vres:Ngô_Bảo_Ngọc rdfs:label "Ngô Bảo Ngọc"@vi .
+
+vres:Ngô_Chí_Cường rdfs:label "Ngô Chí Cường"@vi .
+
+vres:Ngô_Quang_Sang rdfs:label "Ngô Quang Sang"@vi .
+
+vres:Ngô_Thanh_Danh rdfs:label "Ngô Thanh Danh"@vi .
+
+vres:Ngô_Thị_Phương_Lan rdfs:label "Ngô Thị Phương Lan"@vi .
+
+vres:Ngũ_Hành_Sơn rdfs:label "Ngũ Hành Sơn"@vi .
+
+vres:Ngũ_Hành_Sơn_\(phường\) rdfs:label "Ngũ Hành Sơn (phường)"@vi .
+
+vres:Ngũ_Phụng_Tề_Phi rdfs:label "Ngũ Phụng Tề Phi"@vi .
+
+vres:Người_Ba_Na rdfs:label "Người Ba Na"@vi .
+
+vres:Người_Bru_-_Vân_Kiều rdfs:label "Người Bru - Vân Kiều"@vi .
+
+vres:Người_Chu_Ru rdfs:label "Người Chu Ru"@vi .
+
+vres:Người_Chăm rdfs:label "Người Chăm"@vi .
+
+vres:Người_Chơ_Ro rdfs:label "Người Chơ Ro"@vi .
+
+vres:Người_Chứt rdfs:label "Người Chứt"@vi .
+
+vres:Người_Co rdfs:label "Người Co"@vi .
+
+vres:Người_Cơ_Ho rdfs:label "Người Cơ Ho"@vi .
+
+vres:Người_Cơ_Tu rdfs:label "Người Cơ Tu"@vi .
+
+vres:Người_Dao rdfs:label "Người Dao"@vi .
+
+vres:Người_Gia_Rai rdfs:label "Người Gia Rai"@vi .
+
+vres:Người_Giẻ_Triêng rdfs:label "Người Giẻ Triêng"@vi .
+
+<http://vi.dbpedia.org/resource/Người_H'rê> rdfs:label "Người H'rê"@vi .
+
+vres:Người_Hoa_\(Việt_Nam\) rdfs:label "Người Hoa (Việt Nam)"@vi .
+
+vres:Người_Hà_Nhì rdfs:label "Người Hà Nhì"@vi .
+
+vres:Người_Khmer rdfs:label "Người Khmer"@vi .
+
+vres:Người_Khmer_\(Việt_Nam\) rdfs:label "Người Khmer (Việt Nam)"@vi .
+
+vres:Người_Khơ_Mú rdfs:label "Người Khơ Mú"@vi .
+
+vres:Người_Lào_\(Việt_Nam\) rdfs:label "Người Lào (Việt Nam)"@vi .
+
+<http://vi.dbpedia.org/resource/Người_M'Nông> rdfs:label "Người M'Nông"@vi .
+
+vres:Người_Mường rdfs:label "Người Mường"@vi .
+
+vres:Người_Mạ rdfs:label "Người Mạ"@vi .
+
+vres:Người_Nùng rdfs:label "Người Nùng"@vi .
+
+vres:Người_Raglai rdfs:label "Người Raglai"@vi .
+
+vres:Người_Si_La rdfs:label "Người Si La"@vi .
+
+vres:Người_Sán_Chay rdfs:label "Người Sán Chay"@vi .
+
+vres:Người_Sán_Dìu rdfs:label "Người Sán Dìu"@vi .
+
+vres:Người_Thái_\(Việt_Nam\) rdfs:label "Người Thái (Việt Nam)"@vi .
+
+vres:Người_Thổ_\(Việt_Nam\) rdfs:label "Người Thổ (Việt Nam)"@vi .
+
+vres:Người_Tà_Ôi rdfs:label "Người Tà Ôi"@vi .
+
+vres:Người_Tày rdfs:label "Người Tày"@vi .
+
+vres:Người_Việt rdfs:label "Người Việt"@vi .
+
+vres:Người_Xinh_Mun rdfs:label "Người Xinh Mun"@vi .
+
+vres:Người_Xtiêng rdfs:label "Người Xtiêng"@vi .
+
+vres:Người_Xơ_Đăng rdfs:label "Người Xơ Đăng"@vi .
+
+vres:Người_Êđê rdfs:label "Người Êđê"@vi .
+
+vres:Người_Ơ_Đu rdfs:label "Người Ơ Đu"@vi .
+
+vres:Ngọc_Lũ_I rdfs:label "Ngọc Lũ I"@vi .
+
+vres:Ngọc_Lặc_\(huyện\) rdfs:label "Ngọc Lặc (huyện)"@vi .
+
+vres:Nha_Bích rdfs:label "Nha Bích"@vi .
+
+vres:Nha_Trang rdfs:label "Nha Trang"@vi .
+
+vres:Nha_Trang_\(phường\) rdfs:label "Nha Trang (phường)"@vi .
+
+vres:Nha_Trang_\(thành_phố\) rdfs:label "Nha Trang (thành phố)"@vi .
+
+vres:Nho rdfs:label "Nho"@vi .
+
+vres:Nhà_Lớn_Long_Sơn rdfs:label "Nhà Lớn Long Sơn"@vi .
+
+vres:Nhà_Nguyễn rdfs:label "Nhà Nguyễn"@vi .
+
+vres:Nhà_Ngô rdfs:label "Nhà Ngô"@vi .
+
+vres:Nhà_Tây_Sơn rdfs:label "Nhà Tây Sơn"@vi .
+
+vres:Nhà_giáo_Nhân_dân rdfs:label "Nhà giáo Nhân dân"@vi .
+
+vres:Nhà_giáo_Ưu_tú rdfs:label "Nhà giáo Ưu tú"@vi .
+
+vres:Nhà_máy_Thủy_điện_Hòa_Bình rdfs:label "Nhà máy Thủy điện Hòa Bình"@vi .
+
+vres:Nhà_nước_cộng_sản rdfs:label "Nhà nước cộng sản"@vi .
+
+vres:Nhà_nước_đơn_nhất rdfs:label "Nhà nước đơn nhất"@vi .
+
+vres:Nhà_thờ_chính_tòa_Phú_Cường rdfs:label "Nhà thờ chính tòa Phú Cường"@vi .
+
+vres:Nhà_trình_tường rdfs:label "Nhà trình tường"@vi .
+
+vres:Nhà_tù_Sơn_La rdfs:label "Nhà tù Sơn La"@vi .
+
+vres:Nhân_Dân_\(báo\) rdfs:label "Nhân Dân (báo)"@vi .
+
+vres:Nigeria rdfs:label "Nigeria"@vi .
+
+vres:Ninh_Bình_\(thành_phố\) rdfs:label "Ninh Bình (thành phố)"@vi .
+
+vres:Ninh_Giang_\(huyện\) rdfs:label "Ninh Giang (huyện)"@vi .
+
+vres:Ninh_Hòa_\(thị_xã\) rdfs:label "Ninh Hòa (thị xã)"@vi .
+
+vres:Ninh_Kiều_\(phường\) rdfs:label "Ninh Kiều (phường)"@vi .
+
+vres:Nong_Khai_\(tỉnh\) rdfs:label "Nong Khai (tỉnh)"@vi .
+
+vres:Noord-Brabant rdfs:label "Noord-Brabant"@vi .
+
+vres:Nouméa rdfs:label "Nouméa"@vi .
+
+vres:Nouvelle-Calédonie rdfs:label "Nouvelle-Calédonie"@vi .
+
+vres:Næstved_BK rdfs:label "Næstved BK"@vi .
+
+vres:Nông_Cống_\(huyện\) rdfs:label "Nông Cống (huyện)"@vi .
+
+vres:Nông_Trang rdfs:label "Nông Trang"@vi .
+
+vres:Nông_Văn_Hải rdfs:label "Nông Văn Hải"@vi .
+
+vres:Núi_Bà_Rá rdfs:label "Núi Bà Rá"@vi .
+
+vres:Núi_Phú_Lương rdfs:label "Núi Phú Lương"@vi .
+
+vres:Núi_Sóc rdfs:label "Núi Sóc"@vi .
+
+vres:Núi_Thiên_Ấn rdfs:label "Núi Thiên Ấn"@vi .
+
+vres:Nữ_Thành_phố_Hồ_Chí_Minh rdfs:label "Nữ Thành phố Hồ Chí Minh"@vi .
+
+vres:Olimpia_Grudziądz rdfs:label "Olimpia Grudziądz"@vi .
+
+vres:Open_Universities_Australia rdfs:label "Open Universities Australia"@vi .
+
+vres:Ottawa_Gee-Gees rdfs:label "Ottawa Gee-Gees"@vi .
+
+vres:PFC_CSKA_Sofia rdfs:label "PFC CSKA Sofia"@vi .
+
+vres:PFC_Slavia_Sofia rdfs:label "PFC Slavia Sofia"@vi .
+
+vres:PGS.TS rdfs:label "PGS.TS"@vi .
+
+<http://vi.dbpedia.org/resource/PGS.TS.> rdfs:label "PGS.TS."@vi .
+
+vres:PGS.TS.Lê_Tuấn_Anh rdfs:label "PGS.TS.Lê Tuấn Anh"@vi .
+
+vres:Palmeiras rdfs:label "Palmeiras"@vi .
+
+vres:Paspalum_repens rdfs:label "Paspalum repens"@vi .
+
+vres:Pau_FC rdfs:label "Pau FC"@vi .
+
+vres:Perth rdfs:label "Perth"@vi .
+
+vres:Phan_Bảo_Kỳ_Tài rdfs:label "Phan Bảo Kỳ Tài"@vi .
+
+vres:Phan_Huy_Ngọc rdfs:label "Phan Huy Ngọc"@vi .
+
+vres:Phan_Huỳnh_Sơn rdfs:label "Phan Huỳnh Sơn"@vi .
+
+vres:Phan_Minh_Cự rdfs:label "Phan Minh Cự"@vi .
+
+vres:Phan_Như_Thuật rdfs:label "Phan Như Thuật"@vi .
+
+vres:Phan_Quốc_Nghĩa rdfs:label "Phan Quốc Nghĩa"@vi .
+
+vres:Phan_Rang_\(tỉnh\) rdfs:label "Phan Rang (tỉnh)"@vi .
+
+<http://vi.dbpedia.org/resource/Phan_Rang_–_Tháp_Chàm> rdfs:label "Phan Rang – Tháp Chàm"@vi .
+
+vres:Phan_Thanh_Sơn_Nam rdfs:label "Phan Thanh Sơn Nam"@vi .
+
+vres:Phan_Thiên_Định rdfs:label "Phan Thiên Định"@vi .
+
+vres:Phan_Thiết_\(phường\) rdfs:label "Phan Thiết (phường)"@vi .
+
+vres:Phan_Thiết_\(thành_phố\) rdfs:label "Phan Thiết (thành phố)"@vi .
+
+vres:Phan_Thăng_An rdfs:label "Phan Thăng An"@vi .
+
+vres:Phan_Thị_Mỹ_Dung rdfs:label "Phan Thị Mỹ Dung"@vi .
+
+vres:Phan_Văn_Kỷ rdfs:label "Phan Văn Kỷ"@vi .
+
+vres:Phan_Văn_Mãi rdfs:label "Phan Văn Mãi"@vi .
+
+vres:Phan_Văn_Thắng rdfs:label "Phan Văn Thắng"@vi .
+
+vres:Phan_Xuân_Tuy rdfs:label "Phan Xuân Tuy"@vi .
+
+vres:Phan_Đình_Giót rdfs:label "Phan Đình Giót"@vi .
+
+vres:Phan_Đình_Phùng rdfs:label "Phan Đình Phùng"@vi .
+
+vres:Phan_Đình_Phùng_\(phường\) rdfs:label "Phan Đình Phùng (phường)"@vi .
+
+vres:Philippines rdfs:label "Philippines"@vi .
+
+vres:Phnôm_Pênh rdfs:label "Phnôm Pênh"@vi .
+
+vres:Phong_Dinh_\(tỉnh\) rdfs:label "Phong Dinh (tỉnh)"@vi .
+
+vres:Phong_trào_Đồng_khởi rdfs:label "Phong trào Đồng khởi"@vi .
+
+vres:Pháp rdfs:label "Pháp"@vi .
+
+vres:Phân_Viện_Đại_học_Huế_tại_Quảng_Trị rdfs:label "Phân Viện Đại học Huế tại Quảng Trị"@vi .
+
+vres:Phân_hiệu_Đại_học_Kinh_tế_Thành_phố_Hồ_Chí_Minh_tại_Vĩnh_Long rdfs:label "Phân hiệu Đại học Kinh tế Thành phố Hồ Chí Minh tại Vĩnh Long"@vi .
+
+vres:Phó_Giáo_sư_\(Việt_Nam\) rdfs:label "Phó Giáo sư (Việt Nam)"@vi .
+
+vres:Phùng_Thị_Hồng_Hà rdfs:label "Phùng Thị Hồng Hà"@vi .
+
+vres:Phú_Bình_\(huyện\) rdfs:label "Phú Bình (huyện)"@vi .
+
+vres:Phú_Diễn rdfs:label "Phú Diễn"@vi .
+
+vres:Phú_Giáo_\(huyện\) rdfs:label "Phú Giáo (huyện)"@vi .
+
+vres:Phú_Giáo_\(xã\) rdfs:label "Phú Giáo (xã)"@vi .
+
+<http://vi.dbpedia.org/resource/Phú_Lợi,_Thành_phố_Hồ_Chí_Minh> rdfs:label "Phú Lợi, Thành phố Hồ Chí Minh"@vi .
+
+vres:Phú_Nhuận_\(phường\) rdfs:label "Phú Nhuận (phường)"@vi .
+
+vres:Phú_Quốc rdfs:label "Phú Quốc"@vi .
+
+vres:Phú_Thiện_\(huyện\) rdfs:label "Phú Thiện (huyện)"@vi .
+
+vres:Phú_Tân_\(huyện_An_Giang\) rdfs:label "Phú Tân (huyện An Giang)"@vi .
+
+vres:Phú_Xuyên_\(huyện\) rdfs:label "Phú Xuyên (huyện)"@vi .
+
+vres:Phú_Xuân rdfs:label "Phú Xuân"@vi .
+
+vres:Phúc_Thọ_\(huyện\) rdfs:label "Phúc Thọ (huyện)"@vi .
+
+vres:Phước_Hậu_\(phường\) rdfs:label "Phước Hậu (phường)"@vi .
+
+vres:Phước_Long_\(tỉnh\) rdfs:label "Phước Long (tỉnh)"@vi .
+
+vres:Phước_Tuy rdfs:label "Phước Tuy"@vi .
+
+vres:Phường_3_Bảo_Lộc rdfs:label "Phường 3 Bảo Lộc"@vi .
+
+vres:Phường_Phù_Liễn rdfs:label "Phường Phù Liễn"@vi .
+
+vres:Phạm_Anh_Tuấn_\(chính_khách\) rdfs:label "Phạm Anh Tuấn (chính khách)"@vi .
+
+vres:Phạm_Gia_Khánh rdfs:label "Phạm Gia Khánh"@vi .
+
+vres:Phạm_Hoàng_Sơn rdfs:label "Phạm Hoàng Sơn"@vi .
+
+vres:Phạm_Hùng_Thái rdfs:label "Phạm Hùng Thái"@vi .
+
+vres:Phạm_Quang_Ngọc rdfs:label "Phạm Quang Ngọc"@vi .
+
+vres:Phạm_Quốc_Hưng rdfs:label "Phạm Quốc Hưng"@vi .
+
+vres:Phạm_Quốc_Thành rdfs:label "Phạm Quốc Thành"@vi .
+
+vres:Phạm_Thị_Bích_Thủy rdfs:label "Phạm Thị Bích Thủy"@vi .
+
+vres:Phạm_Thị_Hân rdfs:label "Phạm Thị Hân"@vi .
+
+vres:Phạm_Thị_Hồng_Diễm rdfs:label "Phạm Thị Hồng Diễm"@vi .
+
+vres:Phạm_Thị_Minh_Huệ rdfs:label "Phạm Thị Minh Huệ"@vi .
+
+vres:Phạm_Thị_Phúc rdfs:label "Phạm Thị Phúc"@vi .
+
+vres:Phạm_Trung_Thuận rdfs:label "Phạm Trung Thuận"@vi .
+
+vres:Phạm_Trung_Tuấn rdfs:label "Phạm Trung Tuấn"@vi .
+
+vres:Phạm_Trung_Uy rdfs:label "Phạm Trung Uy"@vi .
+
+vres:Phạm_Văn_Hòa rdfs:label "Phạm Văn Hòa"@vi .
+
+vres:Phạm_Văn_Nam rdfs:label "Phạm Văn Nam"@vi .
+
+vres:Phạm_Văn_Quang rdfs:label "Phạm Văn Quang"@vi .
+
+vres:Phạm_Văn_Thiều rdfs:label "Phạm Văn Thiều"@vi .
+
+vres:Phạm_Văn_Đồng rdfs:label "Phạm Văn Đồng"@vi .
+
+vres:Phạm_Xuân_Minh rdfs:label "Phạm Xuân Minh"@vi .
+
+vres:Phạm_Đình_Nghị rdfs:label "Phạm Đình Nghị"@vi .
+
+vres:Phạm_Đại_Dương rdfs:label "Phạm Đại Dương"@vi .
+
+vres:Phạm_Đức_Tiến rdfs:label "Phạm Đức Tiến"@vi .
+
+vres:Phạm_Đức_Tiếp rdfs:label "Phạm Đức Tiếp"@vi .
+
+vres:Phật_giáo_Hòa_Hảo rdfs:label "Phật giáo Hòa Hảo"@vi .
+
+vres:Phật_giáo_Việt_Nam rdfs:label "Phật giáo Việt Nam"@vi .
+
+vres:Phố_Hiến rdfs:label "Phố Hiến"@vi .
+
+vres:Phố_cổ_Hội_An rdfs:label "Phố cổ Hội An"@vi .
+
+<http://vi.dbpedia.org/resource/Phố_Đinh_Tiên_Hoàng,_Hà_Nội> rdfs:label "Phố Đinh Tiên Hoàng, Hà Nội"@vi .
+
+vres:Phở rdfs:label "Phở"@vi .
+
+vres:Phủ_Lý_\(thành_phố\) rdfs:label "Phủ Lý (thành phố)"@vi .
+
+vres:Pirapemas rdfs:label "Pirapemas"@vi .
+
+vres:Plei_Ku_Der rdfs:label "Plei Ku Der"@vi .
+
+vres:Pleiku_\(thành_phố\) rdfs:label "Pleiku (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Port_F.C.> rdfs:label "Port F.C."@vi .
+
+vres:Praha rdfs:label "Praha"@vi .
+
+vres:QS rdfs:label "QS"@vi .
+
+vres:QS_Asia rdfs:label "QS Asia"@vi .
+
+vres:Quan_họ rdfs:label "Quan họ"@vi .
+
+vres:Quang_Trung rdfs:label "Quang Trung"@vi .
+
+vres:Quy_Nhơn_\(phường\) rdfs:label "Quy Nhơn (phường)"@vi .
+
+vres:Quy_Nhơn_\(thành_phố\) rdfs:label "Quy Nhơn (thành phố)"@vi .
+
+vres:Quyết_Thắng_\(phường\) rdfs:label "Quyết Thắng (phường)"@vi .
+
+<http://vi.dbpedia.org/resource/Quân_chủng_Hải_quân,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Quân chủng Hải quân, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Quân_khu_5,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Quân khu 5, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Quân khu 7, Quân đội nhân dân Việt Nam"@vi .
+
+vres:Quân_đội_nhân_dân_\(báo\) rdfs:label "Quân đội nhân dân (báo)"@vi .
+
+vres:Quân_đội_nhân_dân_Việt_Nam rdfs:label "Quân đội nhân dân Việt Nam"@vi .
+
+vres:Quản_Minh_Cường rdfs:label "Quản Minh Cường"@vi .
+
+<http://vi.dbpedia.org/resource/Quảng_Nam_–_Đà_Nẵng> rdfs:label "Quảng Nam – Đà Nẵng"@vi .
+
+vres:Quảng_Ngãi_\(thành_phố\) rdfs:label "Quảng Ngãi (thành phố)"@vi .
+
+vres:Quảng_Ngọc rdfs:label "Quảng Ngọc"@vi .
+
+<http://vi.dbpedia.org/resource/Quảng_Phú,_Thanh_Hóa> rdfs:label "Quảng Phú, Thanh Hóa"@vi .
+
+vres:Quảng_Trị_\(tỉnh\) rdfs:label "Quảng Trị (tỉnh)"@vi .
+
+vres:Quảng_Xương rdfs:label "Quảng Xương"@vi .
+
+vres:Quảng_Yên_\(thị_xã\) rdfs:label "Quảng Yên (thị xã)"@vi .
+
+vres:Quảng_Điền_\(huyện\) rdfs:label "Quảng Điền (huyện)"@vi .
+
+vres:Quảng_Đức_\(tỉnh\) rdfs:label "Quảng Đức (tỉnh)"@vi .
+
+vres:Quận rdfs:label "Quận"@vi .
+
+vres:Quận_12 rdfs:label "Quận 12"@vi .
+
+vres:Quận_4 rdfs:label "Quận 4"@vi .
+
+vres:Quế_Sơn_\(huyện\) rdfs:label "Quế Sơn (huyện)"@vi .
+
+vres:Quốc_Oai_\(huyện\) rdfs:label "Quốc Oai (huyện)"@vi .
+
+vres:Quốc_hội_Việt_Nam rdfs:label "Quốc hội Việt Nam"@vi .
+
+vres:Quốc_hội_Việt_Nam_khóa_VI rdfs:label "Quốc hội Việt Nam khóa VI"@vi .
+
+vres:Quốc_lộ_32 rdfs:label "Quốc lộ 32"@vi .
+
+vres:Quỳ_Hợp_\(huyện\) rdfs:label "Quỳ Hợp (huyện)"@vi .
+
+vres:Quỳnh_Côi_\(huyện\) rdfs:label "Quỳnh Côi (huyện)"@vi .
+
+<http://vi.dbpedia.org/resource/Quỳnh_Lưu,_Nghệ_An> rdfs:label "Quỳnh Lưu, Nghệ An"@vi .
+
+vres:Quỳnh_Lưu_\(huyện\) rdfs:label "Quỳnh Lưu (huyện)"@vi .
+
+vres:Quỳnh_Phụ_\(huyện\) rdfs:label "Quỳnh Phụ (huyện)"@vi .
+
+vres:Quỹ_Tiền_tệ_Quốc_tế rdfs:label "Quỹ Tiền tệ Quốc tế"@vi .
+
+vres:Quỹ_Đầu_tư_và_Phán_triển_tài_năng_bóng_đá_Việt_Nam rdfs:label "Quỹ Đầu tư và Phán triển tài năng bóng đá Việt Nam"@vi .
+
+vres:Quỹ_đầu_tư_và_phát_triển_tài_năng_bóng_đá_Việt_Nam rdfs:label "Quỹ đầu tư và phát triển tài năng bóng đá Việt Nam"@vi .
+
+vres:Rah_Lan_Chung rdfs:label "Rah Lan Chung"@vi .
+
+vres:René_Thiele rdfs:label "René Thiele"@vi .
+
+vres:Rio_de_Janeiro rdfs:label "Rio de Janeiro"@vi .
+
+vres:Rio_de_Janeiro_\(bang\) rdfs:label "Rio de Janeiro (bang)"@vi .
+
+vres:România rdfs:label "România"@vi .
+
+vres:Ruộng_bậc_thang rdfs:label "Ruộng bậc thang"@vi .
+
+vres:Ruộng_bậc_thang_Hoàng_Su_Phì rdfs:label "Ruộng bậc thang Hoàng Su Phì"@vi .
+
+vres:Ruộng_bậc_thang_Mù_Cang_Chải rdfs:label "Ruộng bậc thang Mù Cang Chải"@vi .
+
+vres:Rạch_Giá_\(phường\) rdfs:label "Rạch Giá (phường)"@vi .
+
+vres:Rạch_Giá_\(thành_phố\) rdfs:label "Rạch Giá (thành phố)"@vi .
+
+vres:S.C._Braga rdfs:label "S.C. Braga"@vi .
+
+vres:SC_Heerenveen rdfs:label "SC Heerenveen"@vi .
+
+vres:SC_Olkom_Melitopol rdfs:label "SC Olkom Melitopol"@vi .
+
+vres:SE_Palmeiras rdfs:label "SE Palmeiras"@vi .
+
+vres:SK_Austria_Klagenfurt_\(2007\) rdfs:label "SK Austria Klagenfurt (2007)"@vi .
+
+vres:SK_Union_2013_Nový_Bydžov rdfs:label "SK Union 2013 Nový Bydžov"@vi .
+
+vres:Sa_Pa_\(phường\) rdfs:label "Sa Pa (phường)"@vi .
+
+vres:Sa_Pa_\(thị_xã\) rdfs:label "Sa Pa (thị xã)"@vi .
+
+vres:Sa_Đéc_\(thành_phố\) rdfs:label "Sa Đéc (thành phố)"@vi .
+
+vres:Sa_Đéc_\(tỉnh\) rdfs:label "Sa Đéc (tỉnh)"@vi .
+
+vres:Sarcelles rdfs:label "Sarcelles"@vi .
+
+<http://vi.dbpedia.org/resource/Saskatchewan_Huskies_women's_soccer_team> rdfs:label "Saskatchewan Huskies women's soccer team"@vi .
+
+vres:Saskatoon rdfs:label "Saskatoon"@vi .
+
+vres:Seoul_E-Land_FC rdfs:label "Seoul E-Land FC"@vi .
+
+vres:Sheikh_Jamal_Dhanmondi_Club rdfs:label "Sheikh Jamal Dhanmondi Club"@vi .
+
+vres:Siheung_City_FC rdfs:label "Siheung City FC"@vi .
+
+vres:Sinh_viên rdfs:label "Sinh viên"@vi .
+
+<http://vi.dbpedia.org/resource/Sint-Truidense_V.V.> rdfs:label "Sint-Truidense V.V."@vi .
+
+vres:Slovakia rdfs:label "Slovakia"@vi .
+
+vres:Sociedade_Esportiva_Matsubara rdfs:label "Sociedade Esportiva Matsubara"@vi .
+
+vres:Sofia rdfs:label "Sofia"@vi .
+
+vres:St._Thomas_Celts rdfs:label "St. Thomas Celts"@vi .
+
+vres:Sài_Gòn rdfs:label "Sài Gòn"@vi .
+
+vres:Sài_Gòn_\(phường\) rdfs:label "Sài Gòn (phường)"@vi .
+
+vres:Sài_Gòn_\(thành_phố\) rdfs:label "Sài Gòn (thành phố)"@vi .
+
+vres:Sâm_Ngọc_Linh rdfs:label "Sâm Ngọc Linh"@vi .
+
+vres:Sân_vận_động_Buôn_Ma_Thuột rdfs:label "Sân vận động Buôn Ma Thuột"@vi .
+
+vres:Sân_vận_động_Bà_Rịa rdfs:label "Sân vận động Bà Rịa"@vi .
+
+vres:Sân_vận_động_Bình_Phước rdfs:label "Sân vận động Bình Phước"@vi .
+
+vres:Sân_vận_động_Cà_Mau rdfs:label "Sân vận động Cà Mau"@vi .
+
+vres:Sân_vận_động_Cửa_Ông rdfs:label "Sân vận động Cửa Ông"@vi .
+
+vres:Sân_vận_động_Hoà_Xuân rdfs:label "Sân vận động Hoà Xuân"@vi .
+
+vres:Sân_vận_động_Hà_Nam rdfs:label "Sân vận động Hà Nam"@vi .
+
+vres:Sân_vận_động_Hà_Đông rdfs:label "Sân vận động Hà Đông"@vi .
+
+vres:Sân_vận_động_Hòa_Bình rdfs:label "Sân vận động Hòa Bình"@vi .
+
+vres:Sân_vận_động_PVF rdfs:label "Sân vận động PVF"@vi .
+
+vres:Sân_vận_động_Sơn_La rdfs:label "Sân vận động Sơn La"@vi .
+
+vres:Sân_vận_động_Thanh_Trì rdfs:label "Sân vận động Thanh Trì"@vi .
+
+vres:Sân_vận_động_Vĩnh_Long rdfs:label "Sân vận động Vĩnh Long"@vi .
+
+vres:Sân_vận_động_Đà_Lạt rdfs:label "Sân vận động Đà Lạt"@vi .
+
+vres:Séc rdfs:label "Séc"@vi .
+
+vres:Sóc_Sơn_\(huyện\) rdfs:label "Sóc Sơn (huyện)"@vi .
+
+vres:Sóc_Trăng_\(thành_phố\) rdfs:label "Sóc Trăng (thành phố)"@vi .
+
+vres:Sông_Bé rdfs:label "Sông Bé"@vi .
+
+vres:Sông_Bến_Tre rdfs:label "Sông Bến Tre"@vi .
+
+vres:Sông_Cửu_Long rdfs:label "Sông Cửu Long"@vi .
+
+vres:Sông_Hàn rdfs:label "Sông Hàn"@vi .
+
+vres:Sông_Lam rdfs:label "Sông Lam"@vi .
+
+vres:Sông_Lục_Nam rdfs:label "Sông Lục Nam"@vi .
+
+vres:Sông_Mã_\(huyện\) rdfs:label "Sông Mã (huyện)"@vi .
+
+vres:Sông_Tiền rdfs:label "Sông Tiền"@vi .
+
+vres:Sông_Đáy rdfs:label "Sông Đáy"@vi .
+
+vres:Sùng_A_Hồ rdfs:label "Sùng A Hồ"@vi .
+
+vres:Sơn_La_\(thành_phố\) rdfs:label "Sơn La (thành phố)"@vi .
+
+vres:Sơn_Nam rdfs:label "Sơn Nam"@vi .
+
+vres:Sơn_Tây_\(phường\) rdfs:label "Sơn Tây (phường)"@vi .
+
+vres:Sơn_Tây_\(thị_xã\) rdfs:label "Sơn Tây (thị xã)"@vi .
+
+vres:Sơn_Tây_\(tỉnh_Việt_Nam\) rdfs:label "Sơn Tây (tỉnh Việt Nam)"@vi .
+
+vres:Sơn_Tịnh_\(huyện\) rdfs:label "Sơn Tịnh (huyện)"@vi .
+
+vres:Sư_đoàn rdfs:label "Sư đoàn"@vi .
+
+vres:Sương_mù rdfs:label "Sương mù"@vi .
+
+vres:Sầm_Sơn_\(thành_phố\) rdfs:label "Sầm Sơn (thành phố)"@vi .
+
+vres:Sống_lưng_khủng_long_Tà_Xùa rdfs:label "Sống lưng khủng long Tà Xùa"@vi .
+
+vres:Sự_kiện_30_tháng_4_năm_1975 rdfs:label "Sự kiện 30 tháng 4 năm 1975"@vi .
+
+vres:TSV_Schwabmünchen rdfs:label "TSV Schwabmünchen"@vi .
+
+vres:Tai_nạn_giao_thông rdfs:label "Tai nạn giao thông"@vi .
+
+vres:Tam_Dương_\(huyện\) rdfs:label "Tam Dương (huyện)"@vi .
+
+vres:Tam_Hiệp_\(phường\) rdfs:label "Tam Hiệp (phường)"@vi .
+
+vres:Tam_Kỳ_\(thành_phố\) rdfs:label "Tam Kỳ (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Tam_Nông,_Đồng_Tháp> rdfs:label "Tam Nông, Đồng Tháp"@vi .
+
+vres:Tam_Đảo rdfs:label "Tam Đảo"@vi .
+
+vres:Tam_Đảo_\(xã\) rdfs:label "Tam Đảo (xã)"@vi .
+
+<http://vi.dbpedia.org/resource/Tay_Ninh_F.C.> rdfs:label "Tay Ninh F.C."@vi .
+
+vres:Thanh_Chương rdfs:label "Thanh Chương"@vi .
+
+vres:Thanh_Hoá_\(tỉnh\) rdfs:label "Thanh Hoá (tỉnh)"@vi .
+
+vres:Thanh_Hà_\(huyện\) rdfs:label "Thanh Hà (huyện)"@vi .
+
+vres:Thanh_Hóa_\(thành_phố\) rdfs:label "Thanh Hóa (thành phố)"@vi .
+
+vres:Thanh_Khê_\(phường\) rdfs:label "Thanh Khê (phường)"@vi .
+
+vres:Thanh_Liêm_\(huyện\) rdfs:label "Thanh Liêm (huyện)"@vi .
+
+vres:Thanh_Liệt rdfs:label "Thanh Liệt"@vi .
+
+vres:Thanh_Miếu rdfs:label "Thanh Miếu"@vi .
+
+vres:Thanh_Miện_\(huyện\) rdfs:label "Thanh Miện (huyện)"@vi .
+
+vres:Thanh_Niên_\(báo\) rdfs:label "Thanh Niên (báo)"@vi .
+
+vres:Thanh_Oai_\(huyện\) rdfs:label "Thanh Oai (huyện)"@vi .
+
+vres:Thanh_Trì_\(huyện\) rdfs:label "Thanh Trì (huyện)"@vi .
+
+vres:Thanh_long rdfs:label "Thanh long"@vi .
+
+vres:Thiên_Hậu_Cung_\(Phú_Cường\) rdfs:label "Thiên Hậu Cung (Phú Cường)"@vi .
+
+vres:Thiết_Phiến_Công_chúa rdfs:label "Thiết Phiến Công chúa"@vi .
+
+vres:Thomas_Aulig rdfs:label "Thomas Aulig"@vi .
+
+vres:Thoại_Sơn_\(huyện\) rdfs:label "Thoại Sơn (huyện)"@vi .
+
+vres:Thuần_Trung rdfs:label "Thuần Trung"@vi .
+
+vres:Thuận_Hóa rdfs:label "Thuận Hóa"@vi .
+
+vres:Thuận_Hóa_\(phường\) rdfs:label "Thuận Hóa (phường)"@vi .
+
+vres:Thuận_Hóa_\(quận\) rdfs:label "Thuận Hóa (quận)"@vi .
+
+vres:Thuận_Hải rdfs:label "Thuận Hải"@vi .
+
+vres:Thuỵ_Văn rdfs:label "Thuỵ Văn"@vi .
+
+vres:Thành_Sen_\(phường\) rdfs:label "Thành Sen (phường)"@vi .
+
+vres:Thành_Thái rdfs:label "Thành Thái"@vi .
+
+vres:Thành_Vinh_\(phường\) rdfs:label "Thành Vinh (phường)"@vi .
+
+vres:Thành_phố_thuộc_tỉnh_\(Việt_Nam\) rdfs:label "Thành phố thuộc tỉnh (Việt Nam)"@vi .
+
+vres:Thác_Bạc_\(Sa_Pa\) rdfs:label "Thác Bạc (Sa Pa)"@vi .
+
+vres:Thác_Bản_Giốc rdfs:label "Thác Bản Giốc"@vi .
+
+vres:Thác_Dải_Yếm rdfs:label "Thác Dải Yếm"@vi .
+
+vres:Thác_Đray_Sáp rdfs:label "Thác Đray Sáp"@vi .
+
+vres:Thái_Bình_\(thành_phố\) rdfs:label "Thái Bình (thành phố)"@vi .
+
+vres:Thái_Hòa_\(thị_xã\) rdfs:label "Thái Hòa (thị xã)"@vi .
+
+vres:Thái_Lan rdfs:label "Thái Lan"@vi .
+
+vres:Thái_Nguyên_\(thành_phố\) rdfs:label "Thái Nguyên (thành phố)"@vi .
+
+vres:Thái_Phiên rdfs:label "Thái Phiên"@vi .
+
+vres:Thái_Quang_Hải rdfs:label "Thái Quang Hải"@vi .
+
+vres:Thái_Rết rdfs:label "Thái Rết"@vi .
+
+vres:Thái_Sơn_Bắc rdfs:label "Thái Sơn Bắc"@vi .
+
+vres:Thái_Thu_Xương rdfs:label "Thái Thu Xương"@vi .
+
+vres:Thái_Thụy_\(huyện\) rdfs:label "Thái Thụy (huyện)"@vi .
+
+vres:Thái_Đại_Ngọc rdfs:label "Thái Đại Ngọc"@vi .
+
+vres:Thánh_địa_Mỹ_Sơn rdfs:label "Thánh địa Mỹ Sơn"@vi .
+
+vres:Tháp_Nhạn rdfs:label "Tháp Nhạn"@vi .
+
+vres:Tháp_Po_Klong_Garai rdfs:label "Tháp Po Klong Garai"@vi .
+
+vres:Thân_Quốc_Hùng rdfs:label "Thân Quốc Hùng"@vi .
+
+vres:Thân_Văn_Quang rdfs:label "Thân Văn Quang"@vi .
+
+vres:Thích_Ca_Phật_Đài rdfs:label "Thích Ca Phật Đài"@vi .
+
+vres:Thúy_Mùi rdfs:label "Thúy Mùi"@vi .
+
+vres:Thăng_Long rdfs:label "Thăng Long"@vi .
+
+vres:Thường_Tín_\(huyện\) rdfs:label "Thường Tín (huyện)"@vi .
+
+vres:Thường_trực_Ban_Bí_thư_Trung_ương_Đảng_Cộng_sản_Việt_Nam rdfs:label "Thường trực Ban Bí thư Trung ương Đảng Cộng sản Việt Nam"@vi .
+
+vres:Thượng_Ninh rdfs:label "Thượng Ninh"@vi .
+
+vres:Thạc_sĩ rdfs:label "Thạc sĩ"@vi .
+
+vres:Thạch_Hà_\(huyện\) rdfs:label "Thạch Hà (huyện)"@vi .
+
+vres:Thạch_Phước_Bình rdfs:label "Thạch Phước Bình"@vi .
+
+vres:Thạch_Thất_\(huyện\) rdfs:label "Thạch Thất (huyện)"@vi .
+
+vres:Thạch_Thị_Dân rdfs:label "Thạch Thị Dân"@vi .
+
+vres:Thầy_thuốc_Nhân_dân rdfs:label "Thầy thuốc Nhân dân"@vi .
+
+vres:Thị_trấn_Denham rdfs:label "Thị trấn Denham"@vi .
+
+vres:Thọ_Xuân_\(huyện\) rdfs:label "Thọ Xuân (huyện)"@vi .
+
+vres:Thới_Bình_\(huyện\) rdfs:label "Thới Bình (huyện)"@vi .
+
+vres:Thới_Hòa rdfs:label "Thới Hòa"@vi .
+
+<http://vi.dbpedia.org/resource/Thới_Sơn,_Đồng_Tháp> rdfs:label "Thới Sơn, Đồng Tháp"@vi .
+
+vres:Thục_Phán_\(phường\) rdfs:label "Thục Phán (phường)"@vi .
+
+vres:Thủ_Dầu_Một_\(phường\) rdfs:label "Thủ Dầu Một (phường)"@vi .
+
+vres:Thủ_Dầu_Một_\(thành_phố\) rdfs:label "Thủ Dầu Một (thành phố)"@vi .
+
+vres:Thủ_môn rdfs:label "Thủ môn"@vi .
+
+vres:Thủ_môn_\(bóng_đá\) rdfs:label "Thủ môn (bóng đá)"@vi .
+
+vres:Thủ_phủ rdfs:label "Thủ phủ"@vi .
+
+vres:Thủ_tướng rdfs:label "Thủ tướng"@vi .
+
+vres:Thủ_tướng_Chính_phủ_nước_Cộng_hòa_xã_hội_chủ_nghĩa_Việt_Nam rdfs:label "Thủ tướng Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam"@vi .
+
+vres:Thủ_Đức_\(phường\) rdfs:label "Thủ Đức (phường)"@vi .
+
+vres:Thủ_Đức_\(quận\) rdfs:label "Thủ Đức (quận)"@vi .
+
+vres:Thủy_Nguyên_\(phường\) rdfs:label "Thủy Nguyên (phường)"@vi .
+
+vres:Thủy_Nguyên_\(thành_phố\) rdfs:label "Thủy Nguyên (thành phố)"@vi .
+
+vres:Thủy_điện_Thác_Mơ rdfs:label "Thủy điện Thác Mơ"@vi .
+
+vres:Thừa_Thiên rdfs:label "Thừa Thiên"@vi .
+
+vres:Times_Higher_Education rdfs:label "Times Higher Education"@vi .
+
+vres:Tiên_Bình rdfs:label "Tiên Bình"@vi .
+
+vres:Tiên_Du_\(phường\) rdfs:label "Tiên Du (phường)"@vi .
+
+<http://vi.dbpedia.org/resource/Tiên_Yên,_Quảng_Ninh> rdfs:label "Tiên Yên, Quảng Ninh"@vi .
+
+vres:Tiên_Yên_\(huyện\) rdfs:label "Tiên Yên (huyện)"@vi .
+
+vres:Tiến_quân_ca rdfs:label "Tiến quân ca"@vi .
+
+vres:Tiến_sĩ rdfs:label "Tiến sĩ"@vi .
+
+vres:Tiếng_Anh rdfs:label "Tiếng Anh"@vi .
+
+vres:Tiếng_Hmông rdfs:label "Tiếng Hmông"@vi .
+
+vres:Tiếng_Hàn_Quốc rdfs:label "Tiếng Hàn Quốc"@vi .
+
+vres:Tiếng_Khmer rdfs:label "Tiếng Khmer"@vi .
+
+vres:Tiếng_Mường rdfs:label "Tiếng Mường"@vi .
+
+vres:Tiếng_Nga rdfs:label "Tiếng Nga"@vi .
+
+vres:Tiếng_Nhật rdfs:label "Tiếng Nhật"@vi .
+
+vres:Tiếng_Pháp rdfs:label "Tiếng Pháp"@vi .
+
+vres:Tiếng_Thái rdfs:label "Tiếng Thái"@vi .
+
+vres:Tiếng_Trung_Quốc rdfs:label "Tiếng Trung Quốc"@vi .
+
+vres:Tiếng_Tày rdfs:label "Tiếng Tày"@vi .
+
+vres:Tiếng_Tây_Ban_Nha rdfs:label "Tiếng Tây Ban Nha"@vi .
+
+vres:Tiếng_Việt rdfs:label "Tiếng Việt"@vi .
+
+vres:Tiếng_Ý rdfs:label "Tiếng Ý"@vi .
+
+vres:Tiếng_Đức rdfs:label "Tiếng Đức"@vi .
+
+vres:Tiếng_Ả_Rập rdfs:label "Tiếng Ả Rập"@vi .
+
+vres:Tiền_Hải_\(huyện\) rdfs:label "Tiền Hải (huyện)"@vi .
+
+vres:Tiền_Vệ_trái rdfs:label "Tiền Vệ trái"@vi .
+
+vres:Tiền_vệ_\(bóng_đá\) rdfs:label "Tiền vệ (bóng đá)"@vi .
+
+vres:Tiền_vệ_cánh rdfs:label "Tiền vệ cánh"@vi .
+
+vres:Tiền_đạo_\(bóng_đá\) rdfs:label "Tiền đạo (bóng đá)"@vi .
+
+vres:Tiểu_Cần_\(huyện\) rdfs:label "Tiểu Cần (huyện)"@vi .
+
+vres:Tiệp_Khắc rdfs:label "Tiệp Khắc"@vi .
+
+vres:Toàn_quyền_Đông_Dương rdfs:label "Toàn quyền Đông Dương"@vi .
+
+vres:Tri_hành_đạt_nhân rdfs:label "Tri hành đạt nhân"@vi .
+
+vres:Triệu_Sơn_\(huyện\) rdfs:label "Triệu Sơn (huyện)"@vi .
+
+vres:Triệu_Thị_Ngọc_Diễm rdfs:label "Triệu Thị Ngọc Diễm"@vi .
+
+vres:Trung_Bộ rdfs:label "Trung Bộ"@vi .
+
+vres:Trung_Mỹ_Tây rdfs:label "Trung Mỹ Tây"@vi .
+
+vres:Trung_Quốc rdfs:label "Trung Quốc"@vi .
+
+vres:Trung_du_và_miền_núi_phía_Bắc rdfs:label "Trung du và miền núi phía Bắc"@vi .
+
+vres:Trung_tâm_hành_chính_Thành_phố_Hồ_Chí_Minh_\(cơ_sở_2\) rdfs:label "Trung tâm hành chính Thành phố Hồ Chí Minh (cơ sở 2)"@vi .
+
+vres:Trung_tâm_đào_tạo_bóng_đá_trẻ_Ben_Tre_FC rdfs:label "Trung tâm đào tạo bóng đá trẻ Ben Tre FC"@vi .
+
+vres:Trung_tâm_đào_tạo_bóng_đá_trẻ_Hà_Nội rdfs:label "Trung tâm đào tạo bóng đá trẻ Hà Nội"@vi .
+
+vres:Trung_đoàn rdfs:label "Trung đoàn"@vi .
+
+vres:Trà rdfs:label "Trà"@vi .
+
+vres:Trà_\(thực_vật\) rdfs:label "Trà (thực vật)"@vi .
+
+vres:Trà_My_\(huyện\) rdfs:label "Trà My (huyện)"@vi .
+
+vres:Trà_Vinh_\(thành_phố\) rdfs:label "Trà Vinh (thành phố)"@vi .
+
+vres:Trình_Lam_Sinh rdfs:label "Trình Lam Sinh"@vi .
+
+vres:Trương_Cảnh_Tuyên rdfs:label "Trương Cảnh Tuyên"@vi .
+
+vres:Trương_Hòa_Bình rdfs:label "Trương Hòa Bình"@vi .
+
+vres:Trương_Minh_Tiến rdfs:label "Trương Minh Tiến"@vi .
+
+vres:Trương_Văn_Nọ rdfs:label "Trương Văn Nọ"@vi .
+
+vres:Trương_Đình_Nghệ rdfs:label "Trương Đình Nghệ"@vi .
+
+vres:Trương_Định rdfs:label "Trương Định"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Bách_khoa,_Đại_học_Cần_Thơ> rdfs:label "Trường Bách khoa, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Công_nghệ_Thông_tin_và_Truyền_thông,_Đại_học_Cần_Thơ> rdfs:label "Trường Công nghệ Thông tin và Truyền thông, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Du_lịch,_Đại_học_Huế> rdfs:label "Trường Du lịch, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Khoa_học_Tự_nhiên,_Đại_học_Cần_Thơ> rdfs:label "Trường Khoa học Tự nhiên, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Khoa_học_liên_ngành_và_Nghệ_thuật,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Khoa học liên ngành và Nghệ thuật, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Kinh_tế,_Đại_học_Cần_Thơ> rdfs:label "Trường Kinh tế, Đại học Cần Thơ"@vi .
+
+vres:Trường_Kỹ_thuật_và_Công_nghệ rdfs:label "Trường Kỹ thuật và Công nghệ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Nông_nghiệp,_Đại_học_Cần_Thơ> rdfs:label "Trường Nông nghiệp, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Phổ_thông_Năng_khiếu,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> rdfs:label "Trường Phổ thông Năng khiếu, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Quản_trị_và_Kinh_doanh,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Sư_phạm,_Đại_học_Cần_Thơ> rdfs:label "Trường Sư phạm, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_THPT_Thuận_Hóa,_Trường_Đại_học_Sư_phạm_Huế> rdfs:label "Trường THPT Thuận Hóa, Trường Đại học Sư phạm Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Thủy_sản,_Đại_học_Cần_Thơ> rdfs:label "Trường Thủy sản, Đại học Cần Thơ"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_Thực_hành,_Đại_học_Sư_phạm_Thành_phố_Hồ_Chí_Minh> rdfs:label "Trường Trung học Thực hành, Đại học Sư phạm Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_Khoa_học_Giáo_dục,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Trung học phổ thông Khoa học Giáo dục, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_Kiến_trúc,_Trường_Đại_học_Kiến_trúc_Hà_Nội> rdfs:label "Trường Trung học phổ thông Kiến trúc, Trường Đại học Kiến trúc Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_chuyên,_Trường_Đại_học_Sư_phạm_Hà_Nội> rdfs:label "Trường Trung học phổ thông chuyên, Trường Đại học Sư phạm Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_chuyên_Khoa_học_Huế,_Đại_học_Huế> rdfs:label "Trường Trung học phổ thông chuyên Khoa học Huế, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_chuyên_Khoa_học_Tự_nhiên,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Trung học phổ thông chuyên Khoa học Tự nhiên, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_chuyên_Khoa_học_Xã_hội_và_Nhân_văn,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Trung học phổ thông chuyên Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Trung_học_phổ_thông_chuyên_Ngoại_ngữ,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Trung học phổ thông chuyên Ngoại ngữ, Đại học Quốc gia Hà Nội"@vi .
+
+vres:Trường_Vinh rdfs:label "Trường Vinh"@vi .
+
+vres:Trường_Y_khoa_Đông_Dương rdfs:label "Trường Y khoa Đông Dương"@vi .
+
+vres:Trường_trung_học_Alief_Elsik rdfs:label "Trường trung học Alief Elsik"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Công_nghệ_Thông_tin,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> rdfs:label "Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Giáo_dục,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Đại học Giáo dục, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Khoa_học,_Đại_học_Huế> rdfs:label "Trường Đại học Khoa học, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Khoa_học_Sức_khỏe,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> rdfs:label "Trường Đại học Khoa học Sức khỏe, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Kinh_tế,_Đại_học_Huế> rdfs:label "Trường Đại học Kinh tế, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Luật,_Đại_học_Huế> rdfs:label "Trường Đại học Luật, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Luật,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Trường Đại học Luật, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Nghệ_thuật,_Đại_học_Huế> rdfs:label "Trường Đại học Nghệ thuật, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Ngoại_ngữ,_Đại_học_Huế> rdfs:label "Trường Đại học Ngoại ngữ, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Ngoại_ngữ,_Đại_học_Đà_Nẵng> rdfs:label "Trường Đại học Ngoại ngữ, Đại học Đà Nẵng"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Nông_Lâm,_Đại_học_Huế> rdfs:label "Trường Đại học Nông Lâm, Đại học Huế"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Sư_phạm_Kỹ_thuật,_Đại_học_Đà_Nẵng> rdfs:label "Trường Đại học Sư phạm Kỹ thuật, Đại học Đà Nẵng"@vi .
+
+vres:Trường_Đại_học_Thể_dục_Thể_thao_Bắc_Ninh rdfs:label "Trường Đại học Thể dục Thể thao Bắc Ninh"@vi .
+
+<http://vi.dbpedia.org/resource/Trường_Đại_học_Y_Dược,_Đại_học_Huế> rdfs:label "Trường Đại học Y Dược, Đại học Huế"@vi .
+
+vres:Trường_Đại_học_công_lập_trực_thuộc_Đại_học_Quốc_gia rdfs:label "Trường Đại học công lập trực thuộc Đại học Quốc gia"@vi .
+
+vres:Trường_đại_học rdfs:label "Trường đại học"@vi .
+
+vres:Trảng_Bom_\(huyện\) rdfs:label "Trảng Bom (huyện)"@vi .
+
+vres:Trảng_Bàng_\(thị_xã\) rdfs:label "Trảng Bàng (thị xã)"@vi .
+
+vres:Trấn_Biên_\(phường\) rdfs:label "Trấn Biên (phường)"@vi .
+
+vres:Trấn_Giang rdfs:label "Trấn Giang"@vi .
+
+vres:Trần_Bá_Dương rdfs:label "Trần Bá Dương"@vi .
+
+vres:Trần_Cẩm_Tú rdfs:label "Trần Cẩm Tú"@vi .
+
+vres:Trần_Duy_Đông rdfs:label "Trần Duy Đông"@vi .
+
+vres:Trần_Hoài_Nam rdfs:label "Trần Hoài Nam"@vi .
+
+vres:Trần_Huy_Tuấn rdfs:label "Trần Huy Tuấn"@vi .
+
+vres:Trần_Hưng_Bình rdfs:label "Trần Hưng Bình"@vi .
+
+vres:Trần_Hưng_Đạo rdfs:label "Trần Hưng Đạo"@vi .
+
+vres:Trần_Hải_Châu rdfs:label "Trần Hải Châu"@vi .
+
+vres:Trần_Hữu_Hậu rdfs:label "Trần Hữu Hậu"@vi .
+
+vres:Trần_Lê_Quan rdfs:label "Trần Lê Quan"@vi .
+
+vres:Trần_Lưu_Quang rdfs:label "Trần Lưu Quang"@vi .
+
+vres:Trần_Minh_Triết rdfs:label "Trần Minh Triết"@vi .
+
+vres:Trần_Minh_Tạo rdfs:label "Trần Minh Tạo"@vi .
+
+vres:Trần_Ngọc_Tam rdfs:label "Trần Ngọc Tam"@vi .
+
+vres:Trần_Ngọc_Tuấn_\(quân_y\) rdfs:label "Trần Ngọc Tuấn (quân y)"@vi .
+
+vres:Trần_Phong_\(chính_khách\) rdfs:label "Trần Phong (chính khách)"@vi .
+
+vres:Trần_Phú rdfs:label "Trần Phú"@vi .
+
+vres:Trần_Quang_Thưởng rdfs:label "Trần Quang Thưởng"@vi .
+
+vres:Trần_Quí_Thanh rdfs:label "Trần Quí Thanh"@vi .
+
+vres:Trần_Quốc_Quân rdfs:label "Trần Quốc Quân"@vi .
+
+vres:Trần_Quốc_Toản_\(chính_khách\) rdfs:label "Trần Quốc Toản (chính khách)"@vi .
+
+vres:Trần_Quốc_Tuấn_\(chính_khách\) rdfs:label "Trần Quốc Tuấn (chính khách)"@vi .
+
+vres:Trần_Quốc_Văn rdfs:label "Trần Quốc Văn"@vi .
+
+vres:Trần_Thanh_Hoàng rdfs:label "Trần Thanh Hoàng"@vi .
+
+vres:Trần_Thanh_Mẫn rdfs:label "Trần Thanh Mẫn"@vi .
+
+vres:Trần_Thị_Hoa_Ry rdfs:label "Trần Thị Hoa Ry"@vi .
+
+vres:Trần_Thị_Thanh_Hương rdfs:label "Trần Thị Thanh Hương"@vi .
+
+vres:Trần_Thị_Thanh_Lam rdfs:label "Trần Thị Thanh Lam"@vi .
+
+vres:Trần_Thị_Thu_Đông rdfs:label "Trần Thị Thu Đông"@vi .
+
+vres:Trần_Tiến_Dũng_\(Nam_Định\) rdfs:label "Trần Tiến Dũng (Nam Định)"@vi .
+
+vres:Trần_Trí_Quang rdfs:label "Trần Trí Quang"@vi .
+
+vres:Trần_Tuệ_Hiền rdfs:label "Trần Tuệ Hiền"@vi .
+
+vres:Trần_U_công rdfs:label "Trần U công"@vi .
+
+vres:Trần_Viết_Tiến rdfs:label "Trần Viết Tiến"@vi .
+
+vres:Trần_Việt_Khoa rdfs:label "Trần Việt Khoa"@vi .
+
+vres:Trần_Văn_Huyến rdfs:label "Trần Văn Huyến"@vi .
+
+vres:Trần_Văn_Kiểm rdfs:label "Trần Văn Kiểm"@vi .
+
+vres:Trần_Văn_Lâu rdfs:label "Trần Văn Lâu"@vi .
+
+vres:Trần_Văn_Sang rdfs:label "Trần Văn Sang"@vi .
+
+vres:Trần_Văn_Thưởng rdfs:label "Trần Văn Thưởng"@vi .
+
+vres:Trần_Văn_Tuấn_\(tướng_công_an\) rdfs:label "Trần Văn Tuấn (tướng công an)"@vi .
+
+vres:Trần_Đề_\(huyện\) rdfs:label "Trần Đề (huyện)"@vi .
+
+vres:Trần_Đức_Thắng rdfs:label "Trần Đức Thắng"@vi .
+
+vres:Trắng rdfs:label "Trắng"@vi .
+
+vres:Trịnh_Minh_Bình rdfs:label "Trịnh Minh Bình"@vi .
+
+vres:Trịnh_Ngọc_Quyên rdfs:label "Trịnh Ngọc Quyên"@vi .
+
+vres:Trịnh_Xuân_Tráng rdfs:label "Trịnh Xuân Tráng"@vi .
+
+vres:Trịnh_Xuân_Trường rdfs:label "Trịnh Xuân Trường"@vi .
+
+vres:Trọng_tài_\(bóng_đá\) rdfs:label "Trọng tài (bóng đá)"@vi .
+
+vres:Tuy_Hòa_\(phường\) rdfs:label "Tuy Hòa (phường)"@vi .
+
+vres:Tuy_Hòa_\(thành_phố\) rdfs:label "Tuy Hòa (thành phố)"@vi .
+
+vres:Tuy_Phước_\(huyện\) rdfs:label "Tuy Phước (huyện)"@vi .
+
+vres:Tuy_Đức_\(huyện\) rdfs:label "Tuy Đức (huyện)"@vi .
+
+vres:Tuyên_Quang_\(thành_phố\) rdfs:label "Tuyên Quang (thành phố)"@vi .
+
+vres:Tuyên_ngôn_độc_lập_\(Việt_Nam_Dân_chủ_Cộng_hòa\) rdfs:label "Tuyên ngôn độc lập (Việt Nam Dân chủ Cộng hòa)"@vi .
+
+vres:Tuồng rdfs:label "Tuồng"@vi .
+
+vres:Tuổi_Trẻ_\(báo\) rdfs:label "Tuổi Trẻ (báo)"@vi .
+
+vres:Tà_Xùa rdfs:label "Tà Xùa"@vi .
+
+vres:Táo_mèo rdfs:label "Táo mèo"@vi .
+
+<http://vi.dbpedia.org/resource/Tân_An,_Cần_Thơ> rdfs:label "Tân An, Cần Thơ"@vi .
+
+vres:Tân_An_\(thành_phố\) rdfs:label "Tân An (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Tân_Hưng,_Thành_phố_Hồ_Chí_Minh> rdfs:label "Tân Hưng, Thành phố Hồ Chí Minh"@vi .
+
+vres:Tân_Kỳ_\(huyện\) rdfs:label "Tân Kỳ (huyện)"@vi .
+
+<http://vi.dbpedia.org/resource/Tân_Minh,_Thường_Tín> rdfs:label "Tân Minh, Thường Tín"@vi .
+
+vres:Tân_Phong_\(phường\) rdfs:label "Tân Phong (phường)"@vi .
+
+vres:Tân_Sơn_\(huyện\) rdfs:label "Tân Sơn (huyện)"@vi .
+
+vres:Tân_Sơn_Hòa rdfs:label "Tân Sơn Hòa"@vi .
+
+<http://vi.dbpedia.org/resource/Tân_Thành,_Cà_Mau> rdfs:label "Tân Thành, Cà Mau"@vi .
+
+vres:Tân_Thạnh_\(huyện\) rdfs:label "Tân Thạnh (huyện)"@vi .
+
+vres:Tân_Uyên_\(thành_phố\) rdfs:label "Tân Uyên (thành phố)"@vi .
+
+vres:Tân_Yên_\(huyện\) rdfs:label "Tân Yên (huyện)"@vi .
+
+vres:Tây_Bắc_Bộ rdfs:label "Tây Bắc Bộ"@vi .
+
+vres:Tây_Hồ_\(quận\) rdfs:label "Tây Hồ (quận)"@vi .
+
+vres:Tây_Nha_Trang rdfs:label "Tây Nha Trang"@vi .
+
+vres:Tây_Ninh_\(thành_phố\) rdfs:label "Tây Ninh (thành phố)"@vi .
+
+vres:Tây_Tựu rdfs:label "Tây Tựu"@vi .
+
+vres:Tích_Lương rdfs:label "Tích Lương"@vi .
+
+vres:Tím rdfs:label "Tím"@vi .
+
+vres:Tín_ngưỡng_dân_gian_Việt_Nam rdfs:label "Tín ngưỡng dân gian Việt Nam"@vi .
+
+vres:Tô_Anh_Dũng_\(sinh_năm_1978\) rdfs:label "Tô Anh Dũng (sinh năm 1978)"@vi .
+
+vres:Tô_Hiệu rdfs:label "Tô Hiệu"@vi .
+
+vres:Tô_Hiệu_\(phường\) rdfs:label "Tô Hiệu (phường)"@vi .
+
+vres:Tô_Huy_Rứa rdfs:label "Tô Huy Rứa"@vi .
+
+vres:Tô_Lâm rdfs:label "Tô Lâm"@vi .
+
+vres:Tô_Ái_Vang rdfs:label "Tô Ái Vang"@vi .
+
+vres:Tôn_Ngọc_Hạnh rdfs:label "Tôn Ngọc Hạnh"@vi .
+
+vres:Tôn_giáo_tại_Việt_Nam rdfs:label "Tôn giáo tại Việt Nam"@vi .
+
+vres:Tôn_Đức_Thắng rdfs:label "Tôn Đức Thắng"@vi .
+
+vres:Tùng_Thiện rdfs:label "Tùng Thiện"@vi .
+
+vres:Tăng_Nhơn_Phú rdfs:label "Tăng Nhơn Phú"@vi .
+
+vres:Tĩnh_Gia_\(huyện\) rdfs:label "Tĩnh Gia (huyện)"@vi .
+
+vres:Tư_Nghĩa_\(huyện\) rdfs:label "Tư Nghĩa (huyện)"@vi .
+
+vres:Tư_Nghĩa_\(xã\) rdfs:label "Tư Nghĩa (xã)"@vi .
+
+vres:Tư_thục rdfs:label "Tư thục"@vi .
+
+vres:Tương_Dương rdfs:label "Tương Dương"@vi .
+
+vres:Tương_Dương_\(huyện\) rdfs:label "Tương Dương (huyện)"@vi .
+
+vres:Tượng_Chúa_Kitô_Vua_\(Vũng_Tàu\) rdfs:label "Tượng Chúa Kitô Vua (Vũng Tàu)"@vi .
+
+vres:Tạ_Minh_Tâm_\(chính_khách\) rdfs:label "Tạ Minh Tâm (chính khách)"@vi .
+
+vres:Tạ_Đình_Đề rdfs:label "Tạ Đình Đề"@vi .
+
+<http://vi.dbpedia.org/resource/Tập_tin:Anh_hùng_LLVT.png> rdfs:label "Tập tin:Anh hùng LLVT.png"@vi .
+
+<http://vi.dbpedia.org/resource/Tập_tin:Logo_Hanoi.png> rdfs:label "Tập tin:Logo Hanoi.png"@vi .
+
+<http://vi.dbpedia.org/resource/Tập_tin:Vietnamese_People's_Army_Engineering_Vector.png> rdfs:label "Tập tin:Vietnamese People's Army Engineering Vector.png"@vi .
+
+vres:Tập_đoàn_Giáo_dục_EQuest rdfs:label "Tập đoàn Giáo dục EQuest"@vi .
+
+vres:Tập_đoàn_Nguyễn_Hoàng rdfs:label "Tập đoàn Nguyễn Hoàng"@vi .
+
+<http://vi.dbpedia.org/resource/Tập_đoàn_T&T_Group> rdfs:label "Tập đoàn T&T Group"@vi .
+
+vres:Tập_đoàn_Vingroup rdfs:label "Tập đoàn Vingroup"@vi .
+
+vres:Tỉnh_\(Việt_Nam_Cộng_hòa\) rdfs:label "Tỉnh (Việt Nam Cộng hòa)"@vi .
+
+vres:Tống_Bình rdfs:label "Tống Bình"@vi .
+
+vres:Tổng_Bí_thư_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam rdfs:label "Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam"@vi .
+
+vres:Tổng_Liên_đoàn_Lao_động_Việt_Nam rdfs:label "Tổng Liên đoàn Lao động Việt Nam"@vi .
+
+vres:Tổng_công_ty_Viễn_thông_MobiFone rdfs:label "Tổng công ty Viễn thông MobiFone"@vi .
+
+<http://vi.dbpedia.org/resource/Tổng_cục_Chính_trị,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Tổng cục Chính trị, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Tổng_cục_Kỹ_thuật,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Tổng cục Kỹ thuật, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Tổng_cục_Tình_báo,_Quân_đội_nhân_dân_Việt_Nam> rdfs:label "Tổng cục Tình báo, Quân đội nhân dân Việt Nam"@vi .
+
+vres:Từ_Liêm_\(huyện\) rdfs:label "Từ Liêm (huyện)"@vi .
+
+vres:Từ_Liêm_\(phường\) rdfs:label "Từ Liêm (phường)"@vi .
+
+vres:Từ_Quang_Tân rdfs:label "Từ Quang Tân"@vi .
+
+vres:Từ_Sơn_\(thành_phố\) rdfs:label "Từ Sơn (thành phố)"@vi .
+
+vres:U-11_Sông_Lam_Nghệ_An rdfs:label "U-11 Sông Lam Nghệ An"@vi .
+
+vres:US_Quevilly-Rouen_Métropole rdfs:label "US Quevilly-Rouen Métropole"@vi .
+
+<http://vi.dbpedia.org/resource/UTC+07:00> rdfs:label "UTC+07:00"@vi .
+
+vres:U_Huấn rdfs:label "U Huấn"@vi .
+
+vres:UniRank rdfs:label "UniRank"@vi .
+
+vres:VNUR rdfs:label "VNUR"@vi .
+
+vres:VTC_News rdfs:label "VTC News"@vi .
+
+vres:Vegalta_Sendai rdfs:label "Vegalta Sendai"@vi .
+
+vres:Velizar_Popov rdfs:label "Velizar Popov"@vi .
+
+vres:VfB_Eichstätt rdfs:label "VfB Eichstätt"@vi .
+
+<http://vi.dbpedia.org/resource/Vietnamese–German_University> rdfs:label "Vietnamese–German University"@vi .
+
+vres:Vinh rdfs:label "Vinh"@vi .
+
+vres:Viện_Chuyển_đổi_số_và_Học_liệu rdfs:label "Viện Chuyển đổi số và Học liệu"@vi .
+
+vres:Viện_Công_nghệ_Quốc_tế_Đà_Nẵng rdfs:label "Viện Công nghệ Quốc tế Đà Nẵng"@vi .
+
+vres:Viện_Công_nghệ_Sinh_học_và_Thực_phẩm rdfs:label "Viện Công nghệ Sinh học và Thực phẩm"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Công_nghệ_Thông_tin,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Viện Công nghệ Thông tin, Đại học Quốc gia Hà Nội"@vi .
+
+vres:Viện_Khoa_học_và_Công_nghệ_Tiên_tiến rdfs:label "Viện Khoa học và Công nghệ Tiên tiến"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Khảo_thí_và_Bảo_đảm_chất_lượng_giáo_dục.> rdfs:label "Viện Khảo thí và Bảo đảm chất lượng giáo dục."@vi .
+
+vres:Viện_Mekong rdfs:label "Viện Mekong"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Môi_trường_và_Tài_nguyên,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> rdfs:label "Viện Môi trường và Tài nguyên, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+vres:Viện_Nghiên_cứu_phát_triển_kinh_tế_-_xã_hội rdfs:label "Viện Nghiên cứu phát triển kinh tế - xã hội"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Nghiên_cứu_và_Đào_tạo_Việt_–_Anh,_Đại_học_Đà_Nẵng> rdfs:label "Viện Nghiên cứu và Đào tạo Việt – Anh, Đại học Đà Nẵng"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Trần_Nhân_Tông,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Viện Trần Nhân Tông, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Tài_nguyên_và_Môi_trường,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Viện Tài nguyên và Môi trường, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Vi_sinh_vật_và_Công_nghệ_sinh_học,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Viện Vi sinh vật và Công nghệ sinh học, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Viện_Việt_Nam_học_và_Khoa_học_phát_triển,_Đại_học_Quốc_gia_Hà_Nội> rdfs:label "Viện Việt Nam học và Khoa học phát triển, Đại học Quốc gia Hà Nội"@vi .
+
+vres:Viện_công_nghệ rdfs:label "Viện công nghệ"@vi .
+
+vres:Viện_Đào_tạo_mở_và_Công_nghệ_thông_tin rdfs:label "Viện Đào tạo mở và Công nghệ thông tin"@vi .
+
+vres:Viện_Đại_học_Cần_Thơ rdfs:label "Viện Đại học Cần Thơ"@vi .
+
+vres:Viện_Đại_học_Đà_Lạt rdfs:label "Viện Đại học Đà Lạt"@vi .
+
+vres:Viện_đại_học rdfs:label "Viện đại học"@vi .
+
+vres:Việt_Nam_Cộng_hòa rdfs:label "Việt Nam Cộng hòa"@vi .
+
+vres:Việt_Nam_Dân_chủ_Cộng_hòa rdfs:label "Việt Nam Dân chủ Cộng hòa"@vi .
+
+vres:Việt_Tiến rdfs:label "Việt Tiến"@vi .
+
+vres:Việt_Trì_\(phường\) rdfs:label "Việt Trì (phường)"@vi .
+
+vres:Việt_Trì_\(thành_phố\) rdfs:label "Việt Trì (thành phố)"@vi .
+
+vres:Việt_Yên_\(thị_xã\) rdfs:label "Việt Yên (thị xã)"@vi .
+
+vres:VnExpress rdfs:label "VnExpress"@vi .
+
+vres:Vàng rdfs:label "Vàng"@vi .
+
+vres:Vân_Đồn rdfs:label "Vân Đồn"@vi .
+
+vres:Võ_Hồng_Phúc rdfs:label "Võ Hồng Phúc"@vi .
+
+vres:Võ_Kế_Nghiệp rdfs:label "Võ Kế Nghiệp"@vi .
+
+vres:Võ_Nguyên_Giáp rdfs:label "Võ Nguyên Giáp"@vi .
+
+vres:Võ_Thành_Danh rdfs:label "Võ Thành Danh"@vi .
+
+vres:Võ_Thị_Minh_Sinh rdfs:label "Võ Thị Minh Sinh"@vi .
+
+vres:Võ_Thị_Ánh_Xuân rdfs:label "Võ Thị Ánh Xuân"@vi .
+
+vres:Võ_Trọng_Hải rdfs:label "Võ Trọng Hải"@vi .
+
+vres:Võ_Văn_Hội rdfs:label "Võ Văn Hội"@vi .
+
+vres:Võ_Văn_Minh rdfs:label "Võ Văn Minh"@vi .
+
+vres:Võ_thuật_Bình_Định rdfs:label "Võ thuật Bình Định"@vi .
+
+vres:Vùng_thủ_đô_Hà_Nội rdfs:label "Vùng thủ đô Hà Nội"@vi .
+
+vres:Vùng_đô_thị_Thành_phố_Hồ_Chí_Minh rdfs:label "Vùng đô thị Thành phố Hồ Chí Minh"@vi .
+
+vres:Vùng_động_lực_miền_Trung_Việt_Nam rdfs:label "Vùng động lực miền Trung Việt Nam"@vi .
+
+vres:Vùng_động_lực_phía_Bắc_Việt_Nam rdfs:label "Vùng động lực phía Bắc Việt Nam"@vi .
+
+vres:Vùng_động_lực_phía_Nam_Việt_Nam rdfs:label "Vùng động lực phía Nam Việt Nam"@vi .
+
+vres:Vùng_động_lực_đồng_bằng_sông_Cửu_Long rdfs:label "Vùng động lực đồng bằng sông Cửu Long"@vi .
+
+vres:Văn_Giang_\(huyện\) rdfs:label "Văn Giang (huyện)"@vi .
+
+vres:Văn_Sỹ_Hùng rdfs:label "Văn Sỹ Hùng"@vi .
+
+vres:Văn_Sỹ_Sơn rdfs:label "Văn Sỹ Sơn"@vi .
+
+vres:Văn_Trần_Hoàn rdfs:label "Văn Trần Hoàn"@vi .
+
+vres:Văn_hóa_Sa_Huỳnh rdfs:label "Văn hóa Sa Huỳnh"@vi .
+
+vres:Văn_học_Việt_Nam rdfs:label "Văn học Việt Nam"@vi .
+
+vres:Vĩnh_Bình_\(tỉnh\) rdfs:label "Vĩnh Bình (tỉnh)"@vi .
+
+vres:Vĩnh_Long_\(thành_phố\) rdfs:label "Vĩnh Long (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Vĩnh_Thành,_Phú_Thọ> rdfs:label "Vĩnh Thành, Phú Thọ"@vi .
+
+vres:Vĩnh_Trà rdfs:label "Vĩnh Trà"@vi .
+
+vres:Vĩnh_Yên_\(thành_phố\) rdfs:label "Vĩnh Yên (thành phố)"@vi .
+
+vres:Vũ_Cảnh_Tuân rdfs:label "Vũ Cảnh Tuân"@vi .
+
+vres:Vũ_Hán rdfs:label "Vũ Hán"@vi .
+
+vres:Vũ_Hồng_Văn rdfs:label "Vũ Hồng Văn"@vi .
+
+vres:Vũ_Nhất_Định\(sinh_1970\) rdfs:label "Vũ Nhất Định(sinh 1970)"@vi .
+
+vres:Vũ_Quang_\(huyện\) rdfs:label "Vũ Quang (huyện)"@vi .
+
+vres:Vũ_Quyết_Tiến rdfs:label "Vũ Quyết Tiến"@vi .
+
+vres:Vũ_Thành_Tự_Anh rdfs:label "Vũ Thành Tự Anh"@vi .
+
+vres:Vũ_Thư_\(huyện\) rdfs:label "Vũ Thư (huyện)"@vi .
+
+vres:Vũ_Đại_Thắng rdfs:label "Vũ Đại Thắng"@vi .
+
+vres:Vũng_Tàu_\(phường\) rdfs:label "Vũng Tàu (phường)"@vi .
+
+vres:Vũng_Tàu_\(thành_phố\) rdfs:label "Vũng Tàu (thành phố)"@vi .
+
+vres:Vương_Quốc_Tuấn rdfs:label "Vương Quốc Tuấn"@vi .
+
+<http://vi.dbpedia.org/resource/Vườn_quốc_gia_Phong_Nha_–_Kẻ_Bàng> rdfs:label "Vườn quốc gia Phong Nha – Kẻ Bàng"@vi .
+
+vres:Vải_thiều rdfs:label "Vải thiều"@vi .
+
+vres:Vị_Thanh_\(thành_phố\) rdfs:label "Vị Thanh (thành phố)"@vi .
+
+vres:Vịnh_Thái_Lan rdfs:label "Vịnh Thái Lan"@vi .
+
+vres:Vịnh_Xuân_Đài rdfs:label "Vịnh Xuân Đài"@vi .
+
+vres:Vụ_Bản_\(huyện\) rdfs:label "Vụ Bản (huyện)"@vi .
+
+vres:WURI_Ranking rdfs:label "WURI Ranking"@vi .
+
+vres:Wilhelm_Pieck rdfs:label "Wilhelm Pieck"@vi .
+
+vres:Xa_lộ_Hà_Nội rdfs:label "Xa lộ Hà Nội"@vi .
+
+vres:Xanh_dương rdfs:label "Xanh dương"@vi .
+
+vres:Xe_buýt_Hà_Nội rdfs:label "Xe buýt Hà Nội"@vi .
+
+vres:Xe_buýt_Thành_phố_Hồ_Chí_Minh rdfs:label "Xe buýt Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Xuân_Hòa,_Thành_phố_Hồ_Chí_Minh> rdfs:label "Xuân Hòa, Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Xuân_Hương_–_Đà_Lạt> rdfs:label "Xuân Hương – Đà Lạt"@vi .
+
+vres:Xuân_Lũng rdfs:label "Xuân Lũng"@vi .
+
+vres:Xuân_Mai rdfs:label "Xuân Mai"@vi .
+
+vres:Xuân_Thiện_Group rdfs:label "Xuân Thiện Group"@vi .
+
+vres:Xuân_Thủy rdfs:label "Xuân Thủy"@vi .
+
+vres:Xuân_Trường_\(huyện\) rdfs:label "Xuân Trường (huyện)"@vi .
+
+vres:Xám rdfs:label "Xám"@vi .
+
+vres:Xã rdfs:label "Xã"@vi .
+
+<http://vi.dbpedia.org/resource/Xã_Dân_Lực,_huyện_Triệu_Sơn> rdfs:label "Xã Dân Lực, huyện Triệu Sơn"@vi .
+
+vres:Xóm_Chiếu rdfs:label "Xóm Chiếu"@vi .
+
+vres:Xếp_hạng_đại_học_thế_giới_Times_Higher_Education rdfs:label "Xếp hạng đại học thế giới Times Higher Education"@vi .
+
+vres:Xứ_Nghệ rdfs:label "Xứ Nghệ"@vi .
+
+vres:Xứ_Đông rdfs:label "Xứ Đông"@vi .
+
+vres:Y_Giang_Gry_Niê_Knơng rdfs:label "Y Giang Gry Niê Knơng"@vi .
+
+vres:Y_Thanh_Hà_Niê_Kđăm rdfs:label "Y Thanh Hà Niê Kđăm"@vi .
+
+vres:Y_Tru_Alio rdfs:label "Y Tru Alio"@vi .
+
+vres:Yangon rdfs:label "Yangon"@vi .
+
+vres:Yokohama_FC rdfs:label "Yokohama FC"@vi .
+
+vres:Yên_Bái_\(phường\) rdfs:label "Yên Bái (phường)"@vi .
+
+vres:Yên_Bái_\(thành_phố\) rdfs:label "Yên Bái (thành phố)"@vi .
+
+vres:Yên_Hòa_\(phường\) rdfs:label "Yên Hòa (phường)"@vi .
+
+vres:Yên_Sơn_\(huyện\) rdfs:label "Yên Sơn (huyện)"@vi .
+
+vres:Yên_Thành_\(huyện\) rdfs:label "Yên Thành (huyện)"@vi .
+
+vres:Yên_Viên rdfs:label "Yên Viên"@vi .
+
+vres:Yên_Định_\(huyện\) rdfs:label "Yên Định (huyện)"@vi .
+
+vres:Yến_sào rdfs:label "Yến sào"@vi .
+
+vres:Ziggy_Switkowski rdfs:label "Ziggy Switkowski"@vi .
+
+vres:Zoysia rdfs:label "Zoysia"@vi .
+
+vres:Âu_Lạc rdfs:label "Âu Lạc"@vi .
+
+vres:Ô_Chợ_Dừa rdfs:label "Ô Chợ Dừa"@vi .
+
+vres:Ô_Chợ_Dừa_\(phường\) rdfs:label "Ô Chợ Dừa (phường)"@vi .
+
+vres:Ô_Diên rdfs:label "Ô Diên"@vi .
+
+vres:Ô_Môn_\(quận\) rdfs:label "Ô Môn (quận)"@vi .
+
+vres:Úc rdfs:label "Úc"@vi .
+
+vres:Ý_Yên_\(huyện\) rdfs:label "Ý Yên (huyện)"@vi .
+
+vres:Ý_Yên_\(xã\) rdfs:label "Ý Yên (xã)"@vi .
+
+vres:Đa_Tốn rdfs:label "Đa Tốn"@vi .
+
+vres:Đan_Phượng_\(huyện\) rdfs:label "Đan Phượng (huyện)"@vi .
+
+vres:Đinh_Gia_Hưng rdfs:label "Đinh Gia Hưng"@vi .
+
+vres:Đinh_Hồng_Vinh rdfs:label "Đinh Hồng Vinh"@vi .
+
+vres:Đinh_Ngọc_Minh rdfs:label "Đinh Ngọc Minh"@vi .
+
+vres:Đinh_Tiên_Hoàng rdfs:label "Đinh Tiên Hoàng"@vi .
+
+vres:Đinh_Văn_Sang rdfs:label "Đinh Văn Sang"@vi .
+
+vres:Điền_kinh rdfs:label "Điền kinh"@vi .
+
+vres:Điều rdfs:label "Điều"@vi .
+
+vres:Điểu_Xuân_Hùng rdfs:label "Điểu Xuân Hùng"@vi .
+
+vres:Điện_Biên_Phủ_\(phường\) rdfs:label "Điện Biên Phủ (phường)"@vi .
+
+vres:Điện_Biên_Phủ_\(thành_phố\) rdfs:label "Điện Biên Phủ (thành phố)"@vi .
+
+vres:Đoan_Hùng_\(huyện\) rdfs:label "Đoan Hùng (huyện)"@vi .
+
+vres:Đoàn_Anh_Phương rdfs:label "Đoàn Anh Phương"@vi .
+
+vres:Đoàn_Minh_Huấn rdfs:label "Đoàn Minh Huấn"@vi .
+
+vres:Đoàn_Minh_Hải rdfs:label "Đoàn Minh Hải"@vi .
+
+vres:Đoàn_Nguyên_Đức rdfs:label "Đoàn Nguyên Đức"@vi .
+
+vres:Đoàn_Quốc_Việt rdfs:label "Đoàn Quốc Việt"@vi .
+
+vres:Đoàn_Thị_Hậu rdfs:label "Đoàn Thị Hậu"@vi .
+
+vres:Đoàn_Văn_Bắc rdfs:label "Đoàn Văn Bắc"@vi .
+
+vres:Đà_Lạt rdfs:label "Đà Lạt"@vi .
+
+vres:Đà_Nẵng_\(thành_phố_thuộc_tỉnh\) rdfs:label "Đà Nẵng (thành phố thuộc tỉnh)"@vi .
+
+vres:Đài_Tiếng_nói_Việt_Nam rdfs:label "Đài Tiếng nói Việt Nam"@vi .
+
+vres:Đào_Thị_Thu_Giang rdfs:label "Đào Thị Thu Giang"@vi .
+
+vres:Đèo_Khau_Cốc_Chà rdfs:label "Đèo Khau Cốc Chà"@vi .
+
+vres:Đèo_Khau_Phạ rdfs:label "Đèo Khau Phạ"@vi .
+
+vres:Đèo_Mã_Pí_Lèng rdfs:label "Đèo Mã Pí Lèng"@vi .
+
+vres:Đô_Lương_\(huyện\) rdfs:label "Đô Lương (huyện)"@vi .
+
+vres:Đô_la_Mỹ rdfs:label "Đô la Mỹ"@vi .
+
+vres:Đô_thị rdfs:label "Đô thị"@vi .
+
+vres:Đô_thị_Việt_Nam rdfs:label "Đô thị Việt Nam"@vi .
+
+vres:Đôn_Tuấn_Phong rdfs:label "Đôn Tuấn Phong"@vi .
+
+vres:Đông_Anh_\(huyện\) rdfs:label "Đông Anh (huyện)"@vi .
+
+vres:Đông_Bắc_Bộ rdfs:label "Đông Bắc Bộ"@vi .
+
+vres:Đông_Hà_\(thành_phố\) rdfs:label "Đông Hà (thành phố)"@vi .
+
+<http://vi.dbpedia.org/resource/Đông_Hòa,_Thành_phố_Hồ_Chí_Minh> rdfs:label "Đông Hòa, Thành phố Hồ Chí Minh"@vi .
+
+vres:Đông_Hưng_\(huyện\) rdfs:label "Đông Hưng (huyện)"@vi .
+
+vres:Đông_Kinh_\(phường\) rdfs:label "Đông Kinh (phường)"@vi .
+
+vres:Đông_Nam_Bộ rdfs:label "Đông Nam Bộ"@vi .
+
+vres:Đông_Nam_Á rdfs:label "Đông Nam Á"@vi .
+
+vres:Đông_Ngạc rdfs:label "Đông Ngạc"@vi .
+
+vres:Đông_Sơn_\(huyện\) rdfs:label "Đông Sơn (huyện)"@vi .
+
+vres:Đông_Triều_\(thành_phố\) rdfs:label "Đông Triều (thành phố)"@vi .
+
+vres:Đăk_Glei rdfs:label "Đăk Glei"@vi .
+
+vres:Đường_Vành_đai_4 rdfs:label "Đường Vành đai 4"@vi .
+
+vres:Đại_La rdfs:label "Đại La"@vi .
+
+vres:Đại_Lộc_\(huyện\) rdfs:label "Đại Lộc (huyện)"@vi .
+
+vres:Đại_Lộc_\(xã\) rdfs:label "Đại Lộc (xã)"@vi .
+
+vres:Đại_Mỗ rdfs:label "Đại Mỗ"@vi .
+
+vres:Đại_Từ_\(huyện\) rdfs:label "Đại Từ (huyện)"@vi .
+
+vres:Đại_học_\(Việt_Nam\) rdfs:label "Đại học (Việt Nam)"@vi .
+
+vres:Đại_học_Cornell rdfs:label "Đại học Cornell"@vi .
+
+vres:Đại_học_Công_lập rdfs:label "Đại học Công lập"@vi .
+
+vres:Đại_học_Công_nghệ_Nanyang rdfs:label "Đại học Công nghệ Nanyang"@vi .
+
+vres:Đại_học_Marshall rdfs:label "Đại học Marshall"@vi .
+
+vres:Đại_học_Pennsylvania rdfs:label "Đại học Pennsylvania"@vi .
+
+vres:Đại_học_Quản_lý_Singapore rdfs:label "Đại học Quản lý Singapore"@vi .
+
+vres:Đại_học_RMIT rdfs:label "Đại học RMIT"@vi .
+
+vres:Đại_học_công_lập rdfs:label "Đại học công lập"@vi .
+
+vres:Đại_học_quốc_gia rdfs:label "Đại học quốc gia"@vi .
+
+vres:Đại_học_trọng_điểm_quốc_gia_Việt_Nam rdfs:label "Đại học trọng điểm quốc gia Việt Nam"@vi .
+
+vres:Đại_học_tư_thục rdfs:label "Đại học tư thục"@vi .
+
+vres:Đại_hồi rdfs:label "Đại hồi"@vi .
+
+vres:Đại_hội_Thể_thao_châu_Á rdfs:label "Đại hội Thể thao châu Á"@vi .
+
+vres:Đại_hội_Thể_thao_Đông_Nam_Á rdfs:label "Đại hội Thể thao Đông Nam Á"@vi .
+
+vres:Đại_tá_Công_an_nhân_dân_Việt_Nam rdfs:label "Đại tá Công an nhân dân Việt Nam"@vi .
+
+vres:Đạm_Phú_Mĩ_Nam_Định rdfs:label "Đạm Phú Mĩ Nam Định"@vi .
+
+vres:Đạo_Cao_Đài rdfs:label "Đạo Cao Đài"@vi .
+
+vres:Đầm_lầy rdfs:label "Đầm lầy"@vi .
+
+vres:Đặng_Công_Lý rdfs:label "Đặng Công Lý"@vi .
+
+vres:Đặng_Công_Thành rdfs:label "Đặng Công Thành"@vi .
+
+vres:Đặng_Dư_Phương rdfs:label "Đặng Dư Phương"@vi .
+
+vres:Đặng_Khánh_Toàn rdfs:label "Đặng Khánh Toàn"@vi .
+
+vres:Đặng_Quốc_Khởi rdfs:label "Đặng Quốc Khởi"@vi .
+
+vres:Đặng_Thuần_Phong rdfs:label "Đặng Thuần Phong"@vi .
+
+vres:Đặng_Thị_Hoàng_Yến rdfs:label "Đặng Thị Hoàng Yến"@vi .
+
+vres:Định_Công rdfs:label "Định Công"@vi .
+
+vres:Định_Quán_\(huyện\) rdfs:label "Định Quán (huyện)"@vi .
+
+vres:Định_Tường rdfs:label "Định Tường"@vi .
+
+vres:Đỏ rdfs:label "Đỏ"@vi .
+
+vres:Đống_Đa_\(quận\) rdfs:label "Đống Đa (quận)"@vi .
+
+vres:Đồng_\(đơn_vị_tiền_tệ\) rdfs:label "Đồng (đơn vị tiền tệ)"@vi .
+
+vres:Đồng_Hới_\(phường\) rdfs:label "Đồng Hới (phường)"@vi .
+
+vres:Đồng_Hới_\(thành_phố\) rdfs:label "Đồng Hới (thành phố)"@vi .
+
+vres:Đồng_Nai_Thượng rdfs:label "Đồng Nai Thượng"@vi .
+
+vres:Đồng_Phú_\(huyện\) rdfs:label "Đồng Phú (huyện)"@vi .
+
+vres:Đồng_Thuận rdfs:label "Đồng Thuận"@vi .
+
+vres:Đồng_Văn_Thanh rdfs:label "Đồng Văn Thanh"@vi .
+
+vres:Đồng_Xoài_\(thành_phố\) rdfs:label "Đồng Xoài (thành phố)"@vi .
+
+vres:Đồng_bằng_sông_Cửu_Long rdfs:label "Đồng bằng sông Cửu Long"@vi .
+
+vres:Đồng_bằng_sông_Hồng rdfs:label "Đồng bằng sông Hồng"@vi .
+
+vres:Đổi_Mới rdfs:label "Đổi Mới"@vi .
+
+vres:Đỗ_Anh_Tuấn rdfs:label "Đỗ Anh Tuấn"@vi .
+
+vres:Đỗ_Hữu_Huy rdfs:label "Đỗ Hữu Huy"@vi .
+
+vres:Đỗ_Minh_Xương rdfs:label "Đỗ Minh Xương"@vi .
+
+vres:Đỗ_Mạnh_Dũng rdfs:label "Đỗ Mạnh Dũng"@vi .
+
+vres:Đỗ_Quang_Hiển rdfs:label "Đỗ Quang Hiển"@vi .
+
+vres:Đỗ_Thanh_Bình rdfs:label "Đỗ Thanh Bình"@vi .
+
+vres:Đỗ_Thành_Trung_\(chính_khách\) rdfs:label "Đỗ Thành Trung (chính khách)"@vi .
+
+vres:Đỗ_Trung_Hải rdfs:label "Đỗ Trung Hải"@vi .
+
+vres:Đỗ_Tuấn_Minh rdfs:label "Đỗ Tuấn Minh"@vi .
+
+vres:Đỗ_Vinh_Quang_\(sinh_năm_1995\) rdfs:label "Đỗ Vinh Quang (sinh năm 1995)"@vi .
+
+vres:Đỗ_Văn_Bảnh rdfs:label "Đỗ Văn Bảnh"@vi .
+
+vres:Đỗ_Xuân_Hợp rdfs:label "Đỗ Xuân Hợp"@vi .
+
+vres:Đỗ_Đình_Chữ rdfs:label "Đỗ Đình Chữ"@vi .
+
+vres:Đội_bóng_đá_Công_an_Thanh_Hóa rdfs:label "Đội bóng đá Công an Thanh Hóa"@vi .
+
+vres:Đội_bóng_đá_Sông_Bé rdfs:label "Đội bóng đá Sông Bé"@vi .
+
+vres:Đội_trẻ_Perth_Glory_FC rdfs:label "Đội trẻ Perth Glory FC"@vi .
+
+vres:Đội_tuyển_bóng_đá_Olympic_quốc_gia_Việt_Nam rdfs:label "Đội tuyển bóng đá Olympic quốc gia Việt Nam"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-14_quốc_gia_Việt_Nam rdfs:label "Đội tuyển bóng đá U-14 quốc gia Việt Nam"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-16_quốc_gia_Pháp rdfs:label "Đội tuyển bóng đá U-16 quốc gia Pháp"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-17_quốc_gia_Bulgaria rdfs:label "Đội tuyển bóng đá U-17 quốc gia Bulgaria"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-18_quốc_gia_Pháp rdfs:label "Đội tuyển bóng đá U-18 quốc gia Pháp"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-18_quốc_gia_Slovakia rdfs:label "Đội tuyển bóng đá U-18 quốc gia Slovakia"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-18_quốc_gia_Việt_Nam rdfs:label "Đội tuyển bóng đá U-18 quốc gia Việt Nam"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-19_quốc_gia_Bulgaria rdfs:label "Đội tuyển bóng đá U-19 quốc gia Bulgaria"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-19_quốc_gia_Slovakia rdfs:label "Đội tuyển bóng đá U-19 quốc gia Slovakia"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-20_quốc_gia_Slovakia rdfs:label "Đội tuyển bóng đá U-20 quốc gia Slovakia"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-21_quốc_gia_Bulgaria rdfs:label "Đội tuyển bóng đá U-21 quốc gia Bulgaria"@vi .
+
+vres:Đội_tuyển_bóng_đá_U-21_quốc_gia_Slovakia rdfs:label "Đội tuyển bóng đá U-21 quốc gia Slovakia"@vi .
+
+vres:Đội_tuyển_bóng_đá_quốc_gia_Ghana rdfs:label "Đội tuyển bóng đá quốc gia Ghana"@vi .
+
+vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam_Cộng_hòa rdfs:label "Đội tuyển bóng đá quốc gia Việt Nam Cộng hòa"@vi .
+
+vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam_Dân_chủ_Cộng_hòa rdfs:label "Đội tuyển bóng đá quốc gia Việt Nam Dân chủ Cộng hòa"@vi .
+
+vres:Đội_tuyển_bóng_đá_quốc_gia_Đông_Timor rdfs:label "Đội tuyển bóng đá quốc gia Đông Timor"@vi .
+
+vres:Đội_tuyển_bóng_đá_trong_nhà_nữ_quốc_gia_Việt_Nam rdfs:label "Đội tuyển bóng đá trong nhà nữ quốc gia Việt Nam"@vi .
+
+vres:Đội_tuyển_bóng_đá_trong_nhà_quốc_gia_Việt_Nam rdfs:label "Đội tuyển bóng đá trong nhà quốc gia Việt Nam"@vi .
+
+vres:Động_Ngao rdfs:label "Động Ngao"@vi .
+
+vres:Đờn_ca_tài_tử_Nam_Bộ rdfs:label "Đờn ca tài tử Nam Bộ"@vi .
+
+vres:Đức rdfs:label "Đức"@vi .
+
+vres:Đức_Châu_\(xã\) rdfs:label "Đức Châu (xã)"@vi .
+
+vres:Đức_Hòa_\(huyện\) rdfs:label "Đức Hòa (huyện)"@vi .
+
+vres:Đức_Thọ_\(huyện\) rdfs:label "Đức Thọ (huyện)"@vi .
+
+vres:Ấn_Độ rdfs:label "Ấn Độ"@vi .
+
+vres:Ủy_ban_nhân_dân rdfs:label "Ủy ban nhân dân"@vi .
+
+vres:Ủy_ban_nhân_dân_Thành_phố_Hồ_Chí_Minh rdfs:label "Ủy ban nhân dân Thành phố Hồ Chí Minh"@vi .
+
+vres:Ủy_ban_nhân_dân_thành_phố_Hà_Nội rdfs:label "Ủy ban nhân dân thành phố Hà Nội"@vi .
+
+vres:Ủy_ban_nhân_dân_tỉnh_Đồng_Tháp_\(Việt_Nam\) rdfs:label "Ủy ban nhân dân tỉnh Đồng Tháp (Việt Nam)"@vi .
+
+vres:Ứng_Hòa_\(huyện\) rdfs:label "Ứng Hòa (huyện)"@vi .
+
+wd:Q10780 rdfs:label "Grimma"@vi .
+
+wd:Q10797207 rdfs:label "Nam Đàn"@vi .
+
+wd:Q124650007 rdfs:label "hậu vệ cánh trái"@vi .
+
+wd:Q157915 rdfs:label "Garoua"@vi .
+
+wd:Q208318 rdfs:label "Kaduna"@vi .
+
+wd:Q2269756 rdfs:label "bộ giáo dục"@vi .
+
+wd:Q268258 rdfs:label "hậu vệ trung tâm"@vi .
+
+wd:Q90173132 rdfs:label "hậu vệ cánh"@vi .
+

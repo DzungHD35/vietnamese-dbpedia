@@ -1,0 +1,32 @@
+@prefix vio:  <http://vi.dbpedia.org/ontology/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ===== Cơ sở giáo dục =====
+vio:motto a owl:DatatypeProperty ;
+  rdfs:label "khẩu hiệu"@vi , "motto"@en ;
+  rdfs:domain vio:EducationalInstitution ; rdfs:range rdf:langString ;
+  rdfs:subPropertyOf dbo:motto .
+
+vio:numberOfStudents a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "số sinh viên"@vi , "number of students"@en ;
+  rdfs:domain vio:EducationalInstitution ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:numberOfStudents .
+
+vio:academicStaffSize a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "số giảng viên"@vi , "academic staff size"@en ;
+  rdfs:domain vio:EducationalInstitution ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:facultySize .
+
+# Người đứng đầu: object property khi infobox có liên kết tới bài viết, literal khi chỉ là tên
+vio:rector a owl:ObjectProperty ;
+  rdfs:label "hiệu trưởng / giám đốc"@vi , "rector"@en ;
+  rdfs:domain vio:EducationalInstitution ; rdfs:range vio:Person ;
+  rdfs:subPropertyOf dbo:rector .
+
+vio:rectorName a owl:DatatypeProperty ;
+  rdfs:label "tên hiệu trưởng / giám đốc"@vi , "rector name"@en ;
+  rdfs:domain vio:EducationalInstitution ; rdfs:range xsd:string .

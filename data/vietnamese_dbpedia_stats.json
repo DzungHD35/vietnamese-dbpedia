@@ -1,0 +1,30 @@
+{
+  "total_triples": 131233,
+  "asserted_triples": 88898,
+  "inferred_triples": 41730,
+  "ontology_triples": 549,
+  "entities": 990,
+  "entities_by_class": {
+    "Country": 1,
+    "FootballClub": 61,
+    "FootballPlayer": 611,
+    "NationalFootballTeam": 10,
+    "Province": 110,
+    "Stadium": 29,
+    "University": 168
+  },
+  "career_stations": 3382,
+  "interlinks_to_dbpedia": 777,
+  "interlinks_to_wikidata": 990,
+  "languages": [
+    "en",
+    "vi"
+  ],
+  "reasoner": "owlrl",
+  "reasoning_seconds": 117.4,
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "built": "2026-10-07"
+}

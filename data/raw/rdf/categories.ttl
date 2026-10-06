@@ -1,0 +1,3465 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcat: <http://vi.dbpedia.org/resource/Thể_loại:> .
+
+vcat:An_Giang a skos:Concept ;
+    skos:prefLabel "An Giang"@vi .
+
+vcat:Anh_hùng_Lực_lượng_vũ_trang_nhân_dân a skos:Concept ;
+    skos:prefLabel "Anh hùng Lực lượng vũ trang nhân dân"@vi .
+
+vcat:Articles_using_YouTube_with_invalid_parameters a skos:Concept ;
+    skos:prefLabel "Articles using YouTube with invalid parameters"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Binh_chủng_Thông_tin_Liên_lạc,_Quân_đội_nhân_dân_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Binh chủng Thông tin Liên lạc, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Binh_chủng_Tăng_-_Thiết_giáp,_Quân_đội_nhân_dân_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Binh chủng Tăng - Thiết giáp, Quân đội nhân dân Việt Nam"@vi .
+
+vcat:Biên_Hòa a skos:Concept ;
+    skos:prefLabel "Biên Hòa"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Biên_giới_Việt_Nam_–_Lào> a skos:Concept ;
+    skos:prefLabel "Biên giới Việt Nam – Lào"@vi .
+
+vcat:Bê_bối_bóng_đá a skos:Concept ;
+    skos:prefLabel "Bê bối bóng đá"@vi .
+
+vcat:Bê_bối_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bê bối tại Việt Nam"@vi .
+
+vcat:Bình_Dương a skos:Concept ;
+    skos:prefLabel "Bình Dương"@vi .
+
+vcat:Bình_Phước a skos:Concept ;
+    skos:prefLabel "Bình Phước"@vi .
+
+vcat:Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Bình Thuận"@vi .
+
+vcat:Bình_Định a skos:Concept ;
+    skos:prefLabel "Bình Định"@vi .
+
+vcat:Bí_thư_Tỉnh_ủy_Lào_Cai a skos:Concept ;
+    skos:prefLabel "Bí thư Tỉnh ủy Lào Cai"@vi .
+
+vcat:Bóng_đá_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bóng đá Việt Nam"@vi .
+
+vcat:Bóng_đá_bãi_biển_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bóng đá bãi biển Việt Nam"@vi .
+
+vcat:Bóng_đá_nữ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bóng đá nữ Việt Nam"@vi .
+
+vcat:Bạc_Liêu a skos:Concept ;
+    skos:prefLabel "Bạc Liêu"@vi .
+
+vcat:Bản_mẫu_du_lịch a skos:Concept ;
+    skos:prefLabel "Bản mẫu du lịch"@vi .
+
+vcat:Bắc_Giang a skos:Concept ;
+    skos:prefLabel "Bắc Giang"@vi .
+
+vcat:Bắc_Kạn a skos:Concept ;
+    skos:prefLabel "Bắc Kạn"@vi .
+
+vcat:Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Bắc Ninh"@vi .
+
+vcat:Bắc_Trung_Bộ a skos:Concept ;
+    skos:prefLabel "Bắc Trung Bộ"@vi .
+
+vcat:Bằng_khen_của_Thủ_tướng_Chính_phủ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bằng khen của Thủ tướng Chính phủ Việt Nam"@vi .
+
+vcat:Bến_Tre a skos:Concept ;
+    skos:prefLabel "Bến Tre"@vi .
+
+vcat:Bộ_Quốc_phòng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bộ Quốc phòng Việt Nam"@vi .
+
+vcat:Bộ_trưởng_Bộ_Kế_hoạch_và_Đầu_tư_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Bộ trưởng Bộ Kế hoạch và Đầu tư Việt Nam"@vi .
+
+vcat:Cao_Bằng a skos:Concept ;
+    skos:prefLabel "Cao Bằng"@vi .
+
+vcat:Cao_đẳng_Mỹ_thuật_Đông_Dương a skos:Concept ;
+    skos:prefLabel "Cao đẳng Mỹ thuật Đông Dương"@vi .
+
+vcat:Chiếc_giày_vàng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Chiếc giày vàng Việt Nam"@vi .
+
+vcat:Chính_phủ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Chính phủ Việt Nam"@vi .
+
+vcat:Chấm_dứt_năm_2023_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Chấm dứt năm 2023 ở Việt Nam"@vi .
+
+vcat:Chết_vì_ung_thư_tuyến_tụy a skos:Concept ;
+    skos:prefLabel "Chết vì ung thư tuyến tụy"@vi .
+
+vcat:Chủ_tịch_Ủy_ban_nhân_dân_tỉnh_Lào_Cai a skos:Concept ;
+    skos:prefLabel "Chủ tịch Ủy ban nhân dân tỉnh Lào Cai"@vi .
+
+vcat:Chủng_viện_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Chủng viện ở Việt Nam"@vi .
+
+vcat:Cà_Mau a skos:Concept ;
+    skos:prefLabel "Cà Mau"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_An_Giang a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá An Giang"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Becamex_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Becamex Bình Dương"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Câu_lạc_bộ_bóng_đá_Bà_Rịa_–_Vũng_Tàu> a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Bà Rịa – Vũng Tàu"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Bình Dương"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Bình_Phước a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Bình Phước"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Bình Thuận"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Cà Mau"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Cần Thơ"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hoàng Anh Gia Lai"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Huế a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Huế"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hà Nội"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hà_Nội_-_ACB a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hà Nội - ACB"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hà_Nội_ACB a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hà Nội ACB"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Câu_lạc_bộ_bóng_đá_Hà_Nội_T&T> a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hà Nội T&T"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hàng_không_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hàng không Việt Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hòa Bình"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hòa_Phát_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hòa Phát Hà Nội"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hải Phòng"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Hồng Lĩnh"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Khatoco_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Khatoco Khánh Hòa"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Khánh Hòa"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Nam_Định a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Nam Định"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Navibank_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Navibank Sài Gòn"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Ninh Bình"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Phong_Phú_Hà_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Phong Phú Hà Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Phú_Yên a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Phú Yên"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Quảng Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Sanna_Khánh_Hòa_BVN a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Sanna Khánh Hòa BVN"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Sài Gòn"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Sông Lam Nghệ An"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Than Quảng Ninh"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Thanh Hóa"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Thành phố Hồ Chí Minh"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Tiền Giang"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Việt Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Việt_Nam_đã_giải_thể a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Việt Nam đã giải thể"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Vĩnh Long"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Xuân_Thành_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Xuân Thành Sài Gòn"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_giải_thể_năm_2014 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá giải thể năm 2014"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_ngành_Công_an a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá ngành Công an"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_nữ_Thành_phố_Hồ_Chí_Minh_I a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh I"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_nữ_Thành_phố_Hồ_Chí_Minh_II a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh II"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1954 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1954"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1956 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1956"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1962 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1962"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1965 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1965"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1975 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1975"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1976 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1976"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1979 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1979"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1997 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1997"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_1998 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 1998"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2000 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2000"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2006 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2006"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2007 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2007"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2009 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2009"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2010 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2010"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2013 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2013"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2015 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2015"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2016 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2016"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2019 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2019"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_thành_lập_năm_2021 a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá thành lập năm 2021"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Bình Dương"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Bình_Định a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Bình Định"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Gia Lai"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Hà Nội"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Hải Phòng"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Khánh Hòa"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Ninh Bình"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Quảng Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Thanh Hóa"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Tiền Giang"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_tại_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá tại Tây Ninh"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Đà Nẵng"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Đường_sắt_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Đường sắt Việt Nam"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Đắk Lắk"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá Đồng Tháp"@vi .
+
+vcat:Câu_lạc_bộ_bóng_đá_đã_giải_thể a skos:Concept ;
+    skos:prefLabel "Câu lạc bộ bóng đá đã giải thể"@vi .
+
+vcat:Công_an_nhân_dân_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Công an nhân dân Việt Nam"@vi .
+
+vcat:Công_dân_nhập_tịch_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Công dân nhập tịch Việt Nam"@vi .
+
+vcat:Công_nghiệp_Quốc_phòng a skos:Concept ;
+    skos:prefLabel "Công nghiệp Quốc phòng"@vi .
+
+vcat:Công_trình_kiến_trúc_Pháp_tại_Huế a skos:Concept ;
+    skos:prefLabel "Công trình kiến trúc Pháp tại Huế"@vi .
+
+vcat:Công_trình_kiến_trúc_Pháp_tại_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Công trình kiến trúc Pháp tại Hà Nội"@vi .
+
+vcat:Công_trình_kiến_trúc_Pháp_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Công trình kiến trúc Pháp tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Công_trình_tôn_giáo_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Công trình tôn giáo tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Công_trình_tôn_giáo_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Công trình tôn giáo Đồng Nai"@vi .
+
+vcat:Công_trình_xây_dựng_Huế a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng Huế"@vi .
+
+vcat:Công_trình_xây_dựng_hoàn_thành_năm_1966 a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng hoàn thành năm 1966"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Cần Thơ"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Hải Phòng"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Khánh Hòa"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Kiên Giang"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Long_An a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Long An"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Ninh Bình"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Quảng Nam"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Quảng Ninh"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Thành phố Hồ Chí Minh"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Tây Ninh"@vi .
+
+vcat:Công_trình_xây_dựng_ở_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Công trình xây dựng ở Đồng Nai"@vi .
+
+vcat:Cơ_quan_tình_báo_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cơ quan tình báo Việt Nam"@vi .
+
+vcat:Cơ_sở_giáo_dục_của_Giáo_hội_Công_giáo_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục của Giáo hội Công giáo tại Việt Nam"@vi .
+
+vcat:Cơ_sở_giáo_dục_thành_lập_năm_1956 a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục thành lập năm 1956"@vi .
+
+vcat:Cơ_sở_giáo_dục_thành_lập_năm_1994 a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục thành lập năm 1994"@vi .
+
+vcat:Cơ_sở_giáo_dục_thành_lập_năm_1997 a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục thành lập năm 1997"@vi .
+
+vcat:Cơ_sở_giáo_dục_thành_lập_năm_2003 a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục thành lập năm 2003"@vi .
+
+vcat:Cơ_sở_giáo_dục_thành_lập_năm_2004 a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục thành lập năm 2004"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Công_thương a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Công thương"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Giao_thông_Vận_tải a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Giao thông Vận tải"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Giáo_dục_và_Đào_tạo a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Giáo dục và Đào tạo"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Lao_động,_Thương_bình_và_Xã_hội> a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Lao động, Thương bình và Xã hội"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Nông_nghiệp_và_Phát_triển_Nông_thôn a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Nông nghiệp và Phát triển Nông thôn"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Thông_tin_và_Truyền_thông a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Thông tin và Truyền thông"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Tài_chính a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Tài chính"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Văn_hóa,_Thể_thao_và_Du_lịch> a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Văn hóa, Thể thao và Du lịch"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Bộ_Xây_dựng a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Bộ Xây dựng"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ngân_hàng_Nhà_nước a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ngân hàng Nhà nước"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Tập_đoàn_Vingroup a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Tập đoàn Vingroup"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Tổng_Liên_đoàn_Lao_động_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Tổng Liên đoàn Lao động Việt Nam"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân Thành phố Hồ Chí Minh"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_thành_phố_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân thành phố Hải Phòng"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_thành_phố_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân thành phố Đà Nẵng"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Cà Mau"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Hưng Yên"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Khánh Hòa"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Nghệ An"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Phú Thọ"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Quảng_Trị a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Quảng Trị"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Thanh Hóa"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Đắk Lắk"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Đồng Nai"@vi .
+
+vcat:Cơ_sở_giáo_dục_trực_thuộc_Ủy_ban_nhân_dân_tỉnh_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục trực thuộc Ủy ban nhân dân tỉnh Đồng Tháp"@vi .
+
+vcat:Cơ_sở_giáo_dục_đại_học_trực_thuộc_Tập_đoàn_Nguyễn_Hoàng a skos:Concept ;
+    skos:prefLabel "Cơ sở giáo dục đại học trực thuộc Tập đoàn Nguyễn Hoàng"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cơ_sở_đào_tạo,_nghiên_cứu,_xuất_bản_trực_thuộc_Bộ_Y_tế> a skos:Concept ;
+    skos:prefLabel "Cơ sở đào tạo, nghiên cứu, xuất bản trực thuộc Bộ Y tế"@vi .
+
+vcat:Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Cần Thơ"@vi .
+
+vcat:Cầu_thủ_Câu_lạc_bộ_bóng_đá_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Cầu thủ Câu lạc bộ bóng đá Hải Phòng"@vi .
+
+vcat:Cầu_thủ_Câu_lạc_bộ_bóng_đá_nữ_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cầu thủ Câu lạc bộ bóng đá nữ Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_Câu_lạc_bộ_bóng_đá_nữ_Thái_Nguyên_T&T> a skos:Concept ;
+    skos:prefLabel "Cầu thủ Câu lạc bộ bóng đá nữ Thái Nguyên T&T"@vi .
+
+vcat:Cầu_thủ_Câu_lạc_bộ_bóng_đá_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Cầu thủ Câu lạc bộ bóng đá Đồng Tháp"@vi .
+
+vcat:Cầu_thủ_Cúp_bóng_đá_châu_Á_2007 a skos:Concept ;
+    skos:prefLabel "Cầu thủ Cúp bóng đá châu Á 2007"@vi .
+
+vcat:Cầu_thủ_Cúp_bóng_đá_châu_Á_2019 a skos:Concept ;
+    skos:prefLabel "Cầu thủ Cúp bóng đá châu Á 2019"@vi .
+
+vcat:Cầu_thủ_Cúp_bóng_đá_châu_Á_2023 a skos:Concept ;
+    skos:prefLabel "Cầu thủ Cúp bóng đá châu Á 2023"@vi .
+
+vcat:Cầu_thủ_Giải_bóng_đá_Ngoại_hạng_Thái_Lan a skos:Concept ;
+    skos:prefLabel "Cầu thủ Giải bóng đá Ngoại hạng Thái Lan"@vi .
+
+vcat:Cầu_thủ_Giải_bóng_đá_vô_địch_quốc_gia_Bồ_Đào_Nha a skos:Concept ;
+    skos:prefLabel "Cầu thủ Giải bóng đá vô địch quốc gia Bồ Đào Nha"@vi .
+
+vcat:Cầu_thủ_Giải_vô_địch_bóng_đá_nữ_thế_giới_2023 a skos:Concept ;
+    skos:prefLabel "Cầu thủ Giải vô địch bóng đá nữ thế giới 2023"@vi .
+
+vcat:Cầu_thủ_III_liga a skos:Concept ;
+    skos:prefLabel "Cầu thủ III liga"@vi .
+
+vcat:Cầu_thủ_II_liga a skos:Concept ;
+    skos:prefLabel "Cầu thủ II liga"@vi .
+
+vcat:Cầu_thủ_Nagaworld_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ Nagaworld FC"@vi .
+
+vcat:Cầu_thủ_Olimpia_Grudziądz a skos:Concept ;
+    skos:prefLabel "Cầu thủ Olimpia Grudziądz"@vi .
+
+vcat:Cầu_thủ_Phnom_Penh_Crown_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ Phnom Penh Crown FC"@vi .
+
+vcat:Cầu_thủ_V.League_1 a skos:Concept ;
+    skos:prefLabel "Cầu thủ V.League 1"@vi .
+
+vcat:Cầu_thủ_V.League_2 a skos:Concept ;
+    skos:prefLabel "Cầu thủ V.League 2"@vi .
+
+vcat:Cầu_thủ_bóng_đá_1._FC_Slovácko a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá 1. FC Slovácko"@vi .
+
+vcat:Cầu_thủ_bóng_đá_A-League a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá A-League"@vi .
+
+vcat:Cầu_thủ_bóng_đá_AC_Sparta_Prague a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá AC Sparta Prague"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Atlético_de_Madrid a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Atlético de Madrid"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Azul_Claro_Numazu a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Azul Claro Numazu"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Belgian_First_Division_A a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Belgian First Division A"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Boavista_Sport_Club a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Boavista Sport Club"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Bohemians_1905 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Bohemians 1905"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_bóng_đá_Buriram_United_F.C.> a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Buriram United F.C."@vi .
+
+vcat:Cầu_thủ_bóng_đá_CR_Vasco_da_Gama a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá CR Vasco da Gama"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Campeonato_Brasileiro_Série_A a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Campeonato Brasileiro Série A"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Campeonato_Brasileiro_Série_B a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Campeonato Brasileiro Série B"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Cerezo_Osaka a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Cerezo Osaka"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Championnat_National_3 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Championnat National 3"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Esporte_Clube_Vitória a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Esporte Clube Vitória"@vi .
+
+vcat:Cầu_thủ_bóng_đá_FC_Porto_B a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá FC Porto B"@vi .
+
+vcat:Cầu_thủ_bóng_đá_FC_Ryukyu a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá FC Ryukyu"@vi .
+
+vcat:Cầu_thủ_bóng_đá_FC_Slovan_Liberec a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá FC Slovan Liberec"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Gangwon_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Gangwon FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Ghana a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Ghana"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Hokkaido_Consadole_Sapporo a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Hokkaido Consadole Sapporo"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Hà Nội"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Incheon_United_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Incheon United FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_J1_League a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá J1 League"@vi .
+
+vcat:Cầu_thủ_bóng_đá_J2_League a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá J2 League"@vi .
+
+vcat:Cầu_thủ_bóng_đá_J3_League a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá J3 League"@vi .
+
+vcat:Cầu_thủ_bóng_đá_K_League_1 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá K League 1"@vi .
+
+vcat:Cầu_thủ_bóng_đá_K_League_2 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá K League 2"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_bóng_đá_Leixões_S.C.> a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Leixões S.C."@vi .
+
+vcat:Cầu_thủ_bóng_đá_Ligue_2 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Ligue 2"@vi .
+
+vcat:Cầu_thủ_bóng_đá_MFK_Zemplín_Michalovce a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá MFK Zemplín Michalovce"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Major_League_Soccer a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Major League Soccer"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Mito_HollyHock a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Mito HollyHock"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_bóng_đá_Muangthong_United_F.C.> a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Muangthong United F.C."@vi .
+
+vcat:Cầu_thủ_bóng_đá_Nigeria a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Nigeria"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Pau_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Pau FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Perth_Glory_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Perth Glory FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Phong_Phú_Hà_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Phong Phú Hà Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Quân_khu_5 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Quân khu 5"@vi .
+
+vcat:Cầu_thủ_bóng_đá_România a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá România"@vi .
+
+vcat:Cầu_thủ_bóng_đá_S.C._Braga a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá S.C. Braga"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Seoul_E-Land_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Seoul E-Land FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Séc a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Séc"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Thanh Hóa"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Thể_Công a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Thể Công"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Ukraina a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Ukraina"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Vegalta_Sendai a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Vegalta Sendai"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Việt_Nam_ở_Nhật_Bản a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Việt Nam ở Nhật Bản"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Yokohama_FC a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Yokohama FC"@vi .
+
+vcat:Cầu_thủ_bóng_đá_bãi_biển a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá bãi biển"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Brasil a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Brasil"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Brasil_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Brasil ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Bulgaria a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Bulgaria"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Cameroon a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Cameroon"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Hoa_Kỳ a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Hoa Kỳ"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Hà_Lan a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Hà Lan"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Hà_Lan_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Hà Lan ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Jamaica a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Jamaica"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Jamaica_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Jamaica ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Nga a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Nga"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Nga_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Nga ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Pháp a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Pháp"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Pháp_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Pháp ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Slovakia a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Slovakia"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Việt_Nam_thi_đấu_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Việt Nam thi đấu ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Việt_Nam_ở_nước_ngoài a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Việt Nam ở nước ngoài"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_người_Ba_Lan a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam người Ba Lan"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_người_Campuchia a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam người Campuchia"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_người_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam người Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_thi_đấu_ở_nước_ngoài_tại_Campuchia a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam thi đấu ở nước ngoài tại Campuchia"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_thi_đấu_ở_nước_ngoài_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam thi đấu ở nước ngoài tại Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nam_Đức a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nam Đức"@vi .
+
+vcat:Cầu_thủ_bóng_đá_người_Việt_lai a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá người Việt lai"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_tại_Hoa_Kỳ a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài tại Hoa Kỳ"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Bỉ a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Bỉ"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Bồ_Đào_Nha a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Bồ Đào Nha"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Hà_Lan a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Hà Lan"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Hàn_Quốc a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Hàn Quốc"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Lào a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Lào"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Nhật_Bản a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Nhật Bản"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Pháp a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Pháp"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Thái_Lan a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Thái Lan"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Trung_Quốc a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Trung Quốc"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Tây_Ban_Nha a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Tây Ban Nha"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nước_ngoài_ở_Đan_Mạch a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nước ngoài ở Đan Mạch"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nữ_Canada a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nữ Canada"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nữ_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nữ Hà Nội"@vi .
+
+vcat:Cầu_thủ_bóng_đá_nữ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá nữ Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_trong_nhà_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá trong nhà Việt Nam"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Úc a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Úc"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_1970 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 1970"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_1998 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 1998"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2002 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2002"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2006 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2006"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2010 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2010"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2014 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2014"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2018 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2018"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2022 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2022"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_Thể_thao_châu_Á_2026 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội Thể thao châu Á 2026"@vi .
+
+vcat:Cầu_thủ_bóng_đá_Đại_hội_thể_thao_châu_Á_2006 a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá Đại hội thể thao châu Á 2006"@vi .
+
+vcat:Cầu_thủ_bóng_đá_đa_năng a skos:Concept ;
+    skos:prefLabel "Cầu thủ bóng đá đa năng"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_câu_lạc_bộ_Hà_Nội_T&T> a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ Hà Nội T&T"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_SHB_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ SHB Đà Nẵng"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_An_Giang a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá An Giang"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Becamex_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Becamex Bình Dương"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bà_Rịa_-_Vũng_Tàu a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bà Rịa - Vũng Tàu"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bà_Rịa_Vũng_Tàu a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bà Rịa Vũng Tàu"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bà_Rịa_–_Vũng_Tàu> a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bà Rịa – Vũng Tàu"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bình_Phước a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bình Phước"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bình Thuận"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Bắc Ninh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Cà Mau"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Công_an_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Công an Hà Nội"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Công_an_nhân_dân a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Công an nhân dân"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Cảng_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Cảng Sài Gòn"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Cần Thơ"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hoàng Anh Gia Lai"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Huế a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Huế"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hà_Nội_\(2012\) a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hà Nội (2012)"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hà_Nội_\(2016\) a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hà Nội (2016)"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hà_Nội_ACB a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hà Nội ACB"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hòa Bình"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hòa_Phát_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hòa Phát Hà Nội"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hưng Yên"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hải Phòng"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Khánh Hòa"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Kiên Giang"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Long_An a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Long An"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Lâm Đồng"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Nam_Định a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Nam Định"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Navibank_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Navibank Sài Gòn"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Ninh Bình"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_PVF-CAND a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá PVF-CAND"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Phù_Đổng a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Phù Đổng"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Phú Thọ"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Phú_Yên a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Phú Yên"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Quy_Nhơn_United a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Quy Nhơn United"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Quân_khu_4 a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Quân khu 4"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Quân_khu_7 a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Quân khu 7"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Quảng Nam"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Quảng Ninh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá SHB Đà Nẵng"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Sài Gòn"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Sông Lam Nghệ An"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Than Quảng Ninh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Thanh Hóa"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Thành phố Hồ Chí Minh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Thành_phố_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Thành phố Đồng Nai"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Thái Nguyên"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_câu_lạc_bộ_bóng_đá_Thể_Công_–_Viettel> a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Thể Công – Viettel"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Tiền Giang"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Tây Ninh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Viettel a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Viettel"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Vĩnh_Phúc a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Vĩnh Phúc"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Xi_măng_The_Vissai_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Xi măng The Vissai Ninh Bình"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Xuân_Thành_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Xuân Thành Sài Gòn"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_nữ_Hà_Nội_I a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá nữ Hà Nội I"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_nữ_Than_Khoáng_Sản_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá nữ Than Khoáng Sản Việt Nam"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_nữ_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Đắk Lắk"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Đồng Nai"@vi .
+
+vcat:Cầu_thủ_câu_lạc_bộ_bóng_đá_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Cầu thủ câu lạc bộ bóng đá Đồng Tháp"@vi .
+
+vcat:Cầu_thủ_giải_bóng_đá_hạng_nhì_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ giải bóng đá hạng nhì quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_giải_bóng_đá_hạng_nhất_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ giải bóng đá hạng nhất quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_giải_bóng_đá_vô_địch_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ giải bóng đá vô địch quốc gia Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Cầu_thủ_từ_lò_đào_tạo_Hà_Nội_T&T> a skos:Concept ;
+    skos:prefLabel "Cầu thủ từ lò đào tạo Hà Nội T&T"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_U-19_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá U-19 quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_U-21_quốc_gia_Slovakia a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá U-21 quốc gia Slovakia"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_U-21_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá U-21 quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_U-23_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá U-23 quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá nữ quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá quốc gia Việt Nam"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_trẻ_quốc_gia_Bulgaria a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá trẻ quốc gia Bulgaria"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_trẻ_quốc_gia_Pháp a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá trẻ quốc gia Pháp"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_trẻ_quốc_gia_Slovakia a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá trẻ quốc gia Slovakia"@vi .
+
+vcat:Cầu_thủ_đội_tuyển_bóng_đá_trẻ_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Cầu thủ đội tuyển bóng đá trẻ quốc gia Việt Nam"@vi .
+
+vcat:Cẩm_Lệ a skos:Concept ;
+    skos:prefLabel "Cẩm Lệ"@vi .
+
+vcat:Cộng_hòa a skos:Concept ;
+    skos:prefLabel "Cộng hòa"@vi .
+
+vcat:Cựu_sinh_viên_trường_Đại_học_Nông_nghiệp_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Cựu sinh viên trường Đại học Nông nghiệp Hà Nội"@vi .
+
+vcat:Danh_hiệu_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Danh hiệu Việt Nam"@vi .
+
+vcat:Du_lịch_Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Du lịch Bình Thuận"@vi .
+
+vcat:Du_lịch_Bình_Định a skos:Concept ;
+    skos:prefLabel "Du lịch Bình Định"@vi .
+
+vcat:Du_lịch_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Du lịch Cần Thơ"@vi .
+
+vcat:Du_lịch_Huế a skos:Concept ;
+    skos:prefLabel "Du lịch Huế"@vi .
+
+vcat:Du_lịch_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Du lịch Hà Nội"@vi .
+
+vcat:Du_lịch_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Du lịch Hải Phòng"@vi .
+
+vcat:Du_lịch_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Du lịch Khánh Hòa"@vi .
+
+vcat:Du_lịch_Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Du lịch Kiên Giang"@vi .
+
+vcat:Du_lịch_Long_An a skos:Concept ;
+    skos:prefLabel "Du lịch Long An"@vi .
+
+vcat:Du_lịch_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Du lịch Lâm Đồng"@vi .
+
+vcat:Du_lịch_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Du lịch Nghệ An"@vi .
+
+vcat:Du_lịch_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Du lịch Ninh Bình"@vi .
+
+vcat:Du_lịch_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Du lịch Quảng Nam"@vi .
+
+vcat:Du_lịch_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Du lịch Quảng Ninh"@vi .
+
+vcat:Du_lịch_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Du lịch Thành phố Hồ Chí Minh"@vi .
+
+vcat:Du_lịch_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Du lịch Tiền Giang"@vi .
+
+vcat:Du_lịch_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Du lịch Tây Ninh"@vi .
+
+vcat:Du_lịch_Xứ_Đoài a skos:Concept ;
+    skos:prefLabel "Du lịch Xứ Đoài"@vi .
+
+vcat:Du_lịch_Đắk_Nông a skos:Concept ;
+    skos:prefLabel "Du lịch Đắk Nông"@vi .
+
+vcat:Du_lịch_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Du lịch Đồng Nai"@vi .
+
+vcat:Du_lịch_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Du lịch Đồng Tháp"@vi .
+
+vcat:Duyên_hải_Nam_Trung_Bộ a skos:Concept ;
+    skos:prefLabel "Duyên hải Nam Trung Bộ"@vi .
+
+vcat:Gia_Lai a skos:Concept ;
+    skos:prefLabel "Gia Lai"@vi .
+
+vcat:Giao_thông_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Giao thông Việt Nam"@vi .
+
+vcat:Giáo_dục_An_Giang a skos:Concept ;
+    skos:prefLabel "Giáo dục An Giang"@vi .
+
+vcat:Giáo_dục_Huế a skos:Concept ;
+    skos:prefLabel "Giáo dục Huế"@vi .
+
+vcat:Giáo_dục_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Giáo dục Hà Nội"@vi .
+
+vcat:Giáo_dục_Thừa_Thiên_Huế a skos:Concept ;
+    skos:prefLabel "Giáo dục Thừa Thiên Huế"@vi .
+
+vcat:Giáo_hội_Phật_giáo_Việt_Nam_Thống_nhất a skos:Concept ;
+    skos:prefLabel "Giáo hội Phật giáo Việt Nam Thống nhất"@vi .
+
+vcat:Giải_thể_năm_2018_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Giải thể năm 2018 ở Việt Nam"@vi .
+
+vcat:Giải_vô_địch_bóng_đá_nữ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Giải vô địch bóng đá nữ Việt Nam"@vi .
+
+vcat:Gò_Vấp a skos:Concept ;
+    skos:prefLabel "Gò Vấp"@vi .
+
+vcat:Huân_chương_Bảo_vệ_Tổ_quốc a skos:Concept ;
+    skos:prefLabel "Huân chương Bảo vệ Tổ quốc"@vi .
+
+vcat:Huân_chương_Chiến_công a skos:Concept ;
+    skos:prefLabel "Huân chương Chiến công"@vi .
+
+vcat:Huân_chương_Chiến_công_hạng_Ba a skos:Concept ;
+    skos:prefLabel "Huân chương Chiến công hạng Ba"@vi .
+
+vcat:Huân_chương_Chiến_công_hạng_Nhì a skos:Concept ;
+    skos:prefLabel "Huân chương Chiến công hạng Nhì"@vi .
+
+vcat:Huân_chương_Chiến_công_hạng_Nhất a skos:Concept ;
+    skos:prefLabel "Huân chương Chiến công hạng Nhất"@vi .
+
+vcat:Huân_chương_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Huân chương Hồ Chí Minh"@vi .
+
+vcat:Huân_chương_Kháng_chiến a skos:Concept ;
+    skos:prefLabel "Huân chương Kháng chiến"@vi .
+
+vcat:Huân_chương_Kháng_chiến_chống_Mỹ a skos:Concept ;
+    skos:prefLabel "Huân chương Kháng chiến chống Mỹ"@vi .
+
+vcat:Huân_chương_Kháng_chiến_chống_Mỹ_hạng_Ba a skos:Concept ;
+    skos:prefLabel "Huân chương Kháng chiến chống Mỹ hạng Ba"@vi .
+
+vcat:Huân_chương_Lao_động a skos:Concept ;
+    skos:prefLabel "Huân chương Lao động"@vi .
+
+vcat:Huân_chương_Lao_động_hạng_Ba a skos:Concept ;
+    skos:prefLabel "Huân chương Lao động hạng Ba"@vi .
+
+vcat:Huân_chương_Lao_động_hạng_Nhì a skos:Concept ;
+    skos:prefLabel "Huân chương Lao động hạng Nhì"@vi .
+
+vcat:Huân_chương_Lao_động_hạng_Nhất a skos:Concept ;
+    skos:prefLabel "Huân chương Lao động hạng Nhất"@vi .
+
+vcat:Huân_chương_Quân_công a skos:Concept ;
+    skos:prefLabel "Huân chương Quân công"@vi .
+
+vcat:Huân_chương_Sao_Vàng a skos:Concept ;
+    skos:prefLabel "Huân chương Sao Vàng"@vi .
+
+vcat:Huân_chương_và_huy_chương_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Huân chương và huy chương Việt Nam"@vi .
+
+vcat:Huân_chương_Độc_lập a skos:Concept ;
+    skos:prefLabel "Huân chương Độc lập"@vi .
+
+vcat:Huân_chương_Độc_lập_hạng_Ba a skos:Concept ;
+    skos:prefLabel "Huân chương Độc lập hạng Ba"@vi .
+
+vcat:Huân_chương_Độc_lập_hạng_Nhì a skos:Concept ;
+    skos:prefLabel "Huân chương Độc lập hạng Nhì"@vi .
+
+vcat:Huân_chương_Độc_lập_hạng_Nhất a skos:Concept ;
+    skos:prefLabel "Huân chương Độc lập hạng Nhất"@vi .
+
+vcat:Huấn_luyện_viên_bóng_đá a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên bóng đá"@vi .
+
+vcat:Huấn_luyện_viên_bóng_đá_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên bóng đá Việt Nam"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_An_Giang a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá An Giang"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Bình Dương"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Cảng_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Cảng Sài Gòn"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Cần Thơ"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Hoàng Anh Gia Lai"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Hà Nội"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Hòa_Phát_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Hòa Phát Hà Nội"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Hải Phòng"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Khánh_Hoà a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Khánh Hoà"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Nam_Định a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Nam Định"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Quảng Nam"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Sông Lam Nghệ An"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Thanh Hóa"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Thành phố Hồ Chí Minh"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Thể_Công a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Thể Công"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Tiền Giang"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Viettel a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Viettel"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Đà Nẵng"@vi .
+
+vcat:Huấn_luyện_viên_câu_lạc_bộ_bóng_đá_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên câu lạc bộ bóng đá Đồng Nai"@vi .
+
+vcat:Huấn_luyện_viên_đội_tuyển_bóng_đá_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Huấn luyện viên đội tuyển bóng đá quốc gia Việt Nam"@vi .
+
+vcat:Huế a skos:Concept ;
+    skos:prefLabel "Huế"@vi .
+
+vcat:Hà_Giang a skos:Concept ;
+    skos:prefLabel "Hà Giang"@vi .
+
+vcat:Hà_Nội a skos:Concept ;
+    skos:prefLabel "Hà Nội"@vi .
+
+vcat:Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Hà Tĩnh"@vi .
+
+vcat:Hành_chính_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Hành chính Bình Dương"@vi .
+
+vcat:Hành_chính_Bình_Phước a skos:Concept ;
+    skos:prefLabel "Hành chính Bình Phước"@vi .
+
+vcat:Hành_chính_Bình_Định a skos:Concept ;
+    skos:prefLabel "Hành chính Bình Định"@vi .
+
+vcat:Hành_chính_Bắc_Giang a skos:Concept ;
+    skos:prefLabel "Hành chính Bắc Giang"@vi .
+
+vcat:Hành_chính_Bắc_Kạn a skos:Concept ;
+    skos:prefLabel "Hành chính Bắc Kạn"@vi .
+
+vcat:Hành_chính_Bến_Tre a skos:Concept ;
+    skos:prefLabel "Hành chính Bến Tre"@vi .
+
+vcat:Hành_chính_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Hành chính Cần Thơ"@vi .
+
+vcat:Hành_chính_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Hành chính Gia Lai"@vi .
+
+vcat:Hành_chính_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Hành chính Hà Nội"@vi .
+
+vcat:Hành_chính_Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Hành chính Hà Tĩnh"@vi .
+
+vcat:Hành_chính_Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Hành chính Hòa Bình"@vi .
+
+vcat:Hành_chính_Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Hành chính Hưng Yên"@vi .
+
+vcat:Hành_chính_Hải_Dương a skos:Concept ;
+    skos:prefLabel "Hành chính Hải Dương"@vi .
+
+vcat:Hành_chính_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Hành chính Hải Phòng"@vi .
+
+vcat:Hành_chính_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Hành chính Khánh Hòa"@vi .
+
+vcat:Hành_chính_Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Hành chính Kiên Giang"@vi .
+
+vcat:Hành_chính_Kon_Tum a skos:Concept ;
+    skos:prefLabel "Hành chính Kon Tum"@vi .
+
+vcat:Hành_chính_Long_An a skos:Concept ;
+    skos:prefLabel "Hành chính Long An"@vi .
+
+vcat:Hành_chính_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Hành chính Lâm Đồng"@vi .
+
+vcat:Hành_chính_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Hành chính Nghệ An"@vi .
+
+vcat:Hành_chính_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Hành chính Phú Thọ"@vi .
+
+vcat:Hành_chính_Phú_Yên a skos:Concept ;
+    skos:prefLabel "Hành chính Phú Yên"@vi .
+
+vcat:Hành_chính_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Hành chính Quảng Nam"@vi .
+
+vcat:Hành_chính_Quảng_Ngãi a skos:Concept ;
+    skos:prefLabel "Hành chính Quảng Ngãi"@vi .
+
+vcat:Hành_chính_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Hành chính Quảng Ninh"@vi .
+
+vcat:Hành_chính_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Hành chính Thái Nguyên"@vi .
+
+vcat:Hành_chính_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Hành chính Tiền Giang"@vi .
+
+vcat:Hành_chính_Trà_Vinh a skos:Concept ;
+    skos:prefLabel "Hành chính Trà Vinh"@vi .
+
+vcat:Hành_chính_Việt_Nam_Cộng_hòa a skos:Concept ;
+    skos:prefLabel "Hành chính Việt Nam Cộng hòa"@vi .
+
+vcat:Hành_chính_Việt_Nam_thời_Nguyễn a skos:Concept ;
+    skos:prefLabel "Hành chính Việt Nam thời Nguyễn"@vi .
+
+vcat:Hành_chính_Việt_Nam_thời_Pháp_thuộc a skos:Concept ;
+    skos:prefLabel "Hành chính Việt Nam thời Pháp thuộc"@vi .
+
+vcat:Hành_chính_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Hành chính Vĩnh Long"@vi .
+
+vcat:Hành_chính_Vĩnh_Phúc a skos:Concept ;
+    skos:prefLabel "Hành chính Vĩnh Phúc"@vi .
+
+vcat:Hành_chính_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Hành chính Đà Nẵng"@vi .
+
+vcat:Hành_chính_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Hành chính Đồng Nai"@vi .
+
+vcat:Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Hòa Bình"@vi .
+
+vcat:Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Hưng Yên"@vi .
+
+vcat:Hải_Châu a skos:Concept ;
+    skos:prefLabel "Hải Châu"@vi .
+
+vcat:Hải_Dương a skos:Concept ;
+    skos:prefLabel "Hải Dương"@vi .
+
+vcat:Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Hải Phòng"@vi .
+
+vcat:Hải_quân_Nhân_dân_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Hải quân Nhân dân Việt Nam"@vi .
+
+vcat:Hậu_Giang a skos:Concept ;
+    skos:prefLabel "Hậu Giang"@vi .
+
+vcat:Hậu_vệ_bóng_đá a skos:Concept ;
+    skos:prefLabel "Hậu vệ bóng đá"@vi .
+
+vcat:Hậu_vệ_bóng_đá_nam a skos:Concept ;
+    skos:prefLabel "Hậu vệ bóng đá nam"@vi .
+
+vcat:Hậu_vệ_bóng_đá_nữ a skos:Concept ;
+    skos:prefLabel "Hậu vệ bóng đá nữ"@vi .
+
+vcat:Hệ_thống_đại_học_ASEAN a skos:Concept ;
+    skos:prefLabel "Hệ thống đại học ASEAN"@vi .
+
+vcat:Họ_Mạc_gốc_xứ_Đông a skos:Concept ;
+    skos:prefLabel "Họ Mạc gốc xứ Đông"@vi .
+
+vcat:Học_viện_An_ninh_nhân_dân a skos:Concept ;
+    skos:prefLabel "Học viện An ninh nhân dân"@vi .
+
+vcat:Học_viện_Chính_trị_Quốc_gia_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Học viện Chính trị Quốc gia Hồ Chí Minh"@vi .
+
+vcat:Học_viện_Hành_chính_Quốc_gia a skos:Concept ;
+    skos:prefLabel "Học viện Hành chính Quốc gia"@vi .
+
+vcat:Học_viện_Kỹ_thuật_Quân_sự a skos:Concept ;
+    skos:prefLabel "Học viện Kỹ thuật Quân sự"@vi .
+
+vcat:Học_viện_Kỹ_thuật_Quân_sự_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện Kỹ thuật Quân sự Việt Nam"@vi .
+
+vcat:Học_viện_Lục_quân a skos:Concept ;
+    skos:prefLabel "Học viện Lục quân"@vi .
+
+vcat:Học_viện_Nông_nghiệp_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện Nông nghiệp Việt Nam"@vi .
+
+vcat:Học_viện_Quân_y_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện Quân y Việt Nam"@vi .
+
+vcat:Học_viện_Quốc_phòng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện Quốc phòng Việt Nam"@vi .
+
+vcat:Học_viện_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện Việt Nam"@vi .
+
+vcat:Học_viện_quân_sự_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Học viện quân sự Việt Nam"@vi .
+
+vcat:Khu_dân_cư_thành_lập_thế_kỷ_1 a skos:Concept ;
+    skos:prefLabel "Khu dân cư thành lập thế kỷ 1"@vi .
+
+vcat:Khu_vực_có_tranh_chấp_chủ_quyền_của_Campuchia a skos:Concept ;
+    skos:prefLabel "Khu vực có tranh chấp chủ quyền của Campuchia"@vi .
+
+vcat:Khu_vực_có_tranh_chấp_chủ_quyền_của_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khu vực có tranh chấp chủ quyền của Việt Nam"@vi .
+
+vcat:Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Khánh Hòa"@vi .
+
+vcat:Khởi_đầu_năm_1010 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1010"@vi .
+
+vcat:Khởi_đầu_năm_1698_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1698 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1831 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1831"@vi .
+
+vcat:Khởi_đầu_năm_1890 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1890"@vi .
+
+vcat:Khởi_đầu_năm_1895 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1895"@vi .
+
+vcat:Khởi_đầu_năm_1898_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1898 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1906_ở_Liên_bang_Đông_Dương a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1906 ở Liên bang Đông Dương"@vi .
+
+vcat:Khởi_đầu_năm_1925_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1925 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1930_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1930 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1943_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1943 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1951_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1951 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1953_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1953 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1954_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1954 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1955_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1955 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1956 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1956"@vi .
+
+vcat:Khởi_đầu_năm_1956_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1956 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1960_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1960 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1962_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1962 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1965_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1965 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1966_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1966 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1975 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1975"@vi .
+
+vcat:Khởi_đầu_năm_1975_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1975 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1976_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1976 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1979_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1979 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1983_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1983 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1984_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1984 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1991_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1991 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1996_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1996 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1997_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1997 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_1998 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1998"@vi .
+
+vcat:Khởi_đầu_năm_1998_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 1998 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2000_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2000 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2003_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2003 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2004_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2004 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2006_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2006 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2011 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2011"@vi .
+
+vcat:Khởi_đầu_năm_2013_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2013 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2015 a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2015"@vi .
+
+vcat:Khởi_đầu_năm_2015_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2015 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2016_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2016 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2019_ở_châu_Á a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2019 ở châu Á"@vi .
+
+vcat:Khởi_đầu_năm_2020_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2020 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2021_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2021 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_năm_2023_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu năm 2023 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_thập_niên_1970_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu thập niên 1970 ở Việt Nam"@vi .
+
+vcat:Khởi_đầu_thập_niên_1980_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Khởi đầu thập niên 1980 ở Việt Nam"@vi .
+
+vcat:Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Kiên Giang"@vi .
+
+vcat:Kon_Tum a skos:Concept ;
+    skos:prefLabel "Kon Tum"@vi .
+
+vcat:Kỹ_thuật_hàng_không a skos:Concept ;
+    skos:prefLabel "Kỹ thuật hàng không"@vi .
+
+vcat:Kỹ_thuật_quân_sự a skos:Concept ;
+    skos:prefLabel "Kỹ thuật quân sự"@vi .
+
+vcat:Lai_Châu a skos:Concept ;
+    skos:prefLabel "Lai Châu"@vi .
+
+vcat:Long_An a skos:Concept ;
+    skos:prefLabel "Long An"@vi .
+
+vcat:Long_Xuyên a skos:Concept ;
+    skos:prefLabel "Long Xuyên"@vi .
+
+vcat:Lào_Cai a skos:Concept ;
+    skos:prefLabel "Lào Cai"@vi .
+
+vcat:Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Lâm Đồng"@vi .
+
+vcat:Lãnh_đạo_tỉnh_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Lãnh đạo tỉnh Nghệ An"@vi .
+
+vcat:Lạng_Sơn a skos:Concept ;
+    skos:prefLabel "Lạng Sơn"@vi .
+
+vcat:Lịch_sử_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Lịch sử Khánh Hòa"@vi .
+
+vcat:Lịch_sử_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Lịch sử Lâm Đồng"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Lịch_sử_Sài_Gòn_–_Thành_phố_Hồ_Chí_Minh> a skos:Concept ;
+    skos:prefLabel "Lịch sử Sài Gòn – Thành phố Hồ Chí Minh"@vi .
+
+vcat:Lịch_sử_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Lịch sử Vĩnh Long"@vi .
+
+vcat:Mất_năm_2002 a skos:Concept ;
+    skos:prefLabel "Mất năm 2002"@vi .
+
+vcat:Mất_năm_2005 a skos:Concept ;
+    skos:prefLabel "Mất năm 2005"@vi .
+
+vcat:Mất_năm_2007 a skos:Concept ;
+    skos:prefLabel "Mất năm 2007"@vi .
+
+vcat:Mất_năm_2014 a skos:Concept ;
+    skos:prefLabel "Mất năm 2014"@vi .
+
+vcat:Mất_năm_2016 a skos:Concept ;
+    skos:prefLabel "Mất năm 2016"@vi .
+
+vcat:Mất_năm_2021 a skos:Concept ;
+    skos:prefLabel "Mất năm 2021"@vi .
+
+vcat:Mất_năm_2023 a skos:Concept ;
+    skos:prefLabel "Mất năm 2023"@vi .
+
+vcat:Mất_năm_2024 a skos:Concept ;
+    skos:prefLabel "Mất năm 2024"@vi .
+
+vcat:Mất_năm_2026 a skos:Concept ;
+    skos:prefLabel "Mất năm 2026"@vi .
+
+vcat:Nam_Bộ a skos:Concept ;
+    skos:prefLabel "Nam Bộ"@vi .
+
+vcat:Nam_Kỳ_lục_tỉnh a skos:Concept ;
+    skos:prefLabel "Nam Kỳ lục tỉnh"@vi .
+
+vcat:Nam_giới_tự_sát a skos:Concept ;
+    skos:prefLabel "Nam giới tự sát"@vi .
+
+vcat:Nghệ_An a skos:Concept ;
+    skos:prefLabel "Nghệ An"@vi .
+
+vcat:Người_An_Giang a skos:Concept ;
+    skos:prefLabel "Người An Giang"@vi .
+
+vcat:Người_Ba_Lan_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Ba Lan gốc Việt"@vi .
+
+vcat:Người_Ba_Na a skos:Concept ;
+    skos:prefLabel "Người Ba Na"@vi .
+
+vcat:Người_Brasil_nhập_cư_vào_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người Brasil nhập cư vào Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Người_Bà_Rịa_–_Vũng_Tàu> a skos:Concept ;
+    skos:prefLabel "Người Bà Rịa – Vũng Tàu"@vi .
+
+vcat:Người_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Người Bình Dương"@vi .
+
+vcat:Người_Bình_Phước a skos:Concept ;
+    skos:prefLabel "Người Bình Phước"@vi .
+
+vcat:Người_Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Người Bình Thuận"@vi .
+
+vcat:Người_Bình_Định a skos:Concept ;
+    skos:prefLabel "Người Bình Định"@vi .
+
+vcat:Người_Bắc_Giang a skos:Concept ;
+    skos:prefLabel "Người Bắc Giang"@vi .
+
+vcat:Người_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Người Bắc Ninh"@vi .
+
+vcat:Người_Bến_Tre a skos:Concept ;
+    skos:prefLabel "Người Bến Tre"@vi .
+
+vcat:Người_Canada_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Canada gốc Việt"@vi .
+
+vcat:Người_Chăm a skos:Concept ;
+    skos:prefLabel "Người Chăm"@vi .
+
+vcat:Người_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Người Cà Mau"@vi .
+
+vcat:Người_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Người Cần Thơ"@vi .
+
+vcat:Người_Diễn_Châu a skos:Concept ;
+    skos:prefLabel "Người Diễn Châu"@vi .
+
+vcat:Người_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Người Gia Lai"@vi .
+
+vcat:Người_Giẻ_Triêng a skos:Concept ;
+    skos:prefLabel "Người Giẻ Triêng"@vi .
+
+vcat:Người_Gò_Công a skos:Concept ;
+    skos:prefLabel "Người Gò Công"@vi .
+
+vcat:Người_Hoa_\(Việt_Nam\) a skos:Concept ;
+    skos:prefLabel "Người Hoa (Việt Nam)"@vi .
+
+vcat:Người_Huế a skos:Concept ;
+    skos:prefLabel "Người Huế"@vi .
+
+vcat:Người_Hà_Nam a skos:Concept ;
+    skos:prefLabel "Người Hà Nam"@vi .
+
+vcat:Người_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Người Hà Nội"@vi .
+
+vcat:Người_Hà_Tây a skos:Concept ;
+    skos:prefLabel "Người Hà Tây"@vi .
+
+vcat:Người_Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Người Hà Tĩnh"@vi .
+
+vcat:Người_Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Người Hòa Bình"@vi .
+
+vcat:Người_Hưng_Nguyên a skos:Concept ;
+    skos:prefLabel "Người Hưng Nguyên"@vi .
+
+vcat:Người_Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Người Hưng Yên"@vi .
+
+vcat:Người_Hương_Sơn a skos:Concept ;
+    skos:prefLabel "Người Hương Sơn"@vi .
+
+vcat:Người_Hải_Dương a skos:Concept ;
+    skos:prefLabel "Người Hải Dương"@vi .
+
+vcat:Người_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Người Hải Phòng"@vi .
+
+vcat:Người_Khmer a skos:Concept ;
+    skos:prefLabel "Người Khmer"@vi .
+
+vcat:Người_Khmer_Krom a skos:Concept ;
+    skos:prefLabel "Người Khmer Krom"@vi .
+
+vcat:Người_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Người Khánh Hòa"@vi .
+
+vcat:Người_Kiên_Giang a skos:Concept ;
+    skos:prefLabel "Người Kiên Giang"@vi .
+
+vcat:Người_Kon_Tum a skos:Concept ;
+    skos:prefLabel "Người Kon Tum"@vi .
+
+vcat:Người_Long_An a skos:Concept ;
+    skos:prefLabel "Người Long An"@vi .
+
+vcat:Người_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Người Lâm Đồng"@vi .
+
+vcat:Người_Lạng_Sơn a skos:Concept ;
+    skos:prefLabel "Người Lạng Sơn"@vi .
+
+vcat:Người_Moskva a skos:Concept ;
+    skos:prefLabel "Người Moskva"@vi .
+
+vcat:Người_Mường a skos:Concept ;
+    skos:prefLabel "Người Mường"@vi .
+
+vcat:Người_Mỹ_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Mỹ gốc Việt"@vi .
+
+vcat:Người_Nam_Đàn a skos:Concept ;
+    skos:prefLabel "Người Nam Đàn"@vi .
+
+vcat:Người_Nam_Định a skos:Concept ;
+    skos:prefLabel "Người Nam Định"@vi .
+
+vcat:Người_Nga_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Nga gốc Việt"@vi .
+
+vcat:Người_Nghi_Lộc a skos:Concept ;
+    skos:prefLabel "Người Nghi Lộc"@vi .
+
+vcat:Người_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Người Nghệ An"@vi .
+
+vcat:Người_Nha_Trang a skos:Concept ;
+    skos:prefLabel "Người Nha Trang"@vi .
+
+vcat:Người_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Người Ninh Bình"@vi .
+
+vcat:Người_Ninh_Thuận a skos:Concept ;
+    skos:prefLabel "Người Ninh Thuận"@vi .
+
+vcat:Người_Pháp_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Pháp gốc Việt"@vi .
+
+vcat:Người_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Người Phú Thọ"@vi .
+
+vcat:Người_Phú_Yên a skos:Concept ;
+    skos:prefLabel "Người Phú Yên"@vi .
+
+vcat:Người_Quảng_Bình a skos:Concept ;
+    skos:prefLabel "Người Quảng Bình"@vi .
+
+vcat:Người_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Người Quảng Nam"@vi .
+
+vcat:Người_Quảng_Ngãi a skos:Concept ;
+    skos:prefLabel "Người Quảng Ngãi"@vi .
+
+vcat:Người_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Người Quảng Ninh"@vi .
+
+vcat:Người_Quảng_Trị a skos:Concept ;
+    skos:prefLabel "Người Quảng Trị"@vi .
+
+vcat:Người_Quỳnh_Lưu a skos:Concept ;
+    skos:prefLabel "Người Quỳnh Lưu"@vi .
+
+vcat:Người_România_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người România gốc Việt"@vi .
+
+vcat:Người_Slovakia_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Slovakia gốc Việt"@vi .
+
+vcat:Người_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Người Sài Gòn"@vi .
+
+vcat:Người_Séc_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Séc gốc Việt"@vi .
+
+vcat:Người_Sóc_Trăng a skos:Concept ;
+    skos:prefLabel "Người Sóc Trăng"@vi .
+
+vcat:Người_Sơn_La a skos:Concept ;
+    skos:prefLabel "Người Sơn La"@vi .
+
+vcat:Người_Sơn_Tây a skos:Concept ;
+    skos:prefLabel "Người Sơn Tây"@vi .
+
+vcat:Người_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Người Thanh Hóa"@vi .
+
+vcat:Người_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Người Thành phố Hồ Chí Minh"@vi .
+
+vcat:Người_Thái_Bình a skos:Concept ;
+    skos:prefLabel "Người Thái Bình"@vi .
+
+vcat:Người_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Người Thái Nguyên"@vi .
+
+vcat:Người_Thủy_Nguyên a skos:Concept ;
+    skos:prefLabel "Người Thủy Nguyên"@vi .
+
+vcat:Người_Thừa_Thiên_Huế a skos:Concept ;
+    skos:prefLabel "Người Thừa Thiên Huế"@vi .
+
+vcat:Người_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Người Tiền Giang"@vi .
+
+vcat:Người_Trà_Vinh a skos:Concept ;
+    skos:prefLabel "Người Trà Vinh"@vi .
+
+vcat:Người_Tuyên_Quang a skos:Concept ;
+    skos:prefLabel "Người Tuyên Quang"@vi .
+
+vcat:Người_Tà_Ôi a skos:Concept ;
+    skos:prefLabel "Người Tà Ôi"@vi .
+
+vcat:Người_Tày a skos:Concept ;
+    skos:prefLabel "Người Tày"@vi .
+
+vcat:Người_Tân_Kỳ a skos:Concept ;
+    skos:prefLabel "Người Tân Kỳ"@vi .
+
+vcat:Người_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Người Tây Ninh"@vi .
+
+vcat:Người_Vinh a skos:Concept ;
+    skos:prefLabel "Người Vinh"@vi .
+
+vcat:Người_Việt_Nam_thế_kỷ_21 a skos:Concept ;
+    skos:prefLabel "Người Việt Nam thế kỷ 21"@vi .
+
+vcat:Người_Việt_gốc_Hà_Lan a skos:Concept ;
+    skos:prefLabel "Người Việt gốc Hà Lan"@vi .
+
+vcat:Người_Việt_gốc_Nigeria a skos:Concept ;
+    skos:prefLabel "Người Việt gốc Nigeria"@vi .
+
+vcat:Người_Việt_gốc_Slovakia a skos:Concept ;
+    skos:prefLabel "Người Việt gốc Slovakia"@vi .
+
+vcat:Người_Việt_gốc_Ukraina a skos:Concept ;
+    skos:prefLabel "Người Việt gốc Ukraina"@vi .
+
+vcat:Người_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Người Vĩnh Long"@vi .
+
+vcat:Người_Vĩnh_Phúc a skos:Concept ;
+    skos:prefLabel "Người Vĩnh Phúc"@vi .
+
+vcat:Người_Xơ_Đăng a skos:Concept ;
+    skos:prefLabel "Người Xơ Đăng"@vi .
+
+vcat:Người_Yên_Thành a skos:Concept ;
+    skos:prefLabel "Người Yên Thành"@vi .
+
+vcat:Người_huyện_Bá_Thước a skos:Concept ;
+    skos:prefLabel "Người huyện Bá Thước"@vi .
+
+vcat:Người_họ_Bùi_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Bùi tại Việt Nam"@vi .
+
+vcat:Người_họ_Cao_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Cao tại Việt Nam"@vi .
+
+vcat:Người_họ_Chu_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Chu tại Việt Nam"@vi .
+
+vcat:Người_họ_Châu_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Châu tại Việt Nam"@vi .
+
+vcat:Người_họ_Doãn_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Doãn tại Việt Nam"@vi .
+
+vcat:Người_họ_Dương_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Dương tại Việt Nam"@vi .
+
+vcat:Người_họ_Giang_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Giang tại Việt Nam"@vi .
+
+vcat:Người_họ_Hoàng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Hoàng tại Việt Nam"@vi .
+
+vcat:Người_họ_Huỳnh_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Huỳnh tại Việt Nam"@vi .
+
+vcat:Người_họ_Hà_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Hà tại Việt Nam"@vi .
+
+vcat:Người_họ_Hồ_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Hồ tại Việt Nam"@vi .
+
+vcat:Người_họ_Khuất_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Khuất tại Việt Nam"@vi .
+
+vcat:Người_họ_Khổng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Khổng tại Việt Nam"@vi .
+
+vcat:Người_họ_Lâm_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Lâm tại Việt Nam"@vi .
+
+vcat:Người_họ_Lê_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Lê tại Việt Nam"@vi .
+
+vcat:Người_họ_Lý_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Lý tại Việt Nam"@vi .
+
+vcat:Người_họ_Lương_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Lương tại Việt Nam"@vi .
+
+vcat:Người_họ_Lục a skos:Concept ;
+    skos:prefLabel "Người họ Lục"@vi .
+
+vcat:Người_họ_Mai_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Mai tại Việt Nam"@vi .
+
+vcat:Người_họ_Mạc_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Mạc tại Việt Nam"@vi .
+
+vcat:Người_họ_Nghiêm_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Nghiêm tại Việt Nam"@vi .
+
+vcat:Người_họ_Nguyễn_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Nguyễn tại Việt Nam"@vi .
+
+vcat:Người_họ_Ngô_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Ngô tại Việt Nam"@vi .
+
+vcat:Người_họ_Ngọc_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Ngọc tại Việt Nam"@vi .
+
+vcat:Người_họ_Phan_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Phan tại Việt Nam"@vi .
+
+vcat:Người_họ_Phí_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Phí tại Việt Nam"@vi .
+
+vcat:Người_họ_Phùng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Phùng tại Việt Nam"@vi .
+
+vcat:Người_họ_Phạm a skos:Concept ;
+    skos:prefLabel "Người họ Phạm"@vi .
+
+vcat:Người_họ_Phạm_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Phạm tại Việt Nam"@vi .
+
+vcat:Người_họ_Quách_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Quách tại Việt Nam"@vi .
+
+vcat:Người_họ_Thái_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Thái tại Việt Nam"@vi .
+
+vcat:Người_họ_Thân_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Thân tại Việt Nam"@vi .
+
+vcat:Người_họ_Thạch_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Thạch tại Việt Nam"@vi .
+
+vcat:Người_họ_Triệu_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Triệu tại Việt Nam"@vi .
+
+vcat:Người_họ_Trương_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Trương tại Việt Nam"@vi .
+
+vcat:Người_họ_Trần a skos:Concept ;
+    skos:prefLabel "Người họ Trần"@vi .
+
+vcat:Người_họ_Trần_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Trần tại Việt Nam"@vi .
+
+vcat:Người_họ_Trịnh_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Trịnh tại Việt Nam"@vi .
+
+vcat:Người_họ_Tô_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Tô tại Việt Nam"@vi .
+
+vcat:Người_họ_Võ_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Võ tại Việt Nam"@vi .
+
+vcat:Người_họ_Vũ_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Vũ tại Việt Nam"@vi .
+
+vcat:Người_họ_Vương_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Vương tại Việt Nam"@vi .
+
+vcat:Người_họ_Đinh_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đinh tại Việt Nam"@vi .
+
+vcat:Người_họ_Đoàn_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đoàn tại Việt Nam"@vi .
+
+vcat:Người_họ_Đàm_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đàm tại Việt Nam"@vi .
+
+vcat:Người_họ_Đào_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đào tại Việt Nam"@vi .
+
+vcat:Người_họ_Đậu_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đậu tại Việt Nam"@vi .
+
+vcat:Người_họ_Đặng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đặng tại Việt Nam"@vi .
+
+vcat:Người_họ_Đồng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đồng tại Việt Nam"@vi .
+
+vcat:Người_họ_Đỗ_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người họ Đỗ tại Việt Nam"@vi .
+
+vcat:Người_nước_ngoài_Nigeria_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người nước ngoài Nigeria ở Việt Nam"@vi .
+
+vcat:Người_tự_sát a skos:Concept ;
+    skos:prefLabel "Người tự sát"@vi .
+
+vcat:Người_tự_sát_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người tự sát ở Việt Nam"@vi .
+
+vcat:Người_Ê_Đê a skos:Concept ;
+    skos:prefLabel "Người Ê Đê"@vi .
+
+vcat:Người_Úc_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Úc gốc Việt"@vi .
+
+vcat:Người_Đà_Lạt a skos:Concept ;
+    skos:prefLabel "Người Đà Lạt"@vi .
+
+vcat:Người_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Người Đà Nẵng"@vi .
+
+vcat:Người_Đô_Lương a skos:Concept ;
+    skos:prefLabel "Người Đô Lương"@vi .
+
+vcat:Người_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Người Đắk Lắk"@vi .
+
+vcat:Người_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Người Đồng Nai"@vi .
+
+vcat:Người_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Người Đồng Tháp"@vi .
+
+vcat:Người_Đức_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Người Đức gốc Việt"@vi .
+
+vcat:Người_đồng_tính_nữ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Người đồng tính nữ Việt Nam"@vi .
+
+vcat:Nha_Trang a skos:Concept ;
+    skos:prefLabel "Nha Trang"@vi .
+
+vcat:Nhà_nước_đơn_đảng a skos:Concept ;
+    skos:prefLabel "Nhà nước đơn đảng"@vi .
+
+vcat:Nhà_thờ_tại_Huế a skos:Concept ;
+    skos:prefLabel "Nhà thờ tại Huế"@vi .
+
+vcat:Nhà_thờ_tại_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Nhà thờ tại Hà Nội"@vi .
+
+vcat:Nhân_vật_còn_sống a skos:Concept ;
+    skos:prefLabel "Nhân vật còn sống"@vi .
+
+vcat:Nhân_vật_sống a skos:Concept ;
+    skos:prefLabel "Nhân vật sống"@vi .
+
+vcat:Nhân_vật_thể_thao_Việt_Nam_thế_kỷ_21 a skos:Concept ;
+    skos:prefLabel "Nhân vật thể thao Việt Nam thế kỷ 21"@vi .
+
+vcat:Nhân_vật_thể_thao_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Nhân vật thể thao gốc Việt"@vi .
+
+vcat:Nhân_vật_thể_thao_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Nhân vật thể thao Đà Nẵng"@vi .
+
+vcat:Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Ninh Bình"@vi .
+
+vcat:Ninh_Thuận a skos:Concept ;
+    skos:prefLabel "Ninh Thuận"@vi .
+
+vcat:Nông_nghiệp_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Nông nghiệp Việt Nam"@vi .
+
+vcat:Năm_2003 a skos:Concept ;
+    skos:prefLabel "Năm 2003"@vi .
+
+vcat:Nữ_giới_Việt_Nam_thế_kỷ_21 a skos:Concept ;
+    skos:prefLabel "Nữ giới Việt Nam thế kỷ 21"@vi .
+
+vcat:Pages_using_weather_box_with_unknown_parameters a skos:Concept ;
+    skos:prefLabel "Pages using weather box with unknown parameters"@vi .
+
+vcat:Pages_with_disabled_graphs a skos:Concept ;
+    skos:prefLabel "Pages with disabled graphs"@vi .
+
+vcat:Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Phú Thọ"@vi .
+
+vcat:Phú_Yên a skos:Concept ;
+    skos:prefLabel "Phú Yên"@vi .
+
+vcat:Phật_tử_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Phật tử Việt Nam"@vi .
+
+vcat:Pleiku a skos:Concept ;
+    skos:prefLabel "Pleiku"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Quân_chủng_Phòng_không_-_Không_quân,_Quân_đội_nhân_dân_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Quân chủng Phòng không - Không quân, Quân đội nhân dân Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Quân khu 7, Quân đội nhân dân Việt Nam"@vi .
+
+vcat:Quả_bóng_vàng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Quả bóng vàng Việt Nam"@vi .
+
+vcat:Quảng_Bình a skos:Concept ;
+    skos:prefLabel "Quảng Bình"@vi .
+
+vcat:Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Quảng Nam"@vi .
+
+vcat:Quảng_Ngãi a skos:Concept ;
+    skos:prefLabel "Quảng Ngãi"@vi .
+
+vcat:Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Quảng Ninh"@vi .
+
+vcat:Quảng_Trị a skos:Concept ;
+    skos:prefLabel "Quảng Trị"@vi .
+
+vcat:Quận_1 a skos:Concept ;
+    skos:prefLabel "Quận 1"@vi .
+
+vcat:Quận_10 a skos:Concept ;
+    skos:prefLabel "Quận 10"@vi .
+
+vcat:Quận_5 a skos:Concept ;
+    skos:prefLabel "Quận 5"@vi .
+
+vcat:Quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Quốc gia châu Á"@vi .
+
+vcat:Quốc_gia_cộng_sản a skos:Concept ;
+    skos:prefLabel "Quốc gia cộng sản"@vi .
+
+vcat:Quốc_gia_thành_viên_ASEAN a skos:Concept ;
+    skos:prefLabel "Quốc gia thành viên ASEAN"@vi .
+
+vcat:Quốc_gia_thành_viên_của_Liên_Hợp_Quốc a skos:Concept ;
+    skos:prefLabel "Quốc gia thành viên của Liên Hợp Quốc"@vi .
+
+vcat:Quốc_gia_và_vùng_lãnh_thổ_nói_tiếng_Việt a skos:Concept ;
+    skos:prefLabel "Quốc gia và vùng lãnh thổ nói tiếng Việt"@vi .
+
+vcat:Quốc_gia_Đông_Nam_Á a skos:Concept ;
+    skos:prefLabel "Quốc gia Đông Nam Á"@vi .
+
+vcat:Sinh_năm_1918 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1918"@vi .
+
+vcat:Sinh_năm_1933 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1933"@vi .
+
+vcat:Sinh_năm_1942 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1942"@vi .
+
+vcat:Sinh_năm_1945 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1945"@vi .
+
+vcat:Sinh_năm_1946 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1946"@vi .
+
+vcat:Sinh_năm_1949 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1949"@vi .
+
+vcat:Sinh_năm_1953 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1953"@vi .
+
+vcat:Sinh_năm_1960 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1960"@vi .
+
+vcat:Sinh_năm_1963 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1963"@vi .
+
+vcat:Sinh_năm_1964 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1964"@vi .
+
+vcat:Sinh_năm_1966 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1966"@vi .
+
+vcat:Sinh_năm_1967 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1967"@vi .
+
+vcat:Sinh_năm_1968 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1968"@vi .
+
+vcat:Sinh_năm_1969 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1969"@vi .
+
+vcat:Sinh_năm_1970 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1970"@vi .
+
+vcat:Sinh_năm_1971 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1971"@vi .
+
+vcat:Sinh_năm_1972 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1972"@vi .
+
+vcat:Sinh_năm_1973 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1973"@vi .
+
+vcat:Sinh_năm_1974 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1974"@vi .
+
+vcat:Sinh_năm_1975 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1975"@vi .
+
+vcat:Sinh_năm_1976 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1976"@vi .
+
+vcat:Sinh_năm_1977 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1977"@vi .
+
+vcat:Sinh_năm_1978 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1978"@vi .
+
+vcat:Sinh_năm_1979 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1979"@vi .
+
+vcat:Sinh_năm_1980 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1980"@vi .
+
+vcat:Sinh_năm_1981 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1981"@vi .
+
+vcat:Sinh_năm_1982 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1982"@vi .
+
+vcat:Sinh_năm_1983 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1983"@vi .
+
+vcat:Sinh_năm_1984 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1984"@vi .
+
+vcat:Sinh_năm_1985 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1985"@vi .
+
+vcat:Sinh_năm_1986 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1986"@vi .
+
+vcat:Sinh_năm_1987 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1987"@vi .
+
+vcat:Sinh_năm_1988 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1988"@vi .
+
+vcat:Sinh_năm_1989 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1989"@vi .
+
+vcat:Sinh_năm_1990 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1990"@vi .
+
+vcat:Sinh_năm_1991 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1991"@vi .
+
+vcat:Sinh_năm_1992 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1992"@vi .
+
+vcat:Sinh_năm_1993 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1993"@vi .
+
+vcat:Sinh_năm_1994 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1994"@vi .
+
+vcat:Sinh_năm_1995 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1995"@vi .
+
+vcat:Sinh_năm_1996 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1996"@vi .
+
+vcat:Sinh_năm_1997 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1997"@vi .
+
+vcat:Sinh_năm_1998 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1998"@vi .
+
+vcat:Sinh_năm_1999 a skos:Concept ;
+    skos:prefLabel "Sinh năm 1999"@vi .
+
+vcat:Sinh_năm_2000 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2000"@vi .
+
+vcat:Sinh_năm_2001 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2001"@vi .
+
+vcat:Sinh_năm_2002 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2002"@vi .
+
+vcat:Sinh_năm_2003 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2003"@vi .
+
+vcat:Sinh_năm_2004 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2004"@vi .
+
+vcat:Sinh_năm_2005 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2005"@vi .
+
+vcat:Sinh_năm_2006 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2006"@vi .
+
+vcat:Sinh_năm_2007 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2007"@vi .
+
+vcat:Sinh_năm_2008 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2008"@vi .
+
+vcat:Sinh_năm_2009 a skos:Concept ;
+    skos:prefLabel "Sinh năm 2009"@vi .
+
+vcat:Sinh_tại_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Sinh tại Hà Nội"@vi .
+
+vcat:Sinh_tại_Hà_Tây a skos:Concept ;
+    skos:prefLabel "Sinh tại Hà Tây"@vi .
+
+vcat:Sinh_tại_Long_An a skos:Concept ;
+    skos:prefLabel "Sinh tại Long An"@vi .
+
+vcat:Sinh_tại_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Sinh tại Nghệ An"@vi .
+
+vcat:Sinh_tại_Sài_Gòn a skos:Concept ;
+    skos:prefLabel "Sinh tại Sài Gòn"@vi .
+
+vcat:Sinh_tại_Trà_Vinh a skos:Concept ;
+    skos:prefLabel "Sinh tại Trà Vinh"@vi .
+
+vcat:Sân_vận_động_Cúp_bóng_đá_châu_Á a skos:Concept ;
+    skos:prefLabel "Sân vận động Cúp bóng đá châu Á"@vi .
+
+vcat:Sân_vận_động_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Sân vận động Hà Nội"@vi .
+
+vcat:Sân_vận_động_Quốc_Gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sân vận động Quốc Gia Việt Nam"@vi .
+
+vcat:Sân_vận_động_quốc_gia a skos:Concept ;
+    skos:prefLabel "Sân vận động quốc gia"@vi .
+
+vcat:Sân_vận_động_đa_năng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sân vận động đa năng Việt Nam"@vi .
+
+vcat:Sóc_Trăng a skos:Concept ;
+    skos:prefLabel "Sóc Trăng"@vi .
+
+vcat:Sơ_khai_An_Giang a skos:Concept ;
+    skos:prefLabel "Sơ khai An Giang"@vi .
+
+vcat:Sơ_khai_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Sơ khai Bắc Ninh"@vi .
+
+vcat:Sơ_khai_Cao_Bằng a skos:Concept ;
+    skos:prefLabel "Sơ khai Cao Bằng"@vi .
+
+vcat:Sơ_khai_Công_giáo a skos:Concept ;
+    skos:prefLabel "Sơ khai Công giáo"@vi .
+
+vcat:Sơ_khai_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Sơ khai Gia Lai"@vi .
+
+vcat:Sơ_khai_Huế a skos:Concept ;
+    skos:prefLabel "Sơ khai Huế"@vi .
+
+vcat:Sơ_khai_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Sơ khai Hà Nội"@vi .
+
+vcat:Sơ_khai_Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Sơ khai Hà Tĩnh"@vi .
+
+vcat:Sơ_khai_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Sơ khai Hải Phòng"@vi .
+
+vcat:Sơ_khai_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Sơ khai Khánh Hòa"@vi .
+
+vcat:Sơ_khai_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Sơ khai Lâm Đồng"@vi .
+
+vcat:Sơ_khai_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Sơ khai Nghệ An"@vi .
+
+vcat:Sơ_khai_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Sơ khai Ninh Bình"@vi .
+
+vcat:Sơ_khai_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Sơ khai Phú Thọ"@vi .
+
+vcat:Sơ_khai_Quảng_Ngãi a skos:Concept ;
+    skos:prefLabel "Sơ khai Quảng Ngãi"@vi .
+
+vcat:Sơ_khai_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Sơ khai Quảng Ninh"@vi .
+
+vcat:Sơ_khai_Quảng_Trị a skos:Concept ;
+    skos:prefLabel "Sơ khai Quảng Trị"@vi .
+
+vcat:Sơ_khai_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Sơ khai Thanh Hóa"@vi .
+
+vcat:Sơ_khai_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Sơ khai Thành phố Hồ Chí Minh"@vi .
+
+vcat:Sơ_khai_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Sơ khai Thái Nguyên"@vi .
+
+vcat:Sơ_khai_Tuyên_Quang a skos:Concept ;
+    skos:prefLabel "Sơ khai Tuyên Quang"@vi .
+
+vcat:Sơ_khai_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai Việt Nam"@vi .
+
+vcat:Sơ_khai_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Sơ khai Vĩnh Long"@vi .
+
+vcat:Sơ_khai_Yên_Bái a skos:Concept ;
+    skos:prefLabel "Sơ khai Yên Bái"@vi .
+
+vcat:Sơ_khai_bóng_đá a skos:Concept ;
+    skos:prefLabel "Sơ khai bóng đá"@vi .
+
+vcat:Sơ_khai_công_trình_xây_dựng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai công trình xây dựng Việt Nam"@vi .
+
+vcat:Sơ_khai_cầu_thủ_bóng_đá a skos:Concept ;
+    skos:prefLabel "Sơ khai cầu thủ bóng đá"@vi .
+
+vcat:Sơ_khai_cầu_thủ_bóng_đá_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai cầu thủ bóng đá Việt Nam"@vi .
+
+vcat:Sơ_khai_giáo_dục a skos:Concept ;
+    skos:prefLabel "Sơ khai giáo dục"@vi .
+
+vcat:Sơ_khai_hành_chính_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai hành chính Việt Nam"@vi .
+
+vcat:Sơ_khai_kiến_trúc_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai kiến trúc Việt Nam"@vi .
+
+vcat:Sơ_khai_nhân_vật_thể_thao a skos:Concept ;
+    skos:prefLabel "Sơ khai nhân vật thể thao"@vi .
+
+vcat:Sơ_khai_nhân_vật_thể_thao_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai nhân vật thể thao Việt Nam"@vi .
+
+vcat:Sơ_khai_thể_thao_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai thể thao Việt Nam"@vi .
+
+vcat:Sơ_khai_tiểu_sử a skos:Concept ;
+    skos:prefLabel "Sơ khai tiểu sử"@vi .
+
+vcat:Sơ_khai_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Sơ khai Đà Nẵng"@vi .
+
+vcat:Sơ_khai_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Sơ khai Đắk Lắk"@vi .
+
+vcat:Sơ_khai_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Sơ khai Đồng Nai"@vi .
+
+vcat:Sơ_khai_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Sơ khai Đồng Tháp"@vi .
+
+vcat:Sơ_khai_đại_học_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai đại học Việt Nam"@vi .
+
+vcat:Sơ_khai_địa_lý_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Sơ khai địa lý Việt Nam"@vi .
+
+vcat:Sơn_La a skos:Concept ;
+    skos:prefLabel "Sơn La"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:T&T_Cup> a skos:Concept ;
+    skos:prefLabel "T&T Cup"@vi .
+
+vcat:Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Thanh Hóa"@vi .
+
+vcat:Thanh_Hóa_\(thành_phố\) a skos:Concept ;
+    skos:prefLabel "Thanh Hóa (thành phố)"@vi .
+
+vcat:Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Thành phố Hồ Chí Minh"@vi .
+
+vcat:Thành_phố_cảng a skos:Concept ;
+    skos:prefLabel "Thành phố cảng"@vi .
+
+vcat:Thành_phố_cảng_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Thành phố cảng Việt Nam"@vi .
+
+vcat:Thành_phố_của_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Thành phố của Việt Nam"@vi .
+
+vcat:Thành_phố_trực_thuộc_trung_ương_\(Việt_Nam\) a skos:Concept ;
+    skos:prefLabel "Thành phố trực thuộc trung ương (Việt Nam)"@vi .
+
+vcat:Thành_phố_ven_biển_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Thành phố ven biển Việt Nam"@vi .
+
+vcat:Thành_viên_Tổ_Tư_vấn_kinh_tế_của_Thủ_tướng_Nguyễn_Xuân_Phúc a skos:Concept ;
+    skos:prefLabel "Thành viên Tổ Tư vấn kinh tế của Thủ tướng Nguyễn Xuân Phúc"@vi .
+
+vcat:Thái_Bình a skos:Concept ;
+    skos:prefLabel "Thái Bình"@vi .
+
+vcat:Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Thái Nguyên"@vi .
+
+vcat:Thể_Công a skos:Concept ;
+    skos:prefLabel "Thể Công"@vi .
+
+vcat:Thể_thao_Bình_Dương a skos:Concept ;
+    skos:prefLabel "Thể thao Bình Dương"@vi .
+
+vcat:Thể_thao_Bình_Phước a skos:Concept ;
+    skos:prefLabel "Thể thao Bình Phước"@vi .
+
+vcat:Thể_thao_Bình_Thuận a skos:Concept ;
+    skos:prefLabel "Thể thao Bình Thuận"@vi .
+
+vcat:Thể_thao_Bình_Định a skos:Concept ;
+    skos:prefLabel "Thể thao Bình Định"@vi .
+
+vcat:Thể_thao_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Thể thao Cà Mau"@vi .
+
+vcat:Thể_thao_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Thể thao Cần Thơ"@vi .
+
+vcat:Thể_thao_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Thể thao Gia Lai"@vi .
+
+vcat:Thể_thao_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Thể thao Hà Nội"@vi .
+
+vcat:Thể_thao_Hòa_Bình a skos:Concept ;
+    skos:prefLabel "Thể thao Hòa Bình"@vi .
+
+vcat:Thể_thao_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Thể thao Hải Phòng"@vi .
+
+vcat:Thể_thao_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Thể thao Khánh Hòa"@vi .
+
+vcat:Thể_thao_Long_An a skos:Concept ;
+    skos:prefLabel "Thể thao Long An"@vi .
+
+vcat:Thể_thao_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Thể thao Nghệ An"@vi .
+
+vcat:Thể_thao_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Thể thao Ninh Bình"@vi .
+
+vcat:Thể_thao_Ninh_Thuận a skos:Concept ;
+    skos:prefLabel "Thể thao Ninh Thuận"@vi .
+
+vcat:Thể_thao_Quảng_Nam a skos:Concept ;
+    skos:prefLabel "Thể thao Quảng Nam"@vi .
+
+vcat:Thể_thao_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Thể thao Quảng Ninh"@vi .
+
+vcat:Thể_thao_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Thể thao Thanh Hóa"@vi .
+
+vcat:Thể_thao_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Thể thao Thành phố Hồ Chí Minh"@vi .
+
+vcat:Thể_thao_Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Thể thao Tiền Giang"@vi .
+
+vcat:Thể_thao_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Thể thao Tây Ninh"@vi .
+
+vcat:Thể_thao_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Thể thao Vĩnh Long"@vi .
+
+vcat:Thể_thao_nữ a skos:Concept ;
+    skos:prefLabel "Thể thao nữ"@vi .
+
+vcat:Thể_thao_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Thể thao Đà Nẵng"@vi .
+
+vcat:Thể_thao_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Thể thao Đồng Nai"@vi .
+
+vcat:Thể_thao_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Thể thao Đồng Tháp"@vi .
+
+vcat:Thủ_môn_bóng_đá_nam a skos:Concept ;
+    skos:prefLabel "Thủ môn bóng đá nam"@vi .
+
+vcat:Thủ_môn_bóng_đá_nữ a skos:Concept ;
+    skos:prefLabel "Thủ môn bóng đá nữ"@vi .
+
+vcat:Thủ_Đức a skos:Concept ;
+    skos:prefLabel "Thủ Đức"@vi .
+
+vcat:Thủ_đô_của_châu_Á a skos:Concept ;
+    skos:prefLabel "Thủ đô của châu Á"@vi .
+
+vcat:Thủ_đô_cựu_quốc_gia a skos:Concept ;
+    skos:prefLabel "Thủ đô cựu quốc gia"@vi .
+
+vcat:Tiền_Giang a skos:Concept ;
+    skos:prefLabel "Tiền Giang"@vi .
+
+vcat:Tiền_vệ_bóng_đá a skos:Concept ;
+    skos:prefLabel "Tiền vệ bóng đá"@vi .
+
+vcat:Tiền_vệ_bóng_đá_nam a skos:Concept ;
+    skos:prefLabel "Tiền vệ bóng đá nam"@vi .
+
+vcat:Tiền_vệ_bóng_đá_nữ a skos:Concept ;
+    skos:prefLabel "Tiền vệ bóng đá nữ"@vi .
+
+vcat:Tiền_đạo_bóng_đá a skos:Concept ;
+    skos:prefLabel "Tiền đạo bóng đá"@vi .
+
+vcat:Tiền_đạo_bóng_đá_nam a skos:Concept ;
+    skos:prefLabel "Tiền đạo bóng đá nam"@vi .
+
+vcat:Tiền_đạo_bóng_đá_nữ a skos:Concept ;
+    skos:prefLabel "Tiền đạo bóng đá nữ"@vi .
+
+vcat:Trang_sử_dụng_hộp_thông_tin_địa_điểm_có_tham_số_xung_đột a skos:Concept ;
+    skos:prefLabel "Trang sử dụng hộp thông tin địa điểm có tham số xung đột"@vi .
+
+vcat:Trang_sử_dụng_infobox_với_URL_trong_tham_số_image a skos:Concept ;
+    skos:prefLabel "Trang sử dụng infobox với URL trong tham số image"@vi .
+
+vcat:Trang_định_hướng_nhân_danh a skos:Concept ;
+    skos:prefLabel "Trang định hướng nhân danh"@vi .
+
+vcat:Trung_vệ_bóng_đá a skos:Concept ;
+    skos:prefLabel "Trung vệ bóng đá"@vi .
+
+vcat:Trung_đoàn_Quân_đội_nhân_dân_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trung đoàn Quân đội nhân dân Việt Nam"@vi .
+
+vcat:Trà_Vinh a skos:Concept ;
+    skos:prefLabel "Trà Vinh"@vi .
+
+vcat:Trường_Bách_khoa_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường Bách khoa Việt Nam"@vi .
+
+vcat:Trường_Sư_phạm_Kỹ_thuật_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường Sư phạm Kỹ thuật Việt Nam"@vi .
+
+vcat:Trường_cao_đẳng_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường cao đẳng tại Việt Nam"@vi .
+
+vcat:Trường_học_Công_an_nhân_dân_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường học Công an nhân dân Việt Nam"@vi .
+
+vcat:Trường_học_âm_nhạc_ở_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường học âm nhạc ở Việt Nam"@vi .
+
+vcat:Trường_múa_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường múa Việt Nam"@vi .
+
+vcat:Trường_sân_khấu_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường sân khấu Việt Nam"@vi .
+
+vcat:Trường_Đại_học_An_ninh_nhân_dân a skos:Concept ;
+    skos:prefLabel "Trường Đại học An ninh nhân dân"@vi .
+
+vcat:Trường_Đại_học_Cảnh_sát_nhân_dân a skos:Concept ;
+    skos:prefLabel "Trường Đại học Cảnh sát nhân dân"@vi .
+
+vcat:Trường_Đại_học_FPT a skos:Concept ;
+    skos:prefLabel "Trường Đại học FPT"@vi .
+
+vcat:Trường_Đại_học_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Trường Đại học Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Trường_Đại_học_Khoa_học_Tự_nhiên,_Đại_học_Quốc_gia_Hà_Nội> a skos:Concept ;
+    skos:prefLabel "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Trường_Đại_học_Khoa_học_Tự_nhiên,_Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh> a skos:Concept ;
+    skos:prefLabel "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Trường_Đại_học_Khoa_học_Xã_hội_và_Nhân_văn,_Đại_học_Quốc_gia_Hà_Nội> a skos:Concept ;
+    skos:prefLabel "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội"@vi .
+
+vcat:Trường_Đại_học_Ngoại_thương a skos:Concept ;
+    skos:prefLabel "Trường Đại học Ngoại thương"@vi .
+
+vcat:Trường_Đại_học_Phòng_cháy_chữa_cháy a skos:Concept ;
+    skos:prefLabel "Trường Đại học Phòng cháy chữa cháy"@vi .
+
+vcat:Trường_Đại_học_Sư_phạm_Huế a skos:Concept ;
+    skos:prefLabel "Trường Đại học Sư phạm Huế"@vi .
+
+vcat:Trường_điện_ảnh_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường điện ảnh Việt Nam"@vi .
+
+vcat:Trường_đào_tạo_Kiến_trúc a skos:Concept ;
+    skos:prefLabel "Trường đào tạo Kiến trúc"@vi .
+
+vcat:Trường_đào_tạo_Mỹ_thuật a skos:Concept ;
+    skos:prefLabel "Trường đào tạo Mỹ thuật"@vi .
+
+vcat:Trường_đào_tạo_nghề_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường đào tạo nghề tại Việt Nam"@vi .
+
+vcat:Trường_đại_học_thành_lập_năm_2011 a skos:Concept ;
+    skos:prefLabel "Trường đại học thành lập năm 2011"@vi .
+
+vcat:Trường_đại_học_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Trường đại học tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_An_Giang a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại An Giang"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Bắc Ninh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Cà Mau"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Cần Thơ"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Gia Lai"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Huế a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Huế"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Hà Nội"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Hà_Tĩnh a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Hà Tĩnh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Hưng_Yên a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Hưng Yên"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Hải Phòng"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Khánh_Hòa a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Khánh Hòa"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Lâm_Đồng a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Lâm Đồng"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Nghệ_An a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Nghệ An"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Phú_Thọ a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Phú Thọ"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Quảng_Ngãi a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Quảng Ngãi"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Quảng_Ninh a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Quảng Ninh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Quảng_Trị a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Quảng Trị"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Sơn_La a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Sơn La"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Thanh_Hóa a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Thanh Hóa"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Thái Nguyên"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Tây Ninh"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Vĩnh Long"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Đà Nẵng"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Đắk Lắk"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Đồng Nai"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_tại_Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng tại Đồng Tháp"@vi .
+
+vcat:Trường_đại_học_và_cao_đẳng_đã_ngừng_hoạt_động_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Trường đại học và cao đẳng đã ngừng hoạt động tại Việt Nam"@vi .
+
+vcat:Trường_đại_học_ứng_dụng_và_thực_hành a skos:Concept ;
+    skos:prefLabel "Trường đại học ứng dụng và thực hành"@vi .
+
+vcat:Tuyên_Quang a skos:Concept ;
+    skos:prefLabel "Tuyên Quang"@vi .
+
+vcat:Tuyển_thủ_U20_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tuyển thủ U20 quốc gia Việt Nam"@vi .
+
+vcat:Tân_Bình a skos:Concept ;
+    skos:prefLabel "Tân Bình"@vi .
+
+vcat:Tây_Bắc_Bộ a skos:Concept ;
+    skos:prefLabel "Tây Bắc Bộ"@vi .
+
+vcat:Tây_Nguyên a skos:Concept ;
+    skos:prefLabel "Tây Nguyên"@vi .
+
+vcat:Tây_Ninh a skos:Concept ;
+    skos:prefLabel "Tây Ninh"@vi .
+
+vcat:Tín_hữu_Chính_Thống_giáo_tại_Nga a skos:Concept ;
+    skos:prefLabel "Tín hữu Chính Thống giáo tại Nga"@vi .
+
+vcat:Tín_hữu_Công_giáo_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tín hữu Công giáo Việt Nam"@vi .
+
+vcat:Tín_hữu_Kitô_giáo_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tín hữu Kitô giáo Việt Nam"@vi .
+
+vcat:Tín_hữu_Tin_Lành_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tín hữu Tin Lành Việt Nam"@vi .
+
+vcat:Tập_thể_được_phong_tặng_danh_hiệu_Anh_hùng_Lao_động a skos:Concept ;
+    skos:prefLabel "Tập thể được phong tặng danh hiệu Anh hùng Lao động"@vi .
+
+vcat:Tập_đoàn_Bưu_chính_Viễn_thông_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tập đoàn Bưu chính Viễn thông Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Tập_đoàn_Công_nghiệp_–_Viễn_thông_Quân_đội> a skos:Concept ;
+    skos:prefLabel "Tập đoàn Công nghiệp – Viễn thông Quân đội"@vi .
+
+vcat:Tập_đoàn_FPT a skos:Concept ;
+    skos:prefLabel "Tập đoàn FPT"@vi .
+
+vcat:Tập_đoàn_Hoàng_Anh_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Tập đoàn Hoàng Anh Gia Lai"@vi .
+
+vcat:Tập_đoàn_Tân_Tạo a skos:Concept ;
+    skos:prefLabel "Tập đoàn Tân Tạo"@vi .
+
+vcat:Tập_đoàn_Vingroup a skos:Concept ;
+    skos:prefLabel "Tập đoàn Vingroup"@vi .
+
+vcat:Tỉnh_biên_giới_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tỉnh biên giới Việt Nam"@vi .
+
+vcat:Tỉnh_biên_giới_Việt_Nam_với_Lào a skos:Concept ;
+    skos:prefLabel "Tỉnh biên giới Việt Nam với Lào"@vi .
+
+vcat:Tỉnh_cũ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tỉnh cũ Việt Nam"@vi .
+
+vcat:Tỉnh_của_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tỉnh của Việt Nam"@vi .
+
+vcat:Tỉnh_ven_biển_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tỉnh ven biển Việt Nam"@vi .
+
+vcat:Tổ_chức_Giáo_dục_FPT a skos:Concept ;
+    skos:prefLabel "Tổ chức Giáo dục FPT"@vi .
+
+vcat:Tổ_chức_phi_lợi_nhuận_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tổ chức phi lợi nhuận Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Tổng_cục_Chính_trị,_Bộ_Công_an_(Việt_Nam)> a skos:Concept ;
+    skos:prefLabel "Tổng cục Chính trị, Bộ Công an (Việt Nam)"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Tổng_cục_Kỹ_thuật,_Bộ_Quốc_phòng_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Tổng cục Kỹ thuật, Bộ Quốc phòng Việt Nam"@vi .
+
+<http://vi.dbpedia.org/resource/Thể_loại:Tổng_cục_Tình_báo,_Quân_đội_nhân_dân_Việt_Nam> a skos:Concept ;
+    skos:prefLabel "Tổng cục Tình báo, Quân đội nhân dân Việt Nam"@vi .
+
+vcat:Tổng_cục_chính_trị_Quân_đội_nhân_dân_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Tổng cục chính trị Quân đội nhân dân Việt Nam"@vi .
+
+vcat:Từ_gốc_Khmer a skos:Concept ;
+    skos:prefLabel "Từ gốc Khmer"@vi .
+
+vcat:Tử_vong_do_đột_quỵ a skos:Concept ;
+    skos:prefLabel "Tử vong do đột quỵ"@vi .
+
+vcat:Tự_sát_năm_2024 a skos:Concept ;
+    skos:prefLabel "Tự sát năm 2024"@vi .
+
+vcat:Viện_công_nghệ_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Viện công nghệ tại Việt Nam"@vi .
+
+vcat:Viện_nghiên_cứu_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Viện nghiên cứu Việt Nam"@vi .
+
+vcat:Viện_Đại_học_Huế a skos:Concept ;
+    skos:prefLabel "Viện Đại học Huế"@vi .
+
+vcat:Viện_Đại_học_RMIT a skos:Concept ;
+    skos:prefLabel "Viện Đại học RMIT"@vi .
+
+vcat:Viện_Đại_học_Vạn_Hạnh a skos:Concept ;
+    skos:prefLabel "Viện Đại học Vạn Hạnh"@vi .
+
+vcat:Viện_đại_học_của_Việt_Nam_Cộng_Hòa a skos:Concept ;
+    skos:prefLabel "Viện đại học của Việt Nam Cộng Hòa"@vi .
+
+vcat:Việt_Nam a skos:Concept ;
+    skos:prefLabel "Việt Nam"@vi .
+
+vcat:Việt_Nam_Cộng_hòa a skos:Concept ;
+    skos:prefLabel "Việt Nam Cộng hòa"@vi .
+
+vcat:Việt_Nam_năm_1979 a skos:Concept ;
+    skos:prefLabel "Việt Nam năm 1979"@vi .
+
+vcat:Việt_Nam_năm_1997 a skos:Concept ;
+    skos:prefLabel "Việt Nam năm 1997"@vi .
+
+vcat:Việt_Nam_năm_2014 a skos:Concept ;
+    skos:prefLabel "Việt Nam năm 2014"@vi .
+
+vcat:Vùng_duyên_hải_Bắc_Bộ a skos:Concept ;
+    skos:prefLabel "Vùng duyên hải Bắc Bộ"@vi .
+
+vcat:Văn_Giang a skos:Concept ;
+    skos:prefLabel "Văn Giang"@vi .
+
+vcat:Văn_hóa_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Văn hóa Ninh Bình"@vi .
+
+vcat:Vĩnh_Long a skos:Concept ;
+    skos:prefLabel "Vĩnh Long"@vi .
+
+vcat:Vĩnh_Phúc a skos:Concept ;
+    skos:prefLabel "Vĩnh Phúc"@vi .
+
+vcat:Vận_động_viên_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Vận động viên Hà Nội"@vi .
+
+vcat:Vận_động_viên_Hải_Phòng a skos:Concept ;
+    skos:prefLabel "Vận động viên Hải Phòng"@vi .
+
+vcat:Vận_động_viên_Rio_de_Janeiro a skos:Concept ;
+    skos:prefLabel "Vận động viên Rio de Janeiro"@vi .
+
+vcat:Vận_động_viên_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Vận động viên Thành phố Hồ Chí Minh"@vi .
+
+vcat:Vận_động_viên_Việt_Nam_thi_đấu_ở_nước_ngoài_tại_Campuchia a skos:Concept ;
+    skos:prefLabel "Vận động viên Việt Nam thi đấu ở nước ngoài tại Campuchia"@vi .
+
+vcat:Vận_động_viên_Việt_Nam_thế_kỷ_21 a skos:Concept ;
+    skos:prefLabel "Vận động viên Việt Nam thế kỷ 21"@vi .
+
+vcat:Vận_động_viên_bóng_bàn_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Vận động viên bóng bàn Việt Nam"@vi .
+
+vcat:Vận_động_viên_gốc_Việt a skos:Concept ;
+    skos:prefLabel "Vận động viên gốc Việt"@vi .
+
+vcat:Vận_động_viên_từ_Sơn_La a skos:Concept ;
+    skos:prefLabel "Vận động viên từ Sơn La"@vi .
+
+vcat:Vận_động_viên_Đại_hội_Thể_thao_châu_Á_của_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Vận động viên Đại hội Thể thao châu Á của Việt Nam"@vi .
+
+vcat:Vịnh_Bắc_Bộ a skos:Concept ;
+    skos:prefLabel "Vịnh Bắc Bộ"@vi .
+
+vcat:Vịnh_Thái_Lan a skos:Concept ;
+    skos:prefLabel "Vịnh Thái Lan"@vi .
+
+vcat:Xứ_Đông a skos:Concept ;
+    skos:prefLabel "Xứ Đông"@vi .
+
+vcat:Yên_Bái a skos:Concept ;
+    skos:prefLabel "Yên Bái"@vi .
+
+vcat:Điện_Biên a skos:Concept ;
+    skos:prefLabel "Điện Biên"@vi .
+
+vcat:Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Đà Nẵng"@vi .
+
+vcat:Đô_thị_Việt_Nam_loại_I a skos:Concept ;
+    skos:prefLabel "Đô thị Việt Nam loại I"@vi .
+
+vcat:Đô_thị_Việt_Nam_loại_đặc_biệt a skos:Concept ;
+    skos:prefLabel "Đô thị Việt Nam loại đặc biệt"@vi .
+
+vcat:Đông_Bắc_Bộ a skos:Concept ;
+    skos:prefLabel "Đông Bắc Bộ"@vi .
+
+vcat:Đông_Nam_Bộ a skos:Concept ;
+    skos:prefLabel "Đông Nam Bộ"@vi .
+
+vcat:Đơn_vị_Anh_hùng_Lực_lượng_vũ_trang_nhân_dân a skos:Concept ;
+    skos:prefLabel "Đơn vị Anh hùng Lực lượng vũ trang nhân dân"@vi .
+
+vcat:Đơn_vị_hành_chính_Việt_Nam_đặt_tên_theo_tên_người a skos:Concept ;
+    skos:prefLabel "Đơn vị hành chính Việt Nam đặt tên theo tên người"@vi .
+
+vcat:Đơn_vị_hành_chính_cấp_huyện_thuộc_tỉnh_Bắc_Thái a skos:Concept ;
+    skos:prefLabel "Đơn vị hành chính cấp huyện thuộc tỉnh Bắc Thái"@vi .
+
+vcat:Đơn_vị_hành_chính_thuộc_thành_phố_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Đơn vị hành chính thuộc thành phố Bắc Ninh"@vi .
+
+vcat:Đơn_vị_hành_chính_thuộc_thành_phố_Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Đơn vị hành chính thuộc thành phố Đồng Nai"@vi .
+
+vcat:Đơn_vị_hành_chính_thuộc_tỉnh_Gia_Lai a skos:Concept ;
+    skos:prefLabel "Đơn vị hành chính thuộc tỉnh Gia Lai"@vi .
+
+vcat:Đại_biểu_Quốc_hội_Việt_Nam_khóa_XIII a skos:Concept ;
+    skos:prefLabel "Đại biểu Quốc hội Việt Nam khóa XIII"@vi .
+
+vcat:Đại_biểu_Quốc_hội_Việt_Nam_khóa_XIII_Lai_Châu a skos:Concept ;
+    skos:prefLabel "Đại biểu Quốc hội Việt Nam khóa XIII Lai Châu"@vi .
+
+vcat:Đại_học_Bách_khoa_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Bách khoa Hà Nội"@vi .
+
+vcat:Đại_học_Cần_Thơ a skos:Concept ;
+    skos:prefLabel "Đại học Cần Thơ"@vi .
+
+vcat:Đại_học_Duy_Tân a skos:Concept ;
+    skos:prefLabel "Đại học Duy Tân"@vi .
+
+vcat:Đại_học_Giao_thông_Vận_tải a skos:Concept ;
+    skos:prefLabel "Đại học Giao thông Vận tải"@vi .
+
+vcat:Đại_học_Huế a skos:Concept ;
+    skos:prefLabel "Đại học Huế"@vi .
+
+vcat:Đại_học_Kinh_tế_Quốc_dân a skos:Concept ;
+    skos:prefLabel "Đại học Kinh tế Quốc dân"@vi .
+
+vcat:Đại_học_Kinh_tế_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Đại học Kinh tế Thành phố Hồ Chí Minh"@vi .
+
+vcat:Đại_học_Kiến_trúc_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Kiến trúc Hà Nội"@vi .
+
+vcat:Đại_học_Luật_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Đại học Luật Thành phố Hồ Chí Minh"@vi .
+
+vcat:Đại_học_Lâm_nghiệp_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học Lâm nghiệp Việt Nam"@vi .
+
+vcat:Đại_học_Mỏ_-_Địa_chất_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Mỏ - Địa chất Hà Nội"@vi .
+
+vcat:Đại_học_Quốc_gia_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Quốc gia Hà Nội"@vi .
+
+vcat:Đại_học_Quốc_gia_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Đại học Quốc gia Thành phố Hồ Chí Minh"@vi .
+
+vcat:Đại_học_Sư_phạm_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Sư phạm Hà Nội"@vi .
+
+vcat:Đại_học_Sư_phạm_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Đại học Sư phạm Thành phố Hồ Chí Minh"@vi .
+
+vcat:Đại_học_Thái_Nguyên a skos:Concept ;
+    skos:prefLabel "Đại học Thái Nguyên"@vi .
+
+vcat:Đại_học_Trà_Vinh a skos:Concept ;
+    skos:prefLabel "Đại học Trà Vinh"@vi .
+
+vcat:Đại_học_Tài_nguyên_và_Môi_trường_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Tài nguyên và Môi trường Hà Nội"@vi .
+
+vcat:Đại_học_Vinh a skos:Concept ;
+    skos:prefLabel "Đại học Vinh"@vi .
+
+vcat:Đại_học_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học Việt Nam"@vi .
+
+vcat:Đại_học_Văn_Lang a skos:Concept ;
+    skos:prefLabel "Đại học Văn Lang"@vi .
+
+vcat:Đại_học_Xây_dựng_Hà_Nội a skos:Concept ;
+    skos:prefLabel "Đại học Xây dựng Hà Nội"@vi .
+
+vcat:Đại_học_cấp_tỉnh a skos:Concept ;
+    skos:prefLabel "Đại học cấp tỉnh"@vi .
+
+vcat:Đại_học_nghiên_cứu a skos:Concept ;
+    skos:prefLabel "Đại học nghiên cứu"@vi .
+
+vcat:Đại_học_nghiên_cứu_và_ứng_dụng a skos:Concept ;
+    skos:prefLabel "Đại học nghiên cứu và ứng dụng"@vi .
+
+vcat:Đại_học_và_Cao_đẳng_Việt_Nam_theo_phân_ngành a skos:Concept ;
+    skos:prefLabel "Đại học và Cao đẳng Việt Nam theo phân ngành"@vi .
+
+vcat:Đại_học_và_cao_đẳng_công_lập_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng công lập tại Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_kinh_tế_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng kinh tế Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_kỹ_thuật_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng kỹ thuật Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_luật_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng luật Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_ngoài_công_lập_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng ngoài công lập Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_quân_sự_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng quân sự Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_sư_phạm_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng sư phạm Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_thể_dục_thể_thao_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng thể dục thể thao Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_tư_thục_phi_lợi_nhuận_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng tư thục phi lợi nhuận Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_tư_thục_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng tư thục tại Việt Nam"@vi .
+
+vcat:Đại_học_và_cao_đẳng_y_dược_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học và cao đẳng y dược Việt Nam"@vi .
+
+vcat:Đại_học_Đà_Lạt a skos:Concept ;
+    skos:prefLabel "Đại học Đà Lạt"@vi .
+
+vcat:Đại_học_Đà_Nẵng a skos:Concept ;
+    skos:prefLabel "Đại học Đà Nẵng"@vi .
+
+vcat:Đại_học_đầu_ngành_Vận_tải_và_Hàng_hải_tại_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đại học đầu ngành Vận tải và Hàng hải tại Việt Nam"@vi .
+
+vcat:Đại_học_địa_phương a skos:Concept ;
+    skos:prefLabel "Đại học địa phương"@vi .
+
+vcat:Đại_sứ_thiện_chí_của_UNICEF a skos:Concept ;
+    skos:prefLabel "Đại sứ thiện chí của UNICEF"@vi .
+
+vcat:Đảng_viên_Đảng_Cộng_sản_Việt_Nam_bị_kỉ_luật_khiển_trách a skos:Concept ;
+    skos:prefLabel "Đảng viên Đảng Cộng sản Việt Nam bị kỉ luật khiển trách"@vi .
+
+vcat:Đắk_Lắk a skos:Concept ;
+    skos:prefLabel "Đắk Lắk"@vi .
+
+vcat:Đắk_Nông a skos:Concept ;
+    skos:prefLabel "Đắk Nông"@vi .
+
+vcat:Đặc_khu_cũ_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đặc khu cũ Việt Nam"@vi .
+
+vcat:Địa_danh_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Địa danh Việt Nam"@vi .
+
+vcat:Địa_danh_tại_An_Giang a skos:Concept ;
+    skos:prefLabel "Địa danh tại An Giang"@vi .
+
+vcat:Địa_danh_tại_Bắc_Ninh a skos:Concept ;
+    skos:prefLabel "Địa danh tại Bắc Ninh"@vi .
+
+vcat:Địa_danh_tại_Cà_Mau a skos:Concept ;
+    skos:prefLabel "Địa danh tại Cà Mau"@vi .
+
+vcat:Địa_danh_tại_Ninh_Bình a skos:Concept ;
+    skos:prefLabel "Địa danh tại Ninh Bình"@vi .
+
+vcat:Địa_danh_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Địa danh tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Địa_điểm_bóng_đá_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Địa điểm bóng đá Việt Nam"@vi .
+
+vcat:Địa_điểm_thể_thao a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1930 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1930"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1931 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1931"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1943 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1943"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1960 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1960"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1984 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1984"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1996 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 1996"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2003 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 2003"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2013 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 2013"@vi .
+
+vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2016 a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao hoàn thành năm 2016"@vi .
+
+vcat:Địa_điểm_thể_thao_tại_Thành_phố_Hồ_Chí_Minh a skos:Concept ;
+    skos:prefLabel "Địa điểm thể thao tại Thành phố Hồ Chí Minh"@vi .
+
+vcat:Địa_điểm_điền_kinh_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Địa điểm điền kinh Việt Nam"@vi .
+
+vcat:Đống_Đa a skos:Concept ;
+    skos:prefLabel "Đống Đa"@vi .
+
+vcat:Đồng_Nai a skos:Concept ;
+    skos:prefLabel "Đồng Nai"@vi .
+
+vcat:Đồng_Tháp a skos:Concept ;
+    skos:prefLabel "Đồng Tháp"@vi .
+
+vcat:Đồng_bằng_sông_Cửu_Long a skos:Concept ;
+    skos:prefLabel "Đồng bằng sông Cửu Long"@vi .
+
+vcat:Đồng_bằng_sông_Hồng a skos:Concept ;
+    skos:prefLabel "Đồng bằng sông Hồng"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-17_nữ_quốc_gia a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-17 nữ quốc gia"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-17_quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-17 quốc gia châu Á"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-19_nữ_quốc_gia a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-19 nữ quốc gia"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-19_quốc_gia a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-19 quốc gia"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-20_quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-20 quốc gia châu Á"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-21_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-21 quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-22_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-22 quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-23_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-23 quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_bóng_đá_U-23_quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá U-23 quốc gia châu Á"@vi .
+
+vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá nữ quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_bóng_đá_nữ_quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá nữ quốc gia châu Á"@vi .
+
+vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam_Cộng_hòa a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá quốc gia Việt Nam Cộng hòa"@vi .
+
+vcat:Đội_tuyển_bóng_đá_quốc_gia_châu_Á a skos:Concept ;
+    skos:prefLabel "Đội tuyển bóng đá quốc gia châu Á"@vi .
+
+vcat:Đội_tuyển_thể_thao_nữ_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển thể thao nữ quốc gia Việt Nam"@vi .
+
+vcat:Đội_tuyển_thể_thao_quốc_gia_Việt_Nam a skos:Concept ;
+    skos:prefLabel "Đội tuyển thể thao quốc gia Việt Nam"@vi .
+
+vcat:Ủy_viên_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam_khóa_XI a skos:Concept ;
+    skos:prefLabel "Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa XI"@vi .
+

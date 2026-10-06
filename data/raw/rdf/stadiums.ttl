@@ -1,0 +1,1434 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcat: <http://vi.dbpedia.org/resource/Thể_loại:> .
+@prefix vio: <http://vi.dbpedia.org/ontology/> .
+@prefix vip: <http://vi.dbpedia.org/property/> .
+@prefix vres: <http://vi.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vres:Sân_vận_động_19_tháng_8 a vio:Stadium ;
+    rdfs:label "Nha Trang Stadium"@en,
+        "Sân vận động 19 tháng 8"@vi ;
+    dbo:abstract "Sân vận động 19 tháng 8, còn được gọi là Sân vận động Nha Trang, là một sân vận động đa năng ở phường Nha Trang, tỉnh Khánh Hòa, Việt Nam. Có sức chứa khoảng 13.000 khán giả, đây là sân nhà của câu lạc bộ Khatoco Khánh Hòa hiện đang thi đấu tại V.League 2."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/August_19th_Stadium.jpg/330px-August_19th_Stadium.jpg> ;
+    dbo:wikiPageID 521449 ;
+    dbo:wikiPageLength "4141"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75556088 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Khatoco_Khánh_Hòa,
+        vcat:Du_lịch_Khánh_Hòa,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "12.250427"^^xsd:float ;
+    vio:locatedIn vres:Nha_Trang_\(phường\) ;
+    vio:longitude "109.192944"^^xsd:float ;
+    vio:openingYear "1992"^^xsd:gYear ;
+    vio:province vres:Khánh_Hòa ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Khatoco_Khánh_Hòa_\(2012\) ;
+    vip:location vres:Khánh_Hòa,
+        vres:Nha_Trang_\(phường\),
+        vres:Việt_Nam ;
+    vip:opened 1992 ;
+    vip:operator "Trung tâm Dịch vụ thi đấu thể thao, Sở Văn hóa và Thể thao tỉnh Khánh Hòa"@vi ;
+    vip:owner "Ủy ban nhân dân tỉnh Khánh Hòa"@vi ;
+    vip:seatingCapacity "13.000"@vi ;
+    vip:stadiumName "Sân vận động 19 tháng 8"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Khatoco_Khánh_Hòa_\(2012\) ;
+    georss:point "12.250427 109.192944" ;
+    rdfs:comment "Sân vận động 19 tháng 8, còn được gọi là Sân vận động Nha Trang, là một sân vận động đa năng ở phường Nha Trang, tỉnh Khánh Hòa, Việt Nam. Có sức chứa khoảng 13.000 khán giả, đây là sân nhà của câu lạc bộ Khatoco Khánh Hòa hiện đang thi đấu tại V.League 2."@vi ;
+    owl:sameAs dbr:Nha_Trang_Stadium,
+        wd:Q7023325 ;
+    skos:altLabel "Sân vận động Nha Trang"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_19_th%C3%A1ng_8?oldid=75556088&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/4/46/August_19th_Stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_19_th%C3%A1ng_8> .
+
+vres:Sân_vận_động_Cao_Lãnh a vio:Stadium ;
+    rdfs:label "Cao Lãnh Stadium"@en,
+        "Sân vận động Cao Lãnh"@vi ;
+    dbo:abstract "Sân vận động Cao Lãnh là một sân vận động nằm ở phường Mỹ Trà, tỉnh Đồng Tháp, Việt Nam. Sân có sức chứa trên 20.000 chỗ ngồi và là sân nhà trước đây của Câu lạc bộ bóng đá Đồng Tháp, hiện đang thi đấu tại giải hạng Nhất Quốc gia."@vi ;
+    dbo:wikiPageExternalLink <http://www.fussballtempel.net/afc/VIE/Cau_Lanh.html>,
+        <https://web.archive.org/web/20081021002607/http://www.fussballtempel.net/afc/VIE/Cau_Lanh.html> ;
+    dbo:wikiPageID 76763 ;
+    dbo:wikiPageLength "4151"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75521106 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Đồng_Tháp,
+        vcat:Du_lịch_Đồng_Tháp,
+        vcat:Khởi_đầu_năm_1996_ở_Việt_Nam,
+        vcat:Thể_thao_Đồng_Tháp,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1996 ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.464722"^^xsd:float ;
+    vio:locatedIn vres:Cao_Lãnh_\(thành_phố\),
+        vres:Mỹ_Trà ;
+    vio:longitude "105.6425"^^xsd:float ;
+    vio:owner vres:Câu_lạc_bộ_bóng_đá_Bình_Minh_Sài_Gòn,
+        vres:Đồng_Tháp ;
+    vio:province vres:Đồng_Tháp ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Bình_Minh_Sài_Gòn ;
+    vip:location vres:Mỹ_Trà,
+        vres:Việt_Nam,
+        vres:Đồng_Tháp ;
+    vip:owner vres:Đồng_Tháp ;
+    vip:seatingCapacity "23.000"@vi ;
+    vip:stadiumName "Sân vận động Cao Lãnh"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Bình_Minh_Sài_Gòn ;
+    georss:point "10.46472222 105.6425" ;
+    rdfs:comment "Sân vận động Cao Lãnh là một sân vận động nằm ở phường Mỹ Trà, tỉnh Đồng Tháp, Việt Nam. Sân có sức chứa trên 20.000 chỗ ngồi và là sân nhà trước đây của Câu lạc bộ bóng đá Đồng Tháp, hiện đang thi đấu tại giải hạng Nhất Quốc gia."@vi ;
+    owl:sameAs dbr:Cao_Lãnh_Stadium,
+        wd:Q5034301 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Cao_L%C3%A3nh?oldid=75521106&ns=0> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Cao_L%C3%A3nh> .
+
+vres:Sân_vận_động_Chi_Lăng_\(1943\) a vio:Stadium ;
+    rdfs:label "Chi Lăng Stadium (1954)"@en,
+        "Sân vận động Chi Lăng (1943)"@vi ;
+    dbo:abstract """Sân vận động Chi Lăng là một sân vận động đa năng cũ ở thành phố Đà Nẵng, Việt Nam. Với sức chứa khoảng 28.000 chỗ ngồi, đây từng là sân nhà của Câu lạc bộ bóng đá SHB Đà Nẵng thi đấu tại V.League 1. Sau khi SHB Đà Nẵng chuyển sang sân nhà mới tại Sân vận động Hòa Xuân (về sau cũng được đổi tên theo chính sân vận động cũ), sân Chi Lăng được trưng dụng làm nơi tập luyện cho các vận động viên điền kinh của Đà Nẵng.
+Sân vận động Chi Lăng được hình thành vào năm 1943 dưới thời Pháp thuộc, chủ yếu phục vụ cho các hoạt động thể thao của giới chức và quân đội thực dân. Năm 1954, sân được xây dựng lại trên nền công trình cũ và hoàn thiện vào năm 1956. 
+Năm 2010, chính quyền Đà Nẵng đã giao sân vận động này cho Tập đoàn Thiên Thanh làm dự án khu phức hợp thương mại và dịch vụ với giá 1.400 tỷ đồng. Sau khi chủ tịch tập đoàn Phạm Công Danh bị bắt vào tháng 7 năm 2014, sân vận động Chi Lăng trở thành tài sản liên quan đến vụ đại án."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Chi_lang_stadiumfull.jpg/330px-Chi_lang_stadiumfull.jpg> ;
+    dbo:wikiPageID 412617 ;
+    dbo:wikiPageLength "4650"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75540703 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Đà_Nẵng,
+        vcat:Hải_Châu,
+        vcat:Khởi_đầu_năm_1943_ở_Việt_Nam,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_thể_thao_Việt_Nam,
+        vcat:Sơ_khai_Đà_Nẵng,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1943 ;
+    vio:capacity "28000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "16.069609"^^xsd:float ;
+    vio:longitude "108.216475"^^xsd:float ;
+    vio:openingYear "1954"^^xsd:gYear ;
+    vio:province vres:Đà_Nẵng ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    vip:address vres:Hải_Châu_\(phường\) ;
+    vip:city vres:Việt_Nam,
+        vres:Đà_Nẵng ;
+    vip:demolished 2026 ;
+    vip:name "Sân vận động Chi Lăng"@vi ;
+    vip:opened 1943 ;
+    vip:owner "Uỷ ban nhân dân Thành phố Đà Nẵng"@vi ;
+    vip:seatingCapacity "28.000"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    georss:point "16.069609 108.216475" ;
+    rdfs:comment "Sân vận động Chi Lăng là một sân vận động đa năng cũ ở thành phố Đà Nẵng, Việt Nam. Với sức chứa khoảng 28.000 chỗ ngồi, đây từng là sân nhà của Câu lạc bộ bóng đá SHB Đà Nẵng thi đấu tại V.League 1."@vi ;
+    owl:sameAs dbr:Chi_Lăng_Stadium_\(1954\),
+        wd:Q5095075 ;
+    skos:altLabel "Sân vận động Chi Lăng"@vi,
+        "Sân vận động Chi Lăng (cũ)"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(1943)?oldid=75540703&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/3/3e/Chi_lang_stadiumfull.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(1943)> .
+
+vres:Sân_vận_động_Chi_Lăng_\(2016\) a vio:Stadium ;
+    rdfs:label "Chi Lăng Stadium (2016)"@en,
+        "Sân vận động Chi Lăng (2016)"@vi ;
+    dbo:abstract "Sân vận động Chi Lăng (còn được biết tới với tên cũ là Sân vận động Hoà Xuân) là một sân vận động bóng đá chuyên dụng tọa lạc tại phường Hoà Xuân, Thành phố Đà Nẵng, Việt Nam. Sân hiện là sân nhà của Câu lạc bộ SHB Đà Nẵng. Với sức chứa 20.500 người, đây là sân vận động bóng đá chuyên dụng lớn nhất tại Việt Nam và là sân bóng đá chuyên dụng thứ hai ở Việt Nam sau Sân vận động Pleiku ở Gia Lai."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/S%C3%A2n_v%E1%BA%ADn_%C4%90%E1%BB%99ng_Ho%C3%A0_Xu%C3%A2n_To%C3%A0n_C%E1%BA%A3nh.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%90%E1%BB%99ng_Ho%C3%A0_Xu%C3%A2n_To%C3%A0n_C%E1%BA%A3nh.jpg> ;
+    dbo:wikiPageID 3634466 ;
+    dbo:wikiPageLength "7702"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75540427 ;
+    dct:subject vcat:Cẩm_Lệ,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Thể_thao_Đà_Nẵng,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2016 ;
+    vio:capacity "20500"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "15.999072"^^xsd:float ;
+    vio:locatedIn vres:Hòa_Xuân_\(phường\) ;
+    vio:longitude "108.222817"^^xsd:float ;
+    vio:openingYear "2016"^^xsd:gYear ;
+    vio:operator vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    vio:owner vres:Đà_Nẵng ;
+    vio:province vres:Đà_Nẵng ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    vip:brokeGround 2013 ;
+    vip:built "Tháng 2 năm 2013–30 tháng 8 năm 2016"@vi ;
+    vip:capacity "20.500"@vi ;
+    vip:constructionCost vres:Đồng_\(đơn_vị_tiền_tệ\) ;
+    vip:dimensions "105 x"@vi ;
+    vip:location vres:Hòa_Xuân_\(phường\),
+        vres:Việt_Nam,
+        vres:Đà_Nẵng ;
+    vip:logoImage "Hoa-xuan-stadium-logo.png"@vi ;
+    vip:name "Sân vận động Chi Lăng; (Sân vận động Hoà Xuân)"@vi ;
+    vip:opened "30 tháng 8 năm 2016"@vi ;
+    vip:operator vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    vip:owner vres:Đà_Nẵng ;
+    vip:publictransit """7 - Xuân Diệu - Hoà Phước; 
+12 - Xuân Diệu - Phạm Hùng"""@vi ;
+    vip:surface vres:Zoysia ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng ;
+    georss:point "15.999072 108.222817" ;
+    rdfs:comment "Sân vận động Chi Lăng (còn được biết tới với tên cũ là Sân vận động Hoà Xuân) là một sân vận động bóng đá chuyên dụng tọa lạc tại phường Hoà Xuân, Thành phố Đà Nẵng, Việt Nam. Sân hiện là sân nhà của Câu lạc bộ SHB Đà Nẵng. Với sức chứa 20.500 người, đây là sân vận động bóng đá chuyên dụng lớn nhất tại Việt Nam và là sân bóng đá chuyên dụng thứ hai ở Việt Nam sau Sân vận động Pleiku ở Gia Lai."@vi ;
+    owl:sameAs dbr:Chi_Lăng_Stadium_\(2016\),
+        wd:Q28197235 ;
+    skos:altLabel "Sân vận động Chi Lăng (mới)"@vi,
+        "Sân vận động Hòa Xuân"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(2016)?oldid=75540427&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/0/09/S%C3%A2n_v%E1%BA%ADn_%C4%90%E1%BB%99ng_Ho%C3%A0_Xu%C3%A2n_To%C3%A0n_C%E1%BA%A3nh.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(2016)> .
+
+vres:Sân_vận_động_Cần_Thơ a vio:Stadium ;
+    rdfs:label "Cần Thơ Stadium"@en,
+        "Sân vận động Cần Thơ"@vi ;
+    dbo:abstract "Sân vận động Cần Thơ là một sân vận động đa năng nằm ven bờ sông Hậu, trên đường Lê Lợi, phường Cái Khế, thành phố Cần Thơ. Sức chứa hiện tại của sân vào khoảng 30.000 chỗ ngồi. Tuy vậy, sân có thể đáp ứng khoảng 50.000 người do còn chỗ ở các bậc không lắp ghế và có thể tận dụng lối đi rộng khoảng 6m bên trên các khán đài B, C, D. Sân vận động không những tổ chức bóng đá mà còn tổ chức giải đua xe mô tô."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Can-Tho-1280.jpg/330px-Can-Tho-1280.jpg> ;
+    dbo:wikiPageID 79541 ;
+    dbo:wikiPageLength "7844"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75521937 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Cần_Thơ,
+        vcat:Du_lịch_Cần_Thơ,
+        vcat:Khởi_đầu_năm_1953_ở_Việt_Nam,
+        vcat:Khởi_đầu_năm_1983_ở_Việt_Nam,
+        vcat:Thể_thao_Cần_Thơ,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "44400"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.049"^^xsd:float ;
+    vio:locatedIn vres:Cái_Khế ;
+    vio:longitude "105.789"^^xsd:float ;
+    vio:openingYear "1953"^^xsd:gYear ;
+    vio:operator vres:Câu_lạc_bộ_bóng_đá_Cần_Thơ ;
+    vio:owner vres:Cần_Thơ ;
+    vio:province vres:Cần_Thơ ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Cần_Thơ,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Cần_Thơ ;
+    vip:brokeGround 1980 ;
+    vip:built "1980–1983"@vi ;
+    vip:capacity "30.000"@vi ;
+    vip:dimensions "120 × 90 m"@vi ;
+    vip:location vres:Cái_Khế,
+        vres:Cần_Thơ,
+        vres:Việt_Nam ;
+    vip:opened "19 tháng 5 năm 1983"@vi ;
+    vip:owner "Trung tâm Huấn luyện và Thi đấu thể thao thành phố Cần Thơ"@vi ;
+    vip:renovated "25 tháng 3 năm 1998"@vi ;
+    vip:stadiumName "Sân vận động Cần Thơ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Cần_Thơ,
+        vres:Câu_lạc_bộ_bóng_đá_Mê_Kông_Cần_Thơ,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Cần_Thơ ;
+    georss:point "10.049 105.789" ;
+    rdfs:comment "Sân vận động Cần Thơ là một sân vận động đa năng nằm ven bờ sông Hậu, trên đường Lê Lợi, phường Cái Khế, thành phố Cần Thơ. Sức chứa hiện tại của sân vào khoảng 30.000 chỗ ngồi. Tuy vậy, sân có thể đáp ứng khoảng 50.000 người do còn chỗ ở các bậc không lắp ghế và có thể tận dụng lối đi rộng khoảng 6m bên trên các khán đài B, C, D."@vi ;
+    owl:sameAs dbr:Cần_Thơ_Stadium,
+        wd:Q10822664 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A7n_Th%C6%A1?oldid=75521937&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/0/02/Can-Tho-1280.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A7n_Th%C6%A1> .
+
+vres:Sân_vận_động_Cẩm_Phả a vio:Stadium ;
+    rdfs:label "Cẩm Phả Stadium"@en,
+        "Sân vận động Cẩm Phả"@vi ;
+    dbo:abstract """Sân vận động Cẩm Phả là một sân vận động nằm tại phố Võ Huy Tâm, phường Cẩm Phả, thành phố Quảng Ninh. Sân có 4 khán đài (2 khán đài A và B có mái che) với sức chứa 16.000 chỗ ngồi. Đây là sân có chất lượng tốt nhất của thành phố Quảng Ninh và đã từng là sân nhà của câu lạc bộ Than Quảng Ninh và câu lạc bộ Quảng Ninh.
+Sân vận động này được nâng cấp để phục vụ cho Đại hội Thể thao Đông Nam Á 2021."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3.jpg> ;
+    dbo:wikiPageID 3436160 ;
+    dbo:wikiPageLength "4884"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75534959 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Quảng_Ninh,
+        vcat:Du_lịch_Quảng_Ninh,
+        vcat:Thể_thao_Quảng_Ninh,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "10000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "21.006559"^^xsd:float ;
+    vio:locatedIn vres:Cẩm_Phả_\(phường\) ;
+    vio:longitude "107.275653"^^xsd:float ;
+    vio:owner vres:Quảng_Ninh ;
+    vio:province vres:Quảng_Ninh ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Cần_Thơ,
+        vres:Câu_lạc_bộ_bóng_đá_nữ_Than_Khoáng_Sản_Việt_Nam,
+        vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam ;
+    vip:capacity "16.000"@vi ;
+    vip:location vres:Cẩm_Phả_\(phường\),
+        vres:Quảng_Ninh,
+        vres:Việt_Nam ;
+    vip:owner "Trường Trung cấp Nghệ thuật và Thể thao Quảng Ninh"@vi ;
+    vip:renovated "2010, 2014, 2018–2022"@vi ;
+    vip:surface "Cỏ tự nhiên"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Cần_Thơ,
+        vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam ;
+    georss:point "21.0065585 107.2756533" ;
+    rdfs:comment "Sân vận động Cẩm Phả là một sân vận động nằm tại phố Võ Huy Tâm, phường Cẩm Phả, thành phố Quảng Ninh. Sân có 4 khán đài (2 khán đài A và B có mái che) với sức chứa 16.000 chỗ ngồi. Đây là sân có chất lượng tốt nhất của thành phố Quảng Ninh và đã từng là sân nhà của câu lạc bộ Than Quảng Ninh và câu lạc bộ Quảng Ninh."@vi ;
+    owl:sameAs dbr:Cẩm_Phả_Stadium,
+        wd:Q19457544 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3?oldid=75534959&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/c/c1/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3> .
+
+vres:Sân_vận_động_Gò_Đậu a vio:Stadium ;
+    rdfs:label "Gò Đậu Stadium"@en,
+        "Sân vận động Gò Đậu"@vi ;
+    dbo:abstract "Sân vận động Bình Dương, tên thường gọi là Sân vận động Gò Đậu, là một sân vận động đa năng ở phường Thủ Dầu Một, Thành phố Hồ Chí Minh, Việt Nam. Nằm trong khuôn viên có diện tích hơn 4 ha tại góc đường 30 Tháng 4 và Đại lộ Bình Dương, sân vận động có 4 khán đài với sức chứa khoảng 18.250 chỗ ngồi. Đây là sân nhà của câu lạc bộ Becamex Thành phố Hồ Chí Minh hiện đang thi đấu tại V.League 2."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/B%C3%ACnh_D%C6%B0%C6%A1ng_Stadium_2023.jpg/330px-B%C3%ACnh_D%C6%B0%C6%A1ng_Stadium_2023.jpg> ;
+    dbo:wikiPageID 322943 ;
+    dbo:wikiPageLength "6410"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75612722 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Thành_phố_Hồ_Chí_Minh,
+        vcat:Sơ_khai_Thành_phố_Hồ_Chí_Minh,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao ;
+    vio:capacity "18250"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.970043"^^xsd:float ;
+    vio:locatedIn vres:Thủ_Dầu_Một_\(phường\),
+        vres:Thủ_Dầu_Một_\(thành_phố\) ;
+    vio:longitude "106.672"^^xsd:float ;
+    vio:openingYear "1975"^^xsd:gYear ;
+    vio:operator vres:Liên_đoàn_Bóng_đá_Việt_Nam ;
+    vio:owner vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh ;
+    vio:province vres:Bình_Dương_\(tỉnh\),
+        vres:Thành_phố_Hồ_Chí_Minh ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1975\),
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:brokeGround 1973 ;
+    vip:capacity "18.250; 20.000 (tối đa)"@vi ;
+    vip:location vres:Thành_phố_Hồ_Chí_Minh,
+        vres:Thủ_Dầu_Một_\(phường\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Bình Dương"@vi ;
+    vip:opened "26 tháng 9 năm 1975"@vi ;
+    vip:otherNames "Sân vận động Gò Đậu"@vi ;
+    vip:owner vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh ;
+    vip:renovated "19 tháng 9 năm 1985"@vi ;
+    vip:surface "Cỏ lá gừng"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1975\),
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "10.970043 106.672" ;
+    rdfs:comment "Sân vận động Bình Dương, tên thường gọi là Sân vận động Gò Đậu, là một sân vận động đa năng ở phường Thủ Dầu Một, Thành phố Hồ Chí Minh, Việt Nam. Nằm trong khuôn viên có diện tích hơn 4 ha tại góc đường 30 Tháng 4 và Đại lộ Bình Dương, sân vận động có 4 khán đài với sức chứa khoảng 18.250 chỗ ngồi. Đây là sân nhà của câu lạc bộ Becamex Thành phố Hồ Chí Minh hiện đang thi đấu tại V.League 2."@vi ;
+    owl:sameAs dbr:Gò_Đậu_Stadium,
+        wd:Q5574748 ;
+    skos:altLabel "Sân vận động Bình Dương"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_G%C3%B2_%C4%90%E1%BA%ADu?oldid=75612722&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/5/54/B%C3%ACnh_D%C6%B0%C6%A1ng_Stadium_2023.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_G%C3%B2_%C4%90%E1%BA%ADu> .
+
+vres:Sân_vận_động_Hoài_Đức a vio:Stadium ;
+    rdfs:label "Sân vận động Hoài Đức"@vi ;
+    dbo:abstract "Sân vận động Huyện Hoài Đức là một sân vận động đa năng nằm ở xã Hoài Đức, thành phố Hà Nội, Việt Nam. Sân có sức chứa 3.500 chỗ ngồi và là một phần của Trung tâm Thể dục thể thao huyện Hoài Đức. Sân chính thức được khánh thành vào năm 2013 và là địa điểm tổ chức các nội dung thi đấu môn điền kinh và các trận đấu môn bóng đá nam cấp độ địa phương."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hanoi_location_map_%282025%29.svg/330px-Hanoi_location_map_%282025%29.svg.png> ;
+    dbo:wikiPageID 19741092 ;
+    dbo:wikiPageLength "4592"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 74610224 ;
+    dct:subject vcat:Du_lịch_Hà_Nội,
+        vcat:Khởi_đầu_năm_2013_ở_Việt_Nam,
+        vcat:Sân_vận_động_Hà_Nội,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2013,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "3500"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "21.067222"^^xsd:float ;
+    vio:locatedIn <http://vi.dbpedia.org/resource/Hoài_Đức,_Hà_Nội> ;
+    vio:longitude "105.709444"^^xsd:float ;
+    vio:openingYear "2013"^^xsd:gYear ;
+    vio:province vres:Hà_Nội ;
+    vip:capacity "3.500"@vi ;
+    vip:constructionCost vres:Đồng_\(đơn_vị_tiền_tệ\) ;
+    vip:dimensions """110 x 70 m
+Lòng sân: 48 x 28 m"""@vi ;
+    vip:location <http://vi.dbpedia.org/resource/Hoài_Đức,_Hà_Nội>,
+        vres:Hà_Nội,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động huyện Hoài Đức"@vi ;
+    vip:nickname "Sân vận động tổ chim Hoài Đức"@vi ;
+    vip:opened 2013 ;
+    vip:operator "Trung tâm Thể dục thể thao huyện Hoài Đức"@vi ;
+    vip:owner "Ủy ban nhân dân Huyện Hoài Đức"@vi ;
+    vip:publictransit vres:Xe_buýt_Hà_Nội ;
+    vip:renovated 2021 ;
+    vip:surface vres:Cỏ_nhân_tạo ;
+    georss:point "21.067222222 105.709444444" ;
+    rdfs:comment "Sân vận động Huyện Hoài Đức là một sân vận động đa năng nằm ở xã Hoài Đức, thành phố Hà Nội, Việt Nam. Sân có sức chứa 3.500 chỗ ngồi và là một phần của Trung tâm Thể dục thể thao huyện Hoài Đức. Sân chính thức được khánh thành vào năm 2013 và là địa điểm tổ chức các nội dung thi đấu môn điền kinh và các trận đấu môn bóng đá nam cấp độ địa phương."@vi ;
+    owl:sameAs wd:Q135438798 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ho%C3%A0i_%C4%90%E1%BB%A9c?oldid=74610224&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/6/62/Hanoi_location_map_%282025%29.svg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ho%C3%A0i_%C4%90%E1%BB%A9c> .
+
+vres:Sân_vận_động_Hà_Tĩnh a vio:Stadium ;
+    rdfs:label "Hà Tĩnh Stadium"@en,
+        "Sân vận động Hà Tĩnh"@vi ;
+    dbo:abstract "Sân vận động Hà Tĩnh là một sân vận động bóng đá nằm trong khuôn viên khu liên hợp thể thao của Trung tâm Thể dục - Thể thao Hà Tĩnh ở phường Thành Sen, tỉnh Hà Tĩnh. Hiện tại, sân vận động là sân nhà của câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/H%C3%A0_T%C4%A9nh_Stadium.jpg/330px-H%C3%A0_T%C4%A9nh_Stadium.jpg> ;
+    dbo:wikiPageID 14934316 ;
+    dbo:wikiPageLength "6075"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 73645326 ;
+    dct:subject vcat:Hà_Tĩnh,
+        vcat:Khởi_đầu_năm_1991_ở_Việt_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "15000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "18.333333"^^xsd:float ;
+    vio:locatedIn vres:Hà_Tĩnh_\(thành_phố\),
+        vres:Thành_Sen_\(phường\) ;
+    vio:longitude "105.9075"^^xsd:float ;
+    vio:openingYear "1991"^^xsd:gYear ;
+    vio:province vres:Hà_Tĩnh ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh ;
+    vip:brokeGround 1991 ;
+    vip:location vres:Hà_Tĩnh,
+        vres:Thành_Sen_\(phường\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Hà Tĩnh"@vi ;
+    vip:owner "Sở Văn hoá, Thể thao tỉnh Hà Tĩnh"@vi ;
+    vip:recordAttendance vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(2006\) ;
+    vip:renovated "2003, 2019"@vi ;
+    vip:seatingCapacity "15.000"@vi ;
+    vip:surface vres:Paspalum_repens ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh ;
+    georss:point "18.333333333 105.9075" ;
+    rdfs:comment "Sân vận động Hà Tĩnh là một sân vận động bóng đá nằm trong khuôn viên khu liên hợp thể thao của Trung tâm Thể dục - Thể thao Hà Tĩnh ở phường Thành Sen, tỉnh Hà Tĩnh. Hiện tại, sân vận động là sân nhà của câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh."@vi ;
+    owl:sameAs dbr:Hà_Tĩnh_Stadium,
+        wd:Q113449918 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0_T%C4%A9nh?oldid=73645326&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/6/66/H%C3%A0_T%C4%A9nh_Stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0_T%C4%A9nh> .
+
+vres:Sân_vận_động_Hàng_Đẫy a vio:Stadium ;
+    rdfs:label "Hàng Đẫy Stadium"@en,
+        "Sân vận động Hàng Đẫy"@vi ;
+    dbo:abstract """Sân vận động Hàng Đẫy là một sân vận động nằm trên đường Trịnh Hoài Đức, phường Ô Chợ Dừa, Hà Nội với sức chứa khoảng 22.500 chỗ ngồi. Trước khi có sân vận động Quốc gia Mỹ Đình, Hàng Đẫy là sân nhà và là nơi tổ chức các trận thi đấu của đội tuyển Quốc gia Việt Nam cũng như các đội tuyển nữ và Olympic. Đây cũng là nơi tổ chức nhiều sự kiện thể thao, văn hóa của Hà Nội và Việt Nam. Năm 1998, các trận khai mạc, bảng B và chung kết Cúp Tiger đã diễn ra tại đây.
+Trong khoảng thời gian từ năm 2000 đến 2006, sân vận động Hàng Đẫy được đổi tên thành Sân vận động Hà Nội.
+Trước mùa giải 2023, sân Hàng Đẫy chỉ được đăng ký làm sân nhà của hai câu lạc bộ là Hà Nội FC và Thể Công - Viettel. Tuy nhiên từ cuối năm 2022, câu lạc bộ Công an Hà Nội  đã thăng hạng lên V-League 2023. Đội bóng sau đó đổi tên, dời từ Ninh Bình về Hà Nội thi đấu và chọn sân Hàng Đẫy làm sân nhà. 
+Sang mùa giải V-League 2023-2024, theo điều lệ của AFC, một sân đấu chỉ được dùng chung bởi tối đa hai đội bóng, điều nãy dẫn tới việc Thể Công - Viettel phải sử dụng sân vận động Mỹ Đình làm sân nhà. Tuy nhiên do trùng lịch với nhiều sự kiện âm nhạc và thể thao khác đã có hợp đồng từ trước, Thể Công - Viettel vẫn phải mượn sân Hàng Đẫy để thi đấu một số trận."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Hang_Day.jpg/330px-Hang_Day.jpg> ;
+    dbo:wikiPageID 75954 ;
+    dbo:wikiPageLength "26999"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75583183 ;
+    dct:subject <http://vi.dbpedia.org/resource/Thể_loại:Câu_lạc_bộ_bóng_đá_Hà_Nội_T&T>,
+        vcat:Sân_vận_động_Hà_Nội,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_Hà_Nội,
+        vcat:Sơ_khai_công_trình_xây_dựng_Việt_Nam,
+        vcat:Sơ_khai_thể_thao_Việt_Nam,
+        vcat:Thể_thao_Hà_Nội,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Đống_Đa ;
+    vio:capacity "22000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "21.029722"^^xsd:float ;
+    vio:locatedIn vres:Ô_Chợ_Dừa_\(phường\) ;
+    vio:longitude "105.833056"^^xsd:float ;
+    vio:openingYear "1934"^^xsd:gYear ;
+    vio:operator vres:Các_cơ_quan_chuyên_môn_Ủy_ban_nhân_dân_thành_phố_Hà_Nội,
+        vres:Liên_đoàn_Bóng_đá_Việt_Nam ;
+    vio:owner vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(2006\),
+        vres:Ủy_ban_nhân_dân_thành_phố_Hà_Nội ;
+    vio:province vres:Hà_Nội ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(1956\),
+        vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(2006\),
+        vres:Câu_lạc_bộ_bóng_đá_Hòa_Phát_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh,
+        vres:Câu_lạc_bộ_bóng_đá_Khatoco_Khánh_Hòa_\(2012\),
+        vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng,
+        vres:Câu_lạc_bộ_bóng_đá_Sài_Gòn,
+        vres:Đội_bóng_đá_Tổng_cục_Đường_sắt,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:capacity "22.500"@vi ;
+    vip:dimensions "105 × 68 m"@vi ;
+    vip:expanded 1958 ;
+    vip:location vres:Hà_Nội,
+        vres:Việt_Nam,
+        vres:Ô_Chợ_Dừa_\(phường\) ;
+    vip:opened 1934 ;
+    vip:operator vres:Các_cơ_quan_chuyên_môn_Ủy_ban_nhân_dân_thành_phố_Hà_Nội ;
+    vip:owner vres:Ủy_ban_nhân_dân_thành_phố_Hà_Nội ;
+    vip:stadiumName "Sân vận động Hàng Đẫy"@vi ;
+    vip:surface vres:Cỏ_gà ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(1956\),
+        vres:Câu_lạc_bộ_bóng_đá_Hòa_Phát_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_SHB_Đà_Nẵng,
+        vres:Câu_lạc_bộ_bóng_đá_Sài_Gòn,
+        vres:Giải_bóng_đá_vô_địch_các_câu_lạc_bộ_sông_Mekong_2015,
+        vres:Giải_bóng_đá_vô_địch_các_câu_lạc_bộ_sông_Mekong_2016,
+        vres:Đội_bóng_đá_Tổng_cục_Đường_sắt,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "21.029722 105.833056" ;
+    rdfs:comment "Sân vận động Hàng Đẫy là một sân vận động nằm trên đường Trịnh Hoài Đức, phường Ô Chợ Dừa, Hà Nội với sức chứa khoảng 22.500 chỗ ngồi. Trước khi có sân vận động Quốc gia Mỹ Đình, Hàng Đẫy là sân nhà và là nơi tổ chức các trận thi đấu của đội tuyển Quốc gia Việt Nam cũng như các đội tuyển nữ và Olympic. Đây cũng là nơi tổ chức nhiều sự kiện thể thao, văn hóa của Hà Nội và Việt Nam."@vi ;
+    owl:sameAs dbr:Hàng_Đẫy_Stadium,
+        wd:Q1817188 ;
+    skos:altLabel "Sân Hàng Đẫy"@vi,
+        "Sân vận động Hà Nội"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy?oldid=75583183&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/1/13/Hang_Day.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy> .
+
+vres:Sân_vận_động_Long_An a vio:Stadium ;
+    rdfs:label "Long An Stadium"@en,
+        "Sân vận động Long An"@vi ;
+    dbo:abstract "Sân vận động Long An là một sân vận động đa năng nằm ở đường Trương Định, phường Long An, tỉnh Tây Ninh có sức chứa 19.975 chỗ ngồi. Đây là sân nhà của Câu lạc bộ bóng đá Long An, hiện đang thi đấu tại Giải hạng Nhất Quốc gia."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Long_An_Stadium.jpg/330px-Long_An_Stadium.jpg> ;
+    dbo:wikiPageID 316157 ;
+    dbo:wikiPageLength "4528"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75045314 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Long_An,
+        vcat:Công_trình_xây_dựng_ở_Tây_Ninh,
+        vcat:Du_lịch_Long_An,
+        vcat:Du_lịch_Tây_Ninh,
+        vcat:Khởi_đầu_năm_1984_ở_Việt_Nam,
+        vcat:Sân_vận_động_Quốc_Gia_Việt_Nam,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_bóng_đá,
+        vcat:Thể_thao_Long_An,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1984 ;
+    vio:capacity "19975"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.536111"^^xsd:float ;
+    vio:locatedIn vres:Tân_An_\(thành_phố\) ;
+    vio:longitude "106.408333"^^xsd:float ;
+    vio:owner <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Long_An_–_tỉnh_Tây_Ninh> ;
+    vio:province vres:Tây_Ninh ;
+    vio:tenant <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Long_An_–_tỉnh_Tây_Ninh> ;
+    vip:chủSởHữu <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Long_An_–_tỉnh_Tây_Ninh> ;
+    vip:sứcChứa "19.975"@vi ;
+    vip:thuêSân <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Long_An_–_tỉnh_Tây_Ninh> ;
+    vip:tênSânVậnĐộng "Sân vận động Long An"@vi ;
+    vip:tênĐầyĐủ "Sân vận động Long An"@vi ;
+    vip:địaChỉ vres:Long_An_\(tỉnh\),
+        vres:Tây_Ninh,
+        vres:Việt_Nam ;
+    georss:point "10.536111 106.408333" ;
+    rdfs:comment "Sân vận động Long An là một sân vận động đa năng nằm ở đường Trương Định, phường Long An, tỉnh Tây Ninh có sức chứa 19.975 chỗ ngồi. Đây là sân nhà của Câu lạc bộ bóng đá Long An, hiện đang thi đấu tại Giải hạng Nhất Quốc gia."@vi ;
+    owl:sameAs dbr:Long_An_Stadium,
+        wd:Q5930497 ;
+    skos:altLabel "Sân vận động Tân An"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Long_An?oldid=75045314&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/0/0b/Long_An_Stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Long_An> .
+
+vres:Sân_vận_động_Lạch_Tray a vio:Stadium ;
+    rdfs:label "Lạch Tray Stadium"@en,
+        "Sân vận động Lạch Tray"@vi ;
+    dbo:abstract """Sân vận động Lạch Tray là một sân vận động nằm ở đường Lạch Tray, phường Gia Viên, thành phố Hải Phòng, Việt Nam. Đây một trong những sân vận động lớn nhất Việt Nam với sức chứa khoảng 30.000 chỗ ngồi. Hiện nay, Lạch Tray là sân nhà của câu lạc bộ bóng đá Hải Phòng (trước là câu lạc bộ bóng đá Công an Hải Phòng), một trong những câu lạc bộ bóng đá giàu truyền thống nhất Việt Nam. Ngoài câu lạc bộ Hải Phòng, các đội bóng khác của Hải Phòng (đã giải thể, sáp nhập hay đổi tên) cũng đã từng lấy đây làm sân nhà như Điện lực Hải Phòng, Hóa chất Sông Cấm, Cảng Hải Phòng, Xi măng Hải Phòng, Xây dựng Hải Phòng và Quân khu 3. Trong thời gian SEA Games 22 diễn ra vào năm 2003, sân vận động là nơi tổ chức môn bóng đá nữ.
+Ngoài bóng đá và điền kinh, nhiều giải thi đấu thể thao khác cũng như các sự kiện văn hóa lớn được tổ chức trên sân vận động này."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/San-lach-tray.jpg/330px-San-lach-tray.jpg> ;
+    dbo:wikiPageExternalLink <http://hpfc.vn>,
+        <https://bachdanggroup.com/san-van-dong-lach-tray/>,
+        <https://web.archive.org/web/20120710040843/http://hpfc.vn/> ;
+    dbo:wikiPageID 76834 ;
+    dbo:wikiPageLength "6939"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75170584 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Hải_Phòng,
+        vcat:Công_trình_xây_dựng_ở_Hải_Phòng,
+        vcat:Thể_thao_Hải_Phòng,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "28000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "20.851779"^^xsd:float ;
+    vio:locatedIn vres:Gia_Viên ;
+    vio:longitude "106.688743"^^xsd:float ;
+    vio:openingYear "1958"^^xsd:gYear ;
+    vio:operator vres:Liên_đoàn_Bóng_đá_Việt_Nam ;
+    vio:owner vres:Hải_Phòng ;
+    vio:province vres:Hải_Phòng ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Hải_Phòng ;
+    vip:chủSởHữu vres:Hải_Phòng ;
+    vip:dimensions "100 × 68 m"@vi ;
+    vip:imageCaption "Sân vận động Lạch Tray vào năm 2022"@vi ;
+    vip:khánhThành 1958 ;
+    vip:khởiCông 1957 ;
+    vip:location vres:Gia_Viên,
+        vres:Hải_Phòng,
+        vres:Việt_Nam ;
+    vip:mônThểThao vres:Bóng_đá,
+        vres:Điền_kinh ;
+    vip:mặtSân vres:Cỏ_gà ;
+    vip:sứcChứa "30.000"@vi ;
+    vip:sửaChữa "1977, 1995, 2001, 2003, 2013, 2021"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Hải_Phòng ;
+    vip:tênCũ "Sân vận động Trung Tâm"@vi ;
+    vip:tênĐầyĐủ "Sân vận động Lạch Tray"@vi ;
+    georss:point "20.851779 106.688743" ;
+    rdfs:comment "Sân vận động Lạch Tray là một sân vận động nằm ở đường Lạch Tray, phường Gia Viên, thành phố Hải Phòng, Việt Nam. Đây một trong những sân vận động lớn nhất Việt Nam với sức chứa khoảng 30.000 chỗ ngồi. Hiện nay, Lạch Tray là sân nhà của câu lạc bộ bóng đá Hải Phòng (trước là câu lạc bộ bóng đá Công an Hải Phòng), một trong những câu lạc bộ bóng đá giàu truyền thống nhất Việt Nam."@vi ;
+    owl:sameAs dbr:Lạch_Tray_Stadium,
+        wd:Q3277766 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_L%E1%BA%A1ch_Tray?oldid=75170584&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/4/4b/San-lach-tray.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_L%E1%BA%A1ch_Tray> .
+
+vres:Sân_vận_động_Ninh_Bình a vio:Stadium ;
+    rdfs:label "Ninh Bình Stadium"@en,
+        "Sân vận động Ninh Bình"@vi ;
+    dbo:abstract """Sân vận động Ninh Bình (tên cũ là Sân vận động Tràng An), hiện được biết đến với tên gọi Ninh Bình Arena vì lý do quảng bá, là một sân vận động nằm trên địa bàn phường Hoa Lư, tỉnh Ninh Bình. Sân có sức chứa 25.000 chỗ ngồi, khán đài A của sân có 2 tầng với kết cấu mái che bằng thép, khán đài B của sân thấp hơn với chỉ 1 tầng và không có mái che. Đây là sân bóng đá lớn đạt tiêu chuẩn SEA Games, và từng là một trong những sân vận động hiện đại bậc nhất Việt Nam.
+Hiện nay, sân Ninh Bình là sân nhà của câu lạc bộ bóng đá Ninh Bình thi đấu tại V.League 1, và được đặt tên là Ninh Bình Arena kể từ cuối năm 2024."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ninh_Binh_Stadium_2024.jpg/330px-Ninh_Binh_Stadium_2024.jpg> ;
+    dbo:wikiPageID 103001 ;
+    dbo:wikiPageLength "7048"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75489387 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Ninh_Bình,
+        vcat:Du_lịch_Bình_Định,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Thể_thao_Bình_Định,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "22000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "20.258528"^^xsd:float ;
+    vio:locatedIn vres:Hoa_Lư_\(phường\),
+        vres:Hoa_Lư_\(thành_phố\) ;
+    vio:longitude "105.969056"^^xsd:float ;
+    vio:province vres:Ninh_Bình ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Ninh_Bình_\(2015\),
+        vres:Câu_lạc_bộ_bóng_đá_Xi_măng_The_Vissai_Ninh_Bình ;
+    vip:capacity "25.000"@vi ;
+    vip:formerNames "Sân vận động Tràng An"@vi ;
+    vip:imageCaption "Sân vận động Ninh Bình năm 2024"@vi ;
+    vip:location vres:Hoa_Lư_\(phường\),
+        vres:Ninh_Bình,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Ninh Bình"@vi ;
+    vip:nativeName "Ninh Bình Arena"@vi ;
+    vip:operator "Sở Văn hóa và Thể thao tỉnh Ninh Bình"@vi ;
+    vip:owner "Sở Văn hóa và Thể thao tỉnh Ninh Bình"@vi ;
+    vip:renovated "2003, 2025"@vi ;
+    vip:surface "Cỏ tự nhiên"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Ninh_Bình_\(2015\),
+        vres:Câu_lạc_bộ_bóng_đá_Xi_măng_The_Vissai_Ninh_Bình ;
+    georss:point "20.25852778 105.96905556" ;
+    rdfs:comment "Sân vận động Ninh Bình (tên cũ là Sân vận động Tràng An), hiện được biết đến với tên gọi Ninh Bình Arena vì lý do quảng bá, là một sân vận động nằm trên địa bàn phường Hoa Lư, tỉnh Ninh Bình. Sân có sức chứa 25.000 chỗ ngồi, khán đài A của sân có 2 tầng với kết cấu mái che bằng thép, khán đài B của sân thấp hơn với chỉ 1 tầng và không có mái che."@vi ;
+    owl:sameAs dbr:Ninh_Bình_Stadium,
+        wd:Q10822667 ;
+    skos:altLabel "Ninh Bình Arena"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_B%C3%ACnh?oldid=75489387&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/6/63/Ninh_Binh_Stadium_2024.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_B%C3%ACnh> .
+
+vres:Sân_vận_động_Ninh_Thuận a vio:Stadium ;
+    rdfs:label "Sân vận động Ninh Thuận"@vi ;
+    dbo:abstract """Sân vận động Ninh Thuận, còn được gọi là Sân vận động Phan Rang, là một sân vận động đa năng nằm ở phường Bảo An, tỉnh Khánh Hòa. Sân có sức chứa 16.000 khán giả. Đây là sân nhà của Câu lạc bộ bóng đá Ninh Thuận vào năm 2012.
+Sân từng được chọn làm nơi tổ chức Giải bóng đá U-21 Quốc gia 2012 và Giải bóng đá U-21 Quốc tế Báo Thanh Niên 2013. Vào năm 2023, câu lạc bộ bóng đá Bình Thuận đã mượn sân vận động Ninh Thuận để thi đấu do sân vận động Phan Thiết, sân nhà của họ đang được sửa chữa."""@vi ;
+    dbo:wikiPageID 19851822 ;
+    dbo:wikiPageLength "3260"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75451419 ;
+    dct:subject vcat:Sơ_khai_Khánh_Hòa,
+        vcat:Thể_thao_Ninh_Thuận,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "16000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "11.576584"^^xsd:float ;
+    vio:locatedIn vres:Bảo_An ;
+    vio:longitude "108.981317"^^xsd:float ;
+    vio:openingYear "1996"^^xsd:gYear ;
+    vio:operator vres:Câu_lạc_bộ_bóng_đá_Ninh_Thuận ;
+    vio:owner vres:Khánh_Hòa ;
+    vio:province vres:Khánh_Hòa ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận ;
+    vip:built 1966 ;
+    vip:capacity "16.000"@vi ;
+    vip:formerNames "Sân vận động Mỹ Đức (1966)"@vi ;
+    vip:location vres:Bảo_An,
+        vres:Khánh_Hòa,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động tỉnh Ninh Thuận"@vi ;
+    vip:nickname "Ninh Thuan Stadium"@vi ;
+    vip:operator vres:Câu_lạc_bộ_bóng_đá_Ninh_Thuận ;
+    vip:owner vres:Khánh_Hòa ;
+    vip:renovated 2012 ;
+    vip:surface "Cỏ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận,
+        vres:Câu_lạc_bộ_bóng_đá_Ninh_Thuận ;
+    georss:point "11.576584 108.981317" ;
+    rdfs:comment "Sân vận động Ninh Thuận, còn được gọi là Sân vận động Phan Rang, là một sân vận động đa năng nằm ở phường Bảo An, tỉnh Khánh Hòa. Sân có sức chứa 16.000 khán giả. Đây là sân nhà của Câu lạc bộ bóng đá Ninh Thuận vào năm 2012."@vi ;
+    owl:sameAs wd:Q124434928 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_Thu%E1%BA%ADn?oldid=75451419&ns=0> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_Thu%E1%BA%ADn> .
+
+vres:Sân_vận_động_Phan_Thiết a vio:Stadium ;
+    rdfs:label "Sân vận động Phan Thiết"@vi ;
+    dbo:abstract "Sân vận động Phan Thiết, tên chính thức là Sân vận động Thành phố Phan Thiết, là một sân vận động đa năng nằm ở phường Phan Thiết, tỉnh Lâm Đồng, Việt Nam. Sân có sức chứa 20.000 khán giả."@vi ;
+    dbo:wikiPageID 19741453 ;
+    dbo:wikiPageLength "1509"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75521111 ;
+    dct:subject vcat:Du_lịch_Bình_Thuận,
+        vcat:Khởi_đầu_năm_2013_ở_Việt_Nam,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_Lâm_Đồng,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2013,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "20000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.933333"^^xsd:float ;
+    vio:locatedIn vres:Phan_Thiết_\(phường\) ;
+    vio:longitude "108.093889"^^xsd:float ;
+    vio:openingYear "2013"^^xsd:gYear ;
+    vio:operator vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận ;
+    vio:owner vres:Bình_Thuận_\(tỉnh\),
+        vres:Lâm_Đồng ;
+    vio:province vres:Bình_Thuận_\(tỉnh\),
+        vres:Lâm_Đồng ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận ;
+    vip:capacity "20.000"@vi ;
+    vip:location vres:Lâm_Đồng,
+        vres:Phan_Thiết_\(phường\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Phan Thiết"@vi ;
+    vip:opened 2013 ;
+    vip:operator vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận ;
+    vip:owner vres:Lâm_Đồng ;
+    vip:surface "Cỏ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Bình_Thuận ;
+    georss:point "10.933333333 108.093888888" ;
+    rdfs:comment "Sân vận động Phan Thiết, tên chính thức là Sân vận động Thành phố Phan Thiết, là một sân vận động đa năng nằm ở phường Phan Thiết, tỉnh Lâm Đồng, Việt Nam. Sân có sức chứa 20.000 khán giả."@vi ;
+    owl:sameAs wd:Q135438868 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Phan_Thi%E1%BA%BFt?oldid=75521111&ns=0> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Phan_Thi%E1%BA%BFt> .
+
+vres:Sân_vận_động_Pleiku a vio:Stadium ;
+    rdfs:label "Pleiku Stadium"@en,
+        "Sân vận động Pleiku"@vi ;
+    dbo:abstract "Sân vận động Pleiku, còn được gọi với tên quảng bá là Pleiku Arena, là một sân vận động bóng đá tại phường Pleiku, tỉnh Gia Lai, Việt Nam. Sân vận động có sức chứa khoảng 12.000 người và hiện đang là sân nhà của câu lạc bộ Hoàng Anh Gia Lai. Đây là sân vận động bóng đá chuyên dụng đầu tiên ở Việt Nam, và là sân duy nhất ở Việt Nam có mái che toàn bộ mọi khán đài."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Pleiku_stadium.jpg/330px-Pleiku_stadium.jpg> ;
+    dbo:wikiPageID 3280105 ;
+    dbo:wikiPageLength "4598"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 74895113 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Thể_thao_Gia_Lai,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "12000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "13.979167"^^xsd:float ;
+    vio:locatedIn vres:Pleiku_\(thành_phố\) ;
+    vio:longitude "108.005"^^xsd:float ;
+    vio:province vres:Gia_Lai ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai ;
+    vip:built 1975 ;
+    vip:expanded "2001, 2008, 2025"@vi ;
+    vip:location vres:Gia_Lai,
+        vres:Pleiku_\(thành_phố\),
+        vres:Việt_Nam ;
+    vip:nickname "Pleiku Arena"@vi ;
+    vip:seatingCapacity "12.000"@vi ;
+    vip:stadiumName "Sân vận động Pleiku"@vi ;
+    vip:surface "Cỏ lá kim"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Thanh_niên_Thành_phố_Hồ_Chí_Minh ;
+    georss:point "13.979166666 108.005" ;
+    rdfs:comment "Sân vận động Pleiku, còn được gọi với tên quảng bá là Pleiku Arena, là một sân vận động bóng đá tại phường Pleiku, tỉnh Gia Lai, Việt Nam. Sân vận động có sức chứa khoảng 12.000 người và hiện đang là sân nhà của câu lạc bộ Hoàng Anh Gia Lai. Đây là sân vận động bóng đá chuyên dụng đầu tiên ở Việt Nam, và là sân duy nhất ở Việt Nam có mái che toàn bộ mọi khán đài."@vi ;
+    owl:sameAs dbr:Pleiku_Stadium,
+        wd:Q7204458 ;
+    skos:altLabel "Pleiku Arena"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Pleiku?oldid=74895113&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/6/62/Pleiku_stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Pleiku> .
+
+vres:Sân_vận_động_Quy_Nhơn a vio:Stadium ;
+    rdfs:label "Quy Nhơn Stadium"@en,
+        "Sân vận động Quy Nhơn"@vi ;
+    dbo:abstract "Sân vận động Quy Nhơn là sân vận động bóng đá nằm ở phường Quy Nhơn, tỉnh Gia Lai. Sân có sức chứa 20.000 chỗ ngồi và là sân nhà của Câu lạc bộ bóng đá Quy Nhơn United."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Quy_Nhon_Stadium.jpg/330px-Quy_Nhon_Stadium.jpg> ;
+    dbo:wikiPageID 3670845 ;
+    dbo:wikiPageLength "8083"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75088928 ;
+    dct:subject vcat:Du_lịch_Bình_Định,
+        vcat:Khởi_đầu_thập_niên_1970_ở_Việt_Nam,
+        vcat:Sơ_khai_Gia_Lai,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "20000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "13.774444"^^xsd:float ;
+    vio:locatedIn vres:Quy_Nhơn_\(thành_phố\) ;
+    vio:longitude "109.228611"^^xsd:float ;
+    vio:openingYear "1978"^^xsd:gYear ;
+    vio:operator vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vio:province vres:Bình_Định_\(tỉnh\),
+        vres:Gia_Lai ;
+    vip:brokeGround 1976 ;
+    vip:capacity "20.000"@vi ;
+    vip:location vres:Gia_Lai,
+        vres:Quy_Nhơn_\(thành_phố\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Quy Nhơn"@vi ;
+    vip:opened 1978 ;
+    vip:operator vres:Liên_đoàn_bóng_đá_Việt_Nam ;
+    vip:owner "Quy Nhơn Bình Định"@vi ;
+    vip:surface vres:Cỏ_gà ;
+    vip:tenant vres:Câu_lạc_bộ_bóng_đá_Quy_Nhơn_United ;
+    georss:point "13.77444444 109.22861111" ;
+    rdfs:comment "Sân vận động Quy Nhơn là sân vận động bóng đá nằm ở phường Quy Nhơn, tỉnh Gia Lai. Sân có sức chứa 20.000 chỗ ngồi và là sân nhà của Câu lạc bộ bóng đá Quy Nhơn United."@vi ;
+    owl:sameAs dbr:Quy_Nhơn_Stadium,
+        wd:Q7273047 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Quy_Nh%C6%A1n?oldid=75088928&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/0/0b/Quy_Nhon_Stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Quy_Nh%C6%A1n> .
+
+vres:Sân_vận_động_Quân_khu_7 a vio:Stadium ;
+    rdfs:label "Quân khu 7 Stadium"@en,
+        "Sân vận động Quân khu 7"@vi ;
+    dbo:abstract "Sân vận động Quân khu 7 là một sân vận động ở phường Tân Sơn Hòa, Thành phố Hồ Chí Minh, Việt Nam. Sân nằm trên đường Phan Đình Giót, Tân Sơn Hòa, cách Sân bay quốc tế Tân Sơn Nhất khoảng 10 phút đi xe. Sân hiện đang được sử dụng chủ yếu cho các trận đấu bóng đá. Đây là một trong những sân vận động chính tại Thành phố Hồ Chí Minh, cùng với Sân vận động Thống Nhất và Sân vận động Thành Long. Sân vận động có sức chứa khoảng 25.000 người."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7.jpg> ;
+    dbo:wikiPageID 80345 ;
+    dbo:wikiPageLength "10263"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75596000 ;
+    dct:subject vcat:Du_lịch_Thành_phố_Hồ_Chí_Minh,
+        <http://vi.dbpedia.org/resource/Thể_loại:Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam>,
+        vcat:Sân_vận_động_Cúp_bóng_đá_châu_Á,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_bóng_đá,
+        vcat:Thể_thao_Thành_phố_Hồ_Chí_Minh,
+        vcat:Tân_Bình,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_tại_Thành_phố_Hồ_Chí_Minh ;
+    vio:capacity "25000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.80194"^^xsd:float ;
+    vio:locatedIn vres:Phan_Đình_Giót,
+        vres:Tân_Sơn_Hòa ;
+    vio:longitude "106.66667"^^xsd:float ;
+    vio:operator <http://vi.dbpedia.org/resource/Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam> ;
+    vio:owner vres:Chính_phủ_Việt_Nam,
+        <http://vi.dbpedia.org/resource/Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam> ;
+    vio:province vres:Thành_phố_Hồ_Chí_Minh ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Công_an_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1975\) ;
+    vip:formerNames "Sân vận động Quân đội; Sân bóng Pershing"@vi ;
+    vip:location vres:Phan_Đình_Giót,
+        vres:Thành_phố_Hồ_Chí_Minh,
+        vres:Tân_Sơn_Hòa,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Quân khu 7"@vi ;
+    vip:operator <http://vi.dbpedia.org/resource/Quân_khu_7,_Quân_đội_nhân_dân_Việt_Nam> ;
+    vip:owner vres:Chính_phủ_Việt_Nam ;
+    vip:publictransit vres:Xe_buýt_Thành_phố_Hồ_Chí_Minh ;
+    vip:renovated 2003 ;
+    vip:seatingCapacity vres:Buổi_hòa_nhạc ;
+    vip:surface "Cỏ lá gừng"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Công_an_Hà_Nội,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1975\) ;
+    georss:point "10.80194 106.66667" ;
+    rdfs:comment "Sân vận động Quân khu 7 là một sân vận động ở phường Tân Sơn Hòa, Thành phố Hồ Chí Minh, Việt Nam. Sân nằm trên đường Phan Đình Giót, Tân Sơn Hòa, cách Sân bay quốc tế Tân Sơn Nhất khoảng 10 phút đi xe. Sân hiện đang được sử dụng chủ yếu cho các trận đấu bóng đá. Đây là một trong những sân vận động chính tại Thành phố Hồ Chí Minh, cùng với Sân vận động Thống Nhất và Sân vận động Thành Long."@vi ;
+    owl:sameAs dbr:Quân_khu_7_Stadium,
+        wd:Q2770718 ;
+    skos:altLabel "Sân vận động quân khu 7"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7?oldid=75596000&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/5/51/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7> .
+
+vres:Sân_vận_động_Quốc_gia_Mỹ_Đình a vio:Stadium ;
+    rdfs:label "Mỹ Đình National Stadium"@en,
+        "Sân vận động Quốc gia Mỹ Đình"@vi ;
+    dbo:abstract """Sân vận động Quốc gia Mỹ Đình là một sân vận động đa năng tại phường Từ Liêm, Hà Nội, Việt Nam. Sân có sức chứa 40.192 chỗ ngồi và là trung tâm của Khu liên hợp thể thao quốc gia Việt Nam. Sân chính thức được khánh thành vào tháng 9 năm 2003 và là địa điểm chính của Đại hội Thể thao Đông Nam Á 2003 vào cuối năm đó, bao gồm tổ chức lễ khai mạc, bế mạc cũng như các nội dung thi đấu môn điền kinh và các trận đấu môn bóng đá nam. Sau đó, sân thường xuyên được Liên đoàn Bóng đá Việt Nam chọn thuê để làm sân nhà chính của đội tuyển bóng đá quốc gia Việt Nam cho các trận thi đấu quốc tế. Từ năm 2024, Thể Công – Viettel đã thuê sân này làm sân nhà tại Giải bóng đá Vô địch Quốc gia 2024–25.
+Nằm cách trung tâm Hà Nội 10 km về phía tây bắc, hiện nay Mỹ Đình là sân vận động có sức chứa lớn nhất Việt Nam. Khu liên hợp thể thao quốc gia Mỹ Đình (bao gồm sân vận động Mỹ Đình và Cung thể thao dưới nước Mỹ Đình) được xây dựng với chi phí 1.300 tỷ đồng (~53 triệu USD, tỷ giá năm 2003). Mái che cong bao phủ các khán đài ở phía đông và phía tây, che phủ cho một nửa số ghế. Bên cạnh sân vận động còn có hai sân tập bóng đá để cho các đội bóng tập luyện.
+Với sự phát triển của bóng đá và kinh tế tại Việt Nam, sân Mỹ Đình trong thời gian gần đây đã hứng chịu chỉ trích của các cổ động viên Việt Nam và nước ngoài với việc chất lượng mặt sân và cơ sở vật chất đã xuống cấp và chưa được nâng cấp, cải tạo toàn diện, gây ra một số sự cố khi tổ chức các trận đấu bóng đá."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Hanoi%27s_My_Dinh_National_Stadium_on_2003-08-22%2C_ten_days_before_official_opening_10.jpg/330px-Hanoi%27s_My_Dinh_National_Stadium_on_2003-08-22%2C_ten_days_before_official_opening_10.jpg> ;
+    dbo:wikiPageExternalLink <https://uk.soccerway.com/teams/vietnam/vietnam/7626/venue/> ;
+    dbo:wikiPageID 22747 ;
+    dbo:wikiPageLength "76637"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75613006 ;
+    dct:subject vcat:Khởi_đầu_năm_2003_ở_Việt_Nam,
+        vcat:Sân_vận_động_Cúp_bóng_đá_châu_Á,
+        vcat:Sân_vận_động_Hà_Nội,
+        vcat:Sân_vận_động_quốc_gia,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Thể_thao_Hà_Nội,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2003,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "40192"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "21.020556"^^xsd:float ;
+    vio:locatedIn vres:Từ_Liêm_\(huyện\),
+        vres:Từ_Liêm_\(phường\) ;
+    vio:longitude "105.763806"^^xsd:float ;
+    vio:openingYear "2003"^^xsd:gYear ;
+    vio:operator vres:Liên_đoàn_Bóng_đá_Việt_Nam ;
+    vio:owner vres:Chính_trị_Việt_Nam,
+        vres:Cục_Thể_dục_thể_thao_Việt_Nam ;
+    vio:province vres:Hà_Nội ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(1956\),
+        vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(2006\),
+        vres:Câu_lạc_bộ_bóng_đá_Ninh_Bình_\(2015\),
+        vres:Câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh,
+        vres:Câu_lạc_bộ_bóng_đá_Thanh_Hóa,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Xanh_Nam_Định,
+        <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Thể_Công_–_Viettel>,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:architect "Hanoi International Group (HISG)"@vi ;
+    vip:brokeGround 2002 ;
+    vip:built "2002–2003"@vi ;
+    vip:capacity "40.192"@vi ;
+    vip:constructionCost vres:Đô_la_Mỹ,
+        vres:Đồng_\(đơn_vị_tiền_tệ\) ;
+    vip:dimensions "105 × 68 m"@vi ;
+    vip:location vres:Hà_Nội,
+        vres:Từ_Liêm_\(phường\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Quốc gia Mỹ Đình"@vi ;
+    vip:opened "2 tháng 9 năm 2003"@vi ;
+    vip:operator "Khu liên hợp thể thao quốc gia Việt Nam"@vi ;
+    vip:owner vres:Cục_Thể_dục_thể_thao_Việt_Nam ;
+    vip:renovated "7 tháng 9 năm 2016, 2020–2022"@vi ;
+    vip:surface vres:Zoysia ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(1956\),
+        vres:Câu_lạc_bộ_bóng_đá_Hà_Nội_\(2006\),
+        vres:Câu_lạc_bộ_bóng_đá_Ninh_Bình_\(2015\),
+        vres:Câu_lạc_bộ_bóng_đá_Than_Quảng_Ninh,
+        vres:Câu_lạc_bộ_bóng_đá_Thanh_Hóa,
+        vres:Câu_lạc_bộ_bóng_đá_Thép_Xanh_Nam_Định,
+        <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Thể_Công_–_Viettel>,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "21.020555555 105.763805555" ;
+    rdfs:comment "Sân vận động Quốc gia Mỹ Đình là một sân vận động đa năng tại phường Từ Liêm, Hà Nội, Việt Nam. Sân có sức chứa 40.192 chỗ ngồi và là trung tâm của Khu liên hợp thể thao quốc gia Việt Nam."@vi ;
+    owl:sameAs dbr:Mỹ_Đình_National_Stadium,
+        wd:Q1150956 ;
+    skos:altLabel "Mỹ Đình National Stadium"@vi,
+        "Sân Mỹ Đình"@vi,
+        "Sân vận động Mỹ Đình"@vi,
+        "Sân vận động Quốc Gia"@vi,
+        "Sân vận động quốc gia Mỹ Đình"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%E1%BB%91c_gia_M%E1%BB%B9_%C4%90%C3%ACnh?oldid=75613006&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/4/48/Hanoi%27s_My_Dinh_National_Stadium_on_2003-08-22%2C_ten_days_before_official_opening_10.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%E1%BB%91c_gia_M%E1%BB%B9_%C4%90%C3%ACnh> .
+
+vres:Sân_vận_động_Rạch_Giá a vio:Stadium ;
+    rdfs:label "Rạch Giá Stadium"@en,
+        "Sân vận động Rạch Giá"@vi ;
+    dbo:abstract "Sân vận động Rạch Giá là một sân vận động đặt tại đường Nguyễn Trung Trực, phường Rạch Giá, tỉnh An Giang, Việt Nam. Sân nằm dưới sự quản lý của Sở Văn hóa, Thể thao và Du lịch tỉnh An Giang và là sân nhà của Câu lạc bộ bóng đá An Giang. Sân chỉ có một khán đài duy nhất với sức chứa 8.000 người."@vi ;
+    dbo:wikiPageID 1243385 ;
+    dbo:wikiPageLength "1402"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75145155 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Kiên_Giang,
+        vcat:Du_lịch_Kiên_Giang,
+        vcat:Sơ_khai_An_Giang,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "10000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "9.963333"^^xsd:float ;
+    vio:locatedIn vres:Rạch_Giá_\(phường\),
+        vres:Rạch_Giá_\(thành_phố\) ;
+    vio:longitude "105.118056"^^xsd:float ;
+    vio:province vres:An_Giang,
+        vres:Kiên_Giang ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_An_Giang,
+        vres:Câu_lạc_bộ_bóng_đá_Kiên_Giang ;
+    vip:capacity "8.000"@vi ;
+    vip:location vres:An_Giang,
+        vres:Rạch_Giá_\(phường\),
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Rạch Giá"@vi ;
+    vip:owner "Sở Văn hóa, Thể thao và Du lịch tỉnh An Giang"@vi ;
+    vip:renovated 2011 ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_An_Giang ;
+    georss:point "9.96333333 105.11805556" ;
+    rdfs:comment "Sân vận động Rạch Giá là một sân vận động đặt tại đường Nguyễn Trung Trực, phường Rạch Giá, tỉnh An Giang, Việt Nam. Sân nằm dưới sự quản lý của Sở Văn hóa, Thể thao và Du lịch tỉnh An Giang và là sân nhà của Câu lạc bộ bóng đá An Giang. Sân chỉ có một khán đài duy nhất với sức chứa 8.000 người."@vi ;
+    owl:sameAs dbr:Rạch_Giá_Stadium,
+        wd:Q10822668 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_R%E1%BA%A1ch_Gi%C3%A1?oldid=75145155&ns=0> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_R%E1%BA%A1ch_Gi%C3%A1> .
+
+vres:Sân_vận_động_Tam_Kỳ a vio:Stadium ;
+    rdfs:label "Tam Kỳ Stadium"@en,
+        "Sân vận động Tam Kỳ"@vi ;
+    dbo:abstract "Sân vận động Tam Kỳ là một sân bóng đá ở thành phố Đà Nẵng, Việt Nam. Sân vận động Tam Kỳ có sức chứa 15.000 người, là nơi thường xuyên diễn ra các hoạt động văn hóa thể dục thể thao lớn của tỉnh, đồng thời là sân thi đấu chính thức trước đây của Câu lạc bộ Quảng Nam tại Giải bóng đá Vô địch Quốc gia Việt Nam."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3.jpg> ;
+    dbo:wikiPageExternalLink <http://www.betstudy.com/soccer-stats/stadium/3542/san-vn-ng-tam-k-tam-ky-stadium/>,
+        <https://web.archive.org/web/20160304022701/http://www.betstudy.com/soccer-stats/stadium/3542/san-vn-ng-tam-k-tam-ky-stadium/> ;
+    dbo:wikiPageID 3341740 ;
+    dbo:wikiPageLength "2273"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75521098 ;
+    dct:subject vcat:Công_trình_xây_dựng_ở_Quảng_Nam,
+        vcat:Du_lịch_Quảng_Nam,
+        vcat:Khởi_đầu_thập_niên_1980_ở_Việt_Nam,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Thể_thao_Quảng_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "15000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "15.56"^^xsd:float ;
+    vio:locatedIn vres:Hương_Trà_\(phường\) ;
+    vio:longitude "108.506667"^^xsd:float ;
+    vio:owner vres:Quảng_Nam ;
+    vio:province vres:Đà_Nẵng ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Quảng_Nam ;
+    vip:brokeGround 1980 ;
+    vip:capacity "15.000"@vi ;
+    vip:location vres:Hương_Trà_\(phường\),
+        vres:Việt_Nam,
+        vres:Đà_Nẵng ;
+    vip:name "Sân vận động Tam Kỳ"@vi ;
+    vip:owner vres:Quảng_Nam ;
+    vip:surface "Cỏ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Quảng_Nam ;
+    georss:point "15.56 108.50666667" ;
+    rdfs:comment "Sân vận động Tam Kỳ là một sân bóng đá ở thành phố Đà Nẵng, Việt Nam. Sân vận động Tam Kỳ có sức chứa 15.000 người, là nơi thường xuyên diễn ra các hoạt động văn hóa thể dục thể thao lớn của tỉnh, đồng thời là sân thi đấu chính thức trước đây của Câu lạc bộ Quảng Nam tại Giải bóng đá Vô địch Quốc gia Việt Nam."@vi ;
+    owl:sameAs dbr:Tam_Kỳ_Stadium,
+        wd:Q19578021 ;
+    skos:altLabel "Sân vận động Quảng Nam"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3?oldid=75521098&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/f/f7/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3> .
+
+vres:Sân_vận_động_Thanh_Hóa a vio:Stadium ;
+    rdfs:label "Thanh Hóa Stadium"@en,
+        "Sân vận động Thanh Hóa"@vi ;
+    dbo:abstract """Sân vận động Thanh Hóa là một sân vận động tại Thanh Hóa, nằm tại số 37 Lê Quý Đôn, phường Hạc Thành, tỉnh Thanh Hóa. Sân có sức chứa là 14.000 khán giả và chỉ có hai khán đài A và B. Đây là sân nhà của Câu lạc bộ bóng đá Thanh Hóa. Sân còn được gọi nôm là Căng - Xít - Tát, phiên âm từ tiếng Pháp "Court Stade".
+Mặc dù được mệnh danh là "chảo lửa" của bóng đá Việt Nam nhưng sức chứa của sân thuộc diện quy mô nhỏ ở V.League.
+Ngoài phục vụ thi đấu bóng đá, hệ thống đường piste trong khuôn viên sân còn sử dụng cho các môn điền kinh của ngành TDTT Thanh Hóa. Sân chỉ có hai khán đài A và B. Ngoài khu vực khán đài VIP được trang bị ghế ngồi, các khu vực còn lại, khán giả đều phải ngồi xem bóng đá dưới nền bê tông.
+Ngày 25/12/2023, HĐND tỉnh đã ban hành nghị quyết về chủ trương đầu tư dự án nâng cấp, cải tạo một số hạng mục, mua sắm thiết bị cho Sân vận động tỉnh Thanh Hóa, trong đó có hạng mục đầu tư ghế ngồi nhằm mục tiêu cải tạo, nâng cấp, đảm bảo điều kiện tổ chức các giải bóng đá quốc gia theo quy chế bóng đá chuyên nghiệp."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/San-thanh-hoa-thay-da-doi-thit-truoc-them-flc-cup-2016.jpg/330px-San-thanh-hoa-thay-da-doi-thit-truoc-them-flc-cup-2016.jpg> ;
+    dbo:wikiPageID 762711 ;
+    dbo:wikiPageLength "2795"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75522916 ;
+    dct:subject vcat:Sơ_khai_bóng_đá,
+        vcat:Thể_thao_Thanh_Hóa,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam ;
+    vio:capacity "14000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "19.799141"^^xsd:float ;
+    vio:locatedIn vres:Hạc_Thành,
+        vres:Thanh_Hóa_\(thành_phố\) ;
+    vio:longitude "105.772746"^^xsd:float ;
+    vio:province vres:Thanh_Hóa ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Thanh_Hóa ;
+    vip:capacity "14.000"@vi ;
+    vip:fullname "Sân vận động Thanh Hóa"@vi ;
+    vip:location vres:Hạc_Thành,
+        vres:Thanh_Hóa,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Thanh Hóa"@vi ;
+    vip:surface vres:Cỏ_gà ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Thanh_Hóa ;
+    vip:tênKhác "Căng - Xít - tát"@vi ;
+    georss:point "19.799141 105.772746" ;
+    rdfs:comment "Sân vận động Thanh Hóa là một sân vận động tại Thanh Hóa, nằm tại số 37 Lê Quý Đôn, phường Hạc Thành, tỉnh Thanh Hóa. Sân có sức chứa là 14.000 khán giả và chỉ có hai khán đài A và B. Đây là sân nhà của Câu lạc bộ bóng đá Thanh Hóa. Sân còn được gọi nôm là Căng - Xít - Tát, phiên âm từ tiếng Pháp \"Court Stade\"."@vi ;
+    owl:sameAs dbr:Thanh_Hóa_Stadium,
+        wd:Q7710351 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thanh_H%C3%B3a?oldid=75522916&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/1/1c/San-thanh-hoa-thay-da-doi-thit-truoc-them-flc-cup-2016.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thanh_H%C3%B3a> .
+
+vres:Sân_vận_động_Thiên_Trường a vio:Stadium ;
+    rdfs:label "Thiên Trường Stadium"@en,
+        "Sân vận động Thiên Trường"@vi ;
+    dbo:abstract """Sân vận động Thiên Trường (Tiếng Anh: Thiên Trường Stadium) là một sân vận động nằm ở phường Nam Định, tỉnh Ninh Bình, Việt Nam với sức chứa khoảng 30.000 chỗ ngồi, mặt sân cỏ có kích thước 115x72 m. Đây là sân nhà của Câu lạc bộ bóng đá Thép Xanh Nam Định, một câu lạc bộ bóng đá có thứ hạng cao trong giải vô địch bóng đá Việt Nam.
+Trước đây, sân vận động Thiên Trường có tên gọi sân vận động Chùa Cuối, được xây dựng từ những năm 60, 70 của thế kỉ 20. Ngày 30 tháng 8 năm 2003, sân chính thức đổi tên thành Thiên Trường với trận khai sân giữa câu lạc bộ bóng đá Nam Định với U-23 Thần Hoa Thượng Hải (Trung Quốc) [1].
+Các đội tuyển bóng đá quốc gia nam, nữ và Olympic từng chọn sân Thiên Trường làm sân nhà cho các trận đấu quốc tế.
+Năm 2003, sân vận động Thiên Trường là một trong nhiều địa điểm tham gia tổ chức Đại hội Thể thao Đông Nam Á 2003. Tại đây đã diễn ra các trận đấu môn bóng đã nữ.
+Khán giả đến sân vận động Thiên Trường để xem câu lạc bộ Thép Xanh Nam Định thi đấu thường rất đông. Vì thế sân còn được đặt biệt danh "Chảo lửa Thiên Trường"."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng.jpg> ;
+    dbo:wikiPageExternalLink <http://bongdanamdinh.com/>,
+        <https://web.archive.org/web/20080327015806/http://bongdanamdinh.com/> ;
+    dbo:wikiPageID 75960 ;
+    dbo:wikiPageLength "19659"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75604736 ;
+    dct:subject vcat:Bản_mẫu_du_lịch,
+        vcat:Công_trình_xây_dựng_ở_Ninh_Bình,
+        vcat:Du_lịch_Ninh_Bình,
+        vcat:Năm_2003,
+        vcat:Thể_thao_Ninh_Bình,
+        vcat:Trang_sử_dụng_hộp_thông_tin_địa_điểm_có_tham_số_xung_đột,
+        vcat:Văn_hóa_Ninh_Bình,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_2003 ;
+    vio:capacity "30000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "20.4358"^^xsd:float ;
+    vio:locatedIn vres:Nam_Định_\(phường\),
+        vres:Nam_Định_\(thành_phố\) ;
+    vio:longitude "106.18"^^xsd:float ;
+    vio:openingYear "2003"^^xsd:gYear ;
+    vio:province vres:Nam_Định_\(tỉnh\),
+        vres:Ninh_Bình ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Thép_Xanh_Nam_Định,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:brokeGround "Tháng 11 năm 2000"@vi ;
+    vip:capacity "30.000"@vi ;
+    vip:cost vres:Đồng_\(đơn_vị_tiền_tệ\) ;
+    vip:formerNames "Sân vận động Chùa Cuối"@vi ;
+    vip:location vres:Nam_Định_\(phường\),
+        vres:Ninh_Bình,
+        vres:Việt_Nam ;
+    vip:name "Sân vận động Thiên Trường"@vi ;
+    vip:nickname "\"Chảo lửa Thiên Trường\""@vi ;
+    vip:opened "30 tháng 8 năm 2003"@vi ;
+    vip:recordAttendance vres:Giải_bóng_đá_chuyên_nghiệp_Vô_địch_Quốc_gia_2003 ;
+    vip:scoreboard "Bảng điểm điện tử"@vi ;
+    vip:stadiumName "Sân vận động Thiên Trường"@vi ;
+    vip:surface "Cỏ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Thép_Xanh_Nam_Định,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "20.4358 106.18" ;
+    rdfs:comment "Sân vận động Thiên Trường (Tiếng Anh: Thiên Trường Stadium) là một sân vận động nằm ở phường Nam Định, tỉnh Ninh Bình, Việt Nam với sức chứa khoảng 30.000 chỗ ngồi, mặt sân cỏ có kích thước 115x72 m. Đây là sân nhà của Câu lạc bộ bóng đá Thép Xanh Nam Định, một câu lạc bộ bóng đá có thứ hạng cao trong giải vô địch bóng đá Việt Nam."@vi ;
+    owl:sameAs dbr:Thiên_Trường_Stadium,
+        wd:Q4115591 ;
+    skos:altLabel "Sân vận động Chùa Cuối"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng?oldid=75604736&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/b/b3/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng> .
+
+vres:Sân_vận_động_Thống_Nhất a vio:Stadium ;
+    rdfs:label "Thống Nhất Stadium"@en,
+        "Sân vận động Thống Nhất"@vi ;
+    dbo:abstract """Sân vận động Thống Nhất (trước đây là Vận động Trường Cộng Hòa) (tiếng Anh: Thống Nhất Stadium) là một sân vận động đa năng ở Thành phố Hồ Chí Minh, Việt Nam. Sân được mệnh danh là sân vận động lâu đời nhất Việt Nam.
+Sân nằm ở số 138 Đào Duy Từ, phường Diên Hồng. Sân hiện được sử dụng chủ yếu cho các trận đấu bóng đá. Đây là sân nhà của Công an Thành phố Hồ Chí Minh, hiện đang thi đấu tại V.League 1 và Thanh niên Thành phố Hồ Chí Minh, hiện đang thi đấu tại V.League 2. Sân vận động có sức chứa 14.400 người."""@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Th%E1%BB%91ng_Nh%E1%BA%A5t_Stadium_2022.jpg/330px-Th%E1%BB%91ng_Nh%E1%BA%A5t_Stadium_2022.jpg> ;
+    dbo:wikiPageExternalLink <http://stadiumdb.com/stadiums/vie/thong_nhat_stadium> ;
+    dbo:wikiPageID 79986 ;
+    dbo:wikiPageLength "26662"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75604845 ;
+    dct:subject vcat:Du_lịch_Thành_phố_Hồ_Chí_Minh,
+        vcat:Quận_10,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Thể_thao_Thành_phố_Hồ_Chí_Minh,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1931,
+        vcat:Địa_điểm_thể_thao_tại_Thành_phố_Hồ_Chí_Minh,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "25000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.760703"^^xsd:float ;
+    vio:locatedIn <http://vi.dbpedia.org/resource/Diên_Hồng,_Thành_phố_Hồ_Chí_Minh> ;
+    vio:longitude "106.663331"^^xsd:float ;
+    vio:openingYear "1931"^^xsd:gYear ;
+    vio:owner vres:Chính_phủ_Việt_Nam ;
+    vio:province vres:Thành_phố_Hồ_Chí_Minh ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1975\),
+        vres:Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai,
+        vres:Câu_lạc_bộ_bóng_đá_Navibank_Sài_Gòn,
+        vres:Câu_lạc_bộ_bóng_đá_Sài_Gòn,
+        <http://vi.dbpedia.org/resource/Câu_lạc_bộ_bóng_đá_Thể_Công_–_Viettel>,
+        vres:Câu_lạc_bộ_bóng_đá_Xi_măng_Xuân_Thành_Sài_Gòn,
+        vres:Đội_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1979\),
+        vres:Đội_bóng_đá_Hải_Quan,
+        vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:brokeGround 1929 ;
+    vip:capacity "14.400"@vi ;
+    vip:dimensions "100 × 68 m"@vi ;
+    vip:expanded "1959–1960, thập niên 1990"@vi ;
+    vip:formerNames "Sân vận động Renault (1929–1960); Sân vận động Vườn hoa Thành phố (1956–?); Sân vận động Cộng Hòa (1960–1975)"@vi ;
+    vip:fullname "Trung tâm Thể dục Thể thao Thống Nhất"@vi ;
+    vip:location <http://vi.dbpedia.org/resource/Diên_Hồng,_Thành_phố_Hồ_Chí_Minh>,
+        vres:Thành_phố_Hồ_Chí_Minh,
+        vres:Việt_Nam ;
+    vip:logoCaption "Biểu trưng của Trung tâm Thể dục Thể thao Thống Nhất"@vi ;
+    vip:logoImage "Logo TTTDTT Thống Nhất.png"@vi ;
+    vip:name "Sân vận động Thống Nhất"@vi ;
+    vip:opened "18 tháng 10 năm 1931"@vi ;
+    vip:operator "Sở Văn hóa và Thể thao Thành phố Hồ Chí Minh"@vi ;
+    vip:owner vres:Chính_phủ_Việt_Nam ;
+    vip:renovated "1967–1968, 2002–2003, 2005–2007, 2017–2019, 2026–2027"@vi ;
+    vip:surface vres:Cỏ_gà ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Becamex_Thành_phố_Hồ_Chí_Minh,
+        vres:Câu_lạc_bộ_bóng_đá_Mancons_Sài_Gòn,
+        vres:Câu_lạc_bộ_bóng_đá_Navibank_Sài_Gòn,
+        vres:Câu_lạc_bộ_bóng_đá_Ngân_hàng_Đông_Á,
+        vres:Câu_lạc_bộ_bóng_đá_Sài_Gòn,
+        vres:Câu_lạc_bộ_bóng_đá_Xi_măng_Xuân_Thành_Sài_Gòn,
+        vres:Đội_bóng_đá_Công_an_Thành_phố_Hồ_Chí_Minh_\(1979\),
+        vres:Đội_bóng_đá_Hải_Quan,
+        vres:Đội_tuyển_bóng_đá_nữ_quốc_gia_Việt_Nam,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "10.760703 106.663331" ;
+    rdfs:comment "Sân vận động Thống Nhất (trước đây là Vận động Trường Cộng Hòa) (tiếng Anh: Thống Nhất Stadium) là một sân vận động đa năng ở Thành phố Hồ Chí Minh, Việt Nam. Sân được mệnh danh là sân vận động lâu đời nhất Việt Nam."@vi ;
+    owl:sameAs dbr:Thống_Nhất_Stadium,
+        wd:Q2051647 ;
+    skos:altLabel "Sân vận động Cộng Hòa"@vi,
+        "Thống Nhất Stadium"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Th%E1%BB%91ng_Nh%E1%BA%A5t?oldid=75604845&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/3/32/Th%E1%BB%91ng_Nh%E1%BA%A5t_Stadium_2022.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Th%E1%BB%91ng_Nh%E1%BA%A5t> .
+
+vres:Sân_vận_động_Tiền_Giang a vio:Stadium ;
+    rdfs:label "Sân vận động Tiền Giang"@vi ;
+    dbo:abstract "Sân vận động Tiền Giang là một sân vận động đa chức năng đặt tại số 1A, đường Phan Lương Trực, phường Thới Sơn, tỉnh Đồng Tháp. Sân nằm dưới sự quản lý của Sở Văn hóa, Thể thao và Du lịch tỉnh Tiền Giang, được đặt cạnh các công trình thể dục thể thao và khu chức năng khác như Nhà thi đấu đa môn tỉnh Tiền Giang, Sân tập bóng đá, Trường Năng khiếu Thể dục Thể thao, Trung tâm Huấn luyện và Thi đấu thể dục thể thao và Khối nhà vận động viên... Sân có sức chứa khoảng 12.000 khán giả và là sân nhà của Câu lạc bộ bóng đá Tiền Giang."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang.jpg/330px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang.jpg> ;
+    dbo:wikiPageID 516205 ;
+    dbo:wikiPageLength "8136"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75170638 ;
+    dct:subject vcat:Du_lịch_Tiền_Giang,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_bóng_đá,
+        vcat:Thể_thao_Tiền_Giang,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "12000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:locatedIn <http://vi.dbpedia.org/resource/Thới_Sơn,_Đồng_Tháp> ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Tiền_Giang ;
+    vip:chủSởHữu "Sở Văn hóa, Thể thao và Du lịch tỉnh Tiền Giang"@vi ;
+    vip:location <http://vi.dbpedia.org/resource/Thới_Sơn,_Đồng_Tháp>,
+        vres:Việt_Nam ;
+    vip:sứcChứa "12.000"@vi ;
+    vip:sửaChữa 2008 ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Tiền_Giang ;
+    vip:tên "Sân vận động Tiền Giang"@vi ;
+    vip:tênĐầyĐủ "Sân vận động Tiền Giang"@vi ;
+    rdfs:comment "Sân vận động Tiền Giang là một sân vận động đa chức năng đặt tại số 1A, đường Phan Lương Trực, phường Thới Sơn, tỉnh Đồng Tháp."@vi ;
+    owl:sameAs wd:Q10822672 ;
+    skos:altLabel "Sân vận động Mỹ Tho"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang?oldid=75170638&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/1/11/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang> .
+
+vres:Sân_vận_động_Tự_Do a vio:Stadium ;
+    rdfs:label "Tự Do Stadium"@en,
+        "Sân vận động Tự Do"@vi ;
+    dbo:abstract "Sân vận động Tự Do là một sân vận động nằm ở trung tâm thành phố Huế, Việt Nam với sức chứa khoảng 16.000 chỗ ngồi. Đây là sân nhà của câu lạc bộ bóng đá Huế (trước là câu lạc bộ bóng đá Thừa Thiên Huế), một câu lạc bộ đang thi đấu tại V.League 2."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/T%E1%BB%B1_Do_stadium.jpg/330px-T%E1%BB%B1_Do_stadium.jpg> ;
+    dbo:wikiPageID 76764 ;
+    dbo:wikiPageLength "10837"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75572207 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Huế,
+        vcat:Công_trình_xây_dựng_Huế,
+        vcat:Du_lịch_Huế,
+        vcat:Khởi_đầu_năm_1930_ở_Việt_Nam,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1930,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "16000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "16.467275"^^xsd:float ;
+    vio:locatedIn vres:Huế_\(thành_phố_thuộc_tỉnh\),
+        vres:Thuận_Hóa_\(quận\) ;
+    vio:longitude "107.597581"^^xsd:float ;
+    vio:openingYear "1932"^^xsd:gYear ;
+    vio:province vres:Huế,
+        vres:Thừa_Thiên_Huế ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Huế ;
+    vip:chủSởHữu "Sở Văn hoá ,Thể thao và Du lịch TP Huế"@vi ;
+    vip:diệnTích "70.000 m2"@vi ;
+    vip:khánhThành 1936 ;
+    vip:khởiCông 1934 ;
+    vip:kíchThước "3000 mét"@vi ;
+    vip:location vres:Huế,
+        vres:Thuận_Hóa_\(quận\),
+        vres:Việt_Nam ;
+    vip:mônThểThao vres:Bóng_đá ;
+    vip:mặtSân "Cỏ lá gừng"@vi ;
+    vip:sứcChứa "16.000"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Huế ;
+    vip:tên "Sân vận động Tự Do"@vi ;
+    vip:tênCũ "Sân vận động Olympic Huế; Sân vận động Bảo Long"@vi ;
+    georss:point "16.467275 107.597581" ;
+    rdfs:comment "Sân vận động Tự Do là một sân vận động nằm ở trung tâm thành phố Huế, Việt Nam với sức chứa khoảng 16.000 chỗ ngồi. Đây là sân nhà của câu lạc bộ bóng đá Huế (trước là câu lạc bộ bóng đá Thừa Thiên Huế), một câu lạc bộ đang thi đấu tại V.League 2."@vi ;
+    owl:sameAs dbr:Tự_Do_Stadium,
+        wd:Q5929707 ;
+    skos:altLabel "Stade Olympique de Hué"@vi,
+        "Sân vận động Bảo Long"@vi ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_T%E1%BB%B1_Do?oldid=75572207&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/7/7e/T%E1%BB%B1_Do_stadium.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_T%E1%BB%B1_Do> .
+
+vres:Sân_vận_động_Vinh a vio:Stadium ;
+    rdfs:label "Vinh Stadium"@en,
+        "Sân vận động Vinh"@vi ;
+    dbo:abstract "Sân vận động Vinh (Tiếng Anh: Vinh stadium) là một sân vận động nằm ở phường Thành Vinh, tỉnh Nghệ An, Việt Nam với sức chứa khoảng 20.000 chỗ ngồi. Đây là sân nhà của câu lạc bộ bóng đá Sông Lam Nghệ An - một câu lạc bộ bóng đá nổi tiếng, nhiều lần vô địch bóng đá Việt Nam."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Vinh_Stadium_2022.jpg/330px-Vinh_Stadium_2022.jpg> ;
+    dbo:wikiPageExternalLink <http://www.footballmatch.de>,
+        <http://www.qdnd.vn/qdndsite/vi-vn/61/157999/print/Default.aspx/>,
+        <http://www.slna-fc.com/>,
+        <http://www.tienphong.vn/>,
+        <http://www.truyenhinhnghean.vn/HD/Default.aspx?Item=6989&cate=129/>,
+        <http://www.worldstadiums.com/asia/countries/vietnam.shtml>,
+        <https://web.archive.org/web/20180319004314/http://www.worldstadiums.com/asia/countries/vietnam.shtml> ;
+    dbo:wikiPageID 75958 ;
+    dbo:wikiPageLength "6172"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75240085 ;
+    dct:subject vcat:Câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An,
+        vcat:Du_lịch_Nghệ_An,
+        vcat:Khởi_đầu_thập_niên_1970_ở_Việt_Nam,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Thể_thao_Nghệ_An,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "12000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "18.669015"^^xsd:float ;
+    vio:locatedIn vres:Thành_Vinh_\(phường\),
+        vres:Vinh ;
+    vio:longitude "105.669508"^^xsd:float ;
+    vio:openingYear "2003"^^xsd:gYear ;
+    vio:province vres:Nghệ_An ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh,
+        vres:Câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An ;
+    vip:location vres:Nghệ_An,
+        vres:Thành_Vinh_\(phường\),
+        vres:Việt_Nam ;
+    vip:mônThểThao vres:Bóng_đá,
+        vres:Điền_kinh ;
+    vip:surface vres:Cỏ_gà ;
+    vip:sứcChứa "20.000"@vi ;
+    vip:sửaChữa 2003 ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Hồng_Lĩnh_Hà_Tĩnh,
+        vres:Câu_lạc_bộ_bóng_đá_Sông_Lam_Nghệ_An ;
+    vip:tên "Sân vận động Vinh"@vi ;
+    vip:tênĐầyĐủ "Sân vận động Vinh"@vi ;
+    georss:point "18.669015 105.669508" ;
+    rdfs:comment "Sân vận động Vinh (Tiếng Anh: Vinh stadium) là một sân vận động nằm ở phường Thành Vinh, tỉnh Nghệ An, Việt Nam với sức chứa khoảng 20.000 chỗ ngồi. Đây là sân nhà của câu lạc bộ bóng đá Sông Lam Nghệ An - một câu lạc bộ bóng đá nổi tiếng, nhiều lần vô địch bóng đá Việt Nam."@vi ;
+    owl:sameAs dbr:Vinh_Stadium,
+        wd:Q3277621 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vinh?oldid=75240085&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/3/3f/Vinh_Stadium_2022.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vinh> .
+
+vres:Sân_vận_động_Việt_Trì a vio:Stadium ;
+    rdfs:label "Việt Trì Stadium"@en,
+        "Sân vận động Việt Trì"@vi ;
+    dbo:abstract "Sân vận động Việt Trì là một sân vận động đa năng nằm ở phường Thanh Miếu, tỉnh Phú Thọ, Việt Nam. Có sức chứa 20.000 chỗ ngồi, sân vận động này nằm trong khuôn viên của Khu liên hợp Thể dục thể thao tỉnh Phú Thọ. Đây là sân nhà của Câu lạc bộ bóng đá Xuân Thiện Phú Thọ hiện đang thi đấu tại V.League 2."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/SvdVietTri.jpg/330px-SvdVietTri.jpg> ;
+    dbo:wikiPageID 19531383 ;
+    dbo:wikiPageLength "9679"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75555976 ;
+    dct:subject vcat:Khởi_đầu_năm_1960_ở_Việt_Nam,
+        vcat:Sơ_khai_công_trình_xây_dựng_Việt_Nam,
+        vcat:Sơ_khai_thể_thao_Việt_Nam,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_thể_thao_hoàn_thành_năm_1960 ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "21.305278"^^xsd:float ;
+    vio:locatedIn vres:Thanh_Miếu,
+        vres:Việt_Trì_\(thành_phố\) ;
+    vio:longitude "105.413056"^^xsd:float ;
+    vio:openingYear "1960"^^xsd:gYear ;
+    vio:province vres:Phú_Thọ ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Phú_Thọ,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    vip:brokeGround "Khoảng năm 1960"@vi ;
+    vip:built "Khoảng năm 1960"@vi ;
+    vip:constructionCost "100 tỷ đồng (2005)"@vi ;
+    vip:location vres:Phú_Thọ,
+        vres:Thanh_Miếu,
+        vres:Việt_Nam ;
+    vip:owner "Trung tâm Quản lý, khai thác các thiết chế thể thao, Sở Văn hóa, Thể thao và Du lịch tỉnh Phú Thọ"@vi ;
+    vip:renovated "2005, 2019"@vi ;
+    vip:seatingCapacity "20.000"@vi ;
+    vip:stadiumName "Sân vận động Việt Trì"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Phú_Thọ,
+        vres:Câu_lạc_bộ_bóng_đá_Xuân_Thiện_Phú_Thọ,
+        vres:Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam ;
+    georss:point "21.305278 105.413056" ;
+    rdfs:comment "Sân vận động Việt Trì là một sân vận động đa năng nằm ở phường Thanh Miếu, tỉnh Phú Thọ, Việt Nam. Có sức chứa 20.000 chỗ ngồi, sân vận động này nằm trong khuôn viên của Khu liên hợp Thể dục thể thao tỉnh Phú Thọ. Đây là sân nhà của Câu lạc bộ bóng đá Xuân Thiện Phú Thọ hiện đang thi đấu tại V.League 2."@vi ;
+    owl:sameAs dbr:Việt_Trì_Stadium,
+        wd:Q109436207 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vi%E1%BB%87t_Tr%C3%AC?oldid=75555976&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/9/9a/SvdVietTri.jpg> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vi%E1%BB%87t_Tr%C3%AC> .
+
+vres:Sân_vận_động_Đồng_Nai a vio:Stadium ;
+    rdfs:label "Đồng Nai Stadium"@en,
+        "Sân vận động Đồng Nai"@vi ;
+    dbo:abstract "Sân vận động Đồng Nai là một sân vận động nằm ở phường Tam Hiệp, thành phố Đồng Nai. Sân vận động có sức chứa 30.000 người và chủ yếu được sử dụng để tổ chức các trận đấu bóng đá. Đây là sân nhà của Câu lạc bộ bóng đá Đồng Nai."@vi ;
+    dbo:thumbnail <https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/SV%C4%90_%C4%90%E1%BB%93ng_Nai.webp/330px-SV%C4%90_%C4%90%E1%BB%93ng_Nai.webp> ;
+    dbo:wikiPageID 3386313 ;
+    dbo:wikiPageLength "3158"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 75094557 ;
+    dct:subject vcat:Biên_Hòa,
+        vcat:Công_trình_xây_dựng_ở_Đồng_Nai,
+        vcat:Du_lịch_Đồng_Nai,
+        vcat:Sân_vận_động_đa_năng_Việt_Nam,
+        vcat:Sơ_khai_kiến_trúc_Việt_Nam,
+        vcat:Thể_thao_Đồng_Nai,
+        vcat:Địa_điểm_bóng_đá_Việt_Nam,
+        vcat:Địa_điểm_điền_kinh_Việt_Nam ;
+    vio:capacity "10000"^^xsd:nonNegativeInteger ;
+    vio:country vres:Việt_Nam ;
+    vio:latitude "10.9619"^^xsd:float ;
+    vio:locatedIn vres:Biên_Hòa_\(thành_phố\),
+        vres:Tam_Hiệp_\(phường\) ;
+    vio:longitude "106.863"^^xsd:float ;
+    vio:owner vres:Đồng_Nai ;
+    vio:province vres:Đồng_Nai ;
+    vio:tenant vres:Câu_lạc_bộ_bóng_đá_Đồng_Nai ;
+    vip:capacity "30.000"@vi ;
+    vip:location vres:Tam_Hiệp_\(phường\),
+        vres:Việt_Nam,
+        vres:Đồng_Nai ;
+    vip:name "Sân vận động Đồng Nai"@vi ;
+    vip:owner vres:Đồng_Nai ;
+    vip:surface "Cỏ"@vi ;
+    vip:tenants vres:Câu_lạc_bộ_bóng_đá_Đồng_Nai ;
+    georss:point "10.9619 106.863" ;
+    rdfs:comment "Sân vận động Đồng Nai là một sân vận động nằm ở phường Tam Hiệp, thành phố Đồng Nai. Sân vận động có sức chứa 30.000 người và chủ yếu được sử dụng để tổ chức các trận đấu bóng đá. Đây là sân nhà của Câu lạc bộ bóng đá Đồng Nai."@vi ;
+    owl:sameAs dbr:Đồng_Nai_Stadium,
+        wd:Q2524171 ;
+    prov:wasDerivedFrom <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_%C4%90%E1%BB%93ng_Nai?oldid=75094557&ns=0> ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/0/01/SV%C4%90_%C4%90%E1%BB%93ng_Nai.webp> ;
+    foaf:isPrimaryTopicOf <https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_%C4%90%E1%BB%93ng_Nai> .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_%C4%90%E1%BB%93ng_Nai> foaf:primaryTopic vres:Sân_vận_động_Đồng_Nai .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_19_th%C3%A1ng_8> foaf:primaryTopic vres:Sân_vận_động_19_tháng_8 .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A7n_Th%C6%A1> foaf:primaryTopic vres:Sân_vận_động_Cần_Thơ .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BA%A9m_Ph%E1%BA%A3> foaf:primaryTopic vres:Sân_vận_động_Cẩm_Phả .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Cao_L%C3%A3nh> foaf:primaryTopic vres:Sân_vận_động_Cao_Lãnh .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(1943)> foaf:primaryTopic vres:Sân_vận_động_Chi_Lăng_\(1943\) .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Chi_L%C4%83ng_(2016)> foaf:primaryTopic vres:Sân_vận_động_Chi_Lăng_\(2016\) .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_G%C3%B2_%C4%90%E1%BA%ADu> foaf:primaryTopic vres:Sân_vận_động_Gò_Đậu .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0_T%C4%A9nh> foaf:primaryTopic vres:Sân_vận_động_Hà_Tĩnh .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_H%C3%A0ng_%C4%90%E1%BA%ABy> foaf:primaryTopic vres:Sân_vận_động_Hàng_Đẫy .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ho%C3%A0i_%C4%90%E1%BB%A9c> foaf:primaryTopic vres:Sân_vận_động_Hoài_Đức .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_L%E1%BA%A1ch_Tray> foaf:primaryTopic vres:Sân_vận_động_Lạch_Tray .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Long_An> foaf:primaryTopic vres:Sân_vận_động_Long_An .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_B%C3%ACnh> foaf:primaryTopic vres:Sân_vận_động_Ninh_Bình .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ninh_Thu%E1%BA%ADn> foaf:primaryTopic vres:Sân_vận_động_Ninh_Thuận .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Phan_Thi%E1%BA%BFt> foaf:primaryTopic vres:Sân_vận_động_Phan_Thiết .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Pleiku> foaf:primaryTopic vres:Sân_vận_động_Pleiku .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%C3%A2n_khu_7> foaf:primaryTopic vres:Sân_vận_động_Quân_khu_7 .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%E1%BB%91c_gia_M%E1%BB%B9_%C4%90%C3%ACnh> foaf:primaryTopic vres:Sân_vận_động_Quốc_gia_Mỹ_Đình .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Quy_Nh%C6%A1n> foaf:primaryTopic vres:Sân_vận_động_Quy_Nhơn .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_R%E1%BA%A1ch_Gi%C3%A1> foaf:primaryTopic vres:Sân_vận_động_Rạch_Giá .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_T%E1%BB%B1_Do> foaf:primaryTopic vres:Sân_vận_động_Tự_Do .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Tam_K%E1%BB%B3> foaf:primaryTopic vres:Sân_vận_động_Tam_Kỳ .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Th%E1%BB%91ng_Nh%E1%BA%A5t> foaf:primaryTopic vres:Sân_vận_động_Thống_Nhất .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thanh_H%C3%B3a> foaf:primaryTopic vres:Sân_vận_động_Thanh_Hóa .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng> foaf:primaryTopic vres:Sân_vận_động_Thiên_Trường .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Ti%E1%BB%81n_Giang> foaf:primaryTopic vres:Sân_vận_động_Tiền_Giang .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vi%E1%BB%87t_Tr%C3%AC> foaf:primaryTopic vres:Sân_vận_động_Việt_Trì .
+
+<https://vi.wikipedia.org/wiki/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Vinh> foaf:primaryTopic vres:Sân_vận_động_Vinh .
+

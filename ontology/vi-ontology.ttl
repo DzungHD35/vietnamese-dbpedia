@@ -1,0 +1,667 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix vio: <http://vi.dbpedia.org/ontology/> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbo:abstract a owl:DatatypeProperty .
+
+dbo:thumbnail a owl:ObjectProperty .
+
+dbo:wikiPageExternalLink a owl:ObjectProperty .
+
+dbo:wikiPageID a owl:DatatypeProperty .
+
+dbo:wikiPageLength a owl:DatatypeProperty .
+
+dbo:wikiPageRedirects a owl:ObjectProperty .
+
+dbo:wikiPageRevisionID a owl:DatatypeProperty .
+
+vio: a owl:Ontology ;
+    rdfs:label "Vietnamese DBpedia Ontology"@en,
+        "Ontology Vietnamese DBpedia"@vi ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    rdfs:comment "Từ vựng cho dữ liệu bóng đá, tỉnh thành và trường đại học Việt Nam trích từ Wikipedia tiếng Việt và Wikidata; mọi lớp và thuộc tính được ánh xạ sang DBpedia Ontology."@vi ;
+    owl:versionInfo "2.0" .
+
+vio:FormerProvince a owl:Class ;
+    rdfs:label "Former province"@en,
+        "Tỉnh cũ (đã giải thể, sáp nhập hoặc thuộc chế độ trước)"@vi ;
+    rdfs:comment "Gán khi Wikidata không còn xếp đơn vị vào 'province of Vietnam' / 'centrally-governed city of Vietnam' (Q2824648, Q1381899) đang hiệu lực, hoặc có năm giải thể (P576)."@vi ;
+    rdfs:subClassOf vio:Province .
+
+vio:University a owl:Class ;
+    rdfs:label "University"@en,
+        "Trường đại học"@vi ;
+    rdfs:subClassOf dbo:University,
+        vio:EducationalInstitution .
+
+vio:abbreviation a owl:DatatypeProperty ;
+    rdfs:label "abbreviation"@en,
+        "tên viết tắt"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf dbo:abbreviation .
+
+vio:academicStaffSize a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "academic staff size"@en,
+        "số giảng viên"@vi ;
+    rdfs:domain vio:EducationalInstitution ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:facultySize .
+
+vio:administrativeCode a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "administrative code"@en,
+        "mã hành chính"@vi ;
+    rdfs:domain vio:Province ;
+    rdfs:range xsd:string .
+
+vio:affiliation a owl:ObjectProperty ;
+    rdfs:label "affiliation"@en,
+        "trực thuộc / thành viên của"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:subPropertyOf dbo:affiliation .
+
+vio:appearances a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "appearances"@en,
+        "số trận"@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:numberOfMatches .
+
+vio:area a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "area (km²)"@en,
+        "diện tích (km²)"@vi ;
+    rdfs:comment "Đơn vị km²; không ánh xạ sang dbo:areaTotal vì DBpedia dùng m²."@vi ;
+    rdfs:domain vio:Location ;
+    rdfs:range xsd:double .
+
+vio:birthDate a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "birth date"@en,
+        "ngày sinh"@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range xsd:date ;
+    rdfs:subPropertyOf dbo:birthDate,
+        schema1:birthDate .
+
+vio:birthProvince a owl:ObjectProperty ;
+    rdfs:label "birth province"@en,
+        "tỉnh nơi sinh"@vi ;
+    rdfs:comment "Nơi sinh quy về cấp tỉnh qua chuỗi Wikidata P19/P131*."@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range vio:Province ;
+    rdfs:subPropertyOf vio:birthPlace .
+
+vio:birthYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "birth year"@en,
+        "năm sinh"@vi ;
+    rdfs:comment "Dùng khi nguồn chỉ biết năm sinh."@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range xsd:gYear ;
+    rdfs:subPropertyOf dbo:birthYear .
+
+vio:capacity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "capacity"@en,
+        "sức chứa"@vi ;
+    rdfs:domain vio:Stadium ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:seatingCapacity .
+
+vio:capital a owl:ObjectProperty ;
+    rdfs:label "capital"@en,
+        "tỉnh lỵ / thủ đô"@vi ;
+    rdfs:domain vio:Location ;
+    rdfs:subPropertyOf dbo:capital .
+
+vio:chairman a owl:ObjectProperty ;
+    rdfs:label "chairman"@en,
+        "chủ tịch"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range vio:Person ;
+    rdfs:subPropertyOf dbo:chairman .
+
+vio:country a owl:ObjectProperty ;
+    rdfs:label "country"@en,
+        "quốc gia"@vi ;
+    rdfs:range vio:Country ;
+    rdfs:subPropertyOf dbo:country .
+
+vio:currentClub a owl:ObjectProperty ;
+    rdfs:label "current club"@en,
+        "câu lạc bộ hiện tại"@vi ;
+    rdfs:domain vio:FootballPlayer ;
+    rdfs:range vio:FootballClub ;
+    rdfs:subPropertyOf dbo:team .
+
+vio:deathDate a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "death date"@en,
+        "ngày mất"@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range xsd:date ;
+    rdfs:subPropertyOf dbo:deathDate,
+        schema1:deathDate .
+
+vio:dissolutionYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "dissolution year"@en,
+        "năm giải thể"@vi ;
+    rdfs:range xsd:gYear ;
+    rdfs:subPropertyOf dbo:dissolutionYear .
+
+vio:endYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "end year"@en,
+        "năm kết thúc"@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:range xsd:gYear .
+
+vio:foundingDate a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "founding date"@en,
+        "ngày thành lập"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range xsd:date ;
+    rdfs:subPropertyOf dbo:foundingDate .
+
+vio:foundingYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "founding year"@en,
+        "năm thành lập"@vi ;
+    rdfs:comment "Dùng khi chỉ biết năm thành lập."@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range xsd:gYear ;
+    rdfs:subPropertyOf dbo:foundingYear .
+
+vio:goals a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "goals"@en,
+        "số bàn thắng"@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:numberOfGoals .
+
+vio:ground a owl:ObjectProperty ;
+    rdfs:label "ground"@en,
+        "sân nhà"@vi ;
+    rdfs:comment "Sân nhà hiện tại (Wikidata P115, infobox CLB). Domain là Organisation (không phải FootballClub) vì đội tuyển quốc gia cũng có sân nhà; với domain FootballClub, đội tuyển bị suy ra là CLB và vi phạm owl:AllDisjointClasses."@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range vio:Stadium ;
+    rdfs:subPropertyOf dbo:ground .
+
+vio:hasPart a owl:ObjectProperty ;
+    rdfs:label "has part"@en,
+        "gồm"@vi ;
+    owl:inverseOf vio:isPartOf .
+
+vio:hasPlayer a owl:ObjectProperty ;
+    rdfs:label "has player"@en,
+        "có cầu thủ"@vi ;
+    owl:inverseOf vio:playedFor .
+
+vio:height a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "height (m)"@en,
+        "chiều cao (m)"@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf dbo:height .
+
+vio:latitude a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "latitude"@en,
+        "vĩ độ"@vi ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf wgs84:lat .
+
+vio:league a owl:ObjectProperty ;
+    rdfs:label "league"@en,
+        "giải đấu"@vi ;
+    rdfs:domain vio:FootballClub ;
+    rdfs:subPropertyOf dbo:league .
+
+vio:longitude a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "longitude"@en,
+        "kinh độ"@vi ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf wgs84:long .
+
+vio:manager a owl:ObjectProperty ;
+    rdfs:label "manager"@en,
+        "huấn luyện viên trưởng"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range vio:Person ;
+    rdfs:subPropertyOf dbo:manager .
+
+vio:managerName a owl:DatatypeProperty ;
+    rdfs:label "manager name"@en,
+        "tên huấn luyện viên trưởng"@vi ;
+    rdfs:domain vio:Organisation ;
+    rdfs:range xsd:string .
+
+vio:motto a owl:DatatypeProperty ;
+    rdfs:label "motto"@en,
+        "khẩu hiệu"@vi ;
+    rdfs:domain vio:EducationalInstitution ;
+    rdfs:range rdf:langString ;
+    rdfs:subPropertyOf dbo:motto .
+
+vio:nickname a owl:DatatypeProperty ;
+    rdfs:label "nickname"@en,
+        "biệt danh"@vi ;
+    rdfs:range rdf:langString .
+
+vio:numberOfStudents a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "number of students"@en,
+        "số sinh viên"@vi ;
+    rdfs:domain vio:EducationalInstitution ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:numberOfStudents .
+
+vio:onLoan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "on loan"@en,
+        "cho mượn"@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:range xsd:boolean .
+
+vio:openingYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "opening year"@en,
+        "năm khánh thành"@vi ;
+    rdfs:domain vio:Stadium ;
+    rdfs:range xsd:gYear ;
+    rdfs:subPropertyOf dbo:openingYear .
+
+vio:operator a owl:ObjectProperty ;
+    rdfs:label "operator"@en,
+        "đơn vị vận hành"@vi ;
+    rdfs:subPropertyOf dbo:operator .
+
+vio:owner a owl:ObjectProperty ;
+    rdfs:label "owner"@en,
+        "chủ sở hữu"@vi ;
+    rdfs:subPropertyOf dbo:owner .
+
+vio:population a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "population"@en,
+        "dân số"@vi ;
+    rdfs:domain vio:Location ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:populationTotal .
+
+vio:populationYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "population as of"@en,
+        "năm số liệu dân số"@vi ;
+    rdfs:comment "Thời điểm của số liệu dân số (Wikidata P585), để tránh cộng dân số các năm khác nhau."@vi ;
+    rdfs:domain vio:Location ;
+    rdfs:range xsd:gYear .
+
+vio:position a owl:ObjectProperty ;
+    rdfs:label "position"@en,
+        "vị trí"@vi ;
+    rdfs:domain vio:FootballPlayer ;
+    rdfs:subPropertyOf dbo:position .
+
+vio:predecessor a owl:ObjectProperty ;
+    rdfs:label "predecessor"@en,
+        "đơn vị tiền thân"@vi ;
+    rdfs:subPropertyOf dbo:predecessor ;
+    owl:inverseOf vio:successor .
+
+vio:province a owl:ObjectProperty ;
+    rdfs:label "province"@en,
+        "thuộc tỉnh"@vi ;
+    rdfs:comment "Địa điểm quy về cấp tỉnh qua chuỗi Wikidata P131*."@vi ;
+    rdfs:range vio:Province ;
+    rdfs:subPropertyOf vio:locatedIn .
+
+vio:rector a owl:ObjectProperty ;
+    rdfs:label "rector"@en,
+        "hiệu trưởng / giám đốc"@vi ;
+    rdfs:domain vio:EducationalInstitution ;
+    rdfs:range vio:Person ;
+    rdfs:subPropertyOf dbo:rector .
+
+vio:rectorName a owl:DatatypeProperty ;
+    rdfs:label "rector name"@en,
+        "tên hiệu trưởng / giám đốc"@vi ;
+    rdfs:domain vio:EducationalInstitution ;
+    rdfs:range xsd:string .
+
+vio:region a owl:ObjectProperty ;
+    rdfs:label "region"@en,
+        "vùng"@vi ;
+    rdfs:subPropertyOf dbo:region .
+
+vio:shirtNumber a owl:DatatypeProperty ;
+    rdfs:label "shirt number"@en,
+        "số áo"@vi ;
+    rdfs:domain vio:FootballPlayer ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:subPropertyOf dbo:number .
+
+vio:startYear a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "start year"@en,
+        "năm bắt đầu"@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:range xsd:gYear .
+
+vio:tenant a owl:ObjectProperty ;
+    rdfs:label "tenant"@en,
+        "đội thuê sân"@vi ;
+    rdfs:comment "Mọi đội từng dùng sân, kể cả tạm thời (ô bên thuê của infobox, Wikidata P466). Không khai báo owl:inverseOf vio:ground (DBpedia cũng tách dbo:tenant và dbo:ground): nếu khai báo, mọi đội từng thuê Hàng Đẫy sẽ bị suy ra có sân nhà ở Hà Nội."@vi ;
+    rdfs:domain vio:Stadium ;
+    rdfs:subPropertyOf dbo:tenant .
+
+dbo:AdministrativeRegion a owl:Class ;
+    rdfs:subClassOf dbo:Region .
+
+dbo:Building a owl:Class ;
+    rdfs:subClassOf dbo:ArchitecturalStructure .
+
+dbo:CareerStation a owl:Class ;
+    rdfs:subClassOf dbo:TimePeriod .
+
+dbo:Country a owl:Class ;
+    rdfs:subClassOf dbo:PopulatedPlace .
+
+dbo:GovernmentalAdministrativeRegion a owl:Class ;
+    rdfs:subClassOf dbo:AdministrativeRegion .
+
+dbo:NationalSoccerClub a owl:Class ;
+    rdfs:subClassOf dbo:SoccerClub .
+
+dbo:Province a owl:Class ;
+    rdfs:subClassOf dbo:GovernmentalAdministrativeRegion .
+
+dbo:Region a owl:Class ;
+    rdfs:subClassOf dbo:PopulatedPlace .
+
+dbo:SoccerPlayer a owl:Class ;
+    rdfs:subClassOf dbo:Athlete .
+
+dbo:SportsClub a owl:Class ;
+    rdfs:subClassOf dbo:Organisation .
+
+dbo:Stadium a owl:Class ;
+    rdfs:subClassOf dbo:Venue .
+
+dbo:University a owl:Class ;
+    rdfs:subClassOf dbo:EducationalInstitution .
+
+dbo:Venue a owl:Class ;
+    rdfs:subClassOf dbo:Building .
+
+dbo:abbreviation a owl:DatatypeProperty .
+
+dbo:affiliation a owl:ObjectProperty .
+
+dbo:birthDate a owl:DatatypeProperty .
+
+dbo:birthPlace a owl:ObjectProperty .
+
+dbo:birthYear a owl:DatatypeProperty .
+
+dbo:capital a owl:ObjectProperty .
+
+dbo:careerStation a owl:ObjectProperty .
+
+dbo:chairman a owl:ObjectProperty .
+
+dbo:country a owl:ObjectProperty .
+
+dbo:deathDate a owl:DatatypeProperty .
+
+dbo:dissolutionYear a owl:DatatypeProperty .
+
+dbo:facultySize a owl:DatatypeProperty .
+
+dbo:foundingDate a owl:DatatypeProperty .
+
+dbo:foundingYear a owl:DatatypeProperty .
+
+dbo:ground a owl:ObjectProperty .
+
+dbo:height a owl:DatatypeProperty .
+
+dbo:isPartOf a owl:ObjectProperty .
+
+dbo:league a owl:ObjectProperty .
+
+dbo:location a owl:ObjectProperty .
+
+dbo:manager a owl:ObjectProperty .
+
+dbo:motto a owl:DatatypeProperty .
+
+dbo:number a owl:DatatypeProperty .
+
+dbo:numberOfGoals a owl:DatatypeProperty .
+
+dbo:numberOfMatches a owl:DatatypeProperty .
+
+dbo:numberOfStudents a owl:DatatypeProperty .
+
+dbo:openingYear a owl:DatatypeProperty .
+
+dbo:operator a owl:ObjectProperty .
+
+dbo:owner a owl:ObjectProperty .
+
+dbo:populationTotal a owl:DatatypeProperty .
+
+dbo:position a owl:ObjectProperty .
+
+dbo:predecessor a owl:ObjectProperty .
+
+dbo:rector a owl:ObjectProperty .
+
+dbo:region a owl:ObjectProperty .
+
+dbo:seatingCapacity a owl:DatatypeProperty .
+
+dbo:successor a owl:ObjectProperty .
+
+dbo:tenant a owl:ObjectProperty .
+
+vio:Athlete a owl:Class ;
+    rdfs:label "Athlete"@en,
+        "Vận động viên"@vi ;
+    rdfs:subClassOf dbo:Athlete,
+        vio:Person .
+
+vio:ClubStation a owl:Class ;
+    rdfs:label "Club career station"@en,
+        "Giai đoạn câu lạc bộ"@vi ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom vio:FootballClub ;
+            owl:onProperty vio:team ],
+        vio:CareerStation .
+
+vio:NationalTeamPlayer a owl:Class ;
+    rdfs:label "National team player"@en,
+        "Cầu thủ từng khoác áo đội tuyển quốc gia"@vi ;
+    rdfs:comment "Suy ra từ quá trình thi đấu: có ít nhất một NationalTeamStation (mọi lứa tuổi)."@vi ;
+    rdfs:subClassOf vio:FootballPlayer .
+
+vio:YouthStation a owl:Class ;
+    rdfs:label "Youth career station"@en,
+        "Giai đoạn đội trẻ"@vi ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom vio:FootballClub ;
+            owl:onProperty vio:team ],
+        vio:CareerStation .
+
+vio:birthPlace a owl:ObjectProperty ;
+    rdfs:label "birth place"@en,
+        "nơi sinh"@vi ;
+    rdfs:domain vio:Person ;
+    rdfs:range vio:Location ;
+    rdfs:subPropertyOf dbo:birthPlace,
+        schema1:birthPlace .
+
+vio:isPartOf a owl:ObjectProperty ;
+    rdfs:label "is part of"@en,
+        "thuộc"@vi ;
+    rdfs:domain vio:Location ;
+    rdfs:range vio:Location ;
+    rdfs:subPropertyOf dbo:isPartOf .
+
+vio:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in"@en,
+        "nằm ở"@vi ;
+    rdfs:range vio:Location ;
+    rdfs:subPropertyOf dbo:location,
+        schema1:location .
+
+vio:playedFor a owl:ObjectProperty ;
+    rdfs:label "played for"@en,
+        "từng thi đấu cho"@vi ;
+    owl:propertyChainAxiom ( vio:careerStation vio:team ) .
+
+vio:successor a owl:ObjectProperty ;
+    rdfs:label "successor"@en,
+        "đơn vị kế tục"@vi ;
+    rdfs:subPropertyOf dbo:successor .
+
+dbo:Athlete a owl:Class ;
+    rdfs:subClassOf dbo:Person .
+
+dbo:EducationalInstitution a owl:Class ;
+    rdfs:subClassOf dbo:Organisation .
+
+dbo:Person a owl:Class ;
+    rdfs:subClassOf dbo:Animal .
+
+dbo:PopulatedPlace a owl:Class ;
+    rdfs:subClassOf dbo:Place .
+
+dbo:SoccerClub a owl:Class ;
+    rdfs:subClassOf dbo:SportsClub .
+
+dbo:team a owl:ObjectProperty .
+
+vio:Country a owl:Class ;
+    rdfs:label "Country"@en,
+        "Quốc gia"@vi ;
+    rdfs:subClassOf dbo:Country,
+        vio:Location .
+
+vio:NationalFootballTeam a owl:Class ;
+    rdfs:label "National football team"@en,
+        "Đội tuyển bóng đá quốc gia"@vi ;
+    rdfs:subClassOf dbo:NationalSoccerClub,
+        vio:Organisation .
+
+vio:NationalTeamStation a owl:Class ;
+    rdfs:label "National team career station"@en,
+        "Giai đoạn đội tuyển quốc gia"@vi ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom vio:NationalFootballTeam ;
+            owl:onProperty vio:team ],
+        vio:CareerStation .
+
+vio:careerStation a owl:ObjectProperty ;
+    rdfs:label "career station"@en,
+        "giai đoạn thi đấu"@vi ;
+    rdfs:domain vio:FootballPlayer ;
+    rdfs:range vio:CareerStation ;
+    rdfs:subPropertyOf dbo:careerStation .
+
+dbo:Organisation a owl:Class ;
+    rdfs:subClassOf dbo:Agent .
+
+vio:team a owl:ObjectProperty ;
+    rdfs:label "team"@en,
+        "đội"@vi ;
+    rdfs:comment "Đội của một giai đoạn thi đấu. Không đặt range chung; ràng buộc theo từng loại giai đoạn bên dưới."@vi ;
+    rdfs:domain vio:CareerStation ;
+    rdfs:subPropertyOf dbo:team .
+
+vio:FootballClub a owl:Class ;
+    rdfs:label "Football club"@en,
+        "Câu lạc bộ bóng đá"@vi ;
+    rdfs:subClassOf dbo:SoccerClub,
+        vio:Organisation .
+
+vio:FootballPlayer a owl:Class ;
+    rdfs:label "Football player"@en,
+        "Cầu thủ bóng đá"@vi ;
+    rdfs:subClassOf dbo:SoccerPlayer,
+        vio:Athlete .
+
+vio:Province a owl:Class ;
+    rdfs:label "Province"@en,
+        "Tỉnh, thành phố trực thuộc trung ương"@vi ;
+    rdfs:comment "Đơn vị hành chính cấp tỉnh, kể cả tỉnh đã giải thể hoặc sáp nhập (xem vio:dissolutionYear)."@vi ;
+    rdfs:subClassOf dbo:Province,
+        vio:Location .
+
+vio:Stadium a owl:Class ;
+    rdfs:label "Stadium"@en,
+        "Sân vận động"@vi ;
+    rdfs:subClassOf dbo:Stadium,
+        vio:Location .
+
+vio:EducationalInstitution a owl:Class ;
+    rdfs:label "Educational institution"@en,
+        "Cơ sở giáo dục"@vi ;
+    rdfs:subClassOf dbo:EducationalInstitution,
+        vio:Organisation .
+
+vio:CareerStation a owl:Class ;
+    rdfs:label "Career station"@en,
+        "Giai đoạn thi đấu"@vi ;
+    rdfs:comment "Một giai đoạn cầu thủ thi đấu cho một đội: đội, năm bắt đầu, năm kết thúc, số trận, số bàn."@vi ;
+    rdfs:subClassOf dbo:CareerStation .
+
+vio:Person a owl:Class ;
+    rdfs:label "Person"@en,
+        "Người"@vi ;
+    rdfs:subClassOf dbo:Person .
+
+vio:Location a owl:Class ;
+    rdfs:label "Location"@en,
+        "Địa điểm"@vi ;
+    rdfs:subClassOf dbo:Place .
+
+vio:Organisation a owl:Class ;
+    rdfs:label "Organisation"@en,
+        "Tổ chức"@vi ;
+    rdfs:subClassOf dbo:Organisation .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( vio:Person vio:Organisation vio:Location vio:CareerStation ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( vio:Province vio:Stadium vio:Country ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( vio:YouthStation vio:ClubStation vio:NationalTeamStation ) .
+
+[] a owl:Restriction ;
+    rdfs:subClassOf vio:NationalTeamPlayer ;
+    owl:onProperty vio:careerStation ;
+    owl:someValuesFrom vio:NationalTeamStation .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( vio:FootballClub vio:EducationalInstitution vio:NationalFootballTeam ) .
+

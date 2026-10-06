@@ -1,0 +1,10 @@
+rdflib==7.6.0
+owlrl==7.6.2
+mwparserfromhell>=0.6.6
+gradio==5.46.0
+pandas>=2.0
+requests>=2.31
+beautifulsoup4>=4.12
+openai>=1.58
+python-dotenv>=1.0
+pytest>=8

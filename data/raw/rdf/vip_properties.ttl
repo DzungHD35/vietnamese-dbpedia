@@ -1,0 +1,2098 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vip: <http://vi.dbpedia.org/property/> .
+
+vip:_1 a rdf:Property ;
+    rdfs:label "1"@vi .
+
+vip:_2ndRegionalCupApps a rdf:Property ;
+    rdfs:label "2ndRegional cup apps"@vi .
+
+vip:_2ndRegionalCupBest a rdf:Property ;
+    rdfs:label "2ndRegional cup best"@vi .
+
+vip:_2ndRegionalCupFirst a rdf:Property ;
+    rdfs:label "2ndRegional cup first"@vi .
+
+vip:_2ndRegionalName a rdf:Property ;
+    rdfs:label "2ndRegional name"@vi .
+
+vip:_300TênGọiKhác a rdf:Property ;
+    rdfs:label "300 Tên gọi khác"@vi .
+
+vip:_3rdRegionalCupApps a rdf:Property ;
+    rdfs:label "3rdRegional cup apps"@vi .
+
+vip:_3rdRegionalCupBest a rdf:Property ;
+    rdfs:label "3rdRegional cup best"@vi .
+
+vip:_3rdRegionalCupFirst a rdf:Property ;
+    rdfs:label "3rdRegional cup first"@vi .
+
+vip:_3rdRegionalName a rdf:Property ;
+    rdfs:label "3rdRegional name"@vi .
+
+vip:_4thRegionalCupApps a rdf:Property ;
+    rdfs:label "4thRegional cup apps"@vi .
+
+vip:_4thRegionalCupBest a rdf:Property ;
+    rdfs:label "4thRegional cup best"@vi .
+
+vip:_4thRegionalCupFirst a rdf:Property ;
+    rdfs:label "4thRegional cup first"@vi .
+
+vip:_4thRegionalName a rdf:Property ;
+    rdfs:label "4thRegional name"@vi .
+
+vip:above a rdf:Property ;
+    rdfs:label "above"@vi .
+
+vip:abovestyle a rdf:Property ;
+    rdfs:label "abovestyle"@vi .
+
+vip:actingHeadteacher a rdf:Property ;
+    rdfs:label "acting_headteacher"@vi .
+
+vip:address a rdf:Property ;
+    rdfs:label "address"@vi .
+
+vip:administrator a rdf:Property ;
+    rdfs:label "administrator"@vi .
+
+vip:affiliation a rdf:Property ;
+    rdfs:label "affiliation"@vi .
+
+vip:affiliations a rdf:Property ;
+    rdfs:label "affiliations"@vi .
+
+vip:allegiance a rdf:Property ;
+    rdfs:label "allegiance"@vi .
+
+vip:anniversaries a rdf:Property ;
+    rdfs:label "anniversaries"@vi .
+
+vip:architect a rdf:Property ;
+    rdfs:label "architect"@vi .
+
+vip:areaData2 a rdf:Property ;
+    rdfs:label "area_data2"@vi .
+
+vip:areaFootnote a rdf:Property ;
+    rdfs:label "area_footnote"@vi .
+
+vip:areaKm2 a rdf:Property ;
+    rdfs:label "area_km2"@vi .
+
+vip:areaLabel2 a rdf:Property ;
+    rdfs:label "area_label2"@vi .
+
+vip:areaRank a rdf:Property ;
+    rdfs:label "area_rank"@vi .
+
+vip:areaSqMi a rdf:Property ;
+    rdfs:label "area_sq_mi"@vi .
+
+vip:association a rdf:Property ;
+    rdfs:label "Association"@vi .
+
+vip:award1 a rdf:Property ;
+    rdfs:label "award1"@vi .
+
+vip:badge a rdf:Property ;
+    rdfs:label "Badge"@vi .
+
+vip:badgeSize a rdf:Property ;
+    rdfs:label "Badge_size"@vi .
+
+vip:binhChủng a rdf:Property ;
+    rdfs:label "binh chủng"@vi .
+
+vip:binhChủng2 a rdf:Property ;
+    rdfs:label "binh chủng 2"@vi .
+
+vip:binhChủng3 a rdf:Property ;
+    rdfs:label "binh chủng 3"@vi .
+
+vip:binhChủng4 a rdf:Property ;
+    rdfs:label "binh chủng 4"@vi .
+
+vip:binhChủng5 a rdf:Property ;
+    rdfs:label "binh chủng 5"@vi .
+
+vip:birthDate a rdf:Property ;
+    rdfs:label "birth_date"@vi .
+
+vip:birthName a rdf:Property ;
+    rdfs:label "birth_name"@vi .
+
+vip:birthPlace a rdf:Property ;
+    rdfs:label "birth_place"@vi .
+
+vip:birthate a rdf:Property ;
+    rdfs:label "birthate"@vi .
+
+vip:birthdate a rdf:Property ;
+    rdfs:label "birthdate"@vi .
+
+vip:birthplace a rdf:Property ;
+    rdfs:label "birthplace"@vi .
+
+vip:biểnSốXe a rdf:Property ;
+    rdfs:label "biển số xe"@vi .
+
+vip:biệtDanh a rdf:Property ;
+    rdfs:label "biệt danh"@vi .
+
+vip:biệtDanhCLB a rdf:Property ;
+    rdfs:label "Biệt danh CLB"@vi .
+
+vip:brokeGround a rdf:Property ;
+    rdfs:label "broke_ground"@vi .
+
+vip:built a rdf:Property ;
+    rdfs:label "built"@vi .
+
+vip:bàiHát a rdf:Property ;
+    rdfs:label "bài hát"@vi .
+
+vip:bíThư a rdf:Property ;
+    rdfs:label "bí thư"@vi .
+
+vip:bíThưĐảngUỷ a rdf:Property ;
+    rdfs:label "Bí thư Đảng uỷ"@vi .
+
+vip:bíThưĐảngỦy a rdf:Property ;
+    rdfs:label "bí thư Đảng ủy"@vi .
+
+vip:bảngChâuÁ1 a rdf:Property ;
+    rdfs:label "bảng châu Á 1"@vi .
+
+vip:bảngChâuÁ2 a rdf:Property ;
+    rdfs:label "bảng châu Á 2"@vi .
+
+vip:bảngQg4 a rdf:Property ;
+    rdfs:label "bảng qg 4"@vi .
+
+vip:bảngTg1 a rdf:Property ;
+    rdfs:label "bảng tg 1"@vi .
+
+vip:bảngTg2 a rdf:Property ;
+    rdfs:label "bảng tg 2"@vi .
+
+vip:bắtĐầu a rdf:Property ;
+    rdfs:label "bắt đầu"@vi .
+
+vip:bắtĐầu2 a rdf:Property ;
+    rdfs:label "bắt đầu 2"@vi .
+
+vip:bắtĐầu3 a rdf:Property ;
+    rdfs:label "bắt đầu 3"@vi .
+
+vip:bộChỉHuy a rdf:Property ;
+    rdfs:label "bộ chỉ huy"@vi .
+
+vip:bộChủQuản a rdf:Property ;
+    rdfs:label "Bộ chủ quản"@vi .
+
+vip:bộPhậnCủa a rdf:Property ;
+    rdfs:label "bộ phận của"@vi .
+
+vip:cEO a rdf:Property ;
+    rdfs:label "CEO"@vi .
+
+vip:calendar a rdf:Property ;
+    rdfs:label "calendar"@vi .
+
+vip:callingCode a rdf:Property ;
+    rdfs:label "calling_code"@vi .
+
+vip:campus a rdf:Property ;
+    rdfs:label "campus"@vi .
+
+vip:capacity a rdf:Property ;
+    rdfs:label "capacity"@vi .
+
+vip:capital a rdf:Property ;
+    rdfs:label "capital"@vi .
+
+vip:caps1 a rdf:Property ;
+    rdfs:label "caps1"@vi .
+
+vip:caps10 a rdf:Property ;
+    rdfs:label "caps10"@vi .
+
+vip:caps11 a rdf:Property ;
+    rdfs:label "caps11"@vi .
+
+vip:caps12 a rdf:Property ;
+    rdfs:label "caps12"@vi .
+
+vip:caps13 a rdf:Property ;
+    rdfs:label "caps13"@vi .
+
+vip:caps14 a rdf:Property ;
+    rdfs:label "caps14"@vi .
+
+vip:caps15 a rdf:Property ;
+    rdfs:label "caps15"@vi .
+
+vip:caps16 a rdf:Property ;
+    rdfs:label "caps16"@vi .
+
+vip:caps17 a rdf:Property ;
+    rdfs:label "caps17"@vi .
+
+vip:caps2 a rdf:Property ;
+    rdfs:label "caps2"@vi .
+
+vip:caps3 a rdf:Property ;
+    rdfs:label "caps3"@vi .
+
+vip:caps4 a rdf:Property ;
+    rdfs:label "caps4"@vi .
+
+vip:caps5 a rdf:Property ;
+    rdfs:label "caps5"@vi .
+
+vip:caps6 a rdf:Property ;
+    rdfs:label "caps6"@vi .
+
+vip:caps7 a rdf:Property ;
+    rdfs:label "caps7"@vi .
+
+vip:caps8 a rdf:Property ;
+    rdfs:label "caps8"@vi .
+
+vip:caps9 a rdf:Property ;
+    rdfs:label "caps9"@vi .
+
+vip:captain a rdf:Property ;
+    rdfs:label "Captain"@vi .
+
+vip:captions a rdf:Property ;
+    rdfs:label "captions"@vi .
+
+vip:cctld a rdf:Property ;
+    rdfs:label "cctld"@vi .
+
+vip:chairman a rdf:Property ;
+    rdfs:label "chairman"@vi .
+
+vip:chancellor a rdf:Property ;
+    rdfs:label "chancellor"@vi .
+
+vip:chiềuCao a rdf:Property ;
+    rdfs:label "chiều cao"@vi .
+
+vip:chuyênKhoaIII a rdf:Property ;
+    rdfs:label "Chuyên khoa I, II"@vi .
+
+vip:chánhÁnTAND a rdf:Property ;
+    rdfs:label "chánh án TAND"@vi .
+
+vip:chínhỦy a rdf:Property ;
+    rdfs:label "chính ủy"@vi .
+
+vip:chúThíchHình a rdf:Property ;
+    rdfs:label "chú thích hình"@vi .
+
+vip:chỉHuy a rdf:Property ;
+    rdfs:label "chỉ huy"@vi .
+
+vip:chỉHuy1 a rdf:Property ;
+    rdfs:label "chỉ huy 1"@vi .
+
+vip:chỉHuy2 a rdf:Property ;
+    rdfs:label "chỉ huy 2"@vi .
+
+vip:chỉHuy3 a rdf:Property ;
+    rdfs:label "chỉ huy 3"@vi .
+
+vip:chỉHuy4 a rdf:Property ;
+    rdfs:label "chỉ huy 4"@vi .
+
+vip:chỉHuyNổiTiếng a rdf:Property ;
+    rdfs:label "chỉ huy nổi tiếng"@vi .
+
+vip:chủSởHữu a rdf:Property ;
+    rdfs:label "chủ sở hữu"@vi .
+
+vip:chủTịch a rdf:Property ;
+    rdfs:label "chủ tịch"@vi .
+
+vip:chủTịchCLB a rdf:Property ;
+    rdfs:label "Chủ tịch CLB"@vi .
+
+vip:chủTịchHĐND a rdf:Property ;
+    rdfs:label "chủ tịch HĐND"@vi .
+
+vip:chủTịchHĐQT a rdf:Property ;
+    rdfs:label "Chủ tịch HĐQT"@vi .
+
+vip:chủTịchHĐT a rdf:Property ;
+    rdfs:label "Chủ tịch HĐT"@vi .
+
+vip:chủTịchHộiĐồng a rdf:Property ;
+    rdfs:label "chủ tịch hội đồng"@vi .
+
+vip:chủTịchHộiĐồngTrường a rdf:Property ;
+    rdfs:label "Chủ tịch Hội đồng Trường"@vi .
+
+vip:chủTịchKiêmTổngGiámĐôc a rdf:Property ;
+    rdfs:label "chủ tịch kiêm tổng giám đôc"@vi .
+
+vip:chủTịchUBMTTQ a rdf:Property ;
+    rdfs:label "chủ tịch UBMTTQ"@vi .
+
+vip:chủTịchUBND a rdf:Property ;
+    rdfs:label "chủ tịch UBND"@vi .
+
+vip:chủTịchĐiềuHành a rdf:Property ;
+    rdfs:label "chủ tịch điều hành"@vi .
+
+vip:chứcNăng a rdf:Property ;
+    rdfs:label "chức năng"@vi .
+
+vip:chứcVụ a rdf:Property ;
+    rdfs:label "chức vụ"@vi .
+
+vip:chứcVụ2 a rdf:Property ;
+    rdfs:label "chức vụ 2"@vi .
+
+vip:chứcVụ3 a rdf:Property ;
+    rdfs:label "chức vụ 3"@vi .
+
+vip:city a rdf:Property ;
+    rdfs:label "city"@vi .
+
+vip:cityofbirth a rdf:Property ;
+    rdfs:label "cityofbirth"@vi .
+
+vip:club1Years a rdf:Property ;
+    rdfs:label "Club 1 years"@vi .
+
+vip:club2 a rdf:Property ;
+    rdfs:label "Club 2"@vi .
+
+vip:club2Appearances a rdf:Property ;
+    rdfs:label "Club 2 appearances"@vi .
+
+vip:club3 a rdf:Property ;
+    rdfs:label "Club 3"@vi .
+
+vip:club3Appearances a rdf:Property ;
+    rdfs:label "Club 3 appearances"@vi .
+
+vip:club3Goals a rdf:Property ;
+    rdfs:label "Club 3 goals"@vi .
+
+vip:club3Years a rdf:Property ;
+    rdfs:label "Club 3 years"@vi .
+
+vip:clubname a rdf:Property ;
+    rdfs:label "clubname"@vi .
+
+vip:clubnumber a rdf:Property ;
+    rdfs:label "clubnumber"@vi .
+
+vip:clubs1 a rdf:Property ;
+    rdfs:label "clubs1"@vi .
+
+vip:clubs10 a rdf:Property ;
+    rdfs:label "clubs10"@vi .
+
+vip:clubs11 a rdf:Property ;
+    rdfs:label "clubs11"@vi .
+
+vip:clubs12 a rdf:Property ;
+    rdfs:label "clubs12"@vi .
+
+vip:clubs13 a rdf:Property ;
+    rdfs:label "clubs13"@vi .
+
+vip:clubs14 a rdf:Property ;
+    rdfs:label "clubs14"@vi .
+
+vip:clubs15 a rdf:Property ;
+    rdfs:label "clubs15"@vi .
+
+vip:clubs16 a rdf:Property ;
+    rdfs:label "clubs16"@vi .
+
+vip:clubs17 a rdf:Property ;
+    rdfs:label "clubs17"@vi .
+
+vip:clubs2 a rdf:Property ;
+    rdfs:label "clubs2"@vi .
+
+vip:clubs3 a rdf:Property ;
+    rdfs:label "clubs3"@vi .
+
+vip:clubs4 a rdf:Property ;
+    rdfs:label "clubs4"@vi .
+
+vip:clubs5 a rdf:Property ;
+    rdfs:label "clubs5"@vi .
+
+vip:clubs6 a rdf:Property ;
+    rdfs:label "clubs6"@vi .
+
+vip:clubs7 a rdf:Property ;
+    rdfs:label "clubs7"@vi .
+
+vip:clubs8 a rdf:Property ;
+    rdfs:label "clubs8"@vi .
+
+vip:clubs9 a rdf:Property ;
+    rdfs:label "clubs9"@vi .
+
+vip:coach a rdf:Property ;
+    rdfs:label "coach"@vi .
+
+vip:college1 a rdf:Property ;
+    rdfs:label "college1"@vi .
+
+vip:college2 a rdf:Property ;
+    rdfs:label "college2"@vi .
+
+vip:collegecaps1 a rdf:Property ;
+    rdfs:label "collegecaps1"@vi .
+
+vip:collegegoals1 a rdf:Property ;
+    rdfs:label "collegegoals1"@vi .
+
+vip:collegeyears1 a rdf:Property ;
+    rdfs:label "collegeyears1"@vi .
+
+vip:collegeyears2 a rdf:Property ;
+    rdfs:label "collegeyears2"@vi .
+
+vip:colors a rdf:Property ;
+    rdfs:label "colors"@vi .
+
+vip:colours a rdf:Property ;
+    rdfs:label "colours"@vi .
+
+vip:commandStructure a rdf:Property ;
+    rdfs:label "command_structure"@vi .
+
+vip:commander1 a rdf:Property ;
+    rdfs:label "commander1"@vi .
+
+vip:commander1Label a rdf:Property ;
+    rdfs:label "commander1_label"@vi .
+
+vip:commander2 a rdf:Property ;
+    rdfs:label "commander2"@vi .
+
+vip:commander2Label a rdf:Property ;
+    rdfs:label "commander2_label"@vi .
+
+vip:commander3 a rdf:Property ;
+    rdfs:label "commander3"@vi .
+
+vip:commander3Label a rdf:Property ;
+    rdfs:label "commander3_label"@vi .
+
+vip:commonName a rdf:Property ;
+    rdfs:label "common_name"@vi .
+
+vip:confederation a rdf:Property ;
+    rdfs:label "Confederation"@vi .
+
+vip:confederation1 a rdf:Property ;
+    rdfs:label "confederation1"@vi .
+
+vip:constructionCost a rdf:Property ;
+    rdfs:label "construction_cost"@vi .
+
+vip:conventionalLongName a rdf:Property ;
+    rdfs:label "conventional_long_name"@vi .
+
+vip:coor a rdf:Property ;
+    rdfs:label "coor"@vi .
+
+vip:coordinates a rdf:Property ;
+    rdfs:label "coordinates"@vi .
+
+vip:cost a rdf:Property ;
+    rdfs:label "cost"@vi .
+
+vip:country a rdf:Property ;
+    rdfs:label "country"@vi .
+
+vip:countryofbirth a rdf:Property ;
+    rdfs:label "countryofbirth"@vi .
+
+vip:currency a rdf:Property ;
+    rdfs:label "currency"@vi .
+
+vip:currencyCode a rdf:Property ;
+    rdfs:label "currency_code"@vi .
+
+vip:current a rdf:Property ;
+    rdfs:label "current"@vi .
+
+vip:currentclub a rdf:Property ;
+    rdfs:label "currentclub"@vi .
+
+vip:cánBộ a rdf:Property ;
+    rdfs:label "Cán bộ"@vi .
+
+vip:cânNặng a rdf:Property ;
+    rdfs:label "cân nặng"@vi .
+
+vip:câuLạcBộ a rdf:Property ;
+    rdfs:label "câu lạc bộ"@vi .
+
+vip:côngAnHiệu a rdf:Property ;
+    rdfs:label "Công an hiệu"@vi .
+
+vip:cơQuanChủQuản a rdf:Property ;
+    rdfs:label "Cơ quan chủ quản"@vi .
+
+vip:cơSở a rdf:Property ;
+    rdfs:label "cơ sở"@vi .
+
+vip:cỡHình a rdf:Property ;
+    rdfs:label "cỡ hình"@vi .
+
+vip:cỡLogo a rdf:Property ;
+    rdfs:label "cỡ logo"@vi .
+
+vip:cựuSinhViên a rdf:Property ;
+    rdfs:label "cựu sinh viên"@vi .
+
+vip:danhSáchĐơnVịHànhChính a rdf:Property ;
+    rdfs:label "danh sách đơn vị hành chính"@vi .
+
+vip:dat8 a rdf:Property ;
+    rdfs:label "dat8"@vi .
+
+vip:data1 a rdf:Property ;
+    rdfs:label "data1"@vi .
+
+vip:data2 a rdf:Property ;
+    rdfs:label "data2"@vi .
+
+vip:data3 a rdf:Property ;
+    rdfs:label "data3"@vi .
+
+vip:data4 a rdf:Property ;
+    rdfs:label "data4"@vi .
+
+vip:data5 a rdf:Property ;
+    rdfs:label "data5"@vi .
+
+vip:data6 a rdf:Property ;
+    rdfs:label "data6"@vi .
+
+vip:data7 a rdf:Property ;
+    rdfs:label "data7"@vi .
+
+vip:data8 a rdf:Property ;
+    rdfs:label "data8"@vi .
+
+vip:data9 a rdf:Property ;
+    rdfs:label "data9"@vi .
+
+vip:dateFormat a rdf:Property ;
+    rdfs:label "date_format"@vi .
+
+vip:dateofbirth a rdf:Property ;
+    rdfs:label "dateofbirth"@vi .
+
+vip:dates a rdf:Property ;
+    rdfs:label "dates"@vi .
+
+vip:deathCause a rdf:Property ;
+    rdfs:label "death_cause"@vi .
+
+vip:deathDate a rdf:Property ;
+    rdfs:label "death_date"@vi .
+
+vip:deathPlace a rdf:Property ;
+    rdfs:label "death_place"@vi .
+
+vip:demolished a rdf:Property ;
+    rdfs:label "demolished"@vi .
+
+vip:demonym a rdf:Property ;
+    rdfs:label "demonym"@vi .
+
+vip:dimensions a rdf:Property ;
+    rdfs:label "dimensions"@vi .
+
+vip:dissolved a rdf:Property ;
+    rdfs:label "dissolved"@vi .
+
+vip:diệnTích a rdf:Property ;
+    rdfs:label "Diện tích"@vi .
+
+vip:diệnTíchPhòngHọc a rdf:Property ;
+    rdfs:label "diện tích phòng học"@vi .
+
+vip:drivesOn a rdf:Property ;
+    rdfs:label "drives_on"@vi .
+
+vip:dânSố a rdf:Property ;
+    rdfs:label "dân số"@vi .
+
+vip:dânSốNôngThôn a rdf:Property ;
+    rdfs:label "dân số nông thôn"@vi .
+
+vip:dânSốThànhThị a rdf:Property ;
+    rdfs:label "dân số thành thị"@vi .
+
+vip:dânTộc a rdf:Property ;
+    rdfs:label "dân tộc"@vi .
+
+vip:educationalAuthority a rdf:Property ;
+    rdfs:label "educational_authority"@vi .
+
+vip:electricity a rdf:Property ;
+    rdfs:label "electricity"@vi .
+
+vip:email a rdf:Property ;
+    rdfs:label "email"@vi .
+
+vip:endowment a rdf:Property ;
+    rdfs:label "endowment"@vi .
+
+vip:established a rdf:Property ;
+    rdfs:label "established"@vi .
+
+vip:establishedDate1 a rdf:Property ;
+    rdfs:label "established_date1"@vi .
+
+vip:establishedDate10 a rdf:Property ;
+    rdfs:label "established_date10"@vi .
+
+vip:establishedDate11 a rdf:Property ;
+    rdfs:label "established_date11"@vi .
+
+vip:establishedDate2 a rdf:Property ;
+    rdfs:label "established_date2"@vi .
+
+vip:establishedDate3 a rdf:Property ;
+    rdfs:label "established_date3"@vi .
+
+vip:establishedDate4 a rdf:Property ;
+    rdfs:label "established_date4"@vi .
+
+vip:establishedDate5 a rdf:Property ;
+    rdfs:label "established_date5"@vi .
+
+vip:establishedDate6 a rdf:Property ;
+    rdfs:label "established_date6"@vi .
+
+vip:establishedDate7 a rdf:Property ;
+    rdfs:label "established_date7"@vi .
+
+vip:establishedDate8 a rdf:Property ;
+    rdfs:label "established_date8"@vi .
+
+vip:establishedDate9 a rdf:Property ;
+    rdfs:label "established_date9"@vi .
+
+vip:establishedEvent1 a rdf:Property ;
+    rdfs:label "established_event1"@vi .
+
+vip:establishedEvent10 a rdf:Property ;
+    rdfs:label "established_event10"@vi .
+
+vip:establishedEvent11 a rdf:Property ;
+    rdfs:label "established_event11"@vi .
+
+vip:establishedEvent2 a rdf:Property ;
+    rdfs:label "established_event2"@vi .
+
+vip:establishedEvent3 a rdf:Property ;
+    rdfs:label "established_event3"@vi .
+
+vip:establishedEvent4 a rdf:Property ;
+    rdfs:label "established_event4"@vi .
+
+vip:establishedEvent5 a rdf:Property ;
+    rdfs:label "established_event5"@vi .
+
+vip:establishedEvent6 a rdf:Property ;
+    rdfs:label "established_event6"@vi .
+
+vip:establishedEvent7 a rdf:Property ;
+    rdfs:label "established_event7"@vi .
+
+vip:establishedEvent8 a rdf:Property ;
+    rdfs:label "established_event8"@vi .
+
+vip:establishedEvent9 a rdf:Property ;
+    rdfs:label "established_event9"@vi .
+
+vip:ethnicGroups a rdf:Property ;
+    rdfs:label "ethnic_groups"@vi .
+
+vip:ethnicGroupsYear a rdf:Property ;
+    rdfs:label "ethnic_groups_year"@vi .
+
+vip:expanded a rdf:Property ;
+    rdfs:label "expanded"@vi .
+
+vip:fIFATrigramme a rdf:Property ;
+    rdfs:label "FIFA Trigramme"@vi .
+
+vip:facebook a rdf:Property ;
+    rdfs:label "Facebook"@vi .
+
+vip:fax a rdf:Property ;
+    rdfs:label "Fax"@vi .
+
+vip:firstGame a rdf:Property ;
+    rdfs:label "First game"@vi .
+
+vip:formerName a rdf:Property ;
+    rdfs:label "former_name"@vi .
+
+vip:formerNames a rdf:Property ;
+    rdfs:label "former_names"@vi .
+
+vip:founded a rdf:Property ;
+    rdfs:label "founded"@vi .
+
+vip:fullName a rdf:Property ;
+    rdfs:label "full_name"@vi .
+
+vip:fullname a rdf:Property ;
+    rdfs:label "fullname"@vi .
+
+vip:gDPNominal a rdf:Property ;
+    rdfs:label "GDP_nominal"@vi .
+
+vip:gDPNominalPerCapita a rdf:Property ;
+    rdfs:label "GDP_nominal_per_capita"@vi .
+
+vip:gDPNominalPerCapitaRank a rdf:Property ;
+    rdfs:label "GDP_nominal_per_capita_rank"@vi .
+
+vip:gDPNominalRank a rdf:Property ;
+    rdfs:label "GDP_nominal_rank"@vi .
+
+vip:gDPNominalYear a rdf:Property ;
+    rdfs:label "GDP_nominal_year"@vi .
+
+vip:gDPPPP a rdf:Property ;
+    rdfs:label "GDP_PPP"@vi .
+
+vip:gDPPPPPerCapita a rdf:Property ;
+    rdfs:label "GDP_PPP_per_capita"@vi .
+
+vip:gDPPPPPerCapitaRank a rdf:Property ;
+    rdfs:label "GDP_PPP_per_capita_rank"@vi .
+
+vip:gDPPPPRank a rdf:Property ;
+    rdfs:label "GDP_PPP_rank"@vi .
+
+vip:gDPPPPYear a rdf:Property ;
+    rdfs:label "GDP_PPP_year"@vi .
+
+vip:gRDP a rdf:Property ;
+    rdfs:label "GRDP"@vi .
+
+vip:gRDPBìnhQuânĐầuNgười a rdf:Property ;
+    rdfs:label "GRDP bình quân đầu người"@vi .
+
+vip:gRDPĐầuNgười a rdf:Property ;
+    rdfs:label "GRDP đầu người"@vi .
+
+vip:garrison a rdf:Property ;
+    rdfs:label "garrison"@vi .
+
+vip:ghiChúHình a rdf:Property ;
+    rdfs:label "ghi chú hình"@vi .
+
+vip:ghiChúLogo a rdf:Property ;
+    rdfs:label "ghi chú logo"@vi .
+
+vip:gini a rdf:Property ;
+    rdfs:label "Gini"@vi .
+
+vip:giniRef a rdf:Property ;
+    rdfs:label "Gini_ref"@vi .
+
+vip:giniYear a rdf:Property ;
+    rdfs:label "Gini_year"@vi .
+
+vip:giáTrịCốtLõi a rdf:Property ;
+    rdfs:label "Giá trị cốt lõi"@vi .
+
+vip:giámĐốc a rdf:Property ;
+    rdfs:label "giám đốc"@vi .
+
+vip:giámĐốcKỹThuật a rdf:Property ;
+    rdfs:label "giám đốc kỹ thuật"@vi .
+
+vip:giáoDục a rdf:Property ;
+    rdfs:label "giáo dục"@vi .
+
+vip:giáoSư a rdf:Property ;
+    rdfs:label "Giáo sư"@vi .
+
+vip:giáoViên a rdf:Property ;
+    rdfs:label "giáo viên"@vi .
+
+vip:giảiThể a rdf:Property ;
+    rdfs:label "giải thể"@vi .
+
+vip:giảiĐấu a rdf:Property ;
+    rdfs:label "giải đấu"@vi .
+
+vip:giảiĐấuHiệnNay a rdf:Property ;
+    rdfs:label "Giải đấu hiện nay"@vi .
+
+vip:giảngViên a rdf:Property ;
+    rdfs:label "giảng viên"@vi .
+
+vip:giảngViênCơHữu a rdf:Property ;
+    rdfs:label "Giảng viên cơ hữu"@vi .
+
+vip:giấuBảnĐồMặcĐịnh a rdf:Property ;
+    rdfs:label "giấu bản đồ mặc định"@vi .
+
+vip:giớiHạnTuổiDưới a rdf:Property ;
+    rdfs:label "giới hạn tuổi dưới"@vi .
+
+vip:giờHọc a rdf:Property ;
+    rdfs:label "giờ học"@vi .
+
+vip:goals1 a rdf:Property ;
+    rdfs:label "goals1"@vi .
+
+vip:goals10 a rdf:Property ;
+    rdfs:label "goals10"@vi .
+
+vip:goals11 a rdf:Property ;
+    rdfs:label "goals11"@vi .
+
+vip:goals12 a rdf:Property ;
+    rdfs:label "goals12"@vi .
+
+vip:goals13 a rdf:Property ;
+    rdfs:label "goals13"@vi .
+
+vip:goals14 a rdf:Property ;
+    rdfs:label "goals14"@vi .
+
+vip:goals15 a rdf:Property ;
+    rdfs:label "goals15"@vi .
+
+vip:goals16 a rdf:Property ;
+    rdfs:label "goals16"@vi .
+
+vip:goals17 a rdf:Property ;
+    rdfs:label "goals17"@vi .
+
+vip:goals2 a rdf:Property ;
+    rdfs:label "goals2"@vi .
+
+vip:goals3 a rdf:Property ;
+    rdfs:label "goals3"@vi .
+
+vip:goals4 a rdf:Property ;
+    rdfs:label "goals4"@vi .
+
+vip:goals5 a rdf:Property ;
+    rdfs:label "goals5"@vi .
+
+vip:goals6 a rdf:Property ;
+    rdfs:label "goals6"@vi .
+
+vip:goals7 a rdf:Property ;
+    rdfs:label "goals7"@vi .
+
+vip:goals8 a rdf:Property ;
+    rdfs:label "goals8"@vi .
+
+vip:goals9 a rdf:Property ;
+    rdfs:label "goals9"@vi .
+
+vip:governmentType a rdf:Property ;
+    rdfs:label "government_type"@vi .
+
+vip:ground a rdf:Property ;
+    rdfs:label "ground"@vi .
+
+vip:hDI a rdf:Property ;
+    rdfs:label "HDI"@vi .
+
+vip:hDIChange a rdf:Property ;
+    rdfs:label "HDI_change"@vi .
+
+vip:hDIRank a rdf:Property ;
+    rdfs:label "HDI_rank"@vi .
+
+vip:hDIRef a rdf:Property ;
+    rdfs:label "HDI_ref"@vi .
+
+vip:hDIYear a rdf:Property ;
+    rdfs:label "HDI_year"@vi .
+
+vip:header1 a rdf:Property ;
+    rdfs:label "header1"@vi .
+
+vip:header6 a rdf:Property ;
+    rdfs:label "header6"@vi .
+
+vip:headerstyle a rdf:Property ;
+    rdfs:label "headerstyle"@vi .
+
+vip:height a rdf:Property ;
+    rdfs:label "height"@vi .
+
+vip:hiểuTrưởng a rdf:Property ;
+    rdfs:label "Hiểu trưởng"@vi .
+
+vip:hiệuKỳ a rdf:Property ;
+    rdfs:label "Hiệu kỳ"@vi .
+
+vip:hiệuPhó a rdf:Property ;
+    rdfs:label "hiệu phó"@vi .
+
+vip:hiệuPhó1 a rdf:Property ;
+    rdfs:label "hiệu phó 1"@vi .
+
+vip:hiệuTrưởng a rdf:Property ;
+    rdfs:label "hiệu trưởng"@vi .
+
+vip:hiệuTrưởngDanhDự a rdf:Property ;
+    rdfs:label "hiệu trưởng danh dự"@vi .
+
+vip:homeStadium a rdf:Property ;
+    rdfs:label "Home Stadium"@vi .
+
+vip:huấnLuyệnViên a rdf:Property ;
+    rdfs:label "huấn luyện viên"@vi .
+
+vip:hànhKhúc a rdf:Property ;
+    rdfs:label "hành khúc"@vi .
+
+vip:hạngChâuÁ1 a rdf:Property ;
+    rdfs:label "hạng châu Á 1"@vi .
+
+vip:hạngChâuÁ2 a rdf:Property ;
+    rdfs:label "hạng châu Á 2"@vi .
+
+vip:hạngQg4 a rdf:Property ;
+    rdfs:label "hạng qg 4"@vi .
+
+vip:hạngTg1 a rdf:Property ;
+    rdfs:label "hạng tg 1"@vi .
+
+vip:hạngTg2 a rdf:Property ;
+    rdfs:label "hạng tg 2"@vi .
+
+vip:hệ a rdf:Property ;
+    rdfs:label "hệ"@vi .
+
+vip:họcSinh a rdf:Property ;
+    rdfs:label "học sinh"@vi .
+
+vip:họcTrường a rdf:Property ;
+    rdfs:label "học trường"@vi .
+
+vip:hộiĐồngNhânDân a rdf:Property ;
+    rdfs:label "hội đồng nhân dân"@vi .
+
+vip:hợpNhất a rdf:Property ;
+    rdfs:label "hợp nhất"@vi .
+
+vip:identificationSymbol a rdf:Property ;
+    rdfs:label "identification_symbol"@vi .
+
+vip:identificationSymbolLabel a rdf:Property ;
+    rdfs:label "identification_symbol_label"@vi .
+
+vip:imagSize a rdf:Property ;
+    rdfs:label "imag_size"@vi .
+
+vip:imageCaption a rdf:Property ;
+    rdfs:label "image_caption"@vi .
+
+vip:imageCoat a rdf:Property ;
+    rdfs:label "image_coat"@vi .
+
+vip:imageFlag a rdf:Property ;
+    rdfs:label "image_flag"@vi .
+
+vip:imageMap a rdf:Property ;
+    rdfs:label "image_map"@vi .
+
+vip:imageName a rdf:Property ;
+    rdfs:label "image_name"@vi .
+
+vip:internationalrole1 a rdf:Property ;
+    rdfs:label "internationalrole1"@vi .
+
+vip:internationalyears1 a rdf:Property ;
+    rdfs:label "internationalyears1"@vi .
+
+vip:iso3166code a rdf:Property ;
+    rdfs:label "iso3166code"@vi .
+
+vip:khoaBộMônTrựcThuộc a rdf:Property ;
+    rdfs:label "Khoa/Bộ môn trực thuộc"@vi .
+
+vip:khuônViên a rdf:Property ;
+    rdfs:label "khuôn viên"@vi .
+
+vip:khánhThành a rdf:Property ;
+    rdfs:label "Khánh thành"@vi .
+
+vip:khẩuHiệu a rdf:Property ;
+    rdfs:label "khẩu hiệu"@vi .
+
+vip:khẩuHiệuTiếngAnh a rdf:Property ;
+    rdfs:label "Khẩu hiệu tiếng Anh"@vi .
+
+vip:khởiCông a rdf:Property ;
+    rdfs:label "Khởi công"@vi .
+
+vip:kinhGiây a rdf:Property ;
+    rdfs:label "kinh giây"@vi .
+
+vip:kinhPhút a rdf:Property ;
+    rdfs:label "kinh phút"@vi .
+
+vip:kinhĐộ a rdf:Property ;
+    rdfs:label "kinh độ"@vi .
+
+vip:kiểuChỉHuy1 a rdf:Property ;
+    rdfs:label "kiểu chỉ huy 1"@vi .
+
+vip:kiểuChỉHuy2 a rdf:Property ;
+    rdfs:label "kiểu chỉ huy 2"@vi .
+
+vip:kiểuChỉHuy3 a rdf:Property ;
+    rdfs:label "kiểu chỉ huy 3"@vi .
+
+vip:kiểuChỉHuy4 a rdf:Property ;
+    rdfs:label "kiểu chỉ huy 4"@vi .
+
+vip:kiểuHệ a rdf:Property ;
+    rdfs:label "kiểu hệ"@vi .
+
+vip:kiểuThôngTinThêm a rdf:Property ;
+    rdfs:label "kiểu thông tin thêm"@vi .
+
+vip:kiểuTrưởng a rdf:Property ;
+    rdfs:label "kiểu trưởng"@vi .
+
+vip:kíchThước a rdf:Property ;
+    rdfs:label "Kích thước"@vi .
+
+vip:kếNhiệm a rdf:Property ;
+    rdfs:label "kế nhiệm"@vi .
+
+vip:kếNhiệm2 a rdf:Property ;
+    rdfs:label "kế nhiệm 2"@vi .
+
+vip:kếNhiệm3 a rdf:Property ;
+    rdfs:label "kế nhiệm 3"@vi .
+
+vip:kếtThúc a rdf:Property ;
+    rdfs:label "kết thúc"@vi .
+
+vip:kếtThúc2 a rdf:Property ;
+    rdfs:label "kết thúc 2"@vi .
+
+vip:kếtThúc3 a rdf:Property ;
+    rdfs:label "kết thúc 3"@vi .
+
+vip:label1 a rdf:Property ;
+    rdfs:label "label1"@vi .
+
+vip:label2 a rdf:Property ;
+    rdfs:label "label2"@vi .
+
+vip:label3 a rdf:Property ;
+    rdfs:label "label3"@vi .
+
+vip:label4 a rdf:Property ;
+    rdfs:label "label4"@vi .
+
+vip:label5 a rdf:Property ;
+    rdfs:label "label5"@vi .
+
+vip:label6 a rdf:Property ;
+    rdfs:label "label6"@vi .
+
+vip:label7 a rdf:Property ;
+    rdfs:label "label7"@vi .
+
+vip:label8 a rdf:Property ;
+    rdfs:label "label8"@vi .
+
+vip:label9 a rdf:Property ;
+    rdfs:label "label9"@vi .
+
+vip:languages a rdf:Property ;
+    rdfs:label "languages"@vi .
+
+vip:languagesType a rdf:Property ;
+    rdfs:label "languages_type"@vi .
+
+vip:largestCity a rdf:Property ;
+    rdfs:label "largest_city"@vi .
+
+vip:largestLoss a rdf:Property ;
+    rdfs:label "Largest loss"@vi .
+
+vip:largestWin a rdf:Property ;
+    rdfs:label "Largest win"@vi .
+
+vip:leaderName1 a rdf:Property ;
+    rdfs:label "leader_name1"@vi .
+
+vip:leaderName2 a rdf:Property ;
+    rdfs:label "leader_name2"@vi .
+
+vip:leaderName4 a rdf:Property ;
+    rdfs:label "leader_name4"@vi .
+
+vip:leaderName5 a rdf:Property ;
+    rdfs:label "leader_name5"@vi .
+
+vip:leaderTitle1 a rdf:Property ;
+    rdfs:label "leader_title1"@vi .
+
+vip:leaderTitle2 a rdf:Property ;
+    rdfs:label "leader_title2"@vi .
+
+vip:leaderTitle4 a rdf:Property ;
+    rdfs:label "leader_title4"@vi .
+
+vip:leaderTitle5 a rdf:Property ;
+    rdfs:label "leader_title5"@vi .
+
+vip:league a rdf:Property ;
+    rdfs:label "league"@vi .
+
+vip:league1 a rdf:Property ;
+    rdfs:label "league1"@vi .
+
+vip:legislature a rdf:Property ;
+    rdfs:label "legislature"@vi .
+
+vip:linhVật a rdf:Property ;
+    rdfs:label "linh vật"@vi .
+
+vip:linkingName a rdf:Property ;
+    rdfs:label "linking_name"@vi .
+
+vip:liênKết a rdf:Property ;
+    rdfs:label "liên kết"@vi .
+
+vip:loanfrom a rdf:Property ;
+    rdfs:label "loanfrom"@vi .
+
+vip:location a rdf:Property ;
+    rdfs:label "location"@vi .
+
+vip:logoAlt a rdf:Property ;
+    rdfs:label "logo_alt"@vi .
+
+vip:logoCaption a rdf:Property ;
+    rdfs:label "logo_caption"@vi .
+
+vip:logoImage a rdf:Property ;
+    rdfs:label "logo_image"@vi .
+
+vip:loạiHình a rdf:Property ;
+    rdfs:label "loại hình"@vi .
+
+vip:loạiĐôThị a rdf:Property ;
+    rdfs:label "loại đô thị"@vi .
+
+vip:lĩnhVực a rdf:Property ;
+    rdfs:label "Lĩnh vực"@vi .
+
+vip:lễKỷNiệm a rdf:Property ;
+    rdfs:label "lễ kỷ niệm"@vi .
+
+vip:manager a rdf:Property ;
+    rdfs:label "manager"@vi .
+
+vip:managerclubs1 a rdf:Property ;
+    rdfs:label "managerclubs1"@vi .
+
+vip:managerclubs10 a rdf:Property ;
+    rdfs:label "managerclubs10"@vi .
+
+vip:managerclubs11 a rdf:Property ;
+    rdfs:label "managerclubs11"@vi .
+
+vip:managerclubs12 a rdf:Property ;
+    rdfs:label "managerclubs12"@vi .
+
+vip:managerclubs13 a rdf:Property ;
+    rdfs:label "managerclubs13"@vi .
+
+vip:managerclubs14 a rdf:Property ;
+    rdfs:label "managerclubs14"@vi .
+
+vip:managerclubs15 a rdf:Property ;
+    rdfs:label "managerclubs15"@vi .
+
+vip:managerclubs16 a rdf:Property ;
+    rdfs:label "managerclubs16"@vi .
+
+vip:managerclubs17 a rdf:Property ;
+    rdfs:label "managerclubs17"@vi .
+
+vip:managerclubs2 a rdf:Property ;
+    rdfs:label "managerclubs2"@vi .
+
+vip:managerclubs3 a rdf:Property ;
+    rdfs:label "managerclubs3"@vi .
+
+vip:managerclubs4 a rdf:Property ;
+    rdfs:label "managerclubs4"@vi .
+
+vip:managerclubs5 a rdf:Property ;
+    rdfs:label "managerclubs5"@vi .
+
+vip:managerclubs6 a rdf:Property ;
+    rdfs:label "managerclubs6"@vi .
+
+vip:managerclubs7 a rdf:Property ;
+    rdfs:label "managerclubs7"@vi .
+
+vip:managerclubs8 a rdf:Property ;
+    rdfs:label "managerclubs8"@vi .
+
+vip:managerclubs9 a rdf:Property ;
+    rdfs:label "managerclubs9"@vi .
+
+vip:manageryears1 a rdf:Property ;
+    rdfs:label "manageryears1"@vi .
+
+vip:manageryears10 a rdf:Property ;
+    rdfs:label "manageryears10"@vi .
+
+vip:manageryears11 a rdf:Property ;
+    rdfs:label "manageryears11"@vi .
+
+vip:manageryears12 a rdf:Property ;
+    rdfs:label "manageryears12"@vi .
+
+vip:manageryears13 a rdf:Property ;
+    rdfs:label "manageryears13"@vi .
+
+vip:manageryears14 a rdf:Property ;
+    rdfs:label "manageryears14"@vi .
+
+vip:manageryears15 a rdf:Property ;
+    rdfs:label "manageryears15"@vi .
+
+vip:manageryears16 a rdf:Property ;
+    rdfs:label "manageryears16"@vi .
+
+vip:manageryears17 a rdf:Property ;
+    rdfs:label "manageryears17"@vi .
+
+vip:manageryears2 a rdf:Property ;
+    rdfs:label "manageryears2"@vi .
+
+vip:manageryears3 a rdf:Property ;
+    rdfs:label "manageryears3"@vi .
+
+vip:manageryears4 a rdf:Property ;
+    rdfs:label "manageryears4"@vi .
+
+vip:manageryears5 a rdf:Property ;
+    rdfs:label "manageryears5"@vi .
+
+vip:manageryears6 a rdf:Property ;
+    rdfs:label "manageryears6"@vi .
+
+vip:manageryears7 a rdf:Property ;
+    rdfs:label "manageryears7"@vi .
+
+vip:manageryears8 a rdf:Property ;
+    rdfs:label "manageryears8"@vi .
+
+vip:manageryears9 a rdf:Property ;
+    rdfs:label "manageryears9"@vi .
+
+vip:march a rdf:Property ;
+    rdfs:label "march"@vi .
+
+vip:motto a rdf:Property ;
+    rdfs:label "motto"@vi .
+
+vip:màu a rdf:Property ;
+    rdfs:label "màu"@vi .
+
+vip:màuChữTựa a rdf:Property ;
+    rdfs:label "màu chữ tựa"@vi .
+
+vip:màuNềnTựa a rdf:Property ;
+    rdfs:label "màu nền tựa"@vi .
+
+vip:mãBưuChính a rdf:Property ;
+    rdfs:label "mã bưu chính"@vi .
+
+vip:mãHànhChính a rdf:Property ;
+    rdfs:label "mã hành chính"@vi .
+
+vip:mãTrường a rdf:Property ;
+    rdfs:label "mã trường"@vi .
+
+vip:mãĐiệnThoại a rdf:Property ;
+    rdfs:label "mã điện thoại"@vi .
+
+vip:mãĐịaLý a rdf:Property ;
+    rdfs:label "mã địa lý"@vi .
+
+vip:mônThểThao a rdf:Property ;
+    rdfs:label "Môn thể thao"@vi .
+
+vip:mùaGiải a rdf:Property ;
+    rdfs:label "mùa giải"@vi .
+
+vip:mùaGiảiNày a rdf:Property ;
+    rdfs:label "mùa giải này"@vi .
+
+vip:mậtĐộDânSố a rdf:Property ;
+    rdfs:label "mật độ dân số"@vi .
+
+vip:mặtSân a rdf:Property ;
+    rdfs:label "Mặt sân"@vi .
+
+vip:name a rdf:Property ;
+    rdfs:label "name"@vi .
+
+vip:nationalAnthem a rdf:Property ;
+    rdfs:label "national_anthem"@vi .
+
+vip:nationalMotto a rdf:Property ;
+    rdfs:label "national_motto"@vi .
+
+vip:nationalcaps1 a rdf:Property ;
+    rdfs:label "nationalcaps1"@vi .
+
+vip:nationalcaps2 a rdf:Property ;
+    rdfs:label "nationalcaps2"@vi .
+
+vip:nationalcaps3 a rdf:Property ;
+    rdfs:label "nationalcaps3"@vi .
+
+vip:nationalcaps4 a rdf:Property ;
+    rdfs:label "nationalcaps4"@vi .
+
+vip:nationalcaps5 a rdf:Property ;
+    rdfs:label "nationalcaps5"@vi .
+
+vip:nationalcapsgoals a rdf:Property ;
+    rdfs:label "nationalcaps(goals)"@vi .
+
+vip:nationalgoals1 a rdf:Property ;
+    rdfs:label "nationalgoals1"@vi .
+
+vip:nationalgoals2 a rdf:Property ;
+    rdfs:label "nationalgoals2"@vi .
+
+vip:nationalgoals3 a rdf:Property ;
+    rdfs:label "nationalgoals3"@vi .
+
+vip:nationalgoals4 a rdf:Property ;
+    rdfs:label "nationalgoals4"@vi .
+
+vip:nationalgoals5 a rdf:Property ;
+    rdfs:label "nationalgoals5"@vi .
+
+vip:nationalteam a rdf:Property ;
+    rdfs:label "nationalteam"@vi .
+
+vip:nationalteam1 a rdf:Property ;
+    rdfs:label "nationalteam1"@vi .
+
+vip:nationalteam2 a rdf:Property ;
+    rdfs:label "nationalteam2"@vi .
+
+vip:nationalteam3 a rdf:Property ;
+    rdfs:label "nationalteam3"@vi .
+
+vip:nationalteam4 a rdf:Property ;
+    rdfs:label "nationalteam4"@vi .
+
+vip:nationalteam5 a rdf:Property ;
+    rdfs:label "nationalteam5"@vi .
+
+vip:nationalteamUpdate a rdf:Property ;
+    rdfs:label "nationalteam-update"@vi .
+
+vip:nationalyears1 a rdf:Property ;
+    rdfs:label "nationalyears1"@vi .
+
+vip:nationalyears2 a rdf:Property ;
+    rdfs:label "nationalyears2"@vi .
+
+vip:nationalyears3 a rdf:Property ;
+    rdfs:label "nationalyears3"@vi .
+
+vip:nationalyears4 a rdf:Property ;
+    rdfs:label "nationalyears4"@vi .
+
+vip:nationalyears5 a rdf:Property ;
+    rdfs:label "nationalyears5"@vi .
+
+vip:nativeName a rdf:Property ;
+    rdfs:label "native_name"@vi .
+
+vip:nghiênCứuSinh a rdf:Property ;
+    rdfs:label "nghiên cứu sinh"@vi .
+
+vip:nghĩa a rdf:Property ;
+    rdfs:label "nghĩa"@vi .
+
+vip:nghềNghiệp a rdf:Property ;
+    rdfs:label "nghề nghiệp"@vi .
+
+vip:ngànhĐàoTạo a rdf:Property ;
+    rdfs:label "Ngành đào tạo"@vi .
+
+vip:ngàySinh a rdf:Property ;
+    rdfs:label "ngày sinh"@vi .
+
+vip:ngàyThànhLập a rdf:Property ;
+    rdfs:label "ngày thành lập"@vi .
+
+vip:ngânSách a rdf:Property ;
+    rdfs:label "ngân sách"@vi .
+
+vip:ngônNgữ a rdf:Property ;
+    rdfs:label "ngôn ngữ"@vi .
+
+vip:ngườiSángLập a rdf:Property ;
+    rdfs:label "người sáng lập"@vi .
+
+vip:nhàĐiềuHành a rdf:Property ;
+    rdfs:label "nhà điều hành"@vi .
+
+vip:nhânViên a rdf:Property ;
+    rdfs:label "nhân viên"@vi .
+
+vip:nhậpHọc a rdf:Property ;
+    rdfs:label "Nhập học"@vi .
+
+vip:nickname a rdf:Property ;
+    rdfs:label "nickname"@vi .
+
+vip:nămChâuÁ1 a rdf:Property ;
+    rdfs:label "năm châu Á 1"@vi .
+
+vip:nămChâuÁ2 a rdf:Property ;
+    rdfs:label "năm châu Á 2"@vi .
+
+vip:nămCôngNhận a rdf:Property ;
+    rdfs:label "năm công nhận"@vi .
+
+vip:nămQg4 a rdf:Property ;
+    rdfs:label "năm qg 4"@vi .
+
+vip:nămTg1 a rdf:Property ;
+    rdfs:label "năm tg 1"@vi .
+
+vip:nămTg2 a rdf:Property ;
+    rdfs:label "năm tg 2"@vi .
+
+vip:nămThànhLập a rdf:Property ;
+    rdfs:label "Năm thành lập"@vi .
+
+vip:nămTrưởngThành a rdf:Property ;
+    rdfs:label "Năm trưởng thành"@vi .
+
+vip:nơiSinh a rdf:Property ;
+    rdfs:label "nơi sinh"@vi .
+
+vip:occupation a rdf:Property ;
+    rdfs:label "occupation"@vi .
+
+vip:officialLanguages a rdf:Property ;
+    rdfs:label "official_languages"@vi .
+
+vip:officialWebsite a rdf:Property ;
+    rdfs:label "official_website"@vi .
+
+vip:opened a rdf:Property ;
+    rdfs:label "opened"@vi .
+
+vip:operator a rdf:Property ;
+    rdfs:label "operator"@vi .
+
+vip:otherName a rdf:Property ;
+    rdfs:label "other_name"@vi .
+
+vip:otherNames a rdf:Property ;
+    rdfs:label "other_names"@vi .
+
+vip:owner a rdf:Property ;
+    rdfs:label "owner"@vi .
+
+vip:parent a rdf:Property ;
+    rdfs:label "parent"@vi .
+
+vip:patron a rdf:Property ;
+    rdfs:label "patron"@vi .
+
+vip:percentWater a rdf:Property ;
+    rdfs:label "percent_water"@vi .
+
+vip:phânChiaHànhChính a rdf:Property ;
+    rdfs:label "phân chia hành chính"@vi .
+
+vip:phânCấp a rdf:Property ;
+    rdfs:label "phân cấp"@vi .
+
+vip:phóChủTịch a rdf:Property ;
+    rdfs:label "phó chủ tịch"@vi .
+
+vip:phóChủTịchHĐQT a rdf:Property ;
+    rdfs:label "Phó chủ tịch HĐQT"@vi .
+
+vip:phóChứcVụ a rdf:Property ;
+    rdfs:label "phó chức vụ"@vi .
+
+vip:phóGiámĐốc a rdf:Property ;
+    rdfs:label "phó giám đốc"@vi .
+
+vip:phóGiámĐốcHọcViện a rdf:Property ;
+    rdfs:label "Phó Giám đốc Học viện"@vi .
+
+vip:phóGiáoSư a rdf:Property ;
+    rdfs:label "Phó Giáo sư"@vi .
+
+vip:phóHiệuTrưởng a rdf:Property ;
+    rdfs:label "Phó Hiệu trưởng"@vi .
+
+vip:phóViênChức a rdf:Property ;
+    rdfs:label "phó viên chức"@vi .
+
+vip:phóViệnTrưởng a rdf:Property ;
+    rdfs:label "phó viện trưởng"@vi .
+
+vip:phường a rdf:Property ;
+    rdfs:label "phường"@vi .
+
+vip:pixels a rdf:Property ;
+    rdfs:label "pixels"@vi .
+
+vip:playername a rdf:Property ;
+    rdfs:label "playername"@vi .
+
+vip:populationDensityKm2 a rdf:Property ;
+    rdfs:label "population_density_km2"@vi .
+
+vip:populationDensitySqMi a rdf:Property ;
+    rdfs:label "population_density_sq_mi"@vi .
+
+vip:populationEstimate a rdf:Property ;
+    rdfs:label "population_estimate"@vi .
+
+vip:populationEstimateRank a rdf:Property ;
+    rdfs:label "population_estimate_rank"@vi .
+
+vip:populationEstimateYear a rdf:Property ;
+    rdfs:label "population_estimate_year"@vi .
+
+vip:position a rdf:Property ;
+    rdfs:label "position"@vi .
+
+vip:president a rdf:Property ;
+    rdfs:label "president"@vi .
+
+vip:principal a rdf:Property ;
+    rdfs:label "principal"@vi .
+
+vip:publictransit a rdf:Property ;
+    rdfs:label "publictransit"@vi .
+
+vip:quyMô a rdf:Property ;
+    rdfs:label "quy mô"@vi .
+
+vip:quyềnHiệuTrưởng a rdf:Property ;
+    rdfs:label "Quyền hiệu trưởng"@vi .
+
+vip:quânChủng a rdf:Property ;
+    rdfs:label "quân chủng"@vi .
+
+vip:quânKỳ a rdf:Property ;
+    rdfs:label "quân kỳ"@vi .
+
+vip:quảnLý a rdf:Property ;
+    rdfs:label "quản lý"@vi .
+
+vip:quậnTrungTâm a rdf:Property ;
+    rdfs:label "quận trung tâm"@vi .
+
+vip:quốcGia a rdf:Property ;
+    rdfs:label "quốc gia"@vi .
+
+vip:recordAttendance a rdf:Property ;
+    rdfs:label "record_attendance"@vi .
+
+vip:rector a rdf:Property ;
+    rdfs:label "rector"@vi .
+
+vip:regionalCupApps a rdf:Property ;
+    rdfs:label "Regional cup apps"@vi .
+
+vip:regionalCupBest a rdf:Property ;
+    rdfs:label "Regional cup best"@vi .
+
+vip:regionalCupFirst a rdf:Property ;
+    rdfs:label "Regional cup first"@vi .
+
+vip:regionalName a rdf:Property ;
+    rdfs:label "Regional name"@vi .
+
+vip:religion a rdf:Property ;
+    rdfs:label "religion"@vi .
+
+vip:religionYear a rdf:Property ;
+    rdfs:label "religion_year"@vi .
+
+vip:renovated a rdf:Property ;
+    rdfs:label "renovated"@vi .
+
+vip:rivalry a rdf:Property ;
+    rdfs:label "rivalry"@vi .
+
+vip:role a rdf:Property ;
+    rdfs:label "role"@vi .
+
+vip:role1 a rdf:Property ;
+    rdfs:label "role1"@vi .
+
+vip:sauĐạiHọc a rdf:Property ;
+    rdfs:label "Sau đại học"@vi .
+
+vip:schoolBoard a rdf:Property ;
+    rdfs:label "school_board"@vi .
+
+vip:schoolCode a rdf:Property ;
+    rdfs:label "school_code"@vi .
+
+vip:scoreboard a rdf:Property ;
+    rdfs:label "scoreboard"@vi .
+
+vip:season a rdf:Property ;
+    rdfs:label "season"@vi .
+
+vip:seatingCapacity a rdf:Property ;
+    rdfs:label "seating_capacity"@vi .
+
+vip:shortName a rdf:Property ;
+    rdfs:label "short name"@vi .
+
+vip:shortname a rdf:Property ;
+    rdfs:label "shortname"@vi .
+
+vip:sinhViên a rdf:Property ;
+    rdfs:label "sinh viên"@vi .
+
+vip:sinhViênCaoHọc a rdf:Property ;
+    rdfs:label "sinh viên cao học"@vi .
+
+vip:sinhViênChuyênNghiệp a rdf:Property ;
+    rdfs:label "sinh viên chuyên nghiệp"@vi .
+
+vip:sinhViênCácHệ a rdf:Property ;
+    rdfs:label "Sinh viên các hệ"@vi .
+
+vip:sinhViênSauĐạiHọc a rdf:Property ;
+    rdfs:label "sinh viên sau đại học"@vi .
+
+vip:sinhViênĐạiHọc a rdf:Property ;
+    rdfs:label "sinh viên đại học"@vi .
+
+vip:size a rdf:Property ;
+    rdfs:label "size"@vi .
+
+vip:sovereigntyType a rdf:Property ;
+    rdfs:label "sovereignty_type"@vi .
+
+vip:stadium a rdf:Property ;
+    rdfs:label "stadium"@vi .
+
+vip:stadiumName a rdf:Property ;
+    rdfs:label "stadium_name"@vi .
+
+vip:staff a rdf:Property ;
+    rdfs:label "staff"@vi .
+
+vip:status a rdf:Property ;
+    rdfs:label "status"@vi .
+
+vip:students a rdf:Property ;
+    rdfs:label "students"@vi .
+
+vip:subConfederation a rdf:Property ;
+    rdfs:label "Sub-confederation"@vi .
+
+vip:subheader a rdf:Property ;
+    rdfs:label "subheader"@vi .
+
+vip:surface a rdf:Property ;
+    rdfs:label "surface"@vi .
+
+vip:sángLập a rdf:Property ;
+    rdfs:label "sáng lập"@vi .
+
+vip:sânCỏ a rdf:Property ;
+    rdfs:label "sân cỏ"@vi .
+
+vip:sânVậnĐộng a rdf:Property ;
+    rdfs:label "sân vận động"@vi .
+
+vip:sốCơSở a rdf:Property ;
+    rdfs:label "số cơ sở"@vi .
+
+vip:sốPhòngHọc a rdf:Property ;
+    rdfs:label "số phòng học"@vi .
+
+vip:sốÁo a rdf:Property ;
+    rdfs:label "số áo"@vi .
+
+vip:sứcChứa a rdf:Property ;
+    rdfs:label "sức chứa"@vi .
+
+vip:sửaChữa a rdf:Property ;
+    rdfs:label "Sửa chữa"@vi .
+
+vip:telephone a rdf:Property ;
+    rdfs:label "telephone"@vi .
+
+vip:tenant a rdf:Property ;
+    rdfs:label "tenant"@vi .
+
+vip:tenants a rdf:Property ;
+    rdfs:label "tenants"@vi .
+
+vip:thuêSân a rdf:Property ;
+    rdfs:label "thuê sân"@vi .
+
+vip:thuộcTổChức a rdf:Property ;
+    rdfs:label "thuộc tổ chức"@vi .
+
+vip:thànhLập a rdf:Property ;
+    rdfs:label "thành lập"@vi .
+
+vip:thànhPhố a rdf:Property ;
+    rdfs:label "thành phố"@vi .
+
+vip:thànhTích a rdf:Property ;
+    rdfs:label "thành tích"@vi .
+
+vip:thànhViên a rdf:Property ;
+    rdfs:label "thành viên"@vi .
+
+vip:thànhViênCủa a rdf:Property ;
+    rdfs:label "thành viên của"@vi .
+
+vip:thôngTinThêm a rdf:Property ;
+    rdfs:label "thông tin thêm"@vi .
+
+vip:thạcSĩ a rdf:Property ;
+    rdfs:label "Thạc sĩ"@vi .
+
+vip:thểLoại a rdf:Property ;
+    rdfs:label "Thể loại"@vi .
+
+vip:thờiĐiểmDânSố a rdf:Property ;
+    rdfs:label "thời điểm dân số"@vi .
+
+vip:thờiĐiểmKinhTế a rdf:Property ;
+    rdfs:label "thời điểm kinh tế"@vi .
+
+vip:timeZone a rdf:Property ;
+    rdfs:label "time_zone"@vi .
+
+vip:title a rdf:Property ;
+    rdfs:label "title"@vi .
+
+vip:tiêuĐềQl a rdf:Property ;
+    rdfs:label "tiêu đề ql"@vi .
+
+vip:tiếnSĩ a rdf:Property ;
+    rdfs:label "Tiến sĩ"@vi .
+
+vip:tiềnNhiệm a rdf:Property ;
+    rdfs:label "tiền nhiệm"@vi .
+
+vip:tiềnNhiệm2 a rdf:Property ;
+    rdfs:label "tiền nhiệm 2"@vi .
+
+vip:tiềnNhiệm3 a rdf:Property ;
+    rdfs:label "tiền nhiệm 3"@vi .
+
+vip:tiềnThân a rdf:Property ;
+    rdfs:label "Tiền thân"@vi .
+
+vip:totalcaps a rdf:Property ;
+    rdfs:label "totalcaps"@vi .
+
+vip:totalgoals a rdf:Property ;
+    rdfs:label "totalgoals"@vi .
+
+vip:triếtLýGiáoDục a rdf:Property ;
+    rdfs:label "Triết lý giáo dục"@vi .
+
+vip:trưởngCơSở a rdf:Property ;
+    rdfs:label "trưởng cơ sở"@vi .
+
+vip:trụSởTrườngCS1 a rdf:Property ;
+    rdfs:label "Trụ sở trường (CS1)"@vi .
+
+vip:trụSởTrườngCS2 a rdf:Property ;
+    rdfs:label "Trụ sở trường (CS2)"@vi .
+
+vip:trụSởUBND a rdf:Property ;
+    rdfs:label "trụ sở UBND"@vi .
+
+vip:trựcThuộc a rdf:Property ;
+    rdfs:label "trực thuộc"@vi .
+
+vip:type a rdf:Property ;
+    rdfs:label "type"@vi .
+
+vip:tàiTrợ a rdf:Property ;
+    rdfs:label "tài trợ"@vi .
+
+vip:táiLập a rdf:Property ;
+    rdfs:label "tái lập"@vi .
+
+vip:tên a rdf:Property ;
+    rdfs:label "tên"@vi .
+
+vip:tênBảnNgữ a rdf:Property ;
+    rdfs:label "tên bản ngữ"@vi .
+
+vip:tênBảnĐịa a rdf:Property ;
+    rdfs:label "tên bản địa"@vi .
+
+vip:tênCLB a rdf:Property ;
+    rdfs:label "tên CLB"@vi .
+
+vip:tênCũ a rdf:Property ;
+    rdfs:label "tên cũ"@vi .
+
+vip:tênGiaoDịch a rdf:Property ;
+    rdfs:label "tên_giao_dịch"@vi .
+
+vip:tênGọi a rdf:Property ;
+    rdfs:label "tên gọi"@vi .
+
+vip:tênGọiKhác a rdf:Property ;
+    rdfs:label "tên gọi khác"@vi .
+
+vip:tênKhác a rdf:Property ;
+    rdfs:label "tên khác"@vi .
+
+vip:tênNgắn a rdf:Property ;
+    rdfs:label "tên ngắn"@vi .
+
+vip:tênNgắnGọn a rdf:Property ;
+    rdfs:label "tên ngắn gọn"@vi .
+
+vip:tênSânVậnĐộng a rdf:Property ;
+    rdfs:label "tên sân vận động"@vi .
+
+vip:tênTiếngAnh a rdf:Property ;
+    rdfs:label "tên tiếng Anh"@vi .
+
+vip:tênViếtTắt a rdf:Property ;
+    rdfs:label "tên viết tắt"@vi .
+
+vip:tênĐầyĐủ a rdf:Property ;
+    rdfs:label "tên đầy đủ"@vi .
+
+vip:tênĐầyĐủCủaCLB a rdf:Property ;
+    rdfs:label "tên đầy đủ của CLB"@vi .
+
+vip:tìnhTrạng a rdf:Property ;
+    rdfs:label "tình trạng"@vi .
+
+vip:tưLệnh a rdf:Property ;
+    rdfs:label "tư lệnh"@vi .
+
+vip:tỉnh a rdf:Property ;
+    rdfs:label "tỉnh"@vi .
+
+vip:tỉnhLỵ a rdf:Property ;
+    rdfs:label "tỉnh lỵ"@vi .
+
+vip:tọaĐộ a rdf:Property ;
+    rdfs:label "tọa độ"@vi .
+
+vip:tổChức a rdf:Property ;
+    rdfs:label "tổ chức"@vi .
+
+vip:từ a rdf:Property ;
+    rdfs:label "từ"@vi .
+
+vip:tựaBảnĐồ1 a rdf:Property ;
+    rdfs:label "tựa bản đồ 1"@vi .
+
+vip:unitName a rdf:Property ;
+    rdfs:label "unit_name"@vi .
+
+vip:upright a rdf:Property ;
+    rdfs:label "upright"@vi .
+
+vip:utcOffset a rdf:Property ;
+    rdfs:label "utc_offset"@vi .
+
+vip:viceChancellor a rdf:Property ;
+    rdfs:label "vice_chancellor"@vi .
+
+vip:viceRector a rdf:Property ;
+    rdfs:label "vice_rector"@vi .
+
+vip:vinhDanh a rdf:Property ;
+    rdfs:label "vinh danh"@vi .
+
+vip:viếtTắt a rdf:Property ;
+    rdfs:label "viết tắt"@vi .
+
+vip:việnTrưởng a rdf:Property ;
+    rdfs:label "viện trưởng"@vi .
+
+vip:việnTrưởngVKSND a rdf:Property ;
+    rdfs:label "viện trưởng VKSND"@vi .
+
+vip:vùng a rdf:Property ;
+    rdfs:label "vùng"@vi .
+
+vip:vĩGiây a rdf:Property ;
+    rdfs:label "vĩ giây"@vi .
+
+vip:vĩPhút a rdf:Property ;
+    rdfs:label "vĩ phút"@vi .
+
+vip:vĩĐộ a rdf:Property ;
+    rdfs:label "vĩ độ"@vi .
+
+vip:vịTrí a rdf:Property ;
+    rdfs:label "vị trí"@vi .
+
+vip:web a rdf:Property ;
+    rdfs:label "web"@vi .
+
+vip:website a rdf:Property ;
+    rdfs:label "website"@vi .
+
+vip:xếpHạng a rdf:Property ;
+    rdfs:label "xếp hạng"@vi .
+
+vip:years a rdf:Property ;
+    rdfs:label "years"@vi .
+
+vip:years1 a rdf:Property ;
+    rdfs:label "years1"@vi .
+
+vip:years10 a rdf:Property ;
+    rdfs:label "years10"@vi .
+
+vip:years11 a rdf:Property ;
+    rdfs:label "years11"@vi .
+
+vip:years12 a rdf:Property ;
+    rdfs:label "years12"@vi .
+
+vip:years13 a rdf:Property ;
+    rdfs:label "years13"@vi .
+
+vip:years14 a rdf:Property ;
+    rdfs:label "years14"@vi .
+
+vip:years15 a rdf:Property ;
+    rdfs:label "years15"@vi .
+
+vip:years16 a rdf:Property ;
+    rdfs:label "years16"@vi .
+
+vip:years17 a rdf:Property ;
+    rdfs:label "years17"@vi .
+
+vip:years2 a rdf:Property ;
+    rdfs:label "years2"@vi .
+
+vip:years3 a rdf:Property ;
+    rdfs:label "years3"@vi .
+
+vip:years4 a rdf:Property ;
+    rdfs:label "years4"@vi .
+
+vip:years5 a rdf:Property ;
+    rdfs:label "years5"@vi .
+
+vip:years6 a rdf:Property ;
+    rdfs:label "years6"@vi .
+
+vip:years7 a rdf:Property ;
+    rdfs:label "years7"@vi .
+
+vip:years8 a rdf:Property ;
+    rdfs:label "years8"@vi .
+
+vip:years9 a rdf:Property ;
+    rdfs:label "years9"@vi .
+
+vip:youthclubs1 a rdf:Property ;
+    rdfs:label "youthclubs1"@vi .
+
+vip:youthclubs2 a rdf:Property ;
+    rdfs:label "youthclubs2"@vi .
+
+vip:youthclubs3 a rdf:Property ;
+    rdfs:label "youthclubs3"@vi .
+
+vip:youthclubs4 a rdf:Property ;
+    rdfs:label "youthclubs4"@vi .
+
+vip:youthyears1 a rdf:Property ;
+    rdfs:label "youthyears1"@vi .
+
+vip:youthyears2 a rdf:Property ;
+    rdfs:label "youthyears2"@vi .
+
+vip:youthyears3 a rdf:Property ;
+    rdfs:label "youthyears3"@vi .
+
+vip:youthyears4 a rdf:Property ;
+    rdfs:label "youthyears4"@vi .
+
+vip:điệnThoại a rdf:Property ;
+    rdfs:label "điện thoại"@vi .
+
+vip:đơnVị a rdf:Property ;
+    rdfs:label "đơn vị"@vi .
+
+vip:đạiBiểuQuốcHội a rdf:Property ;
+    rdfs:label "đại biểu quốc hội"@vi .
+
+vip:đạo a rdf:Property ;
+    rdfs:label "đạo"@vi .
+
+vip:đảng a rdf:Property ;
+    rdfs:label "đảng"@vi .
+
+vip:đặtTênTheo a rdf:Property ;
+    rdfs:label "đặt tên theo"@vi .
+
+vip:địaChỉ a rdf:Property ;
+    rdfs:label "địa chỉ"@vi .
+
+vip:độiTrưởng a rdf:Property ;
+    rdfs:label "Đội Trưởng"@vi .
+

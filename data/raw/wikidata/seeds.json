@@ -1,0 +1,5942 @@
+[
+ {
+  "qid": "Q881",
+  "cls": "Country",
+  "vi_title": "Việt Nam",
+  "en_title": "Vietnam"
+ },
+ {
+  "qid": "Q36729",
+  "cls": "Province",
+  "vi_title": "Hải Dương (tỉnh)",
+  "en_title": "Hải Dương province"
+ },
+ {
+  "qid": "Q36725",
+  "cls": "Province",
+  "vi_title": "Phú Yên (tỉnh)",
+  "en_title": "Phú Yên province"
+ },
+ {
+  "qid": "Q36865",
+  "cls": "Province",
+  "vi_title": "Cao Bằng",
+  "en_title": "Cao Bằng province"
+ },
+ {
+  "qid": "Q36866",
+  "cls": "Province",
+  "vi_title": "Bình Dương (tỉnh)",
+  "en_title": "Bình Dương province"
+ },
+ {
+  "qid": "Q1854",
+  "cls": "Province",
+  "vi_title": "Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City"
+ },
+ {
+  "qid": "Q36869",
+  "cls": "Province",
+  "vi_title": "Bình Thuận (tỉnh)",
+  "en_title": "Bình Thuận province"
+ },
+ {
+  "qid": "Q36874",
+  "cls": "Province",
+  "vi_title": "Bà Rịa – Vũng Tàu",
+  "en_title": "Bà Rịa–Vũng Tàu province"
+ },
+ {
+  "qid": "Q26575",
+  "cls": "Province",
+  "vi_title": "Thái Nguyên",
+  "en_title": "Thái Nguyên province"
+ },
+ {
+  "qid": "Q26573",
+  "cls": "Province",
+  "vi_title": "Long An (tỉnh)",
+  "en_title": "Long An province"
+ },
+ {
+  "qid": "Q27566",
+  "cls": "Province",
+  "vi_title": "Vĩnh Phúc (tỉnh)",
+  "en_title": "Vĩnh Phúc province"
+ },
+ {
+  "qid": "Q25282",
+  "cls": "Province",
+  "vi_title": "Đà Nẵng",
+  "en_title": "Da Nang"
+ },
+ {
+  "qid": "Q33396",
+  "cls": "Province",
+  "vi_title": "Quảng Ninh",
+  "en_title": "Quảng Ninh"
+ },
+ {
+  "qid": "Q33403",
+  "cls": "Province",
+  "vi_title": "Lạng Sơn",
+  "en_title": "Lạng Sơn province"
+ },
+ {
+  "qid": "Q33408",
+  "cls": "Province",
+  "vi_title": "Bắc Ninh",
+  "en_title": "Bắc Ninh"
+ },
+ {
+  "qid": "Q36015",
+  "cls": "Province",
+  "vi_title": "Hòa Bình (tỉnh)",
+  "en_title": "Hòa Bình province"
+ },
+ {
+  "qid": "Q36320",
+  "cls": "Province",
+  "vi_title": "Hậu Giang",
+  "en_title": "Hậu Giang province"
+ },
+ {
+  "qid": "Q36349",
+  "cls": "Province",
+  "vi_title": "Yên Bái (tỉnh)",
+  "en_title": "Yên Bái province"
+ },
+ {
+  "qid": "Q36235",
+  "cls": "Province",
+  "vi_title": "Hưng Yên",
+  "en_title": "Hưng Yên province"
+ },
+ {
+  "qid": "Q36315",
+  "cls": "Province",
+  "vi_title": "Kon Tum (tỉnh)",
+  "en_title": "Kon Tum province"
+ },
+ {
+  "qid": "Q36399",
+  "cls": "Province",
+  "vi_title": "Huế",
+  "en_title": "Huế"
+ },
+ {
+  "qid": "Q36367",
+  "cls": "Province",
+  "vi_title": "Bắc Giang (tỉnh)",
+  "en_title": "Bắc Giang province"
+ },
+ {
+  "qid": "Q36587",
+  "cls": "Province",
+  "vi_title": "Nghệ An",
+  "en_title": "Nghệ An province"
+ },
+ {
+  "qid": "Q36592",
+  "cls": "Province",
+  "vi_title": "An Giang",
+  "en_title": "An Giang province"
+ },
+ {
+  "qid": "Q36610",
+  "cls": "Province",
+  "vi_title": "Phú Thọ",
+  "en_title": "Phú Thọ province"
+ },
+ {
+  "qid": "Q36608",
+  "cls": "Province",
+  "vi_title": "Tây Ninh",
+  "en_title": "Tây Ninh province"
+ },
+ {
+  "qid": "Q33271",
+  "cls": "Province",
+  "vi_title": "Đồng Nai",
+  "en_title": "Đồng Nai"
+ },
+ {
+  "qid": "Q33356",
+  "cls": "Province",
+  "vi_title": "Quảng Nam",
+  "en_title": "Quảng Nam province"
+ },
+ {
+  "qid": "Q33354",
+  "cls": "Province",
+  "vi_title": "Cà Mau",
+  "en_title": "Cà Mau province"
+ },
+ {
+  "qid": "Q33369",
+  "cls": "Province",
+  "vi_title": "Khánh Hòa",
+  "en_title": "Khánh Hòa province"
+ },
+ {
+  "qid": "Q33272",
+  "cls": "Province",
+  "vi_title": "Sóc Trăng (tỉnh)",
+  "en_title": "Sóc Trăng province"
+ },
+ {
+  "qid": "Q33366",
+  "cls": "Province",
+  "vi_title": "Bến Tre (tỉnh)",
+  "en_title": "Bến Tre province"
+ },
+ {
+  "qid": "Q33304",
+  "cls": "Province",
+  "vi_title": "Quảng Ngãi",
+  "en_title": "Quảng Ngãi province"
+ },
+ {
+  "qid": "Q33351",
+  "cls": "Province",
+  "vi_title": "Hà Tĩnh",
+  "en_title": "Hà Tĩnh province"
+ },
+ {
+  "qid": "Q33379",
+  "cls": "Province",
+  "vi_title": "Sơn La",
+  "en_title": "Sơn La province"
+ },
+ {
+  "qid": "Q36685",
+  "cls": "Province",
+  "vi_title": "Hà Giang",
+  "en_title": "Hà Giang province"
+ },
+ {
+  "qid": "Q36681",
+  "cls": "Province",
+  "vi_title": "Thái Bình (tỉnh)",
+  "en_title": "Thái Bình province"
+ },
+ {
+  "qid": "Q36693",
+  "cls": "Province",
+  "vi_title": "Bình Định (tỉnh)",
+  "en_title": "Bình Định province"
+ },
+ {
+  "qid": "Q36690",
+  "cls": "Province",
+  "vi_title": "Đắk Lắk",
+  "en_title": "Đắk Lắk province"
+ },
+ {
+  "qid": "Q36676",
+  "cls": "Province",
+  "vi_title": "Đồng Tháp",
+  "en_title": "Đồng Tháp province"
+ },
+ {
+  "qid": "Q36666",
+  "cls": "Province",
+  "vi_title": "Tiền Giang",
+  "en_title": "Tiền Giang province"
+ },
+ {
+  "qid": "Q36615",
+  "cls": "Province",
+  "vi_title": "Trà Vinh (tỉnh)",
+  "en_title": "Trà Vinh province"
+ },
+ {
+  "qid": "Q36658",
+  "cls": "Province",
+  "vi_title": "Bạc Liêu (tỉnh)",
+  "en_title": "Bạc Liêu province"
+ },
+ {
+  "qid": "Q36662",
+  "cls": "Province",
+  "vi_title": "Gia Lai",
+  "en_title": "Gia Lai province"
+ },
+ {
+  "qid": "Q36672",
+  "cls": "Province",
+  "vi_title": "Bình Phước (tỉnh)",
+  "en_title": "Bình Phước province"
+ },
+ {
+  "qid": "Q2332060",
+  "cls": "Province",
+  "vi_title": "Tuyên Quang",
+  "en_title": "Tuyên Quang province"
+ },
+ {
+  "qid": "Q1319862",
+  "cls": "Province",
+  "vi_title": "Bình Tuy",
+  "en_title": "Bình Tuy province"
+ },
+ {
+  "qid": "Q2107381",
+  "cls": "Province",
+  "vi_title": "Hải Hưng (tỉnh)",
+  "en_title": "Hải Hưng province"
+ },
+ {
+  "qid": "Q2138709",
+  "cls": "Province",
+  "vi_title": "Phước Thành (tỉnh)",
+  "en_title": "Phước Thành province"
+ },
+ {
+  "qid": "Q1858",
+  "cls": "Province",
+  "vi_title": "Hà Nội",
+  "en_title": "Hanoi"
+ },
+ {
+  "qid": "Q36900",
+  "cls": "Province",
+  "vi_title": "Ninh Bình",
+  "en_title": "Ninh Bình province"
+ },
+ {
+  "qid": "Q36903",
+  "cls": "Province",
+  "vi_title": "Ninh Thuận",
+  "en_title": "Ninh Thuận province"
+ },
+ {
+  "qid": "Q36955",
+  "cls": "Province",
+  "vi_title": "Điện Biên",
+  "en_title": "Điện Biên province"
+ },
+ {
+  "qid": "Q36907",
+  "cls": "Province",
+  "vi_title": "Nam Định (tỉnh)",
+  "en_title": "Nam Định province"
+ },
+ {
+  "qid": "Q23533",
+  "cls": "Province",
+  "vi_title": "Quảng Bình (tỉnh)",
+  "en_title": "Quảng Bình province"
+ },
+ {
+  "qid": "Q36446",
+  "cls": "Province",
+  "vi_title": "Lào Cai",
+  "en_title": "Lào Cai province"
+ },
+ {
+  "qid": "Q36409",
+  "cls": "Province",
+  "vi_title": "Lai Châu",
+  "en_title": "Lai Châu province"
+ },
+ {
+  "qid": "Q36512",
+  "cls": "Province",
+  "vi_title": "Thanh Hóa",
+  "en_title": "Thanh Hóa province"
+ },
+ {
+  "qid": "Q36404",
+  "cls": "Province",
+  "vi_title": "Bắc Kạn (tỉnh)",
+  "en_title": "Bắc Kạn province"
+ },
+ {
+  "qid": "Q36576",
+  "cls": "Province",
+  "vi_title": "Kiên Giang",
+  "en_title": "Kiên Giang province"
+ },
+ {
+  "qid": "Q36579",
+  "cls": "Province",
+  "vi_title": "Quảng Trị",
+  "en_title": "Quảng Trị province"
+ },
+ {
+  "qid": "Q36413",
+  "cls": "Province",
+  "vi_title": "Hà Nam (tỉnh Việt Nam)",
+  "en_title": "Hà Nam province"
+ },
+ {
+  "qid": "Q36721",
+  "cls": "Province",
+  "vi_title": "Lâm Đồng",
+  "en_title": "Lâm Đồng province"
+ },
+ {
+  "qid": "Q216075",
+  "cls": "Province",
+  "vi_title": "Cần Thơ",
+  "en_title": "Cần Thơ"
+ },
+ {
+  "qid": "Q36723",
+  "cls": "Province",
+  "vi_title": "Đắk Nông (tỉnh)",
+  "en_title": "Đắk Nông province"
+ },
+ {
+  "qid": "Q72818",
+  "cls": "Province",
+  "vi_title": "Hải Phòng",
+  "en_title": "Haiphong"
+ },
+ {
+  "qid": "Q1077294",
+  "cls": "Province",
+  "vi_title": "Hà Tây (tỉnh)",
+  "en_title": "Hà Tây province"
+ },
+ {
+  "qid": "Q2403349",
+  "cls": "Province",
+  "vi_title": "Lục Nam (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10761343",
+  "cls": "Province",
+  "vi_title": "Gia Lai – Kon Tum",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771661",
+  "cls": "Province",
+  "vi_title": "Hải Ninh (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10780314",
+  "cls": "Province",
+  "vi_title": "Kiến Hòa",
+  "en_title": null
+ },
+ {
+  "qid": "Q10796834",
+  "cls": "Province",
+  "vi_title": "Mỹ Tho (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10798724",
+  "cls": "Province",
+  "vi_title": "Nghĩa Bình",
+  "en_title": null
+ },
+ {
+  "qid": "Q10805951",
+  "cls": "Province",
+  "vi_title": "Phú Khánh",
+  "en_title": null
+ },
+ {
+  "qid": "Q10806277",
+  "cls": "Province",
+  "vi_title": "Phúc Yên (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10810536",
+  "cls": "Province",
+  "vi_title": "Quảng Yên (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10812062",
+  "cls": "Province",
+  "vi_title": "Rạch Giá (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10830121",
+  "cls": "Province",
+  "vi_title": "Tuyên Đức",
+  "en_title": null
+ },
+ {
+  "qid": "Q10833763",
+  "cls": "Province",
+  "vi_title": "Vĩnh Yên (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q1851862",
+  "cls": "Province",
+  "vi_title": "Thủ Dầu Một (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q1925306",
+  "cls": "Province",
+  "vi_title": "Bắc Thái",
+  "en_title": null
+ },
+ {
+  "qid": "Q1951273",
+  "cls": "Province",
+  "vi_title": "Long Xuyên (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2031603",
+  "cls": "Province",
+  "vi_title": "Cần Thơ (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2108646",
+  "cls": "Province",
+  "vi_title": "Cap Saint Jacques (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2208387",
+  "cls": "Province",
+  "vi_title": "Kiến An (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2293742",
+  "cls": "Province",
+  "vi_title": "Bà Rịa (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2705921",
+  "cls": "Province",
+  "vi_title": "Châu Đốc (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q2903664",
+  "cls": "Province",
+  "vi_title": "Hà Nam Ninh",
+  "en_title": null
+ },
+ {
+  "qid": "Q3200233",
+  "cls": "Province",
+  "vi_title": "Hà Đông (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q608809",
+  "cls": "Province",
+  "vi_title": "Vũng Tàu – Côn Đảo",
+  "en_title": null
+ },
+ {
+  "qid": "Q6767078",
+  "cls": "Province",
+  "vi_title": "Vĩnh Phú (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q136332810",
+  "cls": "Province",
+  "vi_title": "Bình Phú (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10810543",
+  "cls": "Province",
+  "vi_title": "Quảng Đà (tỉnh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10822747",
+  "cls": "Province",
+  "vi_title": "Sông Bé (tỉnh)",
+  "en_title": "Sông Bé province"
+ },
+ {
+  "qid": "Q2805344",
+  "cls": "Province",
+  "vi_title": "Minh Hải (tỉnh)",
+  "en_title": "Minh Hải province"
+ },
+ {
+  "qid": "Q131746469",
+  "cls": "Province",
+  "vi_title": "Thừa Thiên Huế",
+  "en_title": "Thừa Thiên Huế province"
+ },
+ {
+  "qid": "Q2924709",
+  "cls": "Province",
+  "vi_title": "Hà Sơn Bình",
+  "en_title": "Hà Sơn Bình province"
+ },
+ {
+  "qid": "Q4717872",
+  "cls": "Province",
+  "vi_title": "Cửu Long (tỉnh)",
+  "en_title": "Cửu Long province"
+ },
+ {
+  "qid": "Q10771337",
+  "cls": "Province",
+  "vi_title": "Hưng Hóa",
+  "en_title": "Hưng Hóa province"
+ },
+ {
+  "qid": "Q6672777",
+  "cls": "Province",
+  "vi_title": "Long Khánh (tỉnh)",
+  "en_title": "Long Khánh province"
+ },
+ {
+  "qid": "Q10807515",
+  "cls": "Province",
+  "vi_title": "Pleiku (tỉnh)",
+  "en_title": "Pleiku province"
+ },
+ {
+  "qid": "Q4718509",
+  "cls": "Province",
+  "vi_title": "Bình Trị Thiên",
+  "en_title": "Bình Trị Thiên province"
+ },
+ {
+  "qid": "Q4284208",
+  "cls": "Province",
+  "vi_title": "Hà Bắc (tỉnh Việt Nam)",
+  "en_title": "Hà Bắc province"
+ },
+ {
+  "qid": "Q3028839",
+  "cls": "Province",
+  "vi_title": "Chợ Lớn (tỉnh)",
+  "en_title": "Chợ Lớn province"
+ },
+ {
+  "qid": "Q2502014",
+  "cls": "Province",
+  "vi_title": "Biên Hòa (tỉnh)",
+  "en_title": "Biên Hòa province"
+ },
+ {
+  "qid": "Q2503956",
+  "cls": "Province",
+  "vi_title": "Gò Công (tỉnh)",
+  "en_title": "Gò Công province"
+ },
+ {
+  "qid": "Q7333405",
+  "cls": "Province",
+  "vi_title": "Vĩnh Long",
+  "en_title": "Vĩnh Long province"
+ },
+ {
+  "qid": "Q2538777",
+  "cls": "Province",
+  "vi_title": "Quảng Tín (tỉnh)",
+  "en_title": "Quảng Tín province"
+ },
+ {
+  "qid": "Q7862053",
+  "cls": "Province",
+  "vi_title": "Tân An (tỉnh)",
+  "en_title": "Tân An province"
+ },
+ {
+  "qid": "Q10798893",
+  "cls": "Province",
+  "vi_title": "Nghệ Tĩnh",
+  "en_title": "Nghệ Tĩnh province"
+ },
+ {
+  "qid": "Q10805889",
+  "cls": "Province",
+  "vi_title": "Phú Bổn",
+  "en_title": "Phú Bổn province"
+ },
+ {
+  "qid": "Q109436207",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Việt Trì",
+  "en_title": "Việt Trì Stadium"
+ },
+ {
+  "qid": "Q113449918",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Hà Tĩnh",
+  "en_title": "Hà Tĩnh Stadium"
+ },
+ {
+  "qid": "Q10822664",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Cần Thơ",
+  "en_title": "Cần Thơ Stadium"
+ },
+ {
+  "qid": "Q10822667",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Ninh Bình",
+  "en_title": "Ninh Bình Stadium"
+ },
+ {
+  "qid": "Q10822668",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Rạch Giá",
+  "en_title": "Rạch Giá Stadium"
+ },
+ {
+  "qid": "Q5574748",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Gò Đậu",
+  "en_title": "Gò Đậu Stadium"
+ },
+ {
+  "qid": "Q19457544",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Cẩm Phả",
+  "en_title": "Cẩm Phả Stadium"
+ },
+ {
+  "qid": "Q7710351",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Thanh Hóa",
+  "en_title": "Thanh Hóa Stadium"
+ },
+ {
+  "qid": "Q19578021",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Tam Kỳ",
+  "en_title": "Tam Kỳ Stadium"
+ },
+ {
+  "qid": "Q5929707",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Tự Do",
+  "en_title": "Tự Do Stadium"
+ },
+ {
+  "qid": "Q5930497",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Long An",
+  "en_title": "Long An Stadium"
+ },
+ {
+  "qid": "Q5095075",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Chi Lăng (1943)",
+  "en_title": "Chi Lăng Stadium (1954)"
+ },
+ {
+  "qid": "Q5034301",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Cao Lãnh",
+  "en_title": "Cao Lãnh Stadium"
+ },
+ {
+  "qid": "Q7023325",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động 19 tháng 8",
+  "en_title": "Nha Trang Stadium"
+ },
+ {
+  "qid": "Q28197235",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Chi Lăng (2016)",
+  "en_title": "Chi Lăng Stadium (2016)"
+ },
+ {
+  "qid": "Q7204458",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Pleiku",
+  "en_title": "Pleiku Stadium"
+ },
+ {
+  "qid": "Q7273047",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Quy Nhơn",
+  "en_title": "Quy Nhơn Stadium"
+ },
+ {
+  "qid": "Q124434928",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Ninh Thuận",
+  "en_title": null
+ },
+ {
+  "qid": "Q10822672",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Tiền Giang",
+  "en_title": null
+ },
+ {
+  "qid": "Q135438798",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Hoài Đức",
+  "en_title": null
+ },
+ {
+  "qid": "Q135438868",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Phan Thiết",
+  "en_title": null
+ },
+ {
+  "qid": "Q1817188",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Hàng Đẫy",
+  "en_title": "Hàng Đẫy Stadium"
+ },
+ {
+  "qid": "Q1150956",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Quốc gia Mỹ Đình",
+  "en_title": "Mỹ Đình National Stadium"
+ },
+ {
+  "qid": "Q2524171",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Đồng Nai",
+  "en_title": "Đồng Nai Stadium"
+ },
+ {
+  "qid": "Q2051647",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Thống Nhất",
+  "en_title": "Thống Nhất Stadium"
+ },
+ {
+  "qid": "Q3277621",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Vinh",
+  "en_title": "Vinh Stadium"
+ },
+ {
+  "qid": "Q3277766",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Lạch Tray",
+  "en_title": "Lạch Tray Stadium"
+ },
+ {
+  "qid": "Q4115591",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Thiên Trường",
+  "en_title": "Thiên Trường Stadium"
+ },
+ {
+  "qid": "Q2770718",
+  "cls": "Stadium",
+  "vi_title": "Sân vận động Quân khu 7",
+  "en_title": "Quân khu 7 Stadium"
+ },
+ {
+  "qid": "Q10829094",
+  "cls": "University",
+  "vi_title": "Trường Đại học Mở Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City Open University"
+ },
+ {
+  "qid": "Q86012411",
+  "cls": "University",
+  "vi_title": "Trường Đại học VinUni",
+  "en_title": "VinUniversity"
+ },
+ {
+  "qid": "Q24884974",
+  "cls": "University",
+  "vi_title": "Trường Đại học Đồng Nai",
+  "en_title": "Dong Nai University"
+ },
+ {
+  "qid": "Q30263747",
+  "cls": "University",
+  "vi_title": "Trường Đại học Đồng Tháp",
+  "en_title": "Dong Thap University"
+ },
+ {
+  "qid": "Q105335883",
+  "cls": "University",
+  "vi_title": "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Medicine and Pharmacy"
+ },
+ {
+  "qid": "Q24902367",
+  "cls": "University",
+  "vi_title": "Trường Quốc tế, Đại học Quốc gia Hà Nội",
+  "en_title": "International School, Vietnam National University, Hanoi"
+ },
+ {
+  "qid": "Q20984308",
+  "cls": "University",
+  "vi_title": "Trường Đại học Vinh",
+  "en_title": "Vinh University"
+ },
+ {
+  "qid": "Q10829149",
+  "cls": "University",
+  "vi_title": "Đại học Trà Vinh",
+  "en_title": "Tra Vinh University"
+ },
+ {
+  "qid": "Q10829118",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quốc tế Bắc Hà",
+  "en_title": "Bac Ha International University"
+ },
+ {
+  "qid": "Q10829155",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tân Tạo",
+  "en_title": "Tân Tạo University"
+ },
+ {
+  "qid": "Q14655485",
+  "cls": "University",
+  "vi_title": "Trường Cao đẳng Ngoại ngữ – Công nghệ Việt Nhật",
+  "en_title": "Vietnamese-Japanese Foreign Language-Technology College"
+ },
+ {
+  "qid": "Q10829131",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Technology and Engineering"
+ },
+ {
+  "qid": "Q16892082",
+  "cls": "University",
+  "vi_title": "Đại học Công nghiệp Hà Nội",
+  "en_title": "Hanoi University of Industry"
+ },
+ {
+  "qid": "Q16944333",
+  "cls": "University",
+  "vi_title": "Trường Đại học Dược Hà Nội",
+  "en_title": "Hanoi University of Pharmacy"
+ },
+ {
+  "qid": "Q20026262",
+  "cls": "University",
+  "vi_title": "Trường Đại học Việt Nhật, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU Vietnam Japan University"
+ },
+ {
+  "qid": "Q18461615",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
+  "en_title": "Hanoi University of Natural Resources and Environment"
+ },
+ {
+  "qid": "Q943759",
+  "cls": "University",
+  "vi_title": "Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "Vietnam National University, Ho Chi Minh City"
+ },
+ {
+  "qid": "Q945839",
+  "cls": "University",
+  "vi_title": "Đại học Đà Nẵng",
+  "en_title": "University of Da Nang"
+ },
+ {
+  "qid": "Q368923",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sài Gòn",
+  "en_title": "Saigon University"
+ },
+ {
+  "qid": "Q717262",
+  "cls": "University",
+  "vi_title": "Trường Đại học Y khoa Vinh",
+  "en_title": "Vinh Medical University"
+ },
+ {
+  "qid": "Q610220",
+  "cls": "University",
+  "vi_title": "Trường Đại học FPT",
+  "en_title": "FPT University"
+ },
+ {
+  "qid": "Q877269",
+  "cls": "University",
+  "vi_title": "Trường Đại học Mỹ thuật Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Fine Arts"
+ },
+ {
+  "qid": "Q835285",
+  "cls": "University",
+  "vi_title": "Trường Đại học Việt Đức",
+  "en_title": "Vietnamese-German University"
+ },
+ {
+  "qid": "Q1076729",
+  "cls": "University",
+  "vi_title": "Đại học Quốc gia Hà Nội",
+  "en_title": "Vietnam National University, Hanoi"
+ },
+ {
+  "qid": "Q302448",
+  "cls": "University",
+  "vi_title": "Học viện Hàng không Việt Nam",
+  "en_title": "Vietnam Aviation Academy"
+ },
+ {
+  "qid": "Q1002930",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hoa Sen",
+  "en_title": "Hoa Sen University"
+ },
+ {
+  "qid": "Q661322",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quốc tế Hồng Bàng",
+  "en_title": "Hong Bang International University"
+ },
+ {
+  "qid": "Q1457082",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tôn Đức Thắng",
+  "en_title": "Tôn Đức Thắng University"
+ },
+ {
+  "qid": "Q4750013",
+  "cls": "University",
+  "vi_title": "Trường Đại học An Giang, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "An Giang University"
+ },
+ {
+  "qid": "Q3101701",
+  "cls": "University",
+  "vi_title": "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Technology"
+ },
+ {
+  "qid": "Q2406422",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quảng Bình",
+  "en_title": "Quảng Bình University"
+ },
+ {
+  "qid": "Q4856328",
+  "cls": "University",
+  "vi_title": "Trường Đại học Ngân hàng Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh University of Banking"
+ },
+ {
+  "qid": "Q3075696",
+  "cls": "University",
+  "vi_title": "Đại học Bách khoa Hà Nội",
+  "en_title": "Hanoi University of Science and Technology"
+ },
+ {
+  "qid": "Q2496369",
+  "cls": "University",
+  "vi_title": "Khoa Quốc tế Pháp ngữ, Đại học Quốc gia Hà Nội",
+  "en_title": "Institut de la Francophonie pour l'Informatique"
+ },
+ {
+  "qid": "Q3815307",
+  "cls": "University",
+  "vi_title": "Trường Đại học Mỹ thuật Việt Nam",
+  "en_title": "Vietnam University of Fine Arts"
+ },
+ {
+  "qid": "Q1310048",
+  "cls": "University",
+  "vi_title": "Đại học Huế",
+  "en_title": "Huế University"
+ },
+ {
+  "qid": "Q2562140",
+  "cls": "University",
+  "vi_title": "Đại học Kinh tế Thành phố Hồ Chí Minh",
+  "en_title": "University of Economics Ho Chi Minh City"
+ },
+ {
+  "qid": "Q3177493",
+  "cls": "University",
+  "vi_title": "Trường Đại học Đà Lạt",
+  "en_title": "Dalat University"
+ },
+ {
+  "qid": "Q3037890",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kiến trúc Thành phố Hồ Chí Minh",
+  "en_title": "University of Architecture Ho Chi Minh City"
+ },
+ {
+  "qid": "Q5029090",
+  "cls": "University",
+  "vi_title": "Đại học Cần Thơ",
+  "en_title": "Can Tho University"
+ },
+ {
+  "qid": "Q4130078",
+  "cls": "University",
+  "vi_title": "Học viện Kỹ thuật Quân sự",
+  "en_title": "Le Quy Don Technical University"
+ },
+ {
+  "qid": "Q2740474",
+  "cls": "University",
+  "vi_title": "Trường Đại học Nha Trang",
+  "en_title": "Nha Trang University"
+ },
+ {
+  "qid": "Q10829017",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hồng Đức",
+  "en_title": "Hồng Đức University"
+ },
+ {
+  "qid": "Q10829028",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Engineering and Technology"
+ },
+ {
+  "qid": "Q10829043",
+  "cls": "University",
+  "vi_title": "Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Transport"
+ },
+ {
+  "qid": "Q10829049",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hà Nội",
+  "en_title": "Hanoi University"
+ },
+ {
+  "qid": "Q10829041",
+  "cls": "University",
+  "vi_title": "Trường Đại học Giao thông Vận tải",
+  "en_title": "University of Transport and Communications"
+ },
+ {
+  "qid": "Q10829053",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hùng Vương",
+  "en_title": "Hung Vuong University"
+ },
+ {
+  "qid": "Q10829064",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Social Sciences and Humanities"
+ },
+ {
+  "qid": "Q10829073",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kinh tế – Luật, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "University of Economics and Law"
+ },
+ {
+  "qid": "Q10829092",
+  "cls": "University",
+  "vi_title": "Trường Đại học Lạc Hồng",
+  "en_title": "Lạc Hồng University"
+ },
+ {
+  "qid": "Q10829093",
+  "cls": "University",
+  "vi_title": "Trường Đại học Mỏ – Địa chất",
+  "en_title": "Hanoi University of Mining and Geology"
+ },
+ {
+  "qid": "Q10829090",
+  "cls": "University",
+  "vi_title": "Trường Đại học Lâm nghiệp",
+  "en_title": "Vietnam National University of Forestry"
+ },
+ {
+  "qid": "Q10489198",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Education"
+ },
+ {
+  "qid": "Q7913787",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Vạn Xuân",
+  "en_title": "Van Xuan University of Technology"
+ },
+ {
+  "qid": "Q7928523",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hàng hải Việt Nam",
+  "en_title": "Vietnam Maritime University"
+ },
+ {
+  "qid": "Q7928533",
+  "cls": "University",
+  "vi_title": "Học viện Hải quân (Việt Nam)",
+  "en_title": "Vietnam Naval Academy"
+ },
+ {
+  "qid": "Q7973360",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thủy lợi",
+  "en_title": "Thuyloi University"
+ },
+ {
+  "qid": "Q10771885",
+  "cls": "University",
+  "vi_title": "Học viện Hành chính và Quản trị công",
+  "en_title": "Academy of Public Administration and Governance"
+ },
+ {
+  "qid": "Q86012406",
+  "cls": "University",
+  "vi_title": "Trường Đại học An ninh nhân dân (Thành phố Hồ Chí Minh)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771879",
+  "cls": "University",
+  "vi_title": "Học viện Chính trị Quốc gia Hồ Chí Minh",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771881",
+  "cls": "University",
+  "vi_title": "Học viện Công nghệ Bưu chính Viễn thông",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771888",
+  "cls": "University",
+  "vi_title": "Học viện Khoa học Quân sự",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771894",
+  "cls": "University",
+  "vi_title": "Học viện Ngân hàng (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771896",
+  "cls": "University",
+  "vi_title": "Học viện Quân y (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771903",
+  "cls": "University",
+  "vi_title": "Học viện Quốc phòng (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10771907",
+  "cls": "University",
+  "vi_title": "Học viện Y – Dược học cổ truyền Việt Nam",
+  "en_title": null
+ },
+ {
+  "qid": "Q10805714",
+  "cls": "University",
+  "vi_title": "Phân hiệu Đại học Đà Nẵng tại Kon Tum",
+  "en_title": null
+ },
+ {
+  "qid": "Q10828782",
+  "cls": "University",
+  "vi_title": "Trường Cao đẳng Công nghệ và Thương mại Hà Nội",
+  "en_title": null
+ },
+ {
+  "qid": "Q10828807",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khánh Hòa",
+  "en_title": null
+ },
+ {
+  "qid": "Q10828883",
+  "cls": "University",
+  "vi_title": "Trường Sĩ quan Tăng – Thiết giáp",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829018",
+  "cls": "University",
+  "vi_title": "Trường Đại học Bà Rịa – Vũng Tàu",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829016",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghiệp Việt Trì",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829021",
+  "cls": "University",
+  "vi_title": "Trường Đại học Bạc Liêu",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829025",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghiệp Quảng Ninh",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829032",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Đồng Nai",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829035",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quản lý và Công nghệ Hải Phòng",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829040",
+  "cls": "University",
+  "vi_title": "Trường Đại học Dầu khí Việt Nam",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829051",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hà Tĩnh",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829057",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khoa học, Đại học Thái Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829075",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kinh tế Công nghiệp Long An",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829082",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kỹ thuật Công nghiệp, Đại học Thái Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829084",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kỹ thuật Y tế Hải Dương",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829104",
+  "cls": "University",
+  "vi_title": "Trường Đại học Nguyễn Tất Thành",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829111",
+  "cls": "University",
+  "vi_title": "Trường Đại học Phú Yên",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829112",
+  "cls": "University",
+  "vi_title": "Trường Đại học Phương Đông (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829114",
+  "cls": "University",
+  "vi_title": "Trường Đại học Phạm Văn Đồng",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829117",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quảng Nam",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829126",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm, Đại học Đà Nẵng",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829127",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm, Đại học Huế",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829125",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm, Đại học Thái Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829128",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm Hà Nội 2",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829134",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829138",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thái Bình",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829139",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thái Bình Dương",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829137",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thành Đô",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829147",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tiền Giang",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829144",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thể dục Thể thao Đà Nẵng",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829145",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thủ Dầu Một",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829151",
+  "cls": "University",
+  "vi_title": "Trường Đại học Trần Đại Nghĩa",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829152",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tài chính – Marketing",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829156",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tây Bắc",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829162",
+  "cls": "University",
+  "vi_title": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hóa",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829163",
+  "cls": "University",
+  "vi_title": "Trường Đại học Văn hóa – Nghệ thuật Quân đội",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829166",
+  "cls": "University",
+  "vi_title": "Trường Đại học Xây dựng Miền Trung",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829169",
+  "cls": "University",
+  "vi_title": "Trường Đại học Y Dược, Đại học Thái Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829182",
+  "cls": "University",
+  "vi_title": "Trường Đại học Đại Nam",
+  "en_title": null
+ },
+ {
+  "qid": "Q10829181",
+  "cls": "University",
+  "vi_title": "Trường Đại học Đông Đô",
+  "en_title": null
+ },
+ {
+  "qid": "Q10832798",
+  "cls": "University",
+  "vi_title": "Viện Đại học Huế",
+  "en_title": null
+ },
+ {
+  "qid": "Q10832799",
+  "cls": "University",
+  "vi_title": "Viện Đại học Minh Đức",
+  "en_title": null
+ },
+ {
+  "qid": "Q10832802",
+  "cls": "University",
+  "vi_title": "Viện Đại học Vạn Hạnh",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841198",
+  "cls": "University",
+  "vi_title": "Đại chủng viện Sao Biển",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841199",
+  "cls": "University",
+  "vi_title": "Đại chủng viện Thánh Giuse Hà Nội",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841203",
+  "cls": "University",
+  "vi_title": "Đại chủng viện Thánh Giuse Xuân Lộc",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841200",
+  "cls": "University",
+  "vi_title": "Đại chủng viện Thánh Giuse Sài Gòn",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841206",
+  "cls": "University",
+  "vi_title": "Đại chủng viện Xuân Bích Huế",
+  "en_title": null
+ },
+ {
+  "qid": "Q10841229",
+  "cls": "University",
+  "vi_title": "Đại học Thái Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q108737605",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480294",
+  "cls": "University",
+  "vi_title": "Học viện Lục quân (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480474",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn, Đại học Đà Nẵng",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480583",
+  "cls": "University",
+  "vi_title": "Trường Đại học Tây Nguyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480704",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công đoàn",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480995",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghiệp Việt – Hung",
+  "en_title": null
+ },
+ {
+  "qid": "Q16481063",
+  "cls": "University",
+  "vi_title": "Trường Đại học Phú Xuân",
+  "en_title": null
+ },
+ {
+  "qid": "Q16481176",
+  "cls": "University",
+  "vi_title": "Trường Đại học Nghệ An",
+  "en_title": null
+ },
+ {
+  "qid": "Q16481353",
+  "cls": "University",
+  "vi_title": "Trường Đại học Mỹ thuật Công nghiệp",
+  "en_title": null
+ },
+ {
+  "qid": "Q20025751",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Giao thông vận tải",
+  "en_title": null
+ },
+ {
+  "qid": "Q20026263",
+  "cls": "University",
+  "vi_title": "Trường Đại học Y Dược Cần Thơ",
+  "en_title": null
+ },
+ {
+  "qid": "Q20026260",
+  "cls": "University",
+  "vi_title": "Trường Đại học Cảnh sát nhân dân (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q20026261",
+  "cls": "University",
+  "vi_title": "Trường Đại học Phòng cháy chữa cháy (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q25417473",
+  "cls": "University",
+  "vi_title": "Học viện An ninh nhân dân",
+  "en_title": null
+ },
+ {
+  "qid": "Q10828884",
+  "cls": "University",
+  "vi_title": "Trường Sĩ quan Không quân (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q16480503",
+  "cls": "University",
+  "vi_title": "Trường Sĩ quan Thông tin – Đại học Thông tin Liên lạc",
+  "en_title": null
+ },
+ {
+  "qid": "Q61128838",
+  "cls": "University",
+  "vi_title": "Trường Đại học Xây dựng Miền Tây",
+  "en_title": null
+ },
+ {
+  "qid": "Q65172277",
+  "cls": "University",
+  "vi_title": "Học viện Múa Việt Nam",
+  "en_title": null
+ },
+ {
+  "qid": "Q65172352",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kiên Giang",
+  "en_title": null
+ },
+ {
+  "qid": "Q109435303",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng",
+  "en_title": null
+ },
+ {
+  "qid": "Q122143828",
+  "cls": "University",
+  "vi_title": "Học viện Chính trị Công an nhân dân (Việt Nam)",
+  "en_title": null
+ },
+ {
+  "qid": "Q7896405",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Kỹ thuật Hưng Yên",
+  "en_title": "Hung Yen University of Technology and Education"
+ },
+ {
+  "qid": "Q7579810",
+  "cls": "University",
+  "vi_title": "Trường Đại học Thể dục thể thao Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Sport"
+ },
+ {
+  "qid": "Q5638944",
+  "cls": "University",
+  "vi_title": "Trường Đại học Hải Phòng",
+  "en_title": "Haiphong University"
+ },
+ {
+  "qid": "Q5649320",
+  "cls": "University",
+  "vi_title": "Học viện Âm nhạc Quốc gia Việt Nam",
+  "en_title": "Vietnam National Academy of Music"
+ },
+ {
+  "qid": "Q5649329",
+  "cls": "University",
+  "vi_title": "Trường Đại học Sư phạm Hà Nội",
+  "en_title": "Hanoi National University of Education"
+ },
+ {
+  "qid": "Q5649335",
+  "cls": "University",
+  "vi_title": "Học viện Nông nghiệp Việt Nam",
+  "en_title": "Vietnam National University of Agriculture"
+ },
+ {
+  "qid": "Q5649339",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Science"
+ },
+ {
+  "qid": "Q5873959",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quốc tế, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City International University"
+ },
+ {
+  "qid": "Q5873976",
+  "cls": "University",
+  "vi_title": "Trường Đại học Nông Lâm Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Agriculture and Forestry"
+ },
+ {
+  "qid": "Q5873981",
+  "cls": "University",
+  "vi_title": "Trường Đại học Văn hóa Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Culture"
+ },
+ {
+  "qid": "Q5873989",
+  "cls": "University",
+  "vi_title": "Trường Đại học Ngoại ngữ – Tin học Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Foreign Languages and Information Technology"
+ },
+ {
+  "qid": "Q5873999",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Social Sciences and Humanities"
+ },
+ {
+  "qid": "Q5873997",
+  "cls": "University",
+  "vi_title": "Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Science"
+ },
+ {
+  "qid": "Q5874003",
+  "cls": "University",
+  "vi_title": "Trường Đại học Luật Thành phố Hồ Chí Minh",
+  "en_title": "Ho Chi Minh City University of Law"
+ },
+ {
+  "qid": "Q7895548",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh",
+  "en_title": "Industrial University of Ho Chi Minh City"
+ },
+ {
+  "qid": "Q7895616",
+  "cls": "University",
+  "vi_title": "Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Languages and International Studies"
+ },
+ {
+  "qid": "Q6131246",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kiến trúc Hà Nội",
+  "en_title": "Hanoi Architectural University"
+ },
+ {
+  "qid": "Q6134439",
+  "cls": "University",
+  "vi_title": "Trường Đại học Xây dựng Hà Nội",
+  "en_title": "Hanoi University of Civil Engineering"
+ },
+ {
+  "qid": "Q7913402",
+  "cls": "University",
+  "vi_title": "Trường Đại học Văn Hiến",
+  "en_title": "Văn Hiến University"
+ },
+ {
+  "qid": "Q7913477",
+  "cls": "University",
+  "vi_title": "Trường Đại học Văn Lang",
+  "en_title": "Văn Lang University"
+ },
+ {
+  "qid": "Q6972380",
+  "cls": "University",
+  "vi_title": "Đại học Kinh tế Quốc dân",
+  "en_title": "National Economics University"
+ },
+ {
+  "qid": "Q5146680",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội",
+  "en_title": "VNU University of Economics and Business"
+ },
+ {
+  "qid": "Q5207275",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kiến trúc Đà Nẵng",
+  "en_title": "Da Nang University of Architecture"
+ },
+ {
+  "qid": "Q5207273",
+  "cls": "University",
+  "vi_title": "Trường Đại học Kinh tế, Đại học Đà Nẵng",
+  "en_title": "Da Nang University of Economics"
+ },
+ {
+  "qid": "Q5207276",
+  "cls": "University",
+  "vi_title": "Trường Đại học Bách khoa, Đại học Đà Nẵng",
+  "en_title": "Da Nang University of Science and Technology"
+ },
+ {
+  "qid": "Q5317667",
+  "cls": "University",
+  "vi_title": "Đại học Duy Tân",
+  "en_title": "Duy Tan University"
+ },
+ {
+  "qid": "Q5357466",
+  "cls": "University",
+  "vi_title": "Trường Đại học Điện lực",
+  "en_title": "Electric Power University"
+ },
+ {
+  "qid": "Q7277005",
+  "cls": "University",
+  "vi_title": "Trường Đại học Quốc tế RMIT Việt Nam",
+  "en_title": "Royal Melbourne Institute of Technology Vietnam"
+ },
+ {
+  "qid": "Q5468340",
+  "cls": "University",
+  "vi_title": "Trường Đại học Ngoại thương",
+  "en_title": "Foreign Trade University"
+ },
+ {
+  "qid": "Q7400087",
+  "cls": "University",
+  "vi_title": "Trường Đại học Công nghệ Sài Gòn",
+  "en_title": "Saigon Technology University"
+ },
+ {
+  "qid": "Q270689",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá quốc gia Việt Nam",
+  "en_title": "Vietnam national football team"
+ },
+ {
+  "qid": "Q2036930",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá nữ quốc gia Việt Nam",
+  "en_title": "Vietnam women's national football team"
+ },
+ {
+  "qid": "Q7928602",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá U-23 quốc gia Việt Nam",
+  "en_title": "Vietnam national under-23 football team"
+ },
+ {
+  "qid": "Q7928601",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá nam U-20 quốc gia Việt Nam",
+  "en_title": "Vietnam national under-20 football team"
+ },
+ {
+  "qid": "Q55637111",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá U-21 quốc gia Việt Nam",
+  "en_title": "Vietnam national under-21 football team"
+ },
+ {
+  "qid": "Q16966654",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá U-17 quốc gia Việt Nam",
+  "en_title": "Vietnam national under-17 football team"
+ },
+ {
+  "qid": "Q24956703",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá nữ U-20 quốc gia Việt Nam",
+  "en_title": "Vietnam women's national under-20 football team"
+ },
+ {
+  "qid": "Q24882786",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá nữ U-17 quốc gia Việt Nam",
+  "en_title": "Vietnam women's national under-17 football team"
+ },
+ {
+  "qid": "Q19679886",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá bãi biển quốc gia Việt Nam",
+  "en_title": "Vietnam national beach soccer team"
+ },
+ {
+  "qid": "Q27963768",
+  "cls": "NationalFootballTeam",
+  "vi_title": "Đội tuyển bóng đá U-22 quốc gia Việt Nam",
+  "en_title": "Vietnam national under-22 football team"
+ },
+ {
+  "qid": "Q1387720",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thanh Hóa",
+  "en_title": "Thanh Hoa FC"
+ },
+ {
+  "qid": "Q2301143",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hải Phòng",
+  "en_title": "Haiphong FC"
+ },
+ {
+  "qid": "Q2509547",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hòa Phát Hà Nội",
+  "en_title": "Hòa Phát Hà Nội FC"
+ },
+ {
+  "qid": "Q1387898",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Bình Minh Sài Gòn",
+  "en_title": "Aurora Saigon United FC"
+ },
+ {
+  "qid": "Q2664160",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Navibank Sài Gòn",
+  "en_title": "Navibank Sài Gòn FC"
+ },
+ {
+  "qid": "Q3125737",
+  "cls": "FootballClub",
+  "vi_title": "Đội bóng đá Hải Quan",
+  "en_title": "Hai Quan FC"
+ },
+ {
+  "qid": "Q1201894",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hoàng Anh Gia Lai",
+  "en_title": "Hoang Anh Gia Lai FC"
+ },
+ {
+  "qid": "Q341892",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thép Xanh Nam Định",
+  "en_title": "Thep Xanh Nam Dinh F.C."
+ },
+ {
+  "qid": "Q342558",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Long An – tỉnh Tây Ninh",
+  "en_title": "Long An FC"
+ },
+ {
+  "qid": "Q16259792",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Khatoco Khánh Hòa (2012)",
+  "en_title": "Khatoco Khanh Hoa FC"
+ },
+ {
+  "qid": "Q6480648",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Lâm Đồng",
+  "en_title": "Lam Dong FC"
+ },
+ {
+  "qid": "Q3138851",
+  "cls": "FootballClub",
+  "vi_title": "Đội bóng đá Công an Thành phố Hồ Chí Minh (1979)",
+  "en_title": "Cong An Ho Chi Minh City FC (1979)"
+ },
+ {
+  "qid": "Q4750009",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá An Giang",
+  "en_title": "An Giang FC"
+ },
+ {
+  "qid": "Q5928194",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Huế",
+  "en_title": "Hue FC"
+ },
+ {
+  "qid": "Q7801029",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Tiền Giang",
+  "en_title": "Tien Giang FC"
+ },
+ {
+  "qid": "Q7820914",
+  "cls": "FootballClub",
+  "vi_title": "Đội bóng đá Tổng cục Đường sắt",
+  "en_title": "Tong Cuc Duong Sat FC"
+ },
+ {
+  "qid": "Q6101429",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá TDC Bình Dương",
+  "en_title": "TDC Bình Dương FC"
+ },
+ {
+  "qid": "Q15941255",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Đắk Lắk",
+  "en_title": "Daklak FC"
+ },
+ {
+  "qid": "Q10751870",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Cần Thơ",
+  "en_title": "Can Tho FC"
+ },
+ {
+  "qid": "Q10751860",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Sài Gòn",
+  "en_title": "Saigon FC"
+ },
+ {
+  "qid": "Q10751871",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Quảng Nam",
+  "en_title": "Quang Nam FC"
+ },
+ {
+  "qid": "Q10751873",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá T&T Baoercheng",
+  "en_title": "T&T Baoercheng FC"
+ },
+ {
+  "qid": "Q10751879",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Tây Ninh",
+  "en_title": "Tay Ninh FC"
+ },
+ {
+  "qid": "Q10751881",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Vĩnh Long",
+  "en_title": "Vinh Long FC"
+ },
+ {
+  "qid": "Q7268855",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Than Quảng Ninh",
+  "en_title": "Than Quang Ninh FC"
+ },
+ {
+  "qid": "Q10751867",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thành phố Hồ Chí Minh (2025)",
+  "en_title": "Ho Chi Minh City FC (2025)"
+ },
+ {
+  "qid": "Q10771878",
+  "cls": "FootballClub",
+  "vi_title": "Học viện bóng đá Hoàng Anh Gia Lai",
+  "en_title": "Hoang Anh Gia Lai Academy"
+ },
+ {
+  "qid": "Q1116650",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Xi măng Xuân Thành Sài Gòn",
+  "en_title": "Xuan Thanh Saigon Cement FC"
+ },
+ {
+  "qid": "Q1116659",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Kiên Giang",
+  "en_title": "Kiên Giang FC"
+ },
+ {
+  "qid": "Q1116951",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Xi măng The Vissai Ninh Bình",
+  "en_title": "Vissai Ninh Bình FC"
+ },
+ {
+  "qid": "Q1155613",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Đồng Nai",
+  "en_title": "Dong Nai FC"
+ },
+ {
+  "qid": "Q949702",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Công an Thành phố Hồ Chí Minh (1975)",
+  "en_title": "Cong An Ho Chi Minh City FC"
+ },
+ {
+  "qid": "Q813571",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Becamex Thành phố Hồ Chí Minh",
+  "en_title": "Becamex Ho Chi Minh City FC"
+ },
+ {
+  "qid": "Q894500",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Quy Nhơn United",
+  "en_title": "Quy Nhon United FC"
+ },
+ {
+  "qid": "Q646342",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Khánh Hòa (1976)",
+  "en_title": "Khanh Hoa FC (1976)"
+ },
+ {
+  "qid": "Q20894528",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Công an nhân dân (2008)",
+  "en_title": null
+ },
+ {
+  "qid": "Q560102",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hà Nội (1956)",
+  "en_title": "Hà Nội FC (1956)"
+ },
+ {
+  "qid": "Q560392",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hà Nội (2006)",
+  "en_title": "Hanoi FC"
+ },
+ {
+  "qid": "Q406796",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thể Công – Viettel",
+  "en_title": "Thể Công–Viettel FC"
+ },
+ {
+  "qid": "Q632990",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá SHB Đà Nẵng",
+  "en_title": "SHB Da Nang"
+ },
+ {
+  "qid": "Q541779",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Sông Lam Nghệ An",
+  "en_title": "Song Lam Nghe An FC"
+ },
+ {
+  "qid": "Q61130459",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Công an nhân dân (2018)",
+  "en_title": "Cong An Nhan Dan FC (2026)"
+ },
+ {
+  "qid": "Q16481263",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Cà Mau",
+  "en_title": "Ca Mau FC"
+ },
+ {
+  "qid": "Q20984268",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thành phố Đồng Nai",
+  "en_title": "Dong Nai City FC"
+ },
+ {
+  "qid": "Q55333364",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hồng Lĩnh Hà Tĩnh",
+  "en_title": "Hong Linh Ha Tinh FC"
+ },
+ {
+  "qid": "Q116196832",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Công an Hà Nội",
+  "en_title": "Cong An Hanoi FC"
+ },
+ {
+  "qid": "Q136547058",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Đại học Văn Hiến",
+  "en_title": "Van Hien University FC"
+ },
+ {
+  "qid": "Q49055341",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Ninh Bình (2015)",
+  "en_title": "Ninh Binh FC"
+ },
+ {
+  "qid": "Q109436400",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Hòa Bình",
+  "en_title": "Hoa Binh FC"
+ },
+ {
+  "qid": "Q39055470",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Phong Phú Hà Nam",
+  "en_title": "Phong Phú Hà Nam W.F.C."
+ },
+ {
+  "qid": "Q39055484",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh I",
+  "en_title": "Hồ Chí Minh City I W.F.C."
+ },
+ {
+  "qid": "Q39055485",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Hà Nội I",
+  "en_title": "Hà Nội I W.F.C."
+ },
+ {
+  "qid": "Q39055486",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Sơn La",
+  "en_title": "Sơn La W.F.C."
+ },
+ {
+  "qid": "Q39055504",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Thành phố Hồ Chí Minh II",
+  "en_title": "Hồ Chí Minh City II W.F.C."
+ },
+ {
+  "qid": "Q39055502",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá nữ Than Khoáng Sản Việt Nam",
+  "en_title": "Than Khoáng Sản Việt Nam W.F.C."
+ },
+ {
+  "qid": "Q134311811",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Thép Cần Thơ",
+  "en_title": "Thep Can Tho FC"
+ },
+ {
+  "qid": "Q116954901",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Bình Thuận",
+  "en_title": "Binh Thuan FC"
+ },
+ {
+  "qid": "Q20026059",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Phú Yên",
+  "en_title": "Phu Yen FC"
+ },
+ {
+  "qid": "Q109439560",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Phú Thọ",
+  "en_title": "Phu Tho FC (2019)"
+ },
+ {
+  "qid": "Q28197244",
+  "cls": "FootballClub",
+  "vi_title": "Trung tâm đào tạo bóng đá trẻ PVF",
+  "en_title": "PVF Football Academy"
+ },
+ {
+  "qid": "Q135182134",
+  "cls": "FootballClub",
+  "vi_title": "Câu lạc bộ bóng đá Công an Hà Nội B",
+  "en_title": "Cong An Hanoi FC Reserves and Academy"
+ },
+ {
+  "qid": "Q112260798",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Duy Cương",
+  "en_title": "Lương Duy Cương"
+ },
+ {
+  "qid": "Q113005949",
+  "cls": "FootballPlayer",
+  "vi_title": "Khuất Văn Khang",
+  "en_title": "Khuất Văn Khang"
+ },
+ {
+  "qid": "Q114312185",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quốc Việt",
+  "en_title": "Nguyễn Quốc Việt"
+ },
+ {
+  "qid": "Q116771994",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thành Trung",
+  "en_title": "Chung Nguyen Do"
+ },
+ {
+  "qid": "Q114167078",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Đình Duy",
+  "en_title": "Phạm Đình Duy"
+ },
+ {
+  "qid": "Q114172547",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Nhân",
+  "en_title": "Nguyễn Thanh Nhân"
+ },
+ {
+  "qid": "Q114176951",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Trường (cầu thủ bóng đá, sinh tháng 9 năm 2003)",
+  "en_title": "Nguyễn Văn Trường"
+ },
+ {
+  "qid": "Q111187861",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Tùng (cầu thủ bóng đá, sinh 2001)",
+  "en_title": "Nguyễn Văn Tùng"
+ },
+ {
+  "qid": "Q117355714",
+  "cls": "FootballPlayer",
+  "vi_title": "Vincent Guyenne",
+  "en_title": "Vincent Trọng Trí Guyenne"
+ },
+ {
+  "qid": "Q111307033",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Xuân Tiến",
+  "en_title": "Đinh Xuân Tiến"
+ },
+ {
+  "qid": "Q111327315",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Liêm Điều",
+  "en_title": "Trần Liêm Điều"
+ },
+ {
+  "qid": "Q117475262",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Quang Thịnh",
+  "en_title": "Trần Quang Thịnh"
+ },
+ {
+  "qid": "Q111417213",
+  "cls": "FootballPlayer",
+  "vi_title": "Quan Văn Chuẩn",
+  "en_title": "Quan Văn Chuẩn"
+ },
+ {
+  "qid": "Q117561567",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Trung Vinh",
+  "en_title": "Lê Trung Vinh"
+ },
+ {
+  "qid": "Q111458450",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Công Đến",
+  "en_title": "Huỳnh Công Đến"
+ },
+ {
+  "qid": "Q111459897",
+  "cls": "FootballPlayer",
+  "vi_title": "Nhâm Mạnh Dũng",
+  "en_title": "Nhâm Mạnh Dũng"
+ },
+ {
+  "qid": "Q111536450",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Vĩ",
+  "en_title": "Nguyễn Văn Vĩ"
+ },
+ {
+  "qid": "Q118038420",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Quốc Nhật Nam",
+  "en_title": "Lê Quốc Nhật Nam"
+ },
+ {
+  "qid": "Q118095786",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Nhàn",
+  "en_title": "Nguyễn Thanh Nhàn"
+ },
+ {
+  "qid": "Q118141122",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đức Phú",
+  "en_title": "Nguyễn Đức Phú"
+ },
+ {
+  "qid": "Q118141646",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Minh Trọng",
+  "en_title": "Võ Minh Trọng"
+ },
+ {
+  "qid": "Q111854038",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Tuấn Tài",
+  "en_title": "Phan Tuấn Tài"
+ },
+ {
+  "qid": "Q111905296",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Tiến Long",
+  "en_title": "Vũ Tiến Long"
+ },
+ {
+  "qid": "Q111906305",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Long",
+  "en_title": "Nguyễn Trọng Long"
+ },
+ {
+  "qid": "Q112142217",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Danh Trung",
+  "en_title": "Trần Danh Trung"
+ },
+ {
+  "qid": "Q868808",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Tấn Trường",
+  "en_title": "Bùi Tấn Trường"
+ },
+ {
+  "qid": "Q672819",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Quang Thanh",
+  "en_title": "Huỳnh Quang Thanh"
+ },
+ {
+  "qid": "Q342102",
+  "cls": "FootballPlayer",
+  "vi_title": "Đoàn Việt Cường",
+  "en_title": "Đoàn Việt Cường"
+ },
+ {
+  "qid": "Q460346",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Công Vinh",
+  "en_title": "Lê Công Vinh"
+ },
+ {
+  "qid": "Q277943",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đức Dương",
+  "en_title": "Trần Đức Dương"
+ },
+ {
+  "qid": "Q372634",
+  "cls": "FootballPlayer",
+  "vi_title": "Châu Phong Hòa",
+  "en_title": "Châu Phong Hòa"
+ },
+ {
+  "qid": "Q553831",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Phúc Hiệp",
+  "en_title": "Huỳnh Phúc Hiệp"
+ },
+ {
+  "qid": "Q14333541",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Tân (cầu thủ bóng đá)",
+  "en_title": "Jonathan Quartey (footballer, born 1984)"
+ },
+ {
+  "qid": "Q10829342",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Khoa Điển",
+  "en_title": "Trần Khoa Điển"
+ },
+ {
+  "qid": "Q10829381",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Minh Quang",
+  "en_title": "Trần Minh Quang"
+ },
+ {
+  "qid": "Q10829872",
+  "cls": "FootballPlayer",
+  "vi_title": "Trịnh Quang Vinh",
+  "en_title": "Trịnh Quang Vinh"
+ },
+ {
+  "qid": "Q10840094",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Hoàng Max",
+  "en_title": "Đinh Hoàng Max"
+ },
+ {
+  "qid": "Q10840144",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Tiến Thành",
+  "en_title": "Đinh Tiến Thành"
+ },
+ {
+  "qid": "Q10840328",
+  "cls": "FootballPlayer",
+  "vi_title": "Đoàn Thị Kim Chi",
+  "en_title": "Đoàn Thị Kim Chi"
+ },
+ {
+  "qid": "Q10841526",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Khánh Lâm",
+  "en_title": "Đặng Khánh Lâm"
+ },
+ {
+  "qid": "Q10842129",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Khải",
+  "en_title": "Đỗ Khải"
+ },
+ {
+  "qid": "Q13230786",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Giang Patrik",
+  "en_title": "Patrik Le Giang"
+ },
+ {
+  "qid": "Q12500632",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Xuân Quýnh",
+  "en_title": "Ngô Xuân Quýnh"
+ },
+ {
+  "qid": "Q16156987",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Thị Kiều Trinh",
+  "en_title": "Đặng Thị Kiều Trinh"
+ },
+ {
+  "qid": "Q16157637",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Hoàng Thịnh",
+  "en_title": "Ngô Hoàng Thịnh"
+ },
+ {
+  "qid": "Q16158166",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tuấn Anh (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Tuấn Anh"
+ },
+ {
+  "qid": "Q10799257",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Liêm Thanh",
+  "en_title": "Nguyễn Liêm Thanh"
+ },
+ {
+  "qid": "Q10799479",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 1987)",
+  "en_title": "Nguyễn Thanh Bình (footballer, born 1987)"
+ },
+ {
+  "qid": "Q10799822",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tăng Tuấn",
+  "en_title": "Nguyễn Tăng Tuấn"
+ },
+ {
+  "qid": "Q10799808",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tuấn Mạnh",
+  "en_title": "Nguyễn Tuấn Mạnh"
+ },
+ {
+  "qid": "Q10799893",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Dũng (cầu thủ bóng đá, sinh 1994)",
+  "en_title": "Nguyễn Văn Dũng"
+ },
+ {
+  "qid": "Q10799979",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Sỹ",
+  "en_title": "Nguyễn Văn Sỹ"
+ },
+ {
+  "qid": "Q10806914",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Huỳnh Tam Lang",
+  "en_title": "Phạm Huỳnh Tam Lang"
+ },
+ {
+  "qid": "Q21079332",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tiến Duy",
+  "en_title": "Nguyễn Tiến Duy"
+ },
+ {
+  "qid": "Q20641628",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Ngọc Thịnh",
+  "en_title": "Vũ Ngọc Thịnh"
+ },
+ {
+  "qid": "Q20895236",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Nam",
+  "en_title": "Nguyễn Xuân Nam"
+ },
+ {
+  "qid": "Q21010014",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Thành (cầu thủ bóng đá, sinh 1997)",
+  "en_title": "Nguyễn Công Thành"
+ },
+ {
+  "qid": "Q108881972",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Tuấn Hải (cầu thủ bóng đá)",
+  "en_title": "Phạm Tuấn Hải"
+ },
+ {
+  "qid": "Q98083690",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Thu Thảo",
+  "en_title": "Trần Thị Thu Thảo"
+ },
+ {
+  "qid": "Q98132929",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Xuân Tú",
+  "en_title": "Lê Xuân Tú"
+ },
+ {
+  "qid": "Q98141885",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hằng Tcheuko Minh",
+  "en_title": "Benoit Tcheuko"
+ },
+ {
+  "qid": "Q109430363",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Đô",
+  "en_title": "Lê Văn Đô"
+ },
+ {
+  "qid": "Q110358787",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Minh (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Minh (footballer)"
+ },
+ {
+  "qid": "Q109436470",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hạ Long",
+  "en_title": "Nguyễn Hạ Long"
+ },
+ {
+  "qid": "Q109438022",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Văn Nam",
+  "en_title": "Đào Văn Nam"
+ },
+ {
+  "qid": "Q109438017",
+  "cls": "FootballPlayer",
+  "vi_title": "Lý Công Hoàng Anh",
+  "en_title": "Lý Công Hoàng Anh"
+ },
+ {
+  "qid": "Q109438949",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Minh Tuấn",
+  "en_title": "Hoàng Minh Tuấn"
+ },
+ {
+  "qid": "Q109439124",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Quốc Vượng",
+  "en_title": "Lê Quốc Vượng"
+ },
+ {
+  "qid": "Q109440070",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Văn Hiếu",
+  "en_title": "Phan Văn Hiếu"
+ },
+ {
+  "qid": "Q109441331",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trần Việt Cường",
+  "en_title": "Nguyễn Trần Việt Cường"
+ },
+ {
+  "qid": "Q109452316",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Bảo Toàn",
+  "en_title": "Trần Bảo Toàn"
+ },
+ {
+  "qid": "Q107097248",
+  "cls": "FootballPlayer",
+  "vi_title": "Cao Văn Triền",
+  "en_title": "Cao Văn Triền"
+ },
+ {
+  "qid": "Q104561995",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Việt (cầu thủ bóng đá, sinh 1989)",
+  "en_title": "Nguyễn Văn Việt (footballer, born 1989)"
+ },
+ {
+  "qid": "Q100989632",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Phi Hoàng",
+  "en_title": "Nguyễn Phi Hoàng"
+ },
+ {
+  "qid": "Q109588039",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Công Tuyền",
+  "en_title": "Vũ Công Tuyền"
+ },
+ {
+  "qid": "Q107211927",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Bình (cầu thủ bóng đá, sinh 2000)",
+  "en_title": "Nguyễn Thanh Bình (footballer, born 2000)"
+ },
+ {
+  "qid": "Q110732489",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Thanh Minh",
+  "en_title": "Hồ Thanh Minh"
+ },
+ {
+  "qid": "Q110819261",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Thanh Nhã",
+  "en_title": "Nguyễn Thị Thanh Nhã"
+ },
+ {
+  "qid": "Q110820123",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Ngọc Long",
+  "en_title": "Bùi Ngọc Long"
+ },
+ {
+  "qid": "Q110858741",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Luân",
+  "en_title": "Phạm Văn Luân"
+ },
+ {
+  "qid": "Q110858735",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Hồng Quân",
+  "en_title": "Vũ Hồng Quân"
+ },
+ {
+  "qid": "Q107741240",
+  "cls": "FootballPlayer",
+  "vi_title": "Dụng Quang Nho",
+  "en_title": "Dụng Quang Nho"
+ },
+ {
+  "qid": "Q99778061",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Nguyên Hoàng",
+  "en_title": "Võ Nguyên Hoàng"
+ },
+ {
+  "qid": "Q926022",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Huy Hoàng (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Huy Hoàng (football)"
+ },
+ {
+  "qid": "Q1971210",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Văn Tài Em",
+  "en_title": "Phan Văn Tài Em"
+ },
+ {
+  "qid": "Q983685",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Hồng Sơn",
+  "en_title": "Dương Hồng Sơn"
+ },
+ {
+  "qid": "Q2002878",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Van Bakel",
+  "en_title": "Danny van Bakel"
+ },
+ {
+  "qid": "Q1320513",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Quyến",
+  "en_title": "Phạm Văn Quyến"
+ },
+ {
+  "qid": "Q1188670",
+  "cls": "FootballPlayer",
+  "vi_title": "Fabio dos Santos",
+  "en_title": "Phan Văn Santos"
+ },
+ {
+  "qid": "Q1387184",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Thanh Bình (cầu thủ bóng đá)",
+  "en_title": "Phan Thanh Bình"
+ },
+ {
+  "qid": "Q926038",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Tấn Tài",
+  "en_title": "Lê Tấn Tài"
+ },
+ {
+  "qid": "Q926057",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Phương (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Minh Phương"
+ },
+ {
+  "qid": "Q926076",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Vũ Phong",
+  "en_title": "Nguyễn Vũ Phong"
+ },
+ {
+  "qid": "Q10742805",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Quang Vinh",
+  "en_title": "Bùi Quang Vinh"
+ },
+ {
+  "qid": "Q10748018",
+  "cls": "FootballPlayer",
+  "vi_title": "Chu Ngọc Anh (cầu thủ bóng đá)",
+  "en_title": "Chu Ngọc Anh"
+ },
+ {
+  "qid": "Q10757601",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Thanh Hào",
+  "en_title": "Dương Thanh Hào"
+ },
+ {
+  "qid": "Q10768888",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Anh Tuấn (huấn luyện viên bóng đá)",
+  "en_title": "Hoàng Anh Tuấn (footballer)"
+ },
+ {
+  "qid": "Q10768903",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Danh Ngọc",
+  "en_title": "Hoàng Danh Ngọc"
+ },
+ {
+  "qid": "Q10769892",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Hồng Sơn",
+  "en_title": "Huỳnh Hồng Sơn"
+ },
+ {
+  "qid": "Q10770550",
+  "cls": "FootballPlayer",
+  "vi_title": "Hà Minh Tuấn",
+  "en_title": "Hà Minh Tuấn"
+ },
+ {
+  "qid": "Q10787616",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Duy Thanh",
+  "en_title": "Lê Duy Thanh"
+ },
+ {
+  "qid": "Q10787866",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thụy Hải",
+  "en_title": "Lê Thụy Hải"
+ },
+ {
+  "qid": "Q118249919",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Đạt",
+  "en_title": "Trần Văn Đạt"
+ },
+ {
+  "qid": "Q119352635",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Minh Toàn",
+  "en_title": "Trần Minh Toàn"
+ },
+ {
+  "qid": "Q119352445",
+  "cls": "FootballPlayer",
+  "vi_title": "Từ Như Hiển",
+  "en_title": "Từ Như Hiển"
+ },
+ {
+  "qid": "Q120140995",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đình Triệu",
+  "en_title": "Nguyễn Đình Triệu"
+ },
+ {
+  "qid": "Q120318534",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thị Hoa",
+  "en_title": "Vũ Thị Hoa"
+ },
+ {
+  "qid": "Q120400674",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Tiến Anh",
+  "en_title": "Trương Tiến Anh"
+ },
+ {
+  "qid": "Q120434174",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Thị Kiều Oanh",
+  "en_title": "Đào Thị Kiều Oanh"
+ },
+ {
+  "qid": "Q120550422",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Hải Linh",
+  "en_title": "Trần Thị Hải Linh"
+ },
+ {
+  "qid": "Q120556022",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Thu",
+  "en_title": "Trần Thị Thu"
+ },
+ {
+  "qid": "Q121267800",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Việt (cầu thủ bóng đá, sinh 2002)",
+  "en_title": "Nguyễn Văn Việt (footballer, born 2002)"
+ },
+ {
+  "qid": "Q120714315",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Diễm My",
+  "en_title": "Lê Thị Diễm My"
+ },
+ {
+  "qid": "Q120728279",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Thúy Nga",
+  "en_title": "Trần Thị Thúy Nga"
+ },
+ {
+  "qid": "Q120728296",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Mỹ Anh",
+  "en_title": "Nguyễn Thị Mỹ Anh"
+ },
+ {
+  "qid": "Q121028378",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Duyên",
+  "en_title": "Trần Thị Duyên"
+ },
+ {
+  "qid": "Q121189868",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Nam Hải",
+  "en_title": "Trần Nam Hải"
+ },
+ {
+  "qid": "Q121238506",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Triệu",
+  "en_title": "Nguyễn Văn Triệu"
+ },
+ {
+  "qid": "Q118190287",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đức Việt (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Đức Việt"
+ },
+ {
+  "qid": "Q118150644",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Ngọc Thắng",
+  "en_title": "Nguyễn Ngọc Thắng"
+ },
+ {
+  "qid": "Q118185936",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Vĩ Hào",
+  "en_title": "Bùi Vĩ Hào"
+ },
+ {
+  "qid": "Q118198776",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Văn Cường (cầu thủ bóng đá)",
+  "en_title": "Hồ Văn Cường"
+ },
+ {
+  "qid": "Q118220159",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thái Sơn (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thái Sơn"
+ },
+ {
+  "qid": "Q118248208",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Phú Nguyên",
+  "en_title": "Nguyễn Phú Nguyên"
+ },
+ {
+  "qid": "Q118248218",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Văn Toản",
+  "en_title": "Hoàng Văn Toản"
+ },
+ {
+  "qid": "Q118248216",
+  "cls": "FootballPlayer",
+  "vi_title": "Giáp Tuấn Dương",
+  "en_title": "Giáp Tuấn Dương"
+ },
+ {
+  "qid": "Q118250015",
+  "cls": "FootballPlayer",
+  "vi_title": "Mạch Ngọc Hà",
+  "en_title": "Mạch Ngọc Hà"
+ },
+ {
+  "qid": "Q118250577",
+  "cls": "FootballPlayer",
+  "vi_title": "Đoàn Anh Việt",
+  "en_title": "Đoàn Anh Việt"
+ },
+ {
+  "qid": "Q118251240",
+  "cls": "FootballPlayer",
+  "vi_title": "Liễu Quang Vinh",
+  "en_title": "Liễu Quang Vinh"
+ },
+ {
+  "qid": "Q18637210",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Văn Hiếu",
+  "en_title": "Bùi Văn Hiếu"
+ },
+ {
+  "qid": "Q18637462",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Hiền (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thanh Hiền"
+ },
+ {
+  "qid": "Q18637480",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Huy Hùng",
+  "en_title": "Nguyễn Huy Hùng"
+ },
+ {
+  "qid": "Q18637715",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Huy Cường",
+  "en_title": "Nguyễn Huy Cường"
+ },
+ {
+  "qid": "Q18637770",
+  "cls": "FootballPlayer",
+  "vi_title": "Quế Ngọc Hải",
+  "en_title": "Quế Ngọc Hải"
+ },
+ {
+  "qid": "Q18638118",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Tùng",
+  "en_title": "Nguyễn Minh Tùng"
+ },
+ {
+  "qid": "Q18638146",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Huy Toàn",
+  "en_title": "Võ Huy Toàn"
+ },
+ {
+  "qid": "Q26405928",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hoàng Quốc Chí",
+  "en_title": "Nguyễn Hoàng Quốc Chí"
+ },
+ {
+  "qid": "Q18685094",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Văn Long",
+  "en_title": "Bùi Văn Long"
+ },
+ {
+  "qid": "Q18686853",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Minh Tâm",
+  "en_title": "Hoàng Minh Tâm"
+ },
+ {
+  "qid": "Q121417737",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Minh Bình",
+  "en_title": "Lê Minh Bình"
+ },
+ {
+  "qid": "Q18755474",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Hữu Đông Triều",
+  "en_title": "Trần Hữu Đông Triều"
+ },
+ {
+  "qid": "Q123953025",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Văn Đức",
+  "en_title": "Bùi Văn Đức"
+ },
+ {
+  "qid": "Q18921613",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Duy Khánh",
+  "en_title": "Đào Duy Khánh"
+ },
+ {
+  "qid": "Q18921784",
+  "cls": "FootballPlayer",
+  "vi_title": "Giang Trần Quách Tân",
+  "en_title": "Giang Trần Quách Tân"
+ },
+ {
+  "qid": "Q18921908",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Ngọc Thắng",
+  "en_title": "Hồ Ngọc Thắng"
+ },
+ {
+  "qid": "Q125699408",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Thái Bình",
+  "en_title": "Hoàng Thái Bình"
+ },
+ {
+  "qid": "Q126364613",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Minh Tiến",
+  "en_title": "Hoàng Minh Tiến"
+ },
+ {
+  "qid": "Q126888364",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Gia Bảo",
+  "en_title": "Nguyễn Gia Bảo"
+ },
+ {
+  "qid": "Q98073771",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hai Long",
+  "en_title": "Nguyễn Hai Long"
+ },
+ {
+  "qid": "Q26871048",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Việt",
+  "en_title": "Nguyễn Hồng Việt"
+ },
+ {
+  "qid": "Q122829198",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Vĩnh Nguyên",
+  "en_title": "Hoàng Vĩnh Nguyên"
+ },
+ {
+  "qid": "Q26924291",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Văn Khoa",
+  "en_title": "Dương Văn Khoa"
+ },
+ {
+  "qid": "Q26924329",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Anh Hùng",
+  "en_title": "Nguyễn Anh Hùng"
+ },
+ {
+  "qid": "Q26955178",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đại Đồng",
+  "en_title": "Nguyễn Đại Đồng"
+ },
+ {
+  "qid": "Q19594359",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Mạnh Hùng (cầu thủ bóng đá)",
+  "en_title": "Phạm Mạnh Hùng"
+ },
+ {
+  "qid": "Q19281994",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Duy Mạnh",
+  "en_title": "Đỗ Duy Mạnh"
+ },
+ {
+  "qid": "Q27049059",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thành Chung",
+  "en_title": "Nguyễn Thành Chung"
+ },
+ {
+  "qid": "Q27049057",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Kiên",
+  "en_title": "Trần Văn Kiên"
+ },
+ {
+  "qid": "Q27068794",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Cường (cầu thủ bóng đá)",
+  "en_title": "Phạm Văn Cường"
+ },
+ {
+  "qid": "Q128224380",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Đức (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Đức"
+ },
+ {
+  "qid": "Q129677483",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Đạt (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Đạt"
+ },
+ {
+  "qid": "Q19364865",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Đức Lương",
+  "en_title": "Lê Đức Lương"
+ },
+ {
+  "qid": "Q19364871",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Sơn",
+  "en_title": "Lê Văn Sơn"
+ },
+ {
+  "qid": "Q19364879",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Minh Vương",
+  "en_title": "Trần Minh Vương"
+ },
+ {
+  "qid": "Q121851165",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Đình Long Vũ",
+  "en_title": "Lê Đình Long Vũ"
+ },
+ {
+  "qid": "Q130302947",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Gia Bảo",
+  "en_title": "Trần Gia Bảo"
+ },
+ {
+  "qid": "Q130643673",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Văn Thiết",
+  "en_title": "Trương Văn Thiết"
+ },
+ {
+  "qid": "Q125422482",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hiểu Minh",
+  "en_title": "Nguyễn Hiểu Minh"
+ },
+ {
+  "qid": "Q19560744",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Tuấn Tài",
+  "en_title": "Hồ Tuấn Tài"
+ },
+ {
+  "qid": "Q19560797",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Tuấn Linh",
+  "en_title": "Huỳnh Tuấn Linh"
+ },
+ {
+  "qid": "Q19561174",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Quốc Phương",
+  "en_title": "Lê Quốc Phương"
+ },
+ {
+  "qid": "Q19561173",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Hoàng Thiên",
+  "en_title": "Lê Hoàng Thiên"
+ },
+ {
+  "qid": "Q19561293",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Xuân Trường",
+  "en_title": "Lương Xuân Trường"
+ },
+ {
+  "qid": "Q19567941",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Thanh Tùng (cầu thủ bóng đá, sinh 1996)",
+  "en_title": "Hoàng Thanh Tùng"
+ },
+ {
+  "qid": "Q19571650",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hải Huy",
+  "en_title": "Nguyễn Hải Huy"
+ },
+ {
+  "qid": "Q19571653",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Hùng (sinh năm 1991)",
+  "en_title": "Nguyễn Xuân Hùng"
+ },
+ {
+  "qid": "Q19571738",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Hoàng",
+  "en_title": "Trần Đình Hoàng"
+ },
+ {
+  "qid": "Q19577422",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Toàn (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Toàn (footballer, born 1996)"
+ },
+ {
+  "qid": "Q19577550",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Thanh Hậu",
+  "en_title": "Phan Thanh Hậu"
+ },
+ {
+  "qid": "Q19577548",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Hoàng Lâm",
+  "en_title": "Phạm Hoàng Lâm"
+ },
+ {
+  "qid": "Q19577743",
+  "cls": "FootballPlayer",
+  "vi_title": "Sầm Ngọc Đức",
+  "en_title": "Sầm Ngọc Đức"
+ },
+ {
+  "qid": "Q19578094",
+  "cls": "FootballPlayer",
+  "vi_title": "Tô Vĩnh Lợi",
+  "en_title": "Tô Vĩnh Lợi"
+ },
+ {
+  "qid": "Q124636005",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Hà (cầu thủ bóng đá)",
+  "en_title": "Lê Văn Hà"
+ },
+ {
+  "qid": "Q124799272",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Ngọc Mỹ",
+  "en_title": "Nguyễn Ngọc Mỹ"
+ },
+ {
+  "qid": "Q123145151",
+  "cls": "FootballPlayer",
+  "vi_title": "Phùng Thị Minh Nguyệt",
+  "en_title": "Phùng Thị Minh Nguyệt"
+ },
+ {
+  "qid": "Q19661218",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hòa",
+  "en_title": "Nguyễn Thị Hòa"
+ },
+ {
+  "qid": "Q19661238",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Muôn",
+  "en_title": "Nguyễn Thị Muôn"
+ },
+ {
+  "qid": "Q19661239",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Liễu",
+  "en_title": "Nguyễn Thị Liễu"
+ },
+ {
+  "qid": "Q19661236",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Xuyến",
+  "en_title": "Nguyễn Thị Xuyến"
+ },
+ {
+  "qid": "Q27443197",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Trường",
+  "en_title": "Lê Văn Trường"
+ },
+ {
+  "qid": "Q121384362",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đức Anh",
+  "en_title": "Nguyễn Đức Anh"
+ },
+ {
+  "qid": "Q18459908",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hải Anh (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Hải Anh"
+ },
+ {
+  "qid": "Q122700036",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Phương (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Công Phương"
+ },
+ {
+  "qid": "Q124959557",
+  "cls": "FootballPlayer",
+  "vi_title": "Hà Văn Phương",
+  "en_title": "Hà Văn Phương"
+ },
+ {
+  "qid": "Q123939890",
+  "cls": "FootballPlayer",
+  "vi_title": "Đàm Tiến Dũng",
+  "en_title": "Đàm Tiến Dũng"
+ },
+ {
+  "qid": "Q125256530",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Tiến",
+  "en_title": "Trần Đình Tiến"
+ },
+ {
+  "qid": "Q125643750",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Đăng Khoa",
+  "en_title": "Khoa Ngo"
+ },
+ {
+  "qid": "Q130261393",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Nhật Minh",
+  "en_title": "Nguyễn Nhật Minh"
+ },
+ {
+  "qid": "Q125256989",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Hoàng Phúc",
+  "en_title": "Trần Hoàng Phúc"
+ },
+ {
+  "qid": "Q128152695",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Văn Bình",
+  "en_title": "Bùi Văn Bình"
+ },
+ {
+  "qid": "Q25417782",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Dũng (cầu thủ bóng đá, sinh 1963)",
+  "en_title": "Nguyễn Văn Dũng (footballer, born 1963)"
+ },
+ {
+  "qid": "Q124368396",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Sỹ Thành",
+  "en_title": "Bùi Sỹ Thành"
+ },
+ {
+  "qid": "Q130442864",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thanh Phong (cầu thủ bóng đá)",
+  "en_title": "Lê Thanh Phong"
+ },
+ {
+  "qid": "Q121600683",
+  "cls": "FootballPlayer",
+  "vi_title": "Cao Văn Bình",
+  "en_title": "Cao Văn Bình"
+ },
+ {
+  "qid": "Q124408532",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Hồng Việt",
+  "en_title": "Vũ Hồng Việt"
+ },
+ {
+  "qid": "Q121816326",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thái Quốc Cường",
+  "en_title": "Nguyễn Thái Quốc Cường"
+ },
+ {
+  "qid": "Q124452073",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Công (cầu thủ bóng đá)",
+  "en_title": "Trần Văn Công"
+ },
+ {
+  "qid": "Q18049744",
+  "cls": "FootballPlayer",
+  "vi_title": "Lục Xuân Hưng",
+  "en_title": "Lục Xuân Hưng"
+ },
+ {
+  "qid": "Q124544926",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đăng Dương",
+  "en_title": "Nguyễn Đăng Dương"
+ },
+ {
+  "qid": "Q121706600",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Phúc",
+  "en_title": "Nguyễn Hồng Phúc"
+ },
+ {
+  "qid": "Q128246508",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Quang Dũng",
+  "en_title": "Hoàng Quang Dũng"
+ },
+ {
+  "qid": "Q121365794",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Phạm Thành Long",
+  "en_title": "Lê Phạm Thành Long"
+ },
+ {
+  "qid": "Q124616393",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngọc Minh Chuyên",
+  "en_title": "Ngọc Minh Chuyên"
+ },
+ {
+  "qid": "Q121436244",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Hoàng Minh Khoa",
+  "en_title": "Võ Hoàng Minh Khoa"
+ },
+ {
+  "qid": "Q121841476",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Nguyên Hoàng",
+  "en_title": "Lê Nguyên Hoàng"
+ },
+ {
+  "qid": "Q121745414",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Quang (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Minh Quang"
+ },
+ {
+  "qid": "Q124693351",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Ngọc Sơn (cầu thủ bóng đá, sinh 2003)",
+  "en_title": "Trần Ngọc Sơn (footballer, born 2003)"
+ },
+ {
+  "qid": "Q121547778",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Trung Kiên",
+  "en_title": "Trần Trung Kiên"
+ },
+ {
+  "qid": "Q97956879",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Tuấn (cầu thủ bóng đá, sinh 1992)",
+  "en_title": "Nguyễn Hữu Tuấn"
+ },
+ {
+  "qid": "Q124737653",
+  "cls": "FootballPlayer",
+  "vi_title": "Trịnh Xuân Hoàng",
+  "en_title": "Trịnh Xuân Hoàng"
+ },
+ {
+  "qid": "Q121608659",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đình Bắc",
+  "en_title": "Nguyễn Đình Bắc"
+ },
+ {
+  "qid": "Q25999788",
+  "cls": "FootballPlayer",
+  "vi_title": "Hà Đức Chinh",
+  "en_title": "Hà Đức Chinh"
+ },
+ {
+  "qid": "Q25999794",
+  "cls": "FootballPlayer",
+  "vi_title": "Lâm Thuận",
+  "en_title": "Lâm Thuận"
+ },
+ {
+  "qid": "Q130752146",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Quang Kiệt",
+  "en_title": "Đinh Quang Kiệt"
+ },
+ {
+  "qid": "Q121841690",
+  "cls": "FootballPlayer",
+  "vi_title": "Thái Bá Đạt",
+  "en_title": "Thái Bá Đạt"
+ },
+ {
+  "qid": "Q18415849",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Đang (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Hữu Đang (footballer)"
+ },
+ {
+  "qid": "Q133073165",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Lý Đức",
+  "en_title": "Phạm Lý Đức"
+ },
+ {
+  "qid": "Q121546180",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Bảo Long",
+  "en_title": "Nguyễn Bảo Long"
+ },
+ {
+  "qid": "Q124707241",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quang Vinh",
+  "en_title": "Nguyễn Quang Vinh"
+ },
+ {
+  "qid": "Q4481043",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Thành Lương",
+  "en_title": "Phạm Thành Lương"
+ },
+ {
+  "qid": "Q28969794",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngân Văn Đại",
+  "en_title": "Ngân Văn Đại"
+ },
+ {
+  "qid": "Q28970029",
+  "cls": "FootballPlayer",
+  "vi_title": "Thân Thành Tín",
+  "en_title": "Thân Thành Tín"
+ },
+ {
+  "qid": "Q28970219",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Trọng",
+  "en_title": "Trần Đình Trọng"
+ },
+ {
+  "qid": "Q28970572",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Nhật Minh",
+  "en_title": "Đào Nhật Minh"
+ },
+ {
+  "qid": "Q4499048",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Thắng (cầu thủ bóng đá, sinh 1980)",
+  "en_title": "Nguyễn Hữu Thắng (footballer, born 1980)"
+ },
+ {
+  "qid": "Q2227461",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Huỳnh Đức",
+  "en_title": "Lê Huỳnh Đức"
+ },
+ {
+  "qid": "Q21181046",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Văn Robert",
+  "en_title": "Robert Đặng Văn"
+ },
+ {
+  "qid": "Q23882037",
+  "cls": "FootballPlayer",
+  "vi_title": "Diệp Hoài Xuân",
+  "en_title": "Diệp Hoài Xuân"
+ },
+ {
+  "qid": "Q21285310",
+  "cls": "FootballPlayer",
+  "vi_title": "Khuất Hữu Long",
+  "en_title": "Khuất Hữu Long"
+ },
+ {
+  "qid": "Q7022876",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Chuyên",
+  "en_title": "Nguyễn Minh Chuyên"
+ },
+ {
+  "qid": "Q6506529",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Bật Hiếu",
+  "en_title": "Lê Bật Hiếu"
+ },
+ {
+  "qid": "Q6507455",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Phước Tứ",
+  "en_title": "Lê Phước Tứ"
+ },
+ {
+  "qid": "Q6507844",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Thắng (cầu thủ bóng đá)",
+  "en_title": "Lê Văn Thắng"
+ },
+ {
+  "qid": "Q21677019",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hoài Anh (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Hoài Anh"
+ },
+ {
+  "qid": "Q29310793",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Minh Dĩ",
+  "en_title": "Hồ Minh Dĩ"
+ },
+ {
+  "qid": "Q29311086",
+  "cls": "FootballPlayer",
+  "vi_title": "Đoàn Văn Hậu",
+  "en_title": "Đoàn Văn Hậu"
+ },
+ {
+  "qid": "Q24005264",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Phú (cầu thủ bóng đá)",
+  "en_title": "Lê Văn Phú"
+ },
+ {
+  "qid": "Q24006271",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Xuân Việt",
+  "en_title": "Đinh Xuân Việt"
+ },
+ {
+  "qid": "Q24006368",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Văn Pho",
+  "en_title": "Dương Văn Pho"
+ },
+ {
+  "qid": "Q24450202",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Hải (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thanh Hải"
+ },
+ {
+  "qid": "Q5923109",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Văn Bình (cầu thủ bóng đá)",
+  "en_title": "Hoàng Văn Bình"
+ },
+ {
+  "qid": "Q24689101",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quang Hải (cầu thủ bóng đá, sinh 1997)",
+  "en_title": "Nguyễn Quang Hải (footballer, born 1997)"
+ },
+ {
+  "qid": "Q24061132",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Nhựt",
+  "en_title": "Nguyễn Minh Nhựt"
+ },
+ {
+  "qid": "Q24084994",
+  "cls": "FootballPlayer",
+  "vi_title": "A Mít",
+  "en_title": "A Mít"
+ },
+ {
+  "qid": "Q24085000",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Trần Vũ",
+  "en_title": "Bùi Trần Vũ"
+ },
+ {
+  "qid": "Q24084996",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thế Cường",
+  "en_title": "Lê Thế Cường"
+ },
+ {
+  "qid": "Q21621777",
+  "cls": "FootballPlayer",
+  "vi_title": "Lâm Ti Phông",
+  "en_title": "Lâm Ti Phông"
+ },
+ {
+  "qid": "Q21621795",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Cao Hoài An",
+  "en_title": "Lê Cao Hoài An"
+ },
+ {
+  "qid": "Q21622367",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Thành",
+  "en_title": "Phạm Văn Thành"
+ },
+ {
+  "qid": "Q21623157",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Phước Thọ",
+  "en_title": "Trần Phước Thọ"
+ },
+ {
+  "qid": "Q29588751",
+  "cls": "FootballPlayer",
+  "vi_title": "Cao Pendant Quang Vinh",
+  "en_title": "Jason Pendant"
+ },
+ {
+  "qid": "Q21623256",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Út Cường",
+  "en_title": "Võ Út Cường"
+ },
+ {
+  "qid": "Q21623266",
+  "cls": "FootballPlayer",
+  "vi_title": "Vương Quốc Trung",
+  "en_title": "Vương Quốc Trung"
+ },
+ {
+  "qid": "Q21642462",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quốc Thiện Esele",
+  "en_title": "Nguyễn Quốc Thiện Esele"
+ },
+ {
+  "qid": "Q21642860",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Luân",
+  "en_title": "Nguyễn Xuân Luân"
+ },
+ {
+  "qid": "Q24450446",
+  "cls": "FootballPlayer",
+  "vi_title": "Quế Ngọc Mạnh",
+  "en_title": "Quế Ngọc Mạnh"
+ },
+ {
+  "qid": "Q24450639",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Hoàng Nam",
+  "en_title": "Lương Hoàng Nam"
+ },
+ {
+  "qid": "Q24450637",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Xuân Mạnh",
+  "en_title": "Phạm Xuân Mạnh"
+ },
+ {
+  "qid": "Q5874382",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Đình Tùng",
+  "en_title": "Hoàng Đình Tùng"
+ },
+ {
+  "qid": "Q5874425",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Nhật Nam",
+  "en_title": "Hoàng Nhật Nam"
+ },
+ {
+  "qid": "Q21932386",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Lam (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Lam (footballer)"
+ },
+ {
+  "qid": "Q6704605",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Trung Tuấn",
+  "en_title": "Lương Trung Tuấn"
+ },
+ {
+  "qid": "Q6704622",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Văn Được Em",
+  "en_title": "Lương Văn Được Em"
+ },
+ {
+  "qid": "Q24678835",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Văn Khánh (cầu thủ bóng đá)",
+  "en_title": "Hoàng Văn Khánh"
+ },
+ {
+  "qid": "Q22007416",
+  "cls": "FootballPlayer",
+  "vi_title": "Phí Minh Long",
+  "en_title": "Phí Minh Long"
+ },
+ {
+  "qid": "Q22021138",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Văn Hạnh",
+  "en_title": "Võ Văn Hạnh"
+ },
+ {
+  "qid": "Q6735194",
+  "cls": "FootballPlayer",
+  "vi_title": "Mai Xuân Hợp",
+  "en_title": "Mai Xuân Hợp"
+ },
+ {
+  "qid": "Q22162708",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Hùng Dũng",
+  "en_title": "Đỗ Hùng Dũng"
+ },
+ {
+  "qid": "Q22162733",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Nam Anh",
+  "en_title": "Nguyễn Nam Anh"
+ },
+ {
+  "qid": "Q22162740",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Đức Huy",
+  "en_title": "Phạm Đức Huy"
+ },
+ {
+  "qid": "Q4986347",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Quang Huy (cầu thủ bóng đá)",
+  "en_title": "Bùi Quang Huy"
+ },
+ {
+  "qid": "Q24006269",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đình Bảo",
+  "en_title": "Nguyễn Đình Bảo"
+ },
+ {
+  "qid": "Q24957898",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Nhật Tân",
+  "en_title": "Võ Nhật Tân"
+ },
+ {
+  "qid": "Q24958091",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Thị Miện",
+  "en_title": "Đào Thị Miện"
+ },
+ {
+  "qid": "Q24958080",
+  "cls": "FootballPlayer",
+  "vi_title": "Lưu Ngọc Mai",
+  "en_title": "Lưu Ngọc Mai"
+ },
+ {
+  "qid": "Q24958295",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Như",
+  "en_title": "Huỳnh Như"
+ },
+ {
+  "qid": "Q24958608",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Bảo Quân",
+  "en_title": "Nguyễn Bảo Quân"
+ },
+ {
+  "qid": "Q24958812",
+  "cls": "FootballPlayer",
+  "vi_title": "Chu Đình Nghiêm",
+  "en_title": "Chu Đình Nghiêm"
+ },
+ {
+  "qid": "Q24958759",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Đình Tân",
+  "en_title": "Võ Đình Tân"
+ },
+ {
+  "qid": "Q24959000",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Xuân Hùng",
+  "en_title": "Lê Xuân Hùng"
+ },
+ {
+  "qid": "Q24959213",
+  "cls": "FootballPlayer",
+  "vi_title": "Nghiêm Xuân Tú",
+  "en_title": "Nghiêm Xuân Tú"
+ },
+ {
+  "qid": "Q24959003",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Xuân Anh",
+  "en_title": "Lê Xuân Anh"
+ },
+ {
+  "qid": "Q5034317",
+  "cls": "FootballPlayer",
+  "vi_title": "Cao Sỹ Cường",
+  "en_title": "Cao Sỹ Cường"
+ },
+ {
+  "qid": "Q27899176",
+  "cls": "FootballPlayer",
+  "vi_title": "Mạc Đức Việt Anh",
+  "en_title": "Mạc Đức Việt Anh"
+ },
+ {
+  "qid": "Q27899182",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tiến Linh",
+  "en_title": "Nguyễn Tiến Linh"
+ },
+ {
+  "qid": "Q27899184",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Huy",
+  "en_title": "Nguyễn Trọng Huy"
+ },
+ {
+  "qid": "Q27899223",
+  "cls": "FootballPlayer",
+  "vi_title": "Triệu Việt Hưng",
+  "en_title": "Triệu Việt Hưng"
+ },
+ {
+  "qid": "Q27899249",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thanh Thịnh",
+  "en_title": "Đỗ Thanh Thịnh"
+ },
+ {
+  "qid": "Q27899224",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Văn Thái Quý",
+  "en_title": "Trương Văn Thái Quý"
+ },
+ {
+  "qid": "Q27899225",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Duy Khánh",
+  "en_title": "Trần Duy Khánh"
+ },
+ {
+  "qid": "Q27899228",
+  "cls": "FootballPlayer",
+  "vi_title": "Tống Anh Tỷ",
+  "en_title": "Tống Anh Tỷ"
+ },
+ {
+  "qid": "Q25238428",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Văn Đức",
+  "en_title": "Phan Văn Đức"
+ },
+ {
+  "qid": "Q5088007",
+  "cls": "FootballPlayer",
+  "vi_title": "Châu Lê Phước Vĩnh",
+  "en_title": "Châu Lê Phước Vĩnh"
+ },
+ {
+  "qid": "Q27957262",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Thắng",
+  "en_title": "Nguyễn Thanh Thắng"
+ },
+ {
+  "qid": "Q4016772",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Quyết (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Quyết"
+ },
+ {
+  "qid": "Q24084999",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tài Lộc (cầu thủ bóng đá, sinh 1989)",
+  "en_title": "Nguyễn Tài Lộc (footballer, born 1989)"
+ },
+ {
+  "qid": "Q4060619",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Kesley Alves",
+  "en_title": "Huỳnh Kesley Alves"
+ },
+ {
+  "qid": "Q7022778",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Anh Đức",
+  "en_title": "Nguyễn Anh Đức"
+ },
+ {
+  "qid": "Q7022831",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Tiến",
+  "en_title": "Nguyễn Hồng Tiến"
+ },
+ {
+  "qid": "Q7022885",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Ngọc Duy",
+  "en_title": "Nguyễn Ngọc Duy"
+ },
+ {
+  "qid": "Q28160411",
+  "cls": "FootballPlayer",
+  "vi_title": "Lâm Anh Quang",
+  "en_title": "Lâm Anh Quang"
+ },
+ {
+  "qid": "Q28160446",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Anh Tuấn",
+  "en_title": "Đặng Anh Tuấn"
+ },
+ {
+  "qid": "Q5215939",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Phương Nam",
+  "en_title": "Đặng Phương Nam"
+ },
+ {
+  "qid": "Q5215950",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Văn Lâm",
+  "en_title": "Đặng Văn Lâm"
+ },
+ {
+  "qid": "Q24958184",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Anh Khoa",
+  "en_title": "Trần Anh Khoa"
+ },
+ {
+  "qid": "Q5221506",
+  "cls": "FootballPlayer",
+  "vi_title": "Đào Văn Phong",
+  "en_title": "Đào Văn Phong"
+ },
+ {
+  "qid": "Q4499117",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Thắng (cầu thủ bóng đá, sinh 1972)",
+  "en_title": "Nguyễn Hữu Thắng (footballer, born 1972)"
+ },
+ {
+  "qid": "Q4188875",
+  "cls": "FootballPlayer",
+  "vi_title": "Michal Nguyễn",
+  "en_title": "Michal Nguyễn"
+ },
+ {
+  "qid": "Q28370300",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Ngọc Toàn",
+  "en_title": "Võ Ngọc Toàn"
+ },
+ {
+  "qid": "Q5278301",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Thanh Trung",
+  "en_title": "Đinh Thanh Trung"
+ },
+ {
+  "qid": "Q5295739",
+  "cls": "FootballPlayer",
+  "vi_title": "Đồng Huy Thái",
+  "en_title": "Đồng Huy Thái"
+ },
+ {
+  "qid": "Q28445504",
+  "cls": "FootballPlayer",
+  "vi_title": "Châu Ngọc Quang",
+  "en_title": "Châu Ngọc Quang"
+ },
+ {
+  "qid": "Q28445542",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Phúc",
+  "en_title": "Nguyễn Hữu Phúc"
+ },
+ {
+  "qid": "Q4252427",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Quốc Anh",
+  "en_title": "Huỳnh Quốc Anh"
+ },
+ {
+  "qid": "Q4254269",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Văn Phúc",
+  "en_title": "Hoàng Văn Phúc"
+ },
+ {
+  "qid": "Q28510788",
+  "cls": "FootballPlayer",
+  "vi_title": "Doãn Ngọc Tân",
+  "en_title": "Doãn Ngọc Tân"
+ },
+ {
+  "qid": "Q4263908",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Hoàng La",
+  "en_title": "Đinh Hoàng La"
+ },
+ {
+  "qid": "Q5363048",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Huy (cầu thủ bóng đá, sinh năm 1987)",
+  "en_title": "Nguyen Cong Huy"
+ },
+ {
+  "qid": "Q28805411",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Khắc Ngọc",
+  "en_title": "Hồ Khắc Ngọc"
+ },
+ {
+  "qid": "Q135442170",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Bắc (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Xuân Bắc (footballer)"
+ },
+ {
+  "qid": "Q136030279",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Anh Quân",
+  "en_title": "Võ Anh Quân"
+ },
+ {
+  "qid": "Q136717942",
+  "cls": "FootballPlayer",
+  "vi_title": "Khổng Minh Gia Bảo",
+  "en_title": "Khổng Minh Gia Bảo"
+ },
+ {
+  "qid": "Q10462309",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Trường Giang",
+  "en_title": "Trần Trường Giang"
+ },
+ {
+  "qid": "Q19840218",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Quang Hùng (cầu thủ bóng đá)",
+  "en_title": "Lê Quang Hùng"
+ },
+ {
+  "qid": "Q10483702",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Sơn",
+  "en_title": "Nguyễn Hồng Sơn"
+ },
+ {
+  "qid": "Q10496987",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Châu (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Minh Châu (footballer)"
+ },
+ {
+  "qid": "Q19661274",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Minh Nguyệt (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thị Minh Nguyệt"
+ },
+ {
+  "qid": "Q10510346",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thế Anh (cầu thủ bóng đá, sinh 1981)",
+  "en_title": "Nguyễn Thế Anh"
+ },
+ {
+  "qid": "Q10513826",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Sỹ Mạnh",
+  "en_title": "Lê Sỹ Mạnh"
+ },
+ {
+  "qid": "Q136771569",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hoàng Nam Mi",
+  "en_title": "Nammi Nguyen"
+ },
+ {
+  "qid": "Q10527507",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Đức (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Minh Đức"
+ },
+ {
+  "qid": "Q10528061",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Mạnh Dũng (cầu thủ bóng đá, sinh 1981)",
+  "en_title": "Nguyễn Mạnh Dũng"
+ },
+ {
+  "qid": "Q135967241",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Gia Hưng",
+  "en_title": "Phạm Gia Hưng"
+ },
+ {
+  "qid": "Q10533829",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Thành",
+  "en_title": "Nguyễn Xuân Thành"
+ },
+ {
+  "qid": "Q136003743",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Du Học",
+  "en_title": "Phan Du Học"
+ },
+ {
+  "qid": "Q133820408",
+  "cls": "FootballPlayer",
+  "vi_title": "K'Thủa",
+  "en_title": "K'Thủa"
+ },
+ {
+  "qid": "Q136102710",
+  "cls": "FootballPlayer",
+  "vi_title": "Damian Vũ Thanh An",
+  "en_title": "Damian Vu Thanh"
+ },
+ {
+  "qid": "Q10542359",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Hùng Dũng",
+  "en_title": "Phạm Hùng Dũng"
+ },
+ {
+  "qid": "Q19661252",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Kim Hồng",
+  "en_title": "Trần Thị Kim Hồng"
+ },
+ {
+  "qid": "Q19662331",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Phi Sơn",
+  "en_title": "Trần Phi Sơn"
+ },
+ {
+  "qid": "Q19662437",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Văn Long",
+  "en_title": "Phan Văn Long"
+ },
+ {
+  "qid": "Q19662556",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Phong Hồng Duy",
+  "en_title": "Nguyễn Phong Hồng Duy"
+ },
+ {
+  "qid": "Q19662621",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quý Sửu",
+  "en_title": "Nguyễn Quý Sửu"
+ },
+ {
+  "qid": "Q10549061",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Quang Cường (cầu thủ bóng đá)",
+  "en_title": "Lê Quang Cường"
+ },
+ {
+  "qid": "Q19833758",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thanh Bình (cầu thủ bóng đá)",
+  "en_title": "Lê Thanh Bình"
+ },
+ {
+  "qid": "Q19833804",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Dũng",
+  "en_title": "Nguyễn Hữu Dũng"
+ },
+ {
+  "qid": "Q19892123",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1995)",
+  "en_title": "Bùi Tiến Dũng (footballer, born 1995)"
+ },
+ {
+  "qid": "Q19892749",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Tấn Tài",
+  "en_title": "Huỳnh Tấn Tài"
+ },
+ {
+  "qid": "Q19893063",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thu Thanh Hương",
+  "en_title": "Lê Thu Thanh Hương"
+ },
+ {
+  "qid": "Q19893659",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Diệp",
+  "en_title": "Nguyễn Thanh Diệp"
+ },
+ {
+  "qid": "Q19893664",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Tuyết Dung",
+  "en_title": "Nguyễn Thị Tuyết Dung"
+ },
+ {
+  "qid": "Q19894049",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Tiến",
+  "en_title": "Phạm Văn Tiến"
+ },
+ {
+  "qid": "Q137166757",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Minh Phúc",
+  "en_title": "Phạm Minh Phúc"
+ },
+ {
+  "qid": "Q27671358",
+  "cls": "FootballPlayer",
+  "vi_title": "Khổng Thị Hằng",
+  "en_title": "Khổng Thị Hằng"
+ },
+ {
+  "qid": "Q27671371",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Bích Thùy",
+  "en_title": "Nguyễn Thị Bích Thùy"
+ },
+ {
+  "qid": "Q27671369",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Hải Yến",
+  "en_title": "Phạm Hải Yến"
+ },
+ {
+  "qid": "Q27681816",
+  "cls": "FootballPlayer",
+  "vi_title": "Văn Thị Thanh",
+  "en_title": "Văn Thị Thanh"
+ },
+ {
+  "qid": "Q19973720",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Văn Thanh",
+  "en_title": "Vũ Văn Thanh"
+ },
+ {
+  "qid": "Q7833288",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Chí Công",
+  "en_title": "Trần Chí Công"
+ },
+ {
+  "qid": "Q7833294",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Đồng",
+  "en_title": "Trần Đình Đồng"
+ },
+ {
+  "qid": "Q7833298",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đức Cường",
+  "en_title": "Trần Đức Cường"
+ },
+ {
+  "qid": "Q7833306",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Mạnh Dũng",
+  "en_title": "Trần Mạnh Dũng"
+ },
+ {
+  "qid": "Q20025854",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Đức Tuấn",
+  "en_title": "Lê Đức Tuấn"
+ },
+ {
+  "qid": "Q7847997",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Đình Luật",
+  "en_title": "Trương Đình Luật"
+ },
+ {
+  "qid": "Q27781213",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Kim Thanh",
+  "en_title": "Trần Thị Kim Thanh"
+ },
+ {
+  "qid": "Q27788661",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Thị Vân",
+  "en_title": "Dương Thị Vân"
+ },
+ {
+  "qid": "Q137638689",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thành Vinh (cầu thủ bóng đá)",
+  "en_title": "Vũ Thành Vinh"
+ },
+ {
+  "qid": "Q7939148",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Minh Trí (trọng tài)",
+  "en_title": "Võ Minh Trí"
+ },
+ {
+  "qid": "Q27881412",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Xuân Son",
+  "en_title": "Rafaelson"
+ },
+ {
+  "qid": "Q27881493",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Quang Huy",
+  "en_title": "Đặng Quang Huy"
+ },
+ {
+  "qid": "Q27899067",
+  "cls": "FootballPlayer",
+  "vi_title": "A Hoàng",
+  "en_title": "A Hoàng"
+ },
+ {
+  "qid": "Q7943275",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Minh Hiếu",
+  "en_title": "Vũ Minh Hiếu"
+ },
+ {
+  "qid": "Q7939145",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Hoàng Quảng",
+  "en_title": "Võ Hoàng Quảng"
+ },
+ {
+  "qid": "Q7943683",
+  "cls": "FootballPlayer",
+  "vi_title": "Vương Tiến Dũng",
+  "en_title": "Vương Tiến Dũng"
+ },
+ {
+  "qid": "Q27682293",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Nga (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thị Nga"
+ },
+ {
+  "qid": "Q7943270",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Anh Tuấn",
+  "en_title": "Vũ Anh Tuấn"
+ },
+ {
+  "qid": "Q136085426",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Tùng (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thanh Tùng (footballer)"
+ },
+ {
+  "qid": "Q27671362",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Như",
+  "en_title": "Bùi Thị Như"
+ },
+ {
+  "qid": "Q27671363",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thúy An",
+  "en_title": "Bùi Thúy An"
+ },
+ {
+  "qid": "Q27673073",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hải Hòa",
+  "en_title": "Nguyễn Hải Hòa"
+ },
+ {
+  "qid": "Q27680064",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Oanh",
+  "en_title": "Lê Thị Oanh"
+ },
+ {
+  "qid": "Q27682122",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Phượng",
+  "en_title": "Bùi Thị Phượng"
+ },
+ {
+  "qid": "Q27682147",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Thu Trang",
+  "en_title": "Đỗ Thị Thu Trang"
+ },
+ {
+  "qid": "Q27671364",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Phương Thảo",
+  "en_title": "Trần Thị Phương Thảo"
+ },
+ {
+  "qid": "Q27671367",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thị Nhung",
+  "en_title": "Vũ Thị Nhung"
+ },
+ {
+  "qid": "Q27688796",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Hoàng Quỳnh",
+  "en_title": "Phạm Hoàng Quỳnh"
+ },
+ {
+  "qid": "Q27688795",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Thành (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thị Thành"
+ },
+ {
+  "qid": "Q135114145",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Lê Phát",
+  "en_title": "Nguyễn Lê Phát"
+ },
+ {
+  "qid": "Q27788668",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Nguyễn Bảo Châu",
+  "en_title": "Trần Nguyễn Bảo Châu"
+ },
+ {
+  "qid": "Q8009556",
+  "cls": "FootballPlayer",
+  "vi_title": "Mai Tiến Thành",
+  "en_title": "Mai Tiến Thành"
+ },
+ {
+  "qid": "Q138822612",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Minh Tâm (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Minh Tâm"
+ },
+ {
+  "qid": "Q20641226",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Nguyệt (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thị Nguyệt"
+ },
+ {
+  "qid": "Q20641227",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Công (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Công"
+ },
+ {
+  "qid": "Q20641559",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Hồng Nhung",
+  "en_title": "Trần Thị Hồng Nhung"
+ },
+ {
+  "qid": "Q20641560",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Thùy Trang",
+  "en_title": "Trần Thị Thùy Trang"
+ },
+ {
+  "qid": "Q8077033",
+  "cls": "FootballPlayer",
+  "vi_title": "Âu Văn Hoàn",
+  "en_title": "Âu Văn Hoàn"
+ },
+ {
+  "qid": "Q25999784",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Tiến Dụng",
+  "en_title": "Bùi Tiến Dụng"
+ },
+ {
+  "qid": "Q19661256",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Ngọc Anh",
+  "en_title": "Nguyễn Thị Ngọc Anh"
+ },
+ {
+  "qid": "Q19893060",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Thương",
+  "en_title": "Lê Thị Thương"
+ },
+ {
+  "qid": "Q9369266",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Như Thành",
+  "en_title": "Vũ Như Thành"
+ },
+ {
+  "qid": "Q135188263",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Thuận",
+  "en_title": "Lê Văn Thuận"
+ },
+ {
+  "qid": "Q141618333",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Trung Tuyến",
+  "en_title": null
+ },
+ {
+  "qid": "Q141619315",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Hùng",
+  "en_title": null
+ },
+ {
+  "qid": "Q141632471",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Khôi",
+  "en_title": null
+ },
+ {
+  "qid": "Q124040854",
+  "cls": "FootballPlayer",
+  "vi_title": "Cù Thị Huỳnh Như",
+  "en_title": null
+ },
+ {
+  "qid": "Q86012876",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thị Thúy",
+  "en_title": null
+ },
+ {
+  "qid": "Q86013163",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Thị Kim Huế",
+  "en_title": null
+ },
+ {
+  "qid": "Q124520577",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Anh Vũ",
+  "en_title": null
+ },
+ {
+  "qid": "Q125262820",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Tuấn (cầu thủ bóng đá, sinh 1996)",
+  "en_title": null
+ },
+ {
+  "qid": "Q125383680",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Thành (cầu thủ bóng đá, sinh 1991)",
+  "en_title": null
+ },
+ {
+  "qid": "Q126366960",
+  "cls": "FootballPlayer",
+  "vi_title": "Đoàn Hải Quân",
+  "en_title": null
+ },
+ {
+  "qid": "Q126506006",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Viết Triều",
+  "en_title": null
+ },
+ {
+  "qid": "Q127286041",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Trung (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q127328067",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Tuấn Hưng",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273268",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Xuân Lộc",
+  "en_title": null
+ },
+ {
+  "qid": "Q133272208",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Minh Hiếu",
+  "en_title": null
+ },
+ {
+  "qid": "Q133272506",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Hiếu",
+  "en_title": null
+ },
+ {
+  "qid": "Q133272591",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Phước Nhật Quang",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273082",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Phong (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273118",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Ngọc Thiên Ân",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273116",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Duy Bảo",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273129",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Thế Hiếu",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273139",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Chiến (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273145",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Sang (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273162",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Tiến Sinh",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273203",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Tiệp",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273243",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Hoàng Quân",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273322",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn An (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273331",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Văn Quyết",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273350",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Trọng (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q133273360",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Võ Đình Hoàng Văn",
+  "en_title": null
+ },
+ {
+  "qid": "Q133280037",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Tuyên Quang",
+  "en_title": null
+ },
+ {
+  "qid": "Q133324793",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Bun",
+  "en_title": null
+ },
+ {
+  "qid": "Q133324871",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Tấn",
+  "en_title": null
+ },
+ {
+  "qid": "Q133364510",
+  "cls": "FootballPlayer",
+  "vi_title": "Võ Đức Bảo",
+  "en_title": null
+ },
+ {
+  "qid": "Q133364772",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Tiến Tạo",
+  "en_title": null
+ },
+ {
+  "qid": "Q137361114",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Duyên",
+  "en_title": null
+ },
+ {
+  "qid": "Q134963385",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Phúc Nguyên Chương",
+  "en_title": null
+ },
+ {
+  "qid": "Q10789928",
+  "cls": "FootballPlayer",
+  "vi_title": "Mai Duy Dưỡng",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010067",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hà",
+  "en_title": null
+ },
+ {
+  "qid": "Q16158264",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Vinh",
+  "en_title": null
+ },
+ {
+  "qid": "Q27680101",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hương",
+  "en_title": null
+ },
+ {
+  "qid": "Q24956639",
+  "cls": "FootballPlayer",
+  "vi_title": "Lâm Ấn Độ",
+  "en_title": null
+ },
+ {
+  "qid": "Q24957864",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Minh Hoàng",
+  "en_title": null
+ },
+ {
+  "qid": "Q24957888",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Kim Hồng",
+  "en_title": null
+ },
+ {
+  "qid": "Q24957882",
+  "cls": "FootballPlayer",
+  "vi_title": "Trịnh Tấn Thành",
+  "en_title": null
+ },
+ {
+  "qid": "Q24959002",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Sáu",
+  "en_title": null
+ },
+ {
+  "qid": "Q25417961",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Tuấn (cầu thủ bóng đá sinh 1997)",
+  "en_title": null
+ },
+ {
+  "qid": "Q28002884",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Trần Tuấn Anh",
+  "en_title": null
+ },
+ {
+  "qid": "Q136346872",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Phú",
+  "en_title": null
+ },
+ {
+  "qid": "Q138645918",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Nhật Lan",
+  "en_title": null
+ },
+ {
+  "qid": "Q139621582",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Anh Đức",
+  "en_title": null
+ },
+ {
+  "qid": "Q140004560",
+  "cls": "FootballPlayer",
+  "vi_title": "Quách Thu Em",
+  "en_title": null
+ },
+ {
+  "qid": "Q140004741",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Thanh Hảo",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007736",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Trang",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007763",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Thúy Nga",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007775",
+  "cls": "FootballPlayer",
+  "vi_title": "Hà Ngọc Diệp",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007781",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Hà Vi",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007789",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Bảo Trâm",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007799",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Hồng Yêu",
+  "en_title": null
+ },
+ {
+  "qid": "Q140007809",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngân Thị Thanh Hiếu",
+  "en_title": null
+ },
+ {
+  "qid": "Q140009929",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Kim Phụng",
+  "en_title": null
+ },
+ {
+  "qid": "Q140009974",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Thị Ngọc Mai",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010008",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Trúc Hương",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010018",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Thị Lan Anh (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010039",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hoa (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010061",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Hải Yến",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010134",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Mỹ Oanh",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010137",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Hiền Lương",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010157",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hiền (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010188",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Thị Phụng",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010275",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Thị Đào",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010304",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Thị Danh",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010485",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Diệu Huyền",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010497",
+  "cls": "FootballPlayer",
+  "vi_title": "Dương Thị Khánh Ly",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010540",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Hoài Thu",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010555",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Vui",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010568",
+  "cls": "FootballPlayer",
+  "vi_title": "Trịnh Thuỳ Linh",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010618",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hồng Phúc",
+  "en_title": null
+ },
+ {
+  "qid": "Q140010641",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Bích Hạnh",
+  "en_title": null
+ },
+ {
+  "qid": "Q140011464",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Phương",
+  "en_title": null
+ },
+ {
+  "qid": "Q140011512",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Thuý Nga",
+  "en_title": null
+ },
+ {
+  "qid": "Q140011556",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Quỳnh Anh (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q140011596",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Mai Lan",
+  "en_title": null
+ },
+ {
+  "qid": "Q47506382",
+  "cls": "FootballPlayer",
+  "vi_title": "Lưu Văn Hương",
+  "en_title": null
+ },
+ {
+  "qid": "Q47506383",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Đại",
+  "en_title": null
+ },
+ {
+  "qid": "Q47506381",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thế Dương",
+  "en_title": null
+ },
+ {
+  "qid": "Q24958072",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Tuyết",
+  "en_title": null
+ },
+ {
+  "qid": "Q49054331",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Quang (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q27671356",
+  "cls": "FootballPlayer",
+  "vi_title": "Lại Thị Tuyết",
+  "en_title": null
+ },
+ {
+  "qid": "Q27679446",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Mai (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q27680027",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Tuyết Mai",
+  "en_title": null
+ },
+ {
+  "qid": "Q27681596",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Kim Tiến (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q27681803",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Khánh Thu",
+  "en_title": null
+ },
+ {
+  "qid": "Q27681826",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Hải Anh",
+  "en_title": null
+ },
+ {
+  "qid": "Q27681798",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Hồng Nga",
+  "en_title": null
+ },
+ {
+  "qid": "Q27681818",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thị Huyền Linh",
+  "en_title": null
+ },
+ {
+  "qid": "Q27682137",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Mai Ngọc",
+  "en_title": null
+ },
+ {
+  "qid": "Q27682284",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Lý (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q27679414",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Thị Tuyết Mai (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q27680066",
+  "cls": "FootballPlayer",
+  "vi_title": "Từ Thị Phụ",
+  "en_title": null
+ },
+ {
+  "qid": "Q27682134",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Hạnh (cầu thủ bóng đá)",
+  "en_title": null
+ },
+ {
+  "qid": "Q61132049",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thế Cường",
+  "en_title": null
+ },
+ {
+  "qid": "Q109435306",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thị Thu Xuân",
+  "en_title": null
+ },
+ {
+  "qid": "Q86008259",
+  "cls": "FootballPlayer",
+  "vi_title": "Hổ (cầu thủ bóng đá)",
+  "en_title": "Hổ"
+ },
+ {
+  "qid": "Q86009149",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Ngọc Bảo",
+  "en_title": "Lê Ngọc Bảo"
+ },
+ {
+  "qid": "Q86009389",
+  "cls": "FootballPlayer",
+  "vi_title": "Mai Xuân Quyết",
+  "en_title": "Mai Xuân Quyết"
+ },
+ {
+  "qid": "Q16232812",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Bửu Ngọc",
+  "en_title": "Trần Bửu Ngọc"
+ },
+ {
+  "qid": "Q86010398",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Khôi",
+  "en_title": "Nguyễn Hữu Khôi"
+ },
+ {
+  "qid": "Q86012872",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Thế Vương",
+  "en_title": "Vũ Thế Vương"
+ },
+ {
+  "qid": "Q86013011",
+  "cls": "FootballPlayer",
+  "vi_title": "Y Eli Niê",
+  "en_title": "Y Êli Niê"
+ },
+ {
+  "qid": "Q94998358",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Thị Thùy Dung",
+  "en_title": "Đinh Thị Thùy Dung"
+ },
+ {
+  "qid": "Q94997903",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Thị Tươi",
+  "en_title": "Phạm Thị Tươi"
+ },
+ {
+  "qid": "Q54861166",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Quang Nam",
+  "en_title": "Vũ Quang Nam"
+ },
+ {
+  "qid": "Q54861179",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Sỹ Minh",
+  "en_title": "Lê Sỹ Minh"
+ },
+ {
+  "qid": "Q54861275",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Viết Tú",
+  "en_title": "Đinh Viết Tú"
+ },
+ {
+  "qid": "Q95154720",
+  "cls": "FootballPlayer",
+  "vi_title": "Hà Thị Nhài",
+  "en_title": "Hà Thị Nhài"
+ },
+ {
+  "qid": "Q86010375",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Nhật",
+  "en_title": "Nguyễn Công Nhật"
+ },
+ {
+  "qid": "Q16480671",
+  "cls": "FootballPlayer",
+  "vi_title": "Ninh Văn Bảo",
+  "en_title": "Ninh Văn Bảo"
+ },
+ {
+  "qid": "Q16480850",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Minh Tuấn",
+  "en_title": "Vũ Minh Tuấn"
+ },
+ {
+  "qid": "Q61612686",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Ngọc Sơn",
+  "en_title": "Trần Ngọc Sơn (footballer, born 1996)"
+ },
+ {
+  "qid": "Q61613045",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hoàng Đức",
+  "en_title": "Nguyễn Hoàng Đức"
+ },
+ {
+  "qid": "Q52188808",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thành (cầu thủ bóng đá)",
+  "en_title": "Trần Thành"
+ },
+ {
+  "qid": "Q68996233",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Thảo (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Thanh Thảo"
+ },
+ {
+  "qid": "Q51754422",
+  "cls": "FootballPlayer",
+  "vi_title": "Louis Epassi Ewonde",
+  "en_title": "Louis Ewonde"
+ },
+ {
+  "qid": "Q51754418",
+  "cls": "FootballPlayer",
+  "vi_title": "Rimario Gordon",
+  "en_title": "Rimario Gordon"
+ },
+ {
+  "qid": "Q51754424",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trung Đại Dương",
+  "en_title": "Nguyễn Trung Đại Dương"
+ },
+ {
+  "qid": "Q55357719",
+  "cls": "FootballPlayer",
+  "vi_title": "Adriano Schmidt",
+  "en_title": "Adriano Schmidt"
+ },
+ {
+  "qid": "Q55362545",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hồng Sơn (cầu thủ bóng đá, sinh 2000)",
+  "en_title": "Nguyễn Hồng Sơn (footballer, born 2000)"
+ },
+ {
+  "qid": "Q45344289",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Hoàng (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Văn Hoàng"
+ },
+ {
+  "qid": "Q45399555",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Ngọc Tuấn",
+  "en_title": "Đặng Ngọc Tuấn"
+ },
+ {
+  "qid": "Q55433339",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đức Anh Quốc",
+  "en_title": "Nguyễn Đức Anh Quốc"
+ },
+ {
+  "qid": "Q94977310",
+  "cls": "FootballPlayer",
+  "vi_title": "Lương Thị Thu Thương",
+  "en_title": "Lương Thị Thu Thương"
+ },
+ {
+  "qid": "Q96002118",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Thị Thúy",
+  "en_title": "Bùi Thị Thúy"
+ },
+ {
+  "qid": "Q45450689",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Văn Tới",
+  "en_title": "Đặng Văn Tới"
+ },
+ {
+  "qid": "Q94999224",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngân Thị Vạn Sự",
+  "en_title": "Ngân Thị Vạn Sự"
+ },
+ {
+  "qid": "Q94999326",
+  "cls": "FootballPlayer",
+  "vi_title": "Thái Thị Thảo",
+  "en_title": "Thái Thị Thảo"
+ },
+ {
+  "qid": "Q95000305",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Tuyết Ngân",
+  "en_title": "Nguyễn Thị Tuyết Ngân"
+ },
+ {
+  "qid": "Q96002188",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Vạn",
+  "en_title": "Nguyễn Thị Vạn"
+ },
+ {
+  "qid": "Q16205805",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Văn Thành",
+  "en_title": "Đặng Văn Thành"
+ },
+ {
+  "qid": "Q95011010",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thị Thúy Hằng",
+  "en_title": "Nguyễn Thị Thúy Hằng"
+ },
+ {
+  "qid": "Q52159944",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Sỹ Huy",
+  "en_title": "Đỗ Sỹ Huy"
+ },
+ {
+  "qid": "Q52160398",
+  "cls": "FootballPlayer",
+  "vi_title": "Lê Văn Xuân (cầu thủ bóng đá)",
+  "en_title": "Lê Văn Xuân"
+ },
+ {
+  "qid": "Q52161415",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Sỹ Giáp",
+  "en_title": "Hồ Sỹ Giáp"
+ },
+ {
+  "qid": "Q65172117",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Đức Chiến",
+  "en_title": "Nguyễn Đức Chiến"
+ },
+ {
+  "qid": "Q45589477",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Xuân Sơn",
+  "en_title": "Ngô Xuân Sơn"
+ },
+ {
+  "qid": "Q65172403",
+  "cls": "FootballPlayer",
+  "vi_title": "Đậu Văn Toàn",
+  "en_title": "Đậu Văn Toàn"
+ },
+ {
+  "qid": "Q65175131",
+  "cls": "FootballPlayer",
+  "vi_title": "Tô Văn Vũ",
+  "en_title": "Tô Văn Vũ"
+ },
+ {
+  "qid": "Q45597173",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Duy Thường",
+  "en_title": "Bùi Duy Thường"
+ },
+ {
+  "qid": "Q42307848",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Văn Học (cầu thủ bóng đá)",
+  "en_title": "Trần Văn Học"
+ },
+ {
+  "qid": "Q49055646",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Đại",
+  "en_title": "Nguyễn Trọng Đại"
+ },
+ {
+  "qid": "Q61612559",
+  "cls": "FootballPlayer",
+  "vi_title": "Đặng Văn Trâm",
+  "en_title": "Đặng Văn Trâm"
+ },
+ {
+  "qid": "Q17126699",
+  "cls": "FootballPlayer",
+  "vi_title": "Chương Thị Kiều",
+  "en_title": "Chương Thị Kiều"
+ },
+ {
+  "qid": "Q7708869",
+  "cls": "FootballPlayer",
+  "vi_title": "Thạch Bảo Khanh",
+  "en_title": "Thạch Bảo Khanh"
+ },
+ {
+  "qid": "Q29872625",
+  "cls": "FootballPlayer",
+  "vi_title": "Đinh Thanh Bình",
+  "en_title": "Đinh Thanh Bình"
+ },
+ {
+  "qid": "Q52714394",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Công Thảo",
+  "en_title": "Trương Công Thảo"
+ },
+ {
+  "qid": "Q78707850",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Thị Loan (cầu thủ bóng đá)",
+  "en_title": "Hoàng Thị Loan (footballer)"
+ },
+ {
+  "qid": "Q30079512",
+  "cls": "FootballPlayer",
+  "vi_title": "Huỳnh Tấn Sinh",
+  "en_title": "Huỳnh Tấn Sinh"
+ },
+ {
+  "qid": "Q30079678",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Thanh Sơn",
+  "en_title": "Trần Thanh Sơn"
+ },
+ {
+  "qid": "Q7778399",
+  "cls": "FootballPlayer",
+  "vi_title": "Mạc Hồng Quân",
+  "en_title": "Mạc Hồng Quân"
+ },
+ {
+  "qid": "Q30025810",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Tiến Dũng (cầu thủ bóng đá, sinh 1997)",
+  "en_title": "Bùi Tiến Dũng (footballer, born 1997)"
+ },
+ {
+  "qid": "Q30125754",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Đình Khương",
+  "en_title": "Trần Đình Khương"
+ },
+ {
+  "qid": "Q56224050",
+  "cls": "FootballPlayer",
+  "vi_title": "Trịnh Văn Lợi",
+  "en_title": "Trịnh Văn Lợi"
+ },
+ {
+  "qid": "Q17485579",
+  "cls": "FootballPlayer",
+  "vi_title": "Florentin Phạm Huy Tiến",
+  "en_title": "Florentin Pham"
+ },
+ {
+  "qid": "Q42907594",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Văn Thuận",
+  "en_title": "Đỗ Văn Thuận"
+ },
+ {
+  "qid": "Q7022892",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Ngọc Thanh (cầu thủ bóng đá, sinh 1982)",
+  "en_title": "Nguyễn Ngọc Thanh"
+ },
+ {
+  "qid": "Q7180369",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Minh Đức",
+  "en_title": "Phạm Minh Đức"
+ },
+ {
+  "qid": "Q30923761",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Công Minh (cầu thủ bóng đá, sinh 1999)",
+  "en_title": "Trần Công Minh"
+ },
+ {
+  "qid": "Q56513413",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Filip",
+  "en_title": "Filip Nguyen"
+ },
+ {
+  "qid": "Q79385518",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thanh Huyền",
+  "en_title": "Nguyễn Thanh Huyền"
+ },
+ {
+  "qid": "Q56750857",
+  "cls": "FootballPlayer",
+  "vi_title": "Đỗ Thị Ngọc Châm",
+  "en_title": "Đỗ Thị Ngọc Châm"
+ },
+ {
+  "qid": "Q86010587",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Toản",
+  "en_title": "Nguyễn Văn Toản (footballer, born 1999)"
+ },
+ {
+  "qid": "Q7022927",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quang Hải (cầu thủ bóng đá, sinh 1985)",
+  "en_title": "Nguyễn Quang Hải (footballer, born 1985)"
+ },
+ {
+  "qid": "Q7022932",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Quốc Long",
+  "en_title": "Nguyễn Quốc Long"
+ },
+ {
+  "qid": "Q7022954",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thành Long Giang",
+  "en_title": "Nguyễn Thành Long Giang"
+ },
+ {
+  "qid": "Q7023000",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Hoàng",
+  "en_title": "Nguyễn Trọng Hoàng"
+ },
+ {
+  "qid": "Q7023010",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Văn Biển",
+  "en_title": "Nguyễn Văn Biển"
+ },
+ {
+  "qid": "Q7023058",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Việt Thắng (cầu thủ bóng đá)",
+  "en_title": "Nguyễn Việt Thắng"
+ },
+ {
+  "qid": "Q7023085",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Gia Từ",
+  "en_title": "Nguyễn Gia Từ"
+ },
+ {
+  "qid": "Q56868111",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Thế Nhật",
+  "en_title": "Phạm Thế Nhật"
+ },
+ {
+  "qid": "Q18045155",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Hữu Anh Tài",
+  "en_title": "Nguyễn Hữu Anh Tài"
+ },
+ {
+  "qid": "Q18045362",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Công Phượng",
+  "en_title": "Nguyễn Công Phượng"
+ },
+ {
+  "qid": "Q7180363",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Hải Nam",
+  "en_title": "Phạm Hải Nam"
+ },
+ {
+  "qid": "Q7180372",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Nguyên Sa",
+  "en_title": "Phạm Nguyên Sa"
+ },
+ {
+  "qid": "Q7180411",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Thanh Giang",
+  "en_title": "Phan Thanh Giang"
+ },
+ {
+  "qid": "Q7180415",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Thanh Hùng",
+  "en_title": "Phan Thanh Hùng"
+ },
+ {
+  "qid": "Q7180413",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Thanh Hưng",
+  "en_title": "Phan Thanh Hưng"
+ },
+ {
+  "qid": "Q7188349",
+  "cls": "FootballPlayer",
+  "vi_title": "Phùng Công Minh",
+  "en_title": "Phùng Công Minh"
+ },
+ {
+  "qid": "Q7188356",
+  "cls": "FootballPlayer",
+  "vi_title": "Phùng Văn Nhiên",
+  "en_title": "Phùng Văn Nhiên"
+ },
+ {
+  "qid": "Q76973190",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Trọng Hùng",
+  "en_title": "Nguyễn Trọng Hùng"
+ },
+ {
+  "qid": "Q54336530",
+  "cls": "FootballPlayer",
+  "vi_title": "Phan Đình Vũ Hải",
+  "en_title": "Phan Đình Vũ Hải"
+ },
+ {
+  "qid": "Q50820212",
+  "cls": "FootballPlayer",
+  "vi_title": "Hồ Tấn Tài",
+  "en_title": "Hồ Tấn Tài"
+ },
+ {
+  "qid": "Q42907587",
+  "cls": "FootballPlayer",
+  "vi_title": "Vũ Xuân Cường (cầu thủ bóng đá)",
+  "en_title": "Vũ Xuân Cường"
+ },
+ {
+  "qid": "Q97159587",
+  "cls": "FootballPlayer",
+  "vi_title": "Bùi Hoàng Việt Anh",
+  "en_title": "Bùi Hoàng Việt Anh"
+ },
+ {
+  "qid": "Q61129652",
+  "cls": "FootballPlayer",
+  "vi_title": "Phạm Văn Phong",
+  "en_title": "Phạm Văn Phong"
+ },
+ {
+  "qid": "Q61132906",
+  "cls": "FootballPlayer",
+  "vi_title": "Ngô Tùng Quốc",
+  "en_title": "Ngô Tùng Quốc"
+ },
+ {
+  "qid": "Q16158518",
+  "cls": "FootballPlayer",
+  "vi_title": "Phùng Thanh Phương",
+  "en_title": "Phùng Thanh Phương"
+ },
+ {
+  "qid": "Q16158879",
+  "cls": "FootballPlayer",
+  "vi_title": "Trần Nguyên Mạnh",
+  "en_title": "Trần Nguyên Mạnh"
+ },
+ {
+  "qid": "Q16158988",
+  "cls": "FootballPlayer",
+  "vi_title": "Trương Việt Hoàng",
+  "en_title": "Trương Việt Hoàng"
+ },
+ {
+  "qid": "Q43375069",
+  "cls": "FootballPlayer",
+  "vi_title": "Nguyễn Thái Sung",
+  "en_title": "Nguyễn Thái Sung"
+ },
+ {
+  "qid": "Q7410376",
+  "cls": "FootballPlayer",
+  "vi_title": "Hoàng Vũ Samson",
+  "en_title": "Hoàng Vũ Samson"
+ }
+]

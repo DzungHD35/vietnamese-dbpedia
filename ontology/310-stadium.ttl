@@ -1,0 +1,31 @@
+@prefix vio:  <http://vi.dbpedia.org/ontology/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ===== Sân vận động =====
+vio:capacity a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "sức chứa"@vi , "capacity"@en ;
+  rdfs:domain vio:Stadium ; rdfs:range xsd:nonNegativeInteger ;
+  rdfs:subPropertyOf dbo:seatingCapacity .
+
+vio:openingYear a owl:DatatypeProperty , owl:FunctionalProperty ;
+  rdfs:label "năm khánh thành"@vi , "opening year"@en ;
+  rdfs:domain vio:Stadium ; rdfs:range xsd:gYear ;
+  rdfs:subPropertyOf dbo:openingYear .
+
+vio:owner a owl:ObjectProperty ;
+  rdfs:label "chủ sở hữu"@vi , "owner"@en ;
+  rdfs:subPropertyOf dbo:owner .
+
+vio:operator a owl:ObjectProperty ;
+  rdfs:label "đơn vị vận hành"@vi , "operator"@en ;
+  rdfs:subPropertyOf dbo:operator .
+
+vio:tenant a owl:ObjectProperty ;
+  rdfs:label "đội thuê sân"@vi , "tenant"@en ;
+  rdfs:comment "Mọi đội từng dùng sân, kể cả tạm thời (ô bên thuê của infobox, Wikidata P466). Không khai báo owl:inverseOf vio:ground (DBpedia cũng tách dbo:tenant và dbo:ground): nếu khai báo, mọi đội từng thuê Hàng Đẫy sẽ bị suy ra có sân nhà ở Hà Nội."@vi ;
+  rdfs:domain vio:Stadium ;
+  rdfs:subPropertyOf dbo:tenant .

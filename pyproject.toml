@@ -1,0 +1,20 @@
+[project]
+name = "vietnamese-dbpedia"
+version = "1.0.0"
+description = "Vietnamese DBpedia: Linked Data từ Wikipedia tiếng Việt, SPARQL endpoint và hỏi đáp KG-RAG"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501", "E722"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# Cảnh báo deprecation của pyparsing phát sinh bên trong rdflib, không phải từ code dự án
+filterwarnings = ["ignore::DeprecationWarning:rdflib.*", "ignore:.*deprecated - use:DeprecationWarning"]
