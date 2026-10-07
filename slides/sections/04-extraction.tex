@@ -1,0 +1,41 @@
+% Part 2 -- Bui Duc Phan Hoang: infobox extraction
+
+% --------- Slide 8: Wikitext to RDF ---------
+\begin{frame}{From Wikitext to RDF}
+    \begin{columns}[T]
+    \column{0.5\textwidth}
+    \textbf{Infobox extraction}
+    \begin{enumerate}
+        \footnotesize
+        \item \textbf{Render} nested templates (dates, heights, lists); drop refs
+        \item \textbf{Parse} Vietnamese values: \term{16.361,2}, \term{2015–},
+              \term{→ (mượn)} (on loan)
+        \item \textbf{Map} keys to \term{vio:} for 5 template families
+        \item \textbf{Choose} Wikidata or infobox per property
+    \end{enumerate}
+    \vspace{0.3em}
+    \footnotesize
+    Career rows \term{years}$n$/\term{clubs}$n$/\term{caps}$n$/\term{goals}$n$
+    $\rightarrow$ \alert{3{,}382} \term{CareerStation}s for 601 players
+
+    \column{0.48\textwidth}
+    \textbf{DBpedia datasets reproduced}
+    \begin{itemize}
+        \footnotesize
+        \item labels (vi, en), abstracts: 990
+        \item page IDs, revisions, provenance
+        \item images: 543
+        \item categories: 9{,}126 links
+        \item redirects: 1{,}274
+        \item external links, homepages, coordinates
+        \item raw infobox \term{vip:}: 24{,}605 triples
+    \end{itemize}
+    \end{columns}
+    \vspace{0.8em}
+    \begin{block}{IRIs keep Unicode, like DBpedia chapters}
+        \footnotesize
+        \term{http://vi.dbpedia.org/resource/Nguyễn\_Công\_Phượng} \;·\; stations
+        \term{…\_\_1}, \term{…\_\_2}, \ldots \;·\; redirects $\rightarrow$
+        \term{skos:altLabel}
+    \end{block}
+\end{frame}

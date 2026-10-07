@@ -1,0 +1,66 @@
+% Part 2 -- Bui Duc Phan Hoang: ontology and OWL axioms
+
+% --------- Slide 6: Classes ---------
+\begin{frame}{Ontology \texttt{vio:} --- 18 Classes Aligned with DBpedia}
+    \centering
+    \scriptsize
+    \adjustbox{max width=\textwidth}{%
+    \begin{tabular}{@{}llrcr@{}}
+        \toprule
+        Class (\term{vio:}) & DBpedia superclass & Asserted & & Reasoned \\
+        \midrule
+        \term{Person}                        & \term{dbo:Person}                 & 0     & $\rightarrow$ & \alert{659} \\
+        \quad\term{Athlete}                  & \term{dbo:Athlete}                & 0     & $\rightarrow$ & 611 \\
+        \qquad\term{FootballPlayer}          & \term{dbo:SoccerPlayer}           & 611   &               & 611 \\
+        \qquad\quad\term{NationalTeamPlayer} & ---                               & 0     & $\rightarrow$ & \alert{486} \\
+        \term{Organisation}                  & \term{dbo:Organisation}           & 0     & $\rightarrow$ & 410 \\
+        \quad\term{FootballClub}             & \term{dbo:SoccerClub}             & 61    & $\rightarrow$ & \alert{215} \\
+        \quad\term{NationalFootballTeam}     & \term{dbo:NationalSoccerClub}     & 10    & $\rightarrow$ & 27 \\
+        \quad\term{EducationalInstitution}   & \term{dbo:EducationalInstitution} & 0     & $\rightarrow$ & 168 \\
+        \qquad\term{University}              & \term{dbo:University}             & 168   &               & 168 \\
+        \term{Location}                      & \term{dbo:Place}                  & 0     & $\rightarrow$ & 370 \\
+        \quad\term{Province}                 & \term{dbo:Province}               & 110   &               & 110 \\
+        \qquad\term{FormerProvince}          & ---                               & 76    &               & 76 \\
+        \quad\term{Stadium}                  & \term{dbo:Stadium}                & 29    & $\rightarrow$ & 44 \\
+        \quad\term{Country}                  & \term{dbo:Country}                & 1     &               & 1 \\
+        \term{CareerStation}                 & \term{dbo:CareerStation}          & 0     & $\rightarrow$ & 3{,}382 \\
+        \quad\term{Youth}/\term{Club}/\term{NationalTeamStation} & ---       & \multicolumn{3}{c}{527 / 1{,}966 / 889} \\
+        \bottomrule
+    \end{tabular}}
+
+    \vspace{0.6em}
+    \raggedright
+    \footnotesize
+    54 properties (26 object, 28 datatype): 38 $\sqsubseteq$ a \term{dbo:} property, 22 functional,
+    labels in vi and en. \term{FormerProvince} keeps history and still gives ``34 provinces''.
+\end{frame}
+
+% --------- Slide 7: Axioms ---------
+\begin{frame}{OWL Axioms Do the Work}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}Xl@{}}
+        \toprule
+        Axiom & Definition & After reasoning \\
+        \midrule
+        Property chain & $\term{careerStation} \circ \term{team} \sqsubseteq \term{playedFor}$
+            & \hl{2{,}772} player--team edges \\[0.3em]
+        Inverse & $\term{hasPlayer} \equiv \term{playedFor}^{-}$
+            & clubs list their players \\[0.3em]
+        $\exists$ restriction & $\exists\,\term{careerStation}.\term{NationalTeamStation} \sqsubseteq \term{NationalTeamPlayer}$
+            & \hl{486} national-team players \\[0.3em]
+        $\forall$ restriction & $\term{ClubStation} \sqsubseteq \forall\,\term{team}.\term{FootballClub}$
+            & \hl{154} more clubs typed \\[0.3em]
+        Alignment & every \term{vio:} class, 38 properties $\sqsubseteq$ \term{dbo:}
+            & \term{dbo:Person}: 0 $\rightarrow$ \hl{659} \\[0.3em]
+        Disjointness & 4 \term{owl:AllDisjointClasses}
+            & caught \hl{2 modelling bugs} \\
+        \bottomrule
+    \end{tabularx}
+
+    \vspace{1em}
+    \begin{block}{Designed from competency questions}
+        \footnotesize
+        ``Which clubs has a player played for?'' \;·\; ``How many provinces are there now?''
+        \;·\; ``Which clubs play at home in Hà Nội?'' --- each is now an automated test
+    \end{block}
+\end{frame}
