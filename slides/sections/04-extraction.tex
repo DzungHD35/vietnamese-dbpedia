@@ -1,4 +1,4 @@
-% Part 2 -- Bui Duc Phan Hoang: infobox extraction
+% Part 2 -- Bui Duc Phan Hoang: infobox extraction, transform to 4 stars
 
 % --------- Slide 8: Wikitext to RDF ---------
 \begin{frame}{From Wikitext to RDF}
@@ -38,4 +38,35 @@
         \term{…\_\_1}, \term{…\_\_2}, \ldots \;·\; redirects $\rightarrow$
         \term{skos:altLabel}
     \end{block}
+\end{frame}
+
+% --------- Slide 9: Transform to 4 stars ---------
+\begin{frame}[fragile]{Transform to 4$\star$: One Infobox, Before and After}
+    \scriptsize
+    \textbf{Before}: wikitext --- open and machine-readable, but text that names nothing with a URI ($\leq 3\star$)
+\begin{Verbatim}[fontsize=\tiny]
+| birth_date  = {{ngày sinh và tuổi|1995|1|21}}
+| birth_place = [[Đô Lương (huyện)|Đô Lương]], [[Nghệ An]], [[Việt Nam]]
+| height      = {{convert|1,69|m}}
+| years2 = 2016  | clubs2 = → [[Mito HollyHock]] (mượn)  | caps2 = 5  | goals2 = 0
+\end{Verbatim}
+    \vspace{-0.3em}
+    \begin{center}$\Downarrow$\; \texttt{python -m vidbpedia build}\end{center}
+    \vspace{-0.6em}
+    \textbf{After}: RDF with an HTTP IRI for every thing (4$\star$)
+\begin{Verbatim}[fontsize=\tiny]
+vres:Nguyễn_Công_Phượng a vio:FootballPlayer ;
+    vio:birthDate "1995-01-21"^^xsd:date ;
+    vio:birthPlace vres:Đô_Lương_\(huyện\) ;  vio:birthProvince vres:Nghệ_An ;
+    vio:height 1.68e+00 ;                      # xsd:double; Wikidata wins over 1,69
+    vio:careerStation vres:Nguyễn_Công_Phượng__3 .
+vres:Nguyễn_Công_Phượng__3 a vio:ClubStation ;
+    vio:team vres:Mito_HollyHock ;  vio:onLoan true ;
+    vio:startYear "2016"^^xsd:gYear ;  vio:endYear "2016"^^xsd:gYear ;
+    vio:appearances "5"^^xsd:nonNegativeInteger ;
+    vio:goals "0"^^xsd:nonNegativeInteger .
+\end{Verbatim}
+    \hl{IRIs} for the player, places, clubs and the loan spell itself \;·\;
+    \hl{typed literals} (\term{xsd:date}, \term{gYear}, \term{nonNegativeInteger}, \term{boolean}) \;·\;
+    links and templates \hl{interpreted} \;·\; \hl{shared vocabularies} (\term{vio:} $\sqsubseteq$ \term{dbo:})
 \end{frame}

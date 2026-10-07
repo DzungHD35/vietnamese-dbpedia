@@ -35,10 +35,15 @@ sections/
   05-evaluation.tex    thống kê, độ phủ, tác động của suy luận, test, kiểm tra liên kết DBpedia, CQ, 5 sao
   06-discussion.tex    quyết định thiết kế và hạn chế
   07-conclusion.tex
-figures/            ảnh chụp giao diện (ui_resource.png, ui_sparql.png)
+figures/            ảnh chụp giao diện (ui_resource.png, ui_sparql.png) và hình RDFS (rdfs_graph.tex)
 ```
 
-Hai hình sơ đồ (kiến trúc và ví dụ đồ thị một thực thể) vẽ bằng TikZ ngay trong `03-method.tex`.
+Ba hình sơ đồ vẽ bằng TikZ:
+- kiến trúc và ví dụ đồ thị một thực thể: ngay trong `03-method.tex`;
+- đồ thị RDFS (Hình 2): `figures/rdfs_graph.tex`, vẽ theo kiểu bài giảng (hình elip, `rdfs:Class` và
+  `rdf:Property` ở trên, đường kẻ ngang tách schema với dữ liệu) cho một phần ontology và ví dụ Công
+  Phượng. Dùng chung với slide 6; màu đặt trong `preamble.tex` của từng thư mục, cỡ chữ trong hình
+  là cỡ tuyệt đối nên hai nơi hiển thị giống nhau. Cây lớp đầy đủ kèm số thực thể nằm ở Bảng 3.
 
 ## Số liệu
 
@@ -65,8 +70,9 @@ khung, nội dung truy vấn không đổi.
 
 ## Trạng thái
 
-Build sạch: 14 trang (giới hạn của đề là 15), 0 lỗi LaTeX, 0 tham chiếu hay trích dẫn chưa giải,
-0 cảnh báo BibTeX, 0 dòng tràn lề.
+Build sạch: 15 trang, đúng bằng giới hạn của đề (≤ 15), 0 lỗi LaTeX, 0 tham chiếu hay trích dẫn
+chưa giải, 0 cảnh báo BibTeX, 0 dòng tràn lề. Thêm nội dung thì phải bớt chỗ khác: trang 14 chỉ có
+mục Conclusion, trang 15 là tài liệu tham khảo.
 
 ## Trước khi nộp
 

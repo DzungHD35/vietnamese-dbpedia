@@ -34,7 +34,7 @@
 
 % --- TikZ for diagrams ---
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta, calc, positioning}
+\usetikzlibrary{arrows.meta, calc, positioning, shapes.geometric}
 \usepackage{adjustbox}   % shrink over-wide diagrams to the text width
 
 % Vocabulary terms and IRIs: \term{vio:playedFor}
@@ -52,6 +52,11 @@
 % Edge colours in data diagrams: asserted (gray), inferred (HUST red, dashed), external links (blue)
 \definecolor{accgray}{HTML}{8A8984}
 \definecolor{accblue}{HTML}{2A78D6}
+% RDFS graph figure (shared with the report: ../report/figures/rdfs_graph.tex)
+\colorlet{rdfsdraw}{hustred}
+\colorlet{rdfsfill}{hustlight}
+\colorlet{rdfsprop}{hustdark}
+\colorlet{rdfsaxiom}{hustred}
 
 % --- Override Madrid palette ---
 \setbeamercolor{structure}{fg=hustred}

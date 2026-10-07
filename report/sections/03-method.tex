@@ -97,6 +97,21 @@ provinces. A province is former if Wikidata records a dissolution date
 question ``how many provinces are there now'' returns the correct answer, 34,
 while history is kept through \term{vio:successor} and \term{vio:predecessor}.
 
+\begin{figure}[t]
+\centering
+\resizebox{\textwidth}{!}{\input{figures/rdfs_graph}}
+\caption{RDFS graph of an excerpt of the ontology. Above the line is the
+schema: classes and properties are resources typed by \term{rdfs:Class} and
+\term{rdf:Property}, linked by \term{rdfs:subClassOf} and
+\term{rdfs:subPropertyOf}; blue edges are the \term{rdfs:domain} and
+\term{rdfs:range} of two properties. Below the line are instance data
+(\term{vres:…\_\_2} is the career station \term{vres:Nguyễn\_Công\_Phượng\_\_2}).
+The dashed edge is a triple that RDFS entails: the player is also a
+\term{dbo:Person}. Only some \term{rdf:type} edges to the RDFS vocabulary are
+drawn; the full class hierarchy is in Table~\ref{tab:classes}.}
+\label{fig:rdfs}
+\end{figure}
+
 \begin{table}[t]
 \centering
 \caption{Class hierarchy of \term{vio:} (indentation shows
@@ -131,9 +146,11 @@ Class & DBpedia superclass & Asserted & After reasoning \\
 \end{table}
 
 \paragraph{Properties.} The ontology has 54 properties, 26 object and 28
-datatype properties. Each has a domain and range, labels in Vietnamese and
-English, and, when DBpedia has an equivalent of the same kind, an
-\term{rdfs:subPropertyOf} link to it (38 properties). Typical examples are
+datatype properties (Figure~\ref{fig:rdfs}). All have labels in Vietnamese and
+English. Every datatype property has an \term{rdfs:range}, and 39 properties
+have an \term{rdfs:domain} (24 datatype, 15 object). When DBpedia has an
+equivalent of the same kind, the property is an \term{rdfs:subPropertyOf} of it
+(38 properties). Typical examples are
 \term{vio:birthDate} $\sqsubseteq$ \term{dbo:birthDate},
 \term{vio:capacity} $\sqsubseteq$ \term{dbo:seatingCapacity}, and
 \term{vio:birthProvince} $\sqsubseteq$ \term{vio:birthPlace} $\sqsubseteq$
@@ -299,6 +316,66 @@ infobox) and fall back to the Wikidata statements \term{P54}. In total 601
 players receive 3{,}382 stations. The
 build also writes \term{mapping\_stats.json}, which counts mapped
 and unmapped keys for each template family, to guide which mappings to add next.
+
+\paragraph{From three to four stars.} Listing~\ref{lst:fourstar} follows one
+infobox through the transformation. Before it, the data are machine-readable
+and in an open format, but they are text that names nothing with a URI: at
+most three stars. After it, the data are four-star RDF. Four things change.
+\begin{itemize}
+  \item \emph{Every thing gets an HTTP IRI}: the player, the district, the
+        province and both clubs. So does the loan spell itself, which turns
+        the row ``club, years, appearances, goals, on loan'' into a resource,
+        \term{vres:Nguyễn\_Công\_Phượng\_\_3}.
+  \item \emph{Values become typed literals}: \term{xsd:date},
+        \term{xsd:gYear}, \term{xsd:nonNegativeInteger}, \term{xsd:double} and
+        \term{xsd:boolean} instead of strings, and texts carry a language tag.
+  \item \emph{Markup is interpreted rather than copied}. Templates such as
+        \term{ngày sinh và tuổi} (date of birth and age) become values. Links are
+        resolved to the page they point to, following redirects. The loan
+        marker \term{→ … (mượn)} becomes \term{vio:onLoan true}. When
+        Wikidata disagrees, the \term{PRECEDENCE} table decides: the height is
+        1.68\,m from Wikidata, not the infobox's 1.69\,m.
+  \item \emph{Terms come from shared vocabularies}: \term{vio:} terms are
+        sub-classes and sub-properties of \term{dbo:} terms, and the core
+        datasets use \term{rdfs:}, \term{skos:}, \term{foaf:}, \term{dct:} and
+        \term{prov:}.
+\end{itemize}
+The result is written as Turtle and N-Triples after validation
+(Section~\ref{sec:postprocess}), and each IRI is served with content
+negotiation (Section~\ref{sec:deref}).
+
+\begin{listing}[t]
+\begin{Verbatim}
+{{Thông tin tiểu sử bóng đá
+| birth_date  = {{ngày sinh và tuổi|1995|1|21}}<ref name=a/>
+| birth_place = [[Đô Lương (huyện)|Đô Lương]], [[Nghệ An]], [[Việt Nam]]
+| height      = {{convert|1,69|m}}
+| currentclub = [[Câu lạc bộ bóng đá Thành phố Đồng Nai|Thành phố Đồng Nai]]
+| clubnumber  = 10
+| years2 = 2016   | clubs2 = → [[Mito HollyHock]] (mượn)   | caps2 = 5   | goals2 = 0
+\end{Verbatim}
+\vspace{-0.4em}
+\begin{center}\footnotesize $\Downarrow$ \quad \texttt{python -m vidbpedia build}\end{center}
+\vspace{-0.6em}
+\begin{Verbatim}
+vres:Nguyễn_Công_Phượng a vio:FootballPlayer ;
+    vio:birthDate "1995-01-21"^^xsd:date ;
+    vio:birthPlace vres:Đô_Lương_\(huyện\) ;
+    vio:birthProvince vres:Nghệ_An ;                   # Wikidata P19, then P131*
+    vio:height 1.68e+00 ;                              # xsd:double, from Wikidata
+    vio:currentClub vres:Câu_lạc_bộ_bóng_đá_Thành_phố_Đồng_Nai ;
+    vio:shirtNumber "10"^^xsd:nonNegativeInteger ;
+    vio:careerStation vres:Nguyễn_Công_Phượng__3 .
+vres:Nguyễn_Công_Phượng__3 a vio:ClubStation ;
+    vio:team vres:Mito_HollyHock ;  vio:onLoan true ;
+    vio:startYear "2016"^^xsd:gYear ;  vio:endYear "2016"^^xsd:gYear ;
+    vio:appearances "5"^^xsd:nonNegativeInteger ;  vio:goals "0"^^xsd:nonNegativeInteger .
+\end{Verbatim}
+\caption{From three to four stars: part of the infobox of Nguyễn Công Phượng
+(top, wikitext) and the triples the build produces for it (bottom, Turtle,
+excerpt).}
+\label{lst:fourstar}
+\end{listing}
 
 % =========================================================================
 \subsection{Interlinking}
