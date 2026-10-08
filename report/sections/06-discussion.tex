@@ -1,0 +1,51 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Design decisions.} Four decisions shaped the system.
+\begin{itemize}
+  \item \emph{Entities are selected through Wikidata, not through Vietnamese
+        categories.} Categories are assigned inconsistently by editors, while
+        Wikidata class and country statements give a precise selection and an
+        English sitelink for interlinking.
+  \item \emph{The data uses our own vocabulary, aligned to DBpedia, rather
+        than \term{dbo:} directly.} This let us model what DBpedia lacks,
+        such as typed career stations and former provinces, while reasoning
+        still answers queries written in the DBpedia vocabulary.
+  \item \emph{Inferred triples are materialised and stored separately.}
+        Clients get DBpedia types without running a reasoner, and the
+        interface can show which statements were asserted and which were
+        inferred.
+  \item \emph{The serving stack is a Python application with an in-memory
+        rdflib graph.} A graph of 131 thousand triples loads in a few
+        seconds, and one process serves both the Linked Data routes and the
+        interface. A dedicated triple store remains optional.
+\end{itemize}
+
+\paragraph{Limitations.} The current system has six limitations.
+\begin{itemize}
+  \item \emph{Coverage.} The dataset covers 990 entities of one domain, not the
+        whole of Vietnamese Wikipedia. The pipeline is generic, but each new
+        class needs a seed query, ontology terms, an infobox mapping and a
+        build function.
+  \item \emph{Resolvable IRIs.} The \term{vi.dbpedia.org} namespace follows the
+        convention of DBpedia chapters, but the project does not control that
+        domain. The IRIs are therefore dereferenceable only through a running
+        project server, not on the public Web. Publishing on a domain we
+        control, or under a persistent identifier service such as
+        \term{w3id.org}, would make them resolvable.
+  \item \emph{Link drift.} 44 of the 777 English links do not reach a DBpedia
+        article (Section~\ref{sec:links}). Following
+        \term{dbo:wikiPageRedirects} would fix the twelve redirects. The
+        other 32 should be checked again after each DBpedia release.
+  \item \emph{Data gaps.} 129 career stations have no team IRI, 26
+        universities have no province, and the DBpedia datasets of page links
+        (\term{dbo:wikiPageWikiLink}) and of the category hierarchy
+        (\term{skos:broader}) are not extracted.
+  \item \emph{Serving.} The server has no SPARQL~1.1 Protocol endpoint and no
+        time limit on queries. rdflib also executes \term{SERVICE} clauses,
+        which send requests to other endpoints. All three should be
+        addressed before the server is exposed on a public network.
+  \item \emph{Question answering.} The quality of the question-answering tab
+        depends on the language model, and we did not measure its accuracy
+        on a benchmark of questions.
+\end{itemize}

@@ -1,0 +1,79 @@
+% Packages, verbatim style, and title block.
+% Loaded by main.tex; do not put \documentclass or \begin{document} here.
+
+% Language and fonts. T5 must be the last (default) encoding so that Vietnamese
+% IRIs and labels (Nguyễn_Công_Phượng, Thể_loại:…) typeset with pdflatex.
+\usepackage[utf8]{inputenc}
+\usepackage[T1,T5]{fontenc}
+\usepackage{lmodern}
+\usepackage[vietnamese,english]{babel}
+
+% Set page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Verbatim blocks (SPARQL, Turtle, curl). listings cannot handle UTF-8
+% Vietnamese characters, fancyvrb passes them through to the T5 font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\footnotesize, frame=single, framesep=1.5mm, rulecolor=\color{gray!60}}
+% Floating listings keep a verbatim block on one page: \begin{listing}…\caption{…}\end{listing}
+\newfloat{listing}{t}{lol}
+\floatname{listing}{Listing}
+
+% "approximately" tilde. \sim is a mathrel, so bare $\sim$5 gets thick
+% relation spacing on both sides; \mathord strips it.
+\newcommand{\apx}{\ensuremath{\mathord{\sim}}}
+
+% Vocabulary terms and IRIs in running text: \term{vio:playedFor}.
+% Typewriter fonts do not hyphenate by default; long IRIs would overrun the
+% margin, so allow hyphenation in \term and give paragraphs extra stretch.
+\newcommand{\term}[1]{\text{\ttfamily\hyphenchar\font=45\relax #1}}
+\setlength{\emergencystretch}{3em}
+
+% Placeholder the group must fill in before submission (prints in red).
+\newcommand{\fillin}[1]{\textcolor{red}{[#1]}}
+
+% --- TikZ for schematic figures ---
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, calc, positioning, backgrounds, shapes.geometric}
+% Accent colours: project vocabulary (blue), inferred triples (orange),
+% external datasets and asserted edges (gray).
+\definecolor{accblue}{HTML}{2A78D6}
+\definecolor{accorange}{HTML}{EB6834}
+\definecolor{accgray}{HTML}{8A8984}
+% RDFS graph figure (figures/rdfs_graph.tex): instance nodes, property nodes and
+% domain/range edges, entailed triples
+\colorlet{rdfsdraw}{accblue}
+\colorlet{rdfsfill}{accblue!6}
+\colorlet{rdfsprop}{accblue!75!black}
+\colorlet{rdfsaxiom}{accorange}
+
+\title{Building a Vietnamese DBpedia:\\ Linked Open Data from Vietnamese Wikipedia}
+
+\author{%
+  \textbf{Course:} Semantic Web \\[0.4em]
+  \textbf{Topic 2:} Build a DBpedia version for Vietnamese language \\[0.4em]
+  \textbf{Group 23} \\[0.2em]
+  \begin{tabular}{@{}ll@{}}
+    Ha Thi Kim Phung   & 20242460M \\
+    Do Ngoc Trung      & 20232311M \\
+    Bui Duc Phan Hoang & 20252004M \\
+    Do Hoang Dung      & 20241184M
+  \end{tabular} \\[0.4em]
+  \textbf{Lecturer:} Dr.~Do Ba Lam%
+}
+
+\date{October 2026}

@@ -1,0 +1,35 @@
+\documentclass{beamer}  % 4:3 to match the HUST template
+
+\input{preamble}
+
+\graphicspath{{figures/}}
+
+% Four parts, one presenter each, in pipeline order (see SPEAKER_NOTES.md):
+%   Part 1  Ha Thi Kim Phung    slides 1-5    assignment, domain, architecture, collection
+%   Part 2  Bui Duc Phan Hoang  slides 6-9    RDFS graph, OWL axioms, infobox -> RDF, 4 stars
+%   Part 3  Do Hoang Dung       slides 10-14  one entity, validation, reasoning, links, 5 stars
+%   Part 4  Do Ngoc Trung       slides 15-20  interface, question answering, evaluation, closing
+
+\begin{document}
+
+% --------- Part 1: the topic and the data sources ---------
+\input{sections/00-title}
+\input{sections/01-introduction}
+\input{sections/02-collection}
+
+% --------- Part 2: ontology and transformation ---------
+\input{sections/03-ontology}
+\input{sections/04-extraction}
+
+% --------- Part 3: quality, reasoning, Linked Data ---------
+\input{sections/05-reasoning}
+\input{sections/06-linking}
+
+% --------- Part 4: querying and evaluation ---------
+\input{sections/07-interface}
+\input{sections/08-evaluation}
+
+% --------- Closing (Part 4 presenter) ---------
+\input{sections/09-conclusion}
+
+\end{document}
