@@ -2,7 +2,7 @@
 
 from urllib.parse import quote
 
-from ui.api.presets import FEATURED
+from ui.api.presets import DEMO_QUESTIONS, FEATURED
 from vidbpedia.common import DATASET, read_json
 
 HUY = "Đặng_Quang_Huy"
@@ -42,6 +42,7 @@ def test_overview_classes_and_inference(client):
     inferred = {p["prop"]: p["count"] for p in d["inferredByPredicate"]}
     assert inferred["vio:playedFor"] > 0 and len(d["inferredByPredicate"]) <= 12
     assert len(d["featured"]) == len(FEATURED)  # mọi id preset đều resolve được
+    assert d["questions"] == DEMO_QUESTIONS
 
 
 def test_search_without_diacritics(client):

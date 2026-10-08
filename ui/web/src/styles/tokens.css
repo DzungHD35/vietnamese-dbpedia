@@ -28,3 +28,9 @@
   --nav-h: 56px;
   --radius: 8px;
 }
+
+:root {
+  --lane-youth: #0d9488;
+  --lane-club: #dc2626;
+  --lane-national: #2563eb;
+}

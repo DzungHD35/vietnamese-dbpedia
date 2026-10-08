@@ -15,3 +15,8 @@ export const KIND_LABEL: Record<Kind, string> = {
 export function kindColorVar(kind: Kind): string {
   return `var(--k-${kind})`;
 }
+
+/** Giá trị màu thật của một biến CSS (canvas của Cytoscape không hiểu `var(...)`). */
+export function cssColor(name: string): string {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || "#888";
+}

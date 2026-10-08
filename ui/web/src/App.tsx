@@ -1,5 +1,7 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import { HealthBadge } from "./components/HealthBadge";
+import { SearchBox } from "./components/SearchBox";
+import { useInference } from "./context/InferenceContext";
 import { AskPage } from "./pages/AskPage";
 import { EntityPage } from "./pages/EntityPage";
 import { OverviewPage } from "./pages/OverviewPage";
@@ -10,6 +12,17 @@ const LINKS = [
   { to: "/ask", label: "Hỏi đáp", end: false },
   { to: "/sparql", label: "SPARQL", end: false },
 ];
+
+function InferenceToggle() {
+  const { showInferred, setShowInferred } = useInference();
+  return (
+    <label className="toggle" title="Bật/tắt các triple do bộ suy luận OWL 2 RL thêm vào (nét đứt, màu tím)">
+      <input type="checkbox" checked={showInferred} onChange={(e) => setShowInferred(e.target.checked)} />
+      <span className="toggle-track" />
+      Hiện suy luận
+    </label>
+  );
+}
 
 export function App() {
   return (
@@ -26,6 +39,8 @@ export function App() {
           ))}
         </nav>
         <span className="nav-spacer" />
+        <SearchBox />
+        <InferenceToggle />
         <HealthBadge />
       </header>
       <main className="page">
