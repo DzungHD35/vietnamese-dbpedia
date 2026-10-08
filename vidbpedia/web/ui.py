@@ -209,7 +209,11 @@ def chat_tab(rag):
 def sparql_tab(service):
     names = list(EXAMPLE_QUERIES)
     with gr.Tab("SPARQL", id="sparql"):
-        note(f"Các prefix sau đã được khai báo sẵn, không cần viết lại: `{', '.join(PREFIXES)}`.")
+        note(
+            f"Các prefix sau đã được khai báo sẵn, không cần viết lại: `{', '.join(PREFIXES)}`. "
+            "Chương trình khác truy vấn cùng dữ liệu qua endpoint `/sparql` (SPARQL 1.1 Protocol) "
+            "hoặc từ terminal bằng `python -m vidbpedia query`."
+        )
         with gr.Row(equal_height=False):
             with gr.Column(scale=3):
                 query = gr.Code(
