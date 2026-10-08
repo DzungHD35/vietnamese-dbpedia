@@ -18,4 +18,6 @@ const proxy = Object.fromEntries(
 export default defineConfig({
   plugins: [react()],
   server: { port: 5173, proxy },
+  // Cytoscape tự nó đã ~560 kB; chunk này chỉ tải khi mở trang có đồ thị
+  build: { chunkSizeWarningLimit: 600 },
 });

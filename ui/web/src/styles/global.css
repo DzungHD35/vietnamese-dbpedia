@@ -93,3 +93,10 @@ a:hover {
   border: 1px dashed var(--border);
   border-radius: var(--radius);
 }
+
+/* màn rộng (1920×1080): tận dụng chiều ngang */
+@media (min-width: 1600px) {
+  .page {
+    max-width: 1560px;
+  }
+}

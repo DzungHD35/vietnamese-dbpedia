@@ -1,12 +1,18 @@
+import { Suspense, lazy } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
+import { useHealth } from "./api/useHealth";
+import { GraphGate } from "./components/GraphGate";
+import { Loading } from "./components/States";
 import { HealthBadge } from "./components/HealthBadge";
 import { SearchBox } from "./components/SearchBox";
 import { useInference } from "./context/InferenceContext";
-import { AskPage } from "./pages/AskPage";
-import { EntityPage } from "./pages/EntityPage";
-import { MapPage } from "./pages/MapPage";
 import { OverviewPage } from "./pages/OverviewPage";
 import { SparqlPage } from "./pages/SparqlPage";
+
+// các trang kéo theo Cytoscape / Leaflet tách thành chunk riêng để màn đầu tải nhanh
+const AskPage = lazy(() => import("./pages/AskPage").then((m) => ({ default: m.AskPage })));
+const EntityPage = lazy(() => import("./pages/EntityPage").then((m) => ({ default: m.EntityPage })));
+const MapPage = lazy(() => import("./pages/MapPage").then((m) => ({ default: m.MapPage })));
 
 const LINKS = [
   { to: "/", label: "Tổng quan", end: true },
@@ -27,6 +33,7 @@ function InferenceToggle() {
 }
 
 export function App() {
+  const { health, offline } = useHealth();
   return (
     <>
       <header className="nav">
@@ -43,17 +50,21 @@ export function App() {
         <span className="nav-spacer" />
         <SearchBox />
         <InferenceToggle />
-        <HealthBadge />
+        <HealthBadge health={health} offline={offline} />
       </header>
       <main className="page">
-        <Routes>
-          <Route path="/" element={<OverviewPage />} />
-          <Route path="/entity/:id" element={<EntityPage />} />
-          <Route path="/ask" element={<AskPage />} />
-          <Route path="/sparql" element={<SparqlPage />} />
-          <Route path="/map" element={<MapPage />} />
-          <Route path="*" element={<OverviewPage />} />
-        </Routes>
+        <GraphGate health={health} offline={offline}>
+          <Suspense fallback={<Loading />}>
+            <Routes>
+              <Route path="/" element={<OverviewPage />} />
+              <Route path="/entity/:id" element={<EntityPage />} />
+              <Route path="/ask" element={<AskPage />} />
+              <Route path="/sparql" element={<SparqlPage />} />
+              <Route path="/map" element={<MapPage />} />
+              <Route path="*" element={<OverviewPage />} />
+            </Routes>
+          </Suspense>
+        </GraphGate>
       </main>
     </>
   );

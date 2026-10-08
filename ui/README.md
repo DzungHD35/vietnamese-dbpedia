@@ -6,29 +6,82 @@ Kế hoạch và quyết định: `.agents/CORE.md`, `.agents/PLAN.md`.
 
 ## Chạy
 
-Dev (hai terminal):
-```bash
-.venv/bin/python -m ui.api --port 8000          # API, nạp graph vài giây
-cd ui/web && npm install && npm run dev         # http://localhost:5173, proxy sang :8000
-```
-
-Demo (một process):
+Demo (một process, nên dùng khi trình bày):
 ```bash
 cd ui/web && npm install && npm run build
-.venv/bin/python -m ui.api                      # http://127.0.0.1:8000 phục vụ cả frontend
+.venv/bin/python -m ui.api                      # http://127.0.0.1:8000, phục vụ cả API lẫn frontend
+```
+`--port` và `--host` đổi cổng/địa chỉ. Graph (~131 nghìn triple) nạp trong vài giây ở thread nền; trong lúc đó
+giao diện hiện màn "Đang nạp graph…" và tự mở khi xong.
+
+Dev (hai terminal, frontend tự reload):
+```bash
+.venv/bin/python -m ui.api --port 8000          # API
+cd ui/web && npm run dev                        # http://localhost:5173, proxy sang :8000
+API_URL=http://127.0.0.1:8010 npm run dev       # nếu API chạy ở cổng khác
 ```
 
 Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độc lập.
 
+## Các màn hình
+
+| Route | Câu hỏi nó trả lời |
+|---|---|
+| `/` Tổng quan | Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu? |
+| `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
+| `/ask?q=` Hỏi đáp | Hỏi tiếng Việt → SPARQL → kết quả (có/không suy luận) → câu trả lời → đồ thị bằng chứng |
+| `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
+| `/map` Bản đồ | Tỉnh hiện hành/cũ, mũi tên kế thừa (`vio:successor`), đại học, sân vận động |
+
+Quy ước hiển thị xuyên suốt: **khai báo = nét liền, màu trung tính; suy luận = nét đứt, màu tím**. Công tắc
+"Hiện suy luận" ở thanh trên ẩn phần suy luận ở mọi đồ thị.
+
+## Hỏi đáp khi không có LLM
+
+Không có `OPENAI_API_KEY` (`/api/health` báo `llm: false`) thì 5 câu hỏi mẫu (`ui/api/presets.py`) vẫn chạy:
+SPARQL lấy từ `ui/api/demo_cache.json` nhưng **chạy thật** trên graph, nên kết quả luôn đúng dữ liệu hiện tại.
+Bước "Câu trả lời" bằng chữ khi đó trống (bản commit do tay viết, `answer: null`). Có key thì:
+```bash
+echo 'OPENAI_API_KEY=...' >> .env
+.venv/bin/python -m ui.api.cache_demo            # sinh lại demo_cache.json kèm câu trả lời; kiểm tra SPARQL trước khi commit
+```
+Có key, câu hỏi lạ được LLM sinh SPARQL và trả lời bình thường (`mode: "llm"` ép bỏ qua cache).
+
+## API
+
+Tài liệu OpenAPI: `/api/docs`.
+
+| Endpoint | Việc |
+|---|---|
+| `GET /api/health` | `ready`, `asserted_ready`, `llm`, tiến độ nạp |
+| `GET /api/overview` | số liệu tổng quan, lớp, suy luận theo thuộc tính, thực thể nổi bật, câu hỏi mẫu |
+| `GET /api/search?q=` | tìm thực thể (không cần dấu) |
+| `GET /api/entity/{id}` | dữ liệu màn Thực thể |
+| `GET /api/neighbors/{id}` | lân cận một bước (đồ thị) |
+| `GET /api/subgraph?ids=a&ids=b` | cạnh giữa một tập thực thể; **lặp tham số `ids`**, không dùng dấu phẩy vì id có thể chứa `,` |
+| `POST /api/ask`, `/api/ask/answer`, `/api/ask/asserted` | hỏi đáp (xem trên) |
+| `GET /api/sparql/examples`, `POST /api/sparql` | SPARQL cho giao diện (`inference: false` chạy trên triple khai báo) |
+| `GET/POST /sparql` | endpoint chuẩn SPARQL 1.1 Protocol: JSON (mặc định), XML, CSV theo `Accept`; CONSTRUCT trả Turtle; `?inference=false` ngoài chuẩn |
+| `GET /api/map` | điểm có toạ độ và quan hệ kế thừa |
+| `/resource/…`, `/data/…`, `/ontology/…` | Linked Data của team, gắn nguyên vẹn |
+
+Khi graph chưa nạp xong, các đường dẫn cần graph trả 503 (`/api/health` luôn trả lời và báo tiến độ).
+Trình duyệt mở `/sparql?query=…` (Accept: text/html) thấy trang SPARQL của UI; `curl` mới gọi endpoint:
+```bash
+curl -G localhost:8000/sparql -H 'Accept: application/sparql-results+json' --data-urlencode 'query=ASK { ?s ?p ?o }'
+curl -L -H 'Accept: text/turtle' localhost:8000/resource/Đặng_Quang_Huy       # Linked Data (dereference ra Turtle)
+```
+
 ## Kiểm tra
 ```bash
-.venv/bin/python -m pytest ui/tests             # dùng dataset thật, không gọi LLM
+.venv/bin/python -m pytest ui/tests             # dùng dataset thật, không gọi LLM (LLM giả trong test_ask.py)
 .venv/bin/ruff check ui && .venv/bin/ruff format --check ui
 cd ui/web && npm run build                      # kiểm kiểu TypeScript + build
 ```
 
-## API hiện có
-`/api/health`, `/api/overview`, `/api/search`, `/api/entity/{id}`, `/api/neighbors/{id}`, `/api/subgraph`;
-Linked Data của team (`/resource/…`, `/data/…`, `/ontology/…`) gắn nguyên vẹn. Tài liệu OpenAPI: `/api/docs`.
-
-Khi graph chưa nạp xong, các đường dẫn cần graph trả 503 (`/api/health` luôn trả lời và báo tiến độ).
+## Lưu ý
+- rdflib không có timeout cho truy vấn: truy vấn nặng không có `LIMIT` ở trang SPARQL có thể chạy rất lâu.
+- Bản đồ cần Internet để tải nền OpenStreetMap; chấm và mũi tên vẫn hiện khi offline.
+- Graph "chỉ khai báo" (để so sánh suy luận) nạp thêm ở thread nền sau graph chính; câu hỏi đến sớm hơn sẽ thấy
+  "đang nạp" rồi tự cập nhật.
+- `npm audit` báo 2 lỗ hổng mức vừa ở `react-router-dom` v6 (plan chốt v6; chỉ ảnh hưởng khi triển khai công khai).
