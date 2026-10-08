@@ -240,9 +240,12 @@ def neighbors(name: str, limit: int = Query(24, ge=1, le=100)):
 
 
 @router.get("/subgraph")
-def subgraph(ids: str = ""):
-    """Cạnh giữa một tập thực thể (đồ thị bằng chứng của màn Hỏi đáp)."""
-    names = [n for n in dict.fromkeys(i.strip() for i in ids.split(",")) if n]
+def subgraph(ids: list[str] = Query([])):
+    """Cạnh giữa một tập thực thể (đồ thị bằng chứng của màn Hỏi đáp): `?ids=a&ids=b`.
+
+    Lặp tham số thay vì `ids=a,b` vì id có thể chứa dấu phẩy ("Nguyễn_Quang_Hải_(cầu_thủ_bóng_đá,_sinh_1985)").
+    """
+    names = [n for n in dict.fromkeys(i.strip() for i in ids) if n]
     if len(names) > MAX_SUBGRAPH_IDS:
         raise HTTPException(status_code=422, detail=f"Tối đa {MAX_SUBGRAPH_IDS} thực thể mỗi lần.")
     view, g = kg.view, kg.graph
@@ -258,7 +261,7 @@ def subgraph(ids: str = ""):
         for p, o in g.predicate_objects(s):
             if o not in members or o == s or (s, p, o) in seen:
                 continue
-            if p not in link_props and not str(p).startswith(str(VIO)):
+            if p not in link_props and p != OWL.sameAs and not str(p).startswith(str(VIO)):
                 continue
             # vio:hasPlayer là nghịch đảo của vio:playedFor: giữ cạnh thuận, bỏ cạnh song song
             if p not in link_props and any((o, q, s) in g for q in inverse_in_link_props(p)):

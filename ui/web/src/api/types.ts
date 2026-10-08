@@ -148,3 +148,49 @@ export interface Entity {
   incoming: IncomingGroup[];
   counts: { asserted: number; inferred: number };
 }
+
+// ---- /api/ask ----
+export interface AssertedInfo {
+  rows: number | null;
+  status: "ok" | "loading" | "error";
+  error?: string;
+}
+
+export type Cells = Record<string, string>;
+
+export interface AskResult {
+  question: string;
+  source: "cache" | "llm";
+  sparql: string;
+  attempts: number;
+  error: string | null;
+  columns: string[];
+  rows: Cells[];
+  rowsTotal: number;
+  links: Record<string, Node>;
+  evidence: Node[];
+  asserted: AssertedInfo;
+}
+
+export interface AnswerResult {
+  answer: string | null;
+  reasoning: string;
+  source: "cache" | "llm" | "none";
+  note?: string;
+}
+
+// ---- /api/sparql ----
+export interface SparqlResult {
+  type: "SELECT" | "ASK" | "CONSTRUCT" | "DESCRIBE" | null;
+  columns: string[];
+  rows: Cells[];
+  links: Record<string, Node>;
+  total: number;
+  ms: number;
+  error: string | null;
+}
+
+export interface SparqlExample {
+  name: string;
+  query: string;
+}

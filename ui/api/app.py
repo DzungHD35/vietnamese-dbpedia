@@ -11,14 +11,14 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
-from ui.api.routes import entity, overview
+from ui.api.paths import WEB_DIST, WEB_INDEX
+from ui.api.routes import ask, entity, overview, sparql
 from ui.api.state import LazyView, kg
-from vidbpedia.common import DATASET, ROOT, setup_logging
+from vidbpedia.common import DATASET, setup_logging
 from vidbpedia.web.linked_data import add_routes
 
 logger = logging.getLogger(__name__)
 
-WEB_DIST = os.path.join(ROOT, "ui", "web", "dist")
 # đường dẫn cần graph: chưa nạp xong thì trả 503 thay vì lỗi 500
 NEEDS_GRAPH = ("/api/", "/sparql", "/resource/", "/data/", "/ontology/", "/page/")
 # không bao giờ trả index.html cho các đường dẫn này (sai đường dẫn thì phải 404)
@@ -56,6 +56,8 @@ def create_app(dataset_file: str = DATASET + ".nt") -> FastAPI:
 
     app.include_router(overview.router)
     app.include_router(entity.router)
+    app.include_router(ask.router)
+    app.include_router(sparql.router)
     add_routes(app, LazyView())  # Linked Data của team: /resource, /page, /data, /ontology
     _mount_frontend(app)
     return app
@@ -63,7 +65,7 @@ def create_app(dataset_file: str = DATASET + ".nt") -> FastAPI:
 
 def _mount_frontend(app: FastAPI):
     """Phục vụ ui/web/dist (nếu đã build). Đăng ký cuối cùng để route catch-all không che route khác."""
-    index = os.path.join(WEB_DIST, "index.html")
+    index = WEB_INDEX
     if not os.path.exists(index):
 
         @app.get("/", include_in_schema=False)

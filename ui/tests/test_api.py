@@ -101,8 +101,8 @@ def test_neighbors_show_inferred_played_for(client):
 def test_subgraph_between_entities(client):
     d = client.get(url("/api/entity", THAN_QN)).json()
     players = next(g for g in d["incoming"] if g["prop"] == "vio:playedFor")["items"][:10]
-    ids = ",".join(quote(i) for i in [THAN_QN, *(p["id"] for p in players)])
-    sub = client.get(f"/api/subgraph?ids={ids}").json()
+    ids = [THAN_QN, *(p["id"] for p in players)]
+    sub = client.get("/api/subgraph", params={"ids": ids}).json()
     assert len(sub["nodes"]) == 11
     played = [e for e in sub["edges"] if e["prop"] == "vio:playedFor"]
     assert len(played) == 10 and all(e["inferred"] for e in played)
@@ -110,7 +110,7 @@ def test_subgraph_between_entities(client):
 
 
 def test_subgraph_limit(client):
-    assert client.get("/api/subgraph", params={"ids": ",".join(map(str, range(61)))}).status_code == 422
+    assert client.get("/api/subgraph", params={"ids": list(map(str, range(61)))}).status_code == 422
 
 
 def test_linked_data_still_works(client):
