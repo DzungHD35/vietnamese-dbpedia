@@ -14,7 +14,7 @@ RDFS/OWL, suy luận, kiểm tra chất lượng và các thành phần lúc ch�
 3. [Mô hình dữ liệu RDFS/OWL](#3-mô-hình-dữ-liệu-rdfsowl)
 4. [Làm giàu kiểu DBpedia và trích infobox](#4-làm-giàu-kiểu-dbpedia-và-trích-infobox)
 5. [Hậu xử lý: kiểm tra, suy luận, VoID](#5-hậu-xử-lý-kiểm-tra-suy-luận-void)
-6. [Máy chủ: Linked Data và giao diện](#6-máy-chủ-linked-data-và-giao-diện)
+6. [Máy chủ: SPARQL endpoint, Linked Data và giao diện](#6-máy-chủ-sparql-endpoint-linked-data-và-giao-diện)
 7. [Kiểm thử](#7-kiểm-thử)
 8. [Các quyết định thiết kế](#8-các-quyết-định-thiết-kế)
 9. [Thêm một lớp thực thể mới](#9-thêm-một-lớp-thực-thể-mới)
@@ -55,7 +55,7 @@ flowchart TB
     end
     subgraph SRV["④ Máy chủ · vidbpedia/web/ (uvicorn)"]
         MEM[("rdflib.Graph trong bộ nhớ")]
-        API["FastAPI<br/>/resource · /page · /data · /ontology"]
+        API["FastAPI<br/>/sparql · /resource · /page · /data · /ontology"]
         UI["Gradio<br/>Cây tài nguyên · Tài nguyên · Hỏi đáp · SPARQL"]
     end
 
@@ -77,7 +77,8 @@ flowchart TB
     MEM --> UI
     UI <-->|"prompt / SPARQL"| LLM["LLM (API tương thích OpenAI)"]
     USER(("Người dùng")) --> UI
-    CLIENT(("Client RDF, ví dụ curl")) --> API
+    CLIENT(("Client RDF / SPARQL, ví dụ curl")) --> API
+    CLI(("Terminal<br/>python -m vidbpedia query")) -->|"SPARQL 1.1 Protocol"| API
     FULL -.->|"owl:sameAs"| EXT[("DBpedia EN · Wikidata")]
 ```
 
@@ -86,7 +87,7 @@ flowchart TB
 | ① Thu thập | `crawl/http.py`, `crawl/wikidata_seeds.py`, `crawl/wiki_enrich.py` | WDQS, MediaWiki API | `data/raw/wikidata/*.json`, `data/raw/wikipedia/*` | có (qua cache, `--offline` thì không) |
 | ② Ngữ nghĩa | `kg/ontology.py`, `crawl/build_rdf.py`, `crawl/infobox.py`, `crawl/infobox_mappings.py`, `crawl/iri.py` | dữ liệu thô, các module ontology | `ontology/vi-ontology.ttl`, `data/raw/rdf/*.ttl` | không |
 | ③ Hậu xử lý | `kg/postprocess.py`, `kg/validation.py`, `kg/reasoning.py` | ontology, RDF trung gian | `data/vietnamese_dbpedia.{nt,ttl}`, `data/parts/`, báo cáo | không |
-| ④ Máy chủ | `web/app.py`, `web/ui.py`, `web/sparql.py`, `web/resource_page.py`, `web/resource_tree.py`, `web/linked_data.py`, `web/kg_rag.py` | dataset cuối, `.env` | HTTP: giao diện, Linked Data | chỉ gọi LLM |
+| ④ Máy chủ | `web/app.py`, `web/ui.py`, `web/sparql.py`, `web/endpoint.py`, `web/resource_page.py`, `web/resource_tree.py`, `web/linked_data.py`, `web/kg_rag.py`; lệnh `query` (`kg/query.py`) | dataset cuối, `.env` | HTTP: giao diện, SPARQL endpoint, Linked Data | chỉ gọi LLM |
 
 Đường dẫn module tính từ `vidbpedia/`. `vocab.py` khai báo namespace và `PREFIXES`, `common.py` khai báo đường dẫn
 dữ liệu và logging, dùng chung cho mọi tầng. Mỗi bước chạy bằng `python -m vidbpedia <bước>` (`__main__.py`).
@@ -110,6 +111,7 @@ flowchart LR
     S4 --> S5["python -m vidbpedia postprocess --strict"]
     S5 --> S6["pytest"]
     S5 --> S7["python -m vidbpedia serve"]
+    S5 --> S8["python -m vidbpedia query"]
 ```
 
 | Bước | Đầu vào | Xử lý | Đầu ra |
@@ -529,13 +531,14 @@ Suy luận đã giúp phát hiện hai lỗi mô hình hoá:
 
 ---
 
-## 6. Máy chủ: Linked Data và giao diện
+## 6. Máy chủ: SPARQL endpoint, Linked Data và giao diện
 
 ### 6.1 Thành phần lúc chạy
 
 ```mermaid
 flowchart TB
     U["uvicorn (python -m vidbpedia serve)"] --> APP["FastAPI app · web/app.py: create_app()"]
+    APP --> EP["endpoint.add_routes()<br/>/sparql (SPARQL 1.1 Protocol)"]
     APP --> LOD["linked_data.add_routes()<br/>/resource · /page · /data · /ontology"]
     APP --> GR["gr.mount_gradio_app(path='/')"]
     GR --> T2["Tab Cây tài nguyên<br/>ResourceTree.render"]
@@ -547,6 +550,7 @@ flowchart TB
         INF[("set triple suy luận<br/>41.730")]
         IDX[("chỉ mục tìm kiếm<br/>nhãn + tên khác, bỏ dấu")]
     end
+    EP --> G
     LOD --> G
     T1 --> G
     T1 --> INF
@@ -556,15 +560,15 @@ flowchart TB
     T4 --> G
 ```
 
-Thứ tự khởi động (`create_app`), tổng cộng khoảng 30 giây:
+Thứ tự khởi động (`create_app`), tổng cộng khoảng 7 giây trên máy thử:
 
-1. `SparqlService` (`web/sparql.py`) nạp `data/vietnamese_dbpedia.nt` (khoảng 20 giây) và đọc số liệu từ `*_stats.json`.
-2. `ResourceView.from_files` nạp `data/parts/inferred.nt` (khoảng 8 giây) và dựng chỉ mục tìm kiếm (2.839 tên).
+1. `SparqlService` (`web/sparql.py`) nạp `data/vietnamese_dbpedia.nt` (khoảng 4 giây) và đọc số liệu từ `*_stats.json`.
+2. `ResourceView.from_files` nạp `data/parts/inferred.nt` và dựng chỉ mục tìm kiếm (2.839 tên).
 3. `ResourceTree` tính sẵn cây lớp và thành viên trực tiếp, render sẵn HTML của cây đầy đủ.
-4. Gắn route Linked Data vào FastAPI **trước**, sau đó mới mount Gradio ở `/`. Nếu làm ngược lại, route `/` của
-   Gradio sẽ che các route kia.
+4. Gắn `/sparql` và các route Linked Data vào FastAPI **trước**, sau đó mới mount Gradio ở `/`. Nếu làm ngược lại,
+   route `/` của Gradio sẽ che các route kia.
 
-Chạy với `--share` thì dùng `launch()` của Gradio: chỉ có giao diện, không có route Linked Data.
+Chạy với `--share` thì dùng `launch()` của Gradio: chỉ có giao diện, không có `/sparql` và route Linked Data.
 
 ### 6.2 URI dereference được (Linked Data)
 
@@ -696,11 +700,49 @@ sequenceDiagram
 - **Nhà cung cấp:** dùng `openai` SDK, nên chạy được với OpenAI, Gemini và Ollama qua `OPENAI_BASE_URL`. Với model
   `gpt-5*`/`o*` thì không gửi `temperature`.
 
+### 6.7 SPARQL endpoint và truy vấn từ terminal (`web/endpoint.py`, `kg/query.py`)
+
+`/sparql` làm theo SPARQL 1.1 Protocol, để chương trình khác (curl, SPARQLWrapper, YASGUI, `SPARQLStore` của rdflib)
+truy vấn cùng graph với giao diện. Lệnh `python -m vidbpedia query` chạy truy vấn từ terminal, trên dataset nạp
+trực tiếp hoặc gửi tới một endpoint (`--endpoint`). Cả hai dùng chung `kg/query.py`: `prepare` (parse, 19 prefix
+khai báo sẵn), `run` và `serialize`.
+
+| Yêu cầu | Truy vấn nằm ở |
+|---|---|
+| `GET /sparql?query=…` | tham số URL |
+| `POST /sparql`, `application/x-www-form-urlencoded` | trường `query` của form |
+| `POST /sparql`, `application/sparql-query` | thân request |
+
+| Loại truy vấn | Định dạng kết quả (đầu tiên là mặc định) |
+|---|---|
+| SELECT, ASK | JSON `application/sparql-results+json`, XML `application/sparql-results+xml`, CSV `text/csv` (chỉ SELECT) |
+| CONSTRUCT, DESCRIBE | Turtle, N-Triples, JSON-LD, RDF/XML |
+
+Định dạng chọn theo tham số `format=` (tên hoặc MIME, như DBpedia), nếu không có thì theo `Accept` có trọng số `q`.
+Định dạng không hợp với loại truy vấn thì dùng mặc định. Response có `Access-Control-Allow-Origin: *`.
+
+- **Chỉ đọc:** parser của rdflib không nhận `INSERT`/`DELETE`, trả 400 kèm thông báo lỗi.
+- **Không gửi request ra ngoài:** `/sparql` chặn `FROM`/`FROM NAMED` và `SERVICE` (400), vì hai mệnh đề này khiến
+  rdflib tải dữ liệu từ URL khác. Lệnh `query` chạy trên máy thì không chặn.
+- **Không treo giao diện:** truy vấn chạy trong threadpool. Chưa có giới hạn thời gian, vì rdflib không huỷ được một
+  truy vấn đang chạy.
+- **Hai chỗ không dùng serializer của rdflib 7.6:** XML kết quả tự sinh (`results_xml`) vì serializer XML ghi literal
+  `0` và `false` thành rỗng; bảng trên terminal tự in vì serializer `txt` sắp xếp lại các dòng, làm mất `ORDER BY`.
+
+```bash
+curl -H "Accept: text/csv" --data-urlencode \
+     "query=SELECT ?s ?cap WHERE { ?s a vio:Stadium ; vio:capacity ?cap } ORDER BY DESC(?cap) LIMIT 3" \
+     http://127.0.0.1:7860/sparql
+python -m vidbpedia query "ASK { vres:Nguyễn_Công_Phượng owl:sameAs dbr:Nguyễn_Công_Phượng }"
+python -m vidbpedia query -f truy_van.rq --format csv
+python -m vidbpedia query --endpoint http://127.0.0.1:7860/sparql "SELECT …"
+```
+
 ---
 
 ## 7. Kiểm thử
 
-`pytest` có 47 test, chạy trong khoảng 1–2 phút. Fixture `graph` trong `tests/conftest.py` nạp dataset một lần cho cả
+`pytest` có 58 test, chạy trong khoảng 25 giây. Fixture `graph` trong `tests/conftest.py` nạp dataset một lần cho cả
 phiên. Các test dùng cận dưới thay cho số cứng, để không gãy khi crawl lại.
 
 | File | Số test | Nội dung |
@@ -712,6 +754,7 @@ phiên. Các test dùng cận dưới thay cho số cứng, để không gãy kh
 | `test_kg_rag.py` | 5 | luồng hỏi đáp với LLM giả lập: tự sửa, SPARQL mode, tách `answer`/`reasoning`, chặn CONSTRUCT/DELETE |
 | `test_resource_page.py` | 14 | tìm kiếm bỏ dấu, trang tài nguyên, cây phân lớp, content negotiation, 303, 4 định dạng RDF đọc lại được, `/ontology` |
 | `test_resource_tree.py` | 4 | cây lớp, thành viên trực tiếp, chỉ có tên (không có thuộc tính), ô lọc |
+| `test_endpoint.py` | 11 | `/sparql` qua GET, POST form và POST trực tiếp; chọn định dạng theo `Accept`/`format`; XML đọc lại đúng `0`/`false`; ASK, CONSTRUCT; chặn cú pháp sai, `INSERT`, `FROM`, `SERVICE`; lệnh `query` trên dataset và qua endpoint (giữ `ORDER BY`) |
 
 ---
 

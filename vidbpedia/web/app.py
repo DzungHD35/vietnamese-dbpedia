@@ -1,4 +1,4 @@
-"""Máy chủ: route Linked Data và giao diện Gradio trên cùng một ứng dụng FastAPI.
+"""Máy chủ: SPARQL endpoint, route Linked Data và giao diện Gradio trên cùng một ứng dụng FastAPI.
 
 python -m vidbpedia serve [--host 127.0.0.1] [--port 7860] [--dataset data/vietnamese_dbpedia.nt]
 """
@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 
 from vidbpedia.common import DATASET, setup_logging
-from vidbpedia.web.linked_data import add_routes
+from vidbpedia.web import endpoint, linked_data
 from vidbpedia.web.resource_page import ResourceView
 from vidbpedia.web.sparql import SparqlService
 from vidbpedia.web.theme import FAVICON
@@ -27,7 +27,8 @@ def create_app(dataset_file):
     view = ResourceView.from_files(service.graph, dataset_file)
     ui = create_interface(service, view)
     app = FastAPI(title="Vietnamese DBpedia", docs_url=None, redoc_url=None)
-    add_routes(app, view)
+    endpoint.add_routes(app, service.graph)
+    linked_data.add_routes(app, view)
     app = gr.mount_gradio_app(app, ui, path="/", show_api=False, show_error=True, favicon_path=FAVICON)
     return app, ui
 
@@ -51,13 +52,8 @@ def main():
         return
     import uvicorn
 
-    logger.info(
-        "Giao diện http://%s:%d/ · Linked Data http://%s:%d/resource/<tên>",
-        args.host,
-        args.port,
-        args.host,
-        args.port,
-    )
+    base = f"http://{args.host}:{args.port}"
+    logger.info("Giao diện %s/ · SPARQL endpoint %s/sparql · Linked Data %s/resource/<tên>", base, base, base)
     uvicorn.run(app, host=args.host, port=args.port, log_level="warning")
 
 

@@ -3,7 +3,8 @@
 Phiên bản DBpedia cho tiếng Việt về **bóng đá Việt Nam, tỉnh thành và trường đại học**. Dữ liệu có cấu trúc được
 trích từ Wikipedia tiếng Việt (abstract, infobox, thể loại, redirect…) và Wikidata, mô tả bằng ontology `vio:`
 căn theo DBpedia Ontology, suy luận OWL 2 RL để có thêm các triple `dbo:` như DBpedia thật, liên kết `owl:sameAs`
-sang DBpedia tiếng Anh (5★), và có giao diện truy vấn SPARQL kèm hỏi đáp bằng ngôn ngữ tự nhiên (KG-RAG).
+sang DBpedia tiếng Anh (5★), và có SPARQL endpoint chuẩn, lệnh truy vấn từ terminal, giao diện web kèm hỏi đáp bằng
+ngôn ngữ tự nhiên (KG-RAG).
 
 Đề bài: *Build a DBpedia version for Vietnamese language.*
 
@@ -13,7 +14,7 @@ sang DBpedia tiếng Anh (5★), và có giao diện truy vấn SPARQL kèm hỏ
 | 2. Collect Vietnamese articles | `vidbpedia/crawl/`: chọn thực thể qua Wikidata Query Service, lấy bài viết qua MediaWiki API |
 | 3. Transform into 4★ (RDF) | `vidbpedia/crawl/build_rdf.py` + `vidbpedia/kg/postprocess.py` → `data/vietnamese_dbpedia.{ttl,nt}` |
 | 4. Link to English DBpedia | `owl:sameAs dbr:…` qua sitelink enwiki của Wikidata (777 liên kết), mô tả bằng VoID Linkset |
-| 5. SPARQL endpoint / interface | `vidbpedia/web/`: 4 tab theo thứ tự Cây tài nguyên, Tài nguyên (kiểu dbpedia.org/page), Hỏi đáp (LLM sinh SPARQL, có SPARQL mode), SPARQL; URI dereference được (`/resource/…`) |
+| 5. SPARQL endpoint / terminal | SPARQL endpoint `/sparql` theo SPARQL 1.1 Protocol (`vidbpedia/web/endpoint.py`); lệnh `python -m vidbpedia query` (`vidbpedia/kg/query.py`); giao diện 4 tab: Cây tài nguyên, Tài nguyên (kiểu dbpedia.org/page), Hỏi đáp (LLM sinh SPARQL, có SPARQL mode), SPARQL; URI dereference được (`/resource/…`) |
 
 ## Dataset
 
@@ -24,7 +25,7 @@ sang DBpedia tiếng Anh (5★), và có giao diện truy vấn SPARQL kèm hỏ
 | Quá trình thi đấu | 3.382 `CareerStation` của 601 cầu thủ |
 | `owl:sameAs` | 777 → DBpedia EN, 990 → Wikidata |
 | Làm giàu từ Wikipedia | 990 abstract, 543 ảnh, 1.154 thể loại (`dct:subject` 9.126), 1.274 redirect, 713 link ngoài |
-| Infobox thô (`vip:`) | 26.001 triple, 698 thuộc tính |
+| Infobox thô (`vip:`) | 24.605 triple, 687 thuộc tính |
 | Ngôn ngữ nhãn | vi, en |
 | Kiểm tra chất lượng | 0 lỗi, 0 cảnh báo (`data/validation_report.json`) |
 | License | CC BY-SA 4.0 (theo Wikipedia) |
@@ -45,7 +46,8 @@ postprocess (kiểm tra, suy luận OWL 2 RL, VoID)
     ─► data/vietnamese_dbpedia.{ttl,nt}                     bản đầy đủ, nạp vào máy chủ
     ─► data/parts/{ontology.ttl, asserted.nt, inferred.nt}  tách theo nguồn gốc
     ─► data/vietnamese_dbpedia_stats.json, data/validation_report.json
-serve (FastAPI + Gradio) ─► giao diện 4 tab + URI dereference được /resource/…
+serve (FastAPI + Gradio) ─► giao diện 4 tab + SPARQL endpoint /sparql + URI dereference được /resource/…
+query ─► chạy truy vấn SPARQL từ terminal (trên dataset hoặc qua --endpoint)
 ```
 
 Mỗi bước là một lệnh `python -m vidbpedia <bước>`.
@@ -68,7 +70,8 @@ pip install -r requirements.txt
 cp .env.example .env                # điền key LLM nếu dùng tab Hỏi đáp
 
 # Dữ liệu thô và dataset cuối đã có sẵn trong data/, chỉ cần chạy máy chủ:
-python -m vidbpedia serve           # http://127.0.0.1:7860 (giao diện) và /resource/<tên> (Linked Data)
+python -m vidbpedia serve           # http://127.0.0.1:7860: giao diện, /sparql, /resource/<tên>
+python -m vidbpedia query "SELECT ?s WHERE { ?s a vio:Stadium } LIMIT 5"   # truy vấn từ terminal
 
 # Dựng lại từ đầu (lần đầu khoảng 5–8 phút; các lần sau dùng cache)
 python -m vidbpedia seeds           # --offline: chỉ dùng cache, --refresh: tải lại
@@ -76,7 +79,7 @@ python -m vidbpedia enrich          # --offline, --refresh
 python -m vidbpedia ontology        # ghép ontology/*.ttl → vi-ontology.ttl
 python -m vidbpedia build
 python -m vidbpedia postprocess --strict   # --no-reason, --reasoner rdfs, --rdfxml: xuất thêm .rdf
-pytest                              # 47 test, khoảng 1–2 phút
+pytest                              # 58 test, khoảng 25 giây
 ```
 
 Docker: `docker compose up --build` (cổng 7860; Virtuoso tuỳ chọn ở cổng 8890).
@@ -98,6 +101,25 @@ N-Triples, JSON-LD hoặc RDF/XML theo header `Accept`.
 ```bash
 curl -L -H "Accept: text/turtle" http://127.0.0.1:7860/resource/Nguyễn_Công_Phượng
 ```
+
+## SPARQL endpoint và terminal
+
+`/sparql` làm theo SPARQL 1.1 Protocol: nhận `GET ?query=…`, `POST` dạng form hoặc `POST` thân là truy vấn
+(`application/sparql-query`). Kết quả SELECT/ASK là JSON (mặc định), XML hoặc CSV; CONSTRUCT/DESCRIBE là Turtle
+(mặc định), N-Triples, JSON-LD hoặc RDF/XML, chọn theo header `Accept` hoặc tham số `format=`. 19 prefix của dự án được
+khai báo sẵn. Endpoint chỉ nhận truy vấn đọc và chặn `FROM`, `SERVICE`.
+
+```bash
+curl -H "Accept: text/csv" --data-urlencode \
+     "query=SELECT ?s ?cap WHERE { ?s a vio:Stadium ; vio:capacity ?cap } ORDER BY DESC(?cap) LIMIT 3" \
+     http://127.0.0.1:7860/sparql
+
+python -m vidbpedia query "ASK { vres:Nguyễn_Công_Phượng owl:sameAs dbr:Nguyễn_Công_Phượng }"
+python -m vidbpedia query -f truy_van.rq --format csv          # json, xml, csv, turtle, nt, json-ld, rdf
+python -m vidbpedia query --endpoint http://127.0.0.1:7860/sparql "SELECT …"   # gửi tới endpoint thay vì nạp dataset
+```
+
+Client SPARQL khác (SPARQLWrapper, YASGUI, `SPARQLStore` của rdflib) dùng được với `http://127.0.0.1:7860/sparql`.
 
 ### Cấu hình LLM cho tab Hỏi đáp
 
@@ -125,14 +147,16 @@ vietnamese-dbpedia/
 │   │   ├── wikidata_seeds.py · wiki_enrich.py
 │   │   ├── infobox.py · infobox_mappings.py
 │   │   └── build_rdf.py
-│   ├── kg/                 # ontology, kiểm tra, suy luận, xuất dataset
+│   ├── kg/                 # ontology, kiểm tra, suy luận, xuất dataset, truy vấn
 │   │   ├── ontology.py · validation.py · reasoning.py
-│   │   └── postprocess.py
+│   │   ├── postprocess.py
+│   │   └── query.py        # python -m vidbpedia query, phần chung với /sparql
 │   └── web/                # máy chủ
 │       ├── app.py          # FastAPI + Gradio
 │       ├── ui.py           # các tab
 │       ├── theme.py · examples.py · static/ (style.css, favicon)
 │       ├── sparql.py       # chạy truy vấn cho tab SPARQL
+│       ├── endpoint.py     # /sparql (SPARQL 1.1 Protocol)
 │       ├── resource_page.py · resource_tree.py
 │       ├── linked_data.py  # /resource, /data, /ontology
 │       └── kg_rag.py       # LLM sinh SPARQL và trả lời

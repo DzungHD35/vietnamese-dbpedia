@@ -1,6 +1,6 @@
 """python -m vidbpedia <lệnh> [tuỳ chọn]
 
-Các bước theo thứ tự: seeds → enrich → ontology → build → postprocess, rồi serve.
+Các bước theo thứ tự: seeds → enrich → ontology → build → postprocess, rồi serve; query để truy vấn từ terminal.
 """
 
 import importlib
@@ -14,7 +14,8 @@ COMMANDS = {
     "ontology": ("vidbpedia.kg.ontology", "ghép ontology/*.ttl thành vi-ontology.ttl"),
     "build": ("vidbpedia.crawl.build_rdf", "dựng RDF từ dữ liệu thô"),
     "postprocess": ("vidbpedia.kg.postprocess", "kiểm tra, suy luận, VoID, xuất dataset"),
-    "serve": ("vidbpedia.web.app", "chạy giao diện và Linked Data"),
+    "serve": ("vidbpedia.web.app", "chạy giao diện, SPARQL endpoint và Linked Data"),
+    "query": ("vidbpedia.kg.query", "chạy truy vấn SPARQL từ terminal"),
 }
 
 
