@@ -9,6 +9,8 @@ Ghi chú nội bộ cho agent và người làm UI. Không phải tài liệu ch
 | `docs/01-current-state.md` | Hiện trạng UI Gradio của VDB (khảo sát 2026-10-07) |
 | `docs/02-vinalkg-reference.md` | VinaLKG Explorer: ý tưởng nên học / không nên mang sang |
 | `docs/03-ui-direction.md` | Dữ liệu sẵn có, ràng buộc kỹ thuật |
+| `docs/04-core-views.md` | Core views đề xuất + prototype |
+| [`PLAN.md`](PLAN.md) | **Kế hoạch code chi tiết cho `ui/`** (API contract, component, phase, tiêu chí xong) |
 
 Nguyên tắc chung:
 - Repo do Phụng host; DHD chỉ phụ trách kịch bản demo và UI.

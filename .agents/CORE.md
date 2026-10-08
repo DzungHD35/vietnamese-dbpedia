@@ -1,7 +1,7 @@
 # CORE — Core views của UI demo
 
 > Tài liệu trao đổi chính giữa DHD và agent. Chỉ chứa những quyết định quan trọng nhất.
-> Chi tiết khảo sát nằm ở `docs/`. Trạng thái: **NHÁP — đang thảo luận** (2026-10-07).
+> Chi tiết khảo sát nằm ở `docs/`. Trạng thái: **ĐÃ CHỐT hướng, đang thực thi theo [`PLAN.md`](PLAN.md)** (2026-10-08).
 
 ## 1. Tiêu chí: lượng thông tin truyền tải
 
@@ -58,10 +58,14 @@ Râu ria (có là đủ, không cần wow): SPARQL editor, cây tài nguyên đ�
 | D1 | Vai trò VinaLKG | Chỉ là reference/cảm hứng, không port code | 2026-10-07 |
 | D2 | Vị trí UI | Đứng độc lập trong repo nhóm (thư mục riêng + API JSON mỏng), không đụng crawl/kg | 2026-10-07 |
 | D3 | Tiêu chí thiết kế | Lượng thông tin truyền tải > chi tiết thẩm mỹ | 2026-10-07 |
+| D4 | Stack frontend | Vite + React + TS; Cytoscape (fcose) cho đồ thị; timeline/biểu đồ tự vẽ SVG; CSS thuần | 2026-10-08 |
+| D5 | Hỏi đáp khi không có LLM | `demo_cache.json` cho 5 câu demo; SPARQL trong cache vẫn chạy thật trên graph | 2026-10-08 |
+| D6 | Câu chuyện demo | Đặng Quang Huy → Than Quảng Ninh (khớp prototype); sáp nhập tỉnh để phase tuỳ chọn | 2026-10-08 |
+| D7 | Kế hoạch thực thi | Theo `PLAN.md`, giao agent làm từng 1–2 phase, review giữa các phase | 2026-10-08 |
 
 ## 5. Câu hỏi mở
 
-1. Danh sách core views ở §3 đã đúng/đủ chưa? Thông tin cụ thể của từng view?
+1. ~~Danh sách core views ở §3~~ → chốt theo `PLAN.md` §3 (Tổng quan, Thực thể, Hỏi đáp; Bản đồ tuỳ chọn).
 2. Khán giả/tiêu chí chấm: giảng viên theo 5 yêu cầu đề, hay cả lớp?
-3. Câu chuyện xuyên suốt: một nhân vật (Công Phượng) hay sáp nhập tỉnh?
-4. Demo có cần chạy offline / không LLM (cache câu trả lời)?
+3. ~~Câu chuyện xuyên suốt~~ → D6.
+4. ~~Demo offline / không LLM~~ → D5.
