@@ -105,13 +105,13 @@ def _lod(iri) -> dict:
         "dbpedia": [s for s in same if s.startswith(str(DBR))],
         "wikidata": [s for s in same if s.startswith(str(WD))],
         "derivedFrom": str(derived) if derived is not None else None,
-        "lat": _number(lat),
-        "lon": _number(lon),
+        "lat": number(lat),
+        "lon": number(lon),
         "linkedData": kg.view.href(iri),
     }
 
 
-def _number(term) -> float | None:
+def number(term) -> float | None:
     try:
         return float(str(term))
     except (TypeError, ValueError):

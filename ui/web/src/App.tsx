@@ -4,6 +4,7 @@ import { SearchBox } from "./components/SearchBox";
 import { useInference } from "./context/InferenceContext";
 import { AskPage } from "./pages/AskPage";
 import { EntityPage } from "./pages/EntityPage";
+import { MapPage } from "./pages/MapPage";
 import { OverviewPage } from "./pages/OverviewPage";
 import { SparqlPage } from "./pages/SparqlPage";
 
@@ -11,6 +12,7 @@ const LINKS = [
   { to: "/", label: "Tổng quan", end: true },
   { to: "/ask", label: "Hỏi đáp", end: false },
   { to: "/sparql", label: "SPARQL", end: false },
+  { to: "/map", label: "Bản đồ", end: false },
 ];
 
 function InferenceToggle() {
@@ -49,6 +51,7 @@ export function App() {
           <Route path="/entity/:id" element={<EntityPage />} />
           <Route path="/ask" element={<AskPage />} />
           <Route path="/sparql" element={<SparqlPage />} />
+          <Route path="/map" element={<MapPage />} />
           <Route path="*" element={<OverviewPage />} />
         </Routes>
       </main>

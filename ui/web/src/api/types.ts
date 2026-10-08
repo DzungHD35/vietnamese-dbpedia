@@ -194,3 +194,24 @@ export interface SparqlExample {
   name: string;
   query: string;
 }
+
+// ---- /api/map ----
+export interface MapPoint {
+  node: Node;
+  lat: number;
+  lon: number;
+  former: boolean;
+}
+
+export interface Succession {
+  from: string;
+  to: string;
+  year: number | null;
+  inferred: boolean;
+}
+
+export interface MapData {
+  points: MapPoint[];
+  successions: Succession[];
+  successionsTotal: number;
+}
