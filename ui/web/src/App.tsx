@@ -1,0 +1,42 @@
+import { NavLink, Route, Routes } from "react-router-dom";
+import { HealthBadge } from "./components/HealthBadge";
+import { AskPage } from "./pages/AskPage";
+import { EntityPage } from "./pages/EntityPage";
+import { OverviewPage } from "./pages/OverviewPage";
+import { SparqlPage } from "./pages/SparqlPage";
+
+const LINKS = [
+  { to: "/", label: "Tổng quan", end: true },
+  { to: "/ask", label: "Hỏi đáp", end: false },
+  { to: "/sparql", label: "SPARQL", end: false },
+];
+
+export function App() {
+  return (
+    <>
+      <header className="nav">
+        <NavLink to="/" className="nav-logo">
+          Vietnamese DBpedia
+        </NavLink>
+        <nav className="nav-links">
+          {LINKS.map((l) => (
+            <NavLink key={l.to} to={l.to} end={l.end}>
+              {l.label}
+            </NavLink>
+          ))}
+        </nav>
+        <span className="nav-spacer" />
+        <HealthBadge />
+      </header>
+      <main className="page">
+        <Routes>
+          <Route path="/" element={<OverviewPage />} />
+          <Route path="/entity/:id" element={<EntityPage />} />
+          <Route path="/ask" element={<AskPage />} />
+          <Route path="/sparql" element={<SparqlPage />} />
+          <Route path="*" element={<OverviewPage />} />
+        </Routes>
+      </main>
+    </>
+  );
+}
