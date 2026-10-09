@@ -1776,6 +1776,9 @@ code.term-ref {
   display: block;
   width: 100%;
   min-width: 760px;
+  /* giữ đúng kích thước gốc của SVG (khung 960), không phóng to theo bề ngang thẻ */
+  max-width: 960px;
+  margin: 0 auto;
   height: auto;
 }
 .static-graph .rv-edge {
