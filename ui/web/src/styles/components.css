@@ -1249,7 +1249,8 @@ a.chip:hover {
   background: var(--inferred-soft);
   border: 1px dashed var(--inferred);
 }
-.onto-axioms h3 {
+.onto-axioms h3,
+.onto-axioms h4 {
   margin: 14px 0 6px;
   font-size: 13px;
   text-transform: uppercase;
@@ -1278,13 +1279,272 @@ a.chip:hover {
   align-items: center;
 }
 .onto-nodomain {
+  padding-left: 0;
+}
+
+/* ---- Cây tài nguyên (trang Ontology; nội dung mô phỏng tab "Cây tài nguyên" của Gradio) ---- */
+.ct {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ct-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  max-width: 480px;
+  margin: 0 0 12px;
+}
+.ct-filter label {
+  flex-basis: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+.ct-filter input {
+  flex: 1;
+  min-width: 240px;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.ct-filter input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.ct-loading {
+  font-size: 12px;
+  color: var(--muted);
+}
+.ct-sum {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.ct-toolbar {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+.ct-empty {
+  margin: 0;
+  padding: 24px 0;
+  color: var(--muted);
+}
+
+/* cây: mỗi nút = dòng (mũi tên + nội dung) + khối con thụt lề có vạch dọc */
+.ct-tree {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ct-node {
+  margin: 0;
+  padding: 0;
+}
+.ct-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 2px 6px 2px 0;
+  border-radius: 4px;
+}
+.ct-row.ct-clickable {
+  cursor: pointer;
+}
+.ct-row.ct-clickable:hover {
+  background: #f3f5f8;
+}
+.ct-row.ct-highlight {
+  background: #fff7d6;
+}
+.ct-text {
+  flex: 1;
+  min-width: 0;
+  padding-top: 1px;
+}
+.ct-text b {
+  font-weight: 600;
+}
+.ct-text code {
+  font-size: 12.5px;
+}
+.ct-chev {
+  flex: none;
+  width: 18px;
+  height: 24px;
+  padding: 0;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.ct-chev.open {
+  transform: rotate(90deg);
+}
+.ct-chev:hover {
+  background: #e9f0fc;
+}
+.ct-chev:focus-visible {
+  outline: 2px solid var(--accent);
+}
+.ct-chev-sm {
+  width: 16px;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.ct-leaf {
+  color: var(--border);
+  cursor: default;
+}
+.ct-leaf:hover {
+  background: none;
+}
+.ct-children {
+  margin: 0 0 2px 8px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border);
+}
+.ct-muted {
+  color: var(--muted);
+}
+.ct-muted a {
+  color: var(--muted);
+}
+.ct-count {
+  padding: 0 7px;
+  font-family: var(--mono);
+  font-size: 12px;
+  background: #eef1f5;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+}
+.ct-badge {
+  padding: 0 6px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--inferred);
+  background: var(--inferred-soft);
+  border-radius: 99px;
+  white-space: nowrap;
+}
+
+/* danh sách thực thể trực tiếp */
+.ct-instwrap {
+  margin-top: 4px;
+}
+.ct-direct {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0 2px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-radius: 4px;
+}
+.ct-direct.ct-clickable {
+  cursor: pointer;
+}
+.ct-direct.ct-clickable:hover {
+  background: #f3f5f8;
+}
+.ct-inst {
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+  columns: 3 240px;
+  column-gap: 24px;
+}
+.ct-inst li {
+  padding: 1px 0;
+  font-size: 13px;
+  break-inside: avoid;
+}
+.ct-more {
+  margin: 4px 0 0 20px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.ct-owl {
   margin-top: 16px;
 }
-.onto-nodomain summary {
+.ct-owl > summary {
   font-weight: 600;
   cursor: pointer;
 }
-.onto-nodomain .onto-props {
-  margin-top: 8px;
-  padding-left: 0;
+.onto-owl {
+  margin-top: 12px;
+}
+.onto-h {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+.onto-axioms h4 {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.onto-none {
+  margin: 2px 0 0 12px;
+}
+
+/* ---- Bong bóng IRI (components/IriTip.tsx): hiện ngay khi rê chuột / focus ---- */
+.iri-tip {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.iri-tip::after {
+  content: attr(data-iri);
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 30;
+  max-width: 60ch;
+  padding: 6px;
+  overflow: hidden;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f8fafc;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #1f2937;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.08s linear;
+}
+.iri-tip.flip::after {
+  right: 0;
+  left: auto;
+}
+.iri-tip:hover::after,
+.iri-tip:focus-within::after {
+  opacity: 1;
+  visibility: visible;
+}
+/* không để cột / ô bảng cắt bong bóng */
+.ct-inst,
+.ct-inst li,
+.ct-children,
+.facts td,
+.keyfacts dd {
+  overflow: visible;
 }

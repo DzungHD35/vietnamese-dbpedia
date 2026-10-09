@@ -31,7 +31,7 @@ Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độ
 | Route | Câu hỏi nó trả lời |
 |---|---|
 | `/` Tổng quan | Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu? |
-| `/ontology` Ontology | Lớp nào, thuộc tính nào, tiên đề nào tạo ra suy luận? Mỗi lớp ghi `⊑ dbo:`, thuộc tính theo domain, tiên đề kèm số triple sinh ra; bấm thuật ngữ mở `/ontology/{term}` (Turtle) |
+| `/ontology` Ontology | Cây tài nguyên như tab cùng tên của Gradio (cùng `ResourceTree`): lớp `vio:` ⊑ `dbo:`, số thực thể, nhãn suy luận, thực thể trực tiếp, ba nhóm Thể loại / Đổi hướng / Chỉ có nhãn, ô lọc theo tên; bên dưới là mục thu gọn "Thuộc tính và tiên đề OWL" với số triple mỗi tiên đề sinh ra; bấm mã lớp mở `/ontology/{term}` (Turtle) |
 | `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
 | `/ask?q=` Hỏi đáp | Hỏi tiếng Việt → SPARQL → kết quả (có/không suy luận) → câu trả lời → đồ thị bằng chứng |
 | `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
@@ -59,6 +59,7 @@ Tài liệu OpenAPI: `/api/docs`.
 |---|---|
 | `GET /api/health` | `ready`, `asserted_ready`, `llm`, tiến độ nạp |
 | `GET /api/overview` | số liệu tổng quan, lớp, suy luận theo thuộc tính, thực thể nổi bật, câu hỏi mẫu |
+| `GET /api/tree?q=` | dữ liệu tab Cây tài nguyên: lớp (phẳng, cha trước con), thực thể trực tiếp (300 tên, 100 khi lọc), ba nhóm còn lại; lọc không cần dấu như Gradio |
 | `GET /api/ontology` | cây lớp (kèm thuộc tính có domain là lớp đó), 54 thuộc tính, tiên đề OWL (chuỗi, nghịch đảo, ràng buộc, rời nhau) và số triple suy luận của từng tiên đề |
 | `GET /api/search?q=` | tìm thực thể (không cần dấu) |
 | `GET /api/entity/{id}` | dữ liệu màn Thực thể |

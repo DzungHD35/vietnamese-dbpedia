@@ -265,3 +265,42 @@ export interface Ontology {
   properties: OntologyProperty[];
   axioms: OntologyAxioms;
 }
+
+// ---- /api/tree (cây tài nguyên, giống tab "Cây tài nguyên" của Gradio) ----
+export interface TreeItem {
+  id: string;
+  iri: string; // http://vi.dbpedia.org/resource/… (UI vẫn tự ghép nếu máy chủ cũ không trả)
+  label: string;
+  kind: Kind;
+}
+
+export interface TreeClass {
+  id: string;
+  term: string;
+  label: string;
+  parent: string | null;
+  depth: number;
+  dbo: string[];
+  total: number; // thực thể của lớp và các lớp con, kể cả nhờ suy luận
+  asserted: number;
+  direct: TreeItem[]; // thực thể trực tiếp, đã sắp theo nhãn và cắt bớt
+  directTotal: number; // số thực thể trực tiếp (sau lọc) chưa cắt
+  directShown: number;
+}
+
+export interface TreeGroup {
+  id: string;
+  title: string;
+  note: string;
+  total: number; // chưa lọc
+  matched: number; // sau lọc (= total khi không lọc)
+  items: TreeItem[];
+  shown: number;
+}
+
+export interface ResourceTree {
+  query: string;
+  summary: { classes: number; resources: number };
+  classes: TreeClass[]; // tiền thứ tự (cha trước con); khi lọc chỉ gồm lớp có kết quả hoặc có lớp con có kết quả
+  groups: TreeGroup[];
+}
