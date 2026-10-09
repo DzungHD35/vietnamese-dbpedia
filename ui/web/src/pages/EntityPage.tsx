@@ -144,44 +144,46 @@ function EntityView({ id }: { id: string }) {
         <LinkedDataCard id={id} iri={node.iri} lod={lod} />
       </div>
 
-      <section className="card ent-graph">
-        <h2>Đồ thị lân cận</h2>
-        <p className="muted small ent-note">
-          Mũi tên → là quan hệ đi ra, ← là quan hệ đi vào; nét đứt là quan hệ có được nhờ suy luận. Nút viền đứt là
-          liên kết LOD ra ngoài. Bấm vào một nút để mở trang của nút đó.
-        </p>
-        <StaticGraph id={id} showInferred={showInferred} />
-      </section>
 
-      {/* cầu thủ: timeline cạnh thông tin chính; thực thể khác: thông tin chính trải rộng */}
-      <div className={hasCareer ? "ent-cols" : "ent-wide"}>
-        {hasCareer && (
+      {/* trái: thông tin chính + sự nghiệp; phải: đồ thị lân cận (hình tĩnh như Gradio) */}
+      <div className="ent-cols ent-main-row">
+        <div className="ent-stack">
           <section className="card">
-            <h2>Sự nghiệp</h2>
-            <CareerTimeline career={e.career} />
+            <h2>Thông tin chính</h2>
+            {key.length === 0 ? (
+              <p className="muted">Chưa có thuộc tính vio: nổi bật.</p>
+            ) : (
+              <dl className="keyfacts">
+                {key.map((f) => (
+                  <div key={f.prop} style={{ display: "contents" }}>
+                    <dt>{f.label}</dt>
+                    <dd>
+                      {f.values.map((v, i) => (
+                        <span key={i}>
+                          {i > 0 && ", "}
+                          <ValueView v={v} />
+                        </span>
+                      ))}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            )}
           </section>
-        )}
-        <section className="card">
-          <h2>Thông tin chính</h2>
-          {key.length === 0 ? (
-            <p className="muted">Chưa có thuộc tính vio: nổi bật.</p>
-          ) : (
-            <dl className={hasCareer ? "keyfacts" : "keyfacts wide"}>
-              {key.map((f) => (
-                <div key={f.prop} style={{ display: "contents" }}>
-                  <dt>{f.label}</dt>
-                  <dd>
-                    {f.values.map((v, i) => (
-                      <span key={i}>
-                        {i > 0 && ", "}
-                        <ValueView v={v} />
-                      </span>
-                    ))}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+          {hasCareer && (
+            <section className="card">
+              <h2>Sự nghiệp</h2>
+              <CareerTimeline career={e.career} />
+            </section>
           )}
+        </div>
+        <section className="card ent-graph">
+          <h2>Đồ thị lân cận</h2>
+          <p className="muted small ent-note">
+            Mũi tên → là quan hệ đi ra, ← là quan hệ đi vào; nét đứt là quan hệ có được nhờ suy luận. Nút viền đứt là
+            liên kết LOD ra ngoài. Bấm vào một nút để mở trang của nút đó.
+          </p>
+          <StaticGraph id={id} showInferred={showInferred} />
         </section>
       </div>
 

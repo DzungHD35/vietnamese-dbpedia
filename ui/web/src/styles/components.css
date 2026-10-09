@@ -1898,3 +1898,26 @@ code.term-ref {
   font-size: 12.5px;
   margin: 8px 0 0;
 }
+
+/* hàng "thông tin chính + sự nghiệp | đồ thị lân cận": cột đồ thị rộng hơn để chữ trong SVG không quá nhỏ */
+.ent-main-row {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+}
+.ent-stack {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  min-width: 0;
+}
+.ent-main-row .ent-graph {
+  margin-top: 0;
+  min-width: 0;
+}
+.ent-main-row .static-graph .rv-graph svg {
+  min-width: 0;
+}
+@media (max-width: 1100px) {
+  .ent-main-row {
+    grid-template-columns: 1fr;
+  }
+}
