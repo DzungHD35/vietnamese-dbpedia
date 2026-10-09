@@ -319,8 +319,8 @@ export function AskPage() {
     <div className="ask">
       <h1 className="page-title">Hỏi đáp có bằng chứng</h1>
       <p className="muted lead">
-        Đặt câu hỏi bằng tiếng Việt hoặc tiếng Anh, LLM viết SPARQL và hệ thống chạy truy vấn trên đồ thị tri thức. Câu trả lời luôn kèm truy vấn đã
-        chạy và các triple làm bằng chứng, tách phần khai báo với phần suy luận OWL 2 RL.
+        Đặt câu hỏi bằng tiếng Việt hoặc tiếng Anh, LLM viết SPARQL và hệ thống chạy truy vấn trên đồ thị tri thức. Câu trả lời kèm truy vấn đã chạy và
+        các triple làm bằng chứng, chỉ rõ triple nào do suy luận OWL 2 RL.
       </p>
       {demoMode && (
         <p className="demo-note small">
