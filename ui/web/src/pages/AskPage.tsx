@@ -72,6 +72,27 @@ function AnswerBlock({ state }: { state: Remote<AnswerResult> }) {
   );
 }
 
+/** Câu trả lời cuối cùng, đặt ngay dưới ô câu hỏi; các bước tìm ra nó ở bên dưới. Vẫn là bước 5 trên thanh tiến trình. */
+function AnswerCard({ result, answer }: { result: Remote<AskResult>; answer: Remote<AnswerResult> }) {
+  const d = result.data;
+  const llmMs = answer.data?.answer && answer.data.source === "llm" ? ` · LLM · ${formatMs(answer.data.ms)}` : "";
+  return (
+    <section className="card step ask-answer" id="ask-step-5" aria-live="polite">
+      <h2>
+        Câu trả lời
+        <span className="step-hint">bước 5{llmMs}</span>
+      </h2>
+      {result.loading ? (
+        <Loading text="Đang tìm câu trả lời: nhận diện thực thể, sinh và chạy SPARQL…" />
+      ) : result.error || d?.error ? (
+        <p className="muted">Chưa có câu trả lời vì không tạo được truy vấn chạy được. Chi tiết ở bước 2 bên dưới.</p>
+      ) : (
+        <AnswerBlock state={answer} />
+      )}
+    </section>
+  );
+}
+
 function Evidence({ ids }: { ids: string[] }) {
   const { showInferred } = useInference();
   const navigate = useNavigate();
@@ -99,7 +120,6 @@ function pipeline(
   link: Remote<LinkResult>,
   result: Remote<AskResult>,
   answer: Remote<AnswerResult>,
-  skipped: boolean,
 ): PipelineStep[] {
   const d = result.data;
   const ok = d !== null && !d.error;
@@ -108,17 +128,15 @@ function pipeline(
   const pending = (fallback: StepState): StepState => (result.loading ? "wait" : result.error ? "skip" : fallback);
   const answerState: StepState = !ok
     ? pending("skip")
-    : skipped
-      ? "skip"
-      : answer.loading
-        ? "run"
-        : answer.error
-          ? "fail"
-          : answer.data?.answer
-            ? "done"
-            : answer.data
-              ? "skip"
-              : "wait";
+    : answer.loading
+      ? "run"
+      : answer.error
+        ? "fail"
+        : answer.data?.answer
+          ? "done"
+          : answer.data
+            ? "skip"
+            : "wait";
   return [
     {
       n: 1,
@@ -158,7 +176,7 @@ function pipeline(
       n: 5,
       title: "Trả lời",
       state: answerState,
-      note: skipped ? "SPARQL mode" : answer.data?.answer && answer.data.source === "llm" ? formatMs(answer.data.ms) : undefined,
+      note: answer.data?.answer && answer.data.source === "llm" ? formatMs(answer.data.ms) : undefined,
     },
     {
       n: 6,
@@ -169,17 +187,17 @@ function pipeline(
   ];
 }
 
-/** Màn Hỏi đáp có bằng chứng, chia sáu bước: nhận diện thực thể → sinh SPARQL → kiểm tra → chạy → trả lời → bằng chứng. */
+/**
+ * Màn Hỏi đáp có bằng chứng: câu trả lời cuối cùng hiện ngay dưới ô câu hỏi, bên dưới là các bước tìm ra nó
+ * (nhận diện thực thể → sinh SPARQL → kiểm tra → chạy → trả lời → bằng chứng).
+ */
 export function AskPage() {
   const [params, setParams] = useSearchParams();
-  const urlQuestion = params.get("q") ?? "";
-  // giữ trong URL để chip / lịch sử / nút Back không mất
-  const urlSparqlMode = params.get("mode") === "sparql";
+  const urlQuestion = params.get("q") ?? ""; // giữ trong URL để chip / lịch sử / nút Back không mất
   const [input, setInput] = useState(urlQuestion);
   const [link, setLink] = useState<Remote<LinkResult>>(IDLE);
   const [result, setResult] = useState<Remote<AskResult>>(IDLE);
   const [answer, setAnswer] = useState<Remote<AnswerResult>>(IDLE);
-  const [skipped, setSkipped] = useState(false); // SPARQL mode: đã có kết quả nhưng chưa gọi LLM viết câu trả lời
   const [asserted, setAsserted] = useState<AssertedInfo | null>(null);
   const [history, setHistory] = useState<string[]>([]);
   const controller = useRef<AbortController | null>(null);
@@ -187,17 +205,12 @@ export function AskPage() {
   const health = useApi<Health>("/api/health");
   const overview = useApi<Overview>("/api/overview");
   const demoMode = health.data !== null && !health.data.llm;
-  // không có LLM thì câu trả lời là bản viết sẵn: ẩn công tắc SPARQL mode
-  const sparqlMode = urlSparqlMode && !demoMode;
-  const sparqlModeRef = useRef(sparqlMode);
-  sparqlModeRef.current = sparqlMode;
 
-  // bước 5: LLM viết câu trả lời từ bảng kết quả (tự động, hoặc theo yêu cầu khi đang ở SPARQL mode)
+  // bước 5: LLM viết câu trả lời từ bảng kết quả
   const requestAnswer = useCallback((res: AskResult) => {
     answerController.current?.abort();
     const ctl = new AbortController();
     answerController.current = ctl;
-    setSkipped(false);
     setAnswer(LOADING);
     postJson<AnswerResult>("/api/ask/answer", { question: res.question, sparql: res.sparql, rows: res.rows }, ctl.signal)
       .then((data) => setAnswer({ data, error: null, loading: false }))
@@ -215,7 +228,6 @@ export function AskPage() {
       setLink(LOADING);
       setResult(LOADING);
       setAnswer(IDLE);
-      setSkipped(false);
       setAsserted(null);
       setHistory((h) => [question, ...h.filter((q) => q !== question)].slice(0, HISTORY_SIZE));
       // bước 1 chỉ mất vài ms: hiện ngay trong lúc LLM còn đang viết SPARQL
@@ -231,11 +243,6 @@ export function AskPage() {
           setLink({ data: res.steps.link, error: null, loading: false });
           setAsserted(res.asserted);
           if (res.error) return;
-          // SPARQL mode: dừng ở bảng kết quả, tiết kiệm một request LLM; người dùng bấm "Viết câu trả lời" khi cần
-          if (sparqlModeRef.current) {
-            setSkipped(true);
-            return;
-          }
           // câu trả lời đến sau: hiện SPARQL và bảng ngay, không chờ LLM
           requestAnswer(res);
         })
@@ -256,19 +263,6 @@ export function AskPage() {
       answerController.current?.abort();
     };
   }, [urlQuestion, run]);
-
-  // tắt SPARQL mode khi đang có kết quả chưa trả lời: gọi LLM luôn, không bắt hỏi lại
-  const pendingAnswer = skipped && !sparqlMode ? result.data : null;
-  useEffect(() => {
-    if (pendingAnswer && !pendingAnswer.error) requestAnswer(pendingAnswer);
-  }, [pendingAnswer, requestAnswer]);
-
-  const setSparqlMode = (on: boolean) => {
-    const next = new URLSearchParams(params);
-    if (on) next.set("mode", "sparql");
-    else next.delete("mode");
-    setParams(next, { replace: true });
-  };
 
   // graph "chỉ khai báo" nạp sau graph chính: hỏi lại cho tới khi có
   const sparql = result.data?.sparql;
@@ -328,6 +322,26 @@ export function AskPage() {
         Đặt câu hỏi bằng tiếng Việt, LLM viết SPARQL và hệ thống chạy truy vấn trên đồ thị tri thức. Câu trả lời luôn kèm truy vấn đã
         chạy và các triple làm bằng chứng, tách phần khai báo với phần suy luận OWL 2 RL.
       </p>
+      {demoMode && (
+        <p className="demo-note small">
+          Chế độ demo: chưa có OPENAI_API_KEY nên chỉ trả lời được các câu hỏi mẫu, bằng SPARQL viết sẵn.
+        </p>
+      )}
+      <div className="chips ask-presets">
+        {(overview.data?.questions ?? []).map((q) => (
+          <button key={q} type="button" className="chip chip-btn" onClick={() => submit(q)}>
+            {q}
+          </button>
+        ))}
+      </div>
+      {overview.data?.questionHint && (
+        <p className="small muted ask-hint">
+          Không cần gõ dấu, thử:{" "}
+          <button type="button" className="link-btn" onClick={() => submit(overview.data?.questionHint ?? "")}>
+            {overview.data.questionHint}
+          </button>
+        </p>
+      )}
       <form
         className="ask-form"
         onSubmit={(e) => {
@@ -347,32 +361,6 @@ export function AskPage() {
           {result.loading ? "Đang chạy…" : "Hỏi"}
         </button>
       </form>
-      {demoMode ? (
-        <p className="demo-note small">
-          Chế độ demo: chưa có OPENAI_API_KEY nên chỉ trả lời được các câu hỏi mẫu bên dưới, bằng SPARQL viết sẵn.
-        </p>
-      ) : (
-        <label className="ask-mode">
-          <input type="checkbox" checked={urlSparqlMode} onChange={(e) => setSparqlMode(e.target.checked)} />
-          <span>SPARQL mode</span>
-          <span className="muted small">Dừng ở bảng kết quả, không gọi LLM viết câu trả lời (tiết kiệm 1 request)</span>
-        </label>
-      )}
-      <div className="chips">
-        {(overview.data?.questions ?? []).map((q) => (
-          <button key={q} type="button" className="chip chip-btn" onClick={() => submit(q)}>
-            {q}
-          </button>
-        ))}
-      </div>
-      {overview.data?.questionHint && (
-        <p className="small muted">
-          Không cần gõ dấu, thử:{" "}
-          <button type="button" className="link-btn" onClick={() => submit(overview.data?.questionHint ?? "")}>
-            {overview.data.questionHint}
-          </button>
-        </p>
-      )}
       {history.length > 1 && (
         <p className="small muted">
           Gần đây:{" "}
@@ -386,7 +374,9 @@ export function AskPage() {
 
       {started && (
         <div className="ask-steps">
-          <Pipeline steps={pipeline(link, result, answer, skipped)} />
+          <AnswerCard result={result} answer={answer} />
+          <h2 className="ask-steps-title">Các bước tìm ra câu trả lời</h2>
+          <Pipeline steps={pipeline(link, result, answer)} />
           <Step n={1} title="Nhận diện thực thể" hint={link.data ? formatMs(link.data.ms) : undefined}>
             {link.loading && <Loading text="Đang tìm tên thực thể trong câu hỏi…" />}
             {link.error && <ErrorState message={link.error} />}
@@ -417,22 +407,6 @@ export function AskPage() {
                   <Empty text="Truy vấn chạy được nhưng không có dòng nào: dữ liệu hiện chưa có thông tin này." />
                 ) : (
                   <ResultTable columns={data.columns} rows={data.rows} links={data.links} total={data.rowsTotal} />
-                )}
-              </Step>
-              <Step
-                n={5}
-                title="Câu trả lời"
-                hint={skipped ? "SPARQL mode" : answer.data?.answer && answer.data.source === "llm" ? `LLM · ${formatMs(answer.data.ms)}` : undefined}
-              >
-                {skipped ? (
-                  <div className="ask-skip">
-                    <p className="muted">Đã tắt bước viết câu trả lời (SPARQL mode). Bật lại để LLM trả lời từ bảng ở bước 4.</p>
-                    <button type="button" className="btn" onClick={() => requestAnswer(data)}>
-                      Viết câu trả lời
-                    </button>
-                  </div>
-                ) : (
-                  <AnswerBlock state={answer} />
                 )}
               </Step>
               <Step n={6} title="Bằng chứng trên graph" hint="cạnh nét đứt tím là quan hệ do suy luận">

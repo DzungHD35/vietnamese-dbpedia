@@ -33,7 +33,7 @@ Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độ
 | `/` Tổng quan | Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu? |
 | `/ontology` Ontology | Cây tài nguyên như tab cùng tên của Gradio (cùng `ResourceTree`): lớp `vio:` ⊑ `dbo:`, số thực thể, nhãn suy luận, thực thể trực tiếp, ba nhóm Thể loại / Đổi hướng / Chỉ có nhãn, ô lọc theo tên; bên dưới là mục thu gọn "Thuộc tính và tiên đề OWL" với số triple mỗi tiên đề sinh ra; bấm mã lớp mở `/ontology/{term}` (Turtle) |
 | `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
-| `/ask?q=` Hỏi đáp | Hỏi tiếng Việt, đi qua sáu bước có thanh tiến trình (xem mục bên dưới); ô "SPARQL mode" (`&mode=sparql`) bỏ bước LLM viết câu trả lời, bấm "Viết câu trả lời" khi cần |
+| `/ask?q=` Hỏi đáp | Câu hỏi mẫu ở trên ô nhập; hỏi tiếng Việt thì câu trả lời cuối cùng hiện ngay dưới ô nhập, bên dưới là sáu bước tìm ra nó có thanh tiến trình (xem mục bên dưới). Ô "SPARQL mode" chỉ còn ở tab Gradio |
 | `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
 
 Quy ước hiển thị xuyên suốt: **khai báo = nét liền, màu trung tính; suy luận = nét đứt, màu tím**. Công tắc
@@ -50,7 +50,7 @@ kèm thời gian. Logic nằm ở `ui/api/linking.py` và `ui/api/qa.py`, chỉ 
 | 2. Sinh SPARQL | Nguồn (LLM hay viết sẵn), từng lần thử: lỗi, phản hồi gửi lại LLM, lần sửa (kể cả lần "hệ thống tự sửa" không gọi LLM); truy vấn cuối; prompt đầy đủ đã gửi (schema, quy tắc, ví dụ, IRI ở bước 1) | `POST /api/ask` → `steps.generate` |
 | 3. Kiểm tra truy vấn | Cú pháp, chỉ SELECT/ASK, không SERVICE/FROM, có LIMIT, IRI có thật trong graph, IRI đúng vai trò theo lớp, có dùng IRI ở bước 1, có tách thực thể trùng tên; mỗi lớp/thuộc tính `vio:`/`dbo:` trong truy vấn có bao nhiêu triple và bao nhiêu do suy luận | `steps.checks`, `steps.terms` |
 | 4. Chạy trên graph | Số dòng có suy luận và chỉ khai báo, bảng kết quả có link, thời gian chạy | `rows`, `asserted`, `steps.run` |
-| 5. Câu trả lời | Câu trả lời của LLM và các bước lập luận của nó (không phải suy luận OWL) | `POST /api/ask/answer` |
+| 5. Câu trả lời | Câu trả lời của LLM và các bước lập luận của nó (không phải suy luận OWL), đặt ở đầu kết quả ngay dưới ô nhập | `POST /api/ask/answer` |
 | 6. Bằng chứng | Đồ thị các thực thể trong kết quả, cạnh suy luận nét đứt tím | `GET /api/subgraph` |
 
 IRI tìm được ở bước 1 được chèn vào prompt ngay trước câu hỏi, nên LLM dùng thẳng `VALUES ?x { <iri> }` thay

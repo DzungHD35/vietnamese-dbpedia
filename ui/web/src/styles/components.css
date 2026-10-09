@@ -1606,25 +1606,7 @@ a.chip:hover {
   color: var(--muted);
 }
 
-/* ---- Hỏi đáp: SPARQL mode (không gọi LLM viết câu trả lời) ---- */
-.ask-mode {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 4px 8px;
-  margin: 10px 0 0;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  user-select: none;
-}
-.ask-mode input {
-  margin: 0;
-  accent-color: var(--accent);
-}
-.ask-mode .small {
-  font-weight: 400;
-}
+/* ---- Hỏi đáp: ghi chú có nút bên cạnh (vd. kết quả LLM dùng lại và nút Gọi lại LLM) ---- */
 .ask-skip {
   display: flex;
   flex-wrap: wrap;
@@ -2247,4 +2229,23 @@ code.term-ref {
 .health.team {
   font-weight: 600;
   color: var(--text);
+}
+
+/* Hỏi đáp: câu hỏi mẫu nằm trên ô nhập, câu trả lời cuối cùng ngay dưới ô nhập, các bước ở dưới cùng */
+.ask-presets {
+  margin: 0;
+}
+.ask-hint {
+  margin: 8px 0 12px;
+}
+.card.ask-answer {
+  border-left: 4px solid var(--accent);
+}
+.ask-answer .answer {
+  font-size: 18px;
+}
+.ask-steps-title {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: var(--muted);
 }
