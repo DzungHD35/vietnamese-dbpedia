@@ -1589,3 +1589,68 @@ a.chip:hover {
   letter-spacing: 0.04em;
   color: var(--muted);
 }
+
+/* ---- Hỏi đáp: SPARQL mode (không gọi LLM viết câu trả lời) ---- */
+.ask-mode {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+.ask-mode input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+.ask-mode .small {
+  font-weight: 400;
+}
+.ask-skip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.ask-skip p {
+  margin: 0;
+}
+
+/* ---- Thực thể: tab Cây quan hệ (dùng lại .ct-* của cây tài nguyên) ---- */
+.rt-hint {
+  margin: 0 0 10px;
+}
+.rt-root {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+.rt-group > .ct-row {
+  padding-left: 2px;
+}
+.rt-arrow {
+  flex: none;
+  width: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--muted);
+}
+.rt-cls {
+  margin-left: 6px;
+  padding: 0 7px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  background: #f3f5f8;
+}
+.rt-note {
+  margin-left: 8px;
+  font-size: 12.5px;
+}
+.rt-more {
+  padding: 2px 0 2px 22px;
+  font-size: 12.5px;
+  color: var(--muted);
+}

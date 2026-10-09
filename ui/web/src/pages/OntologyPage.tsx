@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState, type MouseEvent } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useSearchParams } from "react-router-dom";
 import type { Ontology, OntologyClass, OntologyProperty, ResourceTree, TreeClass, TreeGroup, TreeItem } from "../api/types";
 import { useApi, type ApiState } from "../api/useApi";
 import { IriTip } from "../components/IriTip";
 import { ErrorState, Loading } from "../components/States";
+import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { formatNumber } from "../utils/format";
 
 const FILTER_DEBOUNCE_MS = 250;
@@ -24,41 +25,6 @@ const local = (id: string) => id.replace(/^vio:/, "");
 interface TreeCtl {
   isOpen: (key: string, def: boolean) => boolean;
   toggle: (key: string, def: boolean) => void;
-}
-
-function Chevron({ open, onToggle, small = false }: { open: boolean; onToggle: () => void; small?: boolean }) {
-  return (
-    <button
-      type="button"
-      className={`ct-chev${small ? " ct-chev-sm" : ""}${open ? " open" : ""}`}
-      aria-expanded={open}
-      aria-label={open ? "Thu" : "Mở"}
-      title={open ? "Thu" : "Mở"}
-      onClick={(e) => {
-        e.stopPropagation();
-        onToggle();
-      }}
-    >
-      ▸
-    </button>
-  );
-}
-
-/** Chỗ trống cùng bề rộng mũi tên để nhãn của nút lá thẳng hàng với nút khác. */
-function LeafMark({ small = false }: { small?: boolean }) {
-  return (
-    <span className={`ct-chev ct-leaf${small ? " ct-chev-sm" : ""}`} aria-hidden="true">
-      ▸
-    </span>
-  );
-}
-
-/** Bấm vào dòng (trừ link / nút bên trong) thì mở/thu nút đó. */
-function rowToggle(onToggle: () => void) {
-  return (e: MouseEvent<HTMLElement>) => {
-    if ((e.target as HTMLElement).closest("a, button")) return;
-    onToggle();
-  };
 }
 
 function TermLink({ id, term }: { id: string; term: string }) {

@@ -137,6 +137,29 @@ export interface IncomingGroup {
   items: (Node & { inferred: boolean })[];
 }
 
+// ---- /api/entity/{id}/tree (cây quan hệ, giống mục "Cây quan hệ" ở tab Tài nguyên của Gradio) ----
+export interface RelationGroup {
+  prop: string; // qname, ví dụ "vio:careerStation"
+  label: string;
+  direction: "out" | "in";
+  total: number;
+  more: number; // số con bị cắt bớt (total - children.length)
+  children: RelationNode[];
+}
+
+export interface RelationNode {
+  node: Node;
+  station: string | null; // id chặng thi đấu khi nút là đội của một chặng (vio:careerStation → vio:team)
+  note: string | null; // "2015–2023, 103 trận, 36 bàn"
+  groups: RelationGroup[]; // lồng tới maxDepth; chỉ triple khai báo
+}
+
+export interface RelationTree {
+  root: Node;
+  maxDepth: number;
+  groups: RelationGroup[];
+}
+
 export interface Entity {
   node: Node;
   abstract: string | null;

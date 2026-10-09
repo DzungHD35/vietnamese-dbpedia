@@ -12,7 +12,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
 from ui.api.paths import WEB_DIST, WEB_INDEX
-from ui.api.routes import ask, entity, geo, ontology, overview, sparql, tree
+from ui.api.routes import ask, entity, geo, ontology, overview, relation, sparql, tree
 from ui.api.state import LazyView, kg
 from vidbpedia.common import DATASET, setup_logging
 from vidbpedia.web.linked_data import add_routes
@@ -60,6 +60,7 @@ def create_app(dataset_file: str = DATASET + ".nt") -> FastAPI:
     app.include_router(overview.router)
     app.include_router(ontology.router)
     app.include_router(tree.router)
+    app.include_router(relation.router)
     app.include_router(entity.router)
     app.include_router(ask.router)
     app.include_router(sparql.router)

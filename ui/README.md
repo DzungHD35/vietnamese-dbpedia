@@ -33,7 +33,7 @@ Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độ
 | `/` Tổng quan | Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu? |
 | `/ontology` Ontology | Cây tài nguyên như tab cùng tên của Gradio (cùng `ResourceTree`): lớp `vio:` ⊑ `dbo:`, số thực thể, nhãn suy luận, thực thể trực tiếp, ba nhóm Thể loại / Đổi hướng / Chỉ có nhãn, ô lọc theo tên; bên dưới là mục thu gọn "Thuộc tính và tiên đề OWL" với số triple mỗi tiên đề sinh ra; bấm mã lớp mở `/ontology/{term}` (Turtle) |
 | `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
-| `/ask?q=` Hỏi đáp | Hỏi tiếng Việt → SPARQL → kết quả (có/không suy luận) → câu trả lời → đồ thị bằng chứng |
+| `/ask?q=` Hỏi đáp | Hỏi tiếng Việt → SPARQL → kết quả (có/không suy luận) → câu trả lời → đồ thị bằng chứng; ô "SPARQL mode" (`&mode=sparql`) bỏ bước LLM viết câu trả lời, chỉ hiện truy vấn và bảng thô, bấm "Viết câu trả lời" khi cần |
 | `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
 | `/map` Bản đồ | Tỉnh hiện hành/cũ, mũi tên kế thừa (`vio:successor`), đại học, sân vận động |
 
@@ -64,6 +64,7 @@ Tài liệu OpenAPI: `/api/docs`.
 | `GET /api/search?q=` | tìm thực thể (không cần dấu) |
 | `GET /api/entity/{id}` | dữ liệu màn Thực thể |
 | `GET /api/neighbors/{id}` | lân cận một bước (đồ thị) |
+| `GET /api/entity/{id}/tree` | tab Cây quan hệ: cây lồng nhau tối đa 3 bước (gốc → đội → sân → tỉnh), chỉ triple khai báo (trừ `vio:playedFor`), chặng thi đấu thay bằng đội kèm ghi chú năm/trận/bàn; cùng giới hạn với trang của team |
 | `GET /api/subgraph?ids=a&ids=b` | cạnh giữa một tập thực thể; **lặp tham số `ids`**, không dùng dấu phẩy vì id có thể chứa `,` |
 | `POST /api/ask`, `/api/ask/answer`, `/api/ask/asserted` | hỏi đáp (xem trên) |
 | `GET /api/sparql/examples`, `POST /api/sparql` | SPARQL cho giao diện (`inference: false` chạy trên triple khai báo) |

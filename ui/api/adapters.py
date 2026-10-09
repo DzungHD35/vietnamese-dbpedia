@@ -44,3 +44,15 @@ def answer(rag, question, sparql, rows):
         question=question, sparql=sparql, n_rows=len(rows), shown=len(shown), rows=rows_text
     )
     return rag._parse_answer(rag._complete(prompt))
+
+
+def tree_groups(view, node, path, root):
+    """Nhóm quan hệ của một nút trong cây quan hệ 3 bước: [(thuộc tính, "out"/"in", [đích đã sắp xếp])].
+
+    Cùng hàm với tab Tài nguyên của team (TREE_OUT, TREE_IN, chỉ triple khai báo trừ playedFor)."""
+    return view._tree_groups(node, path, root)
+
+
+def station_note(view, station):
+    """Ghi chú của một chặng thi đấu: "2015–2023, 103 trận, 36 bàn, cho mượn"."""
+    return view._station_note(station)

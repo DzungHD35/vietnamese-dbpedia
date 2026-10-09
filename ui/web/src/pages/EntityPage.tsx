@@ -1,21 +1,23 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { useApi } from "../api/useApi";
-import type { Entity, Fact, Neighbors, Value } from "../api/types";
+import { useApi, type ApiState } from "../api/useApi";
+import type { Entity, Fact, Neighbors, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
 import { CareerTimeline } from "../components/CareerTimeline";
 import { EntityLink } from "../components/EntityLink";
 import { GraphView } from "../components/GraphView";
 import { InferredBadge } from "../components/InferredBadge";
 import { LinkedDataCard } from "../components/LinkedDataCard";
 import { ErrorState, Loading } from "../components/States";
+import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { useInference } from "../context/InferenceContext";
 import { formatLiteral, formatNumber } from "../utils/format";
 import { kindColorVar } from "../utils/kinds";
 
-type TabId = "facts" | "incoming" | "classes" | "query";
+type TabId = "facts" | "incoming" | "tree" | "classes" | "query";
 const TABS: { id: TabId; label: string }[] = [
   { id: "facts", label: "Thuộc tính" },
   { id: "incoming", label: "Được tham chiếu bởi" },
+  { id: "tree", label: "Cây quan hệ" },
   { id: "classes", label: "Cây phân lớp" },
   { id: "query", label: "Truy vấn" },
 ];
@@ -57,6 +59,8 @@ function EntityView({ id }: { id: string }) {
   const entity = useApi<Entity>(`/api/entity/${enc}`);
   const neighbors = useApi<Neighbors>(`/api/neighbors/${enc}`);
   const [tab, setTab] = useState<TabId>("facts");
+  const [treeOpened, setTreeOpened] = useState(false); // cây quan hệ chỉ nạp khi mở tab lần đầu, rồi giữ lại
+  const tree = useApi<RelationTree>(treeOpened ? `/api/entity/${enc}/tree` : null);
   const [fullAbstract, setFullAbstract] = useState(false);
 
   if (entity.loading) return <Loading text="Đang tải thực thể…" />;
@@ -168,7 +172,16 @@ function EntityView({ id }: { id: string }) {
       <div className="tabs">
         <div className="tab-list" role="tablist">
           {TABS.map((t) => (
-            <button key={t.id} role="tab" aria-selected={tab === t.id} className={tab === t.id ? "active" : ""} onClick={() => setTab(t.id)}>
+            <button
+              key={t.id}
+              role="tab"
+              aria-selected={tab === t.id}
+              className={tab === t.id ? "active" : ""}
+              onClick={() => {
+                setTab(t.id);
+                if (t.id === "tree") setTreeOpened(true);
+              }}
+            >
               {t.label}
             </button>
           ))}
@@ -176,6 +189,7 @@ function EntityView({ id }: { id: string }) {
         <div className="tab-body">
           {tab === "facts" && <FactsTab facts={e.facts} showInferred={showInferred} />}
           {tab === "incoming" && <IncomingTab entity={e} showInferred={showInferred} />}
+          {tab === "tree" && <TreeTab tree={tree} />}
           {tab === "classes" && <ClassesTab entity={e} showInferred={showInferred} />}
           {tab === "query" && <QueryTab iri={node.iri} />}
         </div>
@@ -265,6 +279,87 @@ function IncomingTab({ entity, showInferred }: { entity: Entity; showInferred: b
         ))}
       </tbody>
     </table>
+  );
+}
+
+// ---- Cây quan hệ (giống mục "Cây quan hệ" ở tab Tài nguyên của Gradio; dữ liệu /api/entity/{id}/tree) ----
+
+function TreeTab({ tree }: { tree: ApiState<RelationTree> }) {
+  return (
+    <>
+      <p className="muted small rt-hint">Chỉ gồm quan hệ khai báo (trừ vio:playedFor), tối đa 3 bước: gốc → đội → sân → tỉnh.</p>
+      {tree.loading && <Loading text="Đang dựng cây quan hệ…" />}
+      {tree.error && <ErrorState message={`${tree.error}${tree.error.includes("404") ? " Máy chủ này chưa có endpoint /api/entity/{id}/tree." : ""}`} />}
+      {tree.data &&
+        (tree.data.groups.length === 0 ? (
+          <p className="muted">Không có quan hệ tới thực thể khác.</p>
+        ) : (
+          <div className="rt">
+            <p className="rt-root">
+              <b>{tree.data.root.label}</b>
+            </p>
+            <RelationGroups groups={tree.data.groups} depth={1} />
+          </div>
+        ))}
+    </>
+  );
+}
+
+function RelationGroups({ groups, depth }: { groups: RelationGroup[]; depth: number }) {
+  return (
+    <ul className="ct-tree" role={depth === 1 ? "tree" : "group"} aria-label={depth === 1 ? "Cây quan hệ" : undefined}>
+      {groups.map((g) => {
+        const out = g.direction === "out";
+        return (
+          <li key={`${g.direction}:${g.prop}`} className="ct-node rt-group">
+            <div className="ct-row">
+              <span className="rt-arrow" aria-label={out ? "quan hệ đi ra" : "quan hệ đi vào"}>
+                {out ? "→" : "←"}
+              </span>
+              <span className="ct-text">
+                <code>{g.prop}</code>{" "}
+                <span className="ct-muted">
+                  {g.label}
+                  {out ? "" : " của"} ({formatNumber(g.total)})
+                </span>
+              </span>
+            </div>
+            <div className="ct-children">
+              <ul className="ct-tree" role="group">
+                {g.children.map((c, i) => (
+                  <RelationChild key={`${c.node.id}#${c.station ?? i}`} c={c} depth={depth} />
+                ))}
+                {g.more > 0 && <li className="rt-more">… và {formatNumber(g.more)} khác</li>}
+              </ul>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+function RelationChild({ c, depth }: { c: RelationNode; depth: number }) {
+  // con trực tiếp của gốc mở sẵn, sâu hơn thu lại (như <details> của Gradio)
+  const [open, setOpen] = useState(depth === 1);
+  const expandable = c.groups.length > 0;
+  const onToggle = () => setOpen((o) => !o);
+  return (
+    <li className="ct-node" role="treeitem" aria-expanded={expandable ? open : undefined}>
+      <div className={`ct-row${expandable ? " ct-clickable" : ""}`} onClick={expandable ? rowToggle(onToggle) : undefined}>
+        {expandable ? <Chevron open={open} onToggle={onToggle} /> : <LeafMark />}
+        <span className="ct-text">
+          <EntityLink node={c.node} />
+          {c.node.cls && <span className="chip rt-cls">{c.node.cls}</span>}
+          {c.note && <span className="ct-muted rt-note">{c.note}</span>}
+        </span>
+      </div>
+      {expandable && open && (
+        <div className="ct-children">
+          <RelationGroups groups={c.groups} depth={depth + 1} />
+        </div>
+      )}
+    </li>
   );
 }
 
