@@ -57,7 +57,7 @@ export function OverviewPage() {
       <h1 className="page-title">Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu?</h1>
 
       <section className="tiles">
-        <StatTile value={formatNumber(stats.total)} label="triple" note={stats.built ? `dựng ${stats.built}` : undefined} />
+        <StatTile value={formatNumber(stats.total)} label="triple" />
         <StatTile value={formatNumber(stats.asserted)} label="khai báo" note="trích từ Wikipedia / Wikidata" />
         {showInferred && (
           <StatTile
