@@ -2219,17 +2219,9 @@ code.term-ref {
   border: none;
 }
 
-/* phần đầu trang Tổng quan, như giao diện Gradio (vd-eyebrow, vd-title, vd-lede) */
+/* phần đầu trang Tổng quan, như giao diện Gradio (vd-title, vd-lede) */
 .ov-head {
   margin: 4px 0 18px;
-}
-.ov-eyebrow {
-  font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #0f6b5a;
-  margin: 0 0 8px;
 }
 .ov-title {
   font-size: 30px;

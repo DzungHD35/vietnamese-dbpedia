@@ -56,7 +56,6 @@ export function OverviewPage() {
     <div className="overview">
       {/* cùng phần đầu trang với giao diện Gradio */}
       <header className="ov-head">
-        <p className="ov-eyebrow">vi.dbpedia.org · Linked Open Data · SPARQL 1.1</p>
         <h1 className="ov-title">Vietnamese DBpedia</h1>
         <p className="ov-lede">
           Dữ liệu có cấu trúc trích từ Wikipedia tiếng Việt và Wikidata, mô tả bằng ontology <code>vio:</code> căn theo
