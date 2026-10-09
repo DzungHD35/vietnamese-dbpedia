@@ -16,6 +16,7 @@ from rdflib.query import Result
 
 from ui.api.links import build_links
 from ui.api.paths import WEB_INDEX
+from ui.api.presets import SPARQL_LADDER
 from ui.api.state import kg
 from vidbpedia.vocab import PREFIXES
 from vidbpedia.web.examples import EXAMPLE_QUERIES
@@ -23,6 +24,7 @@ from vidbpedia.web.examples import EXAMPLE_QUERIES
 router = APIRouter()
 
 MAX_ROWS = 1000
+LADDER_GROUP = "Demo: từ đơn giản đến phức tạp"
 CORS = {"Access-Control-Allow-Origin": "*"}
 # Accept → (định dạng của rdflib, Content-Type); thứ tự là thứ tự ưu tiên khi Accept không nói rõ
 TABLE_FORMATS = {
@@ -94,7 +96,10 @@ def _run(query: str, inference: bool) -> dict:
 
 @router.get("/api/sparql/examples")
 def examples():
-    return [{"name": name, "query": query} for name, query in EXAMPLE_QUERIES.items()]
+    """Bậc thang demo (presets) trước, rồi các mẫu của team; `group` để giao diện chia nhóm."""
+    ladder = [{"name": n, "query": q, "group": LADDER_GROUP} for n, q in SPARQL_LADDER]
+    team = [{"name": n, "query": q, "group": "Mẫu của nhóm"} for n, q in EXAMPLE_QUERIES.items()]
+    return ladder + team
 
 
 @router.post("/api/sparql")

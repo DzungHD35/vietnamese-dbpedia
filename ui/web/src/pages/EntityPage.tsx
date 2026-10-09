@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useApi } from "../api/useApi";
-import type { Entity, Fact, Neighbors, Value } from "../api/types";
+import type { ConsistencyPreset, Entity, Fact, Neighbors, Value } from "../api/types";
 import { CareerTimeline } from "../components/CareerTimeline";
+import { ConsistencyCard } from "../components/ConsistencyCard";
 import { EntityLink } from "../components/EntityLink";
 import { GraphView } from "../components/GraphView";
 import { InferredBadge } from "../components/InferredBadge";
@@ -55,6 +56,7 @@ function EntityView({ id }: { id: string }) {
   const enc = encodeURIComponent(id);
   const entity = useApi<Entity>(`/api/entity/${enc}`);
   const neighbors = useApi<Neighbors>(`/api/neighbors/${enc}`);
+  const consistency = useApi<Record<string, ConsistencyPreset[]>>("/api/consistency/presets");
   const [tab, setTab] = useState<TabId>("facts");
   const [fullAbstract, setFullAbstract] = useState(false);
 
@@ -161,6 +163,8 @@ function EntityView({ id }: { id: string }) {
           />
         )}
       </div>
+
+      {consistency.data?.[node.id] && <ConsistencyCard entityId={node.id} presets={consistency.data[node.id]} />}
 
       <div className="tabs">
         <div className="tab-list" role="tablist">

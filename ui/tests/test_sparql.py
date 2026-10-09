@@ -4,7 +4,9 @@ import json
 
 import pytest
 
+from ui.api.presets import SPARQL_LADDER
 from ui.api.state import kg
+from vidbpedia.web.examples import EXAMPLE_QUERIES
 
 COUNT_PLAYED = "SELECT (COUNT(*) AS ?n) WHERE { ?s vio:playedFor ?o }"
 
@@ -46,7 +48,7 @@ def test_row_limit(client):
 
 def test_examples_all_run(client):
     examples = client.get("/api/sparql/examples").json()
-    assert len(examples) == 9
+    assert len(examples) == len(SPARQL_LADDER) + len(EXAMPLE_QUERIES)
     for e in examples:
         d = run(client, e["query"])
         assert d["error"] is None and d["total"] > 0, e["name"]
@@ -111,3 +113,9 @@ def test_standard_endpoint_inference_off(client):
     assert r.json()["results"]["bindings"][0]["n"]["value"] == "0"
     r = client.get("/sparql", params={"query": COUNT_PLAYED})
     assert int(r.json()["results"]["bindings"][0]["n"]["value"]) > 0
+
+
+def test_examples_put_ladder_first(client):
+    ex = client.get("/api/sparql/examples").json()
+    assert [e["name"] for e in ex[: len(SPARQL_LADDER)]] == [n for n, _ in SPARQL_LADDER]
+    assert len({e["group"] for e in ex}) == 2

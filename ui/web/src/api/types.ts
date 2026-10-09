@@ -193,6 +193,35 @@ export interface SparqlResult {
 export interface SparqlExample {
   name: string;
   query: string;
+  group: string;
+}
+
+// ---- /api/consistency ----
+/** Lớp hoặc thuộc tính trong ontology. */
+export interface SchemaTerm {
+  qname: string;
+  label: string;
+}
+
+export interface ConsistencyPreset {
+  subject: string;
+  predicate: string;
+  object: string;
+  note: string;
+  s: Node | SchemaTerm;
+  p: SchemaTerm;
+  o: Node | SchemaTerm;
+}
+
+export interface ConsistencyResult {
+  triple: { s: Node | SchemaTerm; p: SchemaTerm; o: Node | SchemaTerm };
+  consistent: boolean;
+  conflicts: { individual: Node; classes: SchemaTerm[] }[];
+  errors: string[];
+  gained: { node: Node; cls: SchemaTerm }[];
+  axioms: { domain: SchemaTerm | null; range: SchemaTerm | null };
+  triples: number;
+  ms: number;
 }
 
 // ---- /api/map ----
