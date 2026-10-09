@@ -145,7 +145,7 @@ function EntityView({ id }: { id: string }) {
       </header>
 
       <div className="ent-cols ent-onto">
-        <section className="card">
+        <section className="card ent-classes">
           <h2>Cây phân lớp</h2>
           <p className="muted small ent-note">Lớp khai báo và các lớp DBpedia suy ra bằng OWL 2 RL (rdfs:subClassOf).</p>
           <ClassTree classes={e.classes} showInferred={showInferred} />

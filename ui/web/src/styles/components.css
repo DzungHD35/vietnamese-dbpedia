@@ -1982,3 +1982,8 @@ code.term-ref {
   color: var(--muted);
   white-space: nowrap;
 }
+
+/* thẻ Cây phân lớp không viền, như mục Cây phân lớp của trang Gradio */
+.card.ent-classes {
+  border: none;
+}
