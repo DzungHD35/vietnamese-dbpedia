@@ -172,3 +172,7 @@ legacy/
 
 # ontology / khai báo / suy luận: máy chủ, test và VoID dùng tới (dòng "parts/" ở trên là của template Python)
 !data/parts/
+
+# Ghi chú làm việc cục bộ
+CLAUDE.md
+.agents/

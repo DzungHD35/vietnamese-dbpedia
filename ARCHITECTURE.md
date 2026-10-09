@@ -600,7 +600,8 @@ sequenceDiagram
 | `GET /resource/{tên}` | 303 tới `/?resource={tên}`. Nếu `Accept` là `text/turtle`, `application/n-triples`, `application/ld+json` hoặc `application/rdf+xml` thì 303 tới `/data/{tên}.ttl` / `.nt` / `.jsonld` / `.rdf`. Có header `Vary: Accept`. |
 | `GET /page/{tên}` | 303 tới `/?resource={tên}` (giống `dbpedia.org/page/…`) |
 | `GET /data/{tên}.{đuôi}` | `describe`: mọi triple có tài nguyên là chủ ngữ, cùng tối đa 2.000 triple có nó là tân ngữ; có `Access-Control-Allow-Origin: *` |
-| `GET /ontology/{thuật ngữ}` | định nghĩa của lớp hoặc thuộc tính `vio:` (Turtle) |
+| `GET /ontology/{thuật ngữ}` | định nghĩa của lớp hoặc thuộc tính `vio:` (Turtle): `describe_term` đi theo blank node nên restriction, danh sách của `owl:propertyChainAxiom` và `owl:members` được giữ nguyên; thêm lớp con, thuộc tính con và nghịch đảo trực tiếp |
+| `GET /ontology.ttl` | toàn bộ `ontology/vi-ontology.ttl` |
 | tên không có trong dataset | 404 |
 
 `resolve()` nhận local name đã giải mã, có hoặc không có `_`, hoặc IRI đầy đủ. Hàm thử cả dạng đã mã hoá các ký tự

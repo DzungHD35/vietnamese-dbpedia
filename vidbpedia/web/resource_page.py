@@ -485,8 +485,20 @@ class ResourceView:
         rank = {id(item): i for i, item in enumerate(items)}
         return sorted(picked, key=lambda item: rank[id(item)])
 
-    def _graph_svg(self, iri):
+    def _graph_layout(self, iri, inferred=True):
+        """Bố cục đồ thị lân cận: nút nào, bên nào, ở hàng nào; None nếu không có liên kết.
+
+        Dùng chung cho SVG tĩnh của trang này (_graph_svg) và cho đồ thị kéo thả của giao diện React.
+        inferred=False chỉ giữ thuộc tính khai báo; nút không còn thuộc tính nào thì bỏ.
+        """
         out, inc = self._neighbors(iri)
+        if not inferred:
+            out = [
+                (o, kept) for o, ps in out if (kept := [p for p in ps if not self.is_inferred((iri, p, o))])
+            ]
+            inc = [
+                (s, kept) for s, ps in inc if (kept := [p for p in ps if not self.is_inferred((s, p, iri))])
+            ]
         page = self.g.value(iri, FOAF.isPrimaryTopicOf)
         lod = [(o, [OWL.sameAs], "lod") for o in sorted(self.g.objects(iri, OWL.sameAs), key=str)]
         if page is not None:
@@ -498,7 +510,7 @@ class ResourceView:
         ins = [(s, ps, "in") for s, ps in self._round_robin(inc, n_in)]
         hidden = len(out) - len(outs) + len(inc) - len(ins)
         if not outs and not ins and not lod:
-            return '<p class="rv-muted">Không có liên kết tới tài nguyên khác.</p>'
+            return None
         # bên phải: LOD rồi quan hệ đi ra; bên trái: quan hệ đi vào; bên nào dư thì chuyển sang bên kia
         right, left = lod + outs, ins
         while len(right) > GRAPH_SIDE and len(left) < GRAPH_SIDE:
@@ -512,11 +524,6 @@ class ResourceView:
         center = _cut(self.label(iri), 34)
         cw = min(max(len(center) * 8 + 32, 150), 300)
         cx = width / 2
-        parts = [
-            f'<svg viewBox="0 0 {width} {height:.0f}" role="img" aria-label="Đồ thị lân cận của {esc(center)}">',
-            '<defs><marker id="rv-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" '
-            'orient="auto-start-reverse"><path d="M0 0L10 5L0 10z"/></marker></defs>',
-        ]
         nodes = []
         for side, items in ((1, right), (-1, left)):
             for i, (node, props, direction) in enumerate(items):
@@ -524,39 +531,79 @@ class ResourceView:
                 if direction == "lod":
                     title = "vi.wikipedia.org" if node == page else self.qname(node)
                     rel = f"→ {self.qname(props[0])}"
-                    inferred = False
+                    inf = False
                 else:
                     title = _cut(self.label(node), 34)
                     names = ", ".join(self.qname(p).split(":", 1)[1] for p in props[:2])
                     rel = ("→ " if direction == "out" else "← ") + names
                     triples = [(iri, p, node) if direction == "out" else (node, p, iri) for p in props]
-                    inferred = all(self.is_inferred(t) for t in triples)
+                    inf = all(self.is_inferred(t) for t in triples)
                 w = min(max(len(title) * 7 + 24, len(rel) * 6.2 + 24, 120), 300)
                 x = width - 20 - w if side == 1 else 20
-                ax, bx = (
-                    cx + side * cw / 2,
-                    (x if side == 1 else x + w),
-                )  # điểm nối ở nút giữa và ở nút lân cận
-                if direction == "in":
-                    d = f"M{bx:.0f} {y:.0f}C{bx - side * 90:.0f} {y:.0f} {ax + side * 90:.0f} {cy:.0f} {ax:.0f} {cy:.0f}"
-                else:
-                    d = f"M{ax:.0f} {cy:.0f}C{ax + side * 90:.0f} {cy:.0f} {bx - side * 90:.0f} {y:.0f} {bx:.0f} {y:.0f}"
-                edge = "rv-edge rv-edge-inf" if inferred else "rv-edge"
-                parts.append(f'<path class="{edge}" d="{d}" marker-end="url(#rv-arr)"/>')
                 kind = "lod" if direction == "lod" else self.kind(node)
                 href, target = (str(node), "_blank") if direction == "lod" else (self.href(node), "_self")
                 nodes.append(
-                    f'<a href="{esc(href)}" target="{target}"><g class="rv-node rv-k-{kind}">'
-                    f"<title>{esc(node)}</title>"
-                    f'<rect x="{x:.0f}" y="{y - 15:.0f}" width="{w:.0f}" height="30" rx="5"/>'
-                    f'<text class="rv-t1" x="{x + 10:.0f}" y="{y - 2:.0f}">{esc(title)}</text>'
-                    f'<text class="rv-t2" x="{x + 10:.0f}" y="{y + 10:.0f}">{esc(rel)}</text></g></a>'
+                    {
+                        "node": node,
+                        "props": props,
+                        "direction": direction,
+                        "side": side,
+                        "x": x,
+                        "y": y,
+                        "w": w,
+                        "title": title,
+                        "rel": rel,
+                        "inferred": inf,
+                        "kind": kind,
+                        "href": href,
+                        "target": target,
+                    }
                 )
+        return {
+            "width": width,
+            "height": height,
+            "cx": cx,
+            "cy": cy,
+            "cw": cw,
+            "center": center,
+            "nodes": nodes,
+            "hidden": hidden,
+        }
+
+    def _graph_svg(self, iri, inferred=True):
+        lay = self._graph_layout(iri, inferred=inferred)
+        if lay is None:
+            return '<p class="rv-muted">Không có liên kết tới tài nguyên khác.</p>'
+        width, height, cx, cy, cw = lay["width"], lay["height"], lay["cx"], lay["cy"], lay["cw"]
+        center = lay["center"]
+        parts = [
+            f'<svg viewBox="0 0 {width} {height:.0f}" role="img" aria-label="Đồ thị lân cận của {esc(center)}">',
+            '<defs><marker id="rv-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" '
+            'orient="auto-start-reverse"><path d="M0 0L10 5L0 10z"/></marker></defs>',
+        ]
+        nodes = []
+        for n in lay["nodes"]:
+            side, x, y, w = n["side"], n["x"], n["y"], n["w"]
+            ax, bx = (cx + side * cw / 2, (x if side == 1 else x + w))  # điểm nối ở nút giữa và ở nút lân cận
+            if n["direction"] == "in":
+                d = f"M{bx:.0f} {y:.0f}C{bx - side * 90:.0f} {y:.0f} {ax + side * 90:.0f} {cy:.0f} {ax:.0f} {cy:.0f}"
+            else:
+                d = f"M{ax:.0f} {cy:.0f}C{ax + side * 90:.0f} {cy:.0f} {bx - side * 90:.0f} {y:.0f} {bx:.0f} {y:.0f}"
+            edge = "rv-edge rv-edge-inf" if n["inferred"] else "rv-edge"
+            parts.append(f'<path class="{edge}" d="{d}" marker-end="url(#rv-arr)"/>')
+            nodes.append(
+                f'<a href="{esc(n["href"])}" target="{n["target"]}"><g class="rv-node rv-k-{n["kind"]}">'
+                f"<title>{esc(n['node'])}</title>"
+                f'<rect x="{x:.0f}" y="{y - 15:.0f}" width="{w:.0f}" height="30" rx="5"/>'
+                f'<text class="rv-t1" x="{x + 10:.0f}" y="{y - 2:.0f}">{esc(n["title"])}</text>'
+                f'<text class="rv-t2" x="{x + 10:.0f}" y="{y + 10:.0f}">{esc(n["rel"])}</text></g></a>'
+            )
         parts += nodes
         parts.append(
             f'<g class="rv-center"><rect x="{cx - cw / 2:.0f}" y="{cy - 18:.0f}" width="{cw:.0f}" height="36" rx="6"/>'
             f'<text x="{cx:.0f}" y="{cy + 5:.0f}" text-anchor="middle">{esc(center)}</text></g></svg>'
         )
+        hidden = lay["hidden"]
         more = f'<p class="rv-note">Còn {hidden} liên kết khác, xem bảng bên dưới.</p>' if hidden else ""
         legend = (
             '<p class="rv-legend"><span class="rv-lg rv-lg-a"></span>khai báo '

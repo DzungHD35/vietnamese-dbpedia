@@ -25,7 +25,10 @@ const PROP_NOTES: Record<string, string> = {
   "rdf:type": "lớp cha theo rdfs:subClassOf",
 };
 
-function percent(part: number, whole: number): string {
+/** Tỷ lệ phần trăm; số liệu thiếu thì "—", mẫu số 0/null thì 0%. */
+function percent(part: number | null, whole: number | null): string {
+  if (part == null) return "—";
+  if (!whole) return "0%";
   return `${Math.round((part / whole) * 100)}%`;
 }
 
@@ -47,21 +50,28 @@ export function OverviewPage() {
 
   const { stats, byClass, inferredByPredicate, featured, questions } = data;
   const maxInferred = Math.max(...inferredByPredicate.map((p) => p.count), 1);
-  const seg = (n: number) => `${(n / stats.total) * 100}%`;
+  const seg = (n: number | null) => `${n && stats.total ? (n / stats.total) * 100 : 0}%`;
 
   return (
     <div className="overview">
-      <h1 className="page-title">Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu?</h1>
+      {/* cùng phần đầu trang với giao diện Gradio */}
+      <header className="ov-head">
+        <h1 className="ov-title">Vietnamese DBpedia</h1>
+        <p className="ov-lede">
+          Dữ liệu có cấu trúc trích từ Wikipedia tiếng Việt và Wikidata, mô tả bằng ontology <code>vio:</code> căn theo
+          DBpedia và liên kết <code>owl:sameAs</code> sang DBpedia tiếng Anh.
+        </p>
+      </header>
 
       <section className="tiles">
-        <StatTile value={formatNumber(stats.total)} label="triple" note={`dựng ${stats.built}`} />
+        <StatTile value={formatNumber(stats.total)} label="triple" />
         <StatTile value={formatNumber(stats.asserted)} label="khai báo" note="trích từ Wikipedia / Wikidata" />
         {showInferred && (
           <StatTile
             tone="inferred"
             value={formatNumber(stats.inferred)}
             label="suy luận"
-            note={`+${percent(stats.inferred, stats.asserted)} so với khai báo · ${stats.reasoner}`}
+            note={`+${percent(stats.inferred, stats.asserted)} so với khai báo${stats.reasoner ? ` · ${stats.reasoner}` : ""}`}
             onClick={() => document.getElementById("inference")?.scrollIntoView({ behavior: "smooth" })}
           />
         )}
@@ -92,7 +102,10 @@ export function OverviewPage() {
       <div className="cols">
         <section className="card">
           <h2>Cây lớp <code>vio:</code> ({byClass.length} lớp)</h2>
-          <p className="muted small">Độ dài ∝ số thực thể (gồm cả lớp con). Đoạn đứt tím là phần chỉ có nhờ suy luận.</p>
+          <p className="muted small">
+            Độ dài ∝ số thực thể (gồm cả lớp con). Đoạn đứt tím là phần chỉ có nhờ suy luận. Bấm tên lớp để xem định nghĩa ở trang{" "}
+            <Link to="/ontology">Ontology</Link>.
+          </p>
           <ClassBars rows={byClass} showInferred={showInferred} />
         </section>
 

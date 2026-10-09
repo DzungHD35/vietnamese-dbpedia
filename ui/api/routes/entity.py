@@ -15,6 +15,7 @@ router = APIRouter(prefix="/api")
 
 MAX_VALUES = 40  # số giá trị tối đa mỗi thuộc tính / mỗi nhóm "được tham chiếu bởi"
 MAX_SUBGRAPH_IDS = 60
+GRAPH = "http://vi.dbpedia.org"  # đồ thị của dataset, như dòng tiêu đề trang tài nguyên của team
 STATION_KIND = {VIO.YouthStation: "youth", VIO.ClubStation: "club", VIO.NationalTeamStation: "national"}
 WIKIPEDIA_LABEL = "vi.wikipedia.org"
 
@@ -44,6 +45,8 @@ def entity(name: str):
         "abstract": str(abstract) if abstract is not None else None,
         "thumbnail": str(thumbnail) if thumbnail is not None else None,
         "altLabels": sorted({str(o) for o in g.objects(iri, SKOS.altLabel)}),
+        "types": _asserted_types(iri),
+        "graph": GRAPH,
         "classes": _classes(iri),
         "lod": _lod(iri),
         "career": _career(iri),
@@ -54,6 +57,23 @@ def entity(name: str):
             "inferred": sum(1 for p, o in own if (iri, p, o) in view.inferred),
         },
     }
+
+
+def _asserted_types(iri) -> list[dict]:
+    """Lớp vio: khai báo (không suy luận) của thực thể, cùng cách chọn với ResourceView._header."""
+    view, g = kg.view, kg.graph
+    types = sorted(
+        (
+            t
+            for t in g.objects(iri, RDF.type)
+            if str(t).startswith(str(VIO)) and (iri, RDF.type, t) not in view.inferred
+        ),
+        key=str,
+    )
+    return [
+        {"id": view.qname(t), "term": str(t)[len(str(VIO)) :], "label": view.label(t), "iri": str(t)}
+        for t in types
+    ]
 
 
 def _classes(iri) -> list[dict]:
@@ -174,6 +194,7 @@ def _facts(iri, own) -> list[dict]:
         facts.append(
             {
                 "prop": view.qname(p),
+                "iri": str(p),
                 "label": view.label(p),
                 "ns": _prop_ns(p),
                 "values": [serialize.value(view, iri, p, o) for o in values[:MAX_VALUES]],
@@ -195,7 +216,15 @@ def _incoming(iri) -> list[dict]:
         items = [
             {**serialize.node(view, s), "inferred": (s, p, iri) in view.inferred} for s in subs[:MAX_VALUES]
         ]
-        out.append({"prop": view.qname(p), "label": view.label(p), "count": len(subs), "items": items})
+        out.append(
+            {
+                "prop": view.qname(p),
+                "iri": str(p),
+                "label": view.label(p),
+                "count": len(subs),
+                "items": items,
+            }
+        )
     return out
 
 

@@ -115,6 +115,44 @@ def test_standard_endpoint_inference_off(client):
     assert int(r.json()["results"]["bindings"][0]["n"]["value"]) > 0
 
 
+SERVICE_QUERY = "SELECT * WHERE { SERVICE <http://127.0.0.1:9/sparql> { ?s ?p ?o } } LIMIT 1"
+FROM_QUERY = "SELECT * FROM <http://127.0.0.1:9/x.ttl> WHERE { ?s ?p ?o } LIMIT 1"
+
+
+def test_remote_queries_are_blocked_everywhere(client):
+    """FROM và SERVICE khiến rdflib gửi HTTP ra ngoài: chặn ở cả endpoint chuẩn, API giao diện và Hỏi đáp."""
+    for query in (SERVICE_QUERY, FROM_QUERY):
+        r = client.get("/sparql", params={"query": query})
+        assert r.status_code == 400 and "Không hỗ trợ" in r.text
+        assert "Không hỗ trợ" in run(client, query)["error"]
+        assert client.post("/api/ask/asserted", json={"sparql": query}).json()["status"] == "error"
+    with pytest.raises(ValueError):
+        kg.rag.run_sparql(SERVICE_QUERY)  # đường LLM sinh SPARQL dùng cùng lớp chặn
+
+
+def test_xml_keeps_zero_and_false(client):
+    """Serializer XML của rdflib 7.6 ghi literal 0/false thành rỗng; dùng results_xml của team thì không."""
+    r = client.get(
+        "/sparql",
+        params={"query": 'SELECT ?z ?f WHERE { BIND(0 AS ?z) BIND("false"^^xsd:boolean AS ?f) }'},
+        headers={"Accept": "application/sparql-results+xml"},
+    )
+    assert r.status_code == 200 and ">0<" in r.text and ">false<" in r.text
+
+
+def test_csv_for_ask_falls_back_to_json(client):
+    r = client.get("/sparql", params={"query": "ASK{?s ?p ?o}"}, headers={"Accept": "text/csv"})
+    assert r.status_code == 200 and r.json()["boolean"] is True
+
+
+def test_format_param_like_dbpedia(client):
+    q = "SELECT ?s WHERE { ?s a vio:Stadium } LIMIT 2"
+    r = client.get("/sparql", params={"query": q, "format": "csv"})
+    assert r.status_code == 200 and r.headers["content-type"].startswith("text/csv") and "vary" in r.headers
+    r = client.get("/sparql", params={"query": q, "format": "xml"})
+    assert r.headers["content-type"].startswith("application/sparql-results+xml")
+
+
 def test_examples_put_ladder_first(client):
     ex = client.get("/api/sparql/examples").json()
     assert [e["name"] for e in ex[: len(SPARQL_LADDER)]] == [n for n, _ in SPARQL_LADDER]

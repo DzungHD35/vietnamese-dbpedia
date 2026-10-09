@@ -76,6 +76,25 @@ def test_entity_inference_flags_and_lod(client):
     assert d["lod"]["linkedData"].startswith("/resource/")
 
 
+def test_entity_header_types_and_graph(client):
+    d = client.get(url("/api/entity", "Hà_Nội")).json()
+    assert d["graph"] == "http://vi.dbpedia.org"
+    assert [t["id"] for t in d["types"]] == ["vio:Province"]
+    assert d["types"][0]["label"] == "Tỉnh, thành phố trực thuộc trung ương"
+    assert d["types"][0]["iri"] == "http://vi.dbpedia.org/ontology/Province"
+    former = client.get(url("/api/entity", "Hà_Tây_(tỉnh)")).json()
+    assert "vio:FormerProvince" in [t["id"] for t in former["types"]]
+
+
+def test_entity_props_and_types_carry_iri_and_qname(client):
+    d = client.get(url("/api/entity", "Nguyễn_Công_Phượng")).json()
+    facts = {f["prop"]: f for f in d["facts"]}
+    assert facts["vio:birthDate"]["iri"] == "http://vi.dbpedia.org/ontology/birthDate"
+    types = {v["node"]["qname"] for v in facts["rdf:type"]["values"]}
+    assert {"vio:FootballPlayer", "dbo:SoccerPlayer"} <= types
+    assert all(g["iri"].startswith("http") for g in d["incoming"])
+
+
 def test_entity_incoming_is_capped(client):
     d = client.get(url("/api/entity", THAN_QN)).json()
     played = next(g for g in d["incoming"] if g["prop"] == "vio:playedFor")
