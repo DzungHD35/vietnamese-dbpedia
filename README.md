@@ -110,9 +110,9 @@ curl -O http://127.0.0.1:7860/ontology.ttl
 Ngoài Gradio, thư mục [`ui/`](ui/README.md) có giao diện React + API JSON mỏng chạy trên cùng dataset, dùng khi
 thuyết trình: `python -m ui.api` (cổng 8000, cần build frontend một lần, Node ≥ 20.19). Các trang: **Tổng quan**
 (quy mô, cây lớp, suy luận thêm được gì), **Ontology** (18 lớp, 54 thuộc tính, tiên đề OWL và số triple mỗi tiên đề
-sinh ra, liên kết tới `/ontology/…`), **Thực thể** (timeline sự nghiệp, đồ thị mở rộng được, khối Linked Data với
-IRI, `owl:sameAs`, tải RDF bốn định dạng), **Hỏi đáp có bằng chứng**, **SPARQL** (công tắc có/không suy luận) và
-**Bản đồ** sáp nhập tỉnh. Mọi route Linked Data và `/sparql` của team được gắn nguyên vẹn vào máy chủ này.
+sinh ra, liên kết tới `/ontology/…`), **Thực thể** (timeline sự nghiệp, đồ thị lân cận kéo thả được, khối Linked Data với
+IRI, `owl:sameAs`, tải RDF bốn định dạng), **Hỏi đáp có bằng chứng** và **SPARQL** (công tắc có/không suy luận).
+Mọi route Linked Data và `/sparql` của team được gắn nguyên vẹn vào máy chủ này.
 
 ## SPARQL endpoint và terminal
 
