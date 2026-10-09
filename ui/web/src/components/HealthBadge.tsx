@@ -9,7 +9,22 @@ export function HealthBadge({ health, offline }: { health: Health | null; offlin
   if (health.ready) {
     return (
       <span className="health team" title="Graph sẵn sàng">
-        Group 23
+        <svg
+          className="team-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <circle cx="9" cy="7" r="4" />
+          <path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        </svg>
+        <span className="team-name">Group 23</span>
       </span>
     );
   }

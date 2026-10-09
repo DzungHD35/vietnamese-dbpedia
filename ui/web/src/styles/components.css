@@ -77,11 +77,11 @@ code {
 /* ---------- nav: tìm kiếm, công tắc ---------- */
 .search {
   position: relative;
-  width: 300px;
+  width: 380px;
 }
 .search input {
   width: 100%;
-  padding: 7px 12px;
+  padding: 9px 14px;
   font: inherit;
   font-size: 14px;
   border: 1px solid var(--border);
@@ -724,7 +724,7 @@ a.chip:hover {
     grid-template-columns: 1fr;
   }
   .search {
-    width: 200px;
+    width: 240px;
   }
 }
 
@@ -2225,10 +2225,23 @@ code.term-ref {
   color: var(--text);
 }
 
-/* tên nhóm ở góc phải thanh điều hướng (thay chữ "Graph sẵn sàng") */
+/* tên nhóm ở góc phải thanh điều hướng (thay chữ "Graph sẵn sàng"): chữ chuyển màu xanh → tím của giao diện */
 .health.team {
-  font-weight: 600;
-  color: var(--text);
+  gap: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.team-icon {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.team-name {
+  background: linear-gradient(90deg, var(--accent), var(--inferred));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Hỏi đáp: câu hỏi mẫu nằm trên ô nhập, câu trả lời cuối cùng ngay dưới ô nhập, các bước ở dưới cùng */
