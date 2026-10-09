@@ -1987,3 +1987,35 @@ code.term-ref {
 .card.ent-classes {
   border: none;
 }
+
+/* phần đầu trang Tổng quan, như giao diện Gradio (vd-eyebrow, vd-title, vd-lede) */
+.ov-head {
+  margin: 4px 0 18px;
+}
+.ov-eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0f6b5a;
+  margin: 0 0 8px;
+}
+.ov-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+.ov-lede {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 72ch;
+  margin: 0;
+  line-height: 1.6;
+}
+.ov-lede code {
+  font-family: var(--mono);
+  font-size: 13.5px;
+  color: var(--text);
+}

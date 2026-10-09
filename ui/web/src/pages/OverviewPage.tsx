@@ -54,7 +54,15 @@ export function OverviewPage() {
 
   return (
     <div className="overview">
-      <h1 className="page-title">Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu?</h1>
+      {/* cùng phần đầu trang với giao diện Gradio */}
+      <header className="ov-head">
+        <p className="ov-eyebrow">vi.dbpedia.org · Linked Open Data · SPARQL 1.1</p>
+        <h1 className="ov-title">Vietnamese DBpedia</h1>
+        <p className="ov-lede">
+          Dữ liệu có cấu trúc trích từ Wikipedia tiếng Việt và Wikidata, mô tả bằng ontology <code>vio:</code> căn theo
+          DBpedia và liên kết <code>owl:sameAs</code> sang DBpedia tiếng Anh.
+        </p>
+      </header>
 
       <section className="tiles">
         <StatTile value={formatNumber(stats.total)} label="triple" />
