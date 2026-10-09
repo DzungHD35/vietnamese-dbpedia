@@ -15,12 +15,21 @@ def test_domain_violation_is_explained(client):
     d = check(client, CP, "vio:ground", "Sân_vận_động_Pleiku").json()
     assert not d["consistent"] and d["triples"] > 0
     [c] = d["conflicts"]
-    assert c["individual"]["id"] == CP and {x["qname"] for x in c["classes"]} == {
-        "vio:Person",
-        "vio:Organisation",
-    }
+    assert c["individual"]["id"] == CP and c["isSubject"]
+    assert (c["known"]["qname"], c["inferred"]["qname"]) == ("vio:Person", "vio:Organisation")
+    assert c["reason"].startswith("domain")
     assert d["axioms"]["domain"]["qname"] == "vio:Organisation"
     assert {(g["node"]["id"], g["cls"]["qname"]) for g in d["gained"]} == {(CP, "vio:Organisation")}
+
+
+def test_range_violation_on_object(client):
+    d = check(client, CP, "vio:currentClub", "Đội_tuyển_bóng_đá_quốc_gia_Việt_Nam").json()
+    [c] = d["conflicts"]
+    assert (
+        not c["isSubject"]
+        and c["inferred"]["qname"] == "vio:FootballClub"
+        and c["reason"].startswith("range")
+    )
 
 
 def test_type_triple_on_class(client):

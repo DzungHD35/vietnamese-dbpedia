@@ -83,6 +83,22 @@ def _axioms(p) -> dict:
     return {"domain": _schema(domain) if domain else None, "range": _schema(rng) if rng else None}
 
 
+def _conflict(a, b, x, s, p, o) -> dict:
+    """Vi phạm disjoint → lớp x đã có trong graph thật (`known`), lớp mới do triple thử (`inferred`) và lý do."""
+    known, new = (b, a) if (x, RDF.type, a) not in kg.graph and (x, RDF.type, b) in kg.graph else (a, b)
+    if p == RDF.type:
+        reason = "khai báo trong triple thử"
+    else:
+        reason = f"{'domain' if x == s else 'range'} của “{kg.view.label(p)}”"
+    return {
+        "individual": node(kg.view, x),
+        "isSubject": x == s,
+        "known": _schema(known),
+        "inferred": _schema(new),
+        "reason": reason,
+    }
+
+
 @router.get("/presets")
 def presets():
     """{id thực thể: [{subject, predicate, object, note}]}; bỏ preset có term không resolve được."""
@@ -130,8 +146,7 @@ def check(body: TripleBody):
     for msg in errors:
         m = DISJOINT.search(msg)
         if m:
-            a, b, x = (URIRef(v) for v in m.groups())
-            conflicts.append({"individual": node(kg.view, x), "classes": [_schema(a), _schema(b)]})
+            conflicts.append(_conflict(*(URIRef(v) for v in m.groups()), s, p, o))
         else:
             other.append(msg)
     # lớp vio: mới có của chủ ngữ/tân ngữ so với graph thật: hệ quả trực tiếp của triple vừa thêm

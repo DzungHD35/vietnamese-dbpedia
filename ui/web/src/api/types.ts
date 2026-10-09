@@ -216,7 +216,7 @@ export interface ConsistencyPreset {
 export interface ConsistencyResult {
   triple: { s: Node | SchemaTerm; p: SchemaTerm; o: Node | SchemaTerm };
   consistent: boolean;
-  conflicts: { individual: Node; classes: SchemaTerm[] }[];
+  conflicts: { individual: Node; isSubject: boolean; known: SchemaTerm; inferred: SchemaTerm; reason: string }[];
   errors: string[];
   gained: { node: Node; cls: SchemaTerm }[];
   axioms: { domain: SchemaTerm | null; range: SchemaTerm | null };
@@ -243,4 +243,35 @@ export interface MapData {
   points: MapPoint[];
   successions: Succession[];
   successionsTotal: number;
+}
+
+export interface ProvinceCounts {
+  players: number;
+  clubs: number;
+  unis: number;
+}
+
+/** /api/map/provinces: số liệu riêng của tỉnh và (với tỉnh hiện hành) số liệu sau khi gộp tỉnh cũ. */
+export interface ProvinceStat {
+  id: string;
+  label: string;
+  former: boolean;
+  year: number | null;
+  final: string;
+  counts: ProvinceCounts;
+  groupCounts: ProvinceCounts | null;
+}
+
+/** /api/map/province/{id}?era= */
+export interface ProvinceDetail {
+  node: Node;
+  former: boolean;
+  year: number | null;
+  final: Node;
+  members: Node[];
+  counts: ProvinceCounts;
+  players: Node[];
+  clubs: Node[];
+  unis: Node[];
+  sparql: string;
 }

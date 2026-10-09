@@ -18,7 +18,7 @@
 |---|---|---|---|---|
 | Hành trình | Timeline Công Phượng | "Mỗi chặng là một nút: năm, số trận, bàn, cho mượn" | Dữ liệu thời gian mà văn bản không có | 20 |
 | Suy luận lộ diện | Tắt → bật *Hiện suy luận* | "Nhãn *Cầu thủ đội tuyển*, cạnh nét đứt tím: không ai nhập, máy suy ra" | **Gài** cho beat ★ | 25 |
-| Bắt lỗi | Cùng trang, thẻ *Thử thêm dữ liệu sai* → *sân nhà → Sân Pleiku* → rồi *tỉnh nơi sinh → Gia Lai* | "Cầu thủ không thể có sân nhà: máy suy ra Công Phượng là Tổ chức, trái tiên đề Người ⊥ Tổ chức. Còn Gia Lai thì sai sự thật nhưng đúng loại → không bắt" | Ontology không chỉ suy ra mà còn **phát hiện** dữ liệu vô lý (YC #1) | 25 |
+| Bắt lỗi | Cùng trang, thẻ *Nếu crawler đọc nhầm infobox?* → *sân nhà → Sân Pleiku* (đồ thị đỏ: Người ⊥ Tổ chức) → rồi *tỉnh nơi sinh → Gia Lai* (xanh) | "Cầu thủ không thể có sân nhà: máy suy ra Công Phượng là Tổ chức, trái tiên đề Người ⊥ Tổ chức. Còn Gia Lai thì sai sự thật nhưng đúng loại → không bắt" | Ontology không chỉ suy ra mà còn **phát hiện** dữ liệu vô lý (YC #1) | 25 |
 | Lứa HAGL | Đồ thị: bấm nút HAGL | "Từ một cầu thủ sang cả lứa HAGL, rồi CLB → sân → tỉnh" | Quan hệ đa bước | 15 |
 | ★ Câu hỏi chưa ai viết sẵn | Hỏi đáp: preset "Cầu thủ nào từng chơi cho Hoàng Anh Gia Lai?" | "SPARQL chạy thật: **77 dòng**. Chỉ khai báo: **0 dòng**" | **Thu hoạch**; hiện SPARQL = LLM không bịa | 35 |
 | Chốt | — | Câu luận điểm | Kết bằng luận điểm | 10 |
@@ -27,7 +27,7 @@
 
 ## Chuẩn bị
 
-- [ ] Thêm câu HAGL vào `ui/api/demo_cache.json` (hiện `llm: false` → thiếu là lỗi live).
+- [x] Câu HAGL đã có trong `ui/api/demo_cache.json` (77 / 0 dòng).
 - [ ] Server `ui.api` đã chạy ở :8000.
 - [ ] Mở sẵn tab; chụp sẵn trang DBpedia EN (phòng mất mạng).
 - [ ] Không bấm CLB nước ngoài (Mito, Sint-Truiden, Incheon, Yokohama): không có sameAs.
@@ -36,6 +36,8 @@
 
 - **sameAs có nhầm không?** Tìm "Quang Hải" → 2 người (1985, 1997), mỗi người trỏ đúng trang DBpedia của mình.
 - **CLB Đồng Nai sao sân ở Bình Phước?** Bình Phước là `vio:FormerProvince`, `successor` Đồng Nai (sáp nhập 2025).
-- **Thử triple khác?** Thẻ *Bắt lỗi* → *Tự nhập triple* (vd. `Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai rdf:type vio:Province`).
+- **Thử triple khác?** Thẻ *Nếu crawler đọc nhầm infobox?* → *Tự nhập triple* (vd. `Câu_lạc_bộ_bóng_đá_Hoàng_Anh_Gia_Lai rdf:type vio:Province`).
 - **Toàn graph có mâu thuẫn không?** Tab SPARQL, mẫu *7 · Kiểm tra mâu thuẫn* → 0 (khớp ô "0 lỗi kiểm tra").
 - **Không có LLM?** Nói trước: câu demo lấy SPARQL từ cache, nhưng truy vấn vẫn chạy thật trên graph.
+- **Sáp nhập tỉnh mô hình thế nào?** Tab Bản đồ: bật *Trước 2025* ↔ *Sau sáp nhập*. Ranh giới 34 tỉnh không tải từ ngoài mà
+  gộp 63 tỉnh cũ theo `vio:successor` trong graph; bấm Gia Lai → "gộp từ Bình Định…". Tô màu: Nghệ An 58 cầu thủ quê.
