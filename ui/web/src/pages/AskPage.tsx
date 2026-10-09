@@ -334,14 +334,6 @@ export function AskPage() {
           </button>
         ))}
       </div>
-      {overview.data?.questionHint && (
-        <p className="small muted ask-hint">
-          Không cần gõ dấu, thử:{" "}
-          <button type="button" className="link-btn" onClick={() => submit(overview.data?.questionHint ?? "")}>
-            {overview.data.questionHint}
-          </button>
-        </p>
-      )}
       <form
         className="ask-form"
         onSubmit={(e) => {

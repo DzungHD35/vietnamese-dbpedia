@@ -2233,10 +2233,7 @@ code.term-ref {
 
 /* Hỏi đáp: câu hỏi mẫu nằm trên ô nhập, câu trả lời cuối cùng ngay dưới ô nhập, các bước ở dưới cùng */
 .ask-presets {
-  margin: 0;
-}
-.ask-hint {
-  margin: 8px 0 12px;
+  margin: 0 0 12px;
 }
 .card.ask-answer {
   border-left: 4px solid var(--accent);
