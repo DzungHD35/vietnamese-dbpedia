@@ -2019,3 +2019,9 @@ code.term-ref {
   font-size: 13.5px;
   color: var(--text);
 }
+
+/* tên nhóm ở góc phải thanh điều hướng (thay chữ "Graph sẵn sàng") */
+.health.team {
+  font-weight: 600;
+  color: var(--text);
+}
