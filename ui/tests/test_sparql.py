@@ -4,7 +4,9 @@ import json
 
 import pytest
 
+from ui.api.presets import SPARQL_LADDER
 from ui.api.state import kg
+from vidbpedia.web.examples import EXAMPLE_QUERIES
 
 COUNT_PLAYED = "SELECT (COUNT(*) AS ?n) WHERE { ?s vio:playedFor ?o }"
 
@@ -46,7 +48,7 @@ def test_row_limit(client):
 
 def test_examples_all_run(client):
     examples = client.get("/api/sparql/examples").json()
-    assert len(examples) == 9
+    assert len(examples) == len(SPARQL_LADDER) + len(EXAMPLE_QUERIES)
     for e in examples:
         d = run(client, e["query"])
         assert d["error"] is None and d["total"] > 0, e["name"]
@@ -149,3 +151,9 @@ def test_format_param_like_dbpedia(client):
     assert r.status_code == 200 and r.headers["content-type"].startswith("text/csv") and "vary" in r.headers
     r = client.get("/sparql", params={"query": q, "format": "xml"})
     assert r.headers["content-type"].startswith("application/sparql-results+xml")
+
+
+def test_examples_put_ladder_first(client):
+    ex = client.get("/api/sparql/examples").json()
+    assert [e["name"] for e in ex[: len(SPARQL_LADDER)]] == [n for n, _ in SPARQL_LADDER]
+    assert len({e["group"] for e in ex}) == 2

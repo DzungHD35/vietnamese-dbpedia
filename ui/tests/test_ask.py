@@ -130,6 +130,13 @@ def test_than_quang_ninh_inference_contrast(client, no_llm):
     assert played["kind"] == "property" and played["total"] == played["inferred"] > 2000
 
 
+def test_hagl_demo_question_needs_inference(client, no_llm):
+    wait_asserted()
+    q = next(q for q in DEMO_QUESTIONS if "Hoàng Anh Gia Lai" in q)
+    d = client.post("/api/ask", json={"question": q, "mode": "cache"}).json()
+    assert d["rowsTotal"] == 77 and d["asserted"] == {"rows": 0, "status": "ok"}
+
+
 def test_evidence_subgraph_is_star_of_inferred_edges(client, no_llm):
     d = client.post("/api/ask", json={"question": THAN_QUESTION}).json()
     ids = [n["id"] for n in d["evidence"]]

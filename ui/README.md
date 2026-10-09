@@ -35,6 +35,7 @@ Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độ
 | `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
 | `/ask?q=` Hỏi đáp | Câu hỏi mẫu ở trên ô nhập; hỏi tiếng Việt thì câu trả lời cuối cùng hiện ngay dưới ô nhập, bên dưới là sáu bước tìm ra nó có thanh tiến trình (xem mục bên dưới). Ô "SPARQL mode" chỉ còn ở tab Gradio |
 | `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
+| `/map` Bản đồ | 63 tỉnh cũ / 34 tỉnh mới ghép từ graph theo `vio:successor`, tô màu theo cầu thủ/CLB/đại học, bấm tỉnh xem chi tiết |
 
 Quy ước hiển thị xuyên suốt: **khai báo = nét liền, màu trung tính; suy luận = nét đứt, màu tím**. Công tắc
 "Hiện suy luận" ở thanh trên ẩn phần suy luận ở mọi đồ thị.
@@ -110,7 +111,9 @@ Tài liệu OpenAPI: `/api/docs`.
 | `POST /api/ask/link`, `/api/ask`, `/api/ask/answer`, `/api/ask/asserted` | hỏi đáp theo từng bước (xem trên) |
 | `GET /api/sparql/examples`, `POST /api/sparql` | SPARQL cho giao diện (`inference: false` chạy trên triple khai báo) |
 | `GET/POST /sparql` | endpoint chuẩn SPARQL 1.1 Protocol, dùng lại `vidbpedia.web.endpoint` của team: JSON (mặc định), XML, CSV theo `Accept` hoặc `?format=`; CONSTRUCT trả Turtle, N-Triples, JSON-LD, RDF/XML; chặn `FROM` và `SERVICE`; `?inference=false` ngoài chuẩn |
-| `GET /api/map` | điểm có toạ độ và quan hệ kế thừa (giao diện không còn trang Bản đồ; giữ lại cho client khác) |
+| `GET /api/map` | điểm có toạ độ và quan hệ kế thừa |
+| `GET /api/map/shapes`, `/api/map/provinces`, `/api/map/province/{id}?era=` | ranh giới 63 tỉnh (TopoJSON, gắn id), số liệu theo tỉnh, chi tiết một tỉnh |
+| `GET /api/consistency/presets`, `POST /api/consistency` | thử thêm một triple rồi chạy reasoner trên graph con (không ghi graph thật) |
 | `/resource/…`, `/data/…`, `/ontology/{term}`, `/ontology.ttl` | Linked Data của team, gắn nguyên vẹn; `/ontology/{term}` trả định nghĩa Turtle đầy đủ (kể cả blank node của restriction và chuỗi thuộc tính), `/ontology.ttl` trả cả ontology |
 
 Khi graph chưa nạp xong, các đường dẫn cần graph trả 503 (`/api/health` luôn trả lời và báo tiến độ).
@@ -129,6 +132,7 @@ cd ui/web && npm run build                      # kiểm kiểu TypeScript + bui
 
 ## Lưu ý
 - rdflib không có timeout cho truy vấn: truy vấn nặng không có `LIMIT` ở trang SPARQL có thể chạy rất lâu.
+- Bản đồ chạy offline: ranh giới 63 tỉnh ở `ui/api/geo/` (geoBoundaries VNM ADM1 2008, public domain, có Hoàng Sa, Trường Sa); ranh giới 34 tỉnh do frontend gộp bằng `topojson-client`.
 - Graph "chỉ khai báo" (để so sánh suy luận) nạp thêm ở thread nền sau graph chính; câu hỏi đến sớm hơn sẽ thấy
   "đang nạp" rồi tự cập nhật.
 - `npm audit` báo 2 lỗ hổng mức vừa ở `react-router-dom` v6 (plan chốt v6; chỉ ảnh hưởng khi triển khai công khai).

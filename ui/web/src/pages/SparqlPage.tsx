@@ -31,6 +31,13 @@ async function download(query: string, inference: boolean, accept: string, ext: 
   URL.revokeObjectURL(url);
 }
 
+/** Chia mẫu theo `group`, giữ thứ tự server trả về (bậc thang demo trước). */
+function groups(examples: SparqlExample[]): [string, SparqlExample[]][] {
+  const out = new Map<string, SparqlExample[]>();
+  for (const x of examples) out.set(x.group, [...(out.get(x.group) ?? []), x]);
+  return [...out];
+}
+
 /** SPARQL: ô soạn truy vấn + bảng kết quả; endpoint chuẩn nằm ở /sparql. */
 export function SparqlPage() {
   const [params, setParams] = useSearchParams();
@@ -125,10 +132,14 @@ export function SparqlPage() {
             }}
           >
             <option value="">Chọn truy vấn mẫu…</option>
-            {(examples.data ?? []).map((x) => (
-              <option key={x.name} value={x.name}>
-                {x.name}
-              </option>
+            {groups(examples.data ?? []).map(([group, items]) => (
+              <optgroup key={group} label={group}>
+                {items.map((x) => (
+                  <option key={x.name} value={x.name}>
+                    {x.name}
+                  </option>
+                ))}
+              </optgroup>
             ))}
           </select>
           <label className="toggle" title="Tắt để chạy chỉ trên triple khai báo (không có triple do suy luận thêm)">

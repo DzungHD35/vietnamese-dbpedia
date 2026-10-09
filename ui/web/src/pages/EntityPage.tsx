@@ -1,8 +1,19 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useApi, type ApiState } from "../api/useApi";
-import type { Entity, EntityClass, Fact, Node, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
+import type {
+  ConsistencyPreset,
+  Entity,
+  EntityClass,
+  Fact,
+  Node,
+  RelationGroup,
+  RelationNode,
+  RelationTree,
+  Value,
+} from "../api/types";
 import { CareerTimeline } from "../components/CareerTimeline";
+import { ConsistencyCard } from "../components/ConsistencyCard";
 import { EntityLink } from "../components/EntityLink";
 import { InferredBadge } from "../components/InferredBadge";
 import { IriTip } from "../components/IriTip";
@@ -60,6 +71,7 @@ function EntityView({ id }: { id: string }) {
   const { showInferred } = useInference();
   const enc = encodeURIComponent(id);
   const entity = useApi<Entity>(`/api/entity/${enc}`);
+  const consistency = useApi<Record<string, ConsistencyPreset[]>>("/api/consistency/presets");
   const [tab, setTab] = useState<TabId>("facts");
   const [treeOpened, setTreeOpened] = useState(false); // cây quan hệ chỉ nạp khi mở tab lần đầu, rồi giữ lại
   const tree = useApi<RelationTree>(treeOpened ? `/api/entity/${enc}/tree` : null);
@@ -195,6 +207,8 @@ function EntityView({ id }: { id: string }) {
           <DraggableGraph id={id} showInferred={showInferred} />
         </section>
       </div>
+
+      {consistency.data?.[node.id] && <ConsistencyCard entityId={node.id} presets={consistency.data[node.id]} />}
 
       <div className="tabs">
         <div className="tab-list" role="tablist">

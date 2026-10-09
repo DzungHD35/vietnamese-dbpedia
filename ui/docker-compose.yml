@@ -1,0 +1,16 @@
+# Chạy từ gốc repo:  docker compose -f ui/docker-compose.yml up -d --build
+services:
+  ui:
+    build:
+      context: ..
+      dockerfile: ui/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data:ro
+    env_file:
+      - path: ../.env
+        required: false
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

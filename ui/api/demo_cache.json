@@ -1,5 +1,13 @@
 [
   {
+    "question": "Cầu thủ nào từng chơi cho Hoàng Anh Gia Lai?",
+    "sparql": "SELECT DISTINCT ?player ?club WHERE {\n  { SELECT DISTINCT ?club WHERE { ?club a vio:FootballClub ; rdfs:label ?n .\n                                  FILTER(LCASE(STR(?n)) = \"câu lạc bộ bóng đá hoàng anh gia lai\") } }\n  ?player vio:playedFor ?club .\n} ORDER BY ?player LIMIT 100",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-09",
+    "origin": "manual"
+  },
+  {
     "question": "Cầu thủ nào từng chơi cho Than Quảng Ninh?",
     "sparql": "SELECT DISTINCT ?player ?club WHERE {\n  { SELECT DISTINCT ?club WHERE { ?club a vio:FootballClub ; rdfs:label|skos:altLabel ?n .\n                                  FILTER(CONTAINS(LCASE(STR(?n)), \"than quảng ninh\")) } }\n  ?player vio:playedFor ?club .\n} ORDER BY ?player LIMIT 50",
     "answer": null,

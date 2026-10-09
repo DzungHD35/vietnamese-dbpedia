@@ -289,6 +289,35 @@ export interface SparqlResult {
 export interface SparqlExample {
   name: string;
   query: string;
+  group: string;
+}
+
+// ---- /api/consistency ----
+/** Lớp hoặc thuộc tính trong ontology. */
+export interface SchemaTerm {
+  qname: string;
+  label: string;
+}
+
+export interface ConsistencyPreset {
+  subject: string;
+  predicate: string;
+  object: string;
+  note: string;
+  s: Node | SchemaTerm;
+  p: SchemaTerm;
+  o: Node | SchemaTerm;
+}
+
+export interface ConsistencyResult {
+  triple: { s: Node | SchemaTerm; p: SchemaTerm; o: Node | SchemaTerm };
+  consistent: boolean;
+  conflicts: { individual: Node; isSubject: boolean; known: SchemaTerm; inferred: SchemaTerm; reason: string }[];
+  errors: string[];
+  gained: { node: Node; cls: SchemaTerm }[];
+  axioms: { domain: SchemaTerm | null; range: SchemaTerm | null };
+  triples: number;
+  ms: number;
 }
 
 // ---- /api/map ----
@@ -424,4 +453,35 @@ export interface GraphLayout {
   center: string;
   hidden: number;
   nodes: GraphLayoutNode[];
+}
+
+export interface ProvinceCounts {
+  players: number;
+  clubs: number;
+  unis: number;
+}
+
+/** /api/map/provinces: số liệu riêng của tỉnh và (với tỉnh hiện hành) số liệu sau khi gộp tỉnh cũ. */
+export interface ProvinceStat {
+  id: string;
+  label: string;
+  former: boolean;
+  year: number | null;
+  final: string;
+  counts: ProvinceCounts;
+  groupCounts: ProvinceCounts | null;
+}
+
+/** /api/map/province/{id}?era= */
+export interface ProvinceDetail {
+  node: Node;
+  former: boolean;
+  year: number | null;
+  final: Node;
+  members: Node[];
+  counts: ProvinceCounts;
+  players: Node[];
+  clubs: Node[];
+  unis: Node[];
+  sparql: string;
 }
