@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Cầu thủ nào từng chơi cho Than Quảng Ninh?",
+    "sparql": "SELECT DISTINCT ?player ?club WHERE {\n  { SELECT DISTINCT ?club WHERE { ?club a vio:FootballClub ; rdfs:label|skos:altLabel ?n .\n                                  FILTER(CONTAINS(LCASE(STR(?n)), \"than quảng ninh\")) } }\n  ?player vio:playedFor ?club .\n} ORDER BY ?player LIMIT 50",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-08",
+    "origin": "manual"
+  },
+  {
+    "question": "Quá trình thi đấu ở câu lạc bộ của Công Phượng?",
+    "sparql": "SELECT DISTINCT ?player ?team ?start ?end ?apps ?goals WHERE {\n  { SELECT DISTINCT ?player WHERE { ?player a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .\n                                    FILTER(CONTAINS(LCASE(STR(?n)), \"công phượng\")) } }\n  ?player vio:careerStation ?st . ?st a vio:ClubStation ; vio:team ?team .\n  OPTIONAL { ?st vio:startYear ?start } OPTIONAL { ?st vio:endYear ?end }\n  OPTIONAL { ?st vio:appearances ?apps } OPTIONAL { ?st vio:goals ?goals }\n} ORDER BY ?start LIMIT 50",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-08",
+    "origin": "manual"
+  },
+  {
+    "question": "Câu lạc bộ nào có sân nhà ở Hà Nội?",
+    "sparql": "SELECT DISTINCT ?club ?stadium ?province WHERE {\n  { SELECT DISTINCT ?province WHERE { ?province a vio:Province ; rdfs:label ?pl .\n                                      FILTER(LCASE(STR(?pl)) = \"hà nội\") } }\n  ?stadium vio:province ?province . ?club a vio:FootballClub ; vio:ground ?stadium .\n} LIMIT 50",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-08",
+    "origin": "manual"
+  },
+  {
+    "question": "Tỉnh nào có nhiều cầu thủ quê quán nhất?",
+    "sparql": "SELECT ?province (COUNT(DISTINCT ?p) AS ?n) WHERE {\n  ?p a vio:FootballPlayer ; vio:birthProvince ?province .\n} GROUP BY ?province ORDER BY DESC(?n) LIMIT 10",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-08",
+    "origin": "manual"
+  },
+  {
+    "question": "Đại học Cần Thơ tương ứng với tài nguyên nào trên DBpedia?",
+    "sparql": "SELECT DISTINCT ?university ?dbpedia WHERE {\n  { SELECT DISTINCT ?university WHERE { ?university a vio:University ; rdfs:label|skos:altLabel ?l .\n                                        FILTER(CONTAINS(LCASE(STR(?l)), \"đại học cần thơ\")) } }\n  ?university owl:sameAs ?dbpedia . FILTER(STRSTARTS(STR(?dbpedia), \"http://dbpedia.org/resource/\"))\n} LIMIT 10",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-08",
+    "origin": "manual"
+  }
+]
