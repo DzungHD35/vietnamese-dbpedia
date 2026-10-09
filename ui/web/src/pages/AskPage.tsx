@@ -325,8 +325,8 @@ export function AskPage() {
     <div className="ask">
       <h1 className="page-title">Hỏi đáp có bằng chứng</h1>
       <p className="muted lead">
-        Hỏi bằng tiếng Việt. Hệ thống nhận diện thực thể, cho LLM viết SPARQL, kiểm tra rồi chạy truy vấn trên graph, và chỉ ra câu trả lời
-        đến từ đâu.
+        Đặt câu hỏi bằng tiếng Việt, LLM viết SPARQL và hệ thống chạy truy vấn trên đồ thị tri thức. Câu trả lời luôn kèm truy vấn đã
+        chạy và các triple làm bằng chứng, tách phần khai báo với phần suy luận OWL 2 RL.
       </p>
       <form
         className="ask-form"
@@ -367,7 +367,7 @@ export function AskPage() {
       </div>
       {overview.data?.questionHint && (
         <p className="small muted">
-          Gõ không dấu cũng được, thử:{" "}
+          Không cần gõ dấu, thử:{" "}
           <button type="button" className="link-btn" onClick={() => submit(overview.data?.questionHint ?? "")}>
             {overview.data.questionHint}
           </button>
