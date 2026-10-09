@@ -17,6 +17,7 @@ export interface Node {
   cls: string;
   kind: Kind;
   external?: boolean;
+  qname?: string; // chỉ nút ngoài vres: (lớp, thuộc tính, LOD), ví dụ "vio:FootballPlayer", "dbo:SoccerPlayer", "owl:Thing"
 }
 
 export interface SearchHit {
@@ -123,7 +124,8 @@ export interface CareerStation {
 }
 
 export interface Fact {
-  prop: string;
+  prop: string; // qname, ví dụ "vio:playedFor"
+  iri: string; // IRI đầy đủ của thuộc tính
   label: string;
   ns: "vio" | "dbo" | "other" | "vip";
   values: Value[];
@@ -132,6 +134,7 @@ export interface Fact {
 
 export interface IncomingGroup {
   prop: string;
+  iri: string;
   label: string;
   count: number;
   items: (Node & { inferred: boolean })[];

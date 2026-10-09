@@ -672,19 +672,35 @@ a.chip:hover {
   color: var(--muted);
   font-size: 12px;
 }
-.class-tree {
+/* Cây phân lớp (như .rv-tree của Gradio): lớp con thụt vào, có đường dọc nối */
+.class-tree,
+.class-tree ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 14px;
+}
+.class-tree {
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+.class-tree ul {
+  margin-left: 6px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border);
 }
 .class-tree li {
-  padding: 3px 0;
+  padding: 2px 0;
 }
 .class-tree .also {
   margin-left: 8px;
   font-size: 12px;
   color: var(--muted);
+}
+.class-tree .also a {
+  color: var(--muted);
+}
+.class-tree .also a:hover {
+  color: var(--accent);
 }
 .query-links {
   display: flex;
@@ -1673,4 +1689,64 @@ a.chip:hover {
 }
 .ent-iri {
   margin: 2px 0 8px;
+}
+
+/* ---- Thực thể: hàng "Cây phân lớp | Liên kết dữ liệu mở"; qname lớp/thuộc tính bấm được (như self.link của Gradio) ---- */
+.ent-onto .lod-card {
+  margin-top: 0;
+}
+/* hai cột bằng nhau như Gradio; minmax(0,…) để dòng curl dài không kéo rộng cột phải */
+.ent-onto {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+.ent-onto > * {
+  min-width: 0;
+}
+.ent-onto .lod-card pre,
+.ent-onto .lod-card .curl {
+  overflow-x: auto;
+  max-width: 100%;
+}
+.ent-note {
+  margin: -4px 0 8px;
+}
+.badge-asserted {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--asserted);
+  background: #eef1f5;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  vertical-align: middle;
+}
+.term-ref code,
+code.term-ref {
+  font-size: 12.5px;
+  overflow-wrap: anywhere;
+}
+code.term-ref {
+  color: var(--text);
+  cursor: help;
+}
+.facts th .small {
+  font-weight: 400;
+}
+
+/* ---- Trang Ontology: deep link #thuộcTính tô các dòng của thuộc tính đó ---- */
+.onto-prop {
+  scroll-margin-top: calc(var(--nav-h) + 16px);
+}
+.onto-prop.highlight {
+  margin: 0 -6px;
+  padding: 2px 6px;
+  background: #fff7d6;
+  border-radius: 4px;
+}
+@media (max-width: 1100px) {
+  .ent-onto {
+    grid-template-columns: 1fr;
+  }
 }

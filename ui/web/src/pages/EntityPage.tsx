@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useApi, type ApiState } from "../api/useApi";
-import type { Entity, Fact, Neighbors, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
+import type { Entity, EntityClass, Fact, Neighbors, Node, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
 import { CareerTimeline } from "../components/CareerTimeline";
 import { EntityLink } from "../components/EntityLink";
 import { GraphView } from "../components/GraphView";
@@ -11,16 +11,20 @@ import { LinkedDataCard } from "../components/LinkedDataCard";
 import { ErrorState, Loading } from "../components/States";
 import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { useInference } from "../context/InferenceContext";
-import { formatLiteral, formatNumber } from "../utils/format";
+import { formatLiteral, formatNumber, shortIri } from "../utils/format";
 
-type TabId = "facts" | "incoming" | "tree" | "classes" | "query";
+type TabId = "facts" | "incoming" | "tree" | "query";
 const TABS: { id: TabId; label: string }[] = [
   { id: "facts", label: "Thuộc tính" },
   { id: "incoming", label: "Được tham chiếu bởi" },
   { id: "tree", label: "Cây quan hệ" },
-  { id: "classes", label: "Cây phân lớp" },
   { id: "query", label: "Truy vấn" },
 ];
+const VIO_NS = "http://vi.dbpedia.org/ontology/";
+const VIP_NS = "http://vi.dbpedia.org/property/";
+const DBO_NS = "http://dbpedia.org/ontology/";
+const CLASS_NS: Record<string, string> = { vio: VIO_NS, dbo: DBO_NS }; // lớp trong cây phân lớp chỉ có vio:/dbo:
+const RDF_TYPE = "rdf:type";
 const NS_TITLES: Record<Fact["ns"], string> = {
   vio: "Ontology vio: (khai báo của dự án)",
   dbo: "Ontology dbo: (tương đương DBpedia, phần lớn do suy luận)",
@@ -182,7 +186,14 @@ function EntityView({ id }: { id: string }) {
         )}
       </div>
 
-      <LinkedDataCard id={id} iri={node.iri} lod={lod} />
+      <div className="ent-cols ent-onto">
+        <section className="card">
+          <h2>Cây phân lớp</h2>
+          <p className="muted small ent-note">Lớp khai báo và các lớp DBpedia suy ra bằng OWL 2 RL (rdfs:subClassOf).</p>
+          <ClassTree classes={e.classes} showInferred={showInferred} />
+        </section>
+        <LinkedDataCard id={id} iri={node.iri} lod={lod} />
+      </div>
 
       <div className="tabs">
         <div className="tab-list" role="tablist">
@@ -205,7 +216,6 @@ function EntityView({ id }: { id: string }) {
           {tab === "facts" && <FactsTab facts={e.facts} showInferred={showInferred} />}
           {tab === "incoming" && <IncomingTab entity={e} showInferred={showInferred} />}
           {tab === "tree" && <TreeTab tree={tree} />}
-          {tab === "classes" && <ClassesTab entity={e} showInferred={showInferred} />}
           {tab === "query" && <QueryTab iri={node.iri} />}
         </div>
       </div>
@@ -221,41 +231,112 @@ function ExtChip({ href, text }: { href: string; text: string }) {
   );
 }
 
+/**
+ * qname của thuộc tính / lớp thành link, như `self.link(p, self.qname(p))` của trang Gradio: vio: mở định nghĩa trên trang
+ * Ontology (#term), vip: chưa có trang riêng nên chỉ có bong bóng IRI, IRI khác (dbo:, rdfs:, owl:…) mở tab mới.
+ */
+function TermRef({ iri, qname }: { iri: string; qname: string }) {
+  if (!iri) return <code>{qname}</code>; // máy chủ cũ chưa trả IRI
+  if (iri.startsWith(VIO_NS)) {
+    return (
+      <IriTip iri={iri}>
+        <Link className="term-ref" to={`/ontology#${encodeURIComponent(iri.slice(VIO_NS.length))}`} title={iri}>
+          <code>{qname}</code>
+        </Link>
+      </IriTip>
+    );
+  }
+  if (iri.startsWith(VIP_NS)) {
+    return (
+      <IriTip iri={iri}>
+        <code className="term-ref" title={iri}>
+          {qname}
+        </code>
+      </IriTip>
+    );
+  }
+  return (
+    <IriTip iri={iri}>
+      <a className="term-ref" href={iri} target="_blank" rel="noopener noreferrer" title={iri}>
+        <code>{qname}</code> ↗
+      </a>
+    </IriTip>
+  );
+}
+
+/** "vio:Club" → IRI đầy đủ; tiền tố khác trả "" (TermRef hiện mã không link). */
+function classIri(qname: string): string {
+  const i = qname.indexOf(":");
+  const ns = CLASS_NS[qname.slice(0, i)];
+  return ns ? ns + qname.slice(i + 1) : "";
+}
+
+const nodeQname = (n: Node) => n.qname ?? shortIri(n.iri);
+const nsRank = (iri: string) => (iri.startsWith(VIO_NS) ? 0 : iri.startsWith(DBO_NS) ? 1 : 2);
+
+/** Giá trị rdf:type: khai báo trước suy luận, vio: trước dbo: trước lớp khác, rồi theo qname. */
+function sortTypes(values: Value[]): Value[] {
+  const rank = (v: Value) => (v.type === "iri" ? nsRank(v.node.iri) : 3);
+  const name = (v: Value) => (v.type === "iri" ? nodeQname(v.node) : v.value);
+  return [...values].sort((a, b) => Number(a.inferred) - Number(b.inferred) || rank(a) - rank(b) || name(a).localeCompare(name(b)));
+}
+
+function ClassValue({ node, inferred }: { node: Node; inferred: boolean }) {
+  const qname = nodeQname(node);
+  return (
+    <>
+      <TermRef iri={node.iri} qname={qname} />
+      {node.label !== qname && <span className="muted"> {node.label}</span>}
+      {inferred && <InferredBadge />}
+    </>
+  );
+}
+
+function FactRow({ f, showInferred }: { f: Fact; showInferred: boolean }) {
+  const isType = f.prop === RDF_TYPE;
+  const values = isType ? sortTypes(f.values) : f.values;
+  return (
+    <tr>
+      <th>
+        <TermRef iri={f.iri} qname={f.prop} />
+        {f.label !== f.prop && <div className="small">{f.label}</div>}
+      </th>
+      <td>
+        <ul>
+          {values.map((v, i) => (
+            <li key={i}>{isType && v.type === "iri" ? <ClassValue node={v.node} inferred={v.inferred} /> : <ValueView v={v} raw />}</li>
+          ))}
+        </ul>
+        {f.more > 0 && showInferred && <span className="more">… và {formatNumber(f.more)} giá trị khác</span>}
+      </td>
+    </tr>
+  );
+}
+
 function FactsTab({ facts, showInferred }: { facts: Fact[]; showInferred: boolean }) {
-  const groups = (["vio", "dbo", "other", "vip"] as const)
-    .map((ns) => ({
-      ns,
-      rows: facts
-        .filter((f) => f.ns === ns)
-        .map((f) => ({ ...f, values: f.values.filter((v) => showInferred || !v.inferred) }))
-        .filter((f) => f.values.length > 0),
-    }))
-    .filter((g) => g.rows.length > 0);
+  const visible = facts
+    .map((f) => ({ ...f, values: f.values.filter((v) => showInferred || !v.inferred) }))
+    .filter((f) => f.values.length > 0);
+  // rdf:type tách khỏi nhóm "Chung" thành nhóm đầu tiên; các thuộc tính khác (rdfs:label, dbo:abstract…) giữ chỗ cũ
+  const type = visible.find((f) => f.prop === RDF_TYPE);
+  const groups = [
+    ...(type ? [{ key: "type", title: "Lớp của thực thể (rdf:type)", rows: [type] }] : []),
+    ...(["vio", "dbo", "other", "vip"] as const).map((ns) => ({
+      key: ns,
+      title: NS_TITLES[ns],
+      rows: visible.filter((f) => f.ns === ns && f !== type),
+    })),
+  ].filter((g) => g.rows.length > 0);
 
   return (
     <>
       {groups.map((g) => (
-        <section key={g.ns} className="facts-group">
-          <h3>{NS_TITLES[g.ns]}</h3>
+        <section key={g.key} className="facts-group">
+          <h3>{g.title}</h3>
           <table className="facts">
             <tbody>
               {g.rows.map((f) => (
-                <tr key={f.prop}>
-                  <th>
-                    <code>{f.prop}</code>
-                    {f.label !== f.prop && <div className="small">{f.label}</div>}
-                  </th>
-                  <td>
-                    <ul>
-                      {f.values.map((v, i) => (
-                        <li key={i}>
-                          <ValueView v={v} raw />
-                        </li>
-                      ))}
-                    </ul>
-                    {f.more > 0 && showInferred && <span className="more">… và {formatNumber(f.more)} giá trị khác</span>}
-                  </td>
-                </tr>
+                <FactRow key={f.prop} f={f} showInferred={showInferred} />
               ))}
             </tbody>
           </table>
@@ -275,9 +356,12 @@ function IncomingTab({ entity, showInferred }: { entity: Entity; showInferred: b
       <tbody>
         {groups.map((g) => (
           <tr key={g.prop}>
+            {/* như _reverse_table của Gradio: "là vio:playedFor của · có cầu thủ (39)" */}
             <th>
-              là <code>{g.prop}</code> của
-              <div className="small">{g.label !== g.prop ? g.label : ""} ({formatNumber(g.count)})</div>
+              là <TermRef iri={g.iri} qname={g.prop} /> của{" "}
+              <span className="small">
+                · {g.label !== g.prop && `${g.label} `}({formatNumber(g.count)})
+              </span>
             </th>
             <td>
               <ul>
@@ -378,30 +462,49 @@ function RelationChild({ c, depth }: { c: RelationNode; depth: number }) {
   );
 }
 
-function ClassesTab({ entity, showInferred }: { entity: Entity; showInferred: boolean }) {
-  const visible = entity.classes.filter((c) => showInferred || !c.inferred);
-  const depth = new Map<string, number>();
-  // danh sách đã theo thứ tự cha trước con; độ sâu chỉ đếm các lớp đang hiện
-  const resolveDepth = (parent: string | null): number => {
-    let p = parent;
-    while (p) {
-      const d = depth.get(p);
-      if (d !== undefined) return d + 1;
-      p = entity.classes.find((c) => c.id === p)?.parent ?? null;
-    }
-    return 0;
-  };
-  visible.forEach((c) => depth.set(c.id, resolveDepth(c.parent)));
+// ---- Cây phân lớp (giống _class_tree của trang tài nguyên Gradio; dữ liệu entity.classes) ----
+
+function ClassTree({ classes, showInferred }: { classes: EntityClass[]; showInferred: boolean }) {
+  const visible = classes.filter((c) => showInferred || !c.inferred);
   if (visible.length === 0) return <p className="muted">Không có lớp vio:/dbo: khai báo.</p>;
+  const shown = new Set(visible.map((c) => c.id));
+  const byId = new Map(classes.map((c) => [c.id, c]));
+  // danh sách đã theo thứ tự cha trước con; lớp cha đang ẩn (tắt suy luận) thì treo vào tổ tiên gần nhất đang hiện
+  const kids = new Map<string | null, EntityClass[]>();
+  for (const c of visible) {
+    let p = c.parent;
+    for (let hop = 0; p !== null && !shown.has(p) && hop < classes.length; hop++) p = byId.get(p)?.parent ?? null;
+    const key = p !== null && shown.has(p) ? p : null;
+    kids.set(key, [...(kids.get(key) ?? []), c]);
+  }
+  return <ClassBranch items={kids.get(null) ?? []} kids={kids} root />;
+}
+
+function ClassBranch({ items, kids, root = false }: { items: EntityClass[]; kids: Map<string | null, EntityClass[]>; root?: boolean }) {
   return (
-    <ul className="class-tree">
-      {visible.map((c) => (
-        <li key={c.id} style={{ paddingLeft: (depth.get(c.id) ?? 0) * 20 }}>
-          <code>{c.id}</code> <span className="muted">{c.label !== c.id ? c.label : ""}</span>
-          {c.inferred ? <InferredBadge /> : <span className="chip" style={{ marginLeft: 6 }}>khai báo</span>}
-          {c.also.length > 0 && <span className="also">⊑ {c.also.join(", ")}</span>}
-        </li>
-      ))}
+    <ul className={root ? "class-tree" : undefined}>
+      {items.map((c) => {
+        const sub = kids.get(c.id);
+        return (
+          <li key={c.id}>
+            <TermRef iri={classIri(c.id)} qname={c.id} />
+            {c.label !== c.id && <span className="muted"> {c.label}</span>}
+            {c.inferred ? <InferredBadge /> : <span className="badge-asserted">khai báo</span>}
+            {c.also.length > 0 && (
+              <span className="also">
+                ⊑{" "}
+                {c.also.map((a, i) => (
+                  <span key={a}>
+                    {i > 0 && ", "}
+                    <TermRef iri={classIri(a)} qname={a} />
+                  </span>
+                ))}
+              </span>
+            )}
+            {sub && <ClassBranch items={sub} kids={kids} />}
+          </li>
+        );
+      })}
     </ul>
   );
 }

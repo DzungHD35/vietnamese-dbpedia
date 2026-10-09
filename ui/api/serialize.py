@@ -32,7 +32,15 @@ def node(view, iri) -> dict:
             "kind": view.kind(iri),
         }
     kind = "other" if s.startswith(_SCHEMA_NS) else "lod"
-    return {"id": s, "iri": s, "label": view.label(iri), "cls": "", "kind": kind, "external": True}
+    return {
+        "id": s,
+        "iri": s,
+        "qname": view.qname(iri),
+        "label": view.label(iri),
+        "cls": "",
+        "kind": kind,
+        "external": True,
+    }
 
 
 def value(view, s, p, o) -> dict:

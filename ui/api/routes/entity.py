@@ -194,6 +194,7 @@ def _facts(iri, own) -> list[dict]:
         facts.append(
             {
                 "prop": view.qname(p),
+                "iri": str(p),
                 "label": view.label(p),
                 "ns": _prop_ns(p),
                 "values": [serialize.value(view, iri, p, o) for o in values[:MAX_VALUES]],
@@ -215,7 +216,15 @@ def _incoming(iri) -> list[dict]:
         items = [
             {**serialize.node(view, s), "inferred": (s, p, iri) in view.inferred} for s in subs[:MAX_VALUES]
         ]
-        out.append({"prop": view.qname(p), "label": view.label(p), "count": len(subs), "items": items})
+        out.append(
+            {
+                "prop": view.qname(p),
+                "iri": str(p),
+                "label": view.label(p),
+                "count": len(subs),
+                "items": items,
+            }
+        )
     return out
 
 

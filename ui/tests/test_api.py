@@ -86,6 +86,15 @@ def test_entity_header_types_and_graph(client):
     assert "vio:FormerProvince" in [t["id"] for t in former["types"]]
 
 
+def test_entity_props_and_types_carry_iri_and_qname(client):
+    d = client.get(url("/api/entity", "Nguyễn_Công_Phượng")).json()
+    facts = {f["prop"]: f for f in d["facts"]}
+    assert facts["vio:birthDate"]["iri"] == "http://vi.dbpedia.org/ontology/birthDate"
+    types = {v["node"]["qname"] for v in facts["rdf:type"]["values"]}
+    assert {"vio:FootballPlayer", "dbo:SoccerPlayer"} <= types
+    assert all(g["iri"].startswith("http") for g in d["incoming"])
+
+
 def test_entity_incoming_is_capped(client):
     d = client.get(url("/api/entity", THAN_QN)).json()
     played = next(g for g in d["incoming"] if g["prop"] == "vio:playedFor")

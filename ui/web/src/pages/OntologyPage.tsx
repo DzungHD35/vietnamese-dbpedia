@@ -273,9 +273,10 @@ function Inferred({ n, title = "số triple do bộ suy luận OWL 2 RL thêm v�
   );
 }
 
-function PropertyRow({ p }: { p: OntologyProperty }) {
+/** `anchor`: dòng đầu tiên của thuộc tính này (một thuộc tính hiện một lần cho mỗi lớp domain) mang id cho deep link #term. */
+function PropertyRow({ p, anchor, target }: { p: OntologyProperty; anchor: boolean; target: string }) {
   return (
-    <li className="onto-prop">
+    <li id={anchor ? `prop-${p.term}` : undefined} className={`onto-prop${p.term === target ? " highlight" : ""}`}>
       <TermLink id={p.id} term={p.term} />
       <span className="onto-arrow">→</span>
       <code className="muted">{p.range ?? "?"}</code>
@@ -300,7 +301,7 @@ function PropertyRow({ p }: { p: OntologyProperty }) {
   );
 }
 
-function ClassProperties({ c }: { c: OntologyClass }) {
+function ClassProperties({ c, anchors, target }: { c: OntologyClass; anchors: Map<string, string>; target: string }) {
   const inferred = c.total - c.asserted;
   return (
     <li className="onto-class" style={{ marginLeft: c.depth * 18 }}>
@@ -315,7 +316,7 @@ function ClassProperties({ c }: { c: OntologyClass }) {
       {c.properties.length > 0 ? (
         <ul className="onto-props">
           {c.properties.map((p) => (
-            <PropertyRow key={p.id} p={p} />
+            <PropertyRow key={p.id} p={p} anchor={anchors.get(p.term) === c.id} target={target} />
           ))}
         </ul>
       ) : (
@@ -418,14 +419,21 @@ function AxiomsCard({ owl }: { owl: ApiState<Ontology> }) {
 }
 
 /** Nội dung details "Thuộc tính theo lớp": thuộc tính theo từng lớp + thuộc tính không có domain. */
-function ClassPropsSection({ data }: { data: Ontology }) {
+function ClassPropsSection({ data, target }: { data: Ontology; target: string }) {
   const noDomain = data.properties.filter((p) => !p.domain);
+  // term → lớp chứa dòng đầu tiên của thuộc tính ("" = mục không có domain): chỉ dòng đó mang id prop-{term}
+  const anchors = useMemo(() => {
+    const out = new Map<string, string>();
+    for (const c of data.classes) for (const p of c.properties) if (!out.has(p.term)) out.set(p.term, c.id);
+    for (const p of data.properties) if (!p.domain && !out.has(p.term)) out.set(p.term, "");
+    return out;
+  }, [data]);
   return (
     <div className="onto-owl">
       <p className="muted small">Số bên phải: thực thể khai báo / sau suy luận. Bấm mã lớp hoặc thuộc tính để mở định nghĩa (tab mới).</p>
       <ul className="onto-tree">
         {data.classes.map((c) => (
-          <ClassProperties key={c.id} c={c} />
+          <ClassProperties key={c.id} c={c} anchors={anchors} target={target} />
         ))}
       </ul>
       <h4 className="onto-h4">Thuộc tính không có domain ({noDomain.length})</h4>
@@ -435,7 +443,7 @@ function ClassPropsSection({ data }: { data: Ontology }) {
       ) : (
         <ul className="onto-props onto-nodomain">
           {noDomain.map((p) => (
-            <PropertyRow key={p.id} p={p} />
+            <PropertyRow key={p.id} p={p} anchor={anchors.get(p.term) === ""} target={target} />
           ))}
         </ul>
       )}
@@ -477,6 +485,22 @@ export function OntologyPage() {
     document.getElementById(`cls-${target}`)?.scrollIntoView({ block: "center" });
   }, [tree.data, target]);
 
+  // deep link #playedFor (thuộc tính, không phải lớp): mở "Thuộc tính theo lớp", cuộn tới dòng đầu tiên và tô mọi dòng của nó
+  const [propsOpen, setPropsOpen] = useState(false);
+  const isProp = useMemo(() => {
+    const o = owl.data;
+    if (!o || !target || o.classes.some((c) => c.term === target)) return false;
+    return o.properties.some((p) => p.term === target) || o.classes.some((c) => c.properties.some((p) => p.term === target));
+  }, [owl.data, target]);
+  useEffect(() => {
+    if (isProp) setPropsOpen(true);
+  }, [isProp, target]);
+  const treeReady = tree.data !== null; // cây tải xong đẩy details xuống: cuộn lại một lần
+  useEffect(() => {
+    if (!propsOpen || !isProp) return;
+    document.getElementById(`prop-${target}`)?.scrollIntoView({ block: "center" });
+  }, [propsOpen, isProp, target, treeReady]);
+
   const propCount = owl.data ? owl.data.stats.objectProperties + owl.data.stats.datatypeProperties : null;
 
   return (
@@ -506,11 +530,11 @@ export function OntologyPage() {
             {tree.data && <Tree data={tree.data} target={target} />}
           </section>
 
-          <details className="card ct-owl">
+          <details className="card ct-owl" open={propsOpen} onToggle={(e) => setPropsOpen(e.currentTarget.open)}>
             <summary>Thuộc tính theo lớp{propCount !== null && ` (${formatNumber(propCount)} thuộc tính)`}</summary>
             {owl.loading && <Loading text="Đang tải ontology…" />}
             {owl.error && <ErrorState message={owlError(owl.error)} />}
-            {owl.data && <ClassPropsSection data={owl.data} />}
+            {owl.data && <ClassPropsSection data={owl.data} target={target} />}
           </details>
         </div>
 
