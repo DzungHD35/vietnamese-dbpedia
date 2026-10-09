@@ -188,7 +188,8 @@ function ConsistentGraph({ r }: { r: ConsistencyResult }) {
       <text x={(sx + ox) / 2} y={y - 12} textAnchor="middle" className="cg-edge cg-good cg-strong">
         {short(r.triple.p.label, 22)}
       </text>
-      <text x={(sx + ox) / 2} y={y + 22} textAnchor="middle" className="cg-edge cg-good">
+      {/* nhãn range có thể dài (vd. "Tỉnh, thành phố trực thuộc trung ương"): đặt dưới tên hai nút, không đè lên cạnh */}
+      <text x={(sx + ox) / 2} y={y + 68} textAnchor="middle" className="cg-edge cg-good">
         {[domain && `domain ${domain.label} ✓`, range && `range ${range.label} ✓`].filter(Boolean).join(" · ") || "triple thử"}
       </text>
       <Dot n={r.triple.s} x={sx} y={y} r={26} />
