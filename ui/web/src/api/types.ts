@@ -49,20 +49,21 @@ export interface Neighbors extends GraphData {
 }
 
 // ---- /api/overview ----
+// mọi số liệu lấy bằng `.get()` từ stats.json nên có thể thiếu (null)
 export interface Stats {
-  total: number;
-  asserted: number;
-  inferred: number;
-  ontology: number;
-  entities: number;
-  careerStations: number;
-  sameAsDbpedia: number;
-  sameAsWikidata: number;
-  validationErrors: number;
-  validationWarnings: number;
-  built: string;
-  reasoner: string;
-  reasoningSeconds: number;
+  total: number | null;
+  asserted: number | null;
+  inferred: number | null;
+  ontology: number | null;
+  entities: number | null;
+  careerStations: number | null;
+  sameAsDbpedia: number | null;
+  sameAsWikidata: number | null;
+  validationErrors: number | null;
+  validationWarnings: number | null;
+  built: string | null;
+  reasoner: string | null;
+  reasoningSeconds: number | null;
 }
 
 export interface ClassRow {
@@ -134,6 +135,29 @@ export interface IncomingGroup {
   label: string;
   count: number;
   items: (Node & { inferred: boolean })[];
+}
+
+// ---- /api/entity/{id}/tree (cây quan hệ, giống mục "Cây quan hệ" ở tab Tài nguyên của Gradio) ----
+export interface RelationGroup {
+  prop: string; // qname, ví dụ "vio:careerStation"
+  label: string;
+  direction: "out" | "in";
+  total: number;
+  more: number; // số con bị cắt bớt (total - children.length)
+  children: RelationNode[];
+}
+
+export interface RelationNode {
+  node: Node;
+  station: string | null; // id chặng thi đấu khi nút là đội của một chặng (vio:careerStation → vio:team)
+  note: string | null; // "2015–2023, 103 trận, 36 bàn"
+  groups: RelationGroup[]; // lồng tới maxDepth; chỉ triple khai báo
+}
+
+export interface RelationTree {
+  root: Node;
+  maxDepth: number;
+  groups: RelationGroup[];
 }
 
 export interface Entity {
@@ -214,4 +238,92 @@ export interface MapData {
   points: MapPoint[];
   successions: Succession[];
   successionsTotal: number;
+}
+
+// ---- /api/ontology ----
+export interface OntologyProperty {
+  id: string;
+  term: string;
+  label: string;
+  labelEn: string;
+  kind: "object" | "datatype";
+  range: string | null;
+  domain: string | null;
+  subPropertyOf: string[];
+  functional: boolean;
+  inverseOf: string | null;
+  inferred: number;
+}
+
+export interface OntologyClass {
+  id: string;
+  term: string;
+  label: string;
+  labelEn: string;
+  parent: string | null;
+  dbo: string[];
+  depth: number;
+  asserted: number;
+  total: number;
+  properties: OntologyProperty[];
+}
+
+export interface OntologyAxioms {
+  chains: { property: string; chain: string[]; inferred: number }[];
+  inverses: { a: string; b: string; inferredA: number; inferredB: number }[];
+  restrictions: { kind: string; onClass: string; property: string; filler: string; text: string; inferred: number }[];
+  disjoint: string[][];
+}
+
+export interface Ontology {
+  stats: {
+    classes: number;
+    objectProperties: number;
+    datatypeProperties: number;
+    triples: number;
+    download: string;
+    namespace: string;
+  };
+  classes: OntologyClass[]; // tiền thứ tự (cha trước con), thụt lề theo `depth`
+  properties: OntologyProperty[];
+  axioms: OntologyAxioms;
+}
+
+// ---- /api/tree (cây tài nguyên, giống tab "Cây tài nguyên" của Gradio) ----
+export interface TreeItem {
+  id: string;
+  iri: string; // http://vi.dbpedia.org/resource/… (UI vẫn tự ghép nếu máy chủ cũ không trả)
+  label: string;
+  kind: Kind;
+}
+
+export interface TreeClass {
+  id: string;
+  term: string;
+  label: string;
+  parent: string | null;
+  depth: number;
+  dbo: string[];
+  total: number; // thực thể của lớp và các lớp con, kể cả nhờ suy luận
+  asserted: number;
+  direct: TreeItem[]; // thực thể trực tiếp, đã sắp theo nhãn và cắt bớt
+  directTotal: number; // số thực thể trực tiếp (sau lọc) chưa cắt
+  directShown: number;
+}
+
+export interface TreeGroup {
+  id: string;
+  title: string;
+  note: string;
+  total: number; // chưa lọc
+  matched: number; // sau lọc (= total khi không lọc)
+  items: TreeItem[];
+  shown: number;
+}
+
+export interface ResourceTree {
+  query: string;
+  summary: { classes: number; resources: number };
+  classes: TreeClass[]; // tiền thứ tự (cha trước con); khi lọc chỉ gồm lớp có kết quả hoặc có lớp con có kết quả
+  groups: TreeGroup[];
 }

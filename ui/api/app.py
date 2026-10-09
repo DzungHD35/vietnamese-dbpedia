@@ -12,7 +12,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
 from ui.api.paths import WEB_DIST, WEB_INDEX
-from ui.api.routes import ask, entity, geo, overview, sparql
+from ui.api.routes import ask, entity, geo, ontology, overview, relation, sparql, tree
 from ui.api.state import LazyView, kg
 from vidbpedia.common import DATASET, setup_logging
 from vidbpedia.web.linked_data import add_routes
@@ -39,10 +39,13 @@ def create_app(dataset_file: str = DATASET + ".nt") -> FastAPI:
     @app.middleware("http")
     async def wait_for_graph(request, call_next):
         path = request.url.path
-        if not kg.ready and path.startswith(NEEDS_GRAPH) and path != "/api/health":
-            body = {"error": kg.error or "Đang nạp graph, thử lại sau ít giây.", "ready": False}
-            return JSONResponse(body, status_code=503, headers={"Retry-After": "5"})
-        return await call_next(request)
+        if kg.ready or not path.startswith(NEEDS_GRAPH) or path in ("/api/health", "/api/docs"):
+            return await call_next(request)
+        if path == "/sparql" and request.method == "GET" and "text/html" in request.headers.get("accept", ""):
+            return await call_next(request)  # trình duyệt mở /sparql: để SPA hiện màn "Đang nạp graph…"
+        body = {"error": kg.error or "Đang nạp graph, thử lại sau ít giây.", "ready": False}
+        # nạp hỏng thì không hứa Retry-After: client không nên poll vô hạn
+        return JSONResponse(body, status_code=503, headers={} if kg.error else {"Retry-After": "5"})
 
     @app.get("/api/health")
     def health():
@@ -55,6 +58,9 @@ def create_app(dataset_file: str = DATASET + ".nt") -> FastAPI:
         }
 
     app.include_router(overview.router)
+    app.include_router(ontology.router)
+    app.include_router(tree.router)
+    app.include_router(relation.router)
     app.include_router(entity.router)
     app.include_router(ask.router)
     app.include_router(sparql.router)

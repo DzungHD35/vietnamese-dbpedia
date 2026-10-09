@@ -2,14 +2,23 @@ import { Link } from "react-router-dom";
 import type { Node } from "../api/types";
 import { shortIri } from "../utils/format";
 import { kindColorVar } from "../utils/kinds";
+import { IriTip } from "./IriTip";
 
 const VIO = "http://vi.dbpedia.org/ontology/";
 const VIP = "http://vi.dbpedia.org/property/";
 
 type LinkNode = Pick<Node, "id" | "iri" | "label" | "kind" | "external">;
 
-/** Link tới trang thực thể (có chấm màu theo loại); thuật ngữ vio: mở định nghĩa, IRI ngoài mở tab mới. */
+/** Link tới trang thực thể (có chấm màu theo loại); thuật ngữ vio: mở định nghĩa, IRI ngoài mở tab mới. Rê chuột thấy IRI. */
 export function EntityLink({ node, text }: { node: LinkNode; text?: string }) {
+  return (
+    <IriTip iri={node.iri}>
+      <EntityAnchor node={node} text={text} />
+    </IriTip>
+  );
+}
+
+function EntityAnchor({ node, text }: { node: LinkNode; text?: string }) {
   const dot = <i className="dot" style={{ background: kindColorVar(node.kind) }} />;
   const label = text ?? (node.label.startsWith("http") ? shortIri(node.label) : node.label);
   if (!node.external) {

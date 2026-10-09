@@ -88,74 +88,133 @@ function Evidence({ ids }: { ids: string[] }) {
 export function AskPage() {
   const [params, setParams] = useSearchParams();
   const urlQuestion = params.get("q") ?? "";
+  const urlSparqlMode = params.get("mode") === "sparql"; // giữ trong URL để chip / lịch sử / nút Back không mất
   const [input, setInput] = useState(urlQuestion);
   const [result, setResult] = useState<Remote<AskResult>>({ data: null, error: null, loading: false });
   const [answer, setAnswer] = useState<Remote<AnswerResult>>({ data: null, error: null, loading: false });
+  const [skipped, setSkipped] = useState(false); // SPARQL mode: đã có kết quả nhưng chưa gọi LLM viết câu trả lời
   const [asserted, setAsserted] = useState<AssertedInfo | null>(null);
   const [history, setHistory] = useState<string[]>([]);
   const controller = useRef<AbortController | null>(null);
+  const answerController = useRef<AbortController | null>(null);
   const health = useApi<Health>("/api/health");
   const overview = useApi<Overview>("/api/overview");
   const demoMode = health.data !== null && !health.data.llm;
+  // demo mode không có LLM (câu trả lời lấy từ cache) nên SPARQL mode vô nghĩa: ẩn ô chọn và bỏ qua
+  const sparqlMode = urlSparqlMode && !demoMode;
+  const sparqlModeRef = useRef(sparqlMode);
+  sparqlModeRef.current = sparqlMode;
 
-  const run = useCallback((question: string) => {
-    controller.current?.abort();
+  // gọi LLM viết câu trả lời từ bảng kết quả (tự động, hoặc theo yêu cầu khi đang ở SPARQL mode)
+  const requestAnswer = useCallback((res: AskResult) => {
+    answerController.current?.abort();
     const ctl = new AbortController();
-    controller.current = ctl;
-    setResult({ data: null, error: null, loading: true });
-    setAnswer({ data: null, error: null, loading: false });
-    setAsserted(null);
-    setHistory((h) => [question, ...h.filter((q) => q !== question)].slice(0, HISTORY_SIZE));
-    postJson<AskResult>("/api/ask", { question }, ctl.signal)
-      .then((res) => {
-        setResult({ data: res, error: null, loading: false });
-        setAsserted(res.asserted);
-        if (res.error) return;
-        // câu trả lời đến sau: hiện SPARQL và bảng ngay, không chờ LLM
-        setAnswer({ data: null, error: null, loading: true });
-        postJson<AnswerResult>("/api/ask/answer", { question, sparql: res.sparql, rows: res.rows }, ctl.signal)
-          .then((data) => setAnswer({ data, error: null, loading: false }))
-          .catch((e: unknown) => {
-            if (!ctl.signal.aborted) setAnswer({ data: null, error: e instanceof Error ? e.message : String(e), loading: false });
-          });
-      })
+    answerController.current = ctl;
+    setSkipped(false);
+    setAnswer({ data: null, error: null, loading: true });
+    postJson<AnswerResult>("/api/ask/answer", { question: res.question, sparql: res.sparql, rows: res.rows }, ctl.signal)
+      .then((data) => setAnswer({ data, error: null, loading: false }))
       .catch((e: unknown) => {
-        if (ctl.signal.aborted) return;
-        const message = e instanceof ApiError ? e.message : e instanceof Error ? e.message : String(e);
-        setResult({ data: null, error: message, loading: false });
+        if (!ctl.signal.aborted) setAnswer({ data: null, error: e instanceof Error ? e.message : String(e), loading: false });
       });
   }, []);
+
+  const run = useCallback(
+    (question: string) => {
+      controller.current?.abort();
+      answerController.current?.abort();
+      const ctl = new AbortController();
+      controller.current = ctl;
+      setResult({ data: null, error: null, loading: true });
+      setAnswer({ data: null, error: null, loading: false });
+      setSkipped(false);
+      setAsserted(null);
+      setHistory((h) => [question, ...h.filter((q) => q !== question)].slice(0, HISTORY_SIZE));
+      postJson<AskResult>("/api/ask", { question }, ctl.signal)
+        .then((res) => {
+          setResult({ data: res, error: null, loading: false });
+          setAsserted(res.asserted);
+          if (res.error) return;
+          // SPARQL mode: dừng ở bảng kết quả, tiết kiệm một request LLM; người dùng bấm "Viết câu trả lời" khi cần
+          if (sparqlModeRef.current) {
+            setSkipped(true);
+            return;
+          }
+          // câu trả lời đến sau: hiện SPARQL và bảng ngay, không chờ LLM
+          requestAnswer(res);
+        })
+        .catch((e: unknown) => {
+          if (ctl.signal.aborted) return;
+          const message = e instanceof ApiError ? e.message : e instanceof Error ? e.message : String(e);
+          setResult({ data: null, error: message, loading: false });
+        });
+    },
+    [requestAnswer],
+  );
 
   // có ?q= thì tự chạy; đổi ?q= (chip, nút Back) thì chạy lại
   useEffect(() => {
     setInput(urlQuestion);
     if (urlQuestion.trim()) run(urlQuestion.trim());
-    return () => controller.current?.abort();
+    return () => {
+      controller.current?.abort();
+      answerController.current?.abort();
+    };
   }, [urlQuestion, run]);
+
+  // tắt SPARQL mode khi đang có kết quả chưa trả lời: gọi LLM luôn, không bắt hỏi lại
+  const pending = skipped && !sparqlMode ? result.data : null;
+  useEffect(() => {
+    if (pending && !pending.error) requestAnswer(pending);
+  }, [pending, requestAnswer]);
+
+  const setSparqlMode = (on: boolean) => {
+    const next = new URLSearchParams(params);
+    if (on) next.set("mode", "sparql");
+    else next.delete("mode");
+    setParams(next, { replace: true });
+  };
 
   // graph "chỉ khai báo" nạp sau graph chính: hỏi lại cho tới khi có
   const sparql = result.data?.sparql;
   const waiting = asserted?.status === "loading";
   useEffect(() => {
     if (!waiting || !sparql) return;
+    let cancelled = false;
     let tries = 0;
-    const timer = window.setInterval(() => {
+    let timer: number | undefined;
+    const controller = new AbortController();
+    const tick = async () => {
       tries += 1;
-      postJson<AssertedInfo>("/api/ask/asserted", { sparql })
-        .then((a) => {
-          if (a.status !== "loading") setAsserted(a);
-        })
-        .catch(() => undefined);
-      if (tries >= POLL_MAX) window.clearInterval(timer);
-    }, POLL_MS);
-    return () => window.clearInterval(timer);
+      try {
+        const a = await postJson<AssertedInfo>("/api/ask/asserted", { sparql }, controller.signal);
+        if (cancelled) return; // câu hỏi đã đổi hoặc rời trang: bỏ phản hồi cũ
+        if (a.status !== "loading") {
+          setAsserted(a);
+          return;
+        }
+      } catch {
+        if (cancelled) return;
+      }
+      if (tries >= POLL_MAX) {
+        setAsserted({ rows: null, status: "error", error: "Quá thời gian chờ graph chỉ khai báo." });
+        return;
+      }
+      timer = window.setTimeout(tick, POLL_MS);
+    };
+    timer = window.setTimeout(tick, POLL_MS);
+    return () => {
+      cancelled = true;
+      controller.abort();
+      window.clearTimeout(timer);
+    };
   }, [waiting, sparql]);
 
   const submit = (question: string) => {
     const q = question.trim();
     if (!q) return;
     if (q === urlQuestion) run(q);
-    else setParams({ q });
+    else setParams(urlSparqlMode ? { q, mode: "sparql" } : { q });
   };
 
   const data = result.data;
@@ -182,7 +241,15 @@ export function AskPage() {
           {result.loading ? "Đang chạy…" : "Hỏi"}
         </button>
       </form>
-      {demoMode && <p className="demo-note small">Chế độ demo: chưa có OPENAI_API_KEY nên chỉ trả lời được các câu hỏi mẫu bên dưới.</p>}
+      {demoMode ? (
+        <p className="demo-note small">Chế độ demo: chưa có OPENAI_API_KEY nên chỉ trả lời được các câu hỏi mẫu bên dưới.</p>
+      ) : (
+        <label className="ask-mode">
+          <input type="checkbox" checked={urlSparqlMode} onChange={(e) => setSparqlMode(e.target.checked)} />
+          <span>SPARQL mode</span>
+          <span className="muted small">Hiện truy vấn và kết quả thô, không gọi LLM viết câu trả lời (tiết kiệm 1 request)</span>
+        </label>
+      )}
       <div className="chips">
         {(overview.data?.questions ?? []).map((q) => (
           <button key={q} type="button" className="chip chip-btn" onClick={() => submit(q)}>
@@ -219,8 +286,17 @@ export function AskPage() {
                   <ResultTable columns={data.columns} rows={data.rows} links={data.links} total={data.rowsTotal} />
                 )}
               </Step>
-              <Step n={3} title="Câu trả lời">
-                <AnswerBlock state={answer} />
+              <Step n={3} title="Câu trả lời" hint={skipped ? "SPARQL mode" : undefined}>
+                {skipped ? (
+                  <div className="ask-skip">
+                    <p className="muted">Đã tắt bước viết câu trả lời (SPARQL mode). Bật lại để LLM trả lời từ bảng ②.</p>
+                    <button type="button" className="btn" onClick={() => requestAnswer(data)}>
+                      Viết câu trả lời
+                    </button>
+                  </div>
+                ) : (
+                  <AnswerBlock state={answer} />
+                )}
               </Step>
               <Step n={4} title="Bằng chứng trên graph" hint="cạnh nét đứt tím là quan hệ do suy luận">
                 <Evidence ids={data.evidence.map((n) => n.id)} />

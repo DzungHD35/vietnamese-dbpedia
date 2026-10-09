@@ -12,6 +12,7 @@ from pydantic import BaseModel
 from ui.api import adapters
 from ui.api.links import build_links
 from ui.api.state import kg
+from vidbpedia.kg.query import prepare
 from vidbpedia.web.resource_page import fold
 
 router = APIRouter(prefix="/api")
@@ -63,7 +64,7 @@ def asserted_rows(sparql: str) -> dict:
             "error": kg.asserted_error or "Chưa nạp được graph khai báo.",
         }
     try:
-        result = kg.asserted.query(adapters.validate(kg.rag, sparql))
+        result = kg.asserted.query(prepare(sparql, allow_remote=False))
         n = int(bool(result.askAnswer)) if result.type == "ASK" else len(result)
     except Exception as e:
         return {"rows": None, "status": "error", "error": str(e)}

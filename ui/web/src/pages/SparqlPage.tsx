@@ -5,9 +5,11 @@ import type { SparqlExample, SparqlResult } from "../api/types";
 import { useApi } from "../api/useApi";
 import { ResultTable } from "../components/ResultTable";
 import { Empty, ErrorState, Loading } from "../components/States";
+import { useInference } from "../context/InferenceContext";
 import { formatNumber } from "../utils/format";
 
-const DEFAULT_QUERY = "SELECT ?p ?o WHERE {\n  vres:Đặng_Quang_Huy ?p ?o .\n} LIMIT 20";
+// truy vấn tạm trong lúc chờ /api/sparql/examples; có ví dụ thì thay bằng ví dụ đầu tiên
+const FALLBACK_QUERY = "SELECT ?s ?p ?o WHERE { ?s ?p ?o } LIMIT 20";
 const DOWNLOADS = [
   { label: "JSON", accept: "application/sparql-results+json", ext: "json" },
   { label: "CSV", accept: "text/csv", ext: "csv" },
@@ -33,8 +35,9 @@ async function download(query: string, inference: boolean, accept: string, ext: 
 export function SparqlPage() {
   const [params, setParams] = useSearchParams();
   const urlQuery = params.get("query");
-  const [text, setText] = useState(urlQuery ?? DEFAULT_QUERY);
-  const [inference, setInference] = useState(true);
+  const { showInferred } = useInference();
+  const [text, setText] = useState(urlQuery ?? FALLBACK_QUERY);
+  const [inference, setInference] = useState(showInferred); // khởi tạo theo công tắc toàn cục
   const [result, setResult] = useState<{ data: SparqlResult | null; error: string | null; loading: boolean }>({
     data: null,
     error: null,
@@ -43,6 +46,10 @@ export function SparqlPage() {
   const [downloadError, setDownloadError] = useState<string | null>(null);
   const examples = useApi<SparqlExample[]>("/api/sparql/examples");
   const controller = useRef<AbortController | null>(null);
+  const inferenceRef = useRef(inference);
+  inferenceRef.current = inference;
+  // truy vấn vừa tự ghi lên URL khi bấm Chạy: effect theo ?query= bỏ qua để không chạy hai lần
+  const pushed = useRef<string | null>(null);
 
   const run = useCallback((query: string, withInference: boolean) => {
     controller.current?.abort();
@@ -51,21 +58,47 @@ export function SparqlPage() {
     setResult({ data: null, error: null, loading: true });
     setDownloadError(null);
     postJson<SparqlResult>("/api/sparql", { query, inference: withInference }, ctl.signal)
-      .then((data) => setResult({ data, error: null, loading: false }))
+      .then((data) => {
+        if (controller.current === ctl) setResult({ data, error: null, loading: false });
+      })
       .catch((e: unknown) => {
-        if (!ctl.signal.aborted) setResult({ data: null, error: e instanceof Error ? e.message : String(e), loading: false });
+        if (controller.current !== ctl) return; // đã có request mới thay thế: bỏ qua
+        if (ctl.signal.aborted) {
+          // huỷ vì rời trang / đổi URL: không để trạng thái "đang chạy" treo mãi
+          setResult((r) => (r.loading ? { ...r, loading: false } : r));
+          return;
+        }
+        setResult({ data: null, error: e instanceof Error ? e.message : String(e), loading: false });
       });
   }, []);
 
-  // mở từ link có ?query= (trang Thực thể, khối SPARQL của Hỏi đáp) thì chạy luôn
+  // chưa có ?query= thì lấy ví dụ đầu tiên làm truy vấn mặc định (chỉ khi người dùng chưa sửa gì)
   useEffect(() => {
-    if (urlQuery) {
-      setText(urlQuery);
-      run(urlQuery, true);
-      setInference(true);
+    const first = examples.data?.[0]?.query;
+    if (!urlQuery && first) setText((t) => (t === FALLBACK_QUERY ? first : t));
+  }, [examples.data, urlQuery]);
+
+  // mở từ link có ?query= (trang Thực thể, khối SPARQL của Hỏi đáp, nút Back) thì chạy luôn
+  useEffect(() => {
+    if (!urlQuery) return;
+    if (urlQuery === pushed.current) {
+      pushed.current = null;
+      return;
     }
-    return () => controller.current?.abort();
+    setText(urlQuery);
+    run(urlQuery, inferenceRef.current);
   }, [urlQuery, run]);
+
+  // rời trang: huỷ request đang chạy
+  useEffect(() => () => controller.current?.abort(), []);
+
+  const runManual = () => {
+    run(text, inference);
+    if (text !== urlQuery) {
+      pushed.current = text;
+      setParams({ query: text }, { replace: true });
+    }
+  };
 
   const data = result.data;
   const endpoint = `${window.location.origin}/sparql`;
@@ -104,7 +137,7 @@ export function SparqlPage() {
             Có suy luận
           </label>
           <span className="nav-spacer" />
-          <button type="button" className="btn btn-primary" disabled={result.loading} onClick={() => run(text, inference)}>
+          <button type="button" className="btn btn-primary" disabled={result.loading} onClick={runManual}>
             Chạy (Ctrl+Enter)
           </button>
         </div>
@@ -117,7 +150,7 @@ export function SparqlPage() {
           onKeyDown={(e) => {
             if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
               e.preventDefault();
-              run(text, inference);
+              runManual();
             }
           }}
         />

@@ -1073,3 +1073,584 @@ a.chip:hover {
     display: none;
   }
 }
+
+/* ---- Chặn lỗi trang (ErrorBoundary) ---- */
+.boundary {
+  text-align: left;
+}
+.boundary-msg {
+  margin: 8px 0;
+  padding: 8px 10px;
+  font-family: var(--mono);
+  font-size: 12px;
+  white-space: pre-wrap;
+  color: var(--text);
+  background: #fff;
+  border-radius: 6px;
+}
+.boundary-actions {
+  display: flex;
+  gap: 8px;
+}
+.gate-cmd {
+  margin-top: 10px;
+  text-align: left;
+}
+.search-error {
+  color: #b45309;
+}
+.cb-link {
+  color: inherit;
+}
+.cb-link:hover {
+  text-decoration: none;
+}
+.cb-link:hover strong {
+  color: var(--accent);
+}
+
+/* ---- Liên kết dữ liệu mở (trang Thực thể) ---- */
+.lod-card {
+  margin-top: 16px;
+}
+.lod {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 6px 16px;
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+.lod dt {
+  color: var(--muted);
+  font-weight: 500;
+}
+.lod dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.lod-iri {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.lod-iri code {
+  font-size: 12.5px;
+}
+.lod-deref {
+  margin: 12px 0 4px;
+}
+.lod-curl {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.lod-curl .curl {
+  flex: 1;
+  margin: 0;
+}
+
+/* ---- Ontology ---- */
+.onto-hint {
+  margin: 14px 0 6px;
+}
+.onto-cols {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: start;
+}
+@media (max-width: 1000px) {
+  .onto-cols {
+    grid-template-columns: 1fr;
+  }
+}
+.onto-tree {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.onto-class {
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-left: 2px solid var(--border);
+  border-radius: 0 6px 6px 0;
+  scroll-margin-top: calc(var(--nav-h) + 16px);
+}
+.onto-class.highlight {
+  background: #fff7d6;
+  border-left-color: #d97706;
+}
+.onto-class-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+}
+.onto-class-head a {
+  color: var(--muted);
+}
+.onto-class-head a:hover {
+  color: var(--accent);
+}
+.onto-sub {
+  font-size: 12px;
+  color: var(--muted);
+}
+.onto-count {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.onto-inferred {
+  color: var(--inferred);
+  font-weight: 600;
+}
+.onto-props {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0 0 0 12px;
+  font-size: 13px;
+}
+.onto-prop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+.onto-prop code {
+  font-size: 12px;
+}
+.onto-arrow {
+  color: var(--muted);
+}
+.onto-plabel {
+  font-size: 12px;
+  color: var(--muted);
+}
+.onto-badge {
+  padding: 0 6px;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--muted);
+  background: #eef1f5;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.onto-badge.inf {
+  color: var(--inferred);
+  background: var(--inferred-soft);
+  border: 1px dashed var(--inferred);
+}
+.onto-axioms h3,
+.onto-axioms h4 {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.onto-axioms ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+.onto-axioms li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+.onto-formula {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.onto-disjoint {
+  align-items: center;
+}
+.onto-nodomain {
+  padding-left: 0;
+}
+
+/* ---- Cây tài nguyên (trang Ontology; nội dung mô phỏng tab "Cây tài nguyên" của Gradio) ---- */
+.ct {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ct-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  max-width: 480px;
+  margin: 0 0 12px;
+}
+.ct-filter label {
+  flex-basis: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+.ct-filter input {
+  flex: 1;
+  min-width: 240px;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.ct-filter input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.ct-loading {
+  font-size: 12px;
+  color: var(--muted);
+}
+.ct-sum {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.ct-toolbar {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+.ct-empty {
+  margin: 0;
+  padding: 24px 0;
+  color: var(--muted);
+}
+
+/* cây: mỗi nút = dòng (mũi tên + nội dung) + khối con thụt lề có vạch dọc */
+.ct-tree {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ct-node {
+  margin: 0;
+  padding: 0;
+}
+.ct-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 2px 6px 2px 0;
+  border-radius: 4px;
+}
+.ct-row.ct-clickable {
+  cursor: pointer;
+}
+.ct-row.ct-clickable:hover {
+  background: #f3f5f8;
+}
+.ct-row.ct-highlight {
+  background: #fff7d6;
+}
+.ct-text {
+  flex: 1;
+  min-width: 0;
+  padding-top: 1px;
+}
+.ct-text b {
+  font-weight: 600;
+}
+.ct-text code {
+  font-size: 12.5px;
+}
+.ct-chev {
+  flex: none;
+  width: 18px;
+  height: 24px;
+  padding: 0;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.ct-chev.open {
+  transform: rotate(90deg);
+}
+.ct-chev:hover {
+  background: #e9f0fc;
+}
+.ct-chev:focus-visible {
+  outline: 2px solid var(--accent);
+}
+.ct-chev-sm {
+  width: 16px;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.ct-leaf {
+  color: var(--border);
+  cursor: default;
+}
+.ct-leaf:hover {
+  background: none;
+}
+.ct-children {
+  margin: 0 0 2px 8px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border);
+}
+.ct-muted {
+  color: var(--muted);
+}
+.ct-muted a {
+  color: var(--muted);
+}
+.ct-count {
+  padding: 0 7px;
+  font-family: var(--mono);
+  font-size: 12px;
+  background: #eef1f5;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+}
+.ct-badge {
+  padding: 0 6px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--inferred);
+  background: var(--inferred-soft);
+  border-radius: 99px;
+  white-space: nowrap;
+}
+
+/* danh sách thực thể trực tiếp */
+.ct-instwrap {
+  margin-top: 4px;
+}
+.ct-direct {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0 2px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-radius: 4px;
+}
+.ct-direct.ct-clickable {
+  cursor: pointer;
+}
+.ct-direct.ct-clickable:hover {
+  background: #f3f5f8;
+}
+.ct-inst {
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+  columns: 3 240px;
+  column-gap: 24px;
+}
+.ct-inst li {
+  padding: 1px 0;
+  font-size: 13px;
+  break-inside: avoid;
+}
+.ct-more {
+  margin: 4px 0 0 20px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.ct-owl {
+  margin-top: 16px;
+}
+.ct-owl > summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+.onto-owl {
+  margin-top: 12px;
+}
+.onto-h {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+.onto-axioms h4 {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.onto-none {
+  margin: 2px 0 0 12px;
+}
+
+/* ---- Bong bóng IRI (components/IriTip.tsx): hiện ngay khi rê chuột / focus ---- */
+.iri-tip {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.iri-tip::after {
+  content: attr(data-iri);
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 30;
+  max-width: 60ch;
+  padding: 6px;
+  overflow: hidden;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f8fafc;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #1f2937;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.08s linear;
+}
+.iri-tip.flip::after {
+  right: 0;
+  left: auto;
+}
+.iri-tip:hover::after,
+.iri-tip:focus-within::after {
+  opacity: 1;
+  visibility: visible;
+}
+/* không để cột / ô bảng cắt bong bóng */
+.ct-inst,
+.ct-inst li,
+.ct-children,
+.facts td,
+.keyfacts dd {
+  overflow: visible;
+}
+
+/* ---- Trang Ontology: trái cây tài nguyên, phải cột tiên đề dính (>= 1100px) ---- */
+.onto-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.onto-main {
+  min-width: 0;
+}
+@media (min-width: 1100px) {
+  .onto-layout {
+    grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr);
+  }
+  .onto-sticky {
+    position: sticky;
+    top: calc(var(--nav-h) + 16px);
+    max-height: calc(100vh - var(--nav-h) - 32px);
+    overflow-y: auto;
+  }
+}
+.onto-axioms h2 + p {
+  margin-top: 0;
+}
+.onto-foot {
+  margin: 16px 0 6px;
+  line-height: 1.6;
+}
+.onto-curl {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.onto-h4 {
+  margin: 16px 0 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+/* ---- Hỏi đáp: SPARQL mode (không gọi LLM viết câu trả lời) ---- */
+.ask-mode {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+.ask-mode input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+.ask-mode .small {
+  font-weight: 400;
+}
+.ask-skip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.ask-skip p {
+  margin: 0;
+}
+
+/* ---- Thực thể: tab Cây quan hệ (dùng lại .ct-* của cây tài nguyên) ---- */
+.rt-hint {
+  margin: 0 0 10px;
+}
+.rt-root {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+.rt-group > .ct-row {
+  padding-left: 2px;
+}
+.rt-arrow {
+  flex: none;
+  width: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--muted);
+}
+.rt-cls {
+  margin-left: 6px;
+  padding: 0 7px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  background: #f3f5f8;
+}
+.rt-note {
+  margin-left: 8px;
+  font-size: 12.5px;
+}
+.rt-more {
+  padding: 2px 0 2px 22px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
