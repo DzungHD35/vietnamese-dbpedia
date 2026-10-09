@@ -1,10 +1,9 @@
 import { useEffect, useMemo, useState, type MouseEvent } from "react";
 import { Link, useLocation, useSearchParams } from "react-router-dom";
 import type { Ontology, OntologyClass, OntologyProperty, ResourceTree, TreeClass, TreeGroup, TreeItem } from "../api/types";
-import { useApi } from "../api/useApi";
+import { useApi, type ApiState } from "../api/useApi";
 import { IriTip } from "../components/IriTip";
 import { ErrorState, Loading } from "../components/States";
-import { StatTile } from "../components/StatTile";
 import { formatNumber } from "../utils/format";
 
 const FILTER_DEBOUNCE_MS = 250;
@@ -360,110 +359,120 @@ function ClassProperties({ c }: { c: OntologyClass }) {
   );
 }
 
-function OwlSection({ data }: { data: Ontology }) {
-  const { stats, classes, axioms, properties } = data;
-  const noDomain = properties.filter((p) => !p.domain);
+function Axioms({ axioms }: { axioms: Ontology["axioms"] }) {
+  return (
+    <>
+      <h4>Chuỗi thuộc tính</h4>
+      {axioms.chains.length === 0 && <p className="muted small">Không có.</p>}
+      <ul>
+        {axioms.chains.map((ch) => (
+          <li key={ch.property}>
+            <span className="onto-formula">
+              {ch.chain.map(local).join(" ∘ ")} ⊑ {local(ch.property)}
+            </span>
+            <Inferred n={ch.inferred} />
+          </li>
+        ))}
+      </ul>
+
+      <h4>Nghịch đảo</h4>
+      {axioms.inverses.length === 0 && <p className="muted small">Không có.</p>}
+      <ul>
+        {axioms.inverses.map((inv) => (
+          <li key={`${inv.a}|${inv.b}`}>
+            <span className="onto-formula">
+              {local(inv.a)} ≡ {local(inv.b)}⁻
+            </span>
+            <Inferred n={inv.inferredA} title={`triple ${inv.a} suy ra từ ${inv.b}`} />
+            <Inferred n={inv.inferredB} title={`triple ${inv.b} suy ra từ ${inv.a}`} />
+          </li>
+        ))}
+      </ul>
+
+      <h4>Ràng buộc</h4>
+      {axioms.restrictions.length === 0 && <p className="muted small">Không có.</p>}
+      <ul>
+        {axioms.restrictions.map((r) => (
+          <li key={`${r.onClass}|${r.property}|${r.filler}`}>
+            <span className="onto-formula" title={`${r.kind} · ${r.onClass} · ${r.property} · ${r.filler}`}>
+              {r.text}
+            </span>
+            <Inferred n={r.inferred} />
+          </li>
+        ))}
+      </ul>
+
+      <h4>Rời nhau</h4>
+      {axioms.disjoint.length === 0 && <p className="muted small">Không có.</p>}
+      <ul>
+        {axioms.disjoint.map((group) => (
+          <li key={group.join("|")} className="onto-disjoint">
+            <span className="muted small">owl:AllDisjointClasses</span>
+            {group.map((cls) => (
+              <span key={cls} className="chip">
+                {cls}
+              </span>
+            ))}
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
+function owlError(error: string): string {
+  return `${error}${error.includes("404") ? " Máy chủ này chưa có endpoint /api/ontology." : ""}`;
+}
+
+/** Cột phải (dính dưới thanh điều hướng): tiên đề OWL kèm số triple suy ra, số liệu gọn, tải ontology, ví dụ curl. */
+function AxiomsCard({ owl }: { owl: ApiState<Ontology> }) {
   const curl = `curl -H "Accept: text/turtle" ${window.location.origin}/ontology/playedFor`;
+  const stats = owl.data?.stats;
+  return (
+    <aside className="card onto-sticky onto-axioms">
+      <h2>Tiên đề OWL 2 RL</h2>
+      <p className="muted small">Các định nghĩa OWL khiến bộ suy luận thêm triple; số tím là triple suy ra được từ từng tiên đề.</p>
+      {owl.loading && <Loading text="Đang tải ontology…" />}
+      {owl.error && <ErrorState message={owlError(owl.error)} />}
+      {owl.data && stats && (
+        <>
+          <Axioms axioms={owl.data.axioms} />
+          <p className="onto-foot small muted">
+            {formatNumber(stats.classes)} lớp · {formatNumber(stats.objectProperties)} thuộc tính đối tượng ·{" "}
+            {formatNumber(stats.datatypeProperties)} thuộc tính dữ liệu · {formatNumber(stats.triples)} triple ·{" "}
+            <a href={stats.download} target="_blank" rel="noopener noreferrer">
+              Tải vi-ontology.ttl
+            </a>
+          </p>
+          <pre className="curl onto-curl">{curl}</pre>
+        </>
+      )}
+    </aside>
+  );
+}
+
+/** Nội dung details "Thuộc tính theo lớp": thuộc tính theo từng lớp + thuộc tính không có domain. */
+function ClassPropsSection({ data }: { data: Ontology }) {
+  const noDomain = data.properties.filter((p) => !p.domain);
   return (
     <div className="onto-owl">
-      <p className="muted small">
-        Lớp nào, thuộc tính nào, tiên đề nào tạo ra suy luận? Namespace <code className="mono">{stats.namespace}</code> ·{" "}
-        <a href={stats.download} target="_blank" rel="noopener noreferrer">
-          Tải vi-ontology.ttl
-        </a>
-      </p>
-      <section className="tiles">
-        <StatTile value={formatNumber(stats.classes)} label="lớp" note="owl:Class, cây rdfs:subClassOf" />
-        <StatTile value={formatNumber(stats.objectProperties)} label="thuộc tính đối tượng" note="owl:ObjectProperty" />
-        <StatTile value={formatNumber(stats.datatypeProperties)} label="thuộc tính dữ liệu" note="owl:DatatypeProperty" />
-        <StatTile value={formatNumber(stats.triples)} label="triple" note="trong vi-ontology.ttl" />
-      </section>
-      <p className="muted small onto-hint">Mỗi thuật ngữ dereference được (303 + content negotiation), ví dụ:</p>
-      <pre className="curl">{curl}</pre>
-
-      <div className="onto-cols">
-        <section>
-          <h3 className="onto-h">Thuộc tính theo lớp</h3>
-          <p className="muted small">Số bên phải: thực thể khai báo / sau suy luận. Bấm mã lớp hoặc thuộc tính để mở định nghĩa.</p>
-          <ul className="onto-tree">
-            {classes.map((c) => (
-              <ClassProperties key={c.id} c={c} />
-            ))}
-          </ul>
-        </section>
-
-        <section className="onto-axioms">
-          <h3 className="onto-h">Tiên đề</h3>
-          <p className="muted small">Các định nghĩa OWL khiến bộ suy luận thêm triple; số tím là triple suy ra được từ từng tiên đề.</p>
-
-          <h4>Chuỗi thuộc tính</h4>
-          {axioms.chains.length === 0 && <p className="muted small">Không có.</p>}
-          <ul>
-            {axioms.chains.map((ch) => (
-              <li key={ch.property}>
-                <span className="onto-formula">
-                  {ch.chain.map(local).join(" ∘ ")} ⊑ {local(ch.property)}
-                </span>
-                <Inferred n={ch.inferred} />
-              </li>
-            ))}
-          </ul>
-
-          <h4>Nghịch đảo</h4>
-          {axioms.inverses.length === 0 && <p className="muted small">Không có.</p>}
-          <ul>
-            {axioms.inverses.map((inv) => (
-              <li key={`${inv.a}|${inv.b}`}>
-                <span className="onto-formula">
-                  {local(inv.a)} ≡ {local(inv.b)}⁻
-                </span>
-                <Inferred n={inv.inferredA} title={`triple ${inv.a} suy ra từ ${inv.b}`} />
-                <Inferred n={inv.inferredB} title={`triple ${inv.b} suy ra từ ${inv.a}`} />
-              </li>
-            ))}
-          </ul>
-
-          <h4>Ràng buộc</h4>
-          {axioms.restrictions.length === 0 && <p className="muted small">Không có.</p>}
-          <ul>
-            {axioms.restrictions.map((r) => (
-              <li key={`${r.onClass}|${r.property}|${r.filler}`}>
-                <span className="onto-formula" title={`${r.kind} · ${r.onClass} · ${r.property} · ${r.filler}`}>
-                  {r.text}
-                </span>
-                <Inferred n={r.inferred} />
-              </li>
-            ))}
-          </ul>
-
-          <h4>Rời nhau</h4>
-          {axioms.disjoint.length === 0 && <p className="muted small">Không có.</p>}
-          <ul>
-            {axioms.disjoint.map((group) => (
-              <li key={group.join("|")} className="onto-disjoint">
-                <span className="muted small">owl:AllDisjointClasses</span>
-                {group.map((cls) => (
-                  <span key={cls} className="chip">
-                    {cls}
-                  </span>
-                ))}
-              </li>
-            ))}
-          </ul>
-
-          <h4>Thuộc tính không có domain ({noDomain.length})</h4>
-          <p className="muted small">Dùng chung cho nhiều lớp nên không gắn rdfs:domain; bộ suy luận không suy ra lớp của chủ thể từ chúng.</p>
-          {noDomain.length === 0 ? (
-            <p className="muted small">Mọi thuộc tính đều có domain.</p>
-          ) : (
-            <ul className="onto-props onto-nodomain">
-              {noDomain.map((p) => (
-                <PropertyRow key={p.id} p={p} />
-              ))}
-            </ul>
-          )}
-        </section>
-      </div>
+      <p className="muted small">Số bên phải: thực thể khai báo / sau suy luận. Bấm mã lớp hoặc thuộc tính để mở định nghĩa (tab mới).</p>
+      <ul className="onto-tree">
+        {data.classes.map((c) => (
+          <ClassProperties key={c.id} c={c} />
+        ))}
+      </ul>
+      <h4 className="onto-h4">Thuộc tính không có domain ({noDomain.length})</h4>
+      <p className="muted small">Dùng chung cho nhiều lớp nên không gắn rdfs:domain; bộ suy luận không suy ra lớp của chủ thể từ chúng.</p>
+      {noDomain.length === 0 ? (
+        <p className="muted small">Mọi thuộc tính đều có domain.</p>
+      ) : (
+        <ul className="onto-props onto-nodomain">
+          {noDomain.map((p) => (
+            <PropertyRow key={p.id} p={p} />
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
@@ -472,7 +481,7 @@ function OwlSection({ data }: { data: Ontology }) {
 // Trang
 // ============================================================================
 
-/** Ontology vio: cây tài nguyên (giống tab "Cây tài nguyên" của Gradio) + thuộc tính và tiên đề OWL thu gọn bên dưới. */
+/** Ontology vio: trái = cây tài nguyên (giống tab "Cây tài nguyên" của Gradio) + thuộc tính theo lớp thu gọn; phải = tiên đề OWL. */
 export function OntologyPage() {
   const [params, setParams] = useSearchParams();
   const urlQ = params.get("q") ?? "";
@@ -494,10 +503,7 @@ export function OntologyPage() {
   }, [urlQ]);
 
   const tree = useApi<ResourceTree>(`/api/tree${urlQ ? `?q=${encodeURIComponent(urlQ)}` : ""}`);
-
-  // phần OWL chỉ gọi /api/ontology khi người dùng mở <details>
-  const [owlOpen, setOwlOpen] = useState(false);
-  const owl = useApi<Ontology>(owlOpen ? "/api/ontology" : null);
+  const owl = useApi<Ontology>("/api/ontology"); // cột tiên đề hiện ngay nên nạp ngay
 
   // deep link #Person: cuộn tới dòng lớp trong cây (các lớp tổ tiên đã được mở)
   useEffect(() => {
@@ -505,11 +511,7 @@ export function OntologyPage() {
     document.getElementById(`cls-${target}`)?.scrollIntoView({ block: "center" });
   }, [tree.data, target]);
 
-  const owlTitle = owl.data
-    ? `${formatNumber(owl.data.stats.classes)} lớp · ${formatNumber(owl.data.stats.objectProperties + owl.data.stats.datatypeProperties)} thuộc tính`
-    : tree.data
-      ? `${formatNumber(tree.data.summary.classes)} lớp`
-      : "";
+  const propCount = owl.data ? owl.data.stats.objectProperties + owl.data.stats.datatypeProperties : null;
 
   return (
     <div className="ontology">
@@ -518,32 +520,36 @@ export function OntologyPage() {
         Duyệt mọi tài nguyên <code>vres:</code> theo cây lớp <code>vio:</code> (mỗi lớp ⊑ một lớp <code>dbo:</code>). Bấm tên để mở trang thực thể.
       </p>
 
-      <section className="card ct">
-        <div className="ct-filter">
-          <label htmlFor="ct-q">Lọc theo tên</label>
-          <input
-            id="ct-q"
-            type="search"
-            value={input}
-            placeholder="ví dụ: hoàng anh, hoang anh"
-            autoComplete="off"
-            onChange={(e) => setInput(e.target.value)}
-          />
-          {tree.loading && tree.data && <span className="ct-loading">Đang lọc…</span>}
-        </div>
-        {tree.loading && !tree.data && <Loading text="Đang tải cây tài nguyên…" />}
-        {tree.error && <ErrorState message={`${tree.error}${tree.error.includes("404") ? " Máy chủ này chưa có endpoint /api/tree." : ""}`} />}
-        {tree.data && <Tree data={tree.data} target={target} />}
-      </section>
+      <div className="onto-layout">
+        <div className="onto-main">
+          <section className="card ct">
+            <div className="ct-filter">
+              <label htmlFor="ct-q">Lọc theo tên</label>
+              <input
+                id="ct-q"
+                type="search"
+                value={input}
+                placeholder="ví dụ: hoàng anh, hoang anh"
+                autoComplete="off"
+                onChange={(e) => setInput(e.target.value)}
+              />
+              {tree.loading && tree.data && <span className="ct-loading">Đang lọc…</span>}
+            </div>
+            {tree.loading && !tree.data && <Loading text="Đang tải cây tài nguyên…" />}
+            {tree.error && <ErrorState message={`${tree.error}${tree.error.includes("404") ? " Máy chủ này chưa có endpoint /api/tree." : ""}`} />}
+            {tree.data && <Tree data={tree.data} target={target} />}
+          </section>
 
-      <details className="card ct-owl" onToggle={(e) => setOwlOpen((e.currentTarget as HTMLDetailsElement).open)}>
-        <summary>Thuộc tính và tiên đề OWL{owlTitle && ` (${owlTitle})`}</summary>
-        {owlOpen && owl.loading && <Loading text="Đang tải ontology…" />}
-        {owlOpen && owl.error && (
-          <ErrorState message={`${owl.error}${owl.error.includes("404") ? " Máy chủ này chưa có endpoint /api/ontology." : ""}`} />
-        )}
-        {owl.data && <OwlSection data={owl.data} />}
-      </details>
+          <details className="card ct-owl">
+            <summary>Thuộc tính theo lớp{propCount !== null && ` (${formatNumber(propCount)} thuộc tính)`}</summary>
+            {owl.loading && <Loading text="Đang tải ontology…" />}
+            {owl.error && <ErrorState message={owlError(owl.error)} />}
+            {owl.data && <ClassPropsSection data={owl.data} />}
+          </details>
+        </div>
+
+        <AxiomsCard owl={owl} />
+      </div>
     </div>
   );
 }

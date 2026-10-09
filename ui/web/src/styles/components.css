@@ -1548,3 +1548,44 @@ a.chip:hover {
 .keyfacts dd {
   overflow: visible;
 }
+
+/* ---- Trang Ontology: trái cây tài nguyên, phải cột tiên đề dính (>= 1100px) ---- */
+.onto-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.onto-main {
+  min-width: 0;
+}
+@media (min-width: 1100px) {
+  .onto-layout {
+    grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr);
+  }
+  .onto-sticky {
+    position: sticky;
+    top: calc(var(--nav-h) + 16px);
+    max-height: calc(100vh - var(--nav-h) - 32px);
+    overflow-y: auto;
+  }
+}
+.onto-axioms h2 + p {
+  margin-top: 0;
+}
+.onto-foot {
+  margin: 16px 0 6px;
+  line-height: 1.6;
+}
+.onto-curl {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.onto-h4 {
+  margin: 16px 0 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
