@@ -8,35 +8,43 @@
     "origin": "manual"
   },
   {
-    "question": "Quá trình thi đấu ở câu lạc bộ của Công Phượng?",
-    "sparql": "SELECT DISTINCT ?player ?team ?start ?end ?apps ?goals WHERE {\n  { SELECT DISTINCT ?player WHERE { ?player a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .\n                                    FILTER(CONTAINS(LCASE(STR(?n)), \"công phượng\")) } }\n  ?player vio:careerStation ?st . ?st a vio:ClubStation ; vio:team ?team .\n  OPTIONAL { ?st vio:startYear ?start } OPTIONAL { ?st vio:endYear ?end }\n  OPTIONAL { ?st vio:appearances ?apps } OPTIONAL { ?st vio:goals ?goals }\n} ORDER BY ?start LIMIT 50",
+    "question": "Quang Hải đã chơi cho những câu lạc bộ nào?",
+    "sparql": "SELECT DISTINCT ?player ?team ?start ?end ?apps ?goals WHERE {\n  { SELECT DISTINCT ?player WHERE { ?player a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .\n                                    FILTER(CONTAINS(LCASE(STR(?n)), \"quang hải\")) } }\n  ?player vio:careerStation ?st . ?st a vio:ClubStation ; vio:team ?team .\n  OPTIONAL { ?st vio:startYear ?start } OPTIONAL { ?st vio:endYear ?end }\n  OPTIONAL { ?st vio:appearances ?apps } OPTIONAL { ?st vio:goals ?goals }\n} ORDER BY ?player ?start LIMIT 50",
     "answer": null,
     "reasoning": "",
-    "generated_at": "2026-10-08",
+    "generated_at": "2026-10-09",
     "origin": "manual"
   },
   {
-    "question": "Câu lạc bộ nào có sân nhà ở Hà Nội?",
-    "sparql": "SELECT DISTINCT ?club ?stadium ?province WHERE {\n  { SELECT DISTINCT ?province WHERE { ?province a vio:Province ; rdfs:label ?pl .\n                                      FILTER(LCASE(STR(?pl)) = \"hà nội\") } }\n  ?stadium vio:province ?province . ?club a vio:FootballClub ; vio:ground ?stadium .\n} LIMIT 50",
+    "question": "Câu lạc bộ nào có sân nhà ở Đà Nẵng?",
+    "sparql": "SELECT DISTINCT ?club ?stadium ?province WHERE {\n  { SELECT DISTINCT ?province WHERE { ?province a vio:Province ; rdfs:label ?pl .\n                                      FILTER(LCASE(STR(?pl)) = \"đà nẵng\") } }\n  ?stadium vio:province ?province . ?club a vio:FootballClub ; vio:ground ?stadium .\n} LIMIT 50",
     "answer": null,
     "reasoning": "",
-    "generated_at": "2026-10-08",
+    "generated_at": "2026-10-09",
     "origin": "manual"
   },
   {
-    "question": "Tỉnh nào có nhiều cầu thủ quê quán nhất?",
-    "sparql": "SELECT ?province (COUNT(DISTINCT ?p) AS ?n) WHERE {\n  ?p a vio:FootballPlayer ; vio:birthProvince ?province .\n} GROUP BY ?province ORDER BY DESC(?n) LIMIT 10",
+    "question": "Trường đại học nào ở Huế được thành lập sớm nhất?",
+    "sparql": "SELECT DISTINCT ?university ?year ?province WHERE {\n  { SELECT DISTINCT ?province WHERE { ?province a vio:Province ; rdfs:label ?pl .\n                                      FILTER(LCASE(STR(?pl)) = \"huế\") } }\n  ?university a vio:University ; vio:province ?province ; vio:foundingYear ?year .\n} ORDER BY ?year LIMIT 10",
     "answer": null,
     "reasoning": "",
-    "generated_at": "2026-10-08",
+    "generated_at": "2026-10-09",
     "origin": "manual"
   },
   {
-    "question": "Đại học Cần Thơ tương ứng với tài nguyên nào trên DBpedia?",
-    "sparql": "SELECT DISTINCT ?university ?dbpedia WHERE {\n  { SELECT DISTINCT ?university WHERE { ?university a vio:University ; rdfs:label|skos:altLabel ?l .\n                                        FILTER(CONTAINS(LCASE(STR(?l)), \"đại học cần thơ\")) } }\n  ?university owl:sameAs ?dbpedia . FILTER(STRSTARTS(STR(?dbpedia), \"http://dbpedia.org/resource/\"))\n} LIMIT 10",
+    "question": "Hà Giang sau năm 2025 sáp nhập vào tỉnh nào?",
+    "sparql": "SELECT DISTINCT ?former ?successor ?year WHERE {\n  { SELECT DISTINCT ?former WHERE { ?former a vio:FormerProvince ; rdfs:label ?l .\n                                    FILTER(CONTAINS(LCASE(STR(?l)), \"hà giang\")) } }\n  ?former vio:successor ?successor .\n  OPTIONAL { ?former vio:dissolutionYear ?year }\n} LIMIT 10",
     "answer": null,
     "reasoning": "",
-    "generated_at": "2026-10-08",
+    "generated_at": "2026-10-09",
+    "origin": "manual"
+  },
+  {
+    "question": "Đặng Văn Lâm tương ứng với tài nguyên nào trên DBpedia tiếng Anh?",
+    "sparql": "SELECT DISTINCT ?player ?dbpedia ?wikidata WHERE {\n  { SELECT DISTINCT ?player WHERE { ?player a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .\n                                    FILTER(CONTAINS(LCASE(STR(?n)), \"đặng văn lâm\")) } }\n  OPTIONAL { ?player owl:sameAs ?dbpedia . FILTER(STRSTARTS(STR(?dbpedia), \"http://dbpedia.org/resource/\")) }\n  OPTIONAL { ?player owl:sameAs ?wikidata . FILTER(STRSTARTS(STR(?wikidata), \"http://www.wikidata.org/entity/\")) }\n} LIMIT 10",
+    "answer": null,
+    "reasoning": "",
+    "generated_at": "2026-10-09",
     "origin": "manual"
   }
 ]

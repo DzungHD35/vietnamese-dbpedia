@@ -79,4 +79,5 @@ def overview():
         "inferredByPredicate": _inferred_by_predicate(),
         "featured": [serialize.node(view, iri) for iri in featured],
         "questions": presets.DEMO_QUESTIONS,
+        "questionHint": presets.NO_DIACRITICS_EXAMPLE,
     }

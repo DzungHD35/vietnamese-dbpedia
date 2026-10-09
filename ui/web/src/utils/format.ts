@@ -5,6 +5,14 @@ export function formatNumber(n: number | null | undefined): string {
   return n == null ? "—" : vn.format(n);
 }
 
+const seconds = new Intl.NumberFormat("vi-VN", { maximumFractionDigits: 1 });
+
+/** 12.3 → "12 ms", 1834 → "1,8 s" */
+export function formatMs(ms: number | null | undefined): string {
+  if (ms == null) return "—";
+  return ms < 1000 ? `${Math.round(ms)} ms` : `${seconds.format(ms / 1000)} s`;
+}
+
 const INTEGER_TYPES = new Set(["xsd:integer", "xsd:int", "xsd:nonNegativeInteger", "xsd:positiveInteger", "xsd:long"]);
 const DECIMAL_TYPES = new Set(["xsd:double", "xsd:decimal", "xsd:float"]);
 const decimal = new Intl.NumberFormat("vi-VN", { maximumFractionDigits: 2 });
