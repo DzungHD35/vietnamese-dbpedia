@@ -14,12 +14,14 @@ import { SparqlPage } from "./pages/SparqlPage";
 const AskPage = lazy(() => import("./pages/AskPage").then((m) => ({ default: m.AskPage })));
 const EntityPage = lazy(() => import("./pages/EntityPage").then((m) => ({ default: m.EntityPage })));
 const OntologyPage = lazy(() => import("./pages/OntologyPage").then((m) => ({ default: m.OntologyPage })));
+const MapPage = lazy(() => import("./pages/MapPage").then((m) => ({ default: m.MapPage })));
 
 const LINKS = [
   { to: "/", label: "Tổng quan", end: true },
   { to: "/ontology", label: "Ontology", end: false },
   { to: "/ask", label: "Hỏi đáp", end: false },
   { to: "/sparql", label: "SPARQL", end: false },
+  { to: "/map", label: "Bản đồ", end: false },
 ];
 
 function InferenceToggle() {
@@ -65,6 +67,7 @@ export function App() {
                 <Route path="/entity/:id" element={<EntityPage />} />
                 <Route path="/ask" element={<AskPage />} />
                 <Route path="/sparql" element={<SparqlPage />} />
+                <Route path="/map" element={<MapPage />} />
                 <Route path="*" element={<OverviewPage />} />
               </Routes>
             </ErrorBoundary>
