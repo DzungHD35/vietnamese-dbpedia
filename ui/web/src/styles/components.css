@@ -1654,3 +1654,23 @@ a.chip:hover {
   font-size: 12.5px;
   color: var(--muted);
 }
+
+/* Dòng lớp + đồ thị và IRI dưới tên thực thể, như tiêu đề trang tài nguyên của Gradio */
+.ent-type {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.ent-type a {
+  color: var(--accent);
+}
+.ent-type code,
+.ent-iri code {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+.ent-iri {
+  margin: 2px 0 8px;
+}

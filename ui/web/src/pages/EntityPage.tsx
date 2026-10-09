@@ -6,12 +6,12 @@ import { CareerTimeline } from "../components/CareerTimeline";
 import { EntityLink } from "../components/EntityLink";
 import { GraphView } from "../components/GraphView";
 import { InferredBadge } from "../components/InferredBadge";
+import { IriTip } from "../components/IriTip";
 import { LinkedDataCard } from "../components/LinkedDataCard";
 import { ErrorState, Loading } from "../components/States";
 import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { useInference } from "../context/InferenceContext";
 import { formatLiteral, formatNumber } from "../utils/format";
-import { kindColorVar } from "../utils/kinds";
 
 type TabId = "facts" | "incoming" | "tree" | "classes" | "query";
 const TABS: { id: TabId; label: string }[] = [
@@ -81,12 +81,27 @@ function EntityView({ id }: { id: string }) {
         <div className="ent-main">
           <div className="ent-title">
             <h1>{node.label}</h1>
-            {node.cls && (
-              <span className="chip chip-kind" style={{ background: kindColorVar(node.kind) }}>
-                {node.cls}
-              </span>
-            )}
           </div>
+          <p className="ent-type">
+            Thực thể thuộc lớp{" "}
+            {e.types.length === 0
+              ? "—"
+              : e.types.map((t, i) => (
+                  <span key={t.id}>
+                    {i > 0 && ", "}
+                    <IriTip iri={t.iri}>
+                      <Link to={`/ontology#${encodeURIComponent(t.term)}`} title={t.iri}>
+                        {t.label}
+                      </Link>
+                    </IriTip>
+                  </span>
+                ))}
+            {" · đồ thị "}
+            <code>{e.graph}</code>
+          </p>
+          <p className="ent-iri">
+            <code>{node.iri}</code>
+          </p>
           <div className="chips">
             {lod.wikipedia && <ExtChip href={lod.wikipedia} text="Wikipedia" />}
             {lod.dbpedia.map((u) => (

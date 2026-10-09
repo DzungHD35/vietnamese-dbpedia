@@ -160,8 +160,17 @@ export interface RelationTree {
   groups: RelationGroup[];
 }
 
+export interface EntityType {
+  id: string;
+  term: string;
+  label: string;
+  iri: string;
+}
+
 export interface Entity {
   node: Node;
+  types: EntityType[];
+  graph: string;
   abstract: string | null;
   thumbnail: string | null;
   altLabels: string[];
