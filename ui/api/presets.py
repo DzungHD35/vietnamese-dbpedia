@@ -11,6 +11,7 @@ FEATURED = [
 ]
 
 DEMO_QUESTIONS = [
+    "Cầu thủ nào từng chơi cho Hoàng Anh Gia Lai?",  # beat ★ của DEMO.md: 77 dòng có suy luận, 0 chỉ khai báo
     "Cầu thủ nào từng chơi cho Than Quảng Ninh?",  # khoe property chain: có suy luận vs chỉ khai báo
     "Quá trình thi đấu ở câu lạc bộ của Công Phượng?",
     "Câu lạc bộ nào có sân nhà ở Hà Nội?",  # nhiều bước CLB → sân → tỉnh
