@@ -89,6 +89,7 @@ export interface Overview {
   inferredByPredicate: InferredProp[];
   featured: Node[];
   questions: string[];
+  questionHint?: string;
 }
 
 // ---- /api/entity/{id} ----
@@ -194,6 +195,62 @@ export interface AssertedInfo {
 
 export type Cells = Record<string, string>;
 
+/** Bước ①: một cụm trong câu hỏi khớp tên thực thể ("tail" = khớp phần cuối tên, ví dụ "quang hai"). */
+export interface Mention {
+  text: string;
+  match: "exact" | "tail";
+  candidates: Node[];
+}
+
+export interface LinkResult {
+  mentions: Mention[];
+  ms: number;
+}
+
+/** Bước ②: một lần thử; llmMs = null khi không gọi LLM (SPARQL viết sẵn, hoặc hệ thống tự sửa). */
+export interface Attempt {
+  n: number;
+  by: "llm" | "cache" | "system"; // LLM viết, SPARQL viết sẵn, hay hệ thống tự sửa
+  sparql: string;
+  status: "ok" | "empty" | "error";
+  error: string | null;
+  rows: number;
+  llmMs: number | null;
+  runMs: number;
+  feedback: string | null; // phản hồi đã gửi lại LLM để có lần thử này
+}
+
+/** Bước ③: một mục kiểm tra truy vấn. */
+export interface Check {
+  label: string;
+  status: "ok" | "warn" | "fail" | "info";
+  detail: string;
+}
+
+/** Bước ③: lớp / thuộc tính ontology dùng trong truy vấn và bao nhiêu triple của nó do suy luận. */
+export interface TermUse {
+  term: string;
+  iri: string;
+  label: string;
+  kind: "class" | "property";
+  total: number;
+  inferred: number;
+}
+
+export interface AskSteps {
+  link: LinkResult;
+  generate: {
+    source: "cache" | "llm";
+    attempts: Attempt[];
+    prompt: string | null;
+    fallback: string | null;
+    reused: boolean; // kết quả LLM của lần hỏi trước trong phiên, không gọi lại
+  };
+  checks: Check[];
+  terms: TermUse[];
+  run: { ms: number; rows: number };
+}
+
 export interface AskResult {
   question: string;
   source: "cache" | "llm";
@@ -206,6 +263,7 @@ export interface AskResult {
   links: Record<string, Node>;
   evidence: Node[];
   asserted: AssertedInfo;
+  steps: AskSteps;
 }
 
 export interface AnswerResult {
@@ -213,6 +271,8 @@ export interface AnswerResult {
   reasoning: string;
   source: "cache" | "llm" | "none";
   note?: string;
+  ms: number;
+  reused?: boolean;
 }
 
 // ---- /api/sparql ----

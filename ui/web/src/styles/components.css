@@ -1635,6 +1635,237 @@ a.chip:hover {
   margin: 0;
 }
 
+/* ---- Hỏi đáp: sáu bước (thanh tiến trình, nhận diện thực thể, các lần thử, kiểm tra) ---- */
+/* một cột co được: dòng SPARQL dài cuộn trong khung thay vì kéo giãn cả trang */
+.ask-steps {
+  grid-template-columns: minmax(0, 1fr);
+}
+.ask-pipeline {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ask-pipe a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 2px 8px;
+  height: 100%;
+  padding: 8px 10px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--border);
+  border-radius: 6px;
+}
+.ask-pipe a:hover {
+  text-decoration: none;
+  background: var(--bg);
+}
+.ask-pipe-icon {
+  grid-row: span 2;
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #c3cad5;
+  border-radius: 50%;
+}
+.ask-pipe-title {
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.ask-pipe-note {
+  font-size: 11.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ask-pipe-run a {
+  border-top-color: var(--accent);
+}
+.ask-pipe-run .ask-pipe-icon {
+  background: var(--accent);
+  animation: ask-pipe-pulse 1.1s infinite ease-in-out;
+}
+.ask-pipe-done a {
+  border-top-color: #16a34a;
+}
+.ask-pipe-done .ask-pipe-icon {
+  background: #16a34a;
+}
+.ask-pipe-warn a {
+  border-top-color: #d97706;
+}
+.ask-pipe-warn .ask-pipe-icon {
+  background: #d97706;
+}
+.ask-pipe-fail a {
+  border-top-color: #b42318;
+}
+.ask-pipe-fail .ask-pipe-icon {
+  background: #b42318;
+}
+.ask-pipe-skip,
+.ask-pipe-wait {
+  opacity: 0.6;
+}
+@keyframes ask-pipe-pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+@media (max-width: 900px) {
+  .ask-pipeline {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.mentions,
+.attempts,
+.checks,
+.terms {
+  display: grid;
+  gap: 8px;
+  margin: 4px 0 10px;
+  padding: 0;
+  list-style: none;
+}
+.mentions li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+}
+.mention-text {
+  font-weight: 600;
+}
+.mention-cands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+}
+.mention-warn {
+  color: #b45309;
+}
+.attempt {
+  padding: 8px 10px;
+  background: var(--bg);
+  border-radius: 6px;
+}
+.attempt-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  cursor: default;
+}
+details > summary.attempt-head {
+  cursor: pointer;
+}
+.attempt details .sparql-block {
+  margin-top: 8px;
+}
+.attempt-badge {
+  font-size: 13px;
+  font-weight: 600;
+}
+.attempt-ok {
+  color: #15803d;
+}
+.attempt-empty {
+  color: #b45309;
+}
+.attempt-error {
+  color: #b42318;
+}
+.attempt-message {
+  margin: 6px 0 0;
+  color: #b42318;
+  font-family: var(--mono);
+  font-size: 12px;
+  word-break: break-word;
+}
+.attempt-feedback {
+  margin-bottom: 6px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.attempt-feedback pre,
+.prompt pre {
+  max-height: 320px;
+  margin: 6px 0 0;
+  padding: 10px 12px;
+  overflow: auto;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  background: #f4f6fa;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.prompt {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.prompt summary,
+.attempt-feedback summary {
+  cursor: pointer;
+}
+.check {
+  display: grid;
+  grid-template-columns: 22px auto 1fr;
+  align-items: baseline;
+  gap: 8px;
+}
+.check-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 50%;
+}
+.check-ok .check-icon {
+  background: #16a34a;
+}
+.check-warn .check-icon {
+  background: #d97706;
+}
+.check-fail .check-icon {
+  background: #b42318;
+}
+.check-info .check-icon {
+  background: #8b95a5;
+}
+.sub-title {
+  margin: 12px 0 6px;
+  font-size: 14px;
+}
+.terms li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+.term-inferred {
+  padding: 0 8px;
+  color: var(--inferred);
+  background: var(--inferred-soft);
+  border: 1px dashed var(--inferred);
+  border-radius: 999px;
+}
+
 /* ---- Thực thể: tab Cây quan hệ (dùng lại .ct-* của cây tài nguyên) ---- */
 .rt-hint {
   margin: 0 0 10px;
