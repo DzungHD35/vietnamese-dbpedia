@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useApi, type ApiState } from "../api/useApi";
-import type { Entity, EntityClass, Fact, Neighbors, Node, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
+import type { Entity, EntityClass, Fact, Node, RelationGroup, RelationNode, RelationTree, Value } from "../api/types";
 import { CareerTimeline } from "../components/CareerTimeline";
 import { EntityLink } from "../components/EntityLink";
-import { GraphView } from "../components/GraphView";
 import { InferredBadge } from "../components/InferredBadge";
 import { IriTip } from "../components/IriTip";
 import { LinkedDataCard } from "../components/LinkedDataCard";
+import { StaticGraph } from "../components/StaticGraph";
 import { ErrorState, Loading } from "../components/States";
 import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { useInference } from "../context/InferenceContext";
@@ -57,11 +57,9 @@ function ValueView({ v, raw = false }: { v: Value; raw?: boolean }) {
 }
 
 function EntityView({ id }: { id: string }) {
-  const navigate = useNavigate();
   const { showInferred } = useInference();
   const enc = encodeURIComponent(id);
   const entity = useApi<Entity>(`/api/entity/${enc}`);
-  const neighbors = useApi<Neighbors>(`/api/neighbors/${enc}`);
   const [tab, setTab] = useState<TabId>("facts");
   const [treeOpened, setTreeOpened] = useState(false); // cây quan hệ chỉ nạp khi mở tab lần đầu, rồi giữ lại
   const tree = useApi<RelationTree>(treeOpened ? `/api/entity/${enc}/tree` : null);
@@ -72,6 +70,7 @@ function EntityView({ id }: { id: string }) {
   const e = entity.data;
   const { node, lod } = e;
   const ttl = `${lod.linkedData.replace("/resource/", "/data/")}.ttl`;
+  const hasCareer = e.career.length > 0;
   const key = e.facts
     .filter((f) => f.ns === "vio" && f.values.length <= 3 && f.values.every((v) => !v.inferred))
     .slice(0, KEY_FACTS);
@@ -136,56 +135,6 @@ function EntityView({ id }: { id: string }) {
         </div>
       </header>
 
-      <div className="ent-cols">
-        {e.career.length > 0 ? (
-          <section className="card">
-            <h2>Sự nghiệp</h2>
-            <CareerTimeline career={e.career} />
-          </section>
-        ) : (
-          <section className="card">
-            <h2>Thông tin chính</h2>
-            {key.length === 0 ? (
-              <p className="muted">Chưa có thuộc tính vio: nổi bật.</p>
-            ) : (
-              <dl className="keyfacts">
-                {key.map((f) => (
-                  <div key={f.prop} style={{ display: "contents" }}>
-                    <dt>{f.label}</dt>
-                    <dd>
-                      {f.values.map((v, i) => (
-                        <span key={i}>
-                          {i > 0 && ", "}
-                          <ValueView v={v} />
-                        </span>
-                      ))}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            )}
-          </section>
-        )}
-        {neighbors.loading ? (
-          <section className="card">
-            <Loading text="Đang dựng đồ thị…" />
-          </section>
-        ) : neighbors.error || !neighbors.data ? (
-          <section className="card">
-            <ErrorState message={neighbors.error ?? "Không có dữ liệu."} />
-          </section>
-        ) : (
-          <GraphView
-            title="Đồ thị lân cận"
-            data={neighbors.data}
-            centerId={node.id}
-            expandable
-            showInferred={showInferred}
-            onOpen={(nid) => navigate(`/entity/${encodeURIComponent(nid)}`)}
-          />
-        )}
-      </div>
-
       <div className="ent-cols ent-onto">
         <section className="card">
           <h2>Cây phân lớp</h2>
@@ -193,6 +142,47 @@ function EntityView({ id }: { id: string }) {
           <ClassTree classes={e.classes} showInferred={showInferred} />
         </section>
         <LinkedDataCard id={id} iri={node.iri} lod={lod} />
+      </div>
+
+      <section className="card ent-graph">
+        <h2>Đồ thị lân cận</h2>
+        <p className="muted small ent-note">
+          Mũi tên → là quan hệ đi ra, ← là quan hệ đi vào; nét đứt là quan hệ có được nhờ suy luận. Nút viền đứt là
+          liên kết LOD ra ngoài. Bấm vào một nút để mở trang của nút đó.
+        </p>
+        <StaticGraph id={id} showInferred={showInferred} />
+      </section>
+
+      {/* cầu thủ: timeline cạnh thông tin chính; thực thể khác: thông tin chính trải rộng */}
+      <div className={hasCareer ? "ent-cols" : "ent-wide"}>
+        {hasCareer && (
+          <section className="card">
+            <h2>Sự nghiệp</h2>
+            <CareerTimeline career={e.career} />
+          </section>
+        )}
+        <section className="card">
+          <h2>Thông tin chính</h2>
+          {key.length === 0 ? (
+            <p className="muted">Chưa có thuộc tính vio: nổi bật.</p>
+          ) : (
+            <dl className={hasCareer ? "keyfacts" : "keyfacts wide"}>
+              {key.map((f) => (
+                <div key={f.prop} style={{ display: "contents" }}>
+                  <dt>{f.label}</dt>
+                  <dd>
+                    {f.values.map((v, i) => (
+                      <span key={i}>
+                        {i > 0 && ", "}
+                        <ValueView v={v} />
+                      </span>
+                    ))}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          )}
+        </section>
       </div>
 
       <div className="tabs">

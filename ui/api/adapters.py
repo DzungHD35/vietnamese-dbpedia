@@ -53,6 +53,12 @@ def tree_groups(view, node, path, root):
     return view._tree_groups(node, path, root)
 
 
+def graph_svg(view, iri, inferred=True):
+    """Đồ thị lân cận dạng hình tĩnh, đúng như mục "Đồ thị lân cận" của trang tài nguyên Gradio: HTML gồm SVG,
+    chú giải và dòng "còn N liên kết khác". inferred=False bỏ các quan hệ chỉ có nhờ suy luận."""
+    return view._graph_svg(iri, inferred=inferred)
+
+
 def station_note(view, station):
     """Ghi chú của một chặng thi đấu: "2015–2023, 103 trận, 36 bàn, cho mượn"."""
     return view._station_note(station)

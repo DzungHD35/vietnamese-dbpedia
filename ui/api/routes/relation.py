@@ -64,6 +64,13 @@ def _groups(view, groups, depth, path, budget) -> list[dict]:
     return out
 
 
+@router.get("/entity/{name:path}/graph")
+def neighbour_graph(name: str, inferred: bool = True):
+    """Đồ thị lân cận dạng SVG tĩnh của trang tài nguyên Gradio (cùng hàm, cùng bố cục hai phía)."""
+    iri = resolve_or_404(name)
+    return {"html": adapters.graph_svg(kg.view, iri, inferred=inferred)}
+
+
 @router.get("/entity/{name:path}/tree")
 def relation_tree(name: str):
     iri = resolve_or_404(name)

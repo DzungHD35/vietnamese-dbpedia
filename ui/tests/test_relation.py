@@ -39,3 +39,15 @@ def test_relation_tree_club_has_incoming(client):
 
 def test_relation_tree_404(client):
     assert client.get("/api/entity/Không_có_thực_thể_này/tree").status_code == 404
+
+
+def test_static_graph_matches_gradio(client):
+    from ui.api.state import kg
+
+    d = client.get("/api/entity/Nguyễn_Công_Phượng/graph").json()
+    iri = kg.view.resolve("Nguyễn_Công_Phượng")
+    assert d["html"] == kg.view._graph_svg(iri)  # đúng HTML của trang Gradio
+    assert "<svg" in d["html"] and "rv-edge-inf" in d["html"] and "rv-legend" in d["html"]
+    asserted = client.get("/api/entity/Nguyễn_Công_Phượng/graph", params={"inferred": "false"}).json()["html"]
+    assert "rv-edge-inf" not in asserted and "playedFor" not in asserted and "birthProvince" in asserted
+    assert client.get("/api/entity/Không_có/graph").status_code == 404

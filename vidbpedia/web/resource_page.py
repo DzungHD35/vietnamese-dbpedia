@@ -485,8 +485,15 @@ class ResourceView:
         rank = {id(item): i for i, item in enumerate(items)}
         return sorted(picked, key=lambda item: rank[id(item)])
 
-    def _graph_svg(self, iri):
+    def _graph_svg(self, iri, inferred=True):
         out, inc = self._neighbors(iri)
+        if not inferred:  # chỉ giữ thuộc tính khai báo; nút không còn thuộc tính nào thì bỏ
+            out = [
+                (o, kept) for o, ps in out if (kept := [p for p in ps if not self.is_inferred((iri, p, o))])
+            ]
+            inc = [
+                (s, kept) for s, ps in inc if (kept := [p for p in ps if not self.is_inferred((s, p, iri))])
+            ]
         page = self.g.value(iri, FOAF.isPrimaryTopicOf)
         lod = [(o, [OWL.sameAs], "lod") for o in sorted(self.g.objects(iri, OWL.sameAs), key=str)]
         if page is not None:
