@@ -9,8 +9,13 @@ const proxy = Object.fromEntries(
     {
       target: api,
       // trình duyệt mở /sparql?query=… (Accept: text/html) thì cho trang SPARQL của UI; curl mới tới endpoint
-      bypass: (req: { headers: { accept?: string } }) =>
-        p === "/sparql" && req.headers.accept?.includes("text/html") ? "/index.html" : undefined,
+      bypass: (req: { url?: string; headers: { accept?: string } }) => {
+        if (!req.headers.accept?.includes("text/html")) return undefined;
+        if (p === "/sparql") return "/index.html";
+        // /ontology (không có thuật ngữ) là trang Ontology của UI; /ontology/{term} vẫn là Linked Data của API
+        if (p === "/ontology" && /^\/ontology(?:[?#]|$)/.test(req.url ?? "")) return "/index.html";
+        return undefined;
+      },
     },
   ]),
 );

@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { copyText } from "../utils/clipboard";
 
 // một lượt quét: chú thích | chuỗi | biến | từ khoá | tên có tiền tố (prefix:tên)
 const TOKEN =
@@ -26,21 +27,19 @@ function highlight(text: string) {
 
 /** Khối SPARQL chỉ đọc, tô màu đơn giản; có nút Sao chép và mở trong trang SPARQL. */
 export function SparqlBlock({ sparql, openable = true }: { sparql: string; openable?: boolean }) {
-  const [copied, setCopied] = useState(false);
-  const copy = () => {
-    navigator.clipboard
-      .writeText(sparql)
-      .then(() => {
-        setCopied(true);
-        window.setTimeout(() => setCopied(false), 1500);
-      })
-      .catch(() => setCopied(false));
+  const [copied, setCopied] = useState<"idle" | "done" | "selected">("idle");
+  const pre = useRef<HTMLPreElement>(null);
+  const copy = async () => {
+    // không có navigator.clipboard (HTTP không phải localhost) thì chọn sẵn văn bản để Ctrl+C
+    const ok = await copyText(sparql, pre.current);
+    setCopied(ok ? "done" : "selected");
+    window.setTimeout(() => setCopied("idle"), 1800);
   };
   return (
     <div className="sparql-block">
       <div className="sparql-tools">
         <button type="button" className="btn" onClick={copy}>
-          {copied ? "Đã sao chép" : "Sao chép"}
+          {copied === "done" ? "Đã sao chép" : copied === "selected" ? "Đã chọn, nhấn Ctrl+C" : "Sao chép"}
         </button>
         {openable && (
           <Link className="btn" to={`/sparql?query=${encodeURIComponent(sparql)}`}>
@@ -48,7 +47,7 @@ export function SparqlBlock({ sparql, openable = true }: { sparql: string; opena
           </Link>
         )}
       </div>
-      <pre>{highlight(sparql)}</pre>
+      <pre ref={pre}>{highlight(sparql)}</pre>
     </div>
   );
 }

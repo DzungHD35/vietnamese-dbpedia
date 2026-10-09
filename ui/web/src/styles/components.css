@@ -1073,3 +1073,218 @@ a.chip:hover {
     display: none;
   }
 }
+
+/* ---- Chặn lỗi trang (ErrorBoundary) ---- */
+.boundary {
+  text-align: left;
+}
+.boundary-msg {
+  margin: 8px 0;
+  padding: 8px 10px;
+  font-family: var(--mono);
+  font-size: 12px;
+  white-space: pre-wrap;
+  color: var(--text);
+  background: #fff;
+  border-radius: 6px;
+}
+.boundary-actions {
+  display: flex;
+  gap: 8px;
+}
+.gate-cmd {
+  margin-top: 10px;
+  text-align: left;
+}
+.search-error {
+  color: #b45309;
+}
+.cb-link {
+  color: inherit;
+}
+.cb-link:hover {
+  text-decoration: none;
+}
+.cb-link:hover strong {
+  color: var(--accent);
+}
+
+/* ---- Liên kết dữ liệu mở (trang Thực thể) ---- */
+.lod-card {
+  margin-top: 16px;
+}
+.lod {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 6px 16px;
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+.lod dt {
+  color: var(--muted);
+  font-weight: 500;
+}
+.lod dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.lod-iri {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.lod-iri code {
+  font-size: 12.5px;
+}
+.lod-deref {
+  margin: 12px 0 4px;
+}
+.lod-curl {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.lod-curl .curl {
+  flex: 1;
+  margin: 0;
+}
+
+/* ---- Ontology ---- */
+.onto-hint {
+  margin: 14px 0 6px;
+}
+.onto-cols {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: start;
+}
+@media (max-width: 1000px) {
+  .onto-cols {
+    grid-template-columns: 1fr;
+  }
+}
+.onto-tree {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.onto-class {
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-left: 2px solid var(--border);
+  border-radius: 0 6px 6px 0;
+  scroll-margin-top: calc(var(--nav-h) + 16px);
+}
+.onto-class.highlight {
+  background: #fff7d6;
+  border-left-color: #d97706;
+}
+.onto-class-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+}
+.onto-class-head a {
+  color: var(--muted);
+}
+.onto-class-head a:hover {
+  color: var(--accent);
+}
+.onto-sub {
+  font-size: 12px;
+  color: var(--muted);
+}
+.onto-count {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.onto-inferred {
+  color: var(--inferred);
+  font-weight: 600;
+}
+.onto-props {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0 0 0 12px;
+  font-size: 13px;
+}
+.onto-prop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+.onto-prop code {
+  font-size: 12px;
+}
+.onto-arrow {
+  color: var(--muted);
+}
+.onto-plabel {
+  font-size: 12px;
+  color: var(--muted);
+}
+.onto-badge {
+  padding: 0 6px;
+  font-size: 11px;
+  line-height: 18px;
+  color: var(--muted);
+  background: #eef1f5;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.onto-badge.inf {
+  color: var(--inferred);
+  background: var(--inferred-soft);
+  border: 1px dashed var(--inferred);
+}
+.onto-axioms h3 {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.onto-axioms ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+.onto-axioms li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+.onto-formula {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.onto-disjoint {
+  align-items: center;
+}
+.onto-nodomain {
+  margin-top: 16px;
+}
+.onto-nodomain summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+.onto-nodomain .onto-props {
+  margin-top: 8px;
+  padding-left: 0;
+}

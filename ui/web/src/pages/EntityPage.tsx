@@ -6,6 +6,7 @@ import { CareerTimeline } from "../components/CareerTimeline";
 import { EntityLink } from "../components/EntityLink";
 import { GraphView } from "../components/GraphView";
 import { InferredBadge } from "../components/InferredBadge";
+import { LinkedDataCard } from "../components/LinkedDataCard";
 import { ErrorState, Loading } from "../components/States";
 import { useInference } from "../context/InferenceContext";
 import { formatLiteral, formatNumber } from "../utils/format";
@@ -162,6 +163,8 @@ function EntityView({ id }: { id: string }) {
         )}
       </div>
 
+      <LinkedDataCard id={id} iri={node.iri} lod={lod} />
+
       <div className="tabs">
         <div className="tab-list" role="tablist">
           {TABS.map((t) => (
@@ -221,7 +224,7 @@ function FactsTab({ facts, showInferred }: { facts: Fact[]; showInferred: boolea
                         </li>
                       ))}
                     </ul>
-                    {f.more > 0 && <span className="more">… và {formatNumber(f.more)} giá trị khác</span>}
+                    {f.more > 0 && showInferred && <span className="more">… và {formatNumber(f.more)} giá trị khác</span>}
                   </td>
                 </tr>
               ))}

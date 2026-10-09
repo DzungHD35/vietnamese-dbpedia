@@ -61,11 +61,15 @@ def prepare(text, allow_remote=True):
         query = prepareQuery(text.lstrip("﻿"), initNs=PREFIXES)
     except Exception as e:
         raise QueryError(f"Lỗi cú pháp: {e}") from e
-    if not allow_remote:
-        if query.algebra.get("datasetClause"):
-            raise QueryError("Không hỗ trợ FROM / FROM NAMED: endpoint chỉ có một graph mặc định.")
-        if _uses_service(query.algebra):
-            raise QueryError("Không hỗ trợ SERVICE (truy vấn liên kết sang endpoint khác).")
+    return query if allow_remote else ensure_local(query)
+
+
+def ensure_local(query):
+    """Chặn FROM và SERVICE trên truy vấn đã prepare: hai mệnh đề khiến rdflib gửi request ra ngoài."""
+    if query.algebra.get("datasetClause"):
+        raise QueryError("Không hỗ trợ FROM / FROM NAMED: endpoint chỉ có một graph mặc định.")
+    if _uses_service(query.algebra):
+        raise QueryError("Không hỗ trợ SERVICE (truy vấn liên kết sang endpoint khác).")
     return query
 
 

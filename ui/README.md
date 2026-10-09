@@ -6,6 +6,9 @@ Kế hoạch và quyết định: `.agents/CORE.md`, `.agents/PLAN.md`.
 
 ## Chạy
 
+Cần Node ≥ 20.19 (khuyên dùng 22 LTS, xem `ui/web/.nvmrc`); trên Windows nếu build báo "Cannot find native binding"
+thì chạy `cd ui/web && npm install --no-save @rolldown/binding-win32-x64-msvc@1.2.13` rồi build lại.
+
 Demo (một process, nên dùng khi trình bày):
 ```bash
 cd ui/web && npm install && npm run build
@@ -28,6 +31,7 @@ Server Gradio của team (`python -m vidbpedia serve`, :7860) vẫn chạy độ
 | Route | Câu hỏi nó trả lời |
 |---|---|
 | `/` Tổng quan | Graph chứa gì, lớn cỡ nào, suy luận thêm được bao nhiêu? |
+| `/ontology` Ontology | Lớp nào, thuộc tính nào, tiên đề nào tạo ra suy luận? Mỗi lớp ghi `⊑ dbo:`, thuộc tính theo domain, tiên đề kèm số triple sinh ra; bấm thuật ngữ mở `/ontology/{term}` (Turtle) |
 | `/entity/:id` Thực thể | X là ai, sự nghiệp (timeline) và quan hệ (đồ thị mở rộng được), nối ra LOD thế nào? |
 | `/ask?q=` Hỏi đáp | Hỏi tiếng Việt → SPARQL → kết quả (có/không suy luận) → câu trả lời → đồ thị bằng chứng |
 | `/sparql?query=` SPARQL | Soạn và chạy truy vấn, tải JSON/CSV; endpoint chuẩn cũng ở `/sparql` |
@@ -55,15 +59,16 @@ Tài liệu OpenAPI: `/api/docs`.
 |---|---|
 | `GET /api/health` | `ready`, `asserted_ready`, `llm`, tiến độ nạp |
 | `GET /api/overview` | số liệu tổng quan, lớp, suy luận theo thuộc tính, thực thể nổi bật, câu hỏi mẫu |
+| `GET /api/ontology` | cây lớp (kèm thuộc tính có domain là lớp đó), 54 thuộc tính, tiên đề OWL (chuỗi, nghịch đảo, ràng buộc, rời nhau) và số triple suy luận của từng tiên đề |
 | `GET /api/search?q=` | tìm thực thể (không cần dấu) |
 | `GET /api/entity/{id}` | dữ liệu màn Thực thể |
 | `GET /api/neighbors/{id}` | lân cận một bước (đồ thị) |
 | `GET /api/subgraph?ids=a&ids=b` | cạnh giữa một tập thực thể; **lặp tham số `ids`**, không dùng dấu phẩy vì id có thể chứa `,` |
 | `POST /api/ask`, `/api/ask/answer`, `/api/ask/asserted` | hỏi đáp (xem trên) |
 | `GET /api/sparql/examples`, `POST /api/sparql` | SPARQL cho giao diện (`inference: false` chạy trên triple khai báo) |
-| `GET/POST /sparql` | endpoint chuẩn SPARQL 1.1 Protocol: JSON (mặc định), XML, CSV theo `Accept`; CONSTRUCT trả Turtle; `?inference=false` ngoài chuẩn |
+| `GET/POST /sparql` | endpoint chuẩn SPARQL 1.1 Protocol, dùng lại `vidbpedia.web.endpoint` của team: JSON (mặc định), XML, CSV theo `Accept` hoặc `?format=`; CONSTRUCT trả Turtle, N-Triples, JSON-LD, RDF/XML; chặn `FROM` và `SERVICE`; `?inference=false` ngoài chuẩn |
 | `GET /api/map` | điểm có toạ độ và quan hệ kế thừa |
-| `/resource/…`, `/data/…`, `/ontology/…` | Linked Data của team, gắn nguyên vẹn |
+| `/resource/…`, `/data/…`, `/ontology/{term}`, `/ontology.ttl` | Linked Data của team, gắn nguyên vẹn; `/ontology/{term}` trả định nghĩa Turtle đầy đủ (kể cả blank node của restriction và chuỗi thuộc tính), `/ontology.ttl` trả cả ontology |
 
 Khi graph chưa nạp xong, các đường dẫn cần graph trả 503 (`/api/health` luôn trả lời và báo tiến độ).
 Trình duyệt mở `/sparql?query=…` (Accept: text/html) thấy trang SPARQL của UI; `curl` mới gọi endpoint:

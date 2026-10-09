@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { useHealth } from "./api/useHealth";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 import { GraphGate } from "./components/GraphGate";
 import { Loading } from "./components/States";
 import { HealthBadge } from "./components/HealthBadge";
@@ -13,9 +14,11 @@ import { SparqlPage } from "./pages/SparqlPage";
 const AskPage = lazy(() => import("./pages/AskPage").then((m) => ({ default: m.AskPage })));
 const EntityPage = lazy(() => import("./pages/EntityPage").then((m) => ({ default: m.EntityPage })));
 const MapPage = lazy(() => import("./pages/MapPage").then((m) => ({ default: m.MapPage })));
+const OntologyPage = lazy(() => import("./pages/OntologyPage").then((m) => ({ default: m.OntologyPage })));
 
 const LINKS = [
   { to: "/", label: "Tổng quan", end: true },
+  { to: "/ontology", label: "Ontology", end: false },
   { to: "/ask", label: "Hỏi đáp", end: false },
   { to: "/sparql", label: "SPARQL", end: false },
   { to: "/map", label: "Bản đồ", end: false },
@@ -34,6 +37,7 @@ function InferenceToggle() {
 
 export function App() {
   const { health, offline } = useHealth();
+  const { pathname } = useLocation();
   return (
     <>
       <header className="nav">
@@ -55,14 +59,18 @@ export function App() {
       <main className="page">
         <GraphGate health={health} offline={offline}>
           <Suspense fallback={<Loading />}>
-            <Routes>
-              <Route path="/" element={<OverviewPage />} />
-              <Route path="/entity/:id" element={<EntityPage />} />
-              <Route path="/ask" element={<AskPage />} />
-              <Route path="/sparql" element={<SparqlPage />} />
-              <Route path="/map" element={<MapPage />} />
-              <Route path="*" element={<OverviewPage />} />
-            </Routes>
+            {/* key theo đường dẫn: lỗi ở một trang không khoá các trang khác */}
+            <ErrorBoundary key={pathname}>
+              <Routes>
+                <Route path="/" element={<OverviewPage />} />
+                <Route path="/ontology" element={<OntologyPage />} />
+                <Route path="/entity/:id" element={<EntityPage />} />
+                <Route path="/ask" element={<AskPage />} />
+                <Route path="/sparql" element={<SparqlPage />} />
+                <Route path="/map" element={<MapPage />} />
+                <Route path="*" element={<OverviewPage />} />
+              </Routes>
+            </ErrorBoundary>
           </Suspense>
         </GraphGate>
       </main>

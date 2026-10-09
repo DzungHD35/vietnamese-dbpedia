@@ -37,8 +37,7 @@ function arrowIcon(a: MapPoint, b: MapPoint, color: string) {
   });
 }
 
-function PointPopup({ p, out, into }: { p: MapPoint; out: Succession[]; into: Succession[] }) {
-  const name = (id: string) => decodeURIComponent(id).replace(/_/g, " ");
+function PointPopup({ p, out, into, name }: { p: MapPoint; out: Succession[]; into: Succession[]; name: (id: string) => string }) {
   return (
     <div className="map-popup">
       <strong>{p.node.label}</strong>
@@ -62,6 +61,8 @@ export function MapPage() {
   const [arrows, setArrows] = useState(true);
 
   const byId = useMemo(() => new Map((data?.points ?? []).map((p) => [p.node.id, p])), [data]);
+  // id là tên cục bộ đã giải mã (vd. Hà_Tây): lấy nhãn của điểm nếu có, không thì bỏ dấu gạch dưới
+  const labelOf = (id: string) => byId.get(id)?.node.label ?? id.replace(/_/g, " ");
   const counts = useMemo(() => {
     const c: Record<Layer, number> = { current: 0, former: 0, uni: 0, stadium: 0 };
     for (const p of data?.points ?? []) {
@@ -129,6 +130,7 @@ export function MapPage() {
                       p={p}
                       out={data.successions.filter((s) => s.from === p.node.id)}
                       into={data.successions.filter((s) => s.to === p.node.id)}
+                      name={labelOf}
                     />
                   </Popup>
                 </CircleMarker>

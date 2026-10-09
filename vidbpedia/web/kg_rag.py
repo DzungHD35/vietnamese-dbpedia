@@ -13,6 +13,7 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import OWL, RDF, RDFS
 from rdflib.plugins.sparql import prepareQuery
 
+from vidbpedia.kg.query import ensure_local
 from vidbpedia.vocab import PREFIXES, VIO, VIP
 
 PREFIX_BLOCK = "\n".join(f"PREFIX {p}: <{ns}>" for p, ns in PREFIXES.items())
@@ -56,7 +57,8 @@ Quy tắc:
   {{ SELECT DISTINCT ?x WHERE {{ ?x a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .
                                 FILTER(CONTAINS(LCASE(STR(?n)), "công phượng")) }} }}
   Giữ nguyên dấu tiếng Việt; dùng phần tên đặc trưng nhất. Dùng SELECT DISTINCT vì một thực thể có nhiều tên.
-- Khi hiển thị tên, lấy rdfs:label với FILTER(lang(?label) = "vi").
+- Khi hiển thị tên, SELECT cả biến thực thể lẫn nhãn (ví dụ ?p ?name): giao diện cần IRI để nối tới trang
+  tài nguyên và vẽ đồ thị bằng chứng. Nhãn lấy bằng rdfs:label với FILTER(lang(?label) = "vi").
 - Quá trình thi đấu: cầu thủ vio:careerStation ?st ; ?st a vio:ClubStation (hoặc vio:NationalTeamStation,
   vio:YouthStation) ; vio:team ?doi ; vio:startYear ; vio:endYear ; vio:appearances ; vio:goals.
   Lối tắt: ?cauthu vio:playedFor ?doi ; ?doi vio:hasPlayer ?cauthu (đã suy luận sẵn).
@@ -72,7 +74,7 @@ Quy tắc:
 
 Ví dụ:
 # Quá trình thi đấu ở câu lạc bộ của Công Phượng?
-SELECT DISTINCT ?team ?start ?end ?apps ?goals WHERE {{
+SELECT DISTINCT ?t ?team ?start ?end ?apps ?goals WHERE {{
   {{ SELECT DISTINCT ?p WHERE {{ ?p a vio:FootballPlayer ; rdfs:label|skos:altLabel ?n .
                                 FILTER(CONTAINS(LCASE(STR(?n)), "công phượng")) }} }}
   ?p vio:careerStation ?st . ?st a vio:ClubStation ; vio:team ?t .
@@ -82,19 +84,19 @@ SELECT DISTINCT ?team ?start ?end ?apps ?goals WHERE {{
 }} ORDER BY ?start LIMIT 50
 
 # (Nhiều bước) Câu lạc bộ nào có sân nhà ở Hà Nội? -> CLB → sân → tỉnh
-SELECT DISTINCT ?club ?stadium WHERE {{
+SELECT DISTINCT ?c ?club ?s ?stadium WHERE {{
   {{ SELECT DISTINCT ?p WHERE {{ ?p a vio:Province ; rdfs:label ?pl . FILTER(CONTAINS(LCASE(STR(?pl)), "hà nội")) }} }}
   ?s vio:province ?p ; rdfs:label ?stadium . ?c a vio:FootballClub ; vio:ground ?s ; rdfs:label ?club .
   FILTER(lang(?club) = "vi" && lang(?stadium) = "vi")
 }} LIMIT 50
 
 # (Tổng hợp) Tỉnh nào có nhiều cầu thủ quê quán nhất?
-SELECT ?province (COUNT(DISTINCT ?p) AS ?n) WHERE {{
+SELECT ?prov ?province (COUNT(DISTINCT ?p) AS ?n) WHERE {{
   ?p a vio:FootballPlayer ; vio:birthProvince ?prov . ?prov rdfs:label ?province . FILTER(lang(?province) = "vi")
-}} GROUP BY ?province ORDER BY DESC(?n) LIMIT 10
+}} GROUP BY ?prov ?province ORDER BY DESC(?n) LIMIT 10
 
 # (Nhiều bước) Cầu thủ sinh ở Nghệ An từng khoác áo đội tuyển quốc gia và hiện đá cho CLB nào?
-SELECT DISTINCT ?name ?club WHERE {{
+SELECT DISTINCT ?p ?name ?c ?club WHERE {{
   {{ SELECT DISTINCT ?prov WHERE {{ ?prov a vio:Province ; rdfs:label ?pl . FILTER(CONTAINS(LCASE(STR(?pl)), "nghệ an")) }} }}
   ?p vio:birthProvince ?prov ; a vio:NationalTeamPlayer ; rdfs:label ?name .
   OPTIONAL {{ ?p vio:currentClub ?c . ?c rdfs:label ?club . FILTER(lang(?club) = "vi") }}
@@ -105,7 +107,7 @@ SELECT DISTINCT ?name ?club WHERE {{
 SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE {{ ?p a vio:Province . FILTER NOT EXISTS {{ ?p a vio:FormerProvince }} }}
 
 # Đại học Cần Thơ thành lập năm nào và tương ứng với tài nguyên nào trên DBpedia?
-SELECT DISTINCT ?label ?year ?dbpedia ?abstract WHERE {{
+SELECT DISTINCT ?u ?label ?year ?dbpedia ?abstract WHERE {{
   {{ SELECT DISTINCT ?u WHERE {{ ?u a vio:University ; rdfs:label ?l . FILTER(CONTAINS(LCASE(STR(?l)), "đại học cần thơ")) }} }}
   ?u rdfs:label ?label . FILTER(lang(?label) = "vi")
   OPTIONAL {{ ?u vio:foundingYear ?year }} OPTIONAL {{ ?u dbo:abstract ?abstract }}
@@ -249,6 +251,7 @@ class SparqlBasedKGRAG:
         prepared = prepareQuery(full)
         if prepared.algebra.name not in ("SelectQuery", "AskQuery"):
             raise ValueError("Chỉ cho phép truy vấn SELECT hoặc ASK.")
+        ensure_local(prepared)  # LLM (hay prompt injection) không được làm máy chủ gửi request ra ngoài
         return full
 
     def get_explicit_sparql(self, question: str, feedback: str = "") -> str:

@@ -49,20 +49,21 @@ export interface Neighbors extends GraphData {
 }
 
 // ---- /api/overview ----
+// mọi số liệu lấy bằng `.get()` từ stats.json nên có thể thiếu (null)
 export interface Stats {
-  total: number;
-  asserted: number;
-  inferred: number;
-  ontology: number;
-  entities: number;
-  careerStations: number;
-  sameAsDbpedia: number;
-  sameAsWikidata: number;
-  validationErrors: number;
-  validationWarnings: number;
-  built: string;
-  reasoner: string;
-  reasoningSeconds: number;
+  total: number | null;
+  asserted: number | null;
+  inferred: number | null;
+  ontology: number | null;
+  entities: number | null;
+  careerStations: number | null;
+  sameAsDbpedia: number | null;
+  sameAsWikidata: number | null;
+  validationErrors: number | null;
+  validationWarnings: number | null;
+  built: string | null;
+  reasoner: string | null;
+  reasoningSeconds: number | null;
 }
 
 export interface ClassRow {
@@ -214,4 +215,53 @@ export interface MapData {
   points: MapPoint[];
   successions: Succession[];
   successionsTotal: number;
+}
+
+// ---- /api/ontology ----
+export interface OntologyProperty {
+  id: string;
+  term: string;
+  label: string;
+  labelEn: string;
+  kind: "object" | "datatype";
+  range: string | null;
+  domain: string | null;
+  subPropertyOf: string[];
+  functional: boolean;
+  inverseOf: string | null;
+  inferred: number;
+}
+
+export interface OntologyClass {
+  id: string;
+  term: string;
+  label: string;
+  labelEn: string;
+  parent: string | null;
+  dbo: string[];
+  depth: number;
+  asserted: number;
+  total: number;
+  properties: OntologyProperty[];
+}
+
+export interface OntologyAxioms {
+  chains: { property: string; chain: string[]; inferred: number }[];
+  inverses: { a: string; b: string; inferredA: number; inferredB: number }[];
+  restrictions: { kind: string; onClass: string; property: string; filler: string; text: string; inferred: number }[];
+  disjoint: string[][];
+}
+
+export interface Ontology {
+  stats: {
+    classes: number;
+    objectProperties: number;
+    datatypeProperties: number;
+    triples: number;
+    download: string;
+    namespace: string;
+  };
+  classes: OntologyClass[]; // tiền thứ tự (cha trước con), thụt lề theo `depth`
+  properties: OntologyProperty[];
+  axioms: OntologyAxioms;
 }

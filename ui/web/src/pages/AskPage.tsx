@@ -138,17 +138,34 @@ export function AskPage() {
   const waiting = asserted?.status === "loading";
   useEffect(() => {
     if (!waiting || !sparql) return;
+    let cancelled = false;
     let tries = 0;
-    const timer = window.setInterval(() => {
+    let timer: number | undefined;
+    const controller = new AbortController();
+    const tick = async () => {
       tries += 1;
-      postJson<AssertedInfo>("/api/ask/asserted", { sparql })
-        .then((a) => {
-          if (a.status !== "loading") setAsserted(a);
-        })
-        .catch(() => undefined);
-      if (tries >= POLL_MAX) window.clearInterval(timer);
-    }, POLL_MS);
-    return () => window.clearInterval(timer);
+      try {
+        const a = await postJson<AssertedInfo>("/api/ask/asserted", { sparql }, controller.signal);
+        if (cancelled) return; // câu hỏi đã đổi hoặc rời trang: bỏ phản hồi cũ
+        if (a.status !== "loading") {
+          setAsserted(a);
+          return;
+        }
+      } catch {
+        if (cancelled) return;
+      }
+      if (tries >= POLL_MAX) {
+        setAsserted({ rows: null, status: "error", error: "Quá thời gian chờ graph chỉ khai báo." });
+        return;
+      }
+      timer = window.setTimeout(tick, POLL_MS);
+    };
+    timer = window.setTimeout(tick, POLL_MS);
+    return () => {
+      cancelled = true;
+      controller.abort();
+      window.clearTimeout(timer);
+    };
   }, [waiting, sparql]);
 
   const submit = (question: string) => {

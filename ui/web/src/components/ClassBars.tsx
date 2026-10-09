@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { ClassRow } from "../api/types";
 import { formatNumber } from "../utils/format";
 
@@ -18,7 +19,9 @@ export function ClassBars({ rows, showInferred }: { rows: ClassRow[]; showInferr
         return (
           <li key={r.id} className={faded ? "faded" : ""} style={{ paddingLeft: (depth.get(r.id) ?? 0) * 18 }}>
             <div className="cb-name">
-              <strong>{r.label.replace(/ \(.*\)$/, "")}</strong> <code>{r.id}</code>
+              <Link className="cb-link" to={`/ontology#${r.id.replace(/^vio:/, "")}`} title="Xem định nghĩa lớp trong trang Ontology">
+                <strong>{r.label.replace(/ \(.*\)$/, "")}</strong> <code>{r.id}</code>
+              </Link>
               {r.dbo.length > 0 && <span className="cb-sub">⊑ {r.dbo.join(", ")}</span>}
             </div>
             <div className="cb-track" title={`${formatNumber(r.asserted)} khai báo · ${formatNumber(r.total - r.asserted)} suy luận`}>

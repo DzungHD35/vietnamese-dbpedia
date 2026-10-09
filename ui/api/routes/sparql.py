@@ -1,40 +1,33 @@
 """SPARQL: /api/sparql (cho giao diện), /api/sparql/examples và /sparql (endpoint chuẩn SPARQL 1.1 Protocol).
 
+Phần chạy truy vấn, chặn FROM/SERVICE và chọn định dạng kết quả dùng lại `vidbpedia.kg.query` và
+`vidbpedia.web.endpoint` của team, nên /sparql ở đây hành xử đúng như /sparql của máy chủ Gradio:
+chỉ truy vấn đọc, không gửi request ra ngoài, `?format=` kiểu DBpedia hoặc header Accept.
+
 rdflib không có timeout cho truy vấn: truy vấn nặng (nhiều biến tự do, không LIMIT) có thể chạy rất lâu.
 """
 
 import os
 import time
-from urllib.parse import parse_qs, unquote
+from urllib.parse import unquote
 
 from fastapi import APIRouter, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 from rdflib import Graph, URIRef
-from rdflib.query import Result
 
 from ui.api.links import build_links
 from ui.api.paths import WEB_INDEX
 from ui.api.state import kg
-from vidbpedia.vocab import PREFIXES
+from vidbpedia.kg.query import QueryError, execute, run
+from vidbpedia.web.endpoint import MIME_FORMATS, USAGE, preferred_formats, read_query
 from vidbpedia.web.examples import EXAMPLE_QUERIES
 
 router = APIRouter()
 
 MAX_ROWS = 1000
 CORS = {"Access-Control-Allow-Origin": "*"}
-# Accept → (định dạng của rdflib, Content-Type); thứ tự là thứ tự ưu tiên khi Accept không nói rõ
-TABLE_FORMATS = {
-    "application/sparql-results+json": "json",
-    "application/sparql-results+xml": "xml",
-    "text/csv": "csv",
-}
-GRAPH_FORMATS = {
-    "text/turtle": "turtle",
-    "application/rdf+xml": "xml",
-    "application/n-triples": "nt",
-}
 
 
 class SparqlBody(BaseModel):
@@ -68,7 +61,7 @@ def _run(query: str, inference: bool) -> dict:
         return {**out, "error": error}
     start = time.perf_counter()
     try:
-        result = graph.query(query, initNs=PREFIXES)
+        result = run(graph, query, allow_remote=False)
         if result.type == "ASK":
             columns, rows = ["answer"], [{"answer": str(bool(result.askAnswer)).lower()}]
         elif result.type in ("CONSTRUCT", "DESCRIBE"):
@@ -77,7 +70,7 @@ def _run(query: str, inference: bool) -> dict:
         else:
             columns = [str(v) for v in result.vars]
             rows = [{c: _cell(row[i]) for i, c in enumerate(columns)} for row in result]
-    except Exception as e:  # lỗi cú pháp hoặc lỗi khi thực thi: báo cho người dùng chứ không trả 500
+    except QueryError as e:  # sai cú pháp, FROM/SERVICE, hoặc lỗi khi chạy: báo cho người dùng, không trả 500
         return {**out, "error": str(e), "ms": round((time.perf_counter() - start) * 1000)}
     ms = round((time.perf_counter() - start) * 1000)
     shown = rows[:MAX_ROWS]
@@ -102,50 +95,15 @@ def sparql_ui(body: SparqlBody):
     return _run(body.query, body.inference)
 
 
-def _negotiate(accept: str, formats: dict[str, str]) -> tuple[str, str] | None:
-    """Chọn (Content-Type, định dạng rdflib) theo Accept; không nói rõ thì lấy định dạng đầu tiên."""
-    wanted = []
-    for part in accept.split(","):
-        mime, *params = (x.strip() for x in part.split(";"))
-        q = next(
-            (float(p[2:]) for p in params if p.startswith("q=") and p[2:].replace(".", "").isdigit()), 1.0
-        )
-        wanted.append((q, mime.lower()))
-    first = next(iter(formats))
-    for _, mime in sorted(wanted, key=lambda w: -w[0]):
-        if mime in formats:
-            return mime, formats[mime]
-        if mime in ("*/*", ""):
-            return first, formats[first]
-    return None
-
-
-async def _read_query(request: Request) -> str | None:
-    if request.method == "GET":
-        return request.query_params.get("query")
-    body = (await request.body()).decode("utf-8")
-    ctype = request.headers.get("content-type", "").split(";")[0].strip().lower()
-    if ctype == "application/sparql-query":
-        return body
-    return (parse_qs(body).get("query") or [None])[0]
-
-
-def _answer(query: str, accept: str, inference: bool) -> Response:
+def _answer(query: str, formats: list[str], inference: bool) -> Response:
     graph, error = _graph(inference)
     if graph is None:
-        return Response(error, status_code=503, media_type="text/plain", headers=CORS)
+        return Response(error, status_code=503, media_type="text/plain; charset=utf-8", headers=CORS)
     try:
-        result: Result = graph.query(query, initNs=PREFIXES)
-        is_graph = result.type in ("CONSTRUCT", "DESCRIBE")
-        chosen = _negotiate(accept, GRAPH_FORMATS if is_graph else TABLE_FORMATS)
-        if chosen is None:
-            offered = ", ".join(GRAPH_FORMATS if is_graph else TABLE_FORMATS)
-            return Response(f"Chỉ hỗ trợ: {offered}", status_code=406, headers=CORS)
-        mime, fmt = chosen
-        payload = result.serialize(format=fmt)
-    except Exception as e:
-        return Response(f"Lỗi truy vấn: {e}", status_code=400, media_type="text/plain", headers=CORS)
-    return Response(payload, media_type=mime, headers=CORS)
+        body, mime = execute(graph, query, formats, allow_remote=False)
+    except QueryError as e:
+        return Response(str(e), status_code=400, media_type="text/plain; charset=utf-8", headers=CORS)
+    return Response(body, media_type=f"{mime}; charset=utf-8", headers={**CORS, "Vary": "Accept"})
 
 
 @router.api_route("/sparql", methods=["GET", "POST", "OPTIONS"], include_in_schema=False)
@@ -164,8 +122,14 @@ async def sparql_endpoint(request: Request):
     accept = request.headers.get("accept", "")
     if request.method == "GET" and "text/html" in accept and os.path.exists(WEB_INDEX):
         return FileResponse(WEB_INDEX)  # trình duyệt mở /sparql?query=… thì thấy trang SPARQL của UI
-    query = await _read_query(request)
+    query = await read_query(request)
     if not query or not query.strip():
-        return Response("Thiếu tham số query.", status_code=400, media_type="text/plain", headers=CORS)
+        return Response(USAGE, status_code=400, media_type="text/plain; charset=utf-8", headers=CORS)
+    formats = preferred_formats(request)
+    explicit = accept.strip() and "*/*" not in accept and not request.query_params.get("format")
+    if not formats and explicit:
+        offered = ", ".join(sorted(MIME_FORMATS))
+        return Response(f"Chỉ hỗ trợ: {offered}", status_code=406, media_type="text/plain", headers=CORS)
     inference = request.query_params.get("inference", "true").lower() != "false"
-    return await run_in_threadpool(_answer, query, accept, inference)
+    # rdflib chạy đồng bộ và tốn CPU: đưa sang thread để không chặn các request khác
+    return await run_in_threadpool(_answer, query, formats, inference)

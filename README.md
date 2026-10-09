@@ -96,11 +96,23 @@ Docker: `docker compose up --build` (cổng 7860; Virtuoso tuỳ chọn ở cổ
 | **SPARQL** | Soạn và chạy truy vấn SPARQL 1.1, có 9 truy vấn mẫu, xuất bảng / JSON / CSV |
 
 Mỗi URI `vres:` dereference được trên máy chủ: trình duyệt được chuyển tới tab Tài nguyên, còn client RDF nhận Turtle,
-N-Triples, JSON-LD hoặc RDF/XML theo header `Accept`.
+N-Triples, JSON-LD hoặc RDF/XML theo header `Accept`. Thuật ngữ `vio:` cũng dereference được: `/ontology/{thuật ngữ}`
+trả định nghĩa Turtle đầy đủ (kể cả restriction, chuỗi thuộc tính, nhóm rời nhau), `/ontology.ttl` trả cả ontology.
 
 ```bash
 curl -L -H "Accept: text/turtle" http://127.0.0.1:7860/resource/Nguyễn_Công_Phượng
+curl http://127.0.0.1:7860/ontology/playedFor        # owl:propertyChainAxiom ( vio:careerStation vio:team )
+curl -O http://127.0.0.1:7860/ontology.ttl
 ```
+
+### Giao diện trình bày (`ui/`)
+
+Ngoài Gradio, thư mục [`ui/`](ui/README.md) có giao diện React + API JSON mỏng chạy trên cùng dataset, dùng khi
+thuyết trình: `python -m ui.api` (cổng 8000, cần build frontend một lần, Node ≥ 20.19). Các trang: **Tổng quan**
+(quy mô, cây lớp, suy luận thêm được gì), **Ontology** (18 lớp, 54 thuộc tính, tiên đề OWL và số triple mỗi tiên đề
+sinh ra, liên kết tới `/ontology/…`), **Thực thể** (timeline sự nghiệp, đồ thị mở rộng được, khối Linked Data với
+IRI, `owl:sameAs`, tải RDF bốn định dạng), **Hỏi đáp có bằng chứng**, **SPARQL** (công tắc có/không suy luận) và
+**Bản đồ** sáp nhập tỉnh. Mọi route Linked Data và `/sparql` của team được gắn nguyên vẹn vào máy chủ này.
 
 ## SPARQL endpoint và terminal
 
