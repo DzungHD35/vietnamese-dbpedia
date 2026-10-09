@@ -339,3 +339,29 @@ export interface ResourceTree {
   classes: TreeClass[]; // tiền thứ tự (cha trước con); khi lọc chỉ gồm lớp có kết quả hoặc có lớp con có kết quả
   groups: TreeGroup[];
 }
+
+// ---- /api/entity/{id}/graph: bố cục đồ thị lân cận (dùng chung với SVG của Gradio) ----
+export interface GraphLayoutNode {
+  id: string;
+  iri: string;
+  href: string | null;
+  external: boolean;
+  kind: string;
+  title: string;
+  side: 1 | -1;
+  y: number;
+  direction: "out" | "in" | "lod";
+  label: string;
+  props: string[];
+  inferred: boolean;
+}
+
+export interface GraphLayout {
+  width: number;
+  height: number;
+  cx: number;
+  cy: number;
+  center: string;
+  hidden: number;
+  nodes: GraphLayoutNode[];
+}

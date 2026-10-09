@@ -59,6 +59,11 @@ def graph_svg(view, iri, inferred=True):
     return view._graph_svg(iri, inferred=inferred)
 
 
+def graph_layout(view, iri, inferred=True):
+    """Bố cục đồ thị lân cận dùng chung với SVG của Gradio (dict thuần, hoặc None nếu không có liên kết)."""
+    return view._graph_layout(iri, inferred=inferred)
+
+
 def station_note(view, station):
     """Ghi chú của một chặng thi đấu: "2015–2023, 103 trận, 36 bàn, cho mượn"."""
     return view._station_note(station)

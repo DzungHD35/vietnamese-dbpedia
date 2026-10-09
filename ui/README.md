@@ -65,6 +65,7 @@ Tài liệu OpenAPI: `/api/docs`.
 | `GET /api/entity/{id}` | dữ liệu màn Thực thể |
 | `GET /api/neighbors/{id}` | lân cận một bước (đồ thị) |
 | `GET /api/entity/{id}/tree` | tab Cây quan hệ: cây lồng nhau tối đa 3 bước (gốc → đội → sân → tỉnh), chỉ triple khai báo (trừ `vio:playedFor`), chặng thi đấu thay bằng đội kèm ghi chú năm/trận/bàn; cùng giới hạn với trang của team |
+| `GET /api/entity/{id}/graph?inferred=` | đồ thị lân cận: bố cục của trang tài nguyên Gradio (`ResourceView._graph_layout`, dùng cho đồ thị kéo thả, tên quan hệ ghi giữa mũi tên) và chính SVG tĩnh của trang đó; `inferred=false` chỉ vẽ quan hệ khai báo |
 | `GET /api/subgraph?ids=a&ids=b` | cạnh giữa một tập thực thể; **lặp tham số `ids`**, không dùng dấu phẩy vì id có thể chứa `,` |
 | `POST /api/ask`, `/api/ask/answer`, `/api/ask/asserted` | hỏi đáp (xem trên) |
 | `GET /api/sparql/examples`, `POST /api/sparql` | SPARQL cho giao diện (`inference: false` chạy trên triple khai báo) |

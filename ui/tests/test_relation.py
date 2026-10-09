@@ -51,3 +51,25 @@ def test_static_graph_matches_gradio(client):
     asserted = client.get("/api/entity/Nguyễn_Công_Phượng/graph", params={"inferred": "false"}).json()["html"]
     assert "rv-edge-inf" not in asserted and "playedFor" not in asserted and "birthProvince" in asserted
     assert client.get("/api/entity/Không_có/graph").status_code == 404
+
+
+def test_graph_layout_for_draggable_view(client):
+    lay = client.get("/api/entity/Nguyễn_Công_Phượng/graph").json()["layout"]
+    assert lay["width"] == 960 and lay["center"] == "Nguyễn Công Phượng"
+    by_label = {}
+    for n in lay["nodes"]:
+        by_label.setdefault(n["label"], []).append(n)
+    played = by_label["playedFor"]
+    assert played and all(n["inferred"] and n["direction"] in ("out", "in") for n in played)
+    lod = [n for n in lay["nodes"] if n["external"]]
+    assert {n["label"] for n in lod} >= {"owl:sameAs", "foaf:isPrimaryTopicOf"} and all(
+        n["href"] for n in lod
+    )
+    prov = next(n for n in lay["nodes"] if n["id"] == "Nghệ_An")
+    assert prov["label"] == "birthProvince, birthPlace" and not prov["external"]
+    asserted = client.get("/api/entity/Nguyễn_Công_Phượng/graph", params={"inferred": "false"}).json()[
+        "layout"
+    ]
+    assert all(not n["inferred"] for n in asserted["nodes"]) and "playedFor" not in {
+        n["label"] for n in asserted["nodes"]
+    }

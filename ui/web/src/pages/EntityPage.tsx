@@ -7,7 +7,7 @@ import { EntityLink } from "../components/EntityLink";
 import { InferredBadge } from "../components/InferredBadge";
 import { IriTip } from "../components/IriTip";
 import { LinkedDataCard } from "../components/LinkedDataCard";
-import { StaticGraph } from "../components/StaticGraph";
+import { DraggableGraph } from "../components/DraggableGraph";
 import { ErrorState, Loading } from "../components/States";
 import { Chevron, LeafMark, rowToggle } from "../components/TreeChevron";
 import { useInference } from "../context/InferenceContext";
@@ -79,7 +79,16 @@ function EntityView({ id }: { id: string }) {
     <div className="entity">
       <header className="ent-head">
         {e.thumbnail && (
-          <img className="ent-thumb" src={e.thumbnail} alt="" referrerPolicy="no-referrer" onError={(ev) => (ev.currentTarget.style.display = "none")} />
+          <figure className="ent-thumbfig" title={e.thumbnail}>
+            <img
+              className="ent-thumb"
+              src={e.thumbnail}
+              alt={node.label}
+              referrerPolicy="no-referrer"
+              onError={(ev) => ((ev.currentTarget.parentElement as HTMLElement).style.display = "none")}
+            />
+            <figcaption>dbo:thumbnail</figcaption>
+          </figure>
         )}
         <div className="ent-main">
           <div className="ent-title">
@@ -180,10 +189,10 @@ function EntityView({ id }: { id: string }) {
         <section className="card ent-graph">
           <h2>Đồ thị lân cận</h2>
           <p className="muted small ent-note">
-            Mũi tên → là quan hệ đi ra, ← là quan hệ đi vào; nét đứt là quan hệ có được nhờ suy luận. Nút viền đứt là
-            liên kết LOD ra ngoài. Bấm vào một nút để mở trang của nút đó.
+            Mũi tên trỏ theo hướng của triple, tên quan hệ ghi giữa mũi tên; nét đứt là quan hệ có được nhờ suy luận.
+            Nút viền đứt là liên kết LOD ra ngoài.
           </p>
-          <StaticGraph id={id} showInferred={showInferred} />
+          <DraggableGraph id={id} showInferred={showInferred} />
         </section>
       </div>
 

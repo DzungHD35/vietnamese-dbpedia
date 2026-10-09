@@ -64,11 +64,42 @@ def _groups(view, groups, depth, path, budget) -> list[dict]:
     return out
 
 
+def _layout_json(view, lay) -> dict | None:
+    """Bố cục của Gradio → JSON cho đồ thị kéo thả: vị trí ban đầu, nhãn quan hệ để ghi giữa mũi tên."""
+    if lay is None:
+        return None
+    nodes = []
+    for n in lay["nodes"]:
+        external = n["direction"] == "lod"
+        nodes.append(
+            {
+                "id": serialize.node_id(view, n["node"]),
+                "iri": str(n["node"]),
+                "href": n["href"] if external else None,
+                "external": external,
+                "kind": n["kind"],
+                "title": n["title"],
+                "side": n["side"],
+                "y": n["y"],
+                "direction": n["direction"],
+                "label": n["rel"][2:],  # bỏ "→ " / "← ": hướng đã thể hiện bằng mũi tên
+                "props": [view.qname(p) for p in n["props"]],
+                "inferred": n["inferred"],
+            }
+        )
+    keys = ("width", "height", "cx", "cy", "center", "hidden")
+    return {**{k: lay[k] for k in keys}, "nodes": nodes}
+
+
 @router.get("/entity/{name:path}/graph")
 def neighbour_graph(name: str, inferred: bool = True):
-    """Đồ thị lân cận dạng SVG tĩnh của trang tài nguyên Gradio (cùng hàm, cùng bố cục hai phía)."""
+    """Đồ thị lân cận: bố cục của trang tài nguyên Gradio (JSON) và chính SVG tĩnh của trang đó."""
     iri = resolve_or_404(name)
-    return {"html": adapters.graph_svg(kg.view, iri, inferred=inferred)}
+    view = kg.view
+    return {
+        "layout": _layout_json(view, adapters.graph_layout(view, iri, inferred=inferred)),
+        "html": adapters.graph_svg(view, iri, inferred=inferred),
+    }
 
 
 @router.get("/entity/{name:path}/tree")

@@ -1921,3 +1921,64 @@ code.term-ref {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---- Đồ thị lân cận kéo thả: bố cục Gradio, tên quan hệ giữa mũi tên ---- */
+.dgraph-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.dgraph-bar .btn {
+  padding: 3px 10px;
+  font-size: 12.5px;
+}
+.dgraph svg {
+  user-select: none;
+}
+.dgraph .dg-node {
+  cursor: grab;
+  touch-action: none;
+}
+.dgraph .dg-node:active {
+  cursor: grabbing;
+}
+.dgraph .dg-node:focus-visible rect {
+  stroke: var(--accent);
+  stroke-width: 2.4;
+}
+.dgraph #dg-arr path {
+  fill: #8fa39c;
+}
+.dgraph #dg-arr-inf path {
+  fill: var(--inferred);
+}
+.dgraph .dg-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  fill: #5b6b66;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+}
+.dgraph .dg-label.inf {
+  fill: var(--inferred);
+}
+
+/* ảnh đại diện kèm chú thích dbo:thumbnail, như trang tài nguyên Gradio */
+.ent-thumbfig {
+  margin: 0;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.ent-thumbfig figcaption {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  white-space: nowrap;
+}
